@@ -1,0 +1,64 @@
+2025-03-04 20:08:05,893 - INFO - Starting JSON file combination process...
+2025-03-04 20:08:05,896 - INFO - Found 9 files matching pattern: */data/*events*.json
+2025-03-04 20:08:05,906 - INFO - Loaded 476 events from academic\data\events.json
+2025-03-04 20:08:05,944 - INFO - Loaded 1118 events from exercise\data\events.json
+2025-03-04 20:08:05,972 - INFO - Loaded 105 events from tech\data\events.json
+2025-03-04 20:08:05,976 - INFO - Loaded 0 events from tech\data\fabrik_events.json
+2025-03-04 20:08:05,979 - INFO - Loaded 99 events from tech\data\gary_events.json
+2025-03-04 20:08:05,985 - INFO - Loaded 80 events from tech\data\index_space_events.json
+2025-03-04 20:08:05,989 - INFO - Loaded 8 events from tech\data\interference_events.json
+2025-03-04 20:08:05,989 - INFO - Loaded 0 events from tech\data\loc_fabrik_events.json
+2025-03-04 20:08:05,992 - INFO - Loaded 17 events from tech\data\pioneer_works_events.json
+2025-03-04 20:08:05,992 - ERROR - Error saving data to combined_events.json: [WinError 3] The system cannot find the path specified: ''
+2025-03-04 20:08:05,992 - INFO - Combined 1903 events from 9 files
+2025-03-04 20:08:05,994 - ERROR - Error saving data to combined_locations.json: [WinError 3] The system cannot find the path specified: ''
+2025-03-04 20:08:05,994 - INFO - Extracted 1 locations from events
+2025-03-04 20:08:05,994 - ERROR - Error saving data to combined_communities.json: [WinError 3] The system cannot find the path specified: ''
+2025-03-04 20:08:05,994 - INFO - Extracted 2 communities from events
+2025-03-04 20:08:05,995 - INFO - JSON file combination process completed successfully
+2025-03-04 20:56:32,922 - INFO - Starting JSON file combination process...
+2025-03-04 20:56:32,922 - INFO - Found 3 files matching pattern: */data/events.json
+2025-03-04 20:56:32,940 - INFO - Loaded 476 events from academic\data\events.json
+2025-03-04 20:56:32,973 - INFO - Loaded 1118 events from exercise\data\events.json
+2025-03-04 20:56:32,995 - INFO - Loaded 105 events from tech\data\events.json
+2025-03-04 20:56:33,076 - INFO - Saved data to combined\combined_events.json
+2025-03-04 20:56:33,076 - INFO - Combined 1699 events from 3 files
+2025-03-04 20:56:33,077 - INFO - Found 3 files matching pattern: */data/locations.json
+2025-03-04 20:56:33,078 - INFO - Loaded 11 locations from academic\data\locations.json
+2025-03-04 20:56:33,078 - INFO - Loaded 2 locations from exercise\data\locations.json
+2025-03-04 20:56:33,078 - INFO - Loaded 8 locations from tech\data\locations.json
+2025-03-04 20:56:33,079 - INFO - Combined 21 locations from location files
+2025-03-04 20:56:33,079 - INFO - Found 3 files matching pattern: */data/communities.json
+2025-03-04 20:56:33,080 - INFO - Loaded 7 communities from academic\data\communities.json
+2025-03-04 20:56:33,080 - INFO - Loaded 7 communities from exercise\data\communities.json
+2025-03-04 20:56:33,080 - INFO - Loaded 26 communities from tech\data\communities.json
+2025-03-04 20:56:33,080 - INFO - Combined 40 communities from community files
+2025-03-04 20:56:33,084 - INFO - Saved data to combined\combined_locations.json
+2025-03-04 20:56:33,084 - INFO - Saved 22 locations to combined\combined_locations.json
+2025-03-04 20:56:33,087 - INFO - Saved data to combined\combined_communities.json
+2025-03-04 20:56:33,087 - INFO - Saved 42 communities to combined\combined_communities.json
+2025-03-04 20:56:33,087 - INFO - JSON file combination process completed successfully
+2025-03-04 21:12:47,750 - INFO - Starting JSON file combination process...
+2025-03-04 21:12:47,751 - INFO - Found 3 files matching pattern: */data/events.json
+2025-03-04 21:12:47,766 - INFO - Loaded 476 events from academic\data\events.json
+2025-03-04 21:12:47,806 - INFO - Loaded 1118 events from exercise\data\events.json
+2025-03-04 21:12:47,840 - INFO - Loaded 105 events from tech\data\events.json
+2025-03-04 21:12:47,850 - INFO - Saved data to combined\combined_metadata.json
+2025-03-04 21:12:47,850 - INFO - Saved category metadata with 303 unique categories to combined\combined_metadata.json
+2025-03-04 21:12:47,961 - INFO - Saved data to combined\combined_events.json
+2025-03-04 21:12:47,961 - INFO - Combined 1699 events from 3 files
+2025-03-04 21:12:47,962 - INFO - Found 3 files matching pattern: */data/locations.json
+2025-03-04 21:12:47,962 - INFO - Loaded 11 locations from academic\data\locations.json
+2025-03-04 21:12:47,962 - INFO - Loaded 2 locations from exercise\data\locations.json
+2025-03-04 21:12:47,964 - INFO - Loaded 8 locations from tech\data\locations.json
+2025-03-04 21:12:47,964 - INFO - Combined 21 locations from location files
+2025-03-04 21:12:47,965 - INFO - Found 3 files matching pattern: */data/communities.json
+2025-03-04 21:12:47,965 - INFO - Loaded 7 communities from academic\data\communities.json
+2025-03-04 21:12:47,966 - INFO - Loaded 7 communities from exercise\data\communities.json
+2025-03-04 21:12:47,966 - INFO - Loaded 26 communities from tech\data\communities.json
+2025-03-04 21:12:47,966 - INFO - Combined 40 communities from community files
+2025-03-04 21:12:47,969 - INFO - Saved data to combined\combined_locations.json
+2025-03-04 21:12:47,969 - INFO - Saved 22 locations to combined\combined_locations.json
+2025-03-04 21:12:47,971 - INFO - Saved data to combined\combined_communities.json
+2025-03-04 21:12:47,971 - INFO - Saved 42 communities to combined\combined_communities.json
+2025-03-04 21:12:47,971 - INFO - JSON file combination process completed successfully

@@ -1,0 +1,85 @@
+{
+    "locations": [
+        {
+            "id": "loc_nypl_spuyten",
+            "name": "NYPL - Spuyten Duyvil",
+            "type": "Library",
+            "address": "650 West 235th Street",
+            "city": "Bronx",
+            "state": "NY",
+            "coordinates": {
+                "lat": 40.88624191284200000,
+                "lng": -73.91463470459000000
+            },
+            "description": "A New York Public Library branch in the Bronx offering community programs and events.",
+            "amenities": [
+                "Event Space",
+                "Study Areas",
+                "WiFi",
+                "Public Computers",
+                "Meeting Rooms"
+            ],
+            "capacity": "Medium",
+            "accessibility": true,
+            "website": "https://www.nypl.org/locations/spuyten-duyvil",
+            "images": [
+                "nypl-spuyten.jpg"
+            ],
+            "hours": {
+                "monday": "10:00 AM - 6:00 PM",
+                "tuesday": "10:00 AM - 6:00 PM",
+                "wednesday": "10:00 AM - 6:00 PM",
+                "thursday": "10:00 AM - 6:00 PM",
+                "friday": "10:00 AM - 5:00 PM",
+                "saturday": "10:00 AM - 5:00 PM",
+                "sunday": "Closed"
+            },
+            "eventTypes": [
+                "Fitness",
+                "Education",
+                "Community"
+            ]
+        },
+        {
+            "id": "loc_kimmel",
+            "name": "NYU Kimmel Center",
+            "type": "Academic",
+            "address": "60 Washington Square South",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10012",
+            "coordinates": {
+                "lat": 40.7295,
+                "lng": -73.9973
+            },
+            "description": "NYU's student center and event space overlooking Washington Square Park.",
+            "amenities": [
+                "Event Spaces",
+                "Study Areas",
+                "Cafeteria",
+                "WiFi",
+                "Student Lounges"
+            ],
+            "capacity": "Large",
+            "accessibility": true,
+            "website": "https://www.nyu.edu/life/campus-resources/kimmel-center.html",
+            "images": [
+                "nyu-kimmel.jpg"
+            ],
+            "hours": {
+                "monday": "7:00 AM - 11:00 PM",
+                "tuesday": "7:00 AM - 11:00 PM",
+                "wednesday": "7:00 AM - 11:00 PM",
+                "thursday": "7:00 AM - 11:00 PM",
+                "friday": "7:00 AM - 11:00 PM",
+                "saturday": "9:00 AM - 11:00 PM",
+                "sunday": "9:00 AM - 11:00 PM"
+            },
+            "eventTypes": [
+                "Academic",
+                "Social",
+                "Cultural"
+            ]
+        }
+    ]
+} 

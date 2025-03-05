@@ -1,0 +1,631 @@
+{
+  "events": [
+    {
+      "id": "evt_simons_79c0380d",
+      "name": "Biophysical Modeling Group Meeting",
+      "type": "Meeting",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-04-01T10:00:00",
+      "end_date": "2025-04-01T12:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/biophysical-modeling-group-meeting-72-261-743-884-234/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Meeting",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_79c0380d",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_bee34f20",
+      "name": "Structural & Molecular Biophysics Group Meeting",
+      "type": "Meeting",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-04-01T14:00:00",
+      "end_date": "2025-04-01T15:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/structural-molecular-biophysics-group-meeting-25-494-979-102-187/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Meeting",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_bee34f20",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_7767cb48",
+      "name": "Genomics Group Meeting",
+      "type": "Meeting",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-04-02T13:30:00",
+      "end_date": "2025-04-02T15:30:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/genomics-group-meeting-90-701-326-198-492-838/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Meeting",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_7767cb48",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_9bb10fae",
+      "name": "3rd LoG-NYC Meetup on Learning Meets Geometry, Graphs, and Networks",
+      "type": "Workshop",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-04-21T00:00:00",
+      "end_date": "2025-04-22T23:59:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/3rd-log-nyc-meetup-on-learning-meets-geometry-graphs-and-networks/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Ingrid Daubechies Auditorium (IDA)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Workshop",
+          "all_day": true
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_9bb10fae",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_9a67b94b",
+      "name": "CCB Seminar: William Jacobs, Ph.D.",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-04-24T11:00:00",
+      "end_date": "2025-04-24T12:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/ccb-seminar-william-jacobs-ph-d/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Seminar",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_9a67b94b",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_316552bb",
+      "name": "B-BFE Meeting (Spring 2025)",
+      "type": "Meeting",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-04-28T09:00:00",
+      "end_date": "2025-05-02T17:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/b-bfe-meeting-spring-2025/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Meeting",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_316552bb",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_f7816f47",
+      "name": "ML@FI Seminar Series",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-05-01T15:00:00",
+      "end_date": "2025-05-01T16:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/machine-learning-at-the-flatiron-institute-talks-2/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Seminar",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_f7816f47",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_93e0f343",
+      "name": "CCA Colloquium: Stella Offner",
+      "type": "Seminar",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-05-02T15:00:00",
+      "end_date": "2025-05-02T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/stellaoffner/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Computational Astrophysics",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_93e0f343",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_bbca5130",
+      "name": "CCA Colloquium: Nadejda Blagorodnova Mujortova",
+      "type": "Seminar",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-05-16T15:00:00",
+      "end_date": "2025-05-16T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/nadejdablagorodnovamujortova/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Computational Astrophysics",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_bbca5130",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_111b9281",
+      "name": "Stable Mass Transfer 2.0 Workshop",
+      "type": "Workshop",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-05-27T09:00:00",
+      "end_date": "2025-05-30T17:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/stable-mass-transfer-2-0-workshop/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Workshop",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_111b9281",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_2dc17efa",
+      "name": "CCB Colloquium: John Toner, Ph.D.",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-05-29T11:00:00",
+      "end_date": "2025-05-29T11:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/ccb-colloquium-john-toner-ph-d/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_2dc17efa",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_03e05042",
+      "name": "CCA Colloquium: Hannah Diamond-Lowe",
+      "type": "Seminar",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-05-30T15:00:00",
+      "end_date": "2025-05-30T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/hannahdiamond-lowe/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Computational Astrophysics",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_03e05042",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_f7816f47",
+      "name": "ML@FI Seminar Series",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-06-01T15:00:00",
+      "end_date": "2025-06-01T16:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/machine-learning-at-the-flatiron-institute-talks-2/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Seminar",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_f7816f47",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_4725d876",
+      "name": "CCA Colloquium: Sarah Wellons",
+      "type": "Seminar",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-06-06T15:00:00",
+      "end_date": "2025-06-06T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/sarahwellons/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Computational Astrophysics",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_4725d876",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_035a8147",
+      "name": "CCN Statistical Analysis of Neural Data Workshop",
+      "type": "Workshop",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-06-11T17:00:00",
+      "end_date": "2025-06-13T17:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/ccn-statistical-analysis-of-neural-data-workshop/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Gerald D. Fischbach Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Workshop",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_035a8147",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_8909d433",
+      "name": "CCA Colloquium: Eric Agol",
+      "type": "Seminar",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-06-20T15:00:00",
+      "end_date": "2025-06-20T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/ericagol/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Computational Astrophysics",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_8909d433",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_a7ff4456",
+      "name": "CCA Colloquium: Tracy Slatyer",
+      "type": "Seminar",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-06-27T15:00:00",
+      "end_date": "2025-06-27T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/tracyslatyer/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Computational Astrophysics",
+          "event_type": "Colloquium",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_a7ff4456",
+      "locationId": "loc_simons_main",
+      "communityId": "com_simons"
+    },
+    {
+      "id": "evt_simons_f7816f47",
+      "name": "ML@FI Seminar Series",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_simons",
+      "description": "",
+      "start_date": "2025-07-01T15:00:00",
+      "end_date": "2025-07-01T16:00:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/machine-learning-at-the-flatiron-institute-talks-2/",
+        "source_name": "Simons Foundation",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Flatiron Institute",
+          "event_type": "Seminar",
+          "all_day": false
+        }
+      },
+      "source": "simons",
+      "event_id": "evt_simons_f7816f47",
+      "locationId": "loc_virtual",
+      "communityId": "com_simons"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "fabrik_events": {
+    "total": 0,
+    "categorized": 0,
+    "categories": {}
+  },
+  "garys_guide_events": {
+    "total": 0,
+    "categorized": 0,
+    "categories": {}
+  },
+  "index_space_events": {
+    "total": 80,
+    "categorized": 0,
+    "categories": {}
+  },
+  "interference_events": {
+    "total": 8,
+    "categorized": 0,
+    "categories": {}
+  },
+  "pioneer_works_events": {
+    "total": 17,
+    "categorized": 104,
+    "categories": {
+      "networking_social": 98,
+      "workshops_training": 85,
+      "hackathons_competitions": 41,
+      "tech_innovation": 6,
+      "coworking_workspace": 44,
+      "tech_talks": 26,
+      "startup_entrepreneurship": 10
+    }
+  }
+}

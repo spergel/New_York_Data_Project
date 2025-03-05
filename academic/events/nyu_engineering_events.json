@@ -1,0 +1,963 @@
+{
+  "events": [
+    {
+      "id": "evt_nyu_eng_7077af23",
+      "name": "Towards Generalizable Safety for Robot Autonomy: Integrating Model-Based Analysis with Data-Driven Approaches",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-05T11:00:00",
+      "end_date": "2025-03-05T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/05/towards-generalizable-safety-robot-autonomy-integrating-model-based-analysis-data",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_7077af23",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_516e015f",
+      "name": "NYU Tandon Emerging Technologies MS Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-05T14:00:00",
+      "end_date": "2025-03-05T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/05/nyu-tandon-emerging-technologies-ms-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-02/NYO-23-8822_EmergingTech_0.jpg?h=d08f423e&itok=JvPxkxCX"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_516e015f",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_d568be8f",
+      "name": "Forensic Financial Technology and Regulatory Systems",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-05T14:00:00",
+      "end_date": "2025-03-05T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/05/forensic-financial-technology-and-regulatory-systems",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_d568be8f",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_70814521",
+      "name": "Deep Learning for Inverse Problems: Theoretical Perspectives, Algorithms, and Applications",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-05T14:00:00",
+      "end_date": "2025-03-05T15:00:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/05/deep-learning-inverse-problems-theoretical-perspectives-algorithms-and",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_70814521",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_156906ae",
+      "name": "Columbia & NYU Financial Engineering Colloquium: Agostino Capponi, Rama Cont, & Xin Guo",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-05T16:00:00",
+      "end_date": "2025-03-05T17:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/05/columbia-nyu-financial-engineering-colloquium-agostino-capponi-rama-cont-xin-guo",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-12/columbia-fre-logo-final.png?h=d08f423e&itok=mPwWONY2"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_156906ae",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_9cab41bb",
+      "name": "Layering Quantum Innovation: From van der Waals  Materials to Quantum Technology",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-06T14:00:00",
+      "end_date": "2025-03-06T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/06/layering-quantum-innovation-van-der-waals-materials-quantum-technology",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-02/Capture_3.PNG?h=52259b33&itok=t5k5Foj1"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_9cab41bb",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_a1a94b5f",
+      "name": "NYU Stern SABAS Conference 2025",
+      "type": "Conference",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-07T10:00:00",
+      "end_date": "2025-03-07T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/07/nyu-stern-sabas-conference-2025",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Conference / Symposium",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_a1a94b5f",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_2260b554",
+      "name": "CO2 Capture with Molten Carbonate Fuel Cells",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-07T10:45:00",
+      "end_date": "2025-03-07T11:45:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/07/co2-capture-molten-carbonate-fuel-cells",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-02/Barckholtz%2C%20Tim%20-%20Headshot.jpg?h=e6a3d4f5&itok=kpxDI2EC"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_2260b554",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_ce0b5abc",
+      "name": "Bioinformatics, MS Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-10T13:00:00",
+      "end_date": "2025-03-10T14:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/10/bioinformatics-ms-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-02/AdobeStock_574160298.jpeg?h=a1b0a597&itok=0Cb7hUD7"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_ce0b5abc",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_baca517b",
+      "name": "Chasing the \"Tail at Scale\": Toward Cloud-Native Architectures",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-12T14:00:00",
+      "end_date": "2025-03-12T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/12/chasing-tail-scale-toward-cloud-native-architectures",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-02/Capture_4.PNG?h=ff3d1c42&itok=cf3LJstr"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_baca517b",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_4310b244",
+      "name": "Urban Science Research Seminar: Vito Telesca",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-12T14:00:00",
+      "end_date": "2025-03-12T15:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/12/urban-science-research-seminar-vito-telesca",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-03/vito-telesca.jpg?h=a5018369&itok=tLN3mjX3"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_4310b244",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_8574afe9",
+      "name": "FRE Special Seminar: Ibrahim Ekren & Louis-Pierre Chaintron",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-12T16:00:00",
+      "end_date": "2025-03-12T17:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/12/fre-special-seminar-ibrahim-ekren-louis-pierre-chaintron",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_8574afe9",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_27b05eee",
+      "name": "CUE Pi Day Party",
+      "type": "Social",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-13T15:00:00",
+      "end_date": "2025-03-13T16:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/13/cue-pi-day-party",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Special",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-02/WhatsApp%20Image%202025-02-12%20at%2019.25.53.jpeg?h=1d61fc48&itok=m8SNJnZG"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_27b05eee",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_44d62964",
+      "name": "Innovating Across the Life Cycle of Macromolecular Materials",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-14T10:45:00",
+      "end_date": "2025-03-14T11:45:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/14/innovating-across-life-cycle-macromolecular-materials",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/COE-Korley_LaShanda-021.jpg?h=d705408d&itok=_1Jd3z8G"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_44d62964",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_f8fdddde",
+      "name": "Urban Science Research Seminar: Daniel O'Brien",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-17T13:00:00",
+      "end_date": "2025-03-17T14:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/17/urban-science-research-seminar-daniel-obrien",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/dan-obrien.jpg?h=f7d9296c&itok=EDl0-lZE"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_f8fdddde",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_dcbcf294",
+      "name": "Heterogeneous Catalysis: When Academic Vision Meets Industrial Reality",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-19T14:30:00",
+      "end_date": "2025-03-19T15:30:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/19/heterogeneous-catalysis-when-academic-vision-meets-industrial-reality",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Academic,  \nLecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-03/Carlos.jpeg?h=6d2bcac0&itok=_ihBDZrU"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_dcbcf294",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_1904b25e",
+      "name": "Management of Technology, MS Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-20T13:00:00",
+      "end_date": "2025-03-20T14:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/20/management-technology-ms-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-02/management-technology-ms-with-dottedgrid_1.jpg?h=d08f423e&itok=UTqazn-y"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_1904b25e",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_9eac85b4",
+      "name": "Improving Materials Circularity – Linking Polymer Science and Life-Cycle Analysis",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-21T10:45:00",
+      "end_date": "2025-03-21T11:45:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/21/improving-materials-circularity-linking-polymer-science-and-life-cycle-analysis",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/IMG_3803.jpeg?h=b46264f2&itok=_-KmuJ2M"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_9eac85b4",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_93c7a6dd",
+      "name": "NYU Tandon Cyber Fellows MS Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-03-24T13:00:00",
+      "end_date": "2025-03-24T14:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/03/24/nyu-tandon-cyber-fellows-ms-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-10/cyberfellows-splashimage_1.jpg?h=d08f423e&itok=ErP98JcS"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_93c7a6dd",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_024ab881",
+      "name": "Urban Science Research Seminar: Cynthia Zeng",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-09T14:00:00",
+      "end_date": "2025-04-09T15:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/09/urban-science-research-seminar-cynthia-zeng",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/Cynthia-Zeng-NYU.jpg?h=f9d77ec7&itok=MXsqFSVy"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_024ab881",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_1da54ade",
+      "name": "Urban Science Research Seminar: Greg Morrisett",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-14T13:00:00",
+      "end_date": "2025-04-14T14:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/14/urban-science-research-seminar-greg-morrisett",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/greg-morrisett.jpg?h=82f92a78&itok=bgolreGk"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_1da54ade",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_be46dc7d",
+      "name": "2025 Tandon Research Excellence Exhibit",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-25T13:00:00",
+      "end_date": "2025-04-25T14:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/25/2025-tandon-research-excellence-exhibit",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Annual Event",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-02/T2425EV_ResearchExpo_2025_V5_1920x1080.png?h=810435b7&itok=2sEmk00M"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_be46dc7d",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_e49539aa",
+      "name": "Applied Urban Science Showcase",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-25T16:00:00",
+      "end_date": "2025-04-25T17:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/25/applied-urban-science-showcase",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Academic",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_e49539aa",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_d6f974ff",
+      "name": "Urban Science Research Seminar: Sybil Derrible",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-25T16:40:00",
+      "end_date": "2025-04-25T17:40:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/25/urban-science-research-seminar-sybil-derrible",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/sybil-derrible-sm.jpeg?h=ed174a94&itok=K1qfQZ6e"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_d6f974ff",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_b5d83666",
+      "name": "Urban Science Research Seminar: Ning Lin",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-28T13:00:00",
+      "end_date": "2025-04-28T14:00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/28/urban-science-research-seminar-ning-lin",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/ning-lin.jpg?h=82f92a78&itok=PE7YGjjo"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_b5d83666",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_ebe3b1c0",
+      "name": "Ph.D. Hub Pizza Social",
+      "type": "Social",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-04-30T12:30:00",
+      "end_date": "2025-04-30T13:30:00",
+      "category": [
+        "SOCIAL",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/04/30/phd-hub-pizza-social",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Special",
+          "image_url": null
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_ebe3b1c0",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    },
+    {
+      "id": "evt_nyu_eng_01846c52",
+      "name": "Commencement 2025",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-05-15T16:30:00",
+      "end_date": "2025-05-15T17:30:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/05/15/commencement-2025",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Annual Event",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-01/T2425EV_Commencement2025_WB_HeaderImage.png?h=84071268&itok=t93Rl8bs"
+        }
+      },
+      "source": "nyu_engineering",
+      "event_id": "evt_nyu_eng_01846c52",
+      "locationId": "loc_nyu_tandon",
+      "communityId": "com_nyu_tandon"
+    }
+  ]
+}

@@ -1,0 +1,403 @@
+{
+  "events": [
+    {
+      "id": "evt_isaw_496790c6",
+      "name": "ISAW Library Events: Strike: Labor, Unions, and Resistance in the Roman Empire",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Sarah Bond\n\nThis lecture is the third in the ISAW Libraries events series for the 2024-2025 academic year. It will take place in person at ISAW. Registration is required; click through for the registration link. Sarah Bond will share some of her research from her recently published book Strike: Labor, Unions, and Resistance in the Roman Empire (Yale University Press), exploring how Roman workers used strikes, boycotts, riots, and rebellion to get their voices—and their labor—acknowledged.",
+      "start_date": "2025-03-12T17:30:00",
+      "end_date": "2025-03-12T19:30:00",
+      "category": [
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/isawlib-bond-strike",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/isawlib-bond-strike/leadImage_mini",
+          "speaker": "Sarah Bond",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_496790c6",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_4bfbc658",
+      "name": "Expanding the Ancient World Workshop",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Allyson Blanck\n\nAncient Religion with Asclepius: Exploring Epidaurus, the Iamata, and Religious Healing in Classical Greece\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. This workshop will explore ancient Greek religious systems through the lens of a particular god, the god of healing, Asclepius.",
+      "start_date": "2025-03-18T17:30:00",
+      "end_date": "2025-03-18T19:30:00",
+      "category": [
+        "HISTORY",
+        "ARTS",
+        "RELIGION"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-healing-in-classical-greece",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-healing-in-classical-greece/leadImage_mini",
+          "speaker": "Allyson Blanck",
+          "subtitle": "Ancient Religion with Asclepius: Exploring Epidaurus, the Iamata, and Religious Healing in Classical Greece",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_4bfbc658",
+      "locationId": "loc_virtual",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_38bd9598",
+      "name": "Faith in Translation: Theological Adapation of East Syriac Christianity in Tang China",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Rong Huang\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. For many, the history of Christianity in China begins with the Jesuit missions of the 16th and 17th centuries. However, nearly a millennium earlier, during the Tang dynasty (618–907 CE), East Syriac Christians had already made their way to China through the ancient Silk Road trade routes spanning Eurasia.",
+      "start_date": "2025-03-19T17:30:00",
+      "end_date": "2025-03-19T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/faith-in-translation",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/faith-in-translation/leadImage_mini",
+          "speaker": "Rong Huang",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_38bd9598",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_e7e8e144",
+      "name": "Lyktos: The Archaeology of an Archaic Greek City in Crete",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Antonis Kotsonas\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. Since 2021, a team from ISAW/NYU has been involved in archaeological fieldwork at the Greek and Roman city Lyktos in central Crete, Greece. Celebrated by Homer, considered as the birthplace of god Zeus by Hesiod, and identified as the cradle of the Spartan constitution by Aristotle, Lyktos boasts an unusually rich literary and epigraphic record.",
+      "start_date": "2025-04-02T17:30:00",
+      "end_date": "2025-04-02T19:30:00",
+      "category": [
+        "ARCHAEOLOGY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/lyktos-lecture",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/lyktos-lecture/leadImage_mini",
+          "speaker": "Antonis Kotsonas",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_e7e8e144",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_0fa970f2",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Manolis Mavromatis\n\nExploring the Minoans and the Mycenaeans\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. Before the Classical period, where Athens and Sparta dominate as central figures in Ancient Greek history, two earlier civilizations have sparked significant debate regarding their identity and acknowledgment. The first is the Minoan civilization, based on Crete and named by Sir Arthur Evans after the mythical King Minos. The second is the Mycenaean civilization, identified as the first recognized Greek civilization.",
+      "start_date": "2025-04-07T17:30:00",
+      "end_date": "2025-04-07T19:30:00",
+      "category": [
+        "HISTORY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-minoans-and-mycenaeans",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-minoans-and-mycenaeans/leadImage_mini",
+          "speaker": "Manolis Mavromatis",
+          "subtitle": "Exploring the Minoans and the Mycenaeans",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_0fa970f2",
+      "locationId": "loc_virtual",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_b95a6767",
+      "name": "The Logic of the Image: Visualizing Knowledge in Early Mesopotamia",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Beate Pongratz-Leisten\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. The ubiquity of the image on ancient Near Eastern artefacts and its function as a medium for visualizing knowledge has not been a primary concern in ancient Near Eastern studies.",
+      "start_date": "2025-04-09T17:30:00",
+      "end_date": "2025-04-09T19:30:00",
+      "category": [
+        "HISTORY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/the-logic-of-the-image",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/the-logic-of-the-image/leadImage_mini",
+          "speaker": "Beate Pongratz-Leisten",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_b95a6767",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_d41fd838",
+      "name": "Rostovtzeff Lecture Series: Power at Hand: Luxury and the Contestation of Political Identities in Hellenistic Asia and the Post-Achaemenid Iranian World",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Matthew P. Canepa\n\nLecture 1: A New Perso-Macedonian Material and Visual Culture of Power\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This lecture begins with considering the role that luxury material played in creating politically useful subjectivities in the Achaemenid Persian Empire before turning to the formation of a new, competing traditions of luxury under the empire’s rivals and successors.",
+      "start_date": "2025-04-23T17:30:00",
+      "end_date": "2025-04-23T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture1-series-2025",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture1-series-2025/leadImage_mini",
+          "speaker": "Matthew P. Canepa",
+          "subtitle": "Lecture 1: A New Perso-Macedonian Material and Visual Culture of Power",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_d41fd838",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_1b7872e6",
+      "name": "Rostovtzeff Lecture Series: Power at Hand: Luxury and the Contestation of Political Identities in Hellenistic Asia and the Post-Achaemenid Iranian World",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Matthew P. Canepa\n\nLecture 2: Tryphic Warfare and Scriptive Things\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This lecture focuses on the role of luxury objects and spectacles as deployed by the Seleucids in their conflicts the Antigonids, Ptolemids, Greco-Bactrians, Arsacids and later the Romans.",
+      "start_date": "2025-04-24T17:30:00",
+      "end_date": "2025-04-24T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture2-series-2025",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture2-series-2025/leadImage_mini",
+          "speaker": "Matthew P. Canepa",
+          "subtitle": "Lecture 2: Tryphic Warfare and Scriptive Things",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_1b7872e6",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_6ac24276",
+      "name": "Rostovtzeff Lecture Series: Power at Hand: Luxury and the Contestation of Political Identities in Hellenistic Asia and the Post-Achaemenid Iranian World",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Matthew P. Canepa\n\nLecture 3: Between Ecumenes\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This lecture will focus on the development of an Arsacid tradition of precious metal and ivory vessels and a new Iranian court culture that participated in both the Hellenistic and Iranian ecumenes.",
+      "start_date": "2025-04-29T17:30:00",
+      "end_date": "2025-04-29T19:30:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture3-series-2025",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture3-series-2025/leadImage_mini",
+          "speaker": "Matthew P. Canepa",
+          "subtitle": "Lecture 3: Between Ecumenes",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_6ac24276",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_aee63c9e",
+      "name": "Rostovtzeff Lecture Series: Power at Hand: Luxury and the Contestation of Political Identities in Hellenistic Asia and the Post-Achaemenid Iranian World",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Matthew P. Canepa\n\nLecture 4: Afro-Eurasian Entanglements and Transformations\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This lecture examines Arsacid luxury material beyond Iran both as object and idea. As under the Achaemenids before and Sasanians after, these charismatic objects potentially entangled or “assembled” aspects of identities of those outside the empire at a range of societal levels, including those who had dealings with the empire and those who encountered them even in negative and in reaction.",
+      "start_date": "2025-05-01T17:30:00",
+      "end_date": "2025-05-01T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture4-series-2025",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/rostovtzeff-lecture4-series-2025/leadImage_mini",
+          "speaker": "Matthew P. Canepa",
+          "subtitle": "Lecture 4: Afro-Eurasian Entanglements and Transformations",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_aee63c9e",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_797a6ee7",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Abigail Hoskins\n\nFrom Sheep to Sign: Inventing Writing in Ancient Mesopotamia\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. Writing is such an integral part of our everyday lives that it is difficult to imagine how we could live without it. But just like so many of the other technologies that have become essential to us, writing had to be invented. Scholars studying the ancient past have discovered that writing was invented independently in four different places: in Mesopotamia (in modern-day Iraq) around 3300-3200 BCE; in ancient Egypt around 3200 BCE; in ancient China around 1200 BCE; and in ancient Mesoamerica (in modern-day Mexico) around 1000 BCE. In this workshop, we will focus on the invention of writing in Mesopotamia.",
+      "start_date": "2025-05-07T17:30:00",
+      "end_date": "2025-05-07T19:30:00",
+      "category": [
+        "HISTORY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-from-sheep-to-sign",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-from-sheep-to-sign/leadImage_mini",
+          "speaker": "Abigail Hoskins",
+          "subtitle": "From Sheep to Sign: Inventing Writing in Ancient Mesopotamia",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_797a6ee7",
+      "locationId": "loc_virtual",
+      "communityId": "com_isaw"
+    }
+  ]
+}

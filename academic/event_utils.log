@@ -1,0 +1,281 @@
+2025-03-04 17:54:08,913 - INFO - Saved data to events\all_events.json
+2025-03-04 17:54:08,913 - INFO - Saved data to events\converted_events.json
+2025-03-04 17:54:08,917 - INFO - Saved data to events\combined_events.json
+2025-03-04 17:59:44,142 - INFO - Use pytorch device_name: cpu
+2025-03-04 17:59:44,142 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:00:51,151 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:00:51,152 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:10:38,839 - INFO - Saved data to events\all_events.json
+2025-03-04 18:10:38,841 - INFO - Saved data to events\converted_events.json
+2025-03-04 18:13:20,287 - INFO - Saved data to events\all_events.json
+2025-03-04 18:13:20,289 - INFO - Saved data to events\converted_events.json
+2025-03-04 18:14:01,530 - INFO - Saved data to events\columbia_events.json
+2025-03-04 18:14:02,569 - INFO - Saved data to events\cornell_tech_events.json
+2025-03-04 18:18:18,746 - INFO - Saved data to events\columbia_events.json
+2025-03-04 18:18:19,411 - INFO - Saved data to events\cornell_tech_events.json
+2025-03-04 18:18:19,812 - INFO - Saved data to events\gallatin_events.json
+2025-03-04 18:18:19,964 - INFO - Saved data to events\isaw_events.json
+2025-03-04 18:18:20,643 - INFO - Saved data to events\jtsa_events.json
+2025-03-04 18:18:21,291 - INFO - Saved data to events\juilliard_events.json
+2025-03-04 18:18:21,857 - INFO - Saved data to events\new_school_events.json
+2025-03-04 18:18:25,285 - INFO - Saved data to events\cims_events.json
+2025-03-04 18:18:25,787 - INFO - Saved data to events\nyu_engineering_events.json
+2025-03-04 18:18:28,002 - INFO - Saved data to events\nyu_events.json
+2025-03-04 18:18:30,535 - INFO - Saved data to events\simons_events.json
+2025-03-04 18:18:30,537 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:18:30,537 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:20:44,544 - INFO - Saved data to events\columbia_events.json
+2025-03-04 18:20:45,418 - INFO - Saved data to events\cornell_tech_events.json
+2025-03-04 18:20:45,806 - INFO - Saved data to events\gallatin_events.json
+2025-03-04 18:20:46,181 - INFO - Saved data to events\isaw_events.json
+2025-03-04 18:20:47,157 - INFO - Saved data to events\jtsa_events.json
+2025-03-04 18:20:47,848 - INFO - Saved data to events\juilliard_events.json
+2025-03-04 18:20:48,739 - INFO - Saved data to events\new_school_events.json
+2025-03-04 18:20:52,550 - INFO - Saved data to events\cims_events.json
+2025-03-04 18:20:53,158 - INFO - Saved data to events\nyu_engineering_events.json
+2025-03-04 18:20:53,782 - INFO - Saved data to events\nyu_events.json
+2025-03-04 18:20:56,483 - INFO - Saved data to events\simons_events.json
+2025-03-04 18:20:56,492 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:20:56,493 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:21:39,430 - INFO - Saved data to events\columbia_events.json
+2025-03-04 18:21:41,121 - INFO - Saved data to events\cornell_tech_events.json
+2025-03-04 18:21:41,785 - INFO - Saved data to events\gallatin_events.json
+2025-03-04 18:21:42,396 - INFO - Saved data to events\isaw_events.json
+2025-03-04 18:21:43,556 - INFO - Saved data to events\jtsa_events.json
+2025-03-04 18:21:44,191 - INFO - Saved data to events\juilliard_events.json
+2025-03-04 18:21:44,558 - INFO - Saved data to events\new_school_events.json
+2025-03-04 18:21:48,310 - INFO - Saved data to events\cims_events.json
+2025-03-04 18:21:49,449 - INFO - Saved data to events\nyu_engineering_events.json
+2025-03-04 18:21:51,927 - INFO - Saved data to events\nyu_events.json
+2025-03-04 18:21:53,927 - INFO - Saved data to events\simons_events.json
+2025-03-04 18:21:54,099 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:21:54,099 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:38:47,459 - INFO - Using device: cpu
+2025-03-04 18:38:47,464 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:38:47,465 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:38:53,319 - INFO - Loaded SentenceTransformer model
+2025-03-04 18:38:53,321 - INFO - Loaded 7 communities from data\university_communities.json
+2025-03-04 18:38:53,321 - INFO - Loaded 11 locations from data\university_locations.json
+2025-03-04 18:38:54,266 - INFO - 
+Processing all_events.json
+2025-03-04 18:38:54,267 - INFO - 
+Processing all_events_combined.json
+2025-03-04 18:38:54,302 - INFO - Filtered out 476 events without a title
+2025-03-04 18:38:54,303 - INFO - 
+Processing cims_events.json
+2025-03-04 18:38:54,308 - INFO - Filtered out 54 events without a title
+2025-03-04 18:38:54,310 - INFO - 
+Processing columbia_events.json
+2025-03-04 18:38:54,327 - INFO - Filtered out 200 events without a title
+2025-03-04 18:38:54,327 - INFO - 
+Processing converted_events.json
+2025-03-04 18:38:54,328 - INFO - 
+Processing cornell_tech_events.json
+2025-03-04 18:38:54,329 - INFO - Filtered out 4 events without a title
+2025-03-04 18:38:54,329 - INFO - 
+Processing cuny_events.json
+2025-03-04 18:38:54,330 - INFO - Filtered out 16 events without a title
+2025-03-04 18:38:54,331 - INFO - 
+Processing gallatin_events.json
+2025-03-04 18:38:54,333 - INFO - Filtered out 35 events without a title
+2025-03-04 18:38:54,333 - INFO - 
+Processing isaw_events.json
+2025-03-04 18:38:54,334 - INFO - Filtered out 11 events without a title
+2025-03-04 18:38:54,334 - INFO - 
+Processing jtsa_events.json
+2025-03-04 18:38:54,335 - INFO - Filtered out 10 events without a title
+2025-03-04 18:38:54,335 - INFO - 
+Processing juilliard_events.json
+2025-03-04 18:38:54,336 - INFO - Filtered out 20 events without a title
+2025-03-04 18:38:54,336 - INFO - 
+Processing new_school_events.json
+2025-03-04 18:38:54,344 - INFO - Filtered out 80 events without a title
+2025-03-04 18:38:54,344 - INFO - 
+Processing nyu_cims_events.json
+2025-03-04 18:38:54,346 - INFO - Filtered out 54 events without a title
+2025-03-04 18:38:54,346 - INFO - 
+Processing nyu_engineering_events.json
+2025-03-04 18:38:54,347 - INFO - Filtered out 27 events without a title
+2025-03-04 18:38:54,349 - INFO - 
+Processing nyu_events.json
+2025-03-04 18:38:54,360 - INFO - 
+Processing simons_events.json
+2025-03-04 18:38:54,361 - INFO - Filtered out 18 events without a title
+2025-03-04 18:38:54,361 - INFO - 
+Mapping events to communities and locations...
+2025-03-04 18:39:25,278 - INFO - Using device: cpu
+2025-03-04 18:39:25,283 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:39:25,283 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:39:27,600 - INFO - Loaded SentenceTransformer model
+2025-03-04 18:39:27,602 - INFO - Loaded 7 communities from data\university_communities.json
+2025-03-04 18:39:27,603 - INFO - Loaded 11 locations from data\university_locations.json
+2025-03-04 18:39:27,933 - INFO - 
+Processing all_events.json
+2025-03-04 18:39:27,933 - INFO - 
+Processing all_events_combined.json
+2025-03-04 18:39:27,959 - INFO - Filtered out 476 events without a title
+2025-03-04 18:39:27,959 - INFO - 
+Processing cims_events.json
+2025-03-04 18:39:27,962 - INFO - Filtered out 54 events without a title
+2025-03-04 18:39:27,962 - INFO - 
+Processing columbia_events.json
+2025-03-04 18:39:27,976 - INFO - Filtered out 200 events without a title
+2025-03-04 18:39:27,977 - INFO - 
+Processing converted_events.json
+2025-03-04 18:39:27,978 - INFO - 
+Processing cornell_tech_events.json
+2025-03-04 18:39:27,979 - INFO - Filtered out 4 events without a title
+2025-03-04 18:39:27,979 - INFO - 
+Processing cuny_events.json
+2025-03-04 18:39:27,981 - INFO - Filtered out 16 events without a title
+2025-03-04 18:39:27,981 - INFO - 
+Processing gallatin_events.json
+2025-03-04 18:39:27,983 - INFO - Filtered out 35 events without a title
+2025-03-04 18:39:27,983 - INFO - 
+Processing isaw_events.json
+2025-03-04 18:39:27,986 - INFO - Filtered out 11 events without a title
+2025-03-04 18:39:27,986 - INFO - 
+Processing jtsa_events.json
+2025-03-04 18:39:27,989 - INFO - Filtered out 10 events without a title
+2025-03-04 18:39:27,990 - INFO - 
+Processing juilliard_events.json
+2025-03-04 18:39:27,991 - INFO - Filtered out 20 events without a title
+2025-03-04 18:39:27,991 - INFO - 
+Processing new_school_events.json
+2025-03-04 18:39:27,996 - INFO - Filtered out 80 events without a title
+2025-03-04 18:39:27,997 - INFO - 
+Processing nyu_cims_events.json
+2025-03-04 18:39:27,998 - INFO - Filtered out 54 events without a title
+2025-03-04 18:39:28,000 - INFO - 
+Processing nyu_engineering_events.json
+2025-03-04 18:39:28,001 - INFO - Filtered out 27 events without a title
+2025-03-04 18:39:28,001 - INFO - 
+Processing nyu_events.json
+2025-03-04 18:39:28,010 - INFO - 
+Processing simons_events.json
+2025-03-04 18:39:28,011 - INFO - Filtered out 18 events without a title
+2025-03-04 18:39:28,011 - INFO - 
+Mapping events to communities and locations...
+2025-03-04 18:39:28,013 - INFO - 
+Categorizing 504 events...
+2025-03-04 18:40:08,142 - INFO - Using device: cpu
+2025-03-04 18:40:08,147 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:40:08,148 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:40:09,433 - INFO - Loaded SentenceTransformer model
+2025-03-04 18:40:09,434 - INFO - Loaded 7 communities from data\university_communities.json
+2025-03-04 18:40:09,435 - INFO - Loaded 11 locations from data\university_locations.json
+2025-03-04 18:40:09,625 - INFO - 
+Processing all_events.json
+2025-03-04 18:40:09,626 - INFO - 
+Processing all_events_combined.json
+2025-03-04 18:40:09,651 - INFO - Filtered out 476 events without a title
+2025-03-04 18:40:09,652 - INFO - 
+Processing cims_events.json
+2025-03-04 18:40:09,654 - INFO - Filtered out 54 events without a title
+2025-03-04 18:40:09,655 - INFO - 
+Processing columbia_events.json
+2025-03-04 18:40:09,669 - INFO - Filtered out 200 events without a title
+2025-03-04 18:40:09,669 - INFO - 
+Processing converted_events.json
+2025-03-04 18:40:09,670 - INFO - 
+Processing cornell_tech_events.json
+2025-03-04 18:40:09,670 - INFO - Filtered out 4 events without a title
+2025-03-04 18:40:09,670 - INFO - 
+Processing cuny_events.json
+2025-03-04 18:40:09,672 - INFO - Filtered out 16 events without a title
+2025-03-04 18:40:09,672 - INFO - 
+Processing gallatin_events.json
+2025-03-04 18:40:09,673 - INFO - Filtered out 35 events without a title
+2025-03-04 18:40:09,674 - INFO - 
+Processing isaw_events.json
+2025-03-04 18:40:09,674 - INFO - Filtered out 11 events without a title
+2025-03-04 18:40:09,674 - INFO - 
+Processing jtsa_events.json
+2025-03-04 18:40:09,676 - INFO - Filtered out 10 events without a title
+2025-03-04 18:40:09,676 - INFO - 
+Processing juilliard_events.json
+2025-03-04 18:40:09,677 - INFO - Filtered out 20 events without a title
+2025-03-04 18:40:09,677 - INFO - 
+Processing new_school_events.json
+2025-03-04 18:40:09,683 - INFO - Filtered out 80 events without a title
+2025-03-04 18:40:09,683 - INFO - 
+Processing nyu_cims_events.json
+2025-03-04 18:40:09,685 - INFO - Filtered out 54 events without a title
+2025-03-04 18:40:09,686 - INFO - 
+Processing nyu_engineering_events.json
+2025-03-04 18:40:09,687 - INFO - Filtered out 27 events without a title
+2025-03-04 18:40:09,687 - INFO - 
+Processing nyu_events.json
+2025-03-04 18:40:09,696 - INFO - 
+Processing simons_events.json
+2025-03-04 18:40:09,699 - INFO - Filtered out 18 events without a title
+2025-03-04 18:40:09,699 - INFO - 
+Mapping events to communities and locations...
+2025-03-04 18:40:09,701 - INFO - 
+Categorizing 504 events...
+2025-03-04 18:41:24,741 - INFO - Using device: cpu
+2025-03-04 18:41:24,743 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:41:24,744 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-03-04 18:41:25,680 - INFO - Loaded SentenceTransformer model
+2025-03-04 18:41:25,681 - INFO - Loaded 7 communities from data\university_communities.json
+2025-03-04 18:41:25,682 - INFO - Loaded 11 locations from data\university_locations.json
+2025-03-04 18:41:26,300 - INFO - 
+Processing all_events.json
+2025-03-04 18:41:26,301 - INFO - 
+Processing all_events_combined.json
+2025-03-04 18:41:26,324 - INFO - Filtered out 476 events without a title
+2025-03-04 18:41:26,326 - INFO - 
+Processing cims_events.json
+2025-03-04 18:41:26,328 - INFO - Filtered out 54 events without a title
+2025-03-04 18:41:26,328 - INFO - 
+Processing columbia_events.json
+2025-03-04 18:41:26,343 - INFO - Filtered out 200 events without a title
+2025-03-04 18:41:26,343 - INFO - 
+Processing cornell_tech_events.json
+2025-03-04 18:41:26,344 - INFO - Filtered out 4 events without a title
+2025-03-04 18:41:26,344 - INFO - 
+Processing cuny_events.json
+2025-03-04 18:41:26,346 - INFO - Filtered out 16 events without a title
+2025-03-04 18:41:26,346 - INFO - 
+Processing gallatin_events.json
+2025-03-04 18:41:26,347 - INFO - Filtered out 35 events without a title
+2025-03-04 18:41:26,347 - INFO - 
+Processing isaw_events.json
+2025-03-04 18:41:26,348 - INFO - Filtered out 11 events without a title
+2025-03-04 18:41:26,348 - INFO - 
+Processing jtsa_events.json
+2025-03-04 18:41:26,350 - INFO - Filtered out 10 events without a title
+2025-03-04 18:41:26,350 - INFO - 
+Processing juilliard_events.json
+2025-03-04 18:41:26,351 - INFO - Filtered out 20 events without a title
+2025-03-04 18:41:26,352 - INFO - 
+Processing new_school_events.json
+2025-03-04 18:41:26,357 - INFO - Filtered out 80 events without a title
+2025-03-04 18:41:26,358 - INFO - 
+Processing nyu_cims_events.json
+2025-03-04 18:41:26,360 - INFO - Filtered out 54 events without a title
+2025-03-04 18:41:26,360 - INFO - 
+Processing nyu_engineering_events.json
+2025-03-04 18:41:26,361 - INFO - Filtered out 27 events without a title
+2025-03-04 18:41:26,362 - INFO - 
+Processing nyu_events.json
+2025-03-04 18:41:26,370 - INFO - 
+Processing simons_events.json
+2025-03-04 18:41:26,371 - INFO - Filtered out 18 events without a title
+2025-03-04 18:41:26,372 - INFO - 
+Mapping events to communities and locations...
+2025-03-04 18:41:26,373 - INFO - 
+Categorizing 504 events...
+2025-03-04 18:46:25,115 - INFO - Saved data to events\columbia_events.json
+2025-03-04 18:46:25,762 - INFO - Saved data to events\cornell_tech_events.json
+2025-03-04 18:46:25,955 - INFO - Saved data to events\gallatin_events.json
+2025-03-04 18:46:26,137 - INFO - Saved data to events\isaw_events.json
+2025-03-04 18:46:26,824 - INFO - Saved data to events\jtsa_events.json
+2025-03-04 18:46:27,345 - INFO - Saved data to events\juilliard_events.json
+2025-03-04 18:46:27,922 - INFO - Saved data to events\new_school_events.json
+2025-03-04 18:46:31,550 - INFO - Saved data to events\cims_events.json
+2025-03-04 18:46:32,245 - INFO - Saved data to events\nyu_engineering_events.json
+2025-03-04 18:46:35,011 - INFO - Saved data to events\nyu_events.json
+2025-03-04 18:46:37,080 - INFO - Saved data to events\simons_events.json
+2025-03-04 18:46:37,093 - INFO - Use pytorch device_name: cpu
+2025-03-04 18:46:37,093 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2

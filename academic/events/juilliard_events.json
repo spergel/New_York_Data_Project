@@ -1,0 +1,776 @@
+{
+  "events": [
+    {
+      "id": "evt_juilliard_577b11db",
+      "name": "Chamber Music Society of Lincoln Center Master Class: Chad Hoopes",
+      "type": "Workshop",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Chamber Music, Master Class",
+      "start_date": "2025-03-10T11:00:00+00:00",
+      "end_date": "2025-03-10T13:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/170976/chamber-music-society-lincoln-center-master-class-chad-hoopes",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Daniel and Joanna S. Rose Studio",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Chamber Music",
+            "Master Class"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_577b11db",
+      "locationId": "loc_juilliard_main",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_f05c274f",
+      "name": "Lunch Hour Performance",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-03-11T12:00:00+00:00",
+      "end_date": "2025-03-11T14:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176416/lunch-hour-performance",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_f05c274f",
+      "locationId": "loc_juilliard_main",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_2d3b23c4",
+      "name": "Lunch Hour Performance",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-03-12T12:00:00+00:00",
+      "end_date": "2025-03-12T14:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176421/lunch-hour-performance",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_2d3b23c4",
+      "locationId": "loc_juilliard_main",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_c7e01b82",
+      "name": "Jack Gao, Piano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Live Streaming, Recital",
+      "start_date": "2025-03-12T20:00:00+00:00",
+      "end_date": "2025-03-12T22:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176086/jack-gao-piano?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_c7e01b82",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_a1470aa1",
+      "name": "Lunch Hour Performance",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-03-13T12:00:00+00:00",
+      "end_date": "2025-03-13T14:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176481/lunch-hour-performance",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_a1470aa1",
+      "locationId": "loc_juilliard_main",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_d3ba7c22",
+      "name": "Lunch Hour Performance",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-03-14T12:00:00+00:00",
+      "end_date": "2025-03-14T14:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176486/lunch-hour-performance",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_d3ba7c22",
+      "locationId": "loc_juilliard_main",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_47919394",
+      "name": "Lauren Yoon, Violin",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T10:30:00+00:00",
+      "end_date": "2025-03-15T12:30:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/173261/lauren-yoon-violin?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_47919394",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_444a8ead",
+      "name": "Lindsey Lee, Viola",
+      "type": "Performance",
+      "location_id": "loc_juilliard_morse",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T11:30:00+00:00",
+      "end_date": "2025-03-15T13:30:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/172576/lindsey-lee-viola?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Morse Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_444a8ead",
+      "locationId": "loc_juilliard_morse",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_15ca5aba",
+      "name": "Aaron Julian Cimadevilla II, Double Bass",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T12:00:00+00:00",
+      "end_date": "2025-03-15T14:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/172781/aaron-julian-cimadevilla-ii-double-bass?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_15ca5aba",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_07011248",
+      "name": "MAP Flute Recital",
+      "type": "Performance",
+      "location_id": "loc_juilliard_morse",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T13:00:00+00:00",
+      "end_date": "2025-03-15T15:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/175681/map-flute-recital?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Morse Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_07011248",
+      "locationId": "loc_juilliard_morse",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_39526a5b",
+      "name": "Pre-College Piano Performance Forum",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Recital, Free, Chamber Music, Live Streaming, Preparatory Education",
+      "start_date": "2025-03-15T13:05:00+00:00",
+      "end_date": "2025-03-15T15:05:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/171971/pre-college-piano-performance-forum?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Recital",
+            "Free",
+            "Chamber Music",
+            "Live Streaming",
+            "Preparatory Education"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_39526a5b",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_aa5d43b7",
+      "name": "Clara S. Chi, Violin",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T14:30:00+00:00",
+      "end_date": "2025-03-15T16:30:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/172856/clara-s-chi-violin?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_aa5d43b7",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_bbbbe766",
+      "name": "Zoe Nguyen, Violin",
+      "type": "Performance",
+      "location_id": "loc_juilliard_morse",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T14:30:00+00:00",
+      "end_date": "2025-03-15T16:30:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/174821/zoe-nguyen-violin?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Morse Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_bbbbe766",
+      "locationId": "loc_juilliard_morse",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_1886eda1",
+      "name": "Lewis Fang, Piano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T16:00:00+00:00",
+      "end_date": "2025-03-15T18:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/172851/lewis-fang-piano?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_1886eda1",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_a26f5356",
+      "name": "Odie O. Femi-oke, Double Bass",
+      "type": "Performance",
+      "location_id": "loc_juilliard_morse",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T16:00:00+00:00",
+      "end_date": "2025-03-15T18:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176156/odie-o-femi-oke-double-bass?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Morse Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_a26f5356",
+      "locationId": "loc_juilliard_morse",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_79cd2b3e",
+      "name": "Pre-College Violin Students of Naoko Tanaka",
+      "type": "Performance",
+      "location_id": "loc_juilliard_morse",
+      "community_id": "com_juilliard",
+      "description": "Recital, Free, Chamber Music, Live Streaming, Preparatory Education",
+      "start_date": "2025-03-15T17:00:00+00:00",
+      "end_date": "2025-03-15T19:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/171756/pre-college-violin-students-naoko-tanaka?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Morse Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Recital",
+            "Free",
+            "Chamber Music",
+            "Live Streaming",
+            "Preparatory Education"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_79cd2b3e",
+      "locationId": "loc_juilliard_morse",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_36b7b292",
+      "name": "Sharon Kim, Bassoon",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Preparatory Education, Live Streaming, Recital",
+      "start_date": "2025-03-15T17:30:00+00:00",
+      "end_date": "2025-03-15T19:30:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/174921/sharon-kim-bassoon?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Preparatory Education",
+            "Live Streaming",
+            "Recital"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_36b7b292",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_b423018d",
+      "name": "Violin Students of Masao Kawasaki",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Recital, Free, Chamber Music, Live Streaming, Preparatory Education",
+      "start_date": "2025-03-15T18:00:00+00:00",
+      "end_date": "2025-03-15T20:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/176106/violin-students-masao-kawasaki?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Rm 309 - Bruno Walter Orchestral Studio",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Recital",
+            "Free",
+            "Chamber Music",
+            "Live Streaming",
+            "Preparatory Education"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_b423018d",
+      "locationId": "loc_juilliard_main",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_fa28e97c",
+      "name": "Jasmin Ward, Soprano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Music, Opera / Voice, Recital, Free, Live Streaming",
+      "start_date": "2025-03-15T20:30:00+00:00",
+      "end_date": "2025-03-15T22:30:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/173551/jasmin-ward-soprano?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Opera / Voice",
+            "Recital",
+            "Free",
+            "Live Streaming"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_fa28e97c",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    },
+    {
+      "id": "evt_juilliard_9be735d8",
+      "name": "Daniel Saidenberg Faculty Recital Series | Raphael Trio and Friends",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Chamber Music, Music, Live Streaming",
+      "start_date": "2025-03-16T16:00:00+00:00",
+      "end_date": "2025-03-16T18:00:00+00:00",
+      "category": [
+        "ARTS",
+        "MUSIC"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/175586/daniel-saidenberg-faculty-recital-series-raphael-trio-and-friends?division=All",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Chamber Music",
+            "Music",
+            "Live Streaming"
+          ]
+        }
+      },
+      "source": "juilliard",
+      "event_id": "evt_juilliard_9be735d8",
+      "locationId": "loc_juilliard_paul",
+      "communityId": "com_juilliard"
+    }
+  ]
+}

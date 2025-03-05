@@ -1,0 +1,568 @@
+2025-03-02 17:54:52,202 - INFO - Loading locations from C:\Users\jsper\dev\Github\nycevents\public/data\locations.json
+2025-03-02 17:54:52,203 - INFO - Loading communities from C:\Users\jsper\dev\Github\nycevents\public/data\communities.json
+2025-03-02 17:54:52,204 - INFO - Starting RAID NYC scraper
+2025-03-02 17:54:52,204 - INFO - Fetching events from https://api.lu.ma/v1/public/calendar/raid
+2025-03-02 17:54:52,669 - ERROR - Error scraping events: 404 Client Error: Not Found for url: https://api.lu.ma/v1/public/calendar/raid
+2025-03-02 17:54:52,669 - INFO - Finished RAID NYC scraper
+2025-03-03 09:41:00,663 - INFO - Found 0 upcoming events
+2025-03-03 09:41:01,405 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:41:02,279 - INFO - Found 1 upcoming events
+2025-03-03 09:41:04,173 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:41:05,455 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:41:06,359 - INFO - Found 1 upcoming events
+2025-03-03 09:41:06,360 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:41:08,457 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 09:41:09,127 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 09:41:09,564 - INFO - Found 2 upcoming events
+2025-03-03 09:41:10,047 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:41:10,659 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 09:41:11,050 - INFO - Found 2 upcoming events
+2025-03-03 09:41:11,050 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:41:12,079 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 09:41:12,463 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 09:41:12,755 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 09:41:13,158 - INFO - Found 3 upcoming events
+2025-03-03 09:41:13,648 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 09:41:14,058 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 09:41:14,403 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 09:41:14,779 - INFO - Found 3 upcoming events
+2025-03-03 09:41:15,373 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:41:15,928 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:41:16,377 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:41:16,948 - INFO - Found 3 upcoming events
+2025-03-03 09:41:16,949 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:41:17,632 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:41:18,358 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:50:17,285 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:18,021 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:18,641 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/r3p252x2
+2025-03-03 09:50:18,641 - INFO - Fetching details from Luma event URL: https://lu.ma/r3p252x2
+2025-03-03 09:50:19,157 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-03 09:50:19,157 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-03 09:50:19,792 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 09:50:19,793 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 09:50:20,395 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-03 09:50:20,396 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-03 09:50:20,976 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 09:50:20,976 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 09:50:21,638 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 09:50:21,638 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 09:50:22,215 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-03 09:50:22,216 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-03 09:50:22,527 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:22,995 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:23,588 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:24,214 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-satya-nadella
+2025-03-03 09:50:24,214 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-satya-nadella
+2025-03-03 09:50:24,610 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-03 09:50:24,611 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-03 09:50:24,974 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:25,531 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-03 09:50:25,531 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-03 09:50:25,862 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 09:50:25,863 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 09:50:26,244 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 09:50:26,244 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 09:50:26,546 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 09:50:26,546 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 09:50:26,868 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 09:50:27,249 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 09:50:27,249 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 09:52:24,877 - INFO - Found 0 upcoming events
+2025-03-03 09:52:25,111 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:26,472 - INFO - Found 1 upcoming events
+2025-03-03 09:52:26,523 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:27,529 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:28,123 - INFO - Found 1 upcoming events
+2025-03-03 09:52:28,123 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:29,136 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 09:52:29,672 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 09:52:30,124 - INFO - Found 2 upcoming events
+2025-03-03 09:52:30,345 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:30,911 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 09:52:31,293 - INFO - Found 2 upcoming events
+2025-03-03 09:52:31,293 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:32,513 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 09:52:32,860 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 09:52:33,220 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 09:52:33,601 - INFO - Found 3 upcoming events
+2025-03-03 09:52:34,066 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 09:52:34,573 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 09:52:35,012 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 09:52:35,974 - INFO - Found 3 upcoming events
+2025-03-03 09:52:36,178 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:52:36,777 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:52:37,278 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:52:37,888 - INFO - Found 3 upcoming events
+2025-03-03 09:52:37,889 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:52:38,414 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:52:39,424 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:52:46,440 - INFO - Found 0 upcoming events
+2025-03-03 09:52:47,105 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:47,577 - INFO - Found 1 upcoming events
+2025-03-03 09:52:47,632 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 09:52:48,621 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:49,162 - INFO - Found 1 upcoming events
+2025-03-03 09:52:49,162 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 09:52:50,377 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 09:52:51,000 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 09:52:51,406 - INFO - Found 2 upcoming events
+2025-03-03 09:52:51,853 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:52,388 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 09:52:53,219 - INFO - Found 2 upcoming events
+2025-03-03 09:52:53,219 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 09:52:56,264 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 09:52:56,682 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 09:52:57,059 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 09:52:57,456 - INFO - Found 3 upcoming events
+2025-03-03 09:52:57,660 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 09:52:58,134 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 09:52:58,493 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 09:52:58,892 - INFO - Found 3 upcoming events
+2025-03-03 09:52:59,070 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:52:59,630 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:53:00,142 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 09:53:00,643 - INFO - Found 3 upcoming events
+2025-03-03 09:53:00,643 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 09:53:01,153 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 09:53:01,575 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 10:19:30,770 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:31,242 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:31,674 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/r3p252x2
+2025-03-03 10:19:31,676 - INFO - Fetching details from Luma event URL: https://lu.ma/r3p252x2
+2025-03-03 10:19:32,077 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-03 10:19:32,077 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-03 10:19:32,820 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 10:19:32,820 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 10:19:33,169 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-03 10:19:33,169 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-03 10:19:33,552 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 10:19:33,552 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 10:19:34,191 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 10:19:34,192 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 10:19:34,659 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-03 10:19:34,660 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-03 10:19:34,921 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:35,403 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:36,107 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:36,592 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-satya-nadella
+2025-03-03 10:19:36,592 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-satya-nadella
+2025-03-03 10:19:36,990 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-03 10:19:36,990 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-03 10:19:38,034 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:38,560 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-03 10:19:38,560 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-03 10:19:38,883 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 10:19:38,883 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 10:19:39,316 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 10:19:39,316 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 10:19:39,830 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 10:19:39,830 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 10:19:40,365 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 10:19:40,812 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 10:19:40,812 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 12:38:23,725 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:24,231 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:24,636 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/r3p252x2
+2025-03-03 12:38:24,637 - INFO - Fetching details from Luma event URL: https://lu.ma/r3p252x2
+2025-03-03 12:38:25,337 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-03 12:38:25,337 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-03 12:38:25,851 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 12:38:25,852 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 12:38:26,668 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-03 12:38:26,668 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-03 12:38:27,060 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 12:38:27,061 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 12:38:27,647 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-03 12:38:27,647 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-03 12:38:28,175 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-03 12:38:28,175 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-03 12:38:28,446 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:28,910 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:29,485 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:29,888 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-satya-nadella
+2025-03-03 12:38:29,889 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-satya-nadella
+2025-03-03 12:38:30,268 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-03 12:38:30,268 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-03 12:38:30,741 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:31,221 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-03 12:38:31,222 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-03 12:38:31,563 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 12:38:31,563 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 12:38:31,921 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 12:38:31,921 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 12:38:32,875 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-03 12:38:32,876 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-03 12:38:34,059 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-03 12:38:34,555 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-03 12:38:34,556 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-03 12:38:38,542 - INFO - Found 0 upcoming events
+2025-03-03 12:38:38,943 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 12:38:39,508 - INFO - Found 1 upcoming events
+2025-03-03 12:38:39,560 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-03 12:38:40,478 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 12:38:41,205 - INFO - Found 1 upcoming events
+2025-03-03 12:38:41,206 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-03 12:38:42,220 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-03 12:38:42,717 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-03 12:38:43,196 - INFO - Found 2 upcoming events
+2025-03-03 12:38:43,653 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 12:38:44,325 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-03 12:38:44,973 - INFO - Found 2 upcoming events
+2025-03-03 12:38:44,973 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-03 12:38:45,986 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-03 12:38:46,407 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-03 12:38:46,961 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-03 12:38:47,595 - INFO - Found 3 upcoming events
+2025-03-03 12:38:48,208 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-03 12:38:48,903 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-03 12:38:49,478 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-03 12:38:50,031 - INFO - Found 3 upcoming events
+2025-03-03 12:38:50,245 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 12:38:50,886 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 12:38:51,364 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 12:38:51,880 - INFO - Found 3 upcoming events
+2025-03-03 12:38:51,881 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-03 12:38:52,387 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-03 12:38:52,904 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-03 13:41:39,845 - INFO - Fetching Fabrik gatherings from https://www.joinfabrik.com/gatherings
+2025-03-03 13:41:40,183 - INFO - Found 0 potential event links
+2025-03-03 13:43:55,790 - INFO - Fetching Fabrik gatherings from https://www.joinfabrik.com/gatherings
+2025-03-03 13:43:55,991 - INFO - Found 0 potential event links
+2025-03-03 16:12:42,354 - ERROR - Error getting total pages: 403 Client Error: Forbidden for url: https://www.nycgovparks.org/events/shape-up-nyc/p1
+2025-03-03 16:12:42,354 - INFO - Found 1 pages of events
+2025-03-03 16:12:42,354 - INFO - Fetching events from page 1: https://www.nycgovparks.org/events/shape-up-nyc/p1
+2025-03-03 16:12:42,403 - ERROR - Error fetching events from page 1: 403 Client Error: Forbidden for url: https://www.nycgovparks.org/events/shape-up-nyc/p1
+2025-03-03 16:12:42,404 - WARNING - No events were fetched
+2025-03-03 16:13:31,400 - INFO - Found 18 pages of events
+2025-03-03 16:13:31,400 - INFO - Fetching events from page 1: https://www.nycgovparks.org/events/shape-up-nyc/p1
+2025-03-03 16:13:32,346 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,413 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,420 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,420 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:32,429 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,433 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,436 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,453 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,459 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,463 - INFO - Found 41 events on page 1
+2025-03-03 16:13:32,465 - INFO - Fetching events from page 2: https://www.nycgovparks.org/events/shape-up-nyc/p2
+2025-03-03 16:13:32,960 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,981 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,981 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,987 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:32,987 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:32,998 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:32,999 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,002 - INFO - Found 43 events on page 2
+2025-03-03 16:13:33,003 - INFO - Fetching events from page 3: https://www.nycgovparks.org/events/shape-up-nyc/p3
+2025-03-03 16:13:33,747 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,757 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,759 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,770 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,777 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,777 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:33,785 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,789 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,791 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:33,799 - INFO - Found 41 events on page 3
+2025-03-03 16:13:33,799 - INFO - Fetching events from page 4: https://www.nycgovparks.org/events/shape-up-nyc/p4
+2025-03-03 16:13:34,892 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:34,901 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:34,934 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:34,948 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:34,955 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:34,956 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:34,960 - INFO - Found 44 events on page 4
+2025-03-03 16:13:34,961 - INFO - Fetching events from page 5: https://www.nycgovparks.org/events/shape-up-nyc/p5
+2025-03-03 16:13:36,802 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:36,803 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:36,824 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,825 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,838 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,849 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,851 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,859 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,866 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:36,867 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:36,871 - INFO - Found 40 events on page 5
+2025-03-03 16:13:36,872 - INFO - Fetching events from page 6: https://www.nycgovparks.org/events/shape-up-nyc/p6
+2025-03-03 16:13:37,761 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:37,769 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:37,774 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:37,807 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:37,814 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:37,844 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:37,856 - INFO - Found 44 events on page 6
+2025-03-03 16:13:37,857 - INFO - Fetching events from page 7: https://www.nycgovparks.org/events/shape-up-nyc/p7
+2025-03-03 16:13:47,855 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:47,870 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,871 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,887 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:47,888 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:47,904 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,907 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,907 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,935 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,959 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,962 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:47,966 - INFO - Found 39 events on page 7
+2025-03-03 16:13:47,967 - INFO - Fetching events from page 8: https://www.nycgovparks.org/events/shape-up-nyc/p8
+2025-03-03 16:13:49,160 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,175 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,175 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:49,189 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,194 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,199 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,237 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,246 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:49,261 - INFO - Found 42 events on page 8
+2025-03-03 16:13:49,262 - INFO - Fetching events from page 9: https://www.nycgovparks.org/events/shape-up-nyc/p9
+2025-03-03 16:13:51,981 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,002 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:52,007 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,009 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,019 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:52,019 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:13:52,033 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,035 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,036 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,042 - INFO - Found 41 events on page 9
+2025-03-03 16:13:52,044 - INFO - Fetching events from page 10: https://www.nycgovparks.org/events/shape-up-nyc/p10
+2025-03-03 16:13:52,891 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,898 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,904 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,944 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,977 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,981 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,990 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,992 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:52,992 - INFO - Found 42 events on page 10
+2025-03-03 16:13:52,993 - INFO - Fetching events from page 11: https://www.nycgovparks.org/events/shape-up-nyc/p11
+2025-03-03 16:13:53,644 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,669 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,689 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,690 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,695 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,696 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,698 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:53,709 - INFO - Found 43 events on page 11
+2025-03-03 16:13:53,709 - INFO - Fetching events from page 12: https://www.nycgovparks.org/events/shape-up-nyc/p12
+2025-03-03 16:13:54,464 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:54,495 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:54,508 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:54,514 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:54,537 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:54,547 - INFO - Found 45 events on page 12
+2025-03-03 16:13:54,548 - INFO - Fetching events from page 13: https://www.nycgovparks.org/events/shape-up-nyc/p13
+2025-03-03 16:13:55,251 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,253 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,262 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,264 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,272 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,305 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,326 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,329 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,336 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:13:55,339 - INFO - Found 41 events on page 13
+2025-03-03 16:13:55,340 - INFO - Fetching events from page 14: https://www.nycgovparks.org/events/shape-up-nyc/p14
+2025-03-03 16:14:11,875 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:11,894 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:11,897 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:11,919 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:11,919 - INFO - Found 46 events on page 14
+2025-03-03 16:14:11,921 - INFO - Fetching events from page 15: https://www.nycgovparks.org/events/shape-up-nyc/p15
+2025-03-03 16:14:12,853 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:12,855 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:12,895 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:12,911 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:12,912 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:12,916 - INFO - Found 45 events on page 15
+2025-03-03 16:14:12,916 - INFO - Fetching events from page 16: https://www.nycgovparks.org/events/shape-up-nyc/p16
+2025-03-03 16:14:13,762 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:13,789 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:13,790 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:13,812 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:13,822 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:13,822 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:13,825 - INFO - Found 44 events on page 16
+2025-03-03 16:14:13,825 - INFO - Fetching events from page 17: https://www.nycgovparks.org/events/shape-up-nyc/p17
+2025-03-03 16:14:14,586 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:14,597 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:14,612 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:14,622 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:14,638 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:14,641 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:14,646 - INFO - Found 44 events on page 17
+2025-03-03 16:14:14,646 - INFO - Fetching events from page 18: https://www.nycgovparks.org/events/shape-up-nyc/p18
+2025-03-03 16:14:15,322 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:15,335 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:15,338 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:14:15,341 - INFO - Found 13 events on page 18
+2025-03-03 16:14:15,419 - INFO - Saved 738 events to ./data/nyc_parks_events.json
+2025-03-03 16:15:37,229 - INFO - Found 18 pages of events
+2025-03-03 16:15:37,229 - INFO - Fetching events from page 1: https://www.nycgovparks.org/events/shape-up-nyc/p1
+2025-03-03 16:15:37,597 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,661 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,668 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,669 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:37,677 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,681 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,684 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,700 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,705 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:37,709 - INFO - Found 41 events on page 1
+2025-03-03 16:15:37,709 - INFO - Fetching events from page 2: https://www.nycgovparks.org/events/shape-up-nyc/p2
+2025-03-03 16:15:38,066 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,083 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,084 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,090 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:38,091 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:38,100 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,101 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,104 - INFO - Found 43 events on page 2
+2025-03-03 16:15:38,105 - INFO - Fetching events from page 3: https://www.nycgovparks.org/events/shape-up-nyc/p3
+2025-03-03 16:15:38,491 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,501 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,504 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,513 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,520 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,520 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:38,526 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,528 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,531 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:38,539 - INFO - Found 41 events on page 3
+2025-03-03 16:15:38,539 - INFO - Fetching events from page 4: https://www.nycgovparks.org/events/shape-up-nyc/p4
+2025-03-03 16:15:39,118 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,128 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,155 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,166 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:39,171 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,171 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,175 - INFO - Found 44 events on page 4
+2025-03-03 16:15:39,176 - INFO - Fetching events from page 5: https://www.nycgovparks.org/events/shape-up-nyc/p5
+2025-03-03 16:15:39,619 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:39,620 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:39,633 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,635 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,648 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,657 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,659 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,667 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,672 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:39,672 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:39,676 - INFO - Found 40 events on page 5
+2025-03-03 16:15:39,677 - INFO - Fetching events from page 6: https://www.nycgovparks.org/events/shape-up-nyc/p6
+2025-03-03 16:15:40,126 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,134 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,141 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,177 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,184 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,206 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,212 - INFO - Found 44 events on page 6
+2025-03-03 16:15:40,212 - INFO - Fetching events from page 7: https://www.nycgovparks.org/events/shape-up-nyc/p7
+2025-03-03 16:15:40,566 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:40,573 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,573 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,581 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:40,581 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:40,593 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,595 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,595 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,606 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,614 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,615 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:40,616 - INFO - Found 39 events on page 7
+2025-03-03 16:15:40,617 - INFO - Fetching events from page 8: https://www.nycgovparks.org/events/shape-up-nyc/p8
+2025-03-03 16:15:41,104 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,115 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,116 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:41,125 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,128 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,131 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,147 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,153 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,158 - INFO - Found 42 events on page 8
+2025-03-03 16:15:41,159 - INFO - Fetching events from page 9: https://www.nycgovparks.org/events/shape-up-nyc/p9
+2025-03-03 16:15:41,537 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,547 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:41,551 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,552 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,558 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:41,560 - ERROR - Error parsing event: 'NoneType' object is not subscriptable
+2025-03-03 16:15:41,568 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,570 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,570 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,575 - INFO - Found 41 events on page 9
+2025-03-03 16:15:41,575 - INFO - Fetching events from page 10: https://www.nycgovparks.org/events/shape-up-nyc/p10
+2025-03-03 16:15:41,962 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,966 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,970 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:41,999 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,027 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,029 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,036 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,037 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,037 - INFO - Found 42 events on page 10
+2025-03-03 16:15:42,038 - INFO - Fetching events from page 11: https://www.nycgovparks.org/events/shape-up-nyc/p11
+2025-03-03 16:15:42,469 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,502 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,521 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,522 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,530 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,533 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,535 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,544 - INFO - Found 43 events on page 11
+2025-03-03 16:15:42,544 - INFO - Fetching events from page 12: https://www.nycgovparks.org/events/shape-up-nyc/p12
+2025-03-03 16:15:42,957 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,981 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,993 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:42,998 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,019 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,028 - INFO - Found 45 events on page 12
+2025-03-03 16:15:43,028 - INFO - Fetching events from page 13: https://www.nycgovparks.org/events/shape-up-nyc/p13
+2025-03-03 16:15:43,691 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,694 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,701 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,703 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,709 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,731 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,755 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,758 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,762 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:43,764 - INFO - Found 41 events on page 13
+2025-03-03 16:15:43,764 - INFO - Fetching events from page 14: https://www.nycgovparks.org/events/shape-up-nyc/p14
+2025-03-03 16:15:44,413 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:44,429 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:44,431 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:44,453 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:44,453 - INFO - Found 46 events on page 14
+2025-03-03 16:15:44,454 - INFO - Fetching events from page 15: https://www.nycgovparks.org/events/shape-up-nyc/p15
+2025-03-03 16:15:45,257 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:45,260 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:45,287 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:45,299 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:45,299 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:45,302 - INFO - Found 45 events on page 15
+2025-03-03 16:15:45,303 - INFO - Fetching events from page 16: https://www.nycgovparks.org/events/shape-up-nyc/p16
+2025-03-03 16:15:46,168 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,184 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,184 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,199 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,207 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,207 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,209 - INFO - Found 44 events on page 16
+2025-03-03 16:15:46,209 - INFO - Fetching events from page 17: https://www.nycgovparks.org/events/shape-up-nyc/p17
+2025-03-03 16:15:46,700 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,711 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,725 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,733 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,744 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,747 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:46,751 - INFO - Found 44 events on page 17
+2025-03-03 16:15:46,751 - INFO - Fetching events from page 18: https://www.nycgovparks.org/events/shape-up-nyc/p18
+2025-03-03 16:15:47,304 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:47,312 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:47,315 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
+2025-03-03 16:15:47,318 - INFO - Found 13 events on page 18
+2025-03-03 16:15:47,372 - INFO - Saved 738 events to ./scrapers/data/nyc_parks_events.json
