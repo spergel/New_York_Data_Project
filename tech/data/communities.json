@@ -85,8 +85,7 @@
       "contact": {
         "email": "community@techbiotransformers.com",
         "social": {
-          "twitter": "@techbiotransform",
-          "linkedin": "techbio-transformers"
+          "twitter": "@TechBi0"
         }
       },
       "website": "https://lu.ma/calendar/cal-0CU5Cs0WlroPpih?tag=nyc",
@@ -161,7 +160,8 @@
       "contact": {
         "email": "hello@boshis.place",
         "social": {
-          "instagram": "@boshisplace"
+          "instagram": "@boshisplace",
+          "twitter": "@boshisplace"
         }
       },
       "website": "https://boshis.place",
@@ -723,7 +723,12 @@
         "community"
       ],
       "membershipType": "Open",
-      "membershipFee": "Free"
+      "membershipFee": "Free",
+      "contact": {
+        "social": {
+          "twitter": "@verinyc"
+        }
+      }
     },
     {
       "id": "com_raid",

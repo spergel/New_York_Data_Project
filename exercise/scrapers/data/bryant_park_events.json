@@ -1,0 +1,249 @@
+{
+  "events": [
+    {
+      "id": "5240ac6e",
+      "source": "bryant_park",
+      "source_id": "2025-03-12",
+      "title": "Boot Camp",
+      "start_date": "2025-03-12T07:00:00-04:00",
+      "end_date": "2025-03-12T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-03-12",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/BootCamp_2018_Angelito_Jusay_thumbnail-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    },
+    {
+      "id": "5d98a16f",
+      "source": "bryant_park",
+      "source_id": "2025-03-19",
+      "title": "Boot Camp",
+      "start_date": "2025-03-19T07:00:00-04:00",
+      "end_date": "2025-03-19T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-03-19",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/Boot_Camp_program_thumbnail2-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    },
+    {
+      "id": "bd13b8dd",
+      "source": "bryant_park",
+      "source_id": "2025-03-26",
+      "title": "Boot Camp",
+      "start_date": "2025-03-26T07:00:00-04:00",
+      "end_date": "2025-03-26T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-03-26",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/BootCamp_2018_Angelito_Jusay_thumbnail-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    },
+    {
+      "id": "5ac529e8",
+      "source": "bryant_park",
+      "source_id": "2025-04-02",
+      "title": "Boot Camp",
+      "start_date": "2025-04-02T07:00:00-04:00",
+      "end_date": "2025-04-02T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-04-02",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/Boot_Camp_program_thumbnail2-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    },
+    {
+      "id": "fa13cbc4",
+      "source": "bryant_park",
+      "source_id": "2025-04-09",
+      "title": "Boot Camp",
+      "start_date": "2025-04-09T07:00:00-04:00",
+      "end_date": "2025-04-09T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-04-09",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/BootCamp_2018_Angelito_Jusay_thumbnail-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    },
+    {
+      "id": "0ccd46fe",
+      "source": "bryant_park",
+      "source_id": "2025-04-16",
+      "title": "Boot Camp",
+      "start_date": "2025-04-16T07:00:00-04:00",
+      "end_date": "2025-04-16T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-04-16",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/Boot_Camp_program_thumbnail2-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    },
+    {
+      "id": "2365bc9f",
+      "source": "bryant_park",
+      "source_id": "2025-04-23",
+      "title": "Boot Camp",
+      "start_date": "2025-04-23T07:00:00-04:00",
+      "end_date": "2025-04-23T08:00:00-04:00",
+      "description": "",
+      "url": "https://bryantpark.org/calendar/event/boot-camp/2025-04-23",
+      "image_url": "https://bryantpark.org/images/cache/assets/uploads/images/general/BootCamp_2018_Angelito_Jusay_thumbnail-700x530.jpg",
+      "venue": {
+        "name": "Bryant Park",
+        "address": "Bryant Park, New York, NY",
+        "room": "",
+        "additional_info": "",
+        "type": "physical",
+        "geo": {
+          "latitude": 40.7536,
+          "longitude": -73.9832
+        }
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "boot camp",
+        "fitness",
+        "outdoor"
+      ],
+      "speakers": [],
+      "community_id": "bryant_park",
+      "raw_data": {}
+    }
+  ]
+}

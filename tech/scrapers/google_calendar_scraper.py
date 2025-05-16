@@ -5,16 +5,32 @@ import requests
 import logging
 from typing import Dict, List, Optional
 from googleapiclient.discovery import build
-from datetime import datetime, UTC
+from datetime import datetime, timezone
+import hashlib
+from bs4 import BeautifulSoup
+import sys
+
+# Setup paths
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(TECH_DIR, 'data')
+
+# Import local modules
+sys.path.append(SCRIPT_DIR)
 from calendar_configs import GOOGLE_CALENDARS
 from dotenv import load_dotenv
-from bs4 import BeautifulSoup
 
-# Import the get_luma_event_details function from ics_calendar_scraper
-from ics_calendar_scraper import get_luma_event_details
+# Add import for Luma event details function
+try:
+    from ics_calendar_scraper import get_luma_event_details
+except ImportError:
+    # Define a fallback function if import fails
+    def get_luma_event_details(url):
+        logging.warning(f"Could not import get_luma_event_details, returning empty dict for {url}")
+        return {}
 
 # Load environment variables from .env.local
-load_dotenv(dotenv_path='../../.env.local')
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(TECH_DIR), '.env.local'))
 
 # Configure logging
 logging.basicConfig(
@@ -25,24 +41,37 @@ logging.basicConfig(
 # Load locations data
 def load_locations() -> Dict:
     try:
-        with open('../../public/data/locations.json', 'r', encoding='utf-8') as f:
+        locations_file = os.path.join(DATA_DIR, 'locations.json')
+        if not os.path.exists(locations_file):
+            logging.warning(f"Locations file not found: {locations_file}")
+            return {}
+        
+        with open(locations_file, 'r', encoding='utf-8') as f:
             return {loc['id']: loc for loc in json.load(f).get('locations', [])}
     except Exception as e:
-        print(f"Error loading locations: {e}")
+        logging.error(f"Error loading locations: {e}")
         return {}
 
 # Load communities data
 def load_communities() -> Dict:
     try:
-        with open('../../public/data/communities.json', 'r', encoding='utf-8') as f:
+        communities_file = os.path.join(DATA_DIR, 'communities.json')
+        if not os.path.exists(communities_file):
+            logging.warning(f"Communities file not found: {communities_file}")
+            return {}
+            
+        with open(communities_file, 'r', encoding='utf-8') as f:
             return {com['id']: com for com in json.load(f).get('communities', [])}
     except Exception as e:
-        print(f"Error loading communities: {e}")
+        logging.error(f"Error loading communities: {e}")
         return {}
 
 # Google Calendar Sources
-
 API_KEY = os.getenv("GOOGLE_API_KEY")
+
+if not API_KEY:
+    logging.warning("Google API key not found. Set GOOGLE_API_KEY in .env.local file.")
+
 LOCATIONS = load_locations()
 COMMUNITIES = load_communities()
 
@@ -97,15 +126,15 @@ def get_location_id(event_location: str, community_id: str) -> str:
     
     return ""
 
-def extract_luma_url(text: str) -> Optional[str]:
-    """Extract Luma event URL from text if present"""
+def extract_event_url(text: str) -> Optional[str]:
+    """Extract Luma or Eventbrite event URL from text if present"""
     if not text:
         return None
         
     # Look for common patterns in Google Calendar description
     patterns = [
-        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:)\s*(https?://lu\.ma/\S+)',
-        r'(https?://lu\.ma/\S+)'
+        r'(?:Get up-to-date information at:|More info:|RSVP:|Register:)\s*(https?://(?:lu\.ma|www\.eventbrite\.com)/\S+)',
+        r'(https?://(?:lu\.ma|www\.eventbrite\.com)/\S+)'
     ]
     
     for pattern in patterns:
@@ -123,17 +152,22 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
     event_id = f"evt_{community_id}_{event['id'][:8]}"
     description = event.get('description', '')
     
-    # Try to extract Luma event URL from description
-    luma_url = extract_luma_url(description)
+    # Get location from event
+    event_location = event.get('location', '')
+    
+    # Try to extract event URL from description
+    event_url = extract_event_url(description)
+    
+    # If no URL found in description, try location field
+    if not event_url and event_location:
+        event_url = extract_event_url(event_location)
+    
     luma_details = None
     
     # If we found a Luma URL, fetch additional details
-    if luma_url:
-        logging.info(f"Found Luma URL in Google Calendar event: {luma_url}")
-        luma_details = get_luma_event_details(luma_url)
-    
-    # Get location from event
-    event_location = event.get('location', '')
+    if event_url and 'lu.ma' in event_url:
+        logging.info(f"Found Luma URL in Google Calendar event: {event_url}")
+        luma_details = get_luma_event_details(event_url)
     
     # If Luma details have better location info, use it
     if luma_details and 'location_details' in luma_details:
@@ -194,7 +228,6 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         image_url = luma_details['image_url']
         if image_url:
             # Generate a filename from the URL
-            import hashlib
             image_hash = hashlib.md5(image_url.encode()).hexdigest()[:8]
             image = f"luma-event-{image_hash}.jpg"
     
@@ -244,7 +277,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         "image": image,
         "status": "upcoming",
         "metadata": {
-            "source_url": luma_url if luma_url else event.get('htmlLink', ''),
+            "source_url": event_url if event_url else event.get('htmlLink', ''),
             "organizer": {
                 "name": event.get('organizer', {}).get('displayName', ''),
                 "instagram": "",
@@ -258,38 +291,53 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
             "speakers": speakers,
             "social_links": social_links,
             "featured": False,
-            "luma_source": True if luma_url else False
+            "luma_source": True if event_url and 'lu.ma' in event_url else False
         }
     }
 
 def fetch_google_calendar_events(calendar_id: str, community_id: str) -> List[Dict]:
-    """Fetch events using API key"""
+    """Fetch events from a Google Calendar."""
+    events = []
+    
+    if not API_KEY:
+        logging.error("No Google API key available. Skipping calendar fetch.")
+        return events
+    
     try:
-        service = build('calendar', 'v3', developerKey=API_KEY)
+        # Create a service object
+        service = build('calendar', 'v3', developerKey=API_KEY, cache_discovery=False)
         
-        # Use timezone-aware datetime for start and end
-        now = datetime.now(UTC)
-        one_year_from_now = datetime(now.year + 1, now.month, now.day, tzinfo=UTC)
+        # Get current time and one year from now
+        now = datetime.now(timezone.utc)
+        one_year_from_now = datetime(now.year + 1, now.month, now.day, tzinfo=timezone.utc)
         
+        # Fetch events
         events_result = service.events().list(
             calendarId=calendar_id,
             timeMin=now.isoformat(),
             timeMax=one_year_from_now.isoformat(),
-            maxResults=200,  # Increased from 100 to 200
             singleEvents=True,
-            orderBy='startTime'
+            orderBy='startTime',
+            maxResults=100
         ).execute()
         
-        events = events_result.get('items', [])
+        raw_events = events_result.get('items', [])
         
-        if not events:
-            return []
-            
-        return [format_google_event(event, community_id) for event in events]
+        # Process each event
+        for event in raw_events:
+            try:
+                formatted_event = format_google_event(event, community_id)
+                events.append(formatted_event)
+            except Exception as e:
+                logging.error(f"Error formatting event {event.get('summary', 'Unnamed event')}: {e}")
+                continue
+                
+        logging.info(f"Fetched {len(events)} events from calendar {calendar_id} for community {community_id}")
+        return events
         
     except Exception as e:
-        print(f"Error fetching Google Calendar events: {e}")
-        return []
+        logging.error(f"Error fetching Google Calendar events: {e}")
+        return events
 
 def is_future_event(event: Dict) -> bool:
     """Check if event hasn't ended yet"""
@@ -302,9 +350,9 @@ def is_future_event(event: Dict) -> bool:
         if 'T' in end_date_str:
             end_date = datetime.fromisoformat(end_date_str.replace('Z', '+00:00'))
         else:
-            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=UTC)
+            end_date = datetime.fromisoformat(end_date_str).replace(tzinfo=timezone.utc)
             
-        return end_date > datetime.now(UTC)
+        return end_date > datetime.now(timezone.utc)
         
     except Exception as e:
         print(f"Error parsing date for event {event.get('id')}: {e}")
@@ -314,9 +362,9 @@ def main():
     all_events = []
     
     # Fetch Google Calendar events
-    print("Fetching Google Calendar events...")
+    logging.info("Fetching Google Calendar events...")
     for calendar_name, config in GOOGLE_CALENDARS.items():
-        print(f"Fetching events for {calendar_name}...")
+        logging.info(f"Fetching events for {calendar_name}...")
         google_events = fetch_google_calendar_events(config["id"], config["community_id"])
         all_events.extend(google_events)
     
@@ -325,14 +373,19 @@ def main():
     
     # Save filtered events to file
     output = {"events": filtered_events}
-    output_file = 'data/google_calendar_events.json'
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
+    # Create data directory if it doesn't exist
+    os.makedirs(DATA_DIR, exist_ok=True)
+    
+    output_file = os.path.join(DATA_DIR, 'google_calendar_events.json')
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     
-    print(f"\nTotal future events collected: {len(filtered_events)}")
-    print(f"Events saved to {output_file}")
+    logging.info(f"Total future events collected: {len(filtered_events)}")
+    logging.info(f"Saved {len(filtered_events)} events to {output_file}")
+    
+    return output_file
 
 if __name__ == '__main__':
     main() 

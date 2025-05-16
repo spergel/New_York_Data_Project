@@ -6301,3 +6301,3560 @@ Summary:
 2025-03-04 18:32:11,965 - INFO -   Startup & Entrepreneurship: 10 events (0.72 avg confidence)
 2025-03-04 18:32:11,965 - INFO -   Tech Innovation & Research: 6 events (0.76 avg confidence)
 2025-03-04 18:32:12,064 - INFO - Events categorized successfully
+2025-03-05 09:56:15,233 - INFO - 
+Processing fabrik_events.json
+2025-03-05 09:56:15,235 - INFO - 
+Processing garys_guide_events.json
+2025-03-05 09:56:15,236 - INFO - 
+Processing google_calendar_events.json
+2025-03-05 09:56:15,248 - INFO - Filtered out 64 events without a name or with a blank name
+2025-03-05 09:56:15,248 - INFO - 
+Processing ics_calendar_events.json
+2025-03-05 09:56:15,251 - INFO - 
+Processing index_space_events.json
+2025-03-05 09:56:15,252 - ERROR - Error loading scrapers/data\index_space_events.json: Expecting value: line 1 column 1 (char 0)
+2025-03-05 09:56:15,252 - INFO - 
+Processing interference_events.json
+2025-03-05 09:56:15,253 - INFO - 
+Processing pioneer_works_events.json
+2025-03-05 09:57:34,911 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-05 09:57:34,912 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-05 09:57:34,912 - INFO - 
+Duplicate #1:
+2025-03-05 09:57:34,913 - INFO -   Title: SideQuest #22
+2025-03-05 09:57:34,913 - INFO -   Community ID: com_fractal
+2025-03-05 09:57:34,913 - INFO -   Location: 
+2025-03-05 09:57:34,913 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,913 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 09:57:34,914 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-05 09:57:34,914 - INFO - 
+Duplicate #2:
+2025-03-05 09:57:34,914 - INFO -   Title: SideQuest #22
+2025-03-05 09:57:34,915 - INFO -   Community ID: com_sidequest
+2025-03-05 09:57:34,915 - INFO -   Location: 
+2025-03-05 09:57:34,915 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,915 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-05 09:57:34,917 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-05 09:57:34,917 - INFO - 
+Merging events:
+2025-03-05 09:57:34,917 - INFO -   Primary Community: com_fractal
+2025-03-05 09:57:34,917 - INFO -   Associated Communities: com_sidequest
+2025-03-05 09:57:34,917 - INFO -   Using Fractal's location for SideQuest event: loc_fractal
+2025-03-05 09:57:34,918 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-05 09:57:34,918 - INFO -   Removed 1 duplicate speakers
+2025-03-05 09:57:34,918 - INFO -   Final speakers: Chandiran
+2025-03-05 09:57:34,919 - INFO -   Removed 1 duplicate categories
+2025-03-05 09:57:34,919 - INFO -   Final categories: Arts & Culture
+2025-03-05 09:57:34,919 - INFO -   Removed 2 duplicate social links
+2025-03-05 09:57:34,919 - INFO -   Merge complete
+
+2025-03-05 09:57:34,919 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-05 09:57:34,920 - INFO - 
+Duplicate #1:
+2025-03-05 09:57:34,920 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-05 09:57:34,920 - INFO -   Community ID: com_fractal
+2025-03-05 09:57:34,920 - INFO -   Location: 
+2025-03-05 09:57:34,921 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,921 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 09:57:34,921 - INFO -   Speakers: 
+2025-03-05 09:57:34,922 - INFO - 
+Duplicate #2:
+2025-03-05 09:57:34,923 - INFO -   Title: Code & Coffee
+2025-03-05 09:57:34,923 - INFO -   Community ID: com_fractal
+2025-03-05 09:57:34,924 - INFO -   Location: 
+2025-03-05 09:57:34,924 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,925 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 09:57:34,925 - INFO -   Speakers: 
+2025-03-05 09:57:34,925 - INFO - 
+Merging events:
+2025-03-05 09:57:34,925 - INFO -   Primary Community: com_fractal
+2025-03-05 09:57:34,926 - INFO -   Associated Communities: None
+2025-03-05 09:57:34,926 - INFO -   Ensuring Fractal event uses loc_fractal
+2025-03-05 09:57:34,926 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-05 09:57:34,926 - INFO -   Merge complete
+
+2025-03-05 09:57:34,927 - INFO - 
+Found 6 duplicate events with URL: https://lu.ma/verci
+2025-03-05 09:57:34,927 - INFO - 
+Duplicate #1:
+2025-03-05 09:57:34,927 - INFO -   Title: Z Fellows x Verci
+2025-03-05 09:57:34,927 - INFO -   Community ID: com_verci
+2025-03-05 09:57:34,927 - INFO -   Location: 
+2025-03-05 09:57:34,927 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,929 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 09:57:34,929 - INFO -   Speakers: 
+2025-03-05 09:57:34,929 - INFO - 
+Duplicate #2:
+2025-03-05 09:57:34,929 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-05 09:57:34,929 - INFO -   Community ID: com_verci
+2025-03-05 09:57:34,930 - INFO -   Location: 
+2025-03-05 09:57:34,930 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,930 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 09:57:34,930 - INFO -   Speakers: 
+2025-03-05 09:57:34,930 - INFO - 
+Duplicate #3:
+2025-03-05 09:57:34,931 - INFO -   Title: The Big Suit Show Premiere!
+2025-03-05 09:57:34,931 - INFO -   Community ID: com_verci
+2025-03-05 09:57:34,931 - INFO -   Location: 
+2025-03-05 09:57:34,931 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,932 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 09:57:34,932 - INFO -   Speakers: 
+2025-03-05 09:57:34,932 - INFO - 
+Duplicate #4:
+2025-03-05 09:57:34,933 - INFO -   Title: Blooming Peace: A Day Retreat
+2025-03-05 09:57:34,933 - INFO -   Community ID: com_verci
+2025-03-05 09:57:34,933 - INFO -   Location: 
+2025-03-05 09:57:34,934 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,934 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 09:57:34,934 - INFO -   Speakers: 
+2025-03-05 09:57:34,934 - INFO - 
+Duplicate #5:
+2025-03-05 09:57:34,935 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-05 09:57:34,935 - INFO -   Community ID: com_verci
+2025-03-05 09:57:34,935 - INFO -   Location: 
+2025-03-05 09:57:34,935 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,936 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 09:57:34,936 - INFO -   Speakers: 
+2025-03-05 09:57:34,936 - INFO - 
+Duplicate #6:
+2025-03-05 09:57:34,936 - INFO -   Title: Much Anticipated Art Show
+2025-03-05 09:57:34,936 - INFO -   Community ID: com_verci
+2025-03-05 09:57:34,936 - INFO -   Location: 
+2025-03-05 09:57:34,937 - INFO -   Source: pioneer_works_events
+2025-03-05 09:57:34,937 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 09:57:34,938 - INFO -   Speakers: 
+2025-03-05 09:57:34,938 - INFO - 
+Merging events:
+2025-03-05 09:57:34,938 - INFO -   Primary Community: com_verci
+2025-03-05 09:57:34,938 - INFO -   Associated Communities: None
+2025-03-05 09:57:34,938 - INFO -   Organizers: Verci Events
+2025-03-05 09:57:34,939 - INFO -   Merge complete
+
+2025-03-05 09:57:34,939 - INFO - 
+=== Deduplication Summary ===
+2025-03-05 09:57:34,939 - INFO - Total events before deduplication: 297
+2025-03-05 09:57:34,940 - INFO - Total events after deduplication: 290
+2025-03-05 09:57:34,940 - INFO - Number of duplicate groups found: 3
+2025-03-05 09:57:34,941 - INFO - =====================================
+
+2025-03-05 09:57:34,999 - INFO - 
+Summary:
+2025-03-05 09:57:35,000 - INFO - Total events: 290
+2025-03-05 09:57:35,000 - INFO - Total locations: 29
+2025-03-05 09:57:35,000 - INFO - Top categories:
+2025-03-05 09:57:35,000 - INFO -   Networking & Social: 287 events (0.86 avg confidence)
+2025-03-05 09:57:35,000 - INFO -   Workshops & Training: 261 events (0.87 avg confidence)
+2025-03-05 09:57:35,001 - INFO -   Tech Talks & Conferences: 195 events (0.86 avg confidence)
+2025-03-05 09:57:35,001 - INFO -   Hackathons & Competitions: 67 events (0.78 avg confidence)
+2025-03-05 09:57:35,001 - INFO -   Coworking & Workspace: 44 events (0.73 avg confidence)
+2025-03-05 09:57:35,001 - INFO -   Tech Innovation & Research: 25 events (0.87 avg confidence)
+2025-03-05 09:57:35,002 - INFO -   Startup & Entrepreneurship: 9 events (0.7 avg confidence)
+2025-03-05 10:39:14,884 - INFO - 
+Processing fabrik_events.json
+2025-03-05 10:39:14,885 - INFO - 
+Processing garys_guide_events.json
+2025-03-05 10:39:14,886 - INFO - 
+Processing google_calendar_events.json
+2025-03-05 10:39:14,894 - INFO - Filtered out 64 events without a name or with a blank name
+2025-03-05 10:39:14,895 - INFO - 
+Processing ics_calendar_events.json
+2025-03-05 10:39:14,896 - INFO - 
+Processing index_space_events.json
+2025-03-05 10:39:14,897 - ERROR - Error loading scrapers/data\index_space_events.json: Expecting value: line 1 column 1 (char 0)
+2025-03-05 10:39:14,897 - INFO - 
+Processing interference_events.json
+2025-03-05 10:39:14,898 - INFO - 
+Processing pioneer_works_events.json
+2025-03-05 10:40:21,754 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-05 10:40:21,755 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-05 10:40:21,756 - INFO - 
+Duplicate #1:
+2025-03-05 10:40:21,756 - INFO -   Title: SideQuest #22
+2025-03-05 10:40:21,756 - INFO -   Community ID: com_fractal
+2025-03-05 10:40:21,756 - INFO -   Location: 
+2025-03-05 10:40:21,757 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,757 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 10:40:21,757 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-05 10:40:21,758 - INFO - 
+Duplicate #2:
+2025-03-05 10:40:21,758 - INFO -   Title: SideQuest #22
+2025-03-05 10:40:21,761 - INFO -   Community ID: com_sidequest
+2025-03-05 10:40:21,761 - INFO -   Location: 
+2025-03-05 10:40:21,762 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,762 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-05 10:40:21,763 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-05 10:40:21,763 - INFO - 
+Merging events:
+2025-03-05 10:40:21,763 - INFO -   Primary Community: com_sidequest
+2025-03-05 10:40:21,763 - INFO -   Associated Communities: com_fractal
+2025-03-05 10:40:21,764 - INFO -   Using Fractal's location for SideQuest event: loc_fractal
+2025-03-05 10:40:21,764 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-05 10:40:21,764 - INFO -   Removed 1 duplicate speakers
+2025-03-05 10:40:21,765 - INFO -   Final speakers: Chandiran
+2025-03-05 10:40:21,765 - INFO -   Removed 2 duplicate social links
+2025-03-05 10:40:21,766 - INFO -   Merge complete
+
+2025-03-05 10:40:21,766 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-05 10:40:21,766 - INFO - 
+Duplicate #1:
+2025-03-05 10:40:21,766 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-05 10:40:21,767 - INFO -   Community ID: com_fractal
+2025-03-05 10:40:21,767 - INFO -   Location: 
+2025-03-05 10:40:21,767 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,767 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 10:40:21,768 - INFO -   Speakers: 
+2025-03-05 10:40:21,768 - INFO - 
+Duplicate #2:
+2025-03-05 10:40:21,768 - INFO -   Title: Code & Coffee
+2025-03-05 10:40:21,768 - INFO -   Community ID: com_fractal
+2025-03-05 10:40:21,768 - INFO -   Location: 
+2025-03-05 10:40:21,769 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,769 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 10:40:21,769 - INFO -   Speakers: 
+2025-03-05 10:40:21,769 - INFO - 
+Merging events:
+2025-03-05 10:40:21,769 - INFO -   Primary Community: com_fractal
+2025-03-05 10:40:21,769 - INFO -   Associated Communities: None
+2025-03-05 10:40:21,770 - INFO -   Ensuring Fractal event uses loc_fractal
+2025-03-05 10:40:21,770 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-05 10:40:21,770 - INFO -   Merge complete
+
+2025-03-05 10:40:21,770 - INFO - 
+Found 6 duplicate events with URL: https://lu.ma/verci
+2025-03-05 10:40:21,770 - INFO - 
+Duplicate #1:
+2025-03-05 10:40:21,770 - INFO -   Title: Z Fellows x Verci
+2025-03-05 10:40:21,772 - INFO -   Community ID: com_verci
+2025-03-05 10:40:21,772 - INFO -   Location: 
+2025-03-05 10:40:21,772 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,772 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 10:40:21,772 - INFO -   Speakers: 
+2025-03-05 10:40:21,773 - INFO - 
+Duplicate #2:
+2025-03-05 10:40:21,773 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-05 10:40:21,773 - INFO -   Community ID: com_verci
+2025-03-05 10:40:21,773 - INFO -   Location: 
+2025-03-05 10:40:21,773 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,773 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 10:40:21,774 - INFO -   Speakers: 
+2025-03-05 10:40:21,774 - INFO - 
+Duplicate #3:
+2025-03-05 10:40:21,774 - INFO -   Title: The Big Suit Show Premiere!
+2025-03-05 10:40:21,774 - INFO -   Community ID: com_verci
+2025-03-05 10:40:21,774 - INFO -   Location: 
+2025-03-05 10:40:21,775 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,775 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 10:40:21,775 - INFO -   Speakers: 
+2025-03-05 10:40:21,775 - INFO - 
+Duplicate #4:
+2025-03-05 10:40:21,775 - INFO -   Title: Blooming Peace: A Day Retreat
+2025-03-05 10:40:21,776 - INFO -   Community ID: com_verci
+2025-03-05 10:40:21,777 - INFO -   Location: 
+2025-03-05 10:40:21,777 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,777 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 10:40:21,778 - INFO -   Speakers: 
+2025-03-05 10:40:21,778 - INFO - 
+Duplicate #5:
+2025-03-05 10:40:21,778 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-05 10:40:21,778 - INFO -   Community ID: com_verci
+2025-03-05 10:40:21,778 - INFO -   Location: 
+2025-03-05 10:40:21,778 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,780 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 10:40:21,780 - INFO -   Speakers: 
+2025-03-05 10:40:21,780 - INFO - 
+Duplicate #6:
+2025-03-05 10:40:21,780 - INFO -   Title: Much Anticipated Art Show
+2025-03-05 10:40:21,780 - INFO -   Community ID: com_verci
+2025-03-05 10:40:21,781 - INFO -   Location: 
+2025-03-05 10:40:21,781 - INFO -   Source: pioneer_works_events
+2025-03-05 10:40:21,781 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 10:40:21,781 - INFO -   Speakers: 
+2025-03-05 10:40:21,782 - INFO - 
+Merging events:
+2025-03-05 10:40:21,782 - INFO -   Primary Community: com_verci
+2025-03-05 10:40:21,782 - INFO -   Associated Communities: None
+2025-03-05 10:40:21,782 - INFO -   Organizers: Verci Events
+2025-03-05 10:40:21,782 - INFO -   Merge complete
+
+2025-03-05 10:40:21,783 - INFO - 
+=== Deduplication Summary ===
+2025-03-05 10:40:21,783 - INFO - Total events before deduplication: 297
+2025-03-05 10:40:21,783 - INFO - Total events after deduplication: 290
+2025-03-05 10:40:21,783 - INFO - Number of duplicate groups found: 3
+2025-03-05 10:40:21,783 - INFO - =====================================
+
+2025-03-05 11:12:55,157 - INFO - 
+Processing fabrik_events.json
+2025-03-05 11:12:55,158 - INFO - 
+Processing garys_guide_events.json
+2025-03-05 11:12:55,158 - INFO - 
+Processing google_calendar_events.json
+2025-03-05 11:12:55,167 - INFO - Filtered out 64 events without a name or with a blank name
+2025-03-05 11:12:55,167 - INFO - 
+Processing ics_calendar_events.json
+2025-03-05 11:12:55,169 - INFO - 
+Processing index_space_events.json
+2025-03-05 11:12:55,169 - ERROR - Error loading scrapers/data\index_space_events.json: Expecting value: line 1 column 1 (char 0)
+2025-03-05 11:12:55,170 - INFO - 
+Processing interference_events.json
+2025-03-05 11:12:55,170 - INFO - 
+Processing pioneer_works_events.json
+2025-03-05 11:13:59,908 - INFO - 
+=== Starting Event Deduplication ===
+2025-03-05 11:13:59,909 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/j7ivki67
+2025-03-05 11:13:59,909 - INFO - 
+Duplicate #1:
+2025-03-05 11:13:59,909 - INFO -   Title: SideQuest #22
+2025-03-05 11:13:59,909 - INFO -   Community ID: com_fractal
+2025-03-05 11:13:59,909 - INFO -   Location: 
+2025-03-05 11:13:59,909 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,910 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 11:13:59,910 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-05 11:13:59,910 - INFO - 
+Duplicate #2:
+2025-03-05 11:13:59,910 - INFO -   Title: SideQuest #22
+2025-03-05 11:13:59,910 - INFO -   Community ID: com_sidequest
+2025-03-05 11:13:59,911 - INFO -   Location: 
+2025-03-05 11:13:59,911 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,911 - INFO -   Organizer: {'name': 'SideQuest', 'instagram': '', 'email': 'abln66abl799vb4gprllu4225l744l70@import.calendar.google.com'}
+2025-03-05 11:13:59,911 - INFO -   Speakers: Chandiran, Chandiran
+2025-03-05 11:13:59,911 - INFO - 
+Merging events:
+2025-03-05 11:13:59,912 - INFO -   Primary Community: com_fractal
+2025-03-05 11:13:59,912 - INFO -   Associated Communities: com_sidequest
+2025-03-05 11:13:59,913 - INFO -   Using Fractal's location for SideQuest event: loc_fractal
+2025-03-05 11:13:59,913 - INFO -   Organizers: Fractal Tech: NYC, SideQuest
+2025-03-05 11:13:59,914 - INFO -   Removed 1 duplicate speakers
+2025-03-05 11:13:59,914 - INFO -   Final speakers: Chandiran
+2025-03-05 11:13:59,914 - INFO -   Removed 2 duplicate social links
+2025-03-05 11:13:59,915 - INFO -   Merge complete
+
+2025-03-05 11:13:59,915 - INFO - 
+Found 2 duplicate events with URL: https://lu.ma/nyc-tech
+2025-03-05 11:13:59,915 - INFO - 
+Duplicate #1:
+2025-03-05 11:13:59,915 - INFO -   Title: Tech 4 BABIES Hackathon
+2025-03-05 11:13:59,916 - INFO -   Community ID: com_fractal
+2025-03-05 11:13:59,916 - INFO -   Location: 
+2025-03-05 11:13:59,916 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,916 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 11:13:59,916 - INFO -   Speakers: 
+2025-03-05 11:13:59,917 - INFO - 
+Duplicate #2:
+2025-03-05 11:13:59,917 - INFO -   Title: Code & Coffee
+2025-03-05 11:13:59,917 - INFO -   Community ID: com_fractal
+2025-03-05 11:13:59,917 - INFO -   Location: 
+2025-03-05 11:13:59,917 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,917 - INFO -   Organizer: {'name': 'Fractal Tech: NYC', 'instagram': '', 'email': 't3v2rsoufffl206jh102tva3jeekfgme@import.calendar.google.com'}
+2025-03-05 11:13:59,918 - INFO -   Speakers: 
+2025-03-05 11:13:59,918 - INFO - 
+Merging events:
+2025-03-05 11:13:59,918 - INFO -   Primary Community: com_fractal
+2025-03-05 11:13:59,919 - INFO -   Associated Communities: None
+2025-03-05 11:13:59,919 - INFO -   Ensuring Fractal event uses loc_fractal
+2025-03-05 11:13:59,920 - INFO -   Organizers: Fractal Tech: NYC
+2025-03-05 11:13:59,920 - INFO -   Merge complete
+
+2025-03-05 11:13:59,920 - INFO - 
+Found 6 duplicate events with URL: https://lu.ma/verci
+2025-03-05 11:13:59,920 - INFO - 
+Duplicate #1:
+2025-03-05 11:13:59,920 - INFO -   Title: Z Fellows x Verci
+2025-03-05 11:13:59,921 - INFO -   Community ID: com_verci
+2025-03-05 11:13:59,921 - INFO -   Location: 
+2025-03-05 11:13:59,921 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,921 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 11:13:59,921 - INFO -   Speakers: 
+2025-03-05 11:13:59,922 - INFO - 
+Duplicate #2:
+2025-03-05 11:13:59,922 - INFO -   Title: Willo: Feel the Music ft. FELA aKUsTIc
+2025-03-05 11:13:59,922 - INFO -   Community ID: com_verci
+2025-03-05 11:13:59,922 - INFO -   Location: 
+2025-03-05 11:13:59,922 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,923 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 11:13:59,923 - INFO -   Speakers: 
+2025-03-05 11:13:59,923 - INFO - 
+Duplicate #3:
+2025-03-05 11:13:59,923 - INFO -   Title: The Big Suit Show Premiere!
+2025-03-05 11:13:59,923 - INFO -   Community ID: com_verci
+2025-03-05 11:13:59,923 - INFO -   Location: 
+2025-03-05 11:13:59,924 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,924 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 11:13:59,924 - INFO -   Speakers: 
+2025-03-05 11:13:59,924 - INFO - 
+Duplicate #4:
+2025-03-05 11:13:59,925 - INFO -   Title: Blooming Peace: A Day Retreat
+2025-03-05 11:13:59,925 - INFO -   Community ID: com_verci
+2025-03-05 11:13:59,925 - INFO -   Location: 
+2025-03-05 11:13:59,925 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,925 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 11:13:59,925 - INFO -   Speakers: 
+2025-03-05 11:13:59,926 - INFO - 
+Duplicate #5:
+2025-03-05 11:13:59,926 - INFO -   Title: Studio Jams - How to DJ Workshop with Ibiyemi
+2025-03-05 11:13:59,926 - INFO -   Community ID: com_verci
+2025-03-05 11:13:59,926 - INFO -   Location: 
+2025-03-05 11:13:59,927 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,927 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 11:13:59,927 - INFO -   Speakers: 
+2025-03-05 11:13:59,927 - INFO - 
+Duplicate #6:
+2025-03-05 11:13:59,927 - INFO -   Title: Much Anticipated Art Show
+2025-03-05 11:13:59,928 - INFO -   Community ID: com_verci
+2025-03-05 11:13:59,928 - INFO -   Location: 
+2025-03-05 11:13:59,928 - INFO -   Source: pioneer_works_events
+2025-03-05 11:13:59,929 - INFO -   Organizer: {'name': 'Verci Events', 'instagram': '', 'email': 'pf6o7drlfrbhmpqlmlt7p215e70i9cjn@import.calendar.google.com'}
+2025-03-05 11:13:59,929 - INFO -   Speakers: 
+2025-03-05 11:13:59,930 - INFO - 
+Merging events:
+2025-03-05 11:13:59,930 - INFO -   Primary Community: com_verci
+2025-03-05 11:13:59,931 - INFO -   Associated Communities: None
+2025-03-05 11:13:59,931 - INFO -   Organizers: Verci Events
+2025-03-05 11:13:59,933 - INFO -   Merge complete
+
+2025-03-05 11:13:59,933 - INFO - 
+=== Deduplication Summary ===
+2025-03-05 11:13:59,934 - INFO - Total events before deduplication: 297
+2025-03-05 11:13:59,934 - INFO - Total events after deduplication: 290
+2025-03-05 11:13:59,934 - INFO - Number of duplicate groups found: 3
+2025-03-05 11:13:59,935 - INFO - =====================================
+
+2025-03-12 17:49:12,306 - INFO - Running pioneer_works_scraper...
+2025-03-12 17:49:27,569 - INFO - Collected 16 events from pioneer_works_scraper
+2025-03-12 17:49:27,580 - INFO - Running garys_guide_scraper...
+2025-03-12 17:49:27,581 - INFO - Starting Gary's Guide events scraper
+2025-03-12 17:49:27,864 - INFO - Found 88 events to scrape
+2025-03-12 17:49:28,082 - INFO - Scraped event: SXSW 2025
+Events & Parties!
+2025-03-12 17:49:29,210 - INFO - Scraped event: AI Agents For Work
+2025-03-12 17:49:30,399 - INFO - Scraped event: Brunch & Learn w/ Innovatemap
+2025-03-12 17:49:33,465 - INFO - Scraped event: CTV Connect
+2025-03-12 17:49:34,850 - INFO - Scraped event: Work-Bench Pre-Seed GTM Summit
+2025-03-12 17:49:36,098 - INFO - Scraped event: Build w/ AI - Agentic AI w/ Google Cloud
+2025-03-12 17:49:37,333 - INFO - Scraped event: Tech Girls Squad Advocacy Book Launch
+2025-03-12 17:49:38,556 - INFO - Scraped event: Startup School
+2025-03-12 17:49:39,698 - INFO - Scraped event: Women Sellers In Amazon's Store
+2025-03-12 17:49:40,866 - INFO - Scraped event: Women Of SaaS - Making Bold Moves In 2025
+2025-03-12 17:49:41,979 - INFO - Scraped event: -1 To Bilt Rewards
+2025-03-12 17:49:43,106 - INFO - Scraped event: CFO Happy Hour
+2025-03-12 17:49:44,213 - INFO - Scraped event: NYVR Meetup
+2025-03-12 17:49:46,032 - INFO - Scraped event: Investor Connect - Pitch Mixer
+2025-03-12 17:49:47,147 - INFO - Scraped event: ComfyUI Meetup - Celebrating Women In AI
+2025-03-12 17:49:48,265 - INFO - Scraped event: Tech Mixer
+2025-03-12 17:49:50,226 - INFO - Scraped event: Making In America - Calling All Immigrant Founders & Creators
+2025-03-12 17:49:51,416 - INFO - Scraped event: Machine Learning, Physics & Order - Understanding Gen AI
+2025-03-12 17:49:52,765 - INFO - Scraped event: Science & Society - AI & Us
+2025-03-12 17:49:54,134 - INFO - Scraped event: AI Bagels
+2025-03-12 17:49:55,406 - INFO - Scraped event: Conscious Leadership Coaching Office Hours
+2025-03-12 17:49:56,779 - INFO - Scraped event: Building Intelligent Things - R&D In AI
+2025-03-12 17:49:57,891 - INFO - Scraped event: Gen Z Founder & Creator Mixer
+2025-03-12 17:49:59,009 - INFO - Scraped event: VC Reality Check - Startup Pitch
+2025-03-12 17:50:00,117 - INFO - Scraped event: Code & Content - Tech & Media Mixer
+2025-03-12 17:50:01,248 - INFO - Scraped event: Shoe Talks w/ Lilith NYC
+2025-03-12 17:50:02,799 - INFO - Scraped event: Startup Pitch Mixer
+2025-03-12 17:50:04,307 - INFO - Scraped event: Healthcare Homies Happy Hour
+2025-03-12 17:50:05,468 - INFO - Scraped event: [Book Talk] Stream Big
+2025-03-12 17:50:06,624 - INFO - Scraped event: New York Tech & Beer - Happy Hour Social
+2025-03-12 17:50:07,786 - INFO - Scraped event: Founders Friday
+2025-03-12 17:50:08,933 - INFO - Scraped event: Law TechWalk
+2025-03-12 17:50:10,071 - INFO - Scraped event: Beyond Beijing 30 - AI For Equity & Impact
+2025-03-12 17:50:11,223 - INFO - Scraped event: Female Founders Lunch w/ The Clear Cut
+2025-03-12 17:50:12,414 - INFO - Scraped event: Flesh Feedback - Research To Reality
+2025-03-12 17:50:13,681 - INFO - Scraped event: CreativeMornings
+2025-03-12 17:50:14,957 - INFO - Scraped event: Block Party - Solana Birthday Bash
+2025-03-12 17:50:16,194 - INFO - Scraped event: NY SKI - Founder & Friends St Paddy's Day Ski Retreat
+2025-03-12 17:50:17,467 - INFO - Scraped event: Urban Science Research Seminar
+2025-03-12 17:50:18,581 - INFO - Scraped event: SVA Speaker Series
+2025-03-12 17:50:19,786 - INFO - Scraped event: Climate Tech Demo Night
+2025-03-12 17:50:21,219 - INFO - Scraped event: Test/Break - Evening Of Prototyping
+2025-03-12 17:50:22,355 - INFO - Scraped event: AI Project 2025 - Embrace The AI Revolution
+2025-03-12 17:50:23,476 - INFO - Scraped event: Mastering Fundraising Strategy & Storytelling
+2025-03-12 17:50:24,594 - INFO - Scraped event: AI Meetup - Building Reliable Data-Intensive Applications
+2025-03-12 17:50:25,826 - INFO - Scraped event: Enterprise Tech Meetup - Building World-Class Engg Orgs
+2025-03-12 17:50:26,988 - INFO - Scraped event: AI Founders & Investors Dinner
+2025-03-12 17:50:28,116 - INFO - Scraped event: Ignite AI Talks
+2025-03-12 17:50:29,244 - INFO - Scraped event: AI Engg Meetup
+2025-03-12 17:50:30,376 - INFO - Scraped event: Bringing DeFi To The Mainstream w/ Chainlink
+2025-03-12 17:50:31,503 - INFO - Scraped event: Climate Tech Mixer
+2025-03-12 17:50:32,785 - INFO - Scraped event: Startup Pitch - The Feedback Loop
+2025-03-12 17:50:34,001 - INFO - Scraped event: Brex Social Club w/ Crew Capital
+2025-03-12 17:50:35,225 - INFO - Scraped event: Space Apps NYC - Exploring Space Data
+2025-03-12 17:50:36,398 - INFO - Scraped event: From Diapers To Dinner
+2025-03-12 17:50:37,622 - INFO - Scraped event: Digital New York Summit
+2025-03-12 17:50:38,735 - INFO - Scraped event: Discover, Create, Evolve - Innovation Skills For The GenAI Era
+2025-03-12 17:50:39,878 - INFO - Scraped event: Exec GTM Roundtable
+2025-03-12 17:50:41,081 - INFO - Scraped event: Data Flows - Dune & Artemis Happy Hour
+2025-03-12 17:50:42,220 - INFO - Scraped event: Exec Intelligence Briefing - National Security & Tech Investment
+2025-03-12 17:50:43,437 - INFO - Scraped event: Health2Tech - Mass Extinction Of Digital Health Startups
+2025-03-12 17:50:44,577 - INFO - Scraped event: OWIH Accelerator Happy Hour
+2025-03-12 17:50:45,715 - INFO - Scraped event: New York Tech Social
+2025-03-12 17:50:46,838 - INFO - Scraped event: Tech Mixer
+2025-03-12 17:50:47,964 - INFO - Scraped event: AI x RWAs - Future Of On-Chain Asset Discovery & Automated Investing
+2025-03-12 17:50:49,085 - INFO - Scraped event: NYC GTM Leaders Dinner
+2025-03-12 17:50:50,209 - INFO - Scraped event: How To Become A 10X Founder - A Live HBS Case Study
+2025-03-12 17:50:51,348 - INFO - Scraped event: 3DNY Meetup
+2025-03-12 17:50:52,504 - INFO - Scraped event: Making Education Fun - AR/VR
+2025-03-12 17:50:53,690 - INFO - Scraped event: Book Talk - The Experimentation Machine
+2025-03-12 17:50:54,913 - INFO - Scraped event: Crypto Mixer
+2025-03-12 17:50:56,159 - INFO - Scraped event: Climate Tech Investors & Strategics Cocktail Hour
+2025-03-12 17:50:57,402 - INFO - Scraped event: Pitches & Pints - Startup Grind Happy Hour Showcase
+2025-03-12 17:50:59,113 - INFO - Scraped event: Life Sciences Tech Innovation Fellows Program Info Session
+2025-03-12 17:51:00,626 - INFO - Scraped event: Architecture Recipes For AI-Powered Applications
+2025-03-12 17:51:01,779 - INFO - Scraped event: Crazy Rich Asians Ivy Mixer
+2025-03-12 17:51:02,923 - INFO - Scraped event: Hardware Meetup - Climate Tech & Supply Chain
+2025-03-12 17:51:04,100 - INFO - Scraped event: Series A To F Founders Meetup
+2025-03-12 17:51:05,242 - INFO - Scraped event: The Junto Club
+2025-03-12 17:51:06,375 - INFO - Scraped event: Founder Breakfast Club
+2025-03-12 17:51:07,501 - INFO - Scraped event: Road To Overflow
+2025-03-12 17:51:08,741 - INFO - Scraped event: Learn How To Negotiate A Term Sheet
+2025-03-12 17:51:09,955 - INFO - Scraped event: Super Diners Club
+2025-03-12 17:51:11,302 - INFO - Scraped event: Founder Poker Club
+2025-03-12 17:51:12,519 - INFO - Scraped event: FinTech GTM Leadership Roundtable
+2025-03-12 17:51:13,891 - INFO - Scraped event: Redefine Possible - Women Pioneering Future Of AI
+2025-03-12 17:51:15,177 - INFO - Scraped event: Crypto Mixer
+2025-03-12 17:51:16,394 - INFO - Scraped event: Data Science Salon - Applying AI & ML To Finance & Tech
+2025-03-12 17:51:17,415 - INFO - Saved 88 new events to data/gary_events.json
+2025-03-12 17:51:17,416 - INFO - Successfully scraped 88 events from Gary's Guide
+2025-03-12 17:51:17,416 - INFO - Gary's Guide events scraping completed successfully
+2025-03-12 17:51:17,417 - WARNING - Could not load events from data/garys_guide_events.json: [Errno 2] No such file or directory: 'data/garys_guide_events.json'
+2025-03-12 17:51:17,418 - INFO - Collected 0 events from garys_guide_scraper
+2025-03-12 17:51:17,426 - INFO - Running interference_scraper...
+2025-03-12 17:51:18,739 - INFO - Found 27 event links
+2025-03-12 17:51:19,394 - INFO - Processed event: Tax Resistance 101 with the War Resisters League
+2025-03-12 17:51:20,056 - INFO - Processed event: Education Reading Group
+2025-03-12 17:51:20,845 - INFO - Processed event: Cultural workers for Palestine in NYC
+2025-03-12 17:51:21,676 - INFO - Processed event: Audio Working Group – February meeting
+2025-03-12 17:51:22,599 - INFO - Processed event: Radical Acupressure Skillshare
+2025-03-12 17:51:22,741 - INFO - Processed event: Fiber Friends of Falastin
+2025-03-12 17:51:23,680 - INFO - Processed event: Gender-Expansive Families Propaganda Party
+2025-03-12 17:51:24,450 - INFO - Processed event: Drawn Together
+2025-03-12 17:51:25,123 - INFO - Processed event: Fiber Friends of Falastin
+2025-03-12 17:51:25,125 - INFO - Saved 9 events to ./data/interference_events.json
+2025-03-12 17:51:25,140 - INFO - Collected 9 events from interference_scraper
+2025-03-12 17:51:26,681 - ERROR - Error running google_calendar_scraper: No module named 'calendar_configs'
+2025-03-12 17:51:26,702 - INFO - Collected 0 events from google_calendar_scraper
+2025-03-12 17:51:27,133 - ERROR - Error running ics_calendar_scraper: No module named 'calendar_configs'
+2025-03-12 17:51:27,133 - INFO - Collected 0 events from ics_calendar_scraper
+2025-03-12 17:51:27,149 - INFO - Running index_space_scraper...
+2025-03-12 17:51:27,150 - INFO - Fetching events from https://www.index-space.org/collections/events
+2025-03-12 17:51:28,172 - INFO - Found 99 event links from https://www.index-space.org/collections/events
+2025-03-12 17:51:28,172 - INFO - Fetching events from https://www.index-space.org/collections/happenings
+2025-03-12 17:51:29,932 - INFO - Found 200 event links from https://www.index-space.org/collections/happenings
+2025-03-12 17:51:29,934 - INFO - Found 200 event URLs to process
+2025-03-12 17:51:29,934 - INFO - Fetching details for event at https://www.index-space.org/products/resplendent-1
+2025-03-12 17:51:30,262 - INFO - Skipping past event: Resplendent!
+2025-03-12 17:51:30,263 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-edoardo-cozzani
+2025-03-12 17:51:30,675 - INFO - Skipping past event: A Studio Visit with Edoardo Cozzani
+2025-03-12 17:51:30,676 - INFO - Fetching details for event at https://www.index-space.org/products/creative-coding-playground-1
+2025-03-12 17:51:31,034 - WARNING - Failed to parse date/time Mar 24, 2023
+ — 
+Apr 21, 2023 Friday
+s 
+from
+ 
+6:00 pm
+ —
+ 
+9:00 pm
+ 
+UTC: Unknown string format: Mar 24, 2023
+ — 
+Apr 21, 2023 Friday
+s 
+from
+ 
+6:00 pm
+2025-03-12 17:51:31,037 - INFO - Successfully processed event: Creative Coding Playground
+2025-03-12 17:51:31,038 - INFO - Processed event: Creative Coding Playground
+2025-03-12 17:51:31,038 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-big-f-ck-you-energy
+2025-03-12 17:51:31,407 - INFO - Skipping past event: work—flow: on Big F*ck You Energy
+2025-03-12 17:51:31,408 - INFO - Fetching details for event at https://www.index-space.org/products/that-show
+2025-03-12 17:51:31,733 - INFO - Skipping past event: THAT SHOW
+2025-03-12 17:51:31,734 - INFO - Fetching details for event at https://www.index-space.org/products/vexillology-and-flag-design
+2025-03-12 17:51:32,192 - WARNING - Failed to parse date/time Sep 29, 2022
+ — 
+Oct 21, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Sep 29, 2022
+ — 
+Oct 21, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:51:32,195 - INFO - Successfully processed event: Vexillology and Flag Design
+2025-03-12 17:51:32,196 - INFO - Processed event: Vexillology and Flag Design
+2025-03-12 17:51:32,196 - INFO - Fetching details for event at https://www.index-space.org/products/elliot-keeler-cant-draw-and-so-can-you
+2025-03-12 17:51:32,801 - INFO - Skipping past event: Elliot Keeler Can’t Draw and So Can You
+2025-03-12 17:51:32,802 - INFO - Fetching details for event at https://www.index-space.org/products/creative-coding-playground
+2025-03-12 17:51:33,269 - WARNING - Failed to parse date/time Apr 19, 2022
+ — 
+May 18, 2022 Tuesday
+s 
+from
+ 
+9:30 pm
+ —
+ 
+12:30 am
+ 
+UTC: Unknown string format: Apr 19, 2022
+ — 
+May 18, 2022 Tuesday
+s 
+from
+ 
+9:30 pm
+2025-03-12 17:51:33,271 - INFO - Successfully processed event: Creative Coding Playground
+2025-03-12 17:51:33,271 - INFO - Processed event: Creative Coding Playground
+2025-03-12 17:51:33,272 - INFO - Fetching details for event at https://www.index-space.org/products/collaborative-drawing-and-writing-cadavre-exquis
+2025-03-12 17:51:33,693 - INFO - Skipping past event: Collaborative Drawing and Writing: Cadavre Exquis
+2025-03-12 17:51:33,694 - INFO - Fetching details for event at https://www.index-space.org/products/algae-bioplastic-workshop
+2025-03-12 17:51:34,290 - INFO - Skipping past event: Algae Bioplastic Workshop
+2025-03-12 17:51:34,292 - INFO - Fetching details for event at https://www.index-space.org/products/superhouse-dan-friedman
+2025-03-12 17:51:34,719 - INFO - Skipping past event: Superhouse Presents a Conversation with Jeffrey Deitch and Laurie Mallet on Artist Dan Friedman
+2025-03-12 17:51:34,721 - INFO - Fetching details for event at https://www.index-space.org/products/self-cities
+2025-03-12 17:51:35,326 - INFO - Skipping past event: Self Cities
+2025-03-12 17:51:35,327 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-focus
+2025-03-12 17:51:35,922 - INFO - Skipping past event: work—flow: on Focus
+2025-03-12 17:51:35,922 - INFO - Fetching details for event at https://www.index-space.org/products/a-z-radio-launch-meetup
+2025-03-12 17:51:36,390 - INFO - Skipping past event: a--z.radio launch & meetup
+2025-03-12 17:51:36,391 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-async
+2025-03-12 17:51:36,743 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:51:36,745 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-12 17:51:36,745 - INFO - Processed event: Intro to Coding for Designers
+2025-03-12 17:51:36,745 - INFO - Fetching details for event at https://www.index-space.org/products/kick-over-the-statues
+2025-03-12 17:51:37,230 - INFO - Skipping past event: Kick Over The Statues
+2025-03-12 17:51:37,230 - INFO - Fetching details for event at https://www.index-space.org/products/nature-drawing-at-elizabeth-street-garden
+2025-03-12 17:51:37,627 - INFO - Skipping past event: Nature Drawing At Elizabeth Street Garden
+2025-03-12 17:51:37,628 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-karl-monies-irl-copenhagen
+2025-03-12 17:51:37,901 - INFO - Skipping past event: A Studio Visit with Karl Monies (IRL Copenhagen)
+2025-03-12 17:51:37,902 - INFO - Fetching details for event at https://www.index-space.org/products/designing-natural-computers-for-everyday-life
+2025-03-12 17:51:38,234 - WARNING - Failed to parse date/time Sep 11, 2024
+ — 
+Oct 24, 2024 Wednesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Sep 11, 2024
+ — 
+Oct 24, 2024 Wednesday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:51:38,238 - INFO - Successfully processed event: Designing Natural Computers for Everyday Life
+2025-03-12 17:51:38,239 - INFO - Processed event: Designing Natural Computers for Everyday Life
+2025-03-12 17:51:38,239 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-metabolisms
+2025-03-12 17:51:38,615 - INFO - Skipping past event: Pasta Metabolisms
+2025-03-12 17:51:38,617 - INFO - Fetching details for event at https://www.index-space.org/products/the-launch-1
+2025-03-12 17:51:38,873 - WARNING - Failed to parse date/time Apr 12, 2023
+ — 
+May 18, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Apr 12, 2023
+ — 
+May 18, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:51:38,875 - INFO - Successfully processed event: The Launch
+2025-03-12 17:51:38,876 - INFO - Processed event: The Launch
+2025-03-12 17:51:38,876 - INFO - Fetching details for event at https://www.index-space.org/products/a-new-plan-to-capture-greenhouse-gas-book-talk-with-andres-chang
+2025-03-12 17:51:39,159 - INFO - Skipping past event: A New Plan to Capture Greenhouse Gas — Book Talk with Andres Chang
+2025-03-12 17:51:39,160 - INFO - Fetching details for event at https://www.index-space.org/products/speculative-design-and-climate-futures
+2025-03-12 17:51:39,483 - INFO - Skipping past event: Speculative Design and Climate Futures
+2025-03-12 17:51:39,484 - INFO - Fetching details for event at https://www.index-space.org/products/intermediate-coding-processing
+2025-03-12 17:51:39,795 - WARNING - Failed to parse date/time Apr 25, 2022
+ — 
+May 31, 2022 Monday
+s 
+from
+ 
+9:15 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Apr 25, 2022
+ — 
+May 31, 2022 Monday
+s 
+from
+ 
+9:15 pm
+2025-03-12 17:51:39,797 - INFO - Successfully processed event: Intermediate Coding: Intro to Computational Design
+2025-03-12 17:51:39,798 - INFO - Processed event: Intermediate Coding: Intro to Computational Design
+2025-03-12 17:51:39,798 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-public-spaces-of-midtown-manhattan
+2025-03-12 17:51:39,972 - INFO - Skipping past event: Noticing: Public Spaces of Midtown
+2025-03-12 17:51:39,973 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-natural-history-of-lower-manhattan
+2025-03-12 17:51:40,250 - INFO - Skipping past event: Noticing: Shaping Nature in Lower Manhattan
+2025-03-12 17:51:40,251 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-matt-merkel-hess
+2025-03-12 17:51:40,572 - INFO - Skipping past event: A Studio Visit with Matt Merkel Hess
+2025-03-12 17:51:40,573 - INFO - Fetching details for event at https://www.index-space.org/products/i-said-no
+2025-03-12 17:51:40,843 - INFO - Skipping past event: I Said No
+2025-03-12 17:51:40,844 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-together-1
+2025-03-12 17:51:41,418 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:51:41,422 - INFO - Successfully processed event: Pasta, Together
+2025-03-12 17:51:41,422 - INFO - Processed event: Pasta, Together
+2025-03-12 17:51:41,423 - INFO - Fetching details for event at https://www.index-space.org/products/tactile-toolbox-thinking-through-making
+2025-03-12 17:51:42,185 - WARNING - Failed to parse date/time Feb 29, 2024
+ — 
+Mar 30, 2024 Thursday
+s 
+from
+ 
+12:00 am
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Feb 29, 2024
+ — 
+Mar 30, 2024 Thursday
+s 
+from
+ 
+12:00 am
+2025-03-12 17:51:42,188 - INFO - Successfully processed event: Tactile Toolbox: Thinking Through Making
+2025-03-12 17:51:42,189 - INFO - Processed event: Tactile Toolbox: Thinking Through Making
+2025-03-12 17:51:42,189 - INFO - Fetching details for event at https://www.index-space.org/products/touch-grass
+2025-03-12 17:51:43,306 - WARNING - Failed to parse date/time May 28, 2024
+ — 
+Jun 26, 2024 Tuesday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: May 28, 2024
+ — 
+Jun 26, 2024 Tuesday
+s 
+from
+ 
+11:30 pm
+2025-03-12 17:51:43,308 - INFO - Successfully processed event: Touch Grass
+2025-03-12 17:51:43,308 - INFO - Processed event: Touch Grass
+2025-03-12 17:51:43,308 - INFO - Fetching details for event at https://www.index-space.org/products/collective-reading-the-extreme-self
+2025-03-12 17:51:45,053 - INFO - Skipping past event: Collective Reading: The Extreme Self
+2025-03-12 17:51:45,054 - INFO - Fetching details for event at https://www.index-space.org/products/the-launch
+2025-03-12 17:51:48,087 - WARNING - Failed to parse date/time Nov 9, 2022
+ — 
+Nov 30, 2022 Wednesday
+s 
+from
+ 
+12:00 am
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Nov 9, 2022
+ — 
+Nov 30, 2022 Wednesday
+s 
+from
+ 
+12:00 am
+2025-03-12 17:51:48,089 - INFO - Successfully processed event: The Launch
+2025-03-12 17:51:48,089 - INFO - Processed event: The Launch
+2025-03-12 17:51:48,089 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-tin-ed
+2025-03-12 17:51:48,672 - INFO - Skipping past event: An Artist Talk with Tin & Ed
+2025-03-12 17:51:48,673 - INFO - Fetching details for event at https://www.index-space.org/products/shaping-the-undefined
+2025-03-12 17:51:48,853 - INFO - Skipping past event: Shaping the Undefined: Leading Design in Early-Stage Startups
+2025-03-12 17:51:48,853 - INFO - Fetching details for event at https://www.index-space.org/products/making-and-breaking-the-zine-1
+2025-03-12 17:51:49,191 - WARNING - Failed to parse date/time Feb 3, 2024
+ — 
+Mar 9, 2024 Saturday
+s 
+from
+ 
+7:00 pm
+ —
+ 
+9:00 pm
+ 
+UTC: Unknown string format: Feb 3, 2024
+ — 
+Mar 9, 2024 Saturday
+s 
+from
+ 
+7:00 pm
+2025-03-12 17:51:49,193 - INFO - Successfully processed event: Making and Breaking the Zine
+2025-03-12 17:51:49,193 - INFO - Processed event: Making and Breaking the Zine
+2025-03-12 17:51:49,193 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-nahee-kim-at-pioneer-works-irl
+2025-03-12 17:51:49,397 - INFO - Skipping past event: A Studio Visit with Nahee Kim at Pioneer Works (IRL)
+2025-03-12 17:51:49,397 - INFO - Fetching details for event at https://www.index-space.org/products/generating-images-for-macine-learning
+2025-03-12 17:51:49,706 - WARNING - Failed to parse date/time Nov 4, 2023
+ — 
+Dec 9, 2023 Saturday
+s 
+from
+ 
+2:00 pm
+ —
+ 
+4:00 pm
+ 
+UTC: Unknown string format: Nov 4, 2023
+ — 
+Dec 9, 2023 Saturday
+s 
+from
+ 
+2:00 pm
+2025-03-12 17:51:49,708 - INFO - Successfully processed event: Generating Images with Machine Learning
+2025-03-12 17:51:49,708 - INFO - Processed event: Generating Images with Machine Learning
+2025-03-12 17:51:49,709 - INFO - Fetching details for event at https://www.index-space.org/products/producing-a-podcast-1
+2025-03-12 17:51:50,009 - INFO - Skipping past event: Producing a Podcast
+2025-03-12 17:51:50,009 - INFO - Fetching details for event at https://www.index-space.org/products/web-sites-of-masses-and-other-rites-of-passage
+2025-03-12 17:51:50,346 - INFO - Skipping past event: web.SITES OF MASSES and Other RITES OF PASSAGE
+2025-03-12 17:51:50,346 - INFO - Fetching details for event at https://www.index-space.org/products/painting-with-p5-js
+2025-03-12 17:51:50,649 - WARNING - Failed to parse date/time Oct 18, 2023
+ — 
+Nov 2, 2023 Wednesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:30 am
+ 
+UTC: Unknown string format: Oct 18, 2023
+ — 
+Nov 2, 2023 Wednesday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:51:50,651 - INFO - Successfully processed event: Painting with p5.js
+2025-03-12 17:51:50,651 - INFO - Processed event: Painting with p5.js
+2025-03-12 17:51:50,651 - INFO - Fetching details for event at https://www.index-space.org/products/resplendent
+2025-03-12 17:51:51,033 - INFO - Skipping past event: Resplendent!
+2025-03-12 17:51:51,033 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-megumi-shauna-arai
+2025-03-12 17:51:51,346 - INFO - Skipping past event: A Studio Visit with Megumi Shauna Arai
+2025-03-12 17:51:51,347 - INFO - Fetching details for event at https://www.index-space.org/products/designing-spaces-for-humans-2
+2025-03-12 17:51:51,681 - WARNING - Failed to parse date/time Oct 14, 2023
+ — 
+Nov 18, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Oct 14, 2023
+ — 
+Nov 18, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:51:51,682 - INFO - Successfully processed event: Designing Spaces for Humans
+2025-03-12 17:51:51,683 - INFO - Processed event: Designing Spaces for Humans
+2025-03-12 17:51:51,683 - INFO - Fetching details for event at https://www.index-space.org/products/copy-of-creative-studio-building-euro-friendly
+2025-03-12 17:51:52,019 - WARNING - Failed to parse date/time Mar 28, 2023
+ — 
+May 2, 2023 Tuesday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Mar 28, 2023
+ — 
+May 2, 2023 Tuesday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:51:52,020 - INFO - Successfully processed event: Creative Studio Building (Europe Friendly)
+2025-03-12 17:51:52,021 - INFO - Processed event: Creative Studio Building (Europe Friendly)
+2025-03-12 17:51:52,021 - INFO - Fetching details for event at https://www.index-space.org/products/a-practical-guide-to-sustainable-package-design
+2025-03-12 17:51:52,826 - INFO - Skipping past event: A Practical Guide to Sustainable Package Design
+2025-03-12 17:51:52,826 - INFO - Fetching details for event at https://www.index-space.org/products/seaborne-x-collective-reading-a-planet-to-win-why-we-need-a-green-new-deal
+2025-03-12 17:51:53,353 - INFO - Skipping past event: Collective Reading: A Planet to Win: Why We Need a Green New Deal
+2025-03-12 17:51:53,353 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-rebecca-lajboschitz
+2025-03-12 17:51:53,870 - INFO - Skipping past event: A Studio Visit with Rebecca Lajboschitz (Copenhagen)
+2025-03-12 17:51:53,870 - INFO - Fetching details for event at https://www.index-space.org/products/glass-house-tour-8-28
+2025-03-12 17:51:54,582 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:51:54,584 - INFO - Successfully processed event: Glass House tour 8/28
+2025-03-12 17:51:54,584 - INFO - Processed event: Glass House tour 8/28
+2025-03-12 17:51:54,584 - INFO - Fetching details for event at https://www.index-space.org/products/bioplastic-jewelry-workshop
+2025-03-12 17:51:55,005 - INFO - Skipping past event: Bioplastic Jewelry Workshop
+2025-03-12 17:51:55,006 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-2
+2025-03-12 17:51:55,600 - WARNING - Failed to parse date/time Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+2025-03-12 17:51:55,601 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-12 17:51:55,602 - INFO - Processed event: Intro to Coding for Designers
+2025-03-12 17:51:55,602 - INFO - Fetching details for event at https://www.index-space.org/products/index-community-mixer
+2025-03-12 17:51:56,034 - INFO - Skipping past event: Index Community Mixer
+2025-03-12 17:51:56,034 - INFO - Fetching details for event at https://www.index-space.org/products/3-talks-on-mending-sonia-louise-davis
+2025-03-12 17:51:56,370 - INFO - Skipping past event: 3 Talks on Mending: sonia louise davis
+2025-03-12 17:51:56,371 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-territories
+2025-03-12 17:51:56,895 - INFO - Skipping past event: Pasta Territories
+2025-03-12 17:51:56,896 - INFO - Fetching details for event at https://www.index-space.org/products/if-you-knew-me-would-you-love-me
+2025-03-12 17:51:57,342 - INFO - Skipping past event: If You Knew Me Would You Love Me
+2025-03-12 17:51:57,342 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-daniel-arnold
+2025-03-12 17:51:57,720 - INFO - Skipping past event: An Artist Talk With Daniel Arnold
+2025-03-12 17:51:57,721 - INFO - Fetching details for event at https://www.index-space.org/products/decentralized-publishing-bring-back-the-blogs
+2025-03-12 17:51:57,942 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:51:57,944 - INFO - Successfully processed event: Decentralized Publishing: Bring Back the Blogs
+2025-03-12 17:51:57,944 - INFO - Processed event: Decentralized Publishing: Bring Back the Blogs
+2025-03-12 17:51:57,944 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-resilience
+2025-03-12 17:51:58,309 - INFO - Skipping past event: work—flow: on Resilience
+2025-03-12 17:51:58,310 - INFO - Fetching details for event at https://www.index-space.org/products/all-about-love-1
+2025-03-12 17:51:58,659 - WARNING - Failed to parse date/time Jan 27, 2022
+ — 
+Aug 17, 2022 Thursday
+s 
+from
+ 
+12:30 am
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Jan 27, 2022
+ — 
+Aug 17, 2022 Thursday
+s 
+from
+ 
+12:30 am
+2025-03-12 17:51:58,660 - INFO - Successfully processed event: Collective Reading: All About Love
+2025-03-12 17:51:58,661 - INFO - Processed event: Collective Reading: All About Love
+2025-03-12 17:51:58,661 - INFO - Fetching details for event at https://www.index-space.org/products/a-visit-to-the-future-perfect-irl
+2025-03-12 17:51:58,970 - INFO - Fetching details for event at https://www.index-space.org/products/a-report-circle-or-curve-book-talk
+2025-03-12 17:51:59,314 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:51:59,316 - INFO - Successfully processed event: HOW TO: Make Public Art*
+2025-03-12 17:51:59,316 - INFO - Processed event: HOW TO: Make Public Art*
+2025-03-12 17:51:59,316 - INFO - Fetching details for event at https://www.index-space.org/products/quickbook-14-spiral-engineering
+2025-03-12 17:51:59,630 - INFO - Skipping past event: Quickbook 14: Spiral Engineering
+2025-03-12 17:51:59,630 - INFO - Fetching details for event at https://www.index-space.org/products/digital-to-analog-audio-diy-record-cutting
+2025-03-12 17:51:59,848 - INFO - Skipping past event: Digital to Analog Audio: DIY Record Cutting
+2025-03-12 17:51:59,849 - INFO - Fetching details for event at https://www.index-space.org/products/letters-form-intro-to-type-design
+2025-03-12 17:52:00,214 - WARNING - Failed to parse date/time Jul 11, 2024
+ — 
+Aug 16, 2024 Thursday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Jul 11, 2024
+ — 
+Aug 16, 2024 Thursday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:52:00,216 - INFO - Successfully processed event: Letters’ Form: Intro to Type Design
+2025-03-12 17:52:00,216 - INFO - Processed event: Letters’ Form: Intro to Type Design
+2025-03-12 17:52:00,216 - INFO - Fetching details for event at https://www.index-space.org/products/here-comes-the-neighborhood-3d-modeling-for-beginners
+2025-03-12 17:52:00,587 - WARNING - Failed to parse date/time May 30, 2023
+ — 
+Jun 14, 2023 Tuesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: May 30, 2023
+ — 
+Jun 14, 2023 Tuesday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:00,589 - INFO - Successfully processed event: Here Comes the Neighborhood: 3D Modeling for Beginners
+2025-03-12 17:52:00,589 - INFO - Processed event: Here Comes the Neighborhood: 3D Modeling for Beginners
+2025-03-12 17:52:00,589 - INFO - Fetching details for event at https://www.index-space.org/products/making-and-breaking-the-zine-2
+2025-03-12 17:52:00,756 - WARNING - Failed to parse date/time Feb 22, 2025
+ — 
+Apr 5, 2025 Saturday
+s 
+from
+ 
+6:00 pm
+ —
+ 
+8:00 pm
+ 
+UTC: Unknown string format: Feb 22, 2025
+ — 
+Apr 5, 2025 Saturday
+s 
+from
+ 
+6:00 pm
+2025-03-12 17:52:00,758 - INFO - Successfully processed event: Making and Breaking the Zine
+2025-03-12 17:52:00,758 - INFO - Processed event: Making and Breaking the Zine
+2025-03-12 17:52:00,759 - INFO - Fetching details for event at https://www.index-space.org/products/soft-speakers-hands-on-etextiles-workshop
+2025-03-12 17:52:00,970 - WARNING - Failed to parse date/time Dec 4, 2024
+ — 
+Dec 7, 2024 Wednesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Dec 4, 2024
+ — 
+Dec 7, 2024 Wednesday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:00,972 - INFO - Successfully processed event: Soft Speakers: Hands on eTextiles Workshop
+2025-03-12 17:52:00,973 - INFO - Processed event: Soft Speakers: Hands on eTextiles Workshop
+2025-03-12 17:52:00,973 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-chen-chen-kai-williams
+2025-03-12 17:52:01,321 - INFO - Skipping past event: A Studio Visit with Chen Chen & Kai Williams
+2025-03-12 17:52:01,322 - INFO - Fetching details for event at https://www.index-space.org/products/dream-work
+2025-03-12 17:52:01,611 - WARNING - Failed to parse date/time Jan 13, 2025
+ — 
+Feb 4, 2025 Monday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Jan 13, 2025
+ — 
+Feb 4, 2025 Monday
+s 
+from
+ 
+11:30 pm
+2025-03-12 17:52:01,613 - INFO - Successfully processed event: Dream Work
+2025-03-12 17:52:01,614 - INFO - Processed event: Dream Work
+2025-03-12 17:52:01,614 - INFO - Fetching details for event at https://www.index-space.org/products/i-remember-using-memory-as-source-material
+2025-03-12 17:52:01,954 - WARNING - Failed to parse date/time Sep 30, 2024
+ — 
+Nov 12, 2024 Monday
+s 
+from
+ 
+10:30 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Sep 30, 2024
+ — 
+Nov 12, 2024 Monday
+s 
+from
+ 
+10:30 pm
+2025-03-12 17:52:01,956 - INFO - Successfully processed event: I Remember: Using Memory as Source Material
+2025-03-12 17:52:01,956 - INFO - Processed event: I Remember: Using Memory as Source Material
+2025-03-12 17:52:01,957 - INFO - Fetching details for event at https://www.index-space.org/products/comedic-power-to-the-people-an-equitable-course-for-aspiring-humor-writers
+2025-03-12 17:52:02,286 - WARNING - Failed to parse date/time Jan 10, 2023
+ — 
+Feb 14, 2023 Tuesday
+s 
+from
+ 
+12:00 am
+ —
+ 
+3:00 am
+ 
+UTC: Unknown string format: Jan 10, 2023
+ — 
+Feb 14, 2023 Tuesday
+s 
+from
+ 
+12:00 am
+2025-03-12 17:52:02,288 - INFO - Successfully processed event: (Comedic) Power to the People
+2025-03-12 17:52:02,288 - INFO - Processed event: (Comedic) Power to the People
+2025-03-12 17:52:02,289 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-morphologies
+2025-03-12 17:52:02,599 - INFO - Skipping past event: Pasta Morphologies
+2025-03-12 17:52:02,599 - INFO - Fetching details for event at https://www.index-space.org/products/designing-ethical-futures
+2025-03-12 17:52:02,969 - INFO - Skipping past event: Designing Ethical Futures
+2025-03-12 17:52:02,969 - INFO - Fetching details for event at https://www.index-space.org/products/pixel-play
+2025-03-12 17:52:03,257 - INFO - Skipping past event: Pixel Play
+2025-03-12 17:52:03,258 - INFO - Fetching details for event at https://www.index-space.org/products/everything-is-soup
+2025-03-12 17:52:03,415 - INFO - Successfully processed event: Everything is Soup
+2025-03-12 17:52:03,416 - INFO - Processed event: Everything is Soup
+2025-03-12 17:52:03,416 - INFO - Fetching details for event at https://www.index-space.org/products/belonging-and-bias-in-branding
+2025-03-12 17:52:03,715 - INFO - Skipping past event: Belonging and Bias in Branding
+2025-03-12 17:52:03,715 - INFO - Fetching details for event at https://www.index-space.org/products/digital-archiving-gallery-of-anonymous-memories
+2025-03-12 17:52:03,906 - WARNING - Failed to parse date/time Mar 5, 2025
+ — 
+Apr 10, 2025 Wednesday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 5, 2025
+ — 
+Apr 10, 2025 Wednesday
+s 
+from
+ 
+11:30 pm
+2025-03-12 17:52:03,908 - INFO - Successfully processed event: Digital Archiving: Gallery of Anonymous Memories
+2025-03-12 17:52:03,908 - INFO - Processed event: Digital Archiving: Gallery of Anonymous Memories
+2025-03-12 17:52:03,908 - INFO - Fetching details for event at https://www.index-space.org/products/collective-reading-the-carrier-bag-theory-of-fiction
+2025-03-12 17:52:04,255 - INFO - Skipping past event: Collective Reading: The Carrier Bag Theory of Fiction
+2025-03-12 17:52:04,256 - INFO - Fetching details for event at https://www.index-space.org/products/a-talk-with-lyra-kilston
+2025-03-12 17:52:04,605 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:04,607 - INFO - Successfully processed event: Taking the Cure: A Talk with Lyra Kilston
+2025-03-12 17:52:04,607 - INFO - Processed event: Taking the Cure: A Talk with Lyra Kilston
+2025-03-12 17:52:04,607 - INFO - Fetching details for event at https://www.index-space.org/products/monster-mash
+2025-03-12 17:52:04,951 - WARNING - Failed to parse date/time Oct 12, 2024
+ — 
+Oct 26, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Oct 12, 2024
+ — 
+Oct 26, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:52:04,952 - INFO - Successfully processed event: Monster Mash
+2025-03-12 17:52:04,953 - INFO - Processed event: Monster Mash
+2025-03-12 17:52:04,953 - INFO - Fetching details for event at https://www.index-space.org/products/a-visit-to-the-renee-chaim-gross-foundation
+2025-03-12 17:52:05,565 - INFO - Skipping past event: A Visit to the Renee & Chaim Gross Foundation (IRL)
+2025-03-12 17:52:05,566 - INFO - Fetching details for event at https://www.index-space.org/products/niched-down
+2025-03-12 17:52:05,882 - INFO - Skipping past event: Niched Down: The Homogenization of Subculture
+2025-03-12 17:52:05,883 - INFO - Fetching details for event at https://www.index-space.org/products/thoughtful-motion-function-in-animation
+2025-03-12 17:52:06,220 - WARNING - Failed to parse date/time Aug 25, 2022
+ — 
+Sep 23, 2022 Thursday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Aug 25, 2022
+ — 
+Sep 23, 2022 Thursday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:52:06,222 - INFO - Successfully processed event: Thoughtful Motion: Function in Animation
+2025-03-12 17:52:06,222 - INFO - Processed event: Thoughtful Motion: Function in Animation
+2025-03-12 17:52:06,223 - INFO - Fetching details for event at https://www.index-space.org/products/mediated-meditations-2
+2025-03-12 17:52:06,596 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:06,598 - INFO - Successfully processed event: Mediated Meditations
+2025-03-12 17:52:06,598 - INFO - Processed event: Mediated Meditations
+2025-03-12 17:52:06,598 - INFO - Fetching details for event at https://www.index-space.org/products/conjure-collective-wildflower
+2025-03-12 17:52:06,891 - INFO - Skipping past event: Conjure Collective Presents: Wildflower
+2025-03-12 17:52:06,891 - INFO - Fetching details for event at https://www.index-space.org/products/design-of-as-gift-giving
+2025-03-12 17:52:07,195 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:07,196 - INFO - Successfully processed event: How to Give a Gift
+2025-03-12 17:52:07,197 - INFO - Processed event: How to Give a Gift
+2025-03-12 17:52:07,197 - INFO - Fetching details for event at https://www.index-space.org/products/making-music-with-ableton-live
+2025-03-12 17:52:07,500 - WARNING - Failed to parse date/time Nov 6, 2023
+ — 
+Nov 28, 2023 Monday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Nov 6, 2023
+ — 
+Nov 28, 2023 Monday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:07,502 - INFO - Successfully processed event: Making Music with Ableton Live
+2025-03-12 17:52:07,503 - INFO - Processed event: Making Music with Ableton Live
+2025-03-12 17:52:07,503 - INFO - Fetching details for event at https://www.index-space.org/products/seeding-futures-together
+2025-03-12 17:52:07,790 - INFO - Skipping past event: Seeding Futures Together
+2025-03-12 17:52:07,791 - INFO - Fetching details for event at https://www.index-space.org/products/open-source-brand-101
+2025-03-12 17:52:08,080 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:08,081 - INFO - Successfully processed event: Open Source Brand 101
+2025-03-12 17:52:08,082 - INFO - Processed event: Open Source Brand 101
+2025-03-12 17:52:08,083 - INFO - Fetching details for event at https://www.index-space.org/products/seed-packet-launch
+2025-03-12 17:52:08,390 - INFO - Skipping past event: Seed Packet Launch
+2025-03-12 17:52:08,391 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-maya-man
+2025-03-12 17:52:08,698 - INFO - Skipping past event: An Artist Talk With Maya Man
+2025-03-12 17:52:08,699 - INFO - Fetching details for event at https://www.index-space.org/products/index-apero
+2025-03-12 17:52:09,006 - INFO - Skipping past event: Index Apero: a Holiday Party!
+2025-03-12 17:52:09,007 - INFO - Fetching details for event at https://www.index-space.org/products/computer-care-cafe
+2025-03-12 17:52:09,260 - INFO - Successfully processed event: Computer Care Cafe
+2025-03-12 17:52:09,260 - INFO - Processed event: Computer Care Cafe
+2025-03-12 17:52:09,260 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-scandinavian-history-of-sunset-park
+2025-03-12 17:52:09,515 - INFO - Skipping past event: Noticing: Scandinavian History of Sunset Park
+2025-03-12 17:52:09,515 - INFO - Fetching details for event at https://www.index-space.org/products/tokyo-indie-short-double-feature
+2025-03-12 17:52:09,875 - INFO - Skipping past event: Tokyo Indie Short Double Feature
+2025-03-12 17:52:09,875 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-twitter
+2025-03-12 17:52:10,198 - INFO - Skipping past event: Deep Sea Diving on Twitter
+2025-03-12 17:52:10,199 - INFO - Fetching details for event at https://www.index-space.org/products/libraries-for-the-commons
+2025-03-12 17:52:10,498 - INFO - Skipping past event: Libraries for the Commons
+2025-03-12 17:52:10,499 - INFO - Fetching details for event at https://www.index-space.org/products/from-me-to-we
+2025-03-12 17:52:10,849 - INFO - Skipping past event: From Me to We: Practicing Socially-Engaged Art & Design Within Your Community
+2025-03-12 17:52:10,849 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-make-more-money
+2025-03-12 17:52:11,024 - INFO - Successfully processed event: How to Make More Money: A Practical Guide for Freelancers & Small Business Owners
+2025-03-12 17:52:11,025 - INFO - Processed event: How to Make More Money: A Practical Guide for Freelancers & Small Business Owners
+2025-03-12 17:52:11,025 - INFO - Fetching details for event at https://www.index-space.org/products/zigzags
+2025-03-12 17:52:11,307 - WARNING - Failed to parse date/time Feb 6, 2024
+ — 
+May 7, 2024 Tuesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+12:30 am
+ 
+UTC: Unknown string format: Feb 6, 2024
+ — 
+May 7, 2024 Tuesday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:11,309 - INFO - Successfully processed event: Zigzags
+2025-03-12 17:52:11,310 - INFO - Processed event: Zigzags
+2025-03-12 17:52:11,310 - INFO - Fetching details for event at https://www.index-space.org/products/plant-club
+2025-03-12 17:52:11,507 - INFO - Skipping past event: Plant Club: Dandelions
+2025-03-12 17:52:11,508 - INFO - Fetching details for event at https://www.index-space.org/products/postpostpost-nyc-meet-up
+2025-03-12 17:52:11,851 - INFO - Skipping past event: POSTPOSTPOST NYC Meet-up
+2025-03-12 17:52:11,851 - INFO - Fetching details for event at https://www.index-space.org/products/intermediate-coding-for-designers
+2025-03-12 17:52:12,159 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:12,160 - INFO - Successfully processed event: Intermediate Coding for Designers
+2025-03-12 17:52:12,161 - INFO - Processed event: Intermediate Coding for Designers
+2025-03-12 17:52:12,161 - INFO - Fetching details for event at https://www.index-space.org/products/all-fonts-are-bastards
+2025-03-12 17:52:12,371 - INFO - Skipping past event: Dinamo – All Fonts Are Bastards
+2025-03-12 17:52:12,371 - INFO - Fetching details for event at https://www.index-space.org/products/creative-show-all
+2025-03-12 17:52:12,674 - INFO - Skipping past event: Creative Show-All
+2025-03-12 17:52:12,674 - INFO - Fetching details for event at https://www.index-space.org/products/making-and-breaking-the-zine
+2025-03-12 17:52:13,077 - WARNING - Failed to parse date/time Mar 2, 2023
+ — 
+Apr 7, 2023 Thursday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 2, 2023
+ — 
+Apr 7, 2023 Thursday
+s 
+from
+ 
+11:30 pm
+2025-03-12 17:52:13,079 - INFO - Successfully processed event: Making and Breaking the Zine
+2025-03-12 17:52:13,080 - INFO - Processed event: Making and Breaking the Zine
+2025-03-12 17:52:13,080 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-amazon
+2025-03-12 17:52:13,600 - INFO - Skipping past event: Deep Sea Diving on Amazon
+2025-03-12 17:52:13,601 - INFO - Fetching details for event at https://www.index-space.org/products/that-show-1
+2025-03-12 17:52:14,134 - INFO - Skipping past event: THAT SHOW
+2025-03-12 17:52:14,135 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-richard-haines
+2025-03-12 17:52:14,685 - INFO - Skipping past event: A Studio Visit with Richard Haines
+2025-03-12 17:52:14,685 - INFO - Fetching details for event at https://www.index-space.org/products/design-with-distinction
+2025-03-12 17:52:15,108 - WARNING - Failed to parse date/time Oct 17, 2023
+ — 
+Nov 8, 2023 Tuesday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+11:00 pm
+ 
+UTC: Unknown string format: Oct 17, 2023
+ — 
+Nov 8, 2023 Tuesday
+s 
+from
+ 
+9:00 pm
+2025-03-12 17:52:15,109 - INFO - Successfully processed event: Design with Distinction: A Creative Development Course
+2025-03-12 17:52:15,110 - INFO - Processed event: Design with Distinction: A Creative Development Course
+2025-03-12 17:52:15,110 - INFO - Fetching details for event at https://www.index-space.org/products/painting-a-website-bindery
+2025-03-12 17:52:15,576 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:15,578 - INFO - Successfully processed event: Painting a Website: Bindery
+2025-03-12 17:52:15,579 - INFO - Processed event: Painting a Website: Bindery
+2025-03-12 17:52:15,579 - INFO - Fetching details for event at https://www.index-space.org/products/skill-4-skill
+2025-03-12 17:52:16,033 - INFO - Successfully processed event: Skill 4 Skill
+2025-03-12 17:52:16,034 - INFO - Processed event: Skill 4 Skill
+2025-03-12 17:52:16,034 - INFO - Fetching details for event at https://www.index-space.org/products/a-talk-with-louise-paradis-1
+2025-03-12 17:52:16,493 - INFO - Skipping past event: A Talk about the Typografische Monatsblätter Research Archive
+2025-03-12 17:52:16,494 - INFO - Fetching details for event at https://www.index-space.org/products/index-radio-info-session
+2025-03-12 17:52:16,868 - INFO - Skipping past event: Index FM Info Session
+2025-03-12 17:52:16,868 - INFO - Fetching details for event at https://www.index-space.org/products/managing-without
+2025-03-12 17:52:17,392 - INFO - Skipping past event: Managing Without: How to Think Like a PM, Even When You Can’t Afford One
+2025-03-12 17:52:17,393 - INFO - Fetching details for event at https://www.index-space.org/products/experimenting-with-sculptural-typography
+2025-03-12 17:52:17,783 - WARNING - Failed to parse date/time Oct 11, 2022
+ — 
+Nov 2, 2022 Tuesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Oct 11, 2022
+ — 
+Nov 2, 2022 Tuesday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:52:17,785 - INFO - Successfully processed event: Experimenting With Sculptural Typography
+2025-03-12 17:52:17,785 - INFO - Processed event: Experimenting With Sculptural Typography
+2025-03-12 17:52:17,785 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-talk-to-a-computer
+2025-03-12 17:52:18,077 - INFO - Skipping past event: How to Talk to a Computer
+2025-03-12 17:52:18,078 - INFO - Fetching details for event at https://www.index-space.org/products/designing-spaces-for-humans-1
+2025-03-12 17:52:18,388 - WARNING - Failed to parse date/time Jan 14, 2023
+ — 
+Feb 18, 2023 Saturday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+8:00 pm
+ 
+UTC: Unknown string format: Jan 14, 2023
+ — 
+Feb 18, 2023 Saturday
+s 
+from
+ 
+5:00 pm
+2025-03-12 17:52:18,390 - INFO - Successfully processed event: Designing Spaces for Humans
+2025-03-12 17:52:18,391 - INFO - Processed event: Designing Spaces for Humans
+2025-03-12 17:52:18,391 - INFO - Fetching details for event at https://www.index-space.org/products/when-does-technology-make-us-more-human-a-public-discussion
+2025-03-12 17:52:18,696 - INFO - Skipping past event: When Does Technology Make Us More Human: A Public Discussion
+2025-03-12 17:52:18,696 - INFO - Fetching details for event at https://www.index-space.org/products/independent-printers-panel
+2025-03-12 17:52:19,054 - INFO - Skipping past event: Independent Printers’ Panel
+2025-03-12 17:52:19,054 - INFO - Fetching details for event at https://www.index-space.org/products/reflections-a-digital-memory
+2025-03-12 17:52:19,365 - INFO - Skipping past event: Reflections: A Digital Memory Living Lab in Chinatown
+2025-03-12 17:52:19,365 - INFO - Fetching details for event at https://www.index-space.org/products/a-workshop-on-workshops
+2025-03-12 17:52:19,651 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:19,653 - INFO - Successfully processed event: A Workshop on Workshops: How to help groups get unstuck
+2025-03-12 17:52:19,653 - INFO - Processed event: A Workshop on Workshops: How to help groups get unstuck
+2025-03-12 17:52:19,654 - INFO - Fetching details for event at https://www.index-space.org/products/open-source-package-publishing
+2025-03-12 17:52:19,938 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:19,940 - INFO - Successfully processed event: Open Source Package Publishing
+2025-03-12 17:52:19,940 - INFO - Processed event: Open Source Package Publishing
+2025-03-12 17:52:19,941 - INFO - Fetching details for event at https://www.index-space.org/products/teaching-at-index
+2025-03-12 17:52:20,243 - INFO - Skipping past event: Teaching at Index
+2025-03-12 17:52:20,244 - INFO - Fetching details for event at https://www.index-space.org/products/eat-1116
+2025-03-12 17:52:20,591 - INFO - Skipping past event: eat:1116
+2025-03-12 17:52:20,591 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-1
+2025-03-12 17:52:21,119 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:21,121 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-12 17:52:21,122 - INFO - Processed event: Intro to Coding for Designers
+2025-03-12 17:52:21,122 - INFO - Fetching details for event at https://www.index-space.org/products/xxix-turns-x
+2025-03-12 17:52:21,443 - INFO - Skipping past event: XXIX Turns X
+2025-03-12 17:52:21,444 - INFO - Fetching details for event at https://www.index-space.org/products/a-tour-at-international-objects-irl
+2025-03-12 17:52:21,853 - INFO - Skipping past event: A Tour at International Objects (IRL)
+2025-03-12 17:52:21,853 - INFO - Fetching details for event at https://www.index-space.org/products/visit-a-recycling-facility-in-person-tour
+2025-03-12 17:52:22,188 - INFO - Skipping past event: Visit a Recycling Facility: In-Person Tour
+2025-03-12 17:52:22,189 - INFO - Fetching details for event at https://www.index-space.org/products/painting-a-website-the-basics
+2025-03-12 17:52:22,567 - INFO - Skipping past event: Painting a Website
+2025-03-12 17:52:22,568 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-3
+2025-03-12 17:52:22,902 - WARNING - Failed to parse date/time Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+2025-03-12 17:52:22,907 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-12 17:52:22,908 - INFO - Processed event: Intro to Coding for Designers
+2025-03-12 17:52:22,908 - INFO - Fetching details for event at https://www.index-space.org/products/interactive-media-with-max-msp
+2025-03-12 17:52:23,234 - WARNING - Failed to parse date/time Apr 17, 2023
+ — 
+May 9, 2023 Monday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Apr 17, 2023
+ — 
+May 9, 2023 Monday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:52:23,236 - INFO - Successfully processed event: Interactive Media with Max/MSP
+2025-03-12 17:52:23,237 - INFO - Processed event: Interactive Media with Max/MSP
+2025-03-12 17:52:23,237 - INFO - Fetching details for event at https://www.index-space.org/products/3d-modeling-for-print
+2025-03-12 17:52:23,702 - WARNING - Failed to parse date/time Nov 3, 2022
+ — 
+Nov 18, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Nov 3, 2022
+ — 
+Nov 18, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:23,704 - INFO - Successfully processed event: 3D Modeling for Print
+2025-03-12 17:52:23,704 - INFO - Processed event: 3D Modeling for Print
+2025-03-12 17:52:23,704 - INFO - Fetching details for event at https://www.index-space.org/products/a-guided-visit-to-george-nakashima-foundation-irl
+2025-03-12 17:52:24,045 - INFO - Skipping past event: A Guided Visit to George Nakashima Foundation (IRL Pennsylvania)
+2025-03-12 17:52:24,046 - INFO - Fetching details for event at https://www.index-space.org/products/designing-spaces-for-humans
+2025-03-12 17:52:24,340 - WARNING - Failed to parse date/time Jun 18, 2022
+ — 
+Jul 23, 2022 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Jun 18, 2022
+ — 
+Jul 23, 2022 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:52:24,342 - INFO - Successfully processed event: Designing Spaces for Humans
+2025-03-12 17:52:24,343 - INFO - Processed event: Designing Spaces for Humans
+2025-03-12 17:52:24,343 - INFO - Fetching details for event at https://www.index-space.org/products/pockets
+2025-03-12 17:52:24,656 - INFO - Skipping past event: pockets
+2025-03-12 17:52:24,657 - INFO - Fetching details for event at https://www.index-space.org/products/birding-at-roscoe-motel
+2025-03-12 17:52:25,002 - WARNING - Failed to parse date/time May 12, 2023
+ — 
+May 14, 2023 Friday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+5:00 pm
+ 
+UTC: Unknown string format: May 12, 2023
+ — 
+May 14, 2023 Friday
+s 
+from
+ 
+9:00 pm
+2025-03-12 17:52:25,004 - INFO - Successfully processed event: Flock Together: A Weekend in Roscoe, NY
+2025-03-12 17:52:25,005 - INFO - Processed event: Flock Together: A Weekend in Roscoe, NY
+2025-03-12 17:52:25,006 - INFO - Fetching details for event at https://www.index-space.org/products/bliss-montage
+2025-03-12 17:52:25,351 - WARNING - Failed to parse date/time Feb 16, 2023
+ — 
+Apr 6, 2023 Thursday
+s 
+from
+ 
+12:00 am
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Feb 16, 2023
+ — 
+Apr 6, 2023 Thursday
+s 
+from
+ 
+12:00 am
+2025-03-12 17:52:25,353 - INFO - Successfully processed event: Collective Reading: Bliss Montage
+2025-03-12 17:52:25,354 - INFO - Processed event: Collective Reading: Bliss Montage
+2025-03-12 17:52:25,354 - INFO - Fetching details for event at https://www.index-space.org/products/protein-community-party
+2025-03-12 17:52:25,705 - INFO - Skipping past event: Protein Community Party
+2025-03-12 17:52:25,705 - INFO - Fetching details for event at https://www.index-space.org/products/in-search-of-agency-at-the-supermarket
+2025-03-12 17:52:26,232 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:26,234 - INFO - Successfully processed event: In Search of Agency at the Supermarket
+2025-03-12 17:52:26,235 - INFO - Processed event: In Search of Agency at the Supermarket
+2025-03-12 17:52:26,235 - INFO - Fetching details for event at https://www.index-space.org/products/astro-basics
+2025-03-12 17:52:27,265 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:27,269 - INFO - Successfully processed event: Astro Basics
+2025-03-12 17:52:27,270 - INFO - Processed event: Astro Basics
+2025-03-12 17:52:27,270 - INFO - Fetching details for event at https://www.index-space.org/products/studio-visit-with-artist-gaetano-pesce-irl
+2025-03-12 17:52:27,962 - INFO - Skipping past event: A Studio Visit with Gaetano Pesce (IRL)
+2025-03-12 17:52:27,963 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-time-and-space-in-fidi
+2025-03-12 17:52:28,570 - INFO - Skipping past event: Noticing: Time and Space in FiDi
+2025-03-12 17:52:28,571 - INFO - Fetching details for event at https://www.index-space.org/products/nestling-into-rest
+2025-03-12 17:52:29,587 - INFO - Skipping past event: Nestling into Rest
+2025-03-12 17:52:29,588 - INFO - Fetching details for event at https://www.index-space.org/products/printing-with-the-sun-an-experimental-cyanotype-workshop
+2025-03-12 17:52:30,239 - INFO - Skipping past event: Printing with the Sun: An Experimental Cyanotype Workshop
+2025-03-12 17:52:30,240 - INFO - Fetching details for event at https://www.index-space.org/products/a-tour-of-together-over-time-at-emma-scully-gallery-irl
+2025-03-12 17:52:30,590 - INFO - Skipping past event: A Tour of Together Over Time at Emma Scully Gallery (IRL)
+2025-03-12 17:52:30,590 - INFO - Fetching details for event at https://www.index-space.org/products/hyper-optimization-creative-stagnation-amidst-cultural-abundance
+2025-03-12 17:52:30,947 - INFO - Skipping past event: Hyper-Optimization: Creative Stagnation Amidst Cultural Abundance
+2025-03-12 17:52:30,948 - INFO - Fetching details for event at https://www.index-space.org/products/body-archives-of-the-masculine
+2025-03-12 17:52:31,274 - INFO - Skipping past event: Body Archives of the Masculine
+2025-03-12 17:52:31,275 - INFO - Fetching details for event at https://www.index-space.org/products/a-curatorial-tour-and-artist-talk-at-amant-foundation-irl
+2025-03-12 17:52:31,615 - INFO - Skipping past event: A Curatorial Tour and Artist Talk at Amant Foundation (IRL)
+2025-03-12 17:52:31,616 - INFO - Fetching details for event at https://www.index-space.org/products/3-talks-on-mending-rachel-meade-smith
+2025-03-12 17:52:31,886 - INFO - Skipping past event: 3 Talks on Mending: Rachel Meade Smith
+2025-03-12 17:52:31,887 - INFO - Fetching details for event at https://www.index-space.org/products/creative-studio-building
+2025-03-12 17:52:32,161 - WARNING - Failed to parse date/time Mar 28, 2023
+ — 
+May 3, 2023 Tuesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Mar 28, 2023
+ — 
+May 3, 2023 Tuesday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:52:32,166 - INFO - Successfully processed event: Creative Studio Building
+2025-03-12 17:52:32,166 - INFO - Processed event: Creative Studio Building
+2025-03-12 17:52:32,167 - INFO - Fetching details for event at https://www.index-space.org/products/undeletable-image
+2025-03-12 17:52:32,693 - WARNING - Failed to parse date/time Jul 15, 2022
+ — 
+Jul 29, 2022 Friday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Jul 15, 2022
+ — 
+Jul 29, 2022 Friday
+s 
+from
+ 
+5:00 pm
+2025-03-12 17:52:32,698 - INFO - Successfully processed event: Undeletable Image
+2025-03-12 17:52:32,699 - INFO - Processed event: Undeletable Image
+2025-03-12 17:52:32,699 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers
+2025-03-12 17:52:33,802 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:33,807 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-12 17:52:33,808 - INFO - Processed event: Intro to Coding for Designers
+2025-03-12 17:52:33,808 - INFO - Fetching details for event at https://www.index-space.org/products/caps-lock-a-book-talk-with-ruben-pater
+2025-03-12 17:52:34,470 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:34,473 - INFO - Successfully processed event: Caps Lock — A Book Talk with Ruben Pater
+2025-03-12 17:52:34,473 - INFO - Processed event: Caps Lock — A Book Talk with Ruben Pater
+2025-03-12 17:52:34,474 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-nurture-healthier-communities-a-protein-workshop
+2025-03-12 17:52:34,938 - INFO - Skipping past event: How to Nurture Healthier Communities: A Protein Workshop (IRL)
+2025-03-12 17:52:34,938 - INFO - Fetching details for event at https://www.index-space.org/products/disobey-a-playful-guide-to-disobedience-creativity-and-rebellion
+2025-03-12 17:52:35,487 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:35,489 - INFO - Successfully processed event: Disobey: A playful guide to disobedience, creativity, and rebellion
+2025-03-12 17:52:35,489 - INFO - Processed event: Disobey: A playful guide to disobedience, creativity, and rebellion
+2025-03-12 17:52:35,490 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-being-an-octopus
+2025-03-12 17:52:35,974 - INFO - Skipping past event: work—flow: on being an Octopus
+2025-03-12 17:52:35,975 - INFO - Fetching details for event at https://www.index-space.org/products/that-show-2
+2025-03-12 17:52:36,310 - INFO - Skipping past event: THAT SHOW
+2025-03-12 17:52:36,311 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-aaron-poritz-irl
+2025-03-12 17:52:36,914 - INFO - Skipping past event: A Studio Visit with Aaron Poritz (IRL)
+2025-03-12 17:52:36,915 - INFO - Fetching details for event at https://www.index-space.org/products/3-talks-on-mending-landon-newton
+2025-03-12 17:52:37,285 - INFO - Skipping past event: 3 Talks on Mending: Landon Newton
+2025-03-12 17:52:37,286 - INFO - Fetching details for event at https://www.index-space.org/products/how-the-internet-could-be-a-hospital-mutual-aid-at-the-video-store
+2025-03-12 17:52:37,723 - INFO - Skipping past event: How the Internet Could be a Hospital: Mutual Aid at the Video Store
+2025-03-12 17:52:37,724 - INFO - Fetching details for event at https://www.index-space.org/products/contacting-the-mystic-a-four-part-divination-workshop-series
+2025-03-12 17:52:38,038 - WARNING - Failed to parse date/time Mar 8, 2024
+ — 
+Apr 18, 2024 Friday
+s 
+from
+ 
+12:00 am
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 8, 2024
+ — 
+Apr 18, 2024 Friday
+s 
+from
+ 
+12:00 am
+2025-03-12 17:52:38,041 - INFO - Successfully processed event: Communion with the Mystic: A Four-Part Divination Workshop Series
+2025-03-12 17:52:38,042 - INFO - Processed event: Communion with the Mystic: A Four-Part Divination Workshop Series
+2025-03-12 17:52:38,042 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-youtube
+2025-03-12 17:52:38,328 - INFO - Skipping past event: Deep Sea Diving on Youtube
+2025-03-12 17:52:38,329 - INFO - Fetching details for event at https://www.index-space.org/products/an-index-is-a-diary-sorting-through-your-personal-lists
+2025-03-12 17:52:38,629 - WARNING - Failed to parse date/time Jul 8, 2023
+ — 
+Jul 15, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Jul 8, 2023
+ — 
+Jul 15, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:52:38,631 - INFO - Successfully processed event: An Index is a Diary: Sorting Through your Personal Lists
+2025-03-12 17:52:38,632 - INFO - Processed event: An Index is a Diary: Sorting Through your Personal Lists
+2025-03-12 17:52:38,632 - INFO - Fetching details for event at https://www.index-space.org/products/artistic-alchemy-1
+2025-03-12 17:52:38,967 - WARNING - Failed to parse date/time Jun 5, 2024
+ — 
+Aug 14, 2024 Wednesday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Jun 5, 2024
+ — 
+Aug 14, 2024 Wednesday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:52:38,970 - INFO - Successfully processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-12 17:52:38,970 - INFO - Processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-12 17:52:38,971 - INFO - Fetching details for event at https://www.index-space.org/products/botanical-color-lab-natural-dye-with-flowers
+2025-03-12 17:52:39,285 - WARNING - Failed to parse date/time Apr 13, 2024
+ — 
+Apr 20, 2024 Saturday
+s 
+from
+ 
+6:00 pm
+ —
+ 
+8:30 pm
+ 
+UTC: Unknown string format: Apr 13, 2024
+ — 
+Apr 20, 2024 Saturday
+s 
+from
+ 
+6:00 pm
+2025-03-12 17:52:39,288 - INFO - Successfully processed event: Botanical Color Lab: Natural Dye with Flowers
+2025-03-12 17:52:39,289 - INFO - Processed event: Botanical Color Lab: Natural Dye with Flowers
+2025-03-12 17:52:39,289 - INFO - Fetching details for event at https://www.index-space.org/products/intention-setting-guided-metitation
+2025-03-12 17:52:39,593 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:39,595 - INFO - Successfully processed event: Intention Setting + Guided Mediation
+2025-03-12 17:52:39,595 - INFO - Processed event: Intention Setting + Guided Mediation
+2025-03-12 17:52:39,596 - INFO - Fetching details for event at https://www.index-space.org/products/designing-and-building-highly-performant-media-rich-websites-and-mobile-apps
+2025-03-12 17:52:39,912 - INFO - Skipping past event: The State of the Art in Media-Rich Web Development
+2025-03-12 17:52:39,913 - INFO - Fetching details for event at https://www.index-space.org/products/radical-love-now
+2025-03-12 17:52:40,262 - INFO - Skipping past event: Radical Love Now!
+2025-03-12 17:52:40,263 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-the-web
+2025-03-12 17:52:40,580 - WARNING - Failed to parse date/time Jan 31, 2022
+ — 
+Feb 21, 2022 Monday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Jan 31, 2022
+ — 
+Feb 21, 2022 Monday
+s 
+from
+ 
+5:00 pm
+2025-03-12 17:52:40,582 - INFO - Successfully processed event: Deep Sea Diving on the Web
+2025-03-12 17:52:40,583 - INFO - Processed event: Deep Sea Diving on the Web
+2025-03-12 17:52:40,583 - INFO - Fetching details for event at https://www.index-space.org/products/open-house-with-authentic
+2025-03-12 17:52:40,900 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:40,901 - INFO - Successfully processed event: Open House with Desmond Wong and Christina Janus
+2025-03-12 17:52:40,902 - INFO - Processed event: Open House with Desmond Wong and Christina Janus
+2025-03-12 17:52:40,902 - INFO - Fetching details for event at https://www.index-space.org/products/living-room-lectures-0
+2025-03-12 17:52:41,158 - INFO - Skipping past event: Living Room Lectures: “Is He… You Know?” Bronzino and Homoeroticism in the Medici Court
+2025-03-12 17:52:41,159 - INFO - Fetching details for event at https://www.index-space.org/products/philosophy-for-artists-from-utopia-to-the-war-machine
+2025-03-12 17:52:41,342 - WARNING - Failed to parse date/time Mar 31, 2025
+ — 
+May 13, 2025 Monday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 31, 2025
+ — 
+May 13, 2025 Monday
+s 
+from
+ 
+11:30 pm
+2025-03-12 17:52:41,344 - INFO - Successfully processed event: Philosophy for Artists: From Utopia to the War Machine
+2025-03-12 17:52:41,344 - INFO - Processed event: Philosophy for Artists: From Utopia to the War Machine
+2025-03-12 17:52:41,345 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-ecologies
+2025-03-12 17:52:41,727 - INFO - Skipping past event: Pasta Ecologies
+2025-03-12 17:52:41,728 - INFO - Fetching details for event at https://www.index-space.org/products/slow-sessions-1
+2025-03-12 17:52:41,907 - INFO - Skipping past event: Slow Sessions: Tools for Clear & Focused Days
+2025-03-12 17:52:41,907 - INFO - Fetching details for event at https://www.index-space.org/products/creating-and-destroying-the-cyber-self-dream-hacking
+2025-03-12 17:52:42,268 - WARNING - Failed to parse date/time Oct 3, 2022
+ — 
+Oct 25, 2022 Monday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Oct 3, 2022
+ — 
+Oct 25, 2022 Monday
+s 
+from
+ 
+10:00 pm
+2025-03-12 17:52:42,271 - INFO - Successfully processed event: Creating and Destroying the Cyber Self: Dream Hacking
+2025-03-12 17:52:42,271 - INFO - Processed event: Creating and Destroying the Cyber Self: Dream Hacking
+2025-03-12 17:52:42,272 - INFO - Fetching details for event at https://www.index-space.org/products/medieval-astrology-1
+2025-03-12 17:52:42,548 - INFO - Skipping past event: Medieval Astrology: The Return of Lord Saturn
+2025-03-12 17:52:42,549 - INFO - Fetching details for event at https://www.index-space.org/products/mixed-nuts
+2025-03-12 17:52:42,881 - INFO - Skipping past event: Mixed Nuts
+2025-03-12 17:52:42,882 - INFO - Fetching details for event at https://www.index-space.org/products/archival-walks
+2025-03-12 17:52:43,258 - WARNING - Failed to parse date/time Jul 13, 2024
+ — 
+Jul 27, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Jul 13, 2024
+ — 
+Jul 27, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-12 17:52:43,262 - INFO - Successfully processed event: Archival Walks
+2025-03-12 17:52:43,262 - INFO - Processed event: Archival Walks
+2025-03-12 17:52:43,263 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-have-ballsy-conversations
+2025-03-12 17:52:43,591 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:43,596 - INFO - Successfully processed event: How to Have Ballsy Conversations
+2025-03-12 17:52:43,597 - INFO - Processed event: How to Have Ballsy Conversations
+2025-03-12 17:52:43,597 - INFO - Fetching details for event at https://www.index-space.org/products/tea-and-pastries-with-dona
+2025-03-12 17:52:43,892 - INFO - Skipping past event: Tea & Pastries with Dona
+2025-03-12 17:52:43,893 - INFO - Fetching details for event at https://www.index-space.org/products/animation-overview
+2025-03-12 17:52:44,234 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:44,239 - INFO - Successfully processed event: Animation Tasting Menu
+2025-03-12 17:52:44,241 - INFO - Processed event: Animation Tasting Menu
+2025-03-12 17:52:44,243 - INFO - Fetching details for event at https://www.index-space.org/products/culinary-creatives-collective-edition-ii
+2025-03-12 17:52:44,456 - INFO - Skipping past event: Culinary Creatives Collective Edition II
+2025-03-12 17:52:44,457 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-public-spaces-of-midtown-manhattan-1
+2025-03-12 17:52:44,645 - INFO - Successfully processed event: Noticing: Public Spaces of Midtown
+2025-03-12 17:52:44,646 - INFO - Processed event: Noticing: Public Spaces of Midtown
+2025-03-12 17:52:44,646 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-jason-nocito
+2025-03-12 17:52:44,907 - INFO - Skipping past event: An Artist Talk With Jason Nocito
+2025-03-12 17:52:44,907 - INFO - Fetching details for event at https://www.index-space.org/products/deep-listening
+2025-03-12 17:52:45,288 - INFO - Skipping past event: Deep Listening: How to Silence Your Ego and Hear What Really Matters
+2025-03-12 17:52:45,289 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-give-a-gift
+2025-03-12 17:52:45,730 - INFO - Skipping past event: How to Give a Gift
+2025-03-12 17:52:45,730 - INFO - Fetching details for event at https://www.index-space.org/products/slow-sessions
+2025-03-12 17:52:46,259 - INFO - Skipping past event: Slow Sessions: Tools for Clear & Focused Days
+2025-03-12 17:52:46,260 - INFO - Fetching details for event at https://www.index-space.org/products/kettl-tea-matcha-workshop
+2025-03-12 17:52:46,493 - INFO - Skipping past event: Kettl Tea Matcha Workshop
+2025-03-12 17:52:46,494 - INFO - Fetching details for event at https://www.index-space.org/products/dreaming-community-an-exercise-in-decolonial-worldbuilding
+2025-03-12 17:52:46,812 - WARNING - Failed to parse date/time Apr 6, 2024
+ — 
+Apr 27, 2024 Saturday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+6:30 pm
+ 
+UTC: Unknown string format: Apr 6, 2024
+ — 
+Apr 27, 2024 Saturday
+s 
+from
+ 
+5:00 pm
+2025-03-12 17:52:46,814 - INFO - Successfully processed event: Dreaming Community: An Exercise in Decolonial Worldbuilding
+2025-03-12 17:52:46,814 - INFO - Processed event: Dreaming Community: An Exercise in Decolonial Worldbuilding
+2025-03-12 17:52:46,815 - INFO - Fetching details for event at https://www.index-space.org/products/legal-for-creatives
+2025-03-12 17:52:47,242 - INFO - Skipping past event: Legal for Creatives
+2025-03-12 17:52:47,243 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-4
+2025-03-12 17:52:47,653 - WARNING - Failed to parse date/time Apr 27, 2023
+ — 
+Jun 2, 2023 Thursday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Apr 27, 2023
+ — 
+Jun 2, 2023 Thursday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:47,657 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-12 17:52:47,658 - INFO - Processed event: Intro to Coding for Designers
+2025-03-12 17:52:47,658 - INFO - Fetching details for event at https://www.index-space.org/products/tom-loeser-and-wendy-maruyama
+2025-03-12 17:52:47,828 - INFO - Skipping past event: Superhouse & Untapped present a Conversation with Tom Loeser & Wendy Maruyama
+2025-03-12 17:52:47,829 - INFO - Fetching details for event at https://www.index-space.org/products/code-writers-workshop
+2025-03-12 17:52:48,214 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-12 17:52:48,217 - INFO - Successfully processed event: Code Writers’ Workshop
+2025-03-12 17:52:48,218 - INFO - Processed event: Code Writers’ Workshop
+2025-03-12 17:52:48,218 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-landon-metz-irl
+2025-03-12 17:52:48,540 - INFO - Skipping past event: A Studio Visit with Landon Metz (IRL)
+2025-03-12 17:52:48,541 - INFO - Fetching details for event at https://www.index-space.org/products/the-state-of-web3-a-discussion-for-designers-creatives
+2025-03-12 17:52:48,879 - INFO - Skipping past event: The State of Web3: A Discussion for Designers & Creatives
+2025-03-12 17:52:48,880 - INFO - Fetching details for event at https://www.index-space.org/products/community-conversations-on-hope
+2025-03-12 17:52:49,224 - INFO - Skipping past event: Community Conversations: On Hope
+2025-03-12 17:52:49,225 - INFO - Fetching details for event at https://www.index-space.org/products/medieval-astrology
+2025-03-12 17:52:49,457 - INFO - Skipping past event: Medieval Astrology: The Moon, Her Lunations, Our Witness
+2025-03-12 17:52:49,458 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-joe-henry-baker-irl
+2025-03-12 17:52:49,803 - INFO - Skipping past event: A Studio Visit with Joe Henry Baker (IRL)
+2025-03-12 17:52:49,803 - INFO - Fetching details for event at https://www.index-space.org/products/artistic-alchemy
+2025-03-12 17:52:50,132 - WARNING - Failed to parse date/time Sep 27, 2023
+ — 
+Dec 14, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Sep 27, 2023
+ — 
+Dec 14, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+2025-03-12 17:52:50,136 - INFO - Successfully processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-12 17:52:50,137 - INFO - Processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-12 17:52:50,148 - INFO - Saved 80 events to ./data/index_space_events.json
+2025-03-12 17:52:50,178 - INFO - Collected 80 events from index_space_scraper
+2025-03-12 17:52:50,193 - INFO - Running fabrik_scraper...
+2025-03-12 17:52:50,195 - INFO - Fetching Fabrik gatherings from https://www.joinfabrik.com/gatherings
+2025-03-12 17:52:50,769 - INFO - Found 0 event containers
+2025-03-12 17:52:50,784 - INFO - Collected 0 events from fabrik_scraper
+2025-03-12 17:52:50,785 - ERROR - Error running nyc_parks_scraper: No module named 'scrapers.nyc_parks_scraper'
+2025-03-12 17:52:50,785 - INFO - Collected 0 events from nyc_parks_scraper
+2025-03-12 17:52:50,786 - INFO - Total events collected: 105
+2025-03-12 17:52:50,786 - INFO - Running categorize_events.py to process events...
+2025-03-20 11:15:06,491 - INFO - Running pioneer_works_scraper...
+2025-03-20 11:15:18,359 - INFO - Collected 15 events from pioneer_works_scraper
+2025-03-20 11:15:18,373 - INFO - Running garys_guide_scraper...
+2025-03-20 11:15:18,373 - INFO - Starting Gary's Guide events scraper
+2025-03-20 11:15:18,759 - INFO - Found 117 events to scrape
+2025-03-20 11:15:18,961 - INFO - Scraped event: NYC Deep Tech Week 2025 Events & Parties!
+2025-03-20 11:15:20,185 - INFO - Scraped event: VC Founder Coffees
+2025-03-20 11:15:21,401 - INFO - Scraped event: European Tech Breakfast - AI In NYC
+2025-03-20 11:15:22,618 - INFO - Scraped event: NYC Fintech Coffee
+2025-03-20 11:15:23,968 - INFO - Scraped event: [Digital Asset Summit] Tapas Brunch w/ Maple
+2025-03-20 11:15:25,117 - INFO - Scraped event: State Of Crypto 2025 - Crypto Startups Roadshow
+2025-03-20 11:15:26,320 - INFO - Scraped event: March Madness Happy Hour - HealthTech Edition
+2025-03-20 11:15:27,549 - INFO - Scraped event: Book Talk - The Experimentation Machine
+2025-03-20 11:15:28,707 - INFO - Scraped event: Crypto Mixer
+2025-03-20 11:15:29,906 - INFO - Scraped event: Climate Tech Investors & Strategics Cocktail Hour
+2025-03-20 11:15:31,040 - INFO - Scraped event: Pitches & Pints - Startup Grind Happy Hour Showcase
+2025-03-20 11:15:32,260 - INFO - Scraped event: NYC Blockchain Network
+2025-03-20 11:15:33,399 - INFO - Scraped event: Crypto Foundation Sushi Reception
+2025-03-20 11:15:34,617 - INFO - Scraped event: Life Sciences Tech Innovation Fellows Program Info Session
+2025-03-20 11:15:35,751 - INFO - Scraped event: Architecture Recipes For AI-Powered Applications
+2025-03-20 11:15:36,978 - INFO - Scraped event: Crazy Rich Asians Ivy Mixer
+2025-03-20 11:15:38,114 - INFO - Scraped event: NYU & NYEdTech March Madness
+2025-03-20 11:15:39,328 - INFO - Scraped event: NYC Data   AI Happy Hour
+2025-03-20 11:15:40,549 - INFO - Scraped event: RIPPLE - The Enterprise AI Networking Experience
+2025-03-20 11:15:41,788 - INFO - Scraped event: Interstate & Blockdaemon VIP Dinner
+2025-03-20 11:15:42,931 - INFO - Scraped event: Family Offices, Investors, Market Makers & Exchanges
+2025-03-20 11:15:44,145 - INFO - Scraped event: Hardware Meetup - Climate Tech & Supply Chain
+2025-03-20 11:15:45,354 - INFO - Scraped event: Series A To F Founders Meetup
+2025-03-20 11:15:46,512 - INFO - Scraped event: The Junto Club
+2025-03-20 11:15:47,632 - INFO - Scraped event: Social Media Creators Mixer
+2025-03-20 11:15:48,852 - INFO - Scraped event: Blockworks Presents - March Madness Watch Party
+2025-03-20 11:15:50,086 - INFO - Scraped event: Founder Breakfast Club
+2025-03-20 11:15:51,257 - INFO - Scraped event: Founders Friday w/ Constrafor
+2025-03-20 11:15:52,429 - INFO - Scraped event: Founders & Tech Innovators Mixer
+2025-03-20 11:15:53,567 - INFO - Scraped event: [Open Data Week] Bodies Of Data Exhibition Opening Reception
+2025-03-20 11:15:54,697 - INFO - Scraped event: Open Data Week
+2025-03-20 11:15:55,909 - INFO - Scraped event: Road To Overflow
+2025-03-20 11:15:57,047 - INFO - Scraped event: NYC Code & Coffee
+2025-03-20 11:15:58,275 - INFO - Scraped event: AI Demo Night - Building The Future Of Consumer
+2025-03-20 11:15:59,408 - INFO - Scraped event: Consumer Tech Bowling - Founders & Investors
+2025-03-20 11:16:00,544 - INFO - Scraped event: Data, Power & Justice - State Of Open Data For Culture & Arts In NYC
+2025-03-20 11:16:01,756 - INFO - Scraped event: Tech Morning - Careers & Coffee
+2025-03-20 11:16:02,984 - INFO - Scraped event: Ethics & Equity - Navigating Inclusive Excellence In Healthcare & Health Research
+2025-03-20 11:16:04,232 - INFO - Scraped event: Mind The Tech Conference
+2025-03-20 11:16:05,380 - INFO - Scraped event: LDV Vision Summit
+2025-03-20 11:16:06,542 - INFO - Scraped event: AI Meetup - GenAI, LLMs & Agents
+2025-03-20 11:16:07,684 - INFO - Scraped event: Women Who Network - Smart Money Moves To Secure Your Future
+2025-03-20 11:16:08,926 - INFO - Scraped event: Batter Up!
+2025-03-20 11:16:10,148 - INFO - Scraped event: Learn How To Negotiate A Term Sheet
+2025-03-20 11:16:11,376 - INFO - Scraped event: Jersey City Tech Social
+2025-03-20 11:16:12,618 - INFO - Scraped event: Infra Meetup
+2025-03-20 11:16:13,741 - INFO - Scraped event: From Failure To Founder - Building Human-First AI Startups
+2025-03-20 11:16:14,882 - INFO - Scraped event: Super Diners Club
+2025-03-20 11:16:16,053 - INFO - Scraped event: Junto Founder Dinner
+2025-03-20 11:16:17,225 - INFO - Scraped event: Computational Techniques For Making Karaoke Harder
+2025-03-20 11:16:18,363 - INFO - Scraped event: Artificially Un-Intelligent NYC Tech Comedy Show
+2025-03-20 11:16:19,574 - INFO - Scraped event: AI Talks - Fine Tuning Gen AI & ML & LLMs
+2025-03-20 11:16:20,729 - INFO - Scraped event: All In - Founder & Investor Poker Night
+2025-03-20 11:16:21,926 - INFO - Scraped event: DeepTech For Climate - What's Working & What's Next
+2025-03-20 11:16:23,158 - INFO - Scraped event: From Bench To Broker - Equity Research In The Life Sciences
+2025-03-20 11:16:24,383 - INFO - Scraped event: Data Driven
+2025-03-20 11:16:25,622 - INFO - Scraped event: Startup Pitch Mixer
+2025-03-20 11:16:26,850 - INFO - Scraped event: HackerRank Programming Competition
+2025-03-20 11:16:28,071 - INFO - Scraped event: Code On Canvas - AI's Impact On Art & Industry
+2025-03-20 11:16:29,209 - INFO - Scraped event: TOFU Challenge - B2B Marketing Hackathon For Good
+2025-03-20 11:16:30,428 - INFO - Scraped event: Data Readiness For The New World Order
+2025-03-20 11:16:31,541 - INFO - Scraped event: Healthtech Happy Hour
+2025-03-20 11:16:32,682 - INFO - Scraped event: Future-Proof Your Career In Age Of AI - Build Your AI Roadmap
+2025-03-20 11:16:33,804 - INFO - Scraped event: Digital Assets & Capital Markets
+2025-03-20 11:16:34,973 - INFO - Scraped event: Tech Leadership Meetup - Innovating w/ AI
+2025-03-20 11:16:36,189 - INFO - Scraped event: Customer Success Meetup
+2025-03-20 11:16:37,345 - INFO - Scraped event: Tech Mixer
+2025-03-20 11:16:38,615 - INFO - Scraped event: MCP Lightning Talks
+2025-03-20 11:16:39,844 - INFO - Scraped event: Set Your Business Up For Scalable Success
+2025-03-20 11:16:41,082 - INFO - Scraped event: NYC Design Engg Meetup
+2025-03-20 11:16:42,309 - INFO - Scraped event: Break The Ice x Biotech
+2025-03-20 11:16:43,538 - INFO - Scraped event: Rise Of Growth Engg
+2025-03-20 11:16:44,763 - INFO - Scraped event: Startup Tech Mixer
+2025-03-20 11:16:45,956 - INFO - Scraped event: Kubernetes Meetup
+2025-03-20 11:16:47,113 - INFO - Scraped event: AI-powered Roleplay Platform For Workplace Training
+2025-03-20 11:16:48,245 - INFO - Scraped event: Above & Beyond - Women
+2025-03-20 11:16:49,366 - INFO - Scraped event: AI Infra Lightning Talks
+2025-03-20 11:16:50,599 - INFO - Scraped event: Bitcoin Devs Socratic Seminar
+2025-03-20 11:16:51,740 - INFO - Scraped event: Medical TechWalk
+2025-03-20 11:16:52,954 - INFO - Scraped event: Columbia SEAS - AI & Tech Career Fair
+2025-03-20 11:16:54,185 - INFO - Scraped event: Founder Drinks Roundtable
+2025-03-20 11:16:55,415 - INFO - Scraped event: AI4Purpose Meetup
+2025-03-20 11:16:56,639 - INFO - Scraped event: Transit Techies
+2025-03-20 11:16:57,871 - INFO - Scraped event: NYC School Of Data
+2025-03-20 11:16:59,105 - INFO - Scraped event: Stories about Human Centered AI
+2025-03-20 11:17:00,323 - INFO - Scraped event: Content Creators Meetup
+2025-03-20 11:17:01,475 - INFO - Scraped event: Deep Tech Week Opening Event
+2025-03-20 11:17:02,805 - INFO - Scraped event: American Dynamism w/ a16z
+2025-03-20 11:17:03,971 - INFO - Scraped event: Founders & VCs Masterclass & Mixer
+2025-03-20 11:17:05,139 - INFO - Scraped event: Deep Tech Week Cocktail Hour
+2025-03-20 11:17:06,276 - INFO - Scraped event: Physics Of Consciousness
+2025-03-20 11:17:07,423 - INFO - Scraped event: Venture & Vision
+2025-03-20 11:17:08,622 - INFO - Scraped event: Microsoft MVP Feature Series
+2025-03-20 11:17:09,852 - INFO - Scraped event: Founder Poker Club
+2025-03-20 11:17:11,068 - INFO - Scraped event: DeSciNYC - How To Create Superbabies
+2025-03-20 11:17:12,302 - INFO - Scraped event: Impact-First Product Teams
+2025-03-20 11:17:13,530 - INFO - Scraped event: InsurTech Conference
+2025-03-20 11:17:14,763 - INFO - Scraped event: Deep Tech Deep Dive - Scaling Next Gen Of Tech
+2025-03-20 11:17:15,988 - INFO - Scraped event: OODA & Future Battlespace - Deep Tech, Cybersecurity & Nat'l Security In 21st Century
+2025-03-20 11:17:17,221 - INFO - Scraped event: Mindstone AI Meetup
+2025-03-20 11:17:18,360 - INFO - Scraped event: Visual AI Hackathon
+2025-03-20 11:17:19,574 - INFO - Scraped event: Hoka Monthly Run Club
+2025-03-20 11:17:20,801 - INFO - Scraped event: NYC B2B Pre-Seed & Seed Founders
+2025-03-20 11:17:22,030 - INFO - Scraped event: Fireside Chat
+2025-03-20 11:17:23,238 - INFO - Scraped event: Digital Marketers Meetup
+2025-03-20 11:17:24,356 - INFO - Scraped event: Connections & Capital Meetup
+2025-03-20 11:17:25,517 - INFO - Scraped event: AI/ML Conversations Meetup
+2025-03-20 11:17:26,751 - INFO - Scraped event: Professional Readiness Of LLMs In Financial Regulations
+2025-03-20 11:17:27,979 - INFO - Scraped event: AI In Marketing - Innovation, Impact & The Road Ahead
+2025-03-20 11:17:29,203 - INFO - Scraped event: Artificial Ruby
+2025-03-20 11:17:30,434 - INFO - Scraped event: NYVR Meetup
+2025-03-20 11:17:31,566 - INFO - Scraped event: Finding PMF In The Age Of AI
+2025-03-20 11:17:32,701 - INFO - Scraped event: FinTech GTM Leadership Roundtable
+2025-03-20 11:17:34,019 - INFO - Scraped event: Redefine Possible - Women Pioneering Future Of AI
+2025-03-20 11:17:35,256 - INFO - Scraped event: Nachotuesday - Saas & AI Founder & Investor Happy Hour
+2025-03-20 11:17:36,478 - INFO - Scraped event: Crypto Mixer
+2025-03-20 11:17:37,702 - INFO - Scraped event: Data Science Salon - Applying AI & ML To Finance & Tech
+2025-03-20 11:17:38,741 - INFO - Saved 95 new events to data/gary_events.json
+2025-03-20 11:17:38,742 - INFO - Successfully scraped 117 events from Gary's Guide
+2025-03-20 11:17:38,744 - INFO - Gary's Guide events scraping completed successfully
+2025-03-20 11:17:38,745 - WARNING - Could not load events from data/garys_guide_events.json: [Errno 2] No such file or directory: 'data/garys_guide_events.json'
+2025-03-20 11:17:38,746 - INFO - Collected 0 events from garys_guide_scraper
+2025-03-20 11:17:38,758 - INFO - Running interference_scraper...
+2025-03-20 11:17:38,974 - INFO - Found 27 event links
+2025-03-20 11:17:39,954 - INFO - Processed event: Drawn Together
+2025-03-20 11:17:40,872 - INFO - Processed event: Fiber Friends of Falastin
+2025-03-20 11:17:41,585 - INFO - Processed event: Fiber Friends of Falastin
+2025-03-20 11:17:42,341 - INFO - Processed event: Build Your Own Time Capsule
+2025-03-20 11:17:42,396 - INFO - Processed event: Gender-Expansive Families Propaganda Party
+2025-03-20 11:17:43,225 - INFO - Processed event: Education Reading Group
+2025-03-20 11:17:44,052 - INFO - Processed event: Cultural workers for Palestine in NYC
+2025-03-20 11:17:44,671 - INFO - Processed event: Radical Acupressure Skillshare
+2025-03-20 11:17:45,380 - INFO - Processed event: Tax Resistance 101 with the War Resisters League
+2025-03-20 11:17:45,383 - INFO - Saved 9 events to ./data/interference_events.json
+2025-03-20 11:17:45,408 - INFO - Collected 9 events from interference_scraper
+2025-03-20 11:17:46,894 - ERROR - Error running google_calendar_scraper: No module named 'calendar_configs'
+2025-03-20 11:17:46,895 - INFO - Collected 0 events from google_calendar_scraper
+2025-03-20 11:17:47,102 - ERROR - Error running ics_calendar_scraper: No module named 'calendar_configs'
+2025-03-20 11:17:47,102 - INFO - Collected 0 events from ics_calendar_scraper
+2025-03-20 11:17:47,114 - INFO - Running index_space_scraper...
+2025-03-20 11:17:47,115 - INFO - Fetching events from https://www.index-space.org/collections/events
+2025-03-20 11:17:47,534 - INFO - Found 99 event links from https://www.index-space.org/collections/events
+2025-03-20 11:17:47,534 - INFO - Fetching events from https://www.index-space.org/collections/happenings
+2025-03-20 11:17:47,997 - INFO - Found 200 event links from https://www.index-space.org/collections/happenings
+2025-03-20 11:17:48,000 - INFO - Found 200 event URLs to process
+2025-03-20 11:17:48,000 - INFO - Fetching details for event at https://www.index-space.org/products/the-launch
+2025-03-20 11:17:48,241 - WARNING - Failed to parse date/time Nov 9, 2022
+ — 
+Nov 30, 2022 Wednesday
+s 
+from
+ 
+12:00 am
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Nov 9, 2022
+ — 
+Nov 30, 2022 Wednesday
+s 
+from
+ 
+12:00 am
+2025-03-20 11:17:48,245 - INFO - Successfully processed event: The Launch
+2025-03-20 11:17:48,245 - INFO - Processed event: The Launch
+2025-03-20 11:17:48,245 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-nurture-healthier-communities-a-protein-workshop
+2025-03-20 11:17:48,558 - INFO - Skipping past event: How to Nurture Healthier Communities: A Protein Workshop (IRL)
+2025-03-20 11:17:48,558 - INFO - Fetching details for event at https://www.index-space.org/products/vexillology-and-flag-design
+2025-03-20 11:17:48,871 - WARNING - Failed to parse date/time Sep 29, 2022
+ — 
+Oct 21, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Sep 29, 2022
+ — 
+Oct 21, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:17:48,873 - INFO - Successfully processed event: Vexillology and Flag Design
+2025-03-20 11:17:48,875 - INFO - Processed event: Vexillology and Flag Design
+2025-03-20 11:17:48,875 - INFO - Fetching details for event at https://www.index-space.org/products/here-comes-the-neighborhood-3d-modeling-for-beginners
+2025-03-20 11:17:49,078 - WARNING - Failed to parse date/time May 30, 2023
+ — 
+Jun 14, 2023 Tuesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: May 30, 2023
+ — 
+Jun 14, 2023 Tuesday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:17:49,089 - INFO - Successfully processed event: Here Comes the Neighborhood: 3D Modeling for Beginners
+2025-03-20 11:17:49,090 - INFO - Processed event: Here Comes the Neighborhood: 3D Modeling for Beginners
+2025-03-20 11:17:49,090 - INFO - Fetching details for event at https://www.index-space.org/products/conjure-collective-wildflower
+2025-03-20 11:17:49,278 - INFO - Skipping past event: Conjure Collective Presents: Wildflower
+2025-03-20 11:17:49,278 - INFO - Fetching details for event at https://www.index-space.org/products/a-z-radio-launch-meetup
+2025-03-20 11:17:49,595 - INFO - Skipping past event: a--z.radio launch & meetup
+2025-03-20 11:17:49,595 - INFO - Fetching details for event at https://www.index-space.org/products/open-source-brand-101
+2025-03-20 11:17:49,897 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:17:49,899 - INFO - Successfully processed event: Open Source Brand 101
+2025-03-20 11:17:49,899 - INFO - Processed event: Open Source Brand 101
+2025-03-20 11:17:49,899 - INFO - Fetching details for event at https://www.index-space.org/products/designing-spaces-for-humans-2
+2025-03-20 11:17:50,174 - WARNING - Failed to parse date/time Oct 14, 2023
+ — 
+Nov 18, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Oct 14, 2023
+ — 
+Nov 18, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:17:50,177 - INFO - Successfully processed event: Designing Spaces for Humans
+2025-03-20 11:17:50,178 - INFO - Processed event: Designing Spaces for Humans
+2025-03-20 11:17:50,178 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-public-spaces-of-midtown-manhattan-1
+2025-03-20 11:17:50,402 - INFO - Successfully processed event: Noticing: Public Spaces of Midtown
+2025-03-20 11:17:50,402 - INFO - Processed event: Noticing: Public Spaces of Midtown
+2025-03-20 11:17:50,403 - INFO - Fetching details for event at https://www.index-space.org/products/dreaming-community-an-exercise-in-decolonial-worldbuilding
+2025-03-20 11:17:50,617 - WARNING - Failed to parse date/time Apr 6, 2024
+ — 
+Apr 27, 2024 Saturday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+6:30 pm
+ 
+UTC: Unknown string format: Apr 6, 2024
+ — 
+Apr 27, 2024 Saturday
+s 
+from
+ 
+5:00 pm
+2025-03-20 11:17:50,620 - INFO - Successfully processed event: Dreaming Community: An Exercise in Decolonial Worldbuilding
+2025-03-20 11:17:50,621 - INFO - Processed event: Dreaming Community: An Exercise in Decolonial Worldbuilding
+2025-03-20 11:17:50,621 - INFO - Fetching details for event at https://www.index-space.org/products/experimenting-with-sculptural-typography
+2025-03-20 11:17:50,921 - WARNING - Failed to parse date/time Oct 11, 2022
+ — 
+Nov 2, 2022 Tuesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Oct 11, 2022
+ — 
+Nov 2, 2022 Tuesday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:17:50,925 - INFO - Successfully processed event: Experimenting With Sculptural Typography
+2025-03-20 11:17:50,926 - INFO - Processed event: Experimenting With Sculptural Typography
+2025-03-20 11:17:50,926 - INFO - Fetching details for event at https://www.index-space.org/products/reflections-a-digital-memory
+2025-03-20 11:17:51,030 - INFO - Skipping past event: Reflections: A Digital Memory Living Lab in Chinatown
+2025-03-20 11:17:51,030 - INFO - Fetching details for event at https://www.index-space.org/products/self-cities
+2025-03-20 11:17:51,135 - INFO - Skipping past event: Self Cities
+2025-03-20 11:17:51,135 - INFO - Fetching details for event at https://www.index-space.org/products/code-writers-workshop
+2025-03-20 11:17:51,226 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:17:51,229 - INFO - Successfully processed event: Code Writers’ Workshop
+2025-03-20 11:17:51,230 - INFO - Processed event: Code Writers’ Workshop
+2025-03-20 11:17:51,231 - INFO - Fetching details for event at https://www.index-space.org/products/when-does-technology-make-us-more-human-a-public-discussion
+2025-03-20 11:17:51,444 - INFO - Skipping past event: When Does Technology Make Us More Human: A Public Discussion
+2025-03-20 11:17:51,445 - INFO - Fetching details for event at https://www.index-space.org/products/soft-speakers-hands-on-etextiles-workshop
+2025-03-20 11:17:51,645 - WARNING - Failed to parse date/time Dec 4, 2024
+ — 
+Dec 7, 2024 Wednesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Dec 4, 2024
+ — 
+Dec 7, 2024 Wednesday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:17:51,649 - INFO - Successfully processed event: Soft Speakers: Hands on eTextiles Workshop
+2025-03-20 11:17:51,649 - INFO - Processed event: Soft Speakers: Hands on eTextiles Workshop
+2025-03-20 11:17:51,650 - INFO - Fetching details for event at https://www.index-space.org/products/intention-setting-guided-metitation
+2025-03-20 11:17:51,744 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:17:51,748 - INFO - Successfully processed event: Intention Setting + Guided Mediation
+2025-03-20 11:17:51,749 - INFO - Processed event: Intention Setting + Guided Mediation
+2025-03-20 11:17:51,749 - INFO - Fetching details for event at https://www.index-space.org/products/deep-listening
+2025-03-20 11:17:52,054 - INFO - Skipping past event: Deep Listening: How to Silence Your Ego and Hear What Really Matters
+2025-03-20 11:17:52,055 - INFO - Fetching details for event at https://www.index-space.org/products/protein-community-party
+2025-03-20 11:17:52,354 - INFO - Skipping past event: Protein Community Party
+2025-03-20 11:17:52,355 - INFO - Fetching details for event at https://www.index-space.org/products/elliot-keeler-cant-draw-and-so-can-you
+2025-03-20 11:17:52,672 - INFO - Skipping past event: Elliot Keeler Can’t Draw and So Can You
+2025-03-20 11:17:52,672 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-twitter
+2025-03-20 11:17:52,970 - INFO - Skipping past event: Deep Sea Diving on Twitter
+2025-03-20 11:17:52,971 - INFO - Fetching details for event at https://www.index-space.org/products/birding-at-roscoe-motel
+2025-03-20 11:17:53,186 - WARNING - Failed to parse date/time May 12, 2023
+ — 
+May 14, 2023 Friday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+5:00 pm
+ 
+UTC: Unknown string format: May 12, 2023
+ — 
+May 14, 2023 Friday
+s 
+from
+ 
+9:00 pm
+2025-03-20 11:17:53,190 - INFO - Successfully processed event: Flock Together: A Weekend in Roscoe, NY
+2025-03-20 11:17:53,191 - INFO - Processed event: Flock Together: A Weekend in Roscoe, NY
+2025-03-20 11:17:53,191 - INFO - Fetching details for event at https://www.index-space.org/products/creative-show-all
+2025-03-20 11:17:53,427 - INFO - Skipping past event: Creative Show-All
+2025-03-20 11:17:53,428 - INFO - Fetching details for event at https://www.index-space.org/products/eat-1116
+2025-03-20 11:17:53,683 - INFO - Skipping past event: eat:1116
+2025-03-20 11:17:53,684 - INFO - Fetching details for event at https://www.index-space.org/products/managing-without
+2025-03-20 11:17:53,898 - INFO - Skipping past event: Managing Without: How to Think Like a PM, Even When You Can’t Afford One
+2025-03-20 11:17:53,899 - INFO - Fetching details for event at https://www.index-space.org/products/belonging-and-bias-in-branding
+2025-03-20 11:17:54,213 - INFO - Skipping past event: Belonging and Bias in Branding
+2025-03-20 11:17:54,214 - INFO - Fetching details for event at https://www.index-space.org/products/intermediate-coding-for-designers
+2025-03-20 11:17:54,504 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:17:54,509 - INFO - Successfully processed event: Intermediate Coding for Designers
+2025-03-20 11:17:54,509 - INFO - Processed event: Intermediate Coding for Designers
+2025-03-20 11:17:54,509 - INFO - Fetching details for event at https://www.index-space.org/products/plant-club
+2025-03-20 11:17:54,810 - INFO - Skipping past event: Plant Club: Dandelions
+2025-03-20 11:17:54,810 - INFO - Fetching details for event at https://www.index-space.org/products/digital-to-analog-audio-diy-record-cutting
+2025-03-20 11:17:55,129 - INFO - Skipping past event: Digital to Analog Audio: DIY Record Cutting
+2025-03-20 11:17:55,132 - INFO - Fetching details for event at https://www.index-space.org/products/collaborative-drawing-and-writing-cadavre-exquis
+2025-03-20 11:17:55,347 - INFO - Skipping past event: Collaborative Drawing and Writing: Cadavre Exquis
+2025-03-20 11:17:55,347 - INFO - Fetching details for event at https://www.index-space.org/products/medieval-astrology-1
+2025-03-20 11:17:55,562 - INFO - Skipping past event: Medieval Astrology: The Return of Lord Saturn
+2025-03-20 11:17:55,562 - INFO - Fetching details for event at https://www.index-space.org/products/3-talks-on-mending-sonia-louise-davis
+2025-03-20 11:17:55,795 - INFO - Skipping past event: 3 Talks on Mending: sonia louise davis
+2025-03-20 11:17:55,798 - INFO - Fetching details for event at https://www.index-space.org/products/thoughtful-motion-function-in-animation
+2025-03-20 11:17:55,901 - WARNING - Failed to parse date/time Aug 25, 2022
+ — 
+Sep 23, 2022 Thursday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Aug 25, 2022
+ — 
+Sep 23, 2022 Thursday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:17:55,903 - INFO - Successfully processed event: Thoughtful Motion: Function in Animation
+2025-03-20 11:17:55,905 - INFO - Processed event: Thoughtful Motion: Function in Animation
+2025-03-20 11:17:55,905 - INFO - Fetching details for event at https://www.index-space.org/products/bliss-montage
+2025-03-20 11:17:56,143 - WARNING - Failed to parse date/time Feb 16, 2023
+ — 
+Apr 6, 2023 Thursday
+s 
+from
+ 
+12:00 am
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Feb 16, 2023
+ — 
+Apr 6, 2023 Thursday
+s 
+from
+ 
+12:00 am
+2025-03-20 11:17:56,146 - INFO - Successfully processed event: Collective Reading: Bliss Montage
+2025-03-20 11:17:56,146 - INFO - Processed event: Collective Reading: Bliss Montage
+2025-03-20 11:17:56,147 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-2
+2025-03-20 11:17:56,445 - WARNING - Failed to parse date/time Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+2025-03-20 11:17:56,448 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-20 11:17:56,449 - INFO - Processed event: Intro to Coding for Designers
+2025-03-20 11:17:56,449 - INFO - Fetching details for event at https://www.index-space.org/products/a-tour-of-together-over-time-at-emma-scully-gallery-irl
+2025-03-20 11:17:56,765 - INFO - Skipping past event: A Tour of Together Over Time at Emma Scully Gallery (IRL)
+2025-03-20 11:17:56,766 - INFO - Fetching details for event at https://www.index-space.org/products/body-archives-of-the-masculine
+2025-03-20 11:17:56,990 - INFO - Skipping past event: Body Archives of the Masculine
+2025-03-20 11:17:56,991 - INFO - Fetching details for event at https://www.index-space.org/products/creative-coding-playground
+2025-03-20 11:17:57,178 - WARNING - Failed to parse date/time Apr 19, 2022
+ — 
+May 18, 2022 Tuesday
+s 
+from
+ 
+9:30 pm
+ —
+ 
+12:30 am
+ 
+UTC: Unknown string format: Apr 19, 2022
+ — 
+May 18, 2022 Tuesday
+s 
+from
+ 
+9:30 pm
+2025-03-20 11:17:57,182 - INFO - Successfully processed event: Creative Coding Playground
+2025-03-20 11:17:57,182 - INFO - Processed event: Creative Coding Playground
+2025-03-20 11:17:57,182 - INFO - Fetching details for event at https://www.index-space.org/products/quickbook-14-spiral-engineering
+2025-03-20 11:17:57,279 - INFO - Skipping past event: Quickbook 14: Spiral Engineering
+2025-03-20 11:17:57,280 - INFO - Fetching details for event at https://www.index-space.org/products/3-talks-on-mending-rachel-meade-smith
+2025-03-20 11:17:57,475 - INFO - Skipping past event: 3 Talks on Mending: Rachel Meade Smith
+2025-03-20 11:17:57,476 - INFO - Fetching details for event at https://www.index-space.org/products/design-of-as-gift-giving
+2025-03-20 11:17:57,670 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:17:57,672 - INFO - Successfully processed event: How to Give a Gift
+2025-03-20 11:17:57,673 - INFO - Processed event: How to Give a Gift
+2025-03-20 11:17:57,674 - INFO - Fetching details for event at https://www.index-space.org/products/open-source-package-publishing
+2025-03-20 11:17:58,065 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:17:58,068 - INFO - Successfully processed event: Open Source Package Publishing
+2025-03-20 11:17:58,069 - INFO - Processed event: Open Source Package Publishing
+2025-03-20 11:17:58,069 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-the-web
+2025-03-20 11:17:58,305 - WARNING - Failed to parse date/time Jan 31, 2022
+ — 
+Feb 21, 2022 Monday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Jan 31, 2022
+ — 
+Feb 21, 2022 Monday
+s 
+from
+ 
+5:00 pm
+2025-03-20 11:17:58,309 - INFO - Successfully processed event: Deep Sea Diving on the Web
+2025-03-20 11:17:58,310 - INFO - Processed event: Deep Sea Diving on the Web
+2025-03-20 11:17:58,310 - INFO - Fetching details for event at https://www.index-space.org/products/culinary-creatives-collective-edition-ii
+2025-03-20 11:17:58,430 - INFO - Skipping past event: Culinary Creatives Collective Edition II
+2025-03-20 11:17:58,431 - INFO - Fetching details for event at https://www.index-space.org/products/zigzags
+2025-03-20 11:17:58,716 - WARNING - Failed to parse date/time Feb 6, 2024
+ — 
+May 7, 2024 Tuesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+12:30 am
+ 
+UTC: Unknown string format: Feb 6, 2024
+ — 
+May 7, 2024 Tuesday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:17:58,719 - INFO - Successfully processed event: Zigzags
+2025-03-20 11:17:58,720 - INFO - Processed event: Zigzags
+2025-03-20 11:17:58,720 - INFO - Fetching details for event at https://www.index-space.org/products/collective-reading-the-extreme-self
+2025-03-20 11:17:59,136 - INFO - Skipping past event: Collective Reading: The Extreme Self
+2025-03-20 11:17:59,137 - INFO - Fetching details for event at https://www.index-space.org/products/a-practical-guide-to-sustainable-package-design
+2025-03-20 11:17:59,352 - INFO - Skipping past event: A Practical Guide to Sustainable Package Design
+2025-03-20 11:17:59,353 - INFO - Fetching details for event at https://www.index-space.org/products/if-you-knew-me-would-you-love-me
+2025-03-20 11:17:59,531 - INFO - Skipping past event: If You Knew Me Would You Love Me
+2025-03-20 11:17:59,531 - INFO - Fetching details for event at https://www.index-space.org/products/3-talks-on-mending-landon-newton
+2025-03-20 11:17:59,618 - INFO - Skipping past event: 3 Talks on Mending: Landon Newton
+2025-03-20 11:17:59,619 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-joe-henry-baker-irl
+2025-03-20 11:17:59,814 - INFO - Skipping past event: A Studio Visit with Joe Henry Baker (IRL)
+2025-03-20 11:17:59,815 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-talk-to-a-computer
+2025-03-20 11:18:00,034 - INFO - Skipping past event: How to Talk to a Computer
+2025-03-20 11:18:00,034 - INFO - Fetching details for event at https://www.index-space.org/products/creating-and-destroying-the-cyber-self-dream-hacking
+2025-03-20 11:18:00,299 - WARNING - Failed to parse date/time Oct 3, 2022
+ — 
+Oct 25, 2022 Monday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Oct 3, 2022
+ — 
+Oct 25, 2022 Monday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:18:00,302 - INFO - Successfully processed event: Creating and Destroying the Cyber Self: Dream Hacking
+2025-03-20 11:18:00,302 - INFO - Processed event: Creating and Destroying the Cyber Self: Dream Hacking
+2025-03-20 11:18:00,303 - INFO - Fetching details for event at https://www.index-space.org/products/botanical-color-lab-natural-dye-with-flowers
+2025-03-20 11:18:00,507 - WARNING - Failed to parse date/time Apr 13, 2024
+ — 
+Apr 20, 2024 Saturday
+s 
+from
+ 
+6:00 pm
+ —
+ 
+8:30 pm
+ 
+UTC: Unknown string format: Apr 13, 2024
+ — 
+Apr 20, 2024 Saturday
+s 
+from
+ 
+6:00 pm
+2025-03-20 11:18:00,510 - INFO - Successfully processed event: Botanical Color Lab: Natural Dye with Flowers
+2025-03-20 11:18:00,511 - INFO - Processed event: Botanical Color Lab: Natural Dye with Flowers
+2025-03-20 11:18:00,511 - INFO - Fetching details for event at https://www.index-space.org/products/index-apero
+2025-03-20 11:18:00,787 - INFO - Skipping past event: Index Apero: a Holiday Party!
+2025-03-20 11:18:00,788 - INFO - Fetching details for event at https://www.index-space.org/products/index-radio-info-session
+2025-03-20 11:18:01,012 - INFO - Skipping past event: Index FM Info Session
+2025-03-20 11:18:01,013 - INFO - Fetching details for event at https://www.index-space.org/products/painting-a-website-the-basics
+2025-03-20 11:18:01,232 - INFO - Skipping past event: Painting a Website
+2025-03-20 11:18:01,233 - INFO - Fetching details for event at https://www.index-space.org/products/animation-overview
+2025-03-20 11:18:01,353 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:01,357 - INFO - Successfully processed event: Animation Tasting Menu
+2025-03-20 11:18:01,359 - INFO - Processed event: Animation Tasting Menu
+2025-03-20 11:18:01,360 - INFO - Fetching details for event at https://www.index-space.org/products/mixed-nuts
+2025-03-20 11:18:01,592 - INFO - Skipping past event: Mixed Nuts
+2025-03-20 11:18:01,592 - INFO - Fetching details for event at https://www.index-space.org/products/kettl-tea-matcha-workshop
+2025-03-20 11:18:01,829 - INFO - Skipping past event: Kettl Tea Matcha Workshop
+2025-03-20 11:18:01,830 - INFO - Fetching details for event at https://www.index-space.org/products/teaching-at-index
+2025-03-20 11:18:01,919 - INFO - Skipping past event: Teaching at Index
+2025-03-20 11:18:01,919 - INFO - Fetching details for event at https://www.index-space.org/products/seed-packet-launch
+2025-03-20 11:18:02,152 - INFO - Skipping past event: Seed Packet Launch
+2025-03-20 11:18:02,153 - INFO - Fetching details for event at https://www.index-space.org/products/a-guided-visit-to-george-nakashima-foundation-irl
+2025-03-20 11:18:02,403 - INFO - Skipping past event: A Guided Visit to George Nakashima Foundation (IRL Pennsylvania)
+2025-03-20 11:18:02,404 - INFO - Fetching details for event at https://www.index-space.org/products/visit-a-recycling-facility-in-person-tour
+2025-03-20 11:18:02,946 - INFO - Skipping past event: Visit a Recycling Facility: In-Person Tour
+2025-03-20 11:18:02,947 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-natural-history-of-lower-manhattan
+2025-03-20 11:18:03,098 - INFO - Skipping past event: Noticing: Shaping Nature in Lower Manhattan
+2025-03-20 11:18:03,099 - INFO - Fetching details for event at https://www.index-space.org/products/independent-printers-panel
+2025-03-20 11:18:03,298 - INFO - Skipping past event: Independent Printers’ Panel
+2025-03-20 11:18:03,300 - INFO - Fetching details for event at https://www.index-space.org/products/that-show-1
+2025-03-20 11:18:03,463 - INFO - Skipping past event: THAT SHOW
+2025-03-20 11:18:03,464 - INFO - Fetching details for event at https://www.index-space.org/products/copy-of-creative-studio-building-euro-friendly
+2025-03-20 11:18:03,680 - WARNING - Failed to parse date/time Mar 28, 2023
+ — 
+May 2, 2023 Tuesday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Mar 28, 2023
+ — 
+May 2, 2023 Tuesday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:18:03,686 - INFO - Successfully processed event: Creative Studio Building (Europe Friendly)
+2025-03-20 11:18:03,687 - INFO - Processed event: Creative Studio Building (Europe Friendly)
+2025-03-20 11:18:03,687 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-matt-merkel-hess
+2025-03-20 11:18:03,923 - INFO - Skipping past event: A Studio Visit with Matt Merkel Hess
+2025-03-20 11:18:03,923 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-make-more-money
+2025-03-20 11:18:04,137 - INFO - Successfully processed event: How to Make More Money: A Practical Guide for Freelancers & Small Business Owners
+2025-03-20 11:18:04,138 - INFO - Processed event: How to Make More Money: A Practical Guide for Freelancers & Small Business Owners
+2025-03-20 11:18:04,139 - INFO - Fetching details for event at https://www.index-space.org/products/shaping-the-undefined
+2025-03-20 11:18:04,642 - INFO - Skipping past event: Shaping the Undefined: Leading Design in Early-Stage Startups
+2025-03-20 11:18:04,643 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-karl-monies-irl-copenhagen
+2025-03-20 11:18:04,845 - INFO - Skipping past event: A Studio Visit with Karl Monies (IRL Copenhagen)
+2025-03-20 11:18:04,859 - INFO - Fetching details for event at https://www.index-space.org/products/decentralized-publishing-bring-back-the-blogs
+2025-03-20 11:18:05,125 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:05,129 - INFO - Successfully processed event: Decentralized Publishing: Bring Back the Blogs
+2025-03-20 11:18:05,130 - INFO - Processed event: Decentralized Publishing: Bring Back the Blogs
+2025-03-20 11:18:05,130 - INFO - Fetching details for event at https://www.index-space.org/products/astro-basics
+2025-03-20 11:18:05,382 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:05,388 - INFO - Successfully processed event: Astro Basics
+2025-03-20 11:18:05,389 - INFO - Processed event: Astro Basics
+2025-03-20 11:18:05,390 - INFO - Fetching details for event at https://www.index-space.org/products/nestling-into-rest
+2025-03-20 11:18:05,632 - INFO - Skipping past event: Nestling into Rest
+2025-03-20 11:18:05,634 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-4
+2025-03-20 11:18:05,906 - WARNING - Failed to parse date/time Apr 27, 2023
+ — 
+Jun 2, 2023 Thursday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Apr 27, 2023
+ — 
+Jun 2, 2023 Thursday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:18:05,911 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-20 11:18:05,912 - INFO - Processed event: Intro to Coding for Designers
+2025-03-20 11:18:05,913 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-jason-nocito
+2025-03-20 11:18:06,173 - INFO - Skipping past event: An Artist Talk With Jason Nocito
+2025-03-20 11:18:06,174 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-rebecca-lajboschitz
+2025-03-20 11:18:06,386 - INFO - Skipping past event: A Studio Visit with Rebecca Lajboschitz (Copenhagen)
+2025-03-20 11:18:06,388 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-richard-haines
+2025-03-20 11:18:06,601 - INFO - Skipping past event: A Studio Visit with Richard Haines
+2025-03-20 11:18:06,603 - INFO - Fetching details for event at https://www.index-space.org/products/tokyo-indie-short-double-feature
+2025-03-20 11:18:06,843 - INFO - Skipping past event: Tokyo Indie Short Double Feature
+2025-03-20 11:18:06,845 - INFO - Fetching details for event at https://www.index-space.org/products/letters-form-intro-to-type-design
+2025-03-20 11:18:07,158 - WARNING - Failed to parse date/time Jul 11, 2024
+ — 
+Aug 16, 2024 Thursday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Jul 11, 2024
+ — 
+Aug 16, 2024 Thursday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:18:07,166 - INFO - Successfully processed event: Letters’ Form: Intro to Type Design
+2025-03-20 11:18:07,167 - INFO - Processed event: Letters’ Form: Intro to Type Design
+2025-03-20 11:18:07,168 - INFO - Fetching details for event at https://www.index-space.org/products/seeding-futures-together
+2025-03-20 11:18:07,390 - INFO - Skipping past event: Seeding Futures Together
+2025-03-20 11:18:07,391 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-1
+2025-03-20 11:18:07,634 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:07,644 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-20 11:18:07,647 - INFO - Processed event: Intro to Coding for Designers
+2025-03-20 11:18:07,647 - INFO - Fetching details for event at https://www.index-space.org/products/resplendent-1
+2025-03-20 11:18:07,891 - INFO - Skipping past event: Resplendent!
+2025-03-20 11:18:07,893 - INFO - Fetching details for event at https://www.index-space.org/products/philosophy-for-artists-from-utopia-to-the-war-machine
+2025-03-20 11:18:08,116 - WARNING - Failed to parse date/time Mar 31, 2025
+ — 
+May 13, 2025 Monday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 31, 2025
+ — 
+May 13, 2025 Monday
+s 
+from
+ 
+11:30 pm
+2025-03-20 11:18:08,121 - INFO - Successfully processed event: Philosophy for Artists: From Utopia to the War Machine
+2025-03-20 11:18:08,122 - INFO - Processed event: Philosophy for Artists: From Utopia to the War Machine
+2025-03-20 11:18:08,123 - INFO - Fetching details for event at https://www.index-space.org/products/kick-over-the-statues
+2025-03-20 11:18:08,398 - INFO - Skipping past event: Kick Over The Statues
+2025-03-20 11:18:08,399 - INFO - Fetching details for event at https://www.index-space.org/products/a-report-circle-or-curve-book-talk
+2025-03-20 11:18:08,645 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:08,650 - INFO - Successfully processed event: HOW TO: Make Public Art*
+2025-03-20 11:18:08,651 - INFO - Processed event: HOW TO: Make Public Art*
+2025-03-20 11:18:08,652 - INFO - Fetching details for event at https://www.index-space.org/products/pockets
+2025-03-20 11:18:08,837 - INFO - Skipping past event: pockets
+2025-03-20 11:18:08,838 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-landon-metz-irl
+2025-03-20 11:18:09,069 - INFO - Skipping past event: A Studio Visit with Landon Metz (IRL)
+2025-03-20 11:18:09,072 - INFO - Fetching details for event at https://www.index-space.org/products/touch-grass
+2025-03-20 11:18:09,203 - WARNING - Failed to parse date/time May 28, 2024
+ — 
+Jun 26, 2024 Tuesday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: May 28, 2024
+ — 
+Jun 26, 2024 Tuesday
+s 
+from
+ 
+11:30 pm
+2025-03-20 11:18:09,210 - INFO - Successfully processed event: Touch Grass
+2025-03-20 11:18:09,211 - INFO - Processed event: Touch Grass
+2025-03-20 11:18:09,211 - INFO - Fetching details for event at https://www.index-space.org/products/a-talk-with-lyra-kilston
+2025-03-20 11:18:09,441 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:09,446 - INFO - Successfully processed event: Taking the Cure: A Talk with Lyra Kilston
+2025-03-20 11:18:09,447 - INFO - Processed event: Taking the Cure: A Talk with Lyra Kilston
+2025-03-20 11:18:09,447 - INFO - Fetching details for event at https://www.index-space.org/products/tom-loeser-and-wendy-maruyama
+2025-03-20 11:18:09,674 - INFO - Skipping past event: Superhouse & Untapped present a Conversation with Tom Loeser & Wendy Maruyama
+2025-03-20 11:18:09,674 - INFO - Fetching details for event at https://www.index-space.org/products/monster-mash
+2025-03-20 11:18:09,920 - WARNING - Failed to parse date/time Oct 12, 2024
+ — 
+Oct 26, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Oct 12, 2024
+ — 
+Oct 26, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:18:09,926 - INFO - Successfully processed event: Monster Mash
+2025-03-20 11:18:09,927 - INFO - Processed event: Monster Mash
+2025-03-20 11:18:09,928 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-edoardo-cozzani
+2025-03-20 11:18:10,586 - INFO - Skipping past event: A Studio Visit with Edoardo Cozzani
+2025-03-20 11:18:10,587 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-together-1
+2025-03-20 11:18:10,799 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:10,803 - INFO - Successfully processed event: Pasta, Together
+2025-03-20 11:18:10,804 - INFO - Processed event: Pasta, Together
+2025-03-20 11:18:10,804 - INFO - Fetching details for event at https://www.index-space.org/products/slow-sessions-1
+2025-03-20 11:18:10,990 - INFO - Skipping past event: Slow Sessions: Tools for Clear & Focused Days
+2025-03-20 11:18:10,992 - INFO - Fetching details for event at https://www.index-space.org/products/tactile-toolbox-thinking-through-making
+2025-03-20 11:18:11,165 - WARNING - Failed to parse date/time Feb 29, 2024
+ — 
+Mar 30, 2024 Thursday
+s 
+from
+ 
+12:00 am
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Feb 29, 2024
+ — 
+Mar 30, 2024 Thursday
+s 
+from
+ 
+12:00 am
+2025-03-20 11:18:11,169 - INFO - Successfully processed event: Tactile Toolbox: Thinking Through Making
+2025-03-20 11:18:11,170 - INFO - Processed event: Tactile Toolbox: Thinking Through Making
+2025-03-20 11:18:11,170 - INFO - Fetching details for event at https://www.index-space.org/products/digital-archiving-gallery-of-anonymous-memories
+2025-03-20 11:18:11,390 - WARNING - Failed to parse date/time Mar 5, 2025
+ — 
+Apr 10, 2025 Wednesday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 5, 2025
+ — 
+Apr 10, 2025 Wednesday
+s 
+from
+ 
+11:30 pm
+2025-03-20 11:18:11,393 - INFO - Successfully processed event: Digital Archiving: Gallery of Anonymous Memories
+2025-03-20 11:18:11,393 - INFO - Processed event: Digital Archiving: Gallery of Anonymous Memories
+2025-03-20 11:18:11,395 - INFO - Fetching details for event at https://www.index-space.org/products/bioplastic-jewelry-workshop
+2025-03-20 11:18:11,660 - INFO - Skipping past event: Bioplastic Jewelry Workshop
+2025-03-20 11:18:11,660 - INFO - Fetching details for event at https://www.index-space.org/products/i-remember-using-memory-as-source-material
+2025-03-20 11:18:11,775 - WARNING - Failed to parse date/time Sep 30, 2024
+ — 
+Nov 12, 2024 Monday
+s 
+from
+ 
+10:30 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Sep 30, 2024
+ — 
+Nov 12, 2024 Monday
+s 
+from
+ 
+10:30 pm
+2025-03-20 11:18:11,779 - INFO - Successfully processed event: I Remember: Using Memory as Source Material
+2025-03-20 11:18:11,780 - INFO - Processed event: I Remember: Using Memory as Source Material
+2025-03-20 11:18:11,780 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-big-f-ck-you-energy
+2025-03-20 11:18:12,007 - INFO - Skipping past event: work—flow: on Big F*ck You Energy
+2025-03-20 11:18:12,009 - INFO - Fetching details for event at https://www.index-space.org/products/open-house-with-authentic
+2025-03-20 11:18:12,334 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:12,338 - INFO - Successfully processed event: Open House with Desmond Wong and Christina Janus
+2025-03-20 11:18:12,339 - INFO - Processed event: Open House with Desmond Wong and Christina Janus
+2025-03-20 11:18:12,339 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-time-and-space-in-fidi
+2025-03-20 11:18:12,527 - INFO - Skipping past event: Noticing: Time and Space in FiDi
+2025-03-20 11:18:12,528 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-public-spaces-of-midtown-manhattan
+2025-03-20 11:18:12,694 - INFO - Skipping past event: Noticing: Public Spaces of Midtown
+2025-03-20 11:18:12,695 - INFO - Fetching details for event at https://www.index-space.org/products/contacting-the-mystic-a-four-part-divination-workshop-series
+2025-03-20 11:18:12,883 - WARNING - Failed to parse date/time Mar 8, 2024
+ — 
+Apr 18, 2024 Friday
+s 
+from
+ 
+12:00 am
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 8, 2024
+ — 
+Apr 18, 2024 Friday
+s 
+from
+ 
+12:00 am
+2025-03-20 11:18:12,885 - INFO - Successfully processed event: Communion with the Mystic: A Four-Part Divination Workshop Series
+2025-03-20 11:18:12,886 - INFO - Processed event: Communion with the Mystic: A Four-Part Divination Workshop Series
+2025-03-20 11:18:12,886 - INFO - Fetching details for event at https://www.index-space.org/products/niched-down
+2025-03-20 11:18:13,087 - INFO - Skipping past event: Niched Down: The Homogenization of Subculture
+2025-03-20 11:18:13,088 - INFO - Fetching details for event at https://www.index-space.org/products/hyper-optimization-creative-stagnation-amidst-cultural-abundance
+2025-03-20 11:18:13,253 - INFO - Skipping past event: Hyper-Optimization: Creative Stagnation Amidst Cultural Abundance
+2025-03-20 11:18:13,253 - INFO - Fetching details for event at https://www.index-space.org/products/a-workshop-on-workshops
+2025-03-20 11:18:13,485 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:13,488 - INFO - Successfully processed event: A Workshop on Workshops: How to help groups get unstuck
+2025-03-20 11:18:13,489 - INFO - Processed event: A Workshop on Workshops: How to help groups get unstuck
+2025-03-20 11:18:13,489 - INFO - Fetching details for event at https://www.index-space.org/products/the-state-of-web3-a-discussion-for-designers-creatives
+2025-03-20 11:18:13,740 - INFO - Skipping past event: The State of Web3: A Discussion for Designers & Creatives
+2025-03-20 11:18:13,741 - INFO - Fetching details for event at https://www.index-space.org/products/dream-work
+2025-03-20 11:18:13,907 - WARNING - Failed to parse date/time Jan 13, 2025
+ — 
+Feb 4, 2025 Monday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Jan 13, 2025
+ — 
+Feb 4, 2025 Monday
+s 
+from
+ 
+11:30 pm
+2025-03-20 11:18:13,915 - INFO - Successfully processed event: Dream Work
+2025-03-20 11:18:13,916 - INFO - Processed event: Dream Work
+2025-03-20 11:18:13,916 - INFO - Fetching details for event at https://www.index-space.org/products/algae-bioplastic-workshop
+2025-03-20 11:18:14,144 - INFO - Skipping past event: Algae Bioplastic Workshop
+2025-03-20 11:18:14,145 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-chen-chen-kai-williams
+2025-03-20 11:18:14,404 - INFO - Skipping past event: A Studio Visit with Chen Chen & Kai Williams
+2025-03-20 11:18:14,407 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-give-a-gift
+2025-03-20 11:18:14,699 - INFO - Skipping past event: How to Give a Gift
+2025-03-20 11:18:14,700 - INFO - Fetching details for event at https://www.index-space.org/products/living-room-lectures-0
+2025-03-20 11:18:14,952 - INFO - Skipping past event: Living Room Lectures: “Is He… You Know?” Bronzino and Homoeroticism in the Medici Court
+2025-03-20 11:18:14,959 - INFO - Fetching details for event at https://www.index-space.org/products/all-fonts-are-bastards
+2025-03-20 11:18:15,230 - INFO - Skipping past event: Dinamo – All Fonts Are Bastards
+2025-03-20 11:18:15,231 - INFO - Fetching details for event at https://www.index-space.org/products/making-and-breaking-the-zine-1
+2025-03-20 11:18:15,449 - WARNING - Failed to parse date/time Feb 3, 2024
+ — 
+Mar 9, 2024 Saturday
+s 
+from
+ 
+7:00 pm
+ —
+ 
+9:00 pm
+ 
+UTC: Unknown string format: Feb 3, 2024
+ — 
+Mar 9, 2024 Saturday
+s 
+from
+ 
+7:00 pm
+2025-03-20 11:18:15,456 - INFO - Successfully processed event: Making and Breaking the Zine
+2025-03-20 11:18:15,457 - INFO - Processed event: Making and Breaking the Zine
+2025-03-20 11:18:15,457 - INFO - Fetching details for event at https://www.index-space.org/products/creative-studio-building
+2025-03-20 11:18:15,605 - WARNING - Failed to parse date/time Mar 28, 2023
+ — 
+May 3, 2023 Tuesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Mar 28, 2023
+ — 
+May 3, 2023 Tuesday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:18:15,610 - INFO - Successfully processed event: Creative Studio Building
+2025-03-20 11:18:15,611 - INFO - Processed event: Creative Studio Building
+2025-03-20 11:18:15,611 - INFO - Fetching details for event at https://www.index-space.org/products/radical-love-now
+2025-03-20 11:18:15,800 - INFO - Skipping past event: Radical Love Now!
+2025-03-20 11:18:15,802 - INFO - Fetching details for event at https://www.index-space.org/products/a-talk-with-louise-paradis-1
+2025-03-20 11:18:16,021 - INFO - Skipping past event: A Talk about the Typografische Monatsblätter Research Archive
+2025-03-20 11:18:16,022 - INFO - Fetching details for event at https://www.index-space.org/products/studio-visit-with-artist-gaetano-pesce-irl
+2025-03-20 11:18:16,272 - INFO - Skipping past event: A Studio Visit with Gaetano Pesce (IRL)
+2025-03-20 11:18:16,274 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-3
+2025-03-20 11:18:16,441 - WARNING - Failed to parse date/time Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Aug 31, 2022
+ — 
+Oct 6, 2022 Wednesday
+s 
+from
+ 
+9:00 pm
+2025-03-20 11:18:16,451 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-20 11:18:16,453 - INFO - Processed event: Intro to Coding for Designers
+2025-03-20 11:18:16,454 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-focus
+2025-03-20 11:18:16,713 - INFO - Skipping past event: work—flow: on Focus
+2025-03-20 11:18:16,714 - INFO - Fetching details for event at https://www.index-space.org/products/tea-and-pastries-with-dona
+2025-03-20 11:18:16,881 - INFO - Skipping past event: Tea & Pastries with Dona
+2025-03-20 11:18:16,882 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-megumi-shauna-arai
+2025-03-20 11:18:17,096 - INFO - Skipping past event: A Studio Visit with Megumi Shauna Arai
+2025-03-20 11:18:17,097 - INFO - Fetching details for event at https://www.index-space.org/products/design-with-distinction
+2025-03-20 11:18:17,301 - WARNING - Failed to parse date/time Oct 17, 2023
+ — 
+Nov 8, 2023 Tuesday
+s 
+from
+ 
+9:00 pm
+ —
+ 
+11:00 pm
+ 
+UTC: Unknown string format: Oct 17, 2023
+ — 
+Nov 8, 2023 Tuesday
+s 
+from
+ 
+9:00 pm
+2025-03-20 11:18:17,307 - INFO - Successfully processed event: Design with Distinction: A Creative Development Course
+2025-03-20 11:18:17,308 - INFO - Processed event: Design with Distinction: A Creative Development Course
+2025-03-20 11:18:17,309 - INFO - Fetching details for event at https://www.index-space.org/products/a-curatorial-tour-and-artist-talk-at-amant-foundation-irl
+2025-03-20 11:18:17,521 - INFO - Skipping past event: A Curatorial Tour and Artist Talk at Amant Foundation (IRL)
+2025-03-20 11:18:17,522 - INFO - Fetching details for event at https://www.index-space.org/products/painting-with-p5-js
+2025-03-20 11:18:17,640 - WARNING - Failed to parse date/time Oct 18, 2023
+ — 
+Nov 2, 2023 Wednesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+12:30 am
+ 
+UTC: Unknown string format: Oct 18, 2023
+ — 
+Nov 2, 2023 Wednesday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:18:17,644 - INFO - Successfully processed event: Painting with p5.js
+2025-03-20 11:18:17,645 - INFO - Processed event: Painting with p5.js
+2025-03-20 11:18:17,645 - INFO - Fetching details for event at https://www.index-space.org/products/designing-ethical-futures
+2025-03-20 11:18:17,818 - INFO - Skipping past event: Designing Ethical Futures
+2025-03-20 11:18:17,819 - INFO - Fetching details for event at https://www.index-space.org/products/how-the-internet-could-be-a-hospital-mutual-aid-at-the-video-store
+2025-03-20 11:18:17,942 - INFO - Skipping past event: How the Internet Could be a Hospital: Mutual Aid at the Video Store
+2025-03-20 11:18:17,944 - INFO - Fetching details for event at https://www.index-space.org/products/designing-spaces-for-humans
+2025-03-20 11:18:18,169 - WARNING - Failed to parse date/time Jun 18, 2022
+ — 
+Jul 23, 2022 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Jun 18, 2022
+ — 
+Jul 23, 2022 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:18:18,174 - INFO - Successfully processed event: Designing Spaces for Humans
+2025-03-20 11:18:18,175 - INFO - Processed event: Designing Spaces for Humans
+2025-03-20 11:18:18,176 - INFO - Fetching details for event at https://www.index-space.org/products/superhouse-dan-friedman
+2025-03-20 11:18:18,295 - INFO - Skipping past event: Superhouse Presents a Conversation with Jeffrey Deitch and Laurie Mallet on Artist Dan Friedman
+2025-03-20 11:18:18,296 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-tin-ed
+2025-03-20 11:18:18,694 - INFO - Skipping past event: An Artist Talk with Tin & Ed
+2025-03-20 11:18:18,700 - INFO - Fetching details for event at https://www.index-space.org/products/a-new-plan-to-capture-greenhouse-gas-book-talk-with-andres-chang
+2025-03-20 11:18:18,985 - INFO - Skipping past event: A New Plan to Capture Greenhouse Gas — Book Talk with Andres Chang
+2025-03-20 11:18:18,986 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-nahee-kim-at-pioneer-works-irl
+2025-03-20 11:18:19,372 - INFO - Skipping past event: A Studio Visit with Nahee Kim at Pioneer Works (IRL)
+2025-03-20 11:18:19,373 - INFO - Fetching details for event at https://www.index-space.org/products/all-about-love-1
+2025-03-20 11:18:19,567 - WARNING - Failed to parse date/time Jan 27, 2022
+ — 
+Aug 17, 2022 Thursday
+s 
+from
+ 
+12:30 am
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Jan 27, 2022
+ — 
+Aug 17, 2022 Thursday
+s 
+from
+ 
+12:30 am
+2025-03-20 11:18:19,572 - INFO - Successfully processed event: Collective Reading: All About Love
+2025-03-20 11:18:19,573 - INFO - Processed event: Collective Reading: All About Love
+2025-03-20 11:18:19,574 - INFO - Fetching details for event at https://www.index-space.org/products/mediated-meditations-2
+2025-03-20 11:18:19,812 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:19,816 - INFO - Successfully processed event: Mediated Meditations
+2025-03-20 11:18:19,817 - INFO - Processed event: Mediated Meditations
+2025-03-20 11:18:19,818 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-daniel-arnold
+2025-03-20 11:18:20,213 - INFO - Skipping past event: An Artist Talk With Daniel Arnold
+2025-03-20 11:18:20,214 - INFO - Fetching details for event at https://www.index-space.org/products/an-index-is-a-diary-sorting-through-your-personal-lists
+2025-03-20 11:18:20,416 - WARNING - Failed to parse date/time Jul 8, 2023
+ — 
+Jul 15, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Jul 8, 2023
+ — 
+Jul 15, 2023 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:18:20,420 - INFO - Successfully processed event: An Index is a Diary: Sorting Through your Personal Lists
+2025-03-20 11:18:20,421 - INFO - Processed event: An Index is a Diary: Sorting Through your Personal Lists
+2025-03-20 11:18:20,421 - INFO - Fetching details for event at https://www.index-space.org/products/disobey-a-playful-guide-to-disobedience-creativity-and-rebellion
+2025-03-20 11:18:20,661 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:20,664 - INFO - Successfully processed event: Disobey: A playful guide to disobedience, creativity, and rebellion
+2025-03-20 11:18:20,664 - INFO - Processed event: Disobey: A playful guide to disobedience, creativity, and rebellion
+2025-03-20 11:18:20,665 - INFO - Fetching details for event at https://www.index-space.org/products/collective-reading-the-carrier-bag-theory-of-fiction
+2025-03-20 11:18:20,919 - INFO - Skipping past event: Collective Reading: The Carrier Bag Theory of Fiction
+2025-03-20 11:18:20,920 - INFO - Fetching details for event at https://www.index-space.org/products/3d-modeling-for-print
+2025-03-20 11:18:21,019 - WARNING - Failed to parse date/time Nov 3, 2022
+ — 
+Nov 18, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Nov 3, 2022
+ — 
+Nov 18, 2022 Thursday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:18:21,022 - INFO - Successfully processed event: 3D Modeling for Print
+2025-03-20 11:18:21,022 - INFO - Processed event: 3D Modeling for Print
+2025-03-20 11:18:21,022 - INFO - Fetching details for event at https://www.index-space.org/products/skill-4-skill
+2025-03-20 11:18:21,147 - INFO - Successfully processed event: Skill 4 Skill
+2025-03-20 11:18:21,148 - INFO - Processed event: Skill 4 Skill
+2025-03-20 11:18:21,148 - INFO - Fetching details for event at https://www.index-space.org/products/medieval-astrology
+2025-03-20 11:18:21,445 - INFO - Skipping past event: Medieval Astrology: The Moon, Her Lunations, Our Witness
+2025-03-20 11:18:21,446 - INFO - Fetching details for event at https://www.index-space.org/products/intermediate-coding-processing
+2025-03-20 11:18:21,752 - WARNING - Failed to parse date/time Apr 25, 2022
+ — 
+May 31, 2022 Monday
+s 
+from
+ 
+9:15 pm
+ —
+ 
+12:00 am
+ 
+UTC: Unknown string format: Apr 25, 2022
+ — 
+May 31, 2022 Monday
+s 
+from
+ 
+9:15 pm
+2025-03-20 11:18:21,757 - INFO - Successfully processed event: Intermediate Coding: Intro to Computational Design
+2025-03-20 11:18:21,758 - INFO - Processed event: Intermediate Coding: Intro to Computational Design
+2025-03-20 11:18:21,759 - INFO - Fetching details for event at https://www.index-space.org/products/in-search-of-agency-at-the-supermarket
+2025-03-20 11:18:21,951 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:21,956 - INFO - Successfully processed event: In Search of Agency at the Supermarket
+2025-03-20 11:18:21,958 - INFO - Processed event: In Search of Agency at the Supermarket
+2025-03-20 11:18:21,958 - INFO - Fetching details for event at https://www.index-space.org/products/that-show-2
+2025-03-20 11:18:22,249 - INFO - Skipping past event: THAT SHOW
+2025-03-20 11:18:22,250 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers-async
+2025-03-20 11:18:23,070 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:23,072 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-20 11:18:23,073 - INFO - Processed event: Intro to Coding for Designers
+2025-03-20 11:18:23,073 - INFO - Fetching details for event at https://www.index-space.org/products/producing-a-podcast-1
+2025-03-20 11:18:23,279 - INFO - Skipping past event: Producing a Podcast
+2025-03-20 11:18:23,279 - INFO - Fetching details for event at https://www.index-space.org/products/seaborne-x-collective-reading-a-planet-to-win-why-we-need-a-green-new-deal
+2025-03-20 11:18:23,502 - INFO - Skipping past event: Collective Reading: A Planet to Win: Why We Need a Green New Deal
+2025-03-20 11:18:23,503 - INFO - Fetching details for event at https://www.index-space.org/products/printing-with-the-sun-an-experimental-cyanotype-workshop
+2025-03-20 11:18:23,700 - INFO - Skipping past event: Printing with the Sun: An Experimental Cyanotype Workshop
+2025-03-20 11:18:23,700 - INFO - Fetching details for event at https://www.index-space.org/products/how-to-have-ballsy-conversations
+2025-03-20 11:18:23,893 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:23,894 - INFO - Successfully processed event: How to Have Ballsy Conversations
+2025-03-20 11:18:23,895 - INFO - Processed event: How to Have Ballsy Conversations
+2025-03-20 11:18:23,895 - INFO - Fetching details for event at https://www.index-space.org/products/noticing-scandinavian-history-of-sunset-park
+2025-03-20 11:18:24,103 - INFO - Skipping past event: Noticing: Scandinavian History of Sunset Park
+2025-03-20 11:18:24,106 - INFO - Fetching details for event at https://www.index-space.org/products/undeletable-image
+2025-03-20 11:18:24,212 - WARNING - Failed to parse date/time Jul 15, 2022
+ — 
+Jul 29, 2022 Friday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Jul 15, 2022
+ — 
+Jul 29, 2022 Friday
+s 
+from
+ 
+5:00 pm
+2025-03-20 11:18:24,215 - INFO - Successfully processed event: Undeletable Image
+2025-03-20 11:18:24,216 - INFO - Processed event: Undeletable Image
+2025-03-20 11:18:24,216 - INFO - Fetching details for event at https://www.index-space.org/products/everything-is-soup
+2025-03-20 11:18:24,327 - INFO - Successfully processed event: Everything is Soup
+2025-03-20 11:18:24,328 - INFO - Processed event: Everything is Soup
+2025-03-20 11:18:24,328 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-ecologies
+2025-03-20 11:18:24,510 - INFO - Skipping past event: Pasta Ecologies
+2025-03-20 11:18:24,511 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-territories
+2025-03-20 11:18:24,713 - INFO - Skipping past event: Pasta Territories
+2025-03-20 11:18:24,714 - INFO - Fetching details for event at https://www.index-space.org/products/web-sites-of-masses-and-other-rites-of-passage
+2025-03-20 11:18:24,914 - INFO - Skipping past event: web.SITES OF MASSES and Other RITES OF PASSAGE
+2025-03-20 11:18:24,915 - INFO - Fetching details for event at https://www.index-space.org/products/a-studio-visit-with-aaron-poritz-irl
+2025-03-20 11:18:25,118 - INFO - Skipping past event: A Studio Visit with Aaron Poritz (IRL)
+2025-03-20 11:18:25,119 - INFO - Fetching details for event at https://www.index-space.org/products/making-music-with-ableton-live
+2025-03-20 11:18:25,414 - WARNING - Failed to parse date/time Nov 6, 2023
+ — 
+Nov 28, 2023 Monday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Nov 6, 2023
+ — 
+Nov 28, 2023 Monday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:18:25,417 - INFO - Successfully processed event: Making Music with Ableton Live
+2025-03-20 11:18:25,418 - INFO - Processed event: Making Music with Ableton Live
+2025-03-20 11:18:25,419 - INFO - Fetching details for event at https://www.index-space.org/products/the-launch-1
+2025-03-20 11:18:25,646 - WARNING - Failed to parse date/time Apr 12, 2023
+ — 
+May 18, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+2:00 am
+ 
+UTC: Unknown string format: Apr 12, 2023
+ — 
+May 18, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:18:25,649 - INFO - Successfully processed event: The Launch
+2025-03-20 11:18:25,653 - INFO - Processed event: The Launch
+2025-03-20 11:18:25,653 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-resilience
+2025-03-20 11:18:25,945 - INFO - Skipping past event: work—flow: on Resilience
+2025-03-20 11:18:25,946 - INFO - Fetching details for event at https://www.index-space.org/products/designing-natural-computers-for-everyday-life
+2025-03-20 11:18:26,151 - WARNING - Failed to parse date/time Sep 11, 2024
+ — 
+Oct 24, 2024 Wednesday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Sep 11, 2024
+ — 
+Oct 24, 2024 Wednesday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:18:26,155 - INFO - Successfully processed event: Designing Natural Computers for Everyday Life
+2025-03-20 11:18:26,155 - INFO - Processed event: Designing Natural Computers for Everyday Life
+2025-03-20 11:18:26,156 - INFO - Fetching details for event at https://www.index-space.org/products/from-me-to-we
+2025-03-20 11:18:26,388 - INFO - Skipping past event: From Me to We: Practicing Socially-Engaged Art & Design Within Your Community
+2025-03-20 11:18:26,389 - INFO - Fetching details for event at https://www.index-space.org/products/artistic-alchemy
+2025-03-20 11:18:26,669 - WARNING - Failed to parse date/time Sep 27, 2023
+ — 
+Dec 14, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Sep 27, 2023
+ — 
+Dec 14, 2023 Wednesday
+s 
+from
+ 
+11:00 pm
+2025-03-20 11:18:26,673 - INFO - Successfully processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-20 11:18:26,673 - INFO - Processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-20 11:18:26,674 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-youtube
+2025-03-20 11:18:26,772 - INFO - Skipping past event: Deep Sea Diving on Youtube
+2025-03-20 11:18:26,773 - INFO - Fetching details for event at https://www.index-space.org/products/painting-a-website-bindery
+2025-03-20 11:18:27,070 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:27,072 - INFO - Successfully processed event: Painting a Website: Bindery
+2025-03-20 11:18:27,073 - INFO - Processed event: Painting a Website: Bindery
+2025-03-20 11:18:27,073 - INFO - Fetching details for event at https://www.index-space.org/products/pixel-play
+2025-03-20 11:18:27,273 - INFO - Skipping past event: Pixel Play
+2025-03-20 11:18:27,274 - INFO - Fetching details for event at https://www.index-space.org/products/xxix-turns-x
+2025-03-20 11:18:27,462 - INFO - Skipping past event: XXIX Turns X
+2025-03-20 11:18:27,463 - INFO - Fetching details for event at https://www.index-space.org/products/an-artist-talk-with-maya-man
+2025-03-20 11:18:27,682 - INFO - Skipping past event: An Artist Talk With Maya Man
+2025-03-20 11:18:27,683 - INFO - Fetching details for event at https://www.index-space.org/products/archival-walks
+2025-03-20 11:18:27,991 - WARNING - Failed to parse date/time Jul 13, 2024
+ — 
+Jul 27, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+7:00 pm
+ 
+UTC: Unknown string format: Jul 13, 2024
+ — 
+Jul 27, 2024 Saturday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:18:27,995 - INFO - Successfully processed event: Archival Walks
+2025-03-20 11:18:27,995 - INFO - Processed event: Archival Walks
+2025-03-20 11:18:27,995 - INFO - Fetching details for event at https://www.index-space.org/products/index-community-mixer
+2025-03-20 11:18:28,192 - INFO - Skipping past event: Index Community Mixer
+2025-03-20 11:18:28,192 - INFO - Fetching details for event at https://www.index-space.org/products/slow-sessions
+2025-03-20 11:18:28,391 - INFO - Skipping past event: Slow Sessions: Tools for Clear & Focused Days
+2025-03-20 11:18:28,392 - INFO - Fetching details for event at https://www.index-space.org/products/creative-coding-playground-1
+2025-03-20 11:18:28,717 - WARNING - Failed to parse date/time Mar 24, 2023
+ — 
+Apr 21, 2023 Friday
+s 
+from
+ 
+6:00 pm
+ —
+ 
+9:00 pm
+ 
+UTC: Unknown string format: Mar 24, 2023
+ — 
+Apr 21, 2023 Friday
+s 
+from
+ 
+6:00 pm
+2025-03-20 11:18:28,721 - INFO - Successfully processed event: Creative Coding Playground
+2025-03-20 11:18:28,722 - INFO - Processed event: Creative Coding Playground
+2025-03-20 11:18:28,722 - INFO - Fetching details for event at https://www.index-space.org/products/speculative-design-and-climate-futures
+2025-03-20 11:18:29,020 - INFO - Skipping past event: Speculative Design and Climate Futures
+2025-03-20 11:18:29,020 - INFO - Fetching details for event at https://www.index-space.org/products/a-visit-to-the-renee-chaim-gross-foundation
+2025-03-20 11:18:29,279 - INFO - Skipping past event: A Visit to the Renee & Chaim Gross Foundation (IRL)
+2025-03-20 11:18:29,280 - INFO - Fetching details for event at https://www.index-space.org/products/caps-lock-a-book-talk-with-ruben-pater
+2025-03-20 11:18:29,521 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:29,523 - INFO - Successfully processed event: Caps Lock — A Book Talk with Ruben Pater
+2025-03-20 11:18:29,528 - INFO - Processed event: Caps Lock — A Book Talk with Ruben Pater
+2025-03-20 11:18:29,528 - INFO - Fetching details for event at https://www.index-space.org/products/designing-spaces-for-humans-1
+2025-03-20 11:18:29,834 - WARNING - Failed to parse date/time Jan 14, 2023
+ — 
+Feb 18, 2023 Saturday
+s 
+from
+ 
+5:00 pm
+ —
+ 
+8:00 pm
+ 
+UTC: Unknown string format: Jan 14, 2023
+ — 
+Feb 18, 2023 Saturday
+s 
+from
+ 
+5:00 pm
+2025-03-20 11:18:29,837 - INFO - Successfully processed event: Designing Spaces for Humans
+2025-03-20 11:18:29,837 - INFO - Processed event: Designing Spaces for Humans
+2025-03-20 11:18:29,837 - INFO - Fetching details for event at https://www.index-space.org/products/legal-for-creatives
+2025-03-20 11:18:30,037 - INFO - Skipping past event: Legal for Creatives
+2025-03-20 11:18:30,038 - INFO - Fetching details for event at https://www.index-space.org/products/that-show
+2025-03-20 11:18:30,296 - INFO - Skipping past event: THAT SHOW
+2025-03-20 11:18:30,297 - INFO - Fetching details for event at https://www.index-space.org/products/generating-images-for-macine-learning
+2025-03-20 11:18:30,557 - WARNING - Failed to parse date/time Nov 4, 2023
+ — 
+Dec 9, 2023 Saturday
+s 
+from
+ 
+2:00 pm
+ —
+ 
+4:00 pm
+ 
+UTC: Unknown string format: Nov 4, 2023
+ — 
+Dec 9, 2023 Saturday
+s 
+from
+ 
+2:00 pm
+2025-03-20 11:18:30,561 - INFO - Successfully processed event: Generating Images with Machine Learning
+2025-03-20 11:18:30,562 - INFO - Processed event: Generating Images with Machine Learning
+2025-03-20 11:18:30,562 - INFO - Fetching details for event at https://www.index-space.org/products/computer-care-cafe
+2025-03-20 11:18:30,645 - INFO - Successfully processed event: Computer Care Cafe
+2025-03-20 11:18:30,646 - INFO - Processed event: Computer Care Cafe
+2025-03-20 11:18:30,646 - INFO - Fetching details for event at https://www.index-space.org/products/intro-to-coding-for-designers
+2025-03-20 11:18:30,739 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:30,743 - INFO - Successfully processed event: Intro to Coding for Designers
+2025-03-20 11:18:30,743 - INFO - Processed event: Intro to Coding for Designers
+2025-03-20 11:18:30,744 - INFO - Fetching details for event at https://www.index-space.org/products/postpostpost-nyc-meet-up
+2025-03-20 11:18:30,952 - INFO - Skipping past event: POSTPOSTPOST NYC Meet-up
+2025-03-20 11:18:30,954 - INFO - Fetching details for event at https://www.index-space.org/products/community-conversations-on-hope
+2025-03-20 11:18:31,227 - INFO - Skipping past event: Community Conversations: On Hope
+2025-03-20 11:18:31,228 - INFO - Fetching details for event at https://www.index-space.org/products/designing-and-building-highly-performant-media-rich-websites-and-mobile-apps
+2025-03-20 11:18:31,427 - INFO - Skipping past event: The State of the Art in Media-Rich Web Development
+2025-03-20 11:18:31,428 - INFO - Fetching details for event at https://www.index-space.org/products/making-and-breaking-the-zine-2
+2025-03-20 11:18:31,674 - WARNING - Failed to parse date/time Feb 22, 2025
+ — 
+Apr 5, 2025 Saturday
+s 
+from
+ 
+6:00 pm
+ —
+ 
+8:00 pm
+ 
+UTC: Unknown string format: Feb 22, 2025
+ — 
+Apr 5, 2025 Saturday
+s 
+from
+ 
+6:00 pm
+2025-03-20 11:18:31,676 - INFO - Successfully processed event: Making and Breaking the Zine
+2025-03-20 11:18:31,677 - INFO - Processed event: Making and Breaking the Zine
+2025-03-20 11:18:31,677 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-metabolisms
+2025-03-20 11:18:31,882 - INFO - Skipping past event: Pasta Metabolisms
+2025-03-20 11:18:31,883 - INFO - Fetching details for event at https://www.index-space.org/products/artistic-alchemy-1
+2025-03-20 11:18:32,095 - WARNING - Failed to parse date/time Jun 5, 2024
+ — 
+Aug 14, 2024 Wednesday
+s 
+from
+ 
+4:00 pm
+ —
+ 
+6:00 pm
+ 
+UTC: Unknown string format: Jun 5, 2024
+ — 
+Aug 14, 2024 Wednesday
+s 
+from
+ 
+4:00 pm
+2025-03-20 11:18:32,098 - INFO - Successfully processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-20 11:18:32,099 - INFO - Processed event: Artistic Alchemy: Creative Communion Through The Artist’s Way
+2025-03-20 11:18:32,099 - INFO - Fetching details for event at https://www.index-space.org/products/interactive-media-with-max-msp
+2025-03-20 11:18:32,351 - WARNING - Failed to parse date/time Apr 17, 2023
+ — 
+May 9, 2023 Monday
+s 
+from
+ 
+10:00 pm
+ —
+ 
+1:00 am
+ 
+UTC: Unknown string format: Apr 17, 2023
+ — 
+May 9, 2023 Monday
+s 
+from
+ 
+10:00 pm
+2025-03-20 11:18:32,353 - INFO - Successfully processed event: Interactive Media with Max/MSP
+2025-03-20 11:18:32,354 - INFO - Processed event: Interactive Media with Max/MSP
+2025-03-20 11:18:32,354 - INFO - Fetching details for event at https://www.index-space.org/products/comedic-power-to-the-people-an-equitable-course-for-aspiring-humor-writers
+2025-03-20 11:18:32,603 - WARNING - Failed to parse date/time Jan 10, 2023
+ — 
+Feb 14, 2023 Tuesday
+s 
+from
+ 
+12:00 am
+ —
+ 
+3:00 am
+ 
+UTC: Unknown string format: Jan 10, 2023
+ — 
+Feb 14, 2023 Tuesday
+s 
+from
+ 
+12:00 am
+2025-03-20 11:18:32,606 - INFO - Successfully processed event: (Comedic) Power to the People
+2025-03-20 11:18:32,607 - INFO - Processed event: (Comedic) Power to the People
+2025-03-20 11:18:32,607 - INFO - Fetching details for event at https://www.index-space.org/products/making-and-breaking-the-zine
+2025-03-20 11:18:32,905 - WARNING - Failed to parse date/time Mar 2, 2023
+ — 
+Apr 7, 2023 Thursday
+s 
+from
+ 
+11:30 pm
+ —
+ 
+1:30 am
+ 
+UTC: Unknown string format: Mar 2, 2023
+ — 
+Apr 7, 2023 Thursday
+s 
+from
+ 
+11:30 pm
+2025-03-20 11:18:32,907 - INFO - Successfully processed event: Making and Breaking the Zine
+2025-03-20 11:18:32,908 - INFO - Processed event: Making and Breaking the Zine
+2025-03-20 11:18:32,908 - INFO - Fetching details for event at https://www.index-space.org/products/resplendent
+2025-03-20 11:18:33,219 - INFO - Skipping past event: Resplendent!
+2025-03-20 11:18:33,219 - INFO - Fetching details for event at https://www.index-space.org/products/a-visit-to-the-future-perfect-irl
+2025-03-20 11:18:33,425 - INFO - Fetching details for event at https://www.index-space.org/products/deep-sea-diving-on-amazon
+2025-03-20 11:18:33,630 - INFO - Skipping past event: Deep Sea Diving on Amazon
+2025-03-20 11:18:33,631 - INFO - Fetching details for event at https://www.index-space.org/products/pasta-morphologies
+2025-03-20 11:18:33,863 - INFO - Skipping past event: Pasta Morphologies
+2025-03-20 11:18:33,864 - INFO - Fetching details for event at https://www.index-space.org/products/nature-drawing-at-elizabeth-street-garden
+2025-03-20 11:18:34,127 - INFO - Skipping past event: Nature Drawing At Elizabeth Street Garden
+2025-03-20 11:18:34,128 - INFO - Fetching details for event at https://www.index-space.org/products/glass-house-tour-8-28
+2025-03-20 11:18:34,277 - WARNING - Failed to parse date/time  : String does not contain a date: 
+2025-03-20 11:18:34,280 - INFO - Successfully processed event: Glass House tour 8/28
+2025-03-20 11:18:34,281 - INFO - Processed event: Glass House tour 8/28
+2025-03-20 11:18:34,282 - INFO - Fetching details for event at https://www.index-space.org/products/libraries-for-the-commons
+2025-03-20 11:18:34,505 - INFO - Skipping past event: Libraries for the Commons
+2025-03-20 11:18:34,506 - INFO - Fetching details for event at https://www.index-space.org/products/work-flow-on-being-an-octopus
+2025-03-20 11:18:35,048 - INFO - Skipping past event: work—flow: on being an Octopus
+2025-03-20 11:18:35,050 - INFO - Fetching details for event at https://www.index-space.org/products/a-tour-at-international-objects-irl
+2025-03-20 11:18:35,266 - INFO - Skipping past event: A Tour at International Objects (IRL)
+2025-03-20 11:18:35,271 - INFO - Fetching details for event at https://www.index-space.org/products/i-said-no
+2025-03-20 11:18:35,466 - INFO - Skipping past event: I Said No
+2025-03-20 11:18:35,480 - INFO - Saved 80 events to ./data/index_space_events.json
+2025-03-20 11:18:35,511 - INFO - Collected 80 events from index_space_scraper
+2025-03-20 11:18:35,526 - INFO - Running fabrik_scraper...
+2025-03-20 11:18:35,526 - INFO - Fetching Fabrik gatherings from https://www.joinfabrik.com/gatherings
+2025-03-20 11:18:35,863 - INFO - Found 0 event containers
+2025-03-20 11:18:35,878 - INFO - Collected 0 events from fabrik_scraper
+2025-03-20 11:18:35,879 - INFO - Total events collected: 104
+2025-03-20 11:18:35,879 - INFO - Running categorize_events.py to process events...

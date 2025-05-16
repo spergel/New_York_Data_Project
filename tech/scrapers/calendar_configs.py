@@ -122,5 +122,6 @@ SCRAPERS = [
     'ics_calendar_scraper',
     'index_space_scraper',
     'fabrik_scraper',
-    'nyc_parks_scraper'
+    #'substack_scraper',
+    #'nyc_parks_scraper'
 ] 

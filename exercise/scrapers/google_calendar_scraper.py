@@ -185,7 +185,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
         price_info["details"] = "See event description for pricing details"
     
     # Use Luma categories if available, otherwise default
-    categories = ["Tech"]
+    categories = ["Exercise"]
     if luma_details and 'categories' in luma_details and luma_details['categories']:
         categories = luma_details['categories']
     
@@ -231,7 +231,7 @@ def format_google_event(event: Dict, community_id: str) -> Dict:
     return {
         "id": event_id,
         "name": event_title,
-        "type": categories[0] if categories else "Tech",
+        "type": categories[0] if categories else "Rollerblade",
         "location_id": location_id,
         "community_id": community_id,
         "description": enhanced_description,

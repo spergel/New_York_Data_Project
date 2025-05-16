@@ -1,156 +1,12 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_caa1e8de",
-      "name": "Second Sundays: March 2025",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
-      "startDate": "2025-03-09T23:00:00+00:00",
-      "endDate": "2025-03-10T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/5f835dba96f23b69a234361f35d3625b2959f5db-1080x720.png?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/second-sundays-march-2025",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_pioneer_cf87d032",
-      "name": "Science & Society: AI and Us",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Join us for a very special conversation with two of the world\u2019s leading voices on AI: Professor Ruha Benjamin and Professor Kate Crawford. Benjamin is a...",
-      "startDate": "2025-03-12T23:30:00+00:00",
-      "endDate": "2025-03-13T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/f34f22ee82419c42cf6c6ceba199cf89e3618a01-16000x9000.png?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/science-and-society-ai-and-us",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_pioneer_9e0ff085",
-      "name": "Shaper of God Book Launch",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "In celebration of American Artist\u2019s new book Shaper of God, please join Pioneer Works for a special conversation between Artist and Martine Syms, modera...",
-      "startDate": "2025-03-14T23:30:00+00:00",
-      "endDate": "2025-03-15T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/f1887b6bb303e7133c3ca762641de7f5853891c8-3700x2945.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/shaper-of-god-book-launch",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
-      "id": "evt_pioneer_67f2702c",
-      "name": "EMEL, Rasha Nahas",
-      "type": "Cultural Event",
-      "locationId": "loc_pioneer_works",
-      "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to welcome back acclaimed Tunisian-American artist, EMEL along with Palestinian singer, composer and actress Rasha Nahas to our...",
-      "startDate": "2025-03-19T00:00:00+00:00",
-      "endDate": "2025-03-19T03:00:00+00:00",
-      "category": [
-        "Arts",
-        "Music",
-        "Science"
-      ],
-      "price": null,
-      "registrationRequired": true,
-      "tags": [],
-      "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/7705493118a2a3fa89b2a0e8a225e96fc7958a73-1500x2250.jpg?w=800"
-      ],
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://pioneerworks.org/programs/emel",
-        "organizer": {
-          "name": "Pioneer Works",
-          "instagram": "@pioneerworks",
-          "email": "info@pioneerworks.org"
-        },
-        "venue": {
-          "name": "Pioneer Works",
-          "address": "159 Pioneer Street",
-          "type": "Cultural Institution"
-        },
-        "featured": false
-      }
-    },
-    {
       "id": "evt_pioneer_5b4fcda1",
       "name": "Warpmode: Afropocalypse ",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Black Beyond\u2019s Warpmode is a conceptual card game and social experience created by artist Jazsalyn to stimulate conversations grounded in Black Metatheo...",
+      "description": "Black Beyond’s Warpmode is a conceptual card game and social experience created by artist Jazsalyn to stimulate conversations grounded in Black Metatheo...",
       "startDate": "2025-03-23T20:00:00+00:00",
       "endDate": "2025-03-24T03:00:00+00:00",
       "category": [
@@ -187,7 +43,7 @@
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
       "description": "Pioneer Works is excited to present a lineup of ecstatic new music that explores forms of pop, experimentalism and minimalism, featuring Astrid Sonne, T...",
-      "startDate": "2025-03-26T00:00:00+00:00",
+      "startDate": "2025-03-25T23:30:00+00:00",
       "endDate": "2025-03-26T03:00:00+00:00",
       "category": [
         "Arts",
@@ -289,8 +145,8 @@
       }
     },
     {
-      "id": "evt_pioneer_22a55f81",
-      "name": "YATTA & HxH (Joint Record Release Show)",
+      "id": "evt_pioneer_75013be1",
+      "name": "YATTA & HxH: Joint Record Release Show",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
@@ -326,11 +182,11 @@
     },
     {
       "id": "evt_pioneer_84304e86",
-      "name": "False Harmonics #23: Br\u00ecghde Chaimbeul, Cleek Schrey & Nora Brown, Laura Ortman",
+      "name": "False Harmonics #23: Brìghde Chaimbeul, Cleek Schrey & Nora Brown, Laura Ortman",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "False Harmonics #23:\u00a0Br\u00ecghde Chaimbeul, Cleek Schrey & Nora Brown, Laura OrtmanFor the 23rd iteration, False Harmonics welcomes Scottish piper Br\u00ecghde C...",
+      "description": "False Harmonics #23: Brìghde Chaimbeul, Cleek Schrey & Nora Brown, Laura OrtmanFor the 23rd iteration, False Harmonics welcomes Scottish piper Brìghde C...",
       "startDate": "2025-04-09T00:00:00+00:00",
       "endDate": "2025-04-09T03:00:00+00:00",
       "category": [
@@ -383,6 +239,42 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://pioneerworks.org/programs/ende-tymes-15-aaron-dilloway-the-rita-spiteful-womb-charmaine-lee-valise",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_0e7e4df9",
+      "name": "Why We Die ",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Join us to celebrate Venki Ramakrishnan, Nobel Prize-winning biologist and author of Why We Die: The New Science of Aging and the Quest for Immortality....",
+      "startDate": "2025-04-29T23:30:00+00:00",
+      "endDate": "2025-04-30T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/03cda9c81901e1e62e3d61fd1e97b3c037ecf50f-1590x2400.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/why-we-die",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -470,7 +362,7 @@
     },
     {
       "id": "evt_pioneer_79044948",
-      "name": "Village F\u00eate 2025",
+      "name": "Village Fête 2025",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
@@ -486,7 +378,7 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/e81c022a95a165e29c7ac83c590b78a3b7544677-1080x1316.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/8b406d24c53c48b45db4fdd102e5a8f0f3d26fd6-2000x2284.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
@@ -563,6 +455,42 @@
       "status": "upcoming",
       "metadata": {
         "source_url": "https://pioneerworks.org/programs/godspeed-you-black-emperor",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_e6e0d4fe",
+      "name": "Deerhoof",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Pioneer Works is excited to bring Deerhoof to our Main Hall on June 28, 2025 as they embark on their \"31 Flavours Tour\" to celebrate their 31st year. Th...",
+      "startDate": "2025-06-28T23:30:00+00:00",
+      "endDate": "2025-06-29T03:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/7e273e47de3b2fea94e6463d9f71e109e21c9d8e-6720x4480.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/deerhoof",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",

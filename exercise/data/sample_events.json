@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "id": "evt_astro_001",
+      "title": "Night Sky Observation",
+      "community_id": "com_astronomy_club",
+      "start_date": "2025-03-16T19:00:00",
+      "end_date": "2025-03-16T22:00:00",
+      "description": "Join us for a night of stargazing and planetary observation. We'll be focusing on viewing Saturn and Jupiter.",
+      "url": "https://nycastronomyclub.org/events/night-sky-observation",
+      "venue": {
+        "name": "Central Park",
+        "address": "Great Lawn, Central Park, New York, NY",
+        "type": "physical"
+      },
+      "category": [
+        "ASTRONOMY",
+        "SCIENCE",
+        "Education"
+      ],
+      "tags": [
+        "stargazing",
+        "planets",
+        "telescope",
+        "night sky"
+      ]
+    },
+    {
+      "id": "evt_tech_001",
+      "title": "AI in Healthcare Tech Symposium",
+      "community_id": "com_tech_meetup",
+      "start_date": "2025-03-23T09:00:00",
+      "end_date": "2025-03-23T17:00:00",
+      "description": "A full-day symposium exploring the applications of artificial intelligence in healthcare technology.",
+      "url": "https://nyctechmeetup.com/events/ai-healthcare-symposium",
+      "venue": {
+        "name": "NYU Langone Medical Center",
+        "address": "550 1st Avenue, New York, NY 10016",
+        "type": "physical"
+      },
+      "category": [
+        "TECH",
+        "Healthcare",
+        "AI"
+      ],
+      "tags": [
+        "artificial intelligence",
+        "healthcare",
+        "technology",
+        "innovation"
+      ]
+    },
+    {
+      "id": "evt_park_001",
+      "title": "Spring Wildflower Walk",
+      "community_id": "shirley_chisholm",
+      "start_date": "2025-03-19T10:00:00",
+      "end_date": "2025-03-19T12:00:00",
+      "description": "Join our park naturalist for a guided walk to identify spring wildflowers and learn about native plant ecology.",
+      "url": "https://parks.ny.gov/events/spring-wildflower-walk",
+      "venue": {
+        "name": "Shirley Chisholm State Park",
+        "address": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+        "type": "physical"
+      },
+      "category": [
+        "Nature",
+        "Education",
+        "Outdoors"
+      ],
+      "tags": [
+        "wildflowers",
+        "nature",
+        "hiking",
+        "botany"
+      ]
+    },
+    {
+      "id": "evt_astro_002",
+      "title": "Astrophysics Lecture Series: Black Holes",
+      "community_id": "com_astronomy_club",
+      "start_date": "2025-03-30T18:30:00",
+      "end_date": "2025-03-30T20:00:00",
+      "description": "Learn about the fascinating physics of black holes in this lecture by Dr. Sarah Johnson, astrophysicist from Columbia University.",
+      "url": "https://nycastronomyclub.org/events/astrophysics-lecture-black-holes",
+      "venue": {
+        "name": "American Museum of Natural History",
+        "address": "200 Central Park West, New York, NY 10024",
+        "type": "physical"
+      },
+      "category": [
+        "ASTROPHYSICS",
+        "SCIENCE",
+        "Education"
+      ],
+      "tags": [
+        "black holes",
+        "astrophysics",
+        "lecture",
+        "space"
+      ]
+    },
+    {
+      "id": "evt_tech_002",
+      "title": "Quantum Computing Workshop",
+      "community_id": "com_tech_meetup",
+      "start_date": "2025-04-08T10:00:00",
+      "end_date": "2025-04-08T16:00:00",
+      "description": "Hands-on workshop introducing the principles of quantum computing and programming with IBM's Qiskit.",
+      "url": "https://nyctechmeetup.com/events/quantum-computing-workshop",
+      "venue": {
+        "name": "Google NYC",
+        "address": "111 8th Avenue, New York, NY 10011",
+        "type": "physical"
+      },
+      "category": [
+        "TECH",
+        "Computing",
+        "Quantum Physics",
+        "SCIENCE"
+      ],
+      "tags": [
+        "quantum computing",
+        "programming",
+        "workshop",
+        "technology"
+      ]
+    }
+  ]
+}

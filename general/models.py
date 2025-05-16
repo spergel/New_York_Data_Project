@@ -13,6 +13,7 @@ class EventStatus(str, Enum):
     RESCHEDULED = "rescheduled"
 
 class EventCategory(str, Enum):
+    # General Categories
     TECH = "tech"
     BUSINESS = "business"
     ARTS = "arts"
@@ -24,6 +25,56 @@ class EventCategory(str, Enum):
     SOCIAL = "social"
     NETWORKING = "networking"
     OTHER = "other"
+    
+    # Academic Categories
+    LECTURES = "lectures_seminars"
+    CONFERENCES = "conferences_symposia"
+    WORKSHOPS = "workshops_trainings"
+    PANELS = "panel_discussions"
+    RESEARCH = "research_presentations"
+    PERFORMANCES = "performances_exhibitions"
+    STUDENT = "student_activities"
+    CEREMONIES = "academic_ceremonies"
+    
+    # Tech Categories
+    TECH_TALKS = "tech_talks"
+    HACKATHONS = "hackathons_competitions"
+    NETWORKING_SOCIAL = "networking_social"
+    TECH_WORKSHOPS = "workshops_training"
+    STARTUP = "startup_entrepreneurship"
+    INNOVATION = "tech_innovation"
+    COWORKING = "coworking_workspace"
+    SPECIAL_INTEREST = "special_interest"
+    
+    # Exercise Categories
+    FITNESS = "fitness"
+    SPORTS = "sports"
+    YOGA = "yoga"
+    MEDITATION = "meditation"
+    DANCE = "dance"
+    MARTIAL_ARTS = "martial_arts"
+    OUTDOOR = "outdoor"
+    WELLNESS = "wellness"
+    
+    # Additional Common Categories
+    COMMUNITY = "community"
+    FOOD = "food"
+    MUSIC = "music"
+    FILM = "film"
+    THEATER = "theater"
+    LITERATURE = "literature"
+    POLITICS = "politics"
+    ENVIRONMENT = "environment"
+    CHARITY = "charity"
+    FAMILY = "family"
+    PROFESSIONAL = "professional"
+    CAREER = "career"
+    LANGUAGE = "language"
+    GAMES = "games"
+    FASHION = "fashion"
+    PHOTOGRAPHY = "photography"
+    DESIGN = "design"
+    CRAFTS = "crafts"
 
 
 @dataclass

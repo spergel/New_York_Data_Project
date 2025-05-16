@@ -14,6 +14,11 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
 )
 
+# Setup paths
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(TECH_DIR, 'data')
+
 def safe_extract_text(element, default="") -> str:
     """Safely extract text from a BS4 element"""
     if element is None:
@@ -154,7 +159,7 @@ def main():
     all_events = []
     
     # Create data directory if it doesn't exist
-    os.makedirs('scripts/scrapers/data', exist_ok=True)
+    os.makedirs(DATA_DIR, exist_ok=True)
     
     # Fetch all event URLs
     event_urls = fetch_events_list()
@@ -173,14 +178,17 @@ def main():
     # Save events even if some failed
     if all_events:
         try:
-            output_file = './data/interference_events.json'
-            with open(output_file, 'w') as f:
-                json.dump({"events": all_events}, f, indent=2)
+            output_file = os.path.join(DATA_DIR, 'interference_events.json')
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump({"events": all_events}, f, indent=2, ensure_ascii=False)
             logging.info(f"Saved {len(all_events)} events to {output_file}")
+            return output_file
         except Exception as e:
             logging.error(f"Failed to save events: {str(e)}")
     else:
         logging.warning("No events were fetched")
+    
+    return None
 
 if __name__ == "__main__":
     main() 

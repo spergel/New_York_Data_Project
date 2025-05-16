@@ -1,229 +1,107 @@
 {
-    "communities": [
+  "communities": [
     {
-        "id": "com_empire_skate",
-        "name": "Empire Skate",
-        "type": "Exercise",
-        "description": "A community organization fostering skateboarding culture through education, events, and community building in New York City.",
-        "founded": "2018",
-        "size": "0",
-        "category": [
-            "Sports",
-            "Education",
-            "Youth",
-            "Community"
-        ],
-        "contact": {
-            "email": "info@empireskate.org",
-            "social": {
-                "instagram": "@empireskate"
-            }
-        },
-        "website": "https://empireskate.org",
-        "image": "empire-skate-community.jpg",
-        "tags": [
-            "skateboarding",
-            "youth",
-            "education",
-            "community"
-        ],
-        "membershipType": "Open",
-        "membershipFee": "Free"
+      "id": "bryant_park",
+      "name": "Bryant Park Community",
+      "type": "Park Community",
+      "description": "Bryant Park is a 9.603-acre public park located in Midtown Manhattan, New York City.",
+      "category": [
+        "Parks",
+        "Recreation",
+        "Public Space"
+      ],
+      "contact": {
+        "email": "info@bryantpark.org",
+        "social": {
+          "twitter": "@bryantparknyc",
+          "instagram": "@bryantparknyc"
+        }
+      },
+      "website": "https://bryantpark.org",
+      "tags": [
+        "park",
+        "outdoor",
+        "recreation",
+        "events"
+      ]
     },
     {
-        "id": "com_hash_nyc",
-        "name": "Hash NYC",
-        "type": "Exercise",
-        "description": "A vibrant running community that combines fitness with social events, organizing regular runs and gatherings across New York City.",
-        "founded": "2015",
-        "size": "0",
-        "category": [
-            "Sports",
-            "Social",
-            "Fitness"
-        ],
-        "contact": {
-            "email": "run@hashnyc.com",
-            "social": {
-                "instagram": "@hashnyc"
-            }
-        },
-        "website": "https://hashnyc.com",
-        "image": "hash-nyc-community.jpg",
-        "tags": [
-            "running",
-            "social",
-            "fitness",
-            "community"
-        ],
-        "membershipType": "Open",
-        "membershipFee": "Free"
+      "id": "shirley_chisholm",
+      "name": "Shirley Chisholm State Park Community",
+      "type": "State Park Community",
+      "description": "Shirley Chisholm State Park is a state park in Brooklyn, New York, along the Jamaica Bay shoreline.",
+      "category": [
+        "Parks",
+        "Nature",
+        "Recreation",
+        "Public Space"
+      ],
+      "contact": {
+        "email": "info@parks.ny.gov",
+        "social": {
+          "twitter": "@NYstateparks",
+          "instagram": "@nystateparks"
+        }
+      },
+      "website": "https://parks.ny.gov/parks/shirleychisholm",
+      "tags": [
+        "park",
+        "state park",
+        "outdoor",
+        "nature",
+        "conservation"
+      ]
     },
     {
-        "id": "com_pickup_ultimate",
-        "name": "NYC Pickup Ultimate",
-        "type": "Exercise",
-        "description": "An inclusive community organizing pickup ultimate frisbee games across New York City, welcoming players of all skill levels.",
-        "founded": "2010",
-        "size": "0",
-        "category": [
-            "Sports",
-            "Recreation",
-            "Community"
-        ],
-        "contact": {
-            "social": {
-                "instagram": "@nycultimate"
-            }
-        },
-        "website": "https://pickupultimate.com/map/city/nyc",
-        "meetingLocationIds": [
-            "loc_pickup_ultimate"
-        ],
-        "image": "pickup-ultimate-community.jpg",
-        "tags": [
-            "ultimate frisbee",
-            "sports",
-            "recreation",
-            "community"
-        ],
-        "membershipType": "Open",
-        "membershipFee": "Free"
-    },
-   
-    {
-        "id": "com_ecstatic_dance",
-        "name": "Ecstatic Dance NYC",
-        "type": "Exercise",
-        "description": "A community celebrating free-form dance and movement as a path to joy, connection, and self-expression.",
-        "founded": "2015",
-        "size": "0",
-        "category": [
-            "Dance",
-            "Wellness",
-            "Movement",
-            "Community"
-        ],
-        "contact": {
-            "email": "info@ecstaticdancenyc.com",
-            "social": {
-                "instagram": "@ecstaticdancenyc"
-            }
-        },
-        "website": "https://www.eventbrite.com/o/ecstatic-dance-nyc-33937979455",
-        "meetingLocationIds": [],
-        "image": "ecstatic-dance-community.jpg",
-        "tags": [
-            "dance",
-            "movement",
-            "wellness",
-            "community"
-        ],
-        "membershipType": "Open",
-        "membershipFee": "Free"
-    },
-    
-    {
-        "id": "com_walk_club",
-        "name": "Walk Club",
-        "type": "Exercise",
-        "description": "A community that organizes group walks around NYC, promoting physical activity, mental wellness, and social connection.",
-        "founded": "2023",
-        "size": "0",
-        "category": [
-            "Wellness",
-            "Fitness",
-            "Social"
-        ],
-        "website": "https://lu.ma/walkclub",
-        "meetingLocationIds": [],
-        "image": "walk-club-community.jpg",
-        "tags": [
-            "walking",
-            "wellness",
-            "fitness",
-            "community"
-        ],
-        "membershipType": "Open",
-        "membershipFee": "Free"
-    },
-   
-    {
-        "id": "com_nyc_parks",
-        "name": "NYC Parks",
-        "type": "Government Organization",
-        "description": "The New York City Department of Parks & Recreation is the steward of more than 30,000 acres of land — 14 percent of New York City — including more than 5,000 individual properties ranging from Coney Island Beach and Central Park to community gardens and Greenstreets.",
-        "founded": "1934",
-        "size": "0",
-        "category": [
-            "Parks",
-            "Recreation",
-            "Community",
-            "Education",
-            "Nature"
-        ],
-        "contact": {
-            "email": "accessibility@parks.nyc.gov",
-            "phone": "212-NEW-YORK",
-            "social": {
-                "instagram": "@nycparks",
-                "twitter": "@NYCParks",
-                "facebook": "nycparks"
-            }
-        },
-        "website": "https://www.nycgovparks.org",
-        "meetingLocationIds": [],
-        "image": "nyc-parks-logo.jpg",
-        "tags": [
-            "parks",
-            "recreation",
-            "nature",
-            "community",
-            "events",
-            "education"
-        ],
-        "membershipType": "Open",
-        "membershipFee": "Free"
+      "id": "com_astronomy_club",
+      "name": "NYC Astronomy Club",
+      "type": "Special Interest Community",
+      "description": "A community of astronomy enthusiasts in New York City, organizing stargazing events and educational sessions.",
+      "category": [
+        "Science",
+        "Astronomy",
+        "Education"
+      ],
+      "contact": {
+        "email": "info@nycastronomyclub.org",
+        "social": {
+          "twitter": "@NYCAstroClub",
+          "instagram": "@nycastronomyclub"
+        }
+      },
+      "website": "https://nycastronomyclub.org",
+      "tags": [
+        "astronomy",
+        "science",
+        "stargazing",
+        "education"
+      ]
     },
     {
-        "id": "com_pptc",
-        "name": "Prospect Park Track Club",
-        "type": "Exercise",
-        "description": "An inclusive, open, and diverse group of runners dedicated to pushing each other to be the very best. The club welcomes runners of all ages, backgrounds, and experience levels, offering various training regimens and organizing multiple events throughout the year including the Cherry Tree 10 Miler and Al Goldstein 5K series.",
-        "founded": "1970",
-        "size": "0",
-        "category": [
-            "Sports",
-            "Fitness",
-            "Running",
-            "Community"
-        ],
-        "contact": {
-            "email": "contact@pptc.org",
-            "phone": "347-927-7825",
-            "social": {
-                "instagram": "@prospectparktrack"
-            }
-        },
-        "website": "https://pptc.org",
-        "meetingLocationIds": [],
-        "image": "pptc-logo.jpg",
-        "tags": [
-            "running",
-            "track club",
-            "races",
-            "training",
-            "prospect park",
-            "brooklyn"
-        ],
-        "membershipType": "Paid",
-        "membershipFee": "Annual",
-        "events": [
-            "Cherry Tree 10 Miler",
-            "Al Goldstein 5K",
-            "Turkey Trot",
-            "Endurance Fest",
-            "Harry's Handicap"
-        ]
+      "id": "com_tech_meetup",
+      "name": "NYC Tech Meetup",
+      "type": "Professional Community",
+      "description": "The largest technology community in New York, dedicated to the growth and innovation of the local tech ecosystem.",
+      "category": [
+        "Technology",
+        "Networking",
+        "Professional Development"
+      ],
+      "contact": {
+        "email": "info@nyctechmeetup.com",
+        "social": {
+          "twitter": "@NYCTechMeetup",
+          "linkedin": "nyc-tech-meetup"
+        }
+      },
+      "website": "https://nyctechmeetup.com",
+      "tags": [
+        "technology",
+        "innovation",
+        "startups",
+        "programming",
+        "networking"
+      ]
     }
-]}
+  ]
+}

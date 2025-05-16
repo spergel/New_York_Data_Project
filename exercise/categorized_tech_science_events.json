@@ -1,0 +1,160 @@
+{
+  "report_generated": "2025-03-09T16:26:00.507986",
+  "total_communities": 3,
+  "target_categories": [
+    "ASTROPHYSICS",
+    "ASTRONOMY",
+    "SCIENCE",
+    "TECH"
+  ],
+  "communities": {
+    "Community shirley_chisholm": {
+      "total_events": 3,
+      "events": [
+        {
+          "title": "Nature Photography Workshop Series - Mar 12",
+          "date": "Wednesday, March 12, 2025 at 11:00 AM",
+          "categories": [],
+          "venue": "Shirley Chisholm State Park",
+          "location": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "url": "https://parks.ny.gov/events/event.aspx?e=200-42740.0",
+          "description": "Join us for a four-week workshop series on nature photography. Learn techniques for capturing wildlife, landscapes, and macro photography in the park. Each week focuses on a different theme. Equipm..."
+        },
+        {
+          "title": "Nature Photography Workshop Series - Mar 19",
+          "date": "Wednesday, March 19, 2025 at 11:00 AM",
+          "categories": [],
+          "venue": "Shirley Chisholm State Park",
+          "location": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "url": "https://parks.ny.gov/events/event.aspx?e=200-42740.0",
+          "description": "Join us for a four-week workshop series on nature photography. Learn techniques for capturing wildlife, landscapes, and macro photography in the park. Each week focuses on a different theme. Equipm..."
+        },
+        {
+          "title": "Nature Photography Workshop Series - Mar 26",
+          "date": "Wednesday, March 26, 2025 at 11:00 AM",
+          "categories": [],
+          "venue": "Shirley Chisholm State Park",
+          "location": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "url": "https://parks.ny.gov/events/event.aspx?e=200-42740.0",
+          "description": "Join us for a four-week workshop series on nature photography. Learn techniques for capturing wildlife, landscapes, and macro photography in the park. Each week focuses on a different theme. Equipm..."
+        }
+      ]
+    },
+    "Community com_astronomy_club": {
+      "total_events": 4,
+      "events": [
+        {
+          "title": "Night Sky Observation",
+          "date": "Sunday, March 16, 2025 at 07:00 PM",
+          "categories": [
+            "ASTRONOMY",
+            "SCIENCE",
+            "Education"
+          ],
+          "venue": "Central Park",
+          "location": "Great Lawn, Central Park, New York, NY",
+          "url": "https://nycastronomyclub.org/events/night-sky-observation",
+          "description": "Join us for a night of stargazing and planetary observation. We'll be focusing on viewing Saturn and Jupiter."
+        },
+        {
+          "title": "Astrophysics Lecture Series: Black Holes",
+          "date": "Sunday, March 30, 2025 at 06:30 PM",
+          "categories": [
+            "ASTROPHYSICS",
+            "SCIENCE",
+            "Education"
+          ],
+          "venue": "American Museum of Natural History",
+          "location": "200 Central Park West, New York, NY 10024",
+          "url": "https://nycastronomyclub.org/events/astrophysics-lecture-black-holes",
+          "description": "Learn about the fascinating physics of black holes in this lecture by Dr. Sarah Johnson, astrophysicist from Columbia University."
+        },
+        {
+          "title": "Night Sky Observation",
+          "date": "Sunday, March 16, 2025 at 07:00 PM",
+          "categories": [
+            "ASTRONOMY",
+            "SCIENCE",
+            "Education"
+          ],
+          "venue": "Central Park",
+          "location": "Great Lawn, Central Park, New York, NY",
+          "url": "https://nycastronomyclub.org/events/night-sky-observation",
+          "description": "Join us for a night of stargazing and planetary observation. We'll be focusing on viewing Saturn and Jupiter."
+        },
+        {
+          "title": "Astrophysics Lecture Series: Black Holes",
+          "date": "Sunday, March 30, 2025 at 06:30 PM",
+          "categories": [
+            "ASTROPHYSICS",
+            "SCIENCE",
+            "Education"
+          ],
+          "venue": "American Museum of Natural History",
+          "location": "200 Central Park West, New York, NY 10024",
+          "url": "https://nycastronomyclub.org/events/astrophysics-lecture-black-holes",
+          "description": "Learn about the fascinating physics of black holes in this lecture by Dr. Sarah Johnson, astrophysicist from Columbia University."
+        }
+      ]
+    },
+    "Community com_tech_meetup": {
+      "total_events": 4,
+      "events": [
+        {
+          "title": "AI in Healthcare Tech Symposium",
+          "date": "Sunday, March 23, 2025 at 09:00 AM",
+          "categories": [
+            "TECH",
+            "Healthcare",
+            "AI"
+          ],
+          "venue": "NYU Langone Medical Center",
+          "location": "550 1st Avenue, New York, NY 10016",
+          "url": "https://nyctechmeetup.com/events/ai-healthcare-symposium",
+          "description": "A full-day symposium exploring the applications of artificial intelligence in healthcare technology."
+        },
+        {
+          "title": "Quantum Computing Workshop",
+          "date": "Tuesday, April 08, 2025 at 10:00 AM",
+          "categories": [
+            "TECH",
+            "Computing",
+            "Quantum Physics",
+            "SCIENCE"
+          ],
+          "venue": "Google NYC",
+          "location": "111 8th Avenue, New York, NY 10011",
+          "url": "https://nyctechmeetup.com/events/quantum-computing-workshop",
+          "description": "Hands-on workshop introducing the principles of quantum computing and programming with IBM's Qiskit."
+        },
+        {
+          "title": "AI in Healthcare Tech Symposium",
+          "date": "Sunday, March 23, 2025 at 09:00 AM",
+          "categories": [
+            "TECH",
+            "Healthcare",
+            "AI"
+          ],
+          "venue": "NYU Langone Medical Center",
+          "location": "550 1st Avenue, New York, NY 10016",
+          "url": "https://nyctechmeetup.com/events/ai-healthcare-symposium",
+          "description": "A full-day symposium exploring the applications of artificial intelligence in healthcare technology."
+        },
+        {
+          "title": "Quantum Computing Workshop",
+          "date": "Tuesday, April 08, 2025 at 10:00 AM",
+          "categories": [
+            "TECH",
+            "Computing",
+            "Quantum Physics",
+            "SCIENCE"
+          ],
+          "venue": "Google NYC",
+          "location": "111 8th Avenue, New York, NY 10011",
+          "url": "https://nyctechmeetup.com/events/quantum-computing-workshop",
+          "description": "Hands-on workshop introducing the principles of quantum computing and programming with IBM's Qiskit."
+        }
+      ]
+    }
+  }
+}

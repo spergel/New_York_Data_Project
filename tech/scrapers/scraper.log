@@ -566,3 +566,285 @@
 2025-03-03 16:15:47,315 - ERROR - Error parsing event: 'NoneType' object has no attribute 'text'
 2025-03-03 16:15:47,318 - INFO - Found 13 events on page 18
 2025-03-03 16:15:47,372 - INFO - Saved 738 events to ./scrapers/data/nyc_parks_events.json
+2025-03-05 09:54:27,970 - INFO - Fetching details from Luma event URL: https://lu.ma/uicrbf44
+2025-03-05 09:54:28,454 - INFO - Fetching details from Luma event URL: https://lu.ma/v24lqm4z
+2025-03-05 09:54:28,803 - INFO - Fetching details from Luma event URL: https://lu.ma/pm0ponyt
+2025-03-05 09:54:29,305 - INFO - Fetching details from Luma event URL: https://lu.ma/jyuvctgc
+2025-03-05 09:54:29,788 - INFO - Found 4 upcoming events
+2025-03-05 09:54:32,365 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-05 09:54:32,860 - INFO - Found 1 upcoming events
+2025-03-05 09:54:32,860 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Wn4PhccXcIJmdfj
+2025-03-05 09:54:33,929 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-05 09:54:34,487 - INFO - Found 1 upcoming events
+2025-03-05 09:54:34,489 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KBzKfEQ6zQtMHJS
+2025-03-05 09:54:35,543 - INFO - Fetching details from Luma event URL: https://lu.ma/mbu4l4ac
+2025-03-05 09:54:36,385 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-05 09:54:36,750 - INFO - Found 2 upcoming events
+2025-03-05 09:54:37,225 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-05 09:54:37,858 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-05 09:54:38,173 - INFO - Found 2 upcoming events
+2025-03-05 09:54:38,174 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-05 09:54:38,959 - INFO - Fetching details from Luma event URL: https://lu.ma/thirdplacebarnyc
+2025-03-05 09:54:39,327 - INFO - Fetching details from Luma event URL: https://lu.ma/ylk4ky6s
+2025-03-05 09:54:39,672 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-05 09:54:40,035 - INFO - Found 3 upcoming events
+2025-03-05 09:54:40,470 - INFO - Fetching details from Luma event URL: https://lu.ma/x58kfr7r
+2025-03-05 09:54:40,896 - INFO - Fetching details from Luma event URL: https://lu.ma/mux5n3fp
+2025-03-05 09:54:41,227 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-05 09:54:41,602 - INFO - Found 3 upcoming events
+2025-03-05 09:54:42,071 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-05 09:54:42,765 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-05 09:54:43,333 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-uLuytmQCtFZ3RMB
+2025-03-05 09:54:44,433 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-pq13eUBZqSYCXvf
+2025-03-05 09:54:45,103 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-05 09:54:45,732 - INFO - Found 5 upcoming events
+2025-03-05 09:54:45,733 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-oIvDaa63ZqUjhh1
+2025-03-05 09:54:46,432 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-FjTPXSgqSm8jr7V
+2025-03-05 09:54:47,046 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-uLuytmQCtFZ3RMB
+2025-03-05 09:54:47,786 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-pq13eUBZqSYCXvf
+2025-03-05 09:54:48,551 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-05 09:55:06,860 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:08,352 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:08,828 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gxs2mzhq
+2025-03-05 09:55:08,828 - INFO - Fetching details from Luma event URL: https://lu.ma/gxs2mzhq
+2025-03-05 09:55:09,152 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-05 09:55:09,152 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-05 09:55:09,634 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gov7fnsc
+2025-03-05 09:55:09,635 - INFO - Fetching details from Luma event URL: https://lu.ma/gov7fnsc
+2025-03-05 09:55:10,169 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/7g3v557t
+2025-03-05 09:55:10,178 - INFO - Fetching details from Luma event URL: https://lu.ma/7g3v557t
+2025-03-05 09:55:10,585 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/9793az2i
+2025-03-05 09:55:10,585 - INFO - Fetching details from Luma event URL: https://lu.ma/9793az2i
+2025-03-05 09:55:10,910 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-05 09:55:10,911 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-05 09:55:11,569 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-05 09:55:11,569 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-05 09:55:12,234 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-05 09:55:12,234 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-05 09:55:12,482 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:13,017 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:13,633 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:14,085 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/bilt-rewards-spc
+2025-03-05 09:55:14,085 - INFO - Fetching details from Luma event URL: https://lu.ma/bilt-rewards-spc
+2025-03-05 09:55:14,554 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:15,149 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-05 09:55:15,150 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-05 09:55:15,730 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qwiqx8hg
+2025-03-05 09:55:15,731 - INFO - Fetching details from Luma event URL: https://lu.ma/qwiqx8hg
+2025-03-05 09:55:16,098 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-05 09:55:16,098 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-05 09:55:16,708 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-05 09:55:16,708 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-05 09:55:17,276 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-05 09:55:17,276 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-05 09:55:17,997 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-05 09:55:17,997 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-05 09:55:18,814 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-05 09:55:18,814 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-05 09:55:19,304 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/08yso6qr
+2025-03-05 09:55:19,304 - INFO - Fetching details from Luma event URL: https://lu.ma/08yso6qr
+2025-03-05 09:55:19,789 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-05 09:55:20,210 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/j7ivki67
+2025-03-05 09:55:20,210 - INFO - Fetching details from Luma event URL: https://lu.ma/j7ivki67
+2025-03-22 13:21:33,047 - INFO - Fetching details from Luma event URL: https://lu.ma/v24lqm4z
+2025-03-22 13:21:34,060 - INFO - Fetching details from Luma event URL: https://lu.ma/pm0ponyt
+2025-03-22 13:21:35,145 - INFO - Fetching details from Luma event URL: https://lu.ma/9iobb69e
+2025-03-22 13:21:36,381 - INFO - Fetching details from Luma event URL: https://lu.ma/jyuvctgc
+2025-03-22 13:21:37,053 - INFO - Found 4 upcoming events
+2025-03-22 13:21:41,137 - INFO - Found 0 upcoming events
+2025-03-22 13:21:42,363 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Hb9cgfmCGjGXUJY
+2025-03-22 13:21:43,224 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-cW5tQVTCuHh1Gzh
+2025-03-22 13:21:44,455 - INFO - Found 2 upcoming events
+2025-03-22 13:21:44,457 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-Hb9cgfmCGjGXUJY
+2025-03-22 13:21:45,778 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-cW5tQVTCuHh1Gzh
+2025-03-22 13:21:47,857 - INFO - Fetching details from Luma event URL: https://lu.ma/hj4wfh8n
+2025-03-22 13:21:48,788 - INFO - Fetching details from Luma event URL: https://lu.ma/exb21kbi
+2025-03-22 13:21:49,711 - INFO - Found 2 upcoming events
+2025-03-22 13:21:50,571 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-22 13:21:51,553 - INFO - Fetching details from Luma event URL: https://lu.ma/q8v2w8ex
+2025-03-22 13:21:52,743 - INFO - Fetching details from Luma event URL: https://lu.ma/e1fwkxvt
+2025-03-22 13:21:53,768 - INFO - Found 3 upcoming events
+2025-03-22 13:21:53,768 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-22 13:21:55,673 - INFO - Fetching details from Luma event URL: https://lu.ma/6gkcov23
+2025-03-22 13:21:56,328 - INFO - Fetching details from Luma event URL: https://lu.ma/yxbmpe6w
+2025-03-22 13:21:57,824 - INFO - Found 2 upcoming events
+2025-03-22 13:21:58,645 - INFO - Fetching details from Luma event URL: https://lu.ma/o6movhkg
+2025-03-22 13:21:59,423 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-22 13:22:00,450 - INFO - Fetching details from Luma event URL: https://lu.ma/9ikai9z6
+2025-03-22 13:22:01,285 - INFO - Fetching details from Luma event URL: https://lu.ma/53fvw452
+2025-03-22 13:22:02,012 - INFO - Found 4 upcoming events
+2025-03-22 13:22:02,013 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-KaRsWnUBaO7m5Ck
+2025-03-22 13:22:03,864 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-pq13eUBZqSYCXvf
+2025-03-22 13:22:05,194 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-22 13:22:06,328 - INFO - Found 2 upcoming events
+2025-03-22 13:22:06,329 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-pq13eUBZqSYCXvf
+2025-03-22 13:22:07,491 - INFO - Fetching details from Luma event URL: https://lu.ma/e/evt-v8lhdyVVBBC8LvB
+2025-03-22 13:23:19,146 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:23:20,254 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:23:21,178 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-22 13:23:21,178 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-22 13:23:22,469 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/v24lqm4z
+2025-03-22 13:23:22,470 - INFO - Fetching details from Luma event URL: https://lu.ma/v24lqm4z
+2025-03-22 13:23:23,281 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/72mod9q7
+2025-03-22 13:23:23,282 - INFO - Fetching details from Luma event URL: https://lu.ma/72mod9q7
+2025-03-22 13:23:24,202 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/x4s37p1w
+2025-03-22 13:23:24,205 - INFO - Fetching details from Luma event URL: https://lu.ma/x4s37p1w
+2025-03-22 13:23:24,821 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/pm0ponyt
+2025-03-22 13:23:24,822 - INFO - Fetching details from Luma event URL: https://lu.ma/pm0ponyt
+2025-03-22 13:23:25,600 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/9793az2i
+2025-03-22 13:23:25,600 - INFO - Fetching details from Luma event URL: https://lu.ma/9793az2i
+2025-03-22 13:23:26,486 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-22 13:23:26,487 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-22 13:23:27,643 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/9iobb69e
+2025-03-22 13:23:27,644 - INFO - Fetching details from Luma event URL: https://lu.ma/9iobb69e
+2025-03-22 13:23:28,491 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gnzubm69
+2025-03-22 13:23:28,492 - INFO - Fetching details from Luma event URL: https://lu.ma/gnzubm69
+2025-03-22 13:23:29,114 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/SalesForBuildersWalterRoth
+2025-03-22 13:23:29,115 - INFO - Fetching details from Luma event URL: https://lu.ma/SalesForBuildersWalterRoth
+2025-03-22 13:23:29,949 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/jo03fi5l
+2025-03-22 13:23:29,950 - INFO - Fetching details from Luma event URL: https://lu.ma/jo03fi5l
+2025-03-22 13:23:31,355 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/kgbnpjqe
+2025-03-22 13:23:31,355 - INFO - Fetching details from Luma event URL: https://lu.ma/kgbnpjqe
+2025-03-22 13:23:32,070 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/jyuvctgc
+2025-03-22 13:23:32,070 - INFO - Fetching details from Luma event URL: https://lu.ma/jyuvctgc
+2025-03-22 13:23:32,709 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/nyc-tech
+2025-03-22 13:23:32,710 - INFO - Fetching details from Luma event URL: https://lu.ma/nyc-tech
+2025-03-22 13:23:33,710 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/u6rdfq50
+2025-03-22 13:23:33,711 - INFO - Fetching details from Luma event URL: https://lu.ma/u6rdfq50
+2025-03-22 13:23:34,447 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:23:35,517 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:35,519 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:36,397 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/ofw8ozfs
+2025-03-22 13:23:36,397 - INFO - Fetching details from Luma event URL: https://lu.ma/ofw8ozfs
+2025-03-22 13:23:37,060 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/remfilmclub
+2025-03-22 13:23:37,060 - INFO - Fetching details from Luma event URL: https://lu.ma/remfilmclub
+2025-03-22 13:23:37,801 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:37,804 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:38,555 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:38,558 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:39,904 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:39,905 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:40,604 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:40,610 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:41,685 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:41,685 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:42,576 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:42,576 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:43,889 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:43,890 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:44,591 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:44,593 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:45,305 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:45,305 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:46,119 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:46,119 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:47,379 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:47,379 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:48,289 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:48,291 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:49,292 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:49,292 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:50,011 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:50,017 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:51,636 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:51,652 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:52,580 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:52,583 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:53,304 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:53,307 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:54,012 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:54,013 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:55,147 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:55,148 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:55,771 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:55,771 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:56,706 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:56,707 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:57,314 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:57,314 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:58,654 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:58,685 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:23:59,710 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:23:59,710 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:00,337 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:00,337 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:00,901 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:00,901 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:01,584 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:01,584 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:02,345 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:02,345 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:03,233 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:03,233 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:04,053 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:04,053 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:04,697 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:04,697 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:05,280 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:05,280 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:05,908 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:05,908 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:06,620 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:06,622 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:07,448 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:07,450 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:08,154 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:08,155 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:08,873 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:08,878 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:10,189 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:10,192 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:11,073 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:11,073 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:11,988 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:11,990 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:12,786 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:12,787 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:13,362 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:13,363 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:14,841 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:14,841 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:15,560 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:15,560 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:16,549 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:16,549 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:17,303 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:17,303 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:18,125 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:18,125 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:18,724 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:18,727 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:19,415 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:19,415 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:20,137 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:20,138 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:20,842 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/aci-d.club
+2025-03-22 13:24:20,844 - INFO - Fetching details from Luma event URL: https://lu.ma/aci-d.club
+2025-03-22 13:24:21,587 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:24:22,856 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:24:23,842 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-scifi-panel
+2025-03-22 13:24:23,843 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-scifi-panel
+2025-03-22 13:24:25,296 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/engineering-demos-spc
+2025-03-22 13:24:25,296 - INFO - Fetching details from Luma event URL: https://lu.ma/engineering-demos-spc
+2025-03-22 13:24:26,162 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/qh5zbpg9
+2025-03-22 13:24:26,163 - INFO - Fetching details from Luma event URL: https://lu.ma/qh5zbpg9
+2025-03-22 13:24:27,072 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/spc-anthropic-demos
+2025-03-22 13:24:27,072 - INFO - Fetching details from Luma event URL: https://lu.ma/spc-anthropic-demos
+2025-03-22 13:24:27,994 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/mike-krieger-spc
+2025-03-22 13:24:27,995 - INFO - Fetching details from Luma event URL: https://lu.ma/mike-krieger-spc
+2025-03-22 13:24:28,816 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:24:30,088 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-22 13:24:30,089 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-22 13:24:30,998 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/rpc23eir
+2025-03-22 13:24:30,999 - INFO - Fetching details from Luma event URL: https://lu.ma/rpc23eir
+2025-03-22 13:24:31,784 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/f4v86x68
+2025-03-22 13:24:31,784 - INFO - Fetching details from Luma event URL: https://lu.ma/f4v86x68
+2025-03-22 13:24:33,019 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/verci
+2025-03-22 13:24:33,019 - INFO - Fetching details from Luma event URL: https://lu.ma/verci
+2025-03-22 13:24:33,853 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/lhj3csxv
+2025-03-22 13:24:33,853 - INFO - Fetching details from Luma event URL: https://lu.ma/lhj3csxv
+2025-03-22 13:24:34,561 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/08yso6qr
+2025-03-22 13:24:34,636 - INFO - Fetching details from Luma event URL: https://lu.ma/08yso6qr
+2025-03-22 13:24:35,594 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-22 13:24:36,949 - INFO - Found Luma URL in Google Calendar event: https://lu.ma/gnzubm69
+2025-03-22 13:24:36,950 - INFO - Fetching details from Luma event URL: https://lu.ma/gnzubm69

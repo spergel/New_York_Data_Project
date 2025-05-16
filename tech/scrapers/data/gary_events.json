@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_gary_9e0a7c3b",
+      "id": "evt_gary_a6738605",
       "name": "SXSW 2025\nEvents & Parties!",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
       "description": "",
-      "startDate": "2025-04-03T18:28:10.074425-05:00",
-      "endDate": "2025-04-03T19:58:10.074425-05:00",
+      "startDate": "2025-04-05T08:23:29.048865-05:00",
+      "endDate": "2025-04-05T09:53:29.048865-05:00",
       "category": [
         "Event",
         "Tech"
@@ -31,52 +31,7 @@
         "registration_url": null,
         "speakers": [
           {
-            "name": "Patri Friedman (General Partner",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Pronomos VC)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Jackson Steger (Founding Director",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "The Network State)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Trey Goff (Chief of Staff",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Prospera)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Mac Davis (Founder",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Minicircle)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "James of rc (Founder",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "rc)",
+            "name": "Christopher McComb (Dir",
             "title": "",
             "company": ""
           }
@@ -89,881 +44,7 @@
       }
     },
     {
-      "id": "evt_gary_e873d4cf",
-      "name": "Investor Insights w/ Eniac Ventures",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join Nihal Mehta of Eniac Ventures as he shares insights from 20+ years of building startups, investing in top companies, & driving impact\r About our guest: At Eniac, Nihal is known as the human Rolodex, thanks to the thousands of connections he has made with some of the world's top companies & brands. He developed many of these connections (and scar tissue!) over the past 20+ years while founding five startups: Philly2nite -> UrbanGroove -> Chapter 7 bankruptcy; ipsh! -> acquired by Omnicom (NYSE: OMC); buzzd -> LocalResponse -> acquired by BlueCava.\r FYI, Eniac Ventures is an early stage fund that lead rounds.\r Early in his career, Nihal honed his ability to spot top entrepreneurial talent by investing in Admob (acquired by Google), Swiftkey (acquired by Microsoft), Tapad (acquired by Telenor), Tala, & Uber, to name a few. Nihal & his wife are now angel investors & LPs in almost 100 underrepresented founders & fund managers.\r Nihal is a co-founder of the non-profit Project Ahimsa, providing scholarships to disadvantaged youth in India, where his parents immigrated from in the early 1970s. Nihal also recently co-founded initiatives like Help Main Street to help restaurants survive the pandemic, & The 100k Pledge, a social justice tracker of economic empowerment to Black communities. You might catch him running down the Hudson River weekday mornings with founders & his #pitchandrun crew.\r Outside of the office Nihal loves to spend time with his wife Reshma & is a big supporter of her non-profit Girls Who Code & her initiative Moms First. Around town, you will usually see him with his sons Shaan & Sai & beagle-bulldog Stanley. Nihal is the life of the party, which is why he always spearheads Eniac events.\r Nihal graduated from the University of Pennsylvania with a BA in Philosophy & a BSE in Computer Science.\r Note to attendees: We always keep the group small so that everyone has an opportunity to participate. Sign up here for the weekly StartupOneStop newsletter.",
-      "startDate": "2025-03-04T09:30:00-05:00",
-      "endDate": "2025-03-04T11:00:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/mnlmktn/Investor-Insights-w-Eniac-Ventures",
-        "registration_url": "http://gary.to/2609bjc",
-        "speakers": [
-          {
-            "name": "Nihal Mehta",
-            "title": "Eniac Ventures",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Investor Insights w/ Eniac Ventures\n\u00a0\n\nWith Nihal Mehta (Eniac Ventures).\n\nOnline\n\n\nMar 04 (Tue)",
-          "address": "2025 @ 09:30 AM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nJoin Nihal Mehta of Eniac Ventures as he shares insights from 20+ years of building startups, investing in top companies, & driving impact\r About our guest: At Eniac, Nihal is known as the human Rolodex, thanks to the thousands of connections he has made with some of the world's top companies & brands. He developed many of these connections (and scar tissue!) over the past 20+ years while founding five startups: Philly2nite -> UrbanGroove -> Chapter 7 bankruptcy; ipsh! -> acquired by Omnicom (NYSE: OMC); buzzd -> LocalResponse -> acquired by BlueCava.\r FYI, Eniac Ventures is an early stage fund that lead rounds.\r Early in his career, Nihal honed his ability to spot top entrepreneurial talent by investing in Admob (acquired by Google), Swiftkey (acquired by Microsoft), Tapad (acquired by Telenor), Tala, & Uber, to name a few. Nihal & his wife are now angel investors & LPs in almost 100 underrepresented founders & fund managers.\r Nihal is a co-founder of the non-profit Project Ahimsa, providing scholarships to disadvantaged youth in India, where his parents immigrated from in the early 1970s. Nihal also recently co-founded initiatives like Help Main Street to help restaurants survive the pandemic, & The 100k Pledge, a social justice tracker of economic empowerment to Black communities. You might catch him running down the Hudson River weekday mornings with founders & his #pitchandrun crew.\r Outside of the office Nihal loves to spend time with his wife Reshma & is a big supporter of her non-profit Girls Who Code & her initiative Moms First. Around town, you will usually see him with his sons Shaan & Sai & beagle-bulldog Stanley. Nihal is the life of the party, which is why he always spearheads Eniac events.\r Nihal graduated from the University of Pennsylvania with a BA in Philosophy & a BSE in Computer Science.\r Note to attendees: We always keep the group small so that everyone has an opportunity to participate. Sign up here for the weekly StartupOneStop newsletter.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_6212e066",
-      "name": "Columbia AI Summit",
-      "type": "Conference",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Experience Columbia AI: Crossing Fields, Creating Impact\r View the Main Stage Agenda | Explore Interactive Workshops\r In person-registration is required & open to current CUID holders. A public livestream will start at 10 AM on March 4.  \r Morningside\r9:00 AM - 1:00 PM | Low Memorial Library\rNew Frontiers of AI\rWill Machines Have Free Will? Shaping the Future of AI\rFrom Chaos to Code: How AI Can Tame the Climate Crisis\r Manhattanville\r12:00 PM - 3:00 PM | Lee C. Bollinger Forum\rAI & Creativity\r ChatCEO: How AI is Influencing Leadership & Labor\r CUIMC\r2:00 PM - 5:00 PM | Vagelos Education Center\rDecoding the Mind: From the Brain to Mental Health\rAI for Cancer Care: From Cells to Systems\r Keynote\rSami Haddadin headshot\r    Sami Haddadin, Director of the Munich Institute of Robotics & Machine Intelligence, & Vice President for Research at MBZUAI\r5:30 PM - 6:30 PM | Low Library\rSami Haddadin is a world-renowned robotics & AI researcher, serving as Director of MIRMI at TUM in Munich & Vice President for Research at MBZUAI in Abu Dhabi. His pioneering work spans robotics, artificial intelligence, & neurotechnology, driving innovations that shape the future of human-centered robotics & embodied AI. From groundbreaking research to globally used commercial robots like Franka & KUKA, Prof. Haddadin's contributions power the current revolution in physical AI. Recognized with prestigious awards, including the Leibniz Prize, he has also shared his vision as a plenary speaker at leading conferences like AAAI & ICRA. Beyond the lab, his work influences global AI strategies & features in science & art museums worldwide.\r Closing Keynote: Robots & the Search for Universal Intelligence: How Machines Learn to Move, Think, & Adapt\r 9:00 AM - 10:00 AM: Check-in & Poster Session\r10:00 AM - 11:00 AM: New Frontiers of AI\r11:00 AM - 12:00 PM: Will Machines Have Free Will? Shaping the Future of AI\r12:00 PM - 1:00 PM: From Chaos to Code: How AI Can Tame the Climate Crisis\r  5:30 PM - 6:30 PM: Sami Haddadin, Director of the Munich Institute of Robotics & Machine Intelligence",
-      "startDate": "2025-03-04T10:00:00-05:00",
-      "endDate": "2025-03-04T11:30:00-05:00",
-      "category": [
-        "Conference",
-        "Tech",
-        "Conference"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Conference",
-        "Workshop",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/tm9mzub/Columbia-AI-Summit",
-        "registration_url": "http://gary.to/2ktyjgf",
-        "speakers": [
-          {
-            "name": "Vishal Misra (Vice Dean of Computing & AI",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Columbia)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Sami Haddadin (VP Research",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "MBZUAI)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Lila Davachi (Dir",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Columbia AI Summit\n\u00a0\n\nWith Vishal Misra (Vice Dean of Computing & AI",
-          "address": "Columbia), Sami Haddadin (VP Research, MBZUAI), Lila Davachi (Dir., STAR Program), Yunzhu Li (Prof. CS, Columbia), Richard Zemel (Prof. Engg & Applied Science, Columbia).\n\nColumbia University, Low Library, New York\n\n\nMar 04 (Tue) , 2025 @ 10:00 AM\n\n\nNot Known\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nExperience Columbia AI: Crossing Fields, Creating Impact\r View the Main Stage Agenda | Explore Interactive Workshops\r In person-registration is required & open to current CUID holders. A public livestream will start at 10 AM on March 4.  \r Morningside\r9:00 AM - 1:00 PM | Low Memorial Library\rNew Frontiers of AI\rWill Machines Have Free Will? Shaping the Future of AI\rFrom Chaos to Code: How AI Can Tame the Climate Crisis\r Manhattanville\r12:00 PM - 3:00 PM | Lee C. Bollinger Forum\rAI & Creativity\r ChatCEO: How AI is Influencing Leadership & Labor\r CUIMC\r2:00 PM - 5:00 PM | Vagelos Education Center\rDecoding the Mind: From the Brain to Mental Health\rAI for Cancer Care: From Cells to Systems\r Keynote\rSami Haddadin headshot\r    Sami Haddadin, Director of the Munich Institute of Robotics & Machine Intelligence, & Vice President for Research at MBZUAI\r5:30 PM - 6:30 PM | Low Library\rSami Haddadin is a world-renowned robotics & AI researcher, serving as Director of MIRMI at TUM in Munich & Vice President for Research at MBZUAI in Abu Dhabi. His pioneering work spans robotics, artificial intelligence, & neurotechnology, driving innovations that shape the future of human-centered robotics & embodied AI. From groundbreaking research to globally used commercial robots like Franka & KUKA, Prof. Haddadin's contributions power the current revolution in physical AI. Recognized with prestigious awards, including the Leibniz Prize, he has also shared his vision as a plenary speaker at leading conferences like AAAI & ICRA. Beyond the lab, his work influences global AI strategies & features in science & art museums worldwide.\r Closing Keynote: Robots & the Search for Universal Intelligence: How Machines Learn to Move, Think, & Adapt\r 9:00 AM - 10:00 AM: Check-in & Poster Session\r10:00 AM - 11:00 AM: New Frontiers of AI\r11:00 AM - 12:00 PM: Will Machines Have Free Will? Shaping the Future of AI\r12:00 PM - 1:00 PM: From Chaos to Code: How AI Can Tame the Climate Crisis\r  5:30 PM - 6:30 PM: Sami Haddadin, Director of the Munich Institute of Robotics & Machine Intelligence",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_d3d481ca",
-      "name": "Humans Behind The Startup",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Laughter, pitches, & investor networking!\rA nationally recognized pitch event, as seen on CNBC, where founders showcase their adaptability, communication skills, & more to top-tier investors.\r Three up-and-coming founders pitch their real Pre-Seed, Seed or Series A round -plus one hilariously FAKE business concept to keep everyone on their toes. It's the ultimate test of grit, creativity, & charm!\r This is a curated community of some of the best humans. They also happen to be wicked smart at building & investing in startups.\r ---\r Event Schedule:\r3pm - x3 founders present real & bad business plans\r 4pm - Connect with like-minded investors & founders\r **6pm - VIP investor dinner (By Invite Only)\r ---\r This is an admission-free & no-nametag-zone because these amazing companies:\r howdy.com (where to assemble your team)\rhupspot.com (how we're so organized)\rengine.com (how the shitpitch team saves about 26% on travel)\r Come to connect. Leave with new friends.\r Investor Judges:\rJade Markinson - Innovent Capital Group\rAlex Chung - Masthead Strategies\rVictoria Mayzlish - Arc Ventures\r x3 Founders Presenting:\rRichard Chan - CoverRight (Series A round)\rApril Watchel - Cheeky Cocktails (Seed round)\rMYSTERY FOUNDER **x1 founder is pulled at random from the audience",
-      "startDate": "2025-03-04T15:00:00-05:00",
-      "endDate": "2025-03-04T16:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/56fe3q6/Humans-Behind-The-Startup",
-        "registration_url": "http://gary.to/0v5jvdd",
-        "speakers": [
-          {
-            "name": "judges Jade Markinson",
-            "title": "Innovent Capital Group",
-            "company": ""
-          },
-          {
-            "name": "Alex Chung",
-            "title": "Run Tech Club",
-            "company": ""
-          },
-          {
-            "name": "Victoria Mayzlish",
-            "title": "Arc Ventures",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Humans Behind The Startup\n\u00a0\n\nWith judges Jade Markinson (Innovent Capital Group)",
-          "address": "Alex Chung (Run Tech Club), Victoria Mayzlish (Arc Ventures).\n\nVenue, To Be Announced, New York\n\n\nMar 04 (Tue) , 2025 @ 03:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nLaughter, pitches, & investor networking!\rA nationally recognized pitch event, as seen on CNBC, where founders showcase their adaptability, communication skills, & more to top-tier investors.\r Three up-and-coming founders pitch their real Pre-Seed, Seed or Series A round -plus one hilariously FAKE business concept to keep everyone on their toes. It's the ultimate test of grit, creativity, & charm!\r This is a curated community of some of the best humans. They also happen to be wicked smart at building & investing in startups.\r ---\r Event Schedule:\r3pm - x3 founders present real & bad business plans\r 4pm - Connect with like-minded investors & founders\r **6pm - VIP investor dinner (By Invite Only)\r ---\r This is an admission-free & no-nametag-zone because these amazing companies:\r howdy.com (where to assemble your team)\rhupspot.com (how we're so organized)\rengine.com (how the shitpitch team saves about 26% on travel)\r Come to connect. Leave with new friends.\r Investor Judges:\rJade Markinson - Innovent Capital Group\rAlex Chung - Masthead Strategies\rVictoria Mayzlish - Arc Ventures\r x3 Founders Presenting:\rRichard Chan - CoverRight (Series A round)\rApril Watchel - Cheeky Cocktails (Seed round)\rMYSTERY FOUNDER **x1 founder is pulled at random from the audience",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_a41f777d",
-      "name": "MLOps Days - AI/ML Mega Meetup",
-      "type": "Meetup",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Agenda\r4:00 PM - 4:15 PM\r Arrival & Sign in\r 4:15 PM - 4:50 PM\r AIOps at Reasonable Scale\r Ciro Greco, Founder & CEO @ Bauplan\r Talk#1\r4:50 PM - 5:30 PM\r Protecting ML Systems in the GenAI Era\r Yuval Fernbach, VP, CTO MLOps @ JFrog\r Talk#2\r5:30 PM - 6:00 PM\r Integrating Tech to Unlock Generative AI\r Liron Freind Saadon, Head of Dev Rel @ NVIDIA\r Talk #3\r6:00 PM - 6:45 PM\r Human-in-the-loop feedback, agentic systems\r Ari Kaplan, Head of Evangelism, @ Databricks\r Talk 4\r6:45 PM - 7:30 PM\r Networking/Happy Hour\r Join us in the heart of New York City for a free ML/AI mega-meetup featuring an incredible lineup of ML experts, data scientists, & DevOps professionals.\r Dive into scaling AI in production, optimizing ML workflows, & more in data science. This is a great opportunity to mingle with the best tech minds NYC has to offer over some good food. Register here & save your spot\r Featuring:\r AIOps at Reasonable Scale by Ciro Greco, Founder & CEO @ Bauplan\rThis session explores the unique security challenges of ML systems in the GenAI era & provides actionable strategies to safeguard them. Learn why traditional approaches fall short & how to fortify your ML lifecycle to stay ahead in an evolving threat landscape.\r We have pioneered the concept of ML for the 99% with the ML at reasonable scale series, & recently discussed what changed with the new AI wave (spoiler: not much, the fundamentals stay!). In the talk, we review the basics of ML in production & stress what changed & what didn't in the era of LLMs.\r   Protecting ML Systems in the GenAI Era by Yuval Fernbach, VP, CTO MLOps @ JFrog\rGenerative AI & machine learning systems are reshaping industries but also introducing new security risks. The reliance on vast data, rapid deployment cycles, & automated pipelines in MLOps has expanded the attack surface, exposing vulnerabilities to data poisoning, adversarial inputs, & pipeline exploitation.\r This session explores the unique security challenges of ML systems in the GenAI era & provides actionable strategies to safeguard them. Learn why traditional approaches fall short & how to fortify your ML lifecycle to stay ahead in an evolving threat landscape.\r   Integrating Tech to Unlock Generative AI by Liron Freind Saadon, Head of Dev Rel @ NVIDIA\rAn Ideal MLOps platform in the Generative Al era is a comprehensive solution that supports the entire machine learning lifecycle, from data preparation & model development to model deployment & monitoring. It should provide seamless integration of tools & technologies that enable organizations to build, deploy, & manage machine learning models with ease. In this talk, we'll review some of the tools & solutions that exist to build, deploy, & scale GenAl workloads across different environments successfully.\r   Human-in-the-loop feedback, agentic systems by Ari Kaplan, Head of Evangelism, Databricks\rDiscover how incorporating continuous human guidance ensures ethical, accurate, & context-aware outputs, while autonomous agentic systems push the boundaries of Al, enabling proactive decision-making & complex problem-solving.\rNetworking/Happy Hour\rRegister here & save your spot",
-      "startDate": "2025-03-04T16:00:00-05:00",
-      "endDate": "2025-03-04T17:30:00-05:00",
-      "category": [
-        "Meetup",
-        "Tech",
-        "Conference"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Conference",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/a91mzag/MLOps-Days-AI-ML-Mega-Meetup",
-        "registration_url": "http://gary.to/j8si3n4",
-        "speakers": [
-          {
-            "name": "Ciro Greco (Founder/CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Bauplan)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Yuval Fernbach (CTO MLOps",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "JFrog)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Liron Saadon (Head of Dev Rel",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "NVIDIA)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Ari Kaplan (Head of Evangelism",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Databricks)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "MLOps Days - AI/ML Mega Meetup\n\u00a0\n\nWith Ciro Greco (Founder/CEO",
-          "address": "Bauplan), Yuval Fernbach (CTO MLOps, JFrog), Liron Saadon (Head of Dev Rel, NVIDIA), Ari Kaplan (Head of Evangelism, Databricks).\n\nVenue, 45 Rockefeller Plaza, 27th Fl, New York\n\n\nMar 04 (Tue) , 2025 @ 04:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nAgenda\r4:00 PM - 4:15 PM\r Arrival & Sign in\r 4:15 PM - 4:50 PM\r AIOps at Reasonable Scale\r Ciro Greco, Founder & CEO @ Bauplan\r Talk#1\r4:50 PM - 5:30 PM\r Protecting ML Systems in the GenAI Era\r Yuval Fernbach, VP, CTO MLOps @ JFrog\r Talk#2\r5:30 PM - 6:00 PM\r Integrating Tech to Unlock Generative AI\r Liron Freind Saadon, Head of Dev Rel @ NVIDIA\r Talk #3\r6:00 PM - 6:45 PM\r Human-in-the-loop feedback, agentic systems\r Ari Kaplan, Head of Evangelism, @ Databricks\r Talk 4\r6:45 PM - 7:30 PM\r Networking/Happy Hour\r Join us in the heart of New York City for a free ML/AI mega-meetup featuring an incredible lineup of ML experts, data scientists, & DevOps professionals.\r Dive into scaling AI in production, optimizing ML workflows, & more in data science. This is a great opportunity to mingle with the best tech minds NYC has to offer over some good food. Register here & save your spot\r Featuring:\r AIOps at Reasonable Scale by Ciro Greco, Founder & CEO @ Bauplan\rThis session explores the unique security challenges of ML systems in the GenAI era & provides actionable strategies to safeguard them. Learn why traditional approaches fall short & how to fortify your ML lifecycle to stay ahead in an evolving threat landscape.\r We have pioneered the concept of ML for the 99% with the ML at reasonable scale series, & recently discussed what changed with the new AI wave (spoiler: not much, the fundamentals stay!). In the talk, we review the basics of ML in production & stress what changed & what didn't in the era of LLMs.\r   Protecting ML Systems in the GenAI Era by Yuval Fernbach, VP, CTO MLOps @ JFrog\rGenerative AI & machine learning systems are reshaping industries but also introducing new security risks. The reliance on vast data, rapid deployment cycles, & automated pipelines in MLOps has expanded the attack surface, exposing vulnerabilities to data poisoning, adversarial inputs, & pipeline exploitation.\r This session explores the unique security challenges of ML systems in the GenAI era & provides actionable strategies to safeguard them. Learn why traditional approaches fall short & how to fortify your ML lifecycle to stay ahead in an evolving threat landscape.\r   Integrating Tech to Unlock Generative AI by Liron Freind Saadon, Head of Dev Rel @ NVIDIA\rAn Ideal MLOps platform in the Generative Al era is a comprehensive solution that supports the entire machine learning lifecycle, from data preparation & model development to model deployment & monitoring. It should provide seamless integration of tools & technologies that enable organizations to build, deploy, & manage machine learning models with ease. In this talk, we'll review some of the tools & solutions that exist to build, deploy, & scale GenAl workloads across different environments successfully.\r   Human-in-the-loop feedback, agentic systems by Ari Kaplan, Head of Evangelism, Databricks\rDiscover how incorporating continuous human guidance ensures ethical, accurate, & context-aware outputs, while autonomous agentic systems push the boundaries of Al, enabling proactive decision-making & complex problem-solving.\rNetworking/Happy Hour\rRegister here & save your spot",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_2b26b697",
-      "name": "Blackstone Launchpad - Role Of VC In Cybersecurity",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Have a technical background & looking to break into VC? Interested in VC or Tech? Join us for a discussion on Startup & VC Opportunities in Cybersecurity Space with Dan Guido & Lucas Nelson.\r About the Speakers:\r Lucas Nelson is Managing Director at Lytical Ventures & member of its investment committee. Along with Steve Berg, he oversees day-to-day fund operations. This includes deal sourcing, technical diligence & deal structuring. Lucas is also responsible for working with the companies in the investment portfolio (including any board responsibilities), as well as managing relationships with limited partners (including regularly reporting fund progress), the venture ecosystem & the back office.\r Dan Guido is the CEO & co-founder of Trail of Bits, a cybersecurity firm that partners with high-stakes innovators to secure mission-critical technologies. Under his leadership since 2012, Trail of Bits has grown to over 100 elite engineers, with industry-defining practices in cryptography, AI, & blockchain security. The firm has been a finalist in DARPA's Cyber Grand Challenge & AI Cyber Challenge (AIxCC), exemplifying its expertise in automated security & AI-driven defenses. Committed to building the world's best home for security researchers, Dan has fostered a company culture recognized among NYC's Best Places to Work. In 2023, iVerify-a tool developed to combat mobile spyware-spun out as its own company, empowering users worldwide to secure their mobile devices & their privacy.\r Dan is a sought-after advisor to startups, government agencies, & policymakers on matters related to technology & cybersecurity. He serves on the boards of three startups, & he actively shapes cybersecurity policy through collaborations with leading organizations like the Council on Foreign Relations, RAND Corporation, & Harvard University. As the founder of Empire Hacking, he has connected over 1,700 NYC cybersecurity experts, & he created AlgoVPN, a popular self-hosted VPN with over 28,000 stars on GitHub.\r Dan holds a bachelor's degree in Computer Science from NYU Tandon, with a concentration in Information Assurance, & is currently enrolled in Harvard Business School's Owner/President Management program. In 2021, Dan was inducted into the prestigious Scholarship for Service (SFS) Hall of Fame by the Cybersecurity & Infrastructure Security Agency (CISA), honoring his extensive contributions to the field. A pivotal role early in his career was as Hacker in Residence at NYU, where he helped establish & grow the university's cybersecurity program, advising students & launching initiatives that connected academia with industry needs. Dan continues to use his expertise to inspire future generations in the cybersecurity community.\r Prior to joining Lytical Ventures, Lucas was a Principal at Evolution Equity & a Principal at Gotham Ventures. Lucas was also a Venture Partner at Antecedent Ventures working as part of the investment team with Steve. Lucas has held operating positions at Adobe & a number of startups. Lucas holds an MBA from Dartmouth & a BS in computer science from Purdue University. He is also a Kauffman Fellow.\r --\r The NYU Entrepreneurial Institute provides reasonable accommodations to people with disabilities. Requests for accommodations for events & services should be submitted at least two weeks before the date of the accommodation need. Please email zgb215@nyu.edu for assistance.\r NOTE: THIS EVENT IS ONLY OPEN TO CURRENT NYU STUDENTS, FACULTY, & STAFF. EACH ATTENDEE WILL BE REQUIRED TO SIGN IN WITH THEIR NYU ID CARD",
-      "startDate": "2025-03-04T17:00:00-05:00",
-      "endDate": "2025-03-04T18:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/776zwor/Blackstone-Launchpad-Role-Of-VC-In-Cybersecurity",
-        "registration_url": "http://gary.to/yyaixn8",
-        "speakers": [
-          {
-            "name": "Dan Guido (CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Trail of Bits)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Blackstone Launchpad - Role Of VC In Cybersecurity\n\u00a0\n\nWith Dan Guido (CEO",
-          "address": "Trail of Bits).\n\nNYU, 16 Washington Pl, New York\n\n\nMar 04 (Tue) , 2025 @ 05:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nHave a technical background & looking to break into VC? Interested in VC or Tech? Join us for a discussion on Startup & VC Opportunities in Cybersecurity Space with Dan Guido & Lucas Nelson.\r About the Speakers:\r Lucas Nelson is Managing Director at Lytical Ventures & member of its investment committee. Along with Steve Berg, he oversees day-to-day fund operations. This includes deal sourcing, technical diligence & deal structuring. Lucas is also responsible for working with the companies in the investment portfolio (including any board responsibilities), as well as managing relationships with limited partners (including regularly reporting fund progress), the venture ecosystem & the back office.\r Dan Guido is the CEO & co-founder of Trail of Bits, a cybersecurity firm that partners with high-stakes innovators to secure mission-critical technologies. Under his leadership since 2012, Trail of Bits has grown to over 100 elite engineers, with industry-defining practices in cryptography, AI, & blockchain security. The firm has been a finalist in DARPA's Cyber Grand Challenge & AI Cyber Challenge (AIxCC), exemplifying its expertise in automated security & AI-driven defenses. Committed to building the world's best home for security researchers, Dan has fostered a company culture recognized among NYC's Best Places to Work. In 2023, iVerify-a tool developed to combat mobile spyware-spun out as its own company, empowering users worldwide to secure their mobile devices & their privacy.\r Dan is a sought-after advisor to startups, government agencies, & policymakers on matters related to technology & cybersecurity. He serves on the boards of three startups, & he actively shapes cybersecurity policy through collaborations with leading organizations like the Council on Foreign Relations, RAND Corporation, & Harvard University. As the founder of Empire Hacking, he has connected over 1,700 NYC cybersecurity experts, & he created AlgoVPN, a popular self-hosted VPN with over 28,000 stars on GitHub.\r Dan holds a bachelor's degree in Computer Science from NYU Tandon, with a concentration in Information Assurance, & is currently enrolled in Harvard Business School's Owner/President Management program. In 2021, Dan was inducted into the prestigious Scholarship for Service (SFS) Hall of Fame by the Cybersecurity & Infrastructure Security Agency (CISA), honoring his extensive contributions to the field. A pivotal role early in his career was as Hacker in Residence at NYU, where he helped establish & grow the university's cybersecurity program, advising students & launching initiatives that connected academia with industry needs. Dan continues to use his expertise to inspire future generations in the cybersecurity community.\r Prior to joining Lytical Ventures, Lucas was a Principal at Evolution Equity & a Principal at Gotham Ventures. Lucas was also a Venture Partner at Antecedent Ventures working as part of the investment team with Steve. Lucas has held operating positions at Adobe & a number of startups. Lucas holds an MBA from Dartmouth & a BS in computer science from Purdue University. He is also a Kauffman Fellow.\r --\r The NYU Entrepreneurial Institute provides reasonable accommodations to people with disabilities. Requests for accommodations for events & services should be submitted at least two weeks before the date of the accommodation need. Please email zgb215@nyu.edu for assistance.\r NOTE: THIS EVENT IS ONLY OPEN TO CURRENT NYU STUDENTS, FACULTY, & STAFF. EACH ATTENDEE WILL BE REQUIRED TO SIGN IN WITH THEIR NYU ID CARD",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_759fea16",
-      "name": "Artificial Ruby",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Let's get together to enjoy some Ruby x AI demos & drinks at Gusto's NYC office! Whether youre an experienced Rubyist eager to explore AI or just curious about Ruby & AI, this happy hour & demo night is the perfect chance to learn & connect - over some great views of Manhattan.nWe look forward to seeing you there!nImportant: Please bring a valid photo ID that matches your RSVP for admission.nAgendan5:30-6:15: Arrive, mingle, drinks & refreshmentsn6:15-6:30: Introductionsn6:30-7:15: Demosn7:15-8:00: Food, drinks & connectionsnDemosnLandon Gray:",
-      "startDate": "2025-03-04T17:30:00-05:00",
-      "endDate": "2025-03-04T19:00:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/edyvkcb/Artificial-Ruby",
-        "registration_url": "http://gary.to/0f691ji",
-        "speakers": [],
-        "venue": {
-          "name": "Artificial Ruby\n\u00a0\n\n\nVenue",
-          "address": "1 Penn Plaza, 52nd Fl, New York\n\n\nMar 04 (Tue) , 2025 @ 05:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nLet's get together to enjoy some Ruby x AI demos & drinks at Gusto's NYC office! Whether youre an experienced Rubyist eager to explore AI or just curious about Ruby & AI, this happy hour & demo night is the perfect chance to learn & connect - over some great views of Manhattan.nWe look forward to seeing you there!nImportant: Please bring a valid photo ID that matches your RSVP for admission.nAgendan5:30-6:15: Arrive, mingle, drinks & refreshmentsn6:15-6:30: Introductionsn6:30-7:15: Demosn7:15-8:00: Food, drinks & connectionsnDemosnLandon Gray:",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_4b2428c4",
-      "name": "Pre-Seed + Seed Founders & Investors Mixer",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "NYC B2B is the premier community for B2B Founders, Operators, & Investors in NYC. NYC B2B often hosts happy hour events for founders, builders, & investors based in NYC.\r Inkle is an accounting & tax SaaS platform designed to help U.S. startups manage their compliance from inception. It provides software & services for automating deadline alerts, state & federal filings, & AI-powered bookkeeping. Inkle is currently trusted by over 6% of YC companies & 450 startups globally.\r This is an exclusive event for B2B Pre-Seed & Seed stage founders & investors.\r This meetup is hosted by Manan Modi, Inkle, & The Yard. It's a great way to meet other founders, builders, & investors. Whether you're building a company, exploring a side project, or considering a new idea, we would love to have you here. Manan has previously hosted events for hundreds of startup founders + operators here in NYC.\r -\rLearn more about our co-host & event venue below!\r The Yard is a close-knit community that's representative of a wide spectrum of professionals & creatives from every industry you could imagine.",
-      "startDate": "2025-03-04T18:00:00-05:00",
-      "endDate": "2025-03-04T19:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/m1pw45n/Pre-Seed-Seed-Founders-Investors-Mixer",
-        "registration_url": "http://gary.to/ybt9cvu",
-        "speakers": [],
-        "venue": {
-          "name": "Pre-Seed + Seed Founders & Investors Mixer\n\u00a0\n\n\nVenue",
-          "address": "To Be Announced, New York\n\n\nMar 04 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nNYC B2B is the premier community for B2B Founders, Operators, & Investors in NYC. NYC B2B often hosts happy hour events for founders, builders, & investors based in NYC.\r Inkle is an accounting & tax SaaS platform designed to help U.S. startups manage their compliance from inception. It provides software & services for automating deadline alerts, state & federal filings, & AI-powered bookkeeping. Inkle is currently trusted by over 6% of YC companies & 450 startups globally.\r This is an exclusive event for B2B Pre-Seed & Seed stage founders & investors.\r This meetup is hosted by Manan Modi, Inkle, & The Yard. It's a great way to meet other founders, builders, & investors. Whether you're building a company, exploring a side project, or considering a new idea, we would love to have you here. Manan has previously hosted events for hundreds of startup founders + operators here in NYC.\r -\rLearn more about our co-host & event venue below!\r The Yard is a close-knit community that's representative of a wide spectrum of professionals & creatives from every industry you could imagine.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_bb20ad97",
-      "name": "Vention CTO Dinner",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Join Vention in celebrating the top engineering leaders from the Greater New York area. Enjoy an evening of networking, fine dining, & thought leadership.\r There will be discussions about AI in Software Development, building successful distributed teams, & how to scale & pivot through VC funding rounds.\r Please note that registration does not guarantee your space, we will confirm your RSVP as soon as we can.\r ...........................\r About Vention:\r Since 2002, Vention has been the premier software development partner for startups & enterprises.\r www.ventionteams.com",
-      "startDate": "2025-03-04T18:00:00-05:00",
-      "endDate": "2025-03-04T19:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/xehs9ok/Vention-CTO-Dinner",
-        "registration_url": "http://gary.to/vf5q1so",
-        "speakers": [],
-        "venue": {
-          "name": "Vention CTO Dinner\n\u00a0\n\n\nGrand Central Terminal",
-          "address": "To Be Announced, New York\n\n\nMar 04 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nJoin Vention in celebrating the top engineering leaders from the Greater New York area. Enjoy an evening of networking, fine dining, & thought leadership.\r There will be discussions about AI in Software Development, building successful distributed teams, & how to scale & pivot through VC funding rounds.\r Please note that registration does not guarantee your space, we will confirm your RSVP as soon as we can.\r ...........................\r About Vention:\r Since 2002, Vention has been the premier software development partner for startups & enterprises.\r www.ventionteams.com",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_30804387",
-      "name": "Women's History Month w/ Fintech Mavericks",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Kick-off Women's History Month at Brex HQ & join us for the exciting launch of the Fintech Mavericks podcast, hosted by Nicole Casperson & Drew Glover!\r We're bringing together the fintech & founder communities for a night of networking, inspiration, & powerful stories.\r The first 100 guests will receive a signed copy of Fintech Feminists, authored by Nicole Casperson, & a special gift from Brex customer Ipsy.\r Event Agenda:\rWomen's History Month Keynote\r Fintech Mavericks Podcast LIVE Recording\r Fintech Feminists Book Signing + Networking\r About Fintech Mavericks:\rFintech Mavericks: Where Profit Meets Purpose is a podcast dedicated to the visionaries, innovators, & entrepreneurs shaping the future of financial technology. At the intersection of scale & societal impact, we dive into the journeys of fintech leaders who are not only building thriving businesses but are also making strides toward economic equity & social good.\r Hosts:\rUser Uploaded Image\rNicole Casperson is an award-winning journalist, author, content director, professor, & leading voice in fintech. As the Founder & CEO of Fintech Is Femme, she leads a thriving media platform & community of over 50,000 fintech leaders dedicated to shaping a more inclusive financial landscape. Her debut book, Fintech Feminists, published under Wiley, has rapidly ascended to the #1 new bestseller spot on Amazon.\r Subscribe to the Fintech Is Femme Newsletter.\r  User Uploaded Image\rDrew Glover is the co-founder & General Partner at Fiat Ventures, a leading fintech-focused VC firm, & the founder of Fiat Growth, a fintech marketing agency. Drew has been instrumental in scaling major brands like Chime, MoneyLion, & Mastercard, making him a powerful advocate for purposeful innovation & fintech growth.\r __\rBrex is the financial stack that scales with you, from incorporation to IPO. Manage all your company spending & vendor payments from a single dashboard, including credit card, bill pay, & reimbursements, all while extending your runway with a high-yield business account. Join the ranks of 1 in 3 venture-backed US startups already using Brex & start enjoying 20x higher credit limit, community events, & exclusive rewards that help your business grow. \r ___\r Please RSVP, space is limited.\r Event Details:\r  Date: March 4th 2025\r  Time: 6:00 pm - 8:00 pm\r  Venue: Revealed upon RSVP (New York)\r __\r A note to prospective guests:\rAdmitted guests will be notified by way of event approval (with calendar invite). Invites are non-transferable. No +1s allowed as space is limited in size. Additional correspondence will be sent leading up to the evening.\r Events code of conduct\r You will be considerate, respectful, & follow the event venue's rules & policies, & applicable laws.\r You will not engage in harassment, discrimination, demeaning conduct, unwelcome sexual advances (physical or verbal), threatening or intimidating language or conduct, or inappropriate photography or recording.\r Concerns? Reach out to your event host, or use integrity.brex.com, our anonymous reporting portal.  Brex takes your concerns seriously, & people who raise good-faith concerns will not be retaliated against.\r Attendees who violate this code of conduct will be asked to leave, & may be denied admittance to future events.\r I understand that Brex & Crew Capital (the \"Companies\") may use, reproduce, distribute, perform & publicly display my name, photographic likeness & videography, including, but not limited to, my likeness, image, voice, and/or signature which may appear therein, alone and/or in combination with other works, in print, broadcast and/or all other media, whether known or hereafter devised, including, but not limited to, advertising, trade & any other lawful purposes.  I understand that the Companied may edit & alter the photography & videography at the Companies' sole discretion. Any copyright or trademarks in the photography & videography (including extensions & renewals) shall be exclusively the Companies' property. I hereby release & hold harmless the Companies & those acting pursuant to its authority from liability for any claims by me or or any third party in connection with my participation in any Company events in reliance of this consent & release.\r By providing your information you agree to be added to our email distribution list. You can unsubscribe anytime here.",
-      "startDate": "2025-03-04T18:00:00-05:00",
-      "endDate": "2025-03-04T19:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/otak8sn/Women-s-History-Month-w-Fintech-Mavericks",
-        "registration_url": "http://gary.to/25yliot",
-        "speakers": [
-          {
-            "name": "Nicole Casperson (Author",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Fintech Feminists)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Drew Glover",
-            "title": "Fiat Ventures",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Women's History Month w/ Fintech Mavericks\n\u00a0\n\nWith Nicole Casperson (Author",
-          "address": "Fintech Feminists), Drew Glover (Fiat Ventures).\n\nVenue, To Be Announced, New York\n\n\nMar 04 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nKick-off Women's History Month at Brex HQ & join us for the exciting launch of the Fintech Mavericks podcast, hosted by Nicole Casperson & Drew Glover!\r We're bringing together the fintech & founder communities for a night of networking, inspiration, & powerful stories.\r The first 100 guests will receive a signed copy of Fintech Feminists, authored by Nicole Casperson, & a special gift from Brex customer Ipsy.\r Event Agenda:\rWomen's History Month Keynote\r Fintech Mavericks Podcast LIVE Recording\r Fintech Feminists Book Signing + Networking\r About Fintech Mavericks:\rFintech Mavericks: Where Profit Meets Purpose is a podcast dedicated to the visionaries, innovators, & entrepreneurs shaping the future of financial technology. At the intersection of scale & societal impact, we dive into the journeys of fintech leaders who are not only building thriving businesses but are also making strides toward economic equity & social good.\r Hosts:\rUser Uploaded Image\rNicole Casperson is an award-winning journalist, author, content director, professor, & leading voice in fintech. As the Founder & CEO of Fintech Is Femme, she leads a thriving media platform & community of over 50,000 fintech leaders dedicated to shaping a more inclusive financial landscape. Her debut book, Fintech Feminists, published under Wiley, has rapidly ascended to the #1 new bestseller spot on Amazon.\r Subscribe to the Fintech Is Femme Newsletter.\r  User Uploaded Image\rDrew Glover is the co-founder & General Partner at Fiat Ventures, a leading fintech-focused VC firm, & the founder of Fiat Growth, a fintech marketing agency. Drew has been instrumental in scaling major brands like Chime, MoneyLion, & Mastercard, making him a powerful advocate for purposeful innovation & fintech growth.\r __\rBrex is the financial stack that scales with you, from incorporation to IPO. Manage all your company spending & vendor payments from a single dashboard, including credit card, bill pay, & reimbursements, all while extending your runway with a high-yield business account. Join the ranks of 1 in 3 venture-backed US startups already using Brex & start enjoying 20x higher credit limit, community events, & exclusive rewards that help your business grow. \r ___\r Please RSVP, space is limited.\r Event Details:\r  Date: March 4th 2025\r  Time: 6:00 pm - 8:00 pm\r  Venue: Revealed upon RSVP (New York)\r __\r A note to prospective guests:\rAdmitted guests will be notified by way of event approval (with calendar invite). Invites are non-transferable. No +1s allowed as space is limited in size. Additional correspondence will be sent leading up to the evening.\r Events code of conduct\r You will be considerate, respectful, & follow the event venue's rules & policies, & applicable laws.\r You will not engage in harassment, discrimination, demeaning conduct, unwelcome sexual advances (physical or verbal), threatening or intimidating language or conduct, or inappropriate photography or recording.\r Concerns? Reach out to your event host, or use integrity.brex.com, our anonymous reporting portal.  Brex takes your concerns seriously, & people who raise good-faith concerns will not be retaliated against.\r Attendees who violate this code of conduct will be asked to leave, & may be denied admittance to future events.\r I understand that Brex & Crew Capital (the \"Companies\") may use, reproduce, distribute, perform & publicly display my name, photographic likeness & videography, including, but not limited to, my likeness, image, voice, and/or signature which may appear therein, alone and/or in combination with other works, in print, broadcast and/or all other media, whether known or hereafter devised, including, but not limited to, advertising, trade & any other lawful purposes.  I understand that the Companied may edit & alter the photography & videography at the Companies' sole discretion. Any copyright or trademarks in the photography & videography (including extensions & renewals) shall be exclusively the Companies' property. I hereby release & hold harmless the Companies & those acting pursuant to its authority from liability for any claims by me or or any third party in connection with my participation in any Company events in reliance of this consent & release.\r By providing your information you agree to be added to our email distribution list. You can unsubscribe anytime here.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_e1bb6463",
-      "name": "Entrepreneurs Roundtable",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Our featured speaker at this event will be:\r Sonam Velani\rStreetlife Ventures\rhttps://www.streetlifeventures.com/home#team\r Five startups will have the opportunity to pitch their businesses to receive feedback & guidance.\r This is a rare opportunity to get feedback from a top investor & learn how to improve your startup.\r   To pitch your startup at this event, please apply at:\r https://forms.gle/GskdgydBf37fw55p9\r   Event Format:\r Introduction & background information from our speaker\r Q&A with our speaker\r Pitches from 5 startups followed by feedback\r Networking\r Entrepreneurs Roundtable Accelerator (ERA) is an early-stage VC Fund & Tech Accelerator based in NYC that started in 2011 & has invested in & accelerated 300+ startups over 24 cohorts with 500+ mentors.\r ERA invests $150,000 on a post-money SAFE in return for 6% of each company.\r Application Deadline: Monday, April 28th at 11:59 pm Eastern Time\r Program Start Date: Monday, June 23rd\r Program End Date: Friday, October 10th\r Since its founding in 2011, ERA alumni companies have raised more than $1.7 billion in investor capital & collectively exceed $10 billion in market capitalization.\r ERA provides a unique advantage to founders-NYC's largest network of expert mentors with a 1,000+ mentor network including 500+ alumni founders & 500+ expert mentors from across all major industries.\r We have NYC's strongest alumni network of 360+ engaged companies. Companies conclude the program with a Demo Day, where they present to leading early-stage investors from around the world.\r Our portfolio includes some of NYC's fastest-growing companies & has four unicorns: TripleLift (Acq'd), Katapult (NASDAQ:KPLT), Thirty Madison ($1B+ Valuation) & Glia ($1B+ Valuation).\r   Entrepreneurs Roundtable\r Entrepreneurs Roundtable is a monthly event series that connects entrepreneurs & investors in New York City. Our goal is to help the New York City startup ecosystem grow & connect the entrepreneurial community with each other for learning & networking opportunities.\r Our events are free & open to all, & we feature an active early-stage investor at each event. Five startups have the opportunity to pitch their businesses to the investor & receive feedback & guidance. This is a rare opportunity to get feedback from a top investor & learn how to improve your startup.\r In addition to the pitches, our events also include introductions, Q&A, & networking opportunities. This is a great way to meet other entrepreneurs, investors, & mentors in the New York City startup community.\r We have been running our events since 2008, & we have helped thousands of startups get started. We are committed to helping the New York City startup ecosystem grow, & we hope you will join us at one of our upcoming events, which are:\r Free & open to all: This makes the events accessible to a wide range of entrepreneurs & investors.\r Featured investor: This gives startups the opportunity to get feedback from a top investor.\r Networking opportunities: This is a great way to meet other entrepreneurs, investors, & mentors in the New York City startup community.\r Long history: Our organization has been running its events since 2008.\r Commitment to helping the startup ecosystem: The organization is committed to helping the New York City startup ecosystem grow.\r   To hear about future events, please sign up at http://eranyc.com\r http:/twitter.com/eranyc\r http:/twitter.com/eranycglobal\r   Organizer: Murat Aktihanoglu (@muratny)",
-      "startDate": "2025-03-04T18:00:00-05:00",
-      "endDate": "2025-03-04T19:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/9anh415/Entrepreneurs-Roundtable",
-        "registration_url": "http://gary.to/tpchbmg",
-        "speakers": [
-          {
-            "name": "Sonam Velani",
-            "title": "Streetlife Ventures",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Entrepreneurs Roundtable\n\u00a0\n\nWith Sonam Velani (Streetlife Ventures).\n\nVenue",
-          "address": "To Be Announced, New York\n\n\nMar 04 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nOur featured speaker at this event will be:\r Sonam Velani\rStreetlife Ventures\rhttps://www.streetlifeventures.com/home#team\r Five startups will have the opportunity to pitch their businesses to receive feedback & guidance.\r This is a rare opportunity to get feedback from a top investor & learn how to improve your startup.\r   To pitch your startup at this event, please apply at:\r https://forms.gle/GskdgydBf37fw55p9\r   Event Format:\r Introduction & background information from our speaker\r Q&A with our speaker\r Pitches from 5 startups followed by feedback\r Networking\r Entrepreneurs Roundtable Accelerator (ERA) is an early-stage VC Fund & Tech Accelerator based in NYC that started in 2011 & has invested in & accelerated 300+ startups over 24 cohorts with 500+ mentors.\r ERA invests $150,000 on a post-money SAFE in return for 6% of each company.\r Application Deadline: Monday, April 28th at 11:59 pm Eastern Time\r Program Start Date: Monday, June 23rd\r Program End Date: Friday, October 10th\r Since its founding in 2011, ERA alumni companies have raised more than $1.7 billion in investor capital & collectively exceed $10 billion in market capitalization.\r ERA provides a unique advantage to founders-NYC's largest network of expert mentors with a 1,000+ mentor network including 500+ alumni founders & 500+ expert mentors from across all major industries.\r We have NYC's strongest alumni network of 360+ engaged companies. Companies conclude the program with a Demo Day, where they present to leading early-stage investors from around the world.\r Our portfolio includes some of NYC's fastest-growing companies & has four unicorns: TripleLift (Acq'd), Katapult (NASDAQ:KPLT), Thirty Madison ($1B+ Valuation) & Glia ($1B+ Valuation).\r   Entrepreneurs Roundtable\r Entrepreneurs Roundtable is a monthly event series that connects entrepreneurs & investors in New York City. Our goal is to help the New York City startup ecosystem grow & connect the entrepreneurial community with each other for learning & networking opportunities.\r Our events are free & open to all, & we feature an active early-stage investor at each event. Five startups have the opportunity to pitch their businesses to the investor & receive feedback & guidance. This is a rare opportunity to get feedback from a top investor & learn how to improve your startup.\r In addition to the pitches, our events also include introductions, Q&A, & networking opportunities. This is a great way to meet other entrepreneurs, investors, & mentors in the New York City startup community.\r We have been running our events since 2008, & we have helped thousands of startups get started. We are committed to helping the New York City startup ecosystem grow, & we hope you will join us at one of our upcoming events, which are:\r Free & open to all: This makes the events accessible to a wide range of entrepreneurs & investors.\r Featured investor: This gives startups the opportunity to get feedback from a top investor.\r Networking opportunities: This is a great way to meet other entrepreneurs, investors, & mentors in the New York City startup community.\r Long history: Our organization has been running its events since 2008.\r Commitment to helping the startup ecosystem: The organization is committed to helping the New York City startup ecosystem grow.\r   To hear about future events, please sign up at http://eranyc.com\r http:/twitter.com/eranyc\r http:/twitter.com/eranycglobal\r   Organizer: Murat Aktihanoglu (@muratny)",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_fee80d95",
-      "name": "Civic Tech Happy Hour",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "As winter's chill lingers in the Big Apple, Civic Tech'ish emerges as a beacon of warmth & connection. Join us on March 4th at the cozy Radegast Hall & Biergarten in Williamsburg for an evening that promises to invigorate your spirit & expand your network.\r  What to Expect:\r A casual, uplifting happy hour atmosphere\r A diverse mix of Civic Tech professionals: consultants, public servants, & innovators\r Engaging conversations & idea exchanges\r A surprise raffle with exciting prizes! \r This is your chance to break free from the winter blues & immerse yourself in NYC's vibrant Civic Tech community. Whether you're a seasoned pro or new to the field, you'll find kindred spirits & fresh perspectives.\r Don't miss this opportunity to spark new connections & ideas. RSVP now to secure your spot at what promises to be an enlightening evening.\r Fine print: By attending this event, you agree to abide by our code of conduct.",
-      "startDate": "2025-03-04T18:00:00-05:00",
-      "endDate": "2025-03-04T19:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/0s8wkx4/Civic-Tech-Happy-Hour",
-        "registration_url": "http://gary.to/kbe805w",
-        "speakers": [],
-        "venue": {
-          "name": "Civic Tech Happy Hour\n\u00a0\n\n\nRadegast Biergarten",
-          "address": "113 N 3rd St, Brooklyn\n\n\nMar 04 (Tue) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nAs winter's chill lingers in the Big Apple, Civic Tech'ish emerges as a beacon of warmth & connection. Join us on March 4th at the cozy Radegast Hall & Biergarten in Williamsburg for an evening that promises to invigorate your spirit & expand your network.\r  What to Expect:\r A casual, uplifting happy hour atmosphere\r A diverse mix of Civic Tech professionals: consultants, public servants, & innovators\r Engaging conversations & idea exchanges\r A surprise raffle with exciting prizes! \r This is your chance to break free from the winter blues & immerse yourself in NYC's vibrant Civic Tech community. Whether you're a seasoned pro or new to the field, you'll find kindred spirits & fresh perspectives.\r Don't miss this opportunity to spark new connections & ideas. RSVP now to secure your spot at what promises to be an enlightening evening.\r Fine print: By attending this event, you agree to abide by our code of conduct.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_7f222846",
-      "name": "Make It In Brooklyn - Diversity In Game Design Pitch Contest",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Make It in Brooklyn: Diversity in Game Design Pitch Contest",
-      "startDate": "2025-03-04T18:00:00-05:00",
-      "endDate": "2025-03-04T19:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech"
-      ],
-      "price": {
-        "amount": 5.0,
-        "type": "Paid",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/isbu2mg/Make-It-In-Brooklyn-Diversity-In-Game-Design-Pitch-Contest",
-        "registration_url": "http://gary.to/7qlragq",
-        "speakers": [
-          {
-            "name": "Alia Harvey (Assoc",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Make It In Brooklyn - Diversity In Game Design Pitch Contest\n\u00a0\n\nWith Alia Harvey (Assoc. Commissioner",
-          "address": "Mayor's Office of Media & Entertainment), Brian Carr (Interaction Designer, Google), Tracey Mancenido (Sawhorse Productions), Yiyi Zhang (VP, Arcade Commons), Masaya Heywood (Dir., Science Arts Engagement).\n\nHana House, 345 Adams St, Brooklyn\n\n\nMar 04 (Tue) , 2025 @ 06:00 PM\n\n\n$5\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nMake It in Brooklyn: Diversity in Game Design Pitch Contest",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_072a7b7a",
-      "name": "DeSciNYC - The Billion Oyster Project",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Billion Oyster Project is a New York City-based nonprofit organization on a mission to restore 1 billion oysters to NYC's Harbor by 2035 through restoration & education initiatives. Oysters provide a number of beneficial effects for the ecosystem including filtering water via filter feeding, increasing habitat  for other animals, & protecting shorelines from storm surges. Learn about the health of the harbor from Billion Oyster Project staff, & how you can get involved with oyster monitoring & water quality testing.\r ======\r Zeke King Phillips is the Senior Community Stewardship Coordinator for the Billion Oyster Project, managing their Community Science ecological monitoring program. He is also a PhD candidate at the University of Cincinnati, focusing on the relationship between dietary ecology & climate in land snails.\r Cody Herrmann is the Senior Community Science Coordinator at Billion Oyster Project. Inspired by lack of waterfront access & disproportionately high levels of sewage pollution in her neighborhood, Cody began combining socially engaged art, & community science to create participatory art works & public programs focused on NYC's harbor in 2014.\r  Schedule:\r6:30-7:30 PM: Networking\r7:30-8:30 PM: Main talk\r8:30-9:30 PM: More chatting\r Stay Connected about Future Events:\rTwitter: @descinyc\rInstagram: @descinyc\r PS: Apply to be a member of the DeSci NYC group chat: https://forms.gle/AmUtotmCgWgGxWDp6",
-      "startDate": "2025-03-04T18:30:00-05:00",
-      "endDate": "2025-03-04T20:00:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/2gsrsso/DeSciNYC-The-Billion-Oyster-Project",
-        "registration_url": "http://gary.to/a4574cf",
-        "speakers": [
-          {
-            "name": "Zeke Phillips (Community Stewardship Coordinator",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Billion Oyster Project)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Cody Herrmann (Community Science Coordinator",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Billion Oyster Project)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "DeSciNYC - The Billion Oyster Project\n\u00a0\n\nWith Zeke Phillips (Community Stewardship Coordinator",
-          "address": "Billion Oyster Project), Cody Herrmann (Community Science Coordinator, Billion Oyster Project).\n\nVenue, To Be Announced, New York\n\n\nMar 04 (Tue) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nBillion Oyster Project is a New York City-based nonprofit organization on a mission to restore 1 billion oysters to NYC's Harbor by 2035 through restoration & education initiatives. Oysters provide a number of beneficial effects for the ecosystem including filtering water via filter feeding, increasing habitat  for other animals, & protecting shorelines from storm surges. Learn about the health of the harbor from Billion Oyster Project staff, & how you can get involved with oyster monitoring & water quality testing.\r ======\r Zeke King Phillips is the Senior Community Stewardship Coordinator for the Billion Oyster Project, managing their Community Science ecological monitoring program. He is also a PhD candidate at the University of Cincinnati, focusing on the relationship between dietary ecology & climate in land snails.\r Cody Herrmann is the Senior Community Science Coordinator at Billion Oyster Project. Inspired by lack of waterfront access & disproportionately high levels of sewage pollution in her neighborhood, Cody began combining socially engaged art, & community science to create participatory art works & public programs focused on NYC's harbor in 2014.\r  Schedule:\r6:30-7:30 PM: Networking\r7:30-8:30 PM: Main talk\r8:30-9:30 PM: More chatting\r Stay Connected about Future Events:\rTwitter: @descinyc\rInstagram: @descinyc\r PS: Apply to be a member of the DeSci NYC group chat: https://forms.gle/AmUtotmCgWgGxWDp6",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_edd61d11",
-      "name": "Transforming Cities Thru Arts & Industry",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "Participants:\r Laurie A. Cumbo, Commissioner of Cultural Affairs, The City of New York\r Lindsay Greene, President, The Brooklyn Navy Yard\r Mickalene Thomas, Artist & Pratt Alumna\r Frances Bronet (moderator), President, Pratt Institute\r   Please join us for a special evening showcasing the power of the arts & industry to collaboratively transform neighborhoods, drive creativity, & stimulate innovation. The panel discussion will focus on one of the best examples of this extraordinary power, the Brooklyn Navy Yard, which has become a unique creative engine, enhancing the city's economic development & supporting its artistic sector.\r   The discussion will explore the ways public art enhances shared space & helps catalyze neighborhood transformation, the role of arts & creatives in the progress of urban areas, how the relationship between culture & commerce can be leveraged to promote equity, & how to navigate the complexities that can arise as art & creatives make neighborhoods more desirable. Pratt's President Frances Bronet will facilitate the conversation & will be joined on stage by Commissioner Laurie Cumbo of New York City's Department of Cultural Affairs, as well as Lindsay Greene, president of the Brooklyn Navy Yard. The artist's perspective will be represented by distinguished artist & Pratt alumna Mickalene Thomas, BFA '00.\r   This event is part of Pratt Institute's Design Equity initiative, a provocative series of discussions & events dedicated to shaping a sustainable & just future in New York City (and beyond). Design Equity will examine how civic & creative leaders effect positive change in arenas such as housing, climate resilience, food, education, & more. Design Equity also highlights the ways in which Pratt's faculty & alumni bring their creative education & community-first approach to spark change & foster a more just & sustainable tomorrow. Previous Design Equity events have examined transportation, housing, & food access, & have featured a host of distinguished participants, including Pascale Sablan, Hank Gutman, & Marcus Samuelsson.",
-      "startDate": "2025-03-04T18:30:00-05:00",
-      "endDate": "2025-03-04T20:00:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "AI"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/k4xfnil/Transforming-Cities-Thru-Arts-Industry",
-        "registration_url": "http://gary.to/a1h488k",
-        "speakers": [
-          {
-            "name": "Laurie Cumbo (Commissioner of Cultural Affairs",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "NYC)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Lindsay Greene (President",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Brooklyn Navy Yard)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Frances Bronet (President",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Pratt Institute)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Mickalene Thomas",
-            "title": "Artist",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Transforming Cities Thru Arts & Industry\n\u00a0\n\nWith Laurie Cumbo (Commissioner of Cultural Affairs",
-          "address": "NYC), Lindsay Greene (President, Brooklyn Navy Yard), Frances Bronet (President, Pratt Institute), Mickalene Thomas (Artist).\n\nPratt Brooklyn, 61 Saint James Pl, Higgins Hall Auditorium, Brooklyn\n\n\nMar 04 (Tue) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nParticipants:\r Laurie A. Cumbo, Commissioner of Cultural Affairs, The City of New York\r Lindsay Greene, President, The Brooklyn Navy Yard\r Mickalene Thomas, Artist & Pratt Alumna\r Frances Bronet (moderator), President, Pratt Institute\r   Please join us for a special evening showcasing the power of the arts & industry to collaboratively transform neighborhoods, drive creativity, & stimulate innovation. The panel discussion will focus on one of the best examples of this extraordinary power, the Brooklyn Navy Yard, which has become a unique creative engine, enhancing the city's economic development & supporting its artistic sector.\r   The discussion will explore the ways public art enhances shared space & helps catalyze neighborhood transformation, the role of arts & creatives in the progress of urban areas, how the relationship between culture & commerce can be leveraged to promote equity, & how to navigate the complexities that can arise as art & creatives make neighborhoods more desirable. Pratt's President Frances Bronet will facilitate the conversation & will be joined on stage by Commissioner Laurie Cumbo of New York City's Department of Cultural Affairs, as well as Lindsay Greene, president of the Brooklyn Navy Yard. The artist's perspective will be represented by distinguished artist & Pratt alumna Mickalene Thomas, BFA '00.\r   This event is part of Pratt Institute's Design Equity initiative, a provocative series of discussions & events dedicated to shaping a sustainable & just future in New York City (and beyond). Design Equity will examine how civic & creative leaders effect positive change in arenas such as housing, climate resilience, food, education, & more. Design Equity also highlights the ways in which Pratt's faculty & alumni bring their creative education & community-first approach to spark change & foster a more just & sustainable tomorrow. Previous Design Equity events have examined transportation, housing, & food access, & have featured a host of distinguished participants, including Pascale Sablan, Hank Gutman, & Marcus Samuelsson.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_06df78b4",
-      "name": "Fractal Tech Sales Workshop",
-      "type": "Workshop",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "There are a lot of great thinkers, visionaries, hackers, & engineers hanging around the NYC tech scene, but all the building & theorizing in the world won't bring a product to market.\r LADIES AND GENTLEMEN, WE MUST SELL.\r This is a pilot small-group workshop, targeting the 5-8 people that need it the most.\r The session will be light on theory & heavy on practice: we will spend most of the time with students rotating mock discovery calls in front of the group. We'll then do group feedback.",
-      "startDate": "2025-03-04T18:30:00-05:00",
-      "endDate": "2025-03-04T20:00:00-05:00",
-      "category": [
-        "Workshop",
-        "Tech",
-        "Workshop"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Workshop"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/lkoagy2/Fractal-Tech-Sales-Workshop",
-        "registration_url": "http://gary.to/6wonn9v",
-        "speakers": [],
-        "venue": {
-          "name": "Fractal Tech Sales Workshop\n\u00a0\n\n\nFractal Tech",
-          "address": "111 Conselyea St, 2nd Fl, Brooklyn\n\n\nMar 04 (Tue) , 2025 @ 06:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nThere are a lot of great thinkers, visionaries, hackers, & engineers hanging around the NYC tech scene, but all the building & theorizing in the world won't bring a product to market.\r LADIES AND GENTLEMEN, WE MUST SELL.\r This is a pilot small-group workshop, targeting the 5-8 people that need it the most.\r The session will be light on theory & heavy on practice: we will spend most of the time with students rotating mock discovery calls in front of the group. We'll then do group feedback.",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_4ebadd55",
-      "name": "Benchmarking Usability & The Cognitive A11y Frontier",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "This event will be online & in-person. The speaker & live stream starts at 7:30 pm ET. In-person attendees may arrive as early as 7 pm ET.\r Description\rJoin Fable co-founders Abid Virani & Alwar Pillai as they explore the future of usability benchmarking through an accessibility lens. This talk will delve into the Accessible Usability Scale (AUS) - its adoption, industry data on assistive technologies, & the key UX challenges faced by diverse user groups. Abid & Alwar will also discuss how Fable is advancing accessibility usability research to address the cognitive inclusive digital future.\r Attendees will:\r Learn from accessibility thought leaders driving innovation in usability benchmarking.\rGain unique insights into industry trends & real-world data on assistive technology usage.\rUnderstand the challenges & solutions for addressing cognitive accessibility in UX design.\rThere will be time for your questions.\r Presenter bios\rAlwar Pillai is the Co-Founder & CEO of Fable, a leading accessibility platform powered by people with disabilities. Before founding Fable, Alwar led large-scale accessibility initiatives in both the public & private sector. From her UX & design experience, Alwar learned that the experiences of people with disabilities need to be central to improving digital accessibility.\r Alwar has been celebrated as one of Forbes' Top 30 Under 30 Social Entrepreneurs, & one of The Globe & Mail's Top 50 Changemakers. Alwar has an M.Des. in Inclusive Design where she focused on designing social applications for seniors with mild cognitive impairments & is currently leading Fable's Cognitive Accessibility Working Group.\r Abid Virani is the Co-Founder & COO at Fable. Informed by experiences spanning the non-profit sector, international development initiatives, & digital product development, Abid is a strong advocate of accessibility & inclusive design. Abid has been celebrated as one of Forbes' Top 30 Under 30 Social Entrepreneurs & an Emerging Innovator in North America by Ashoka Changemakers\r Accessibility\rThe presentation will have human captions [CC], not automatic captions. There will be an ASL interpreter.\r For Aira Visual Interpreter access for the Blind & Low Vision community, download the Aira Explorer app on the Apple App Store or Google Play. For access in the physical space, the A11yNYC geofence should apply automatically.\r To access the online webinar for audio description, use the A11yNYC Access Offer to call, or simply inform your Visual Interpreter that you'd like that offer applied when you connect.\r Please let us know about any other accessibility requirements two weeks before the event.\r Livestream\rYouTube link.\r Provided by Internet Society Accessibility SIG.\r Location details\rThe event is on the 4th floor. Everyone must be accompanied to the event on the 4th floor. Because everyone needs to be escorted, please arrive early or on time. When you enter the ground floor, a representative from A11yNYC will be there to provide elevator access.\r Attendees can enter on the third floor & go up the staircase, or request accommodation to go directly to the 4th floor. Thanks to Ben Ogilvie for making this possible! Let us know if you're coming!\r The building is near several transit stops:\r 6 train\r Spring Street (non-accessible stop): 100 feet\rCanal Street (accessible stop): 0.4 miles\rNQRW trains\r Prince Street (non-accessible stop): 0.2 miles\rCanal Street (accessible stop): 0.3 miles\rM1 / M55 Bus lines\r Broadway/Spring Street stop: 500 feet\rCabs & rideshares can let passengers out right near the building entrance\r Accreditation\rAll A11yNYC meetups are pre-approved for IAAP Continuing Accessibility Education Credits (CAEC).\r Sponsors\rThanks to AKQA, Deque, Evinced, Equal Entry, & Fable for sponsoring. Want to be a sponsor? Contact meryl@equalentry.com",
-      "startDate": "2025-03-04T19:30:00-05:00",
-      "endDate": "2025-03-04T21:00:00-05:00",
-      "category": [
-        "Event",
-        "Tech",
-        "Business"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech",
-        "Business",
-        "AI"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/m8g0q5j/Benchmarking-Usability-The-Cognitive-A11y-Frontier",
-        "registration_url": "http://gary.to/bmd9sb3",
-        "speakers": [
-          {
-            "name": "Alwar Pillai (Co-Founder/CEO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Fable)",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Abid Virani (COO",
-            "title": "",
-            "company": ""
-          },
-          {
-            "name": "Fable)",
-            "title": "",
-            "company": ""
-          }
-        ],
-        "venue": {
-          "name": "Benchmarking Usability & The Cognitive A11y Frontier\n\u00a0\n\nWith Alwar Pillai (Co-Founder/CEO",
-          "address": "Fable), Abid Virani (COO, Fable).\n\nVenue, 72 Spring St, New York\n\n\nMar 04 (Tue) , 2025 @ 07:30 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nThis event will be online & in-person. The speaker & live stream starts at 7:30 pm ET. In-person attendees may arrive as early as 7 pm ET.\r Description\rJoin Fable co-founders Abid Virani & Alwar Pillai as they explore the future of usability benchmarking through an accessibility lens. This talk will delve into the Accessible Usability Scale (AUS) - its adoption, industry data on assistive technologies, & the key UX challenges faced by diverse user groups. Abid & Alwar will also discuss how Fable is advancing accessibility usability research to address the cognitive inclusive digital future.\r Attendees will:\r Learn from accessibility thought leaders driving innovation in usability benchmarking.\rGain unique insights into industry trends & real-world data on assistive technology usage.\rUnderstand the challenges & solutions for addressing cognitive accessibility in UX design.\rThere will be time for your questions.\r Presenter bios\rAlwar Pillai is the Co-Founder & CEO of Fable, a leading accessibility platform powered by people with disabilities. Before founding Fable, Alwar led large-scale accessibility initiatives in both the public & private sector. From her UX & design experience, Alwar learned that the experiences of people with disabilities need to be central to improving digital accessibility.\r Alwar has been celebrated as one of Forbes' Top 30 Under 30 Social Entrepreneurs, & one of The Globe & Mail's Top 50 Changemakers. Alwar has an M.Des. in Inclusive Design where she focused on designing social applications for seniors with mild cognitive impairments & is currently leading Fable's Cognitive Accessibility Working Group.\r Abid Virani is the Co-Founder & COO at Fable. Informed by experiences spanning the non-profit sector, international development initiatives, & digital product development, Abid is a strong advocate of accessibility & inclusive design. Abid has been celebrated as one of Forbes' Top 30 Under 30 Social Entrepreneurs & an Emerging Innovator in North America by Ashoka Changemakers\r Accessibility\rThe presentation will have human captions [CC], not automatic captions. There will be an ASL interpreter.\r For Aira Visual Interpreter access for the Blind & Low Vision community, download the Aira Explorer app on the Apple App Store or Google Play. For access in the physical space, the A11yNYC geofence should apply automatically.\r To access the online webinar for audio description, use the A11yNYC Access Offer to call, or simply inform your Visual Interpreter that you'd like that offer applied when you connect.\r Please let us know about any other accessibility requirements two weeks before the event.\r Livestream\rYouTube link.\r Provided by Internet Society Accessibility SIG.\r Location details\rThe event is on the 4th floor. Everyone must be accompanied to the event on the 4th floor. Because everyone needs to be escorted, please arrive early or on time. When you enter the ground floor, a representative from A11yNYC will be there to provide elevator access.\r Attendees can enter on the third floor & go up the staircase, or request accommodation to go directly to the 4th floor. Thanks to Ben Ogilvie for making this possible! Let us know if you're coming!\r The building is near several transit stops:\r 6 train\r Spring Street (non-accessible stop): 100 feet\rCanal Street (accessible stop): 0.4 miles\rNQRW trains\r Prince Street (non-accessible stop): 0.2 miles\rCanal Street (accessible stop): 0.3 miles\rM1 / M55 Bus lines\r Broadway/Spring Street stop: 500 feet\rCabs & rideshares can let passengers out right near the building entrance\r Accreditation\rAll A11yNYC meetups are pre-approved for IAAP Continuing Accessibility Education Credits (CAEC).\r Sponsors\rThanks to AKQA, Deque, Evinced, Equal Entry, & Fable for sponsoring. Want to be a sponsor? Contact meryl@equalentry.com",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_1bec0947",
-      "name": "Beers & Data",
-      "type": "Event",
-      "locationId": "loc_tbd",
-      "communityId": "com_gary",
-      "description": "WE ARE BACK IN PERSON!",
-      "startDate": "2025-03-04T23:00:00-05:00",
-      "endDate": "2025-03-05T00:30:00-05:00",
-      "category": [
-        "Event",
-        "Tech"
-      ],
-      "price": {
-        "amount": 0,
-        "type": "Free",
-        "currency": "USD",
-        "details": ""
-      },
-      "capacity": 100,
-      "registrationRequired": true,
-      "tags": [
-        "Tech"
-      ],
-      "image": "gary-event.jpg",
-      "status": "upcoming",
-      "metadata": {
-        "source_url": "https://www.garysguide.com/events/pl0joyn/Beers-Data",
-        "registration_url": "http://gary.to/nzny8ab",
-        "speakers": [],
-        "venue": {
-          "name": "Beers & Data\n\u00a0\n\n\nMustang Harry's",
-          "address": "352 7th Ave, New York\n\n\nMar 04 (Tue) , 2025 @ 11:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nWE ARE BACK IN PERSON!",
-          "type": "Other"
-        }
-      }
-    },
-    {
-      "id": "evt_gary_53f9e66b",
+      "id": "evt_gary_9275fd7e",
       "name": "Why NYC Public Schools & Schoolteachers Vital To Closing Tech Oppty Gap",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1048,7 +129,7 @@
       }
     },
     {
-      "id": "evt_gary_3ee7e668",
+      "id": "evt_gary_8ad84251",
       "name": "The Creator Economy Is Dying - Evolve & Thrive In 2025",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1087,7 +168,7 @@
       }
     },
     {
-      "id": "evt_gary_1d58bafd",
+      "id": "evt_gary_940b73b1",
       "name": "Founders & Investors Lunch",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1137,7 +218,7 @@
       }
     },
     {
-      "id": "evt_gary_edd3efeb",
+      "id": "evt_gary_2f534c9e",
       "name": "How To Start A Startup",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1148,7 +229,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -1160,8 +241,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1183,7 +264,7 @@
       }
     },
     {
-      "id": "evt_gary_c872091c",
+      "id": "evt_gary_a8cbc920",
       "name": "Sternberg Lecture w/ OpenAI",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1233,7 +314,7 @@
       }
     },
     {
-      "id": "evt_gary_e9678ce9",
+      "id": "evt_gary_0f24040d",
       "name": "Climate Happy Hour - What Are You Fighting For?",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1272,7 +353,7 @@
       }
     },
     {
-      "id": "evt_gary_231d42c6",
+      "id": "evt_gary_85a49523",
       "name": "LeadDev Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -1367,7 +448,7 @@
       }
     },
     {
-      "id": "evt_gary_960994a5",
+      "id": "evt_gary_c9b46051",
       "name": "Neural York Night - Building AI",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1406,7 +487,7 @@
       }
     },
     {
-      "id": "evt_gary_9fce1dfd",
+      "id": "evt_gary_c258c428",
       "name": "Mindstone AI Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -1451,7 +532,7 @@
       }
     },
     {
-      "id": "evt_gary_aa291d56",
+      "id": "evt_gary_fae2fbe4",
       "name": "Startup Pitch Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1462,7 +543,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -1474,8 +555,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1491,7 +572,7 @@
       }
     },
     {
-      "id": "evt_gary_15f5664f",
+      "id": "evt_gary_6a59fad0",
       "name": "1000 Dreams Fund - Building The Future w/ AI & Web3",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1536,7 +617,7 @@
       }
     },
     {
-      "id": "evt_gary_fa954db0",
+      "id": "evt_gary_0a8c8c7d",
       "name": "Investor Connect - Pitch Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1547,7 +628,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -1559,8 +640,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1576,7 +657,7 @@
       }
     },
     {
-      "id": "evt_gary_935fbe8d",
+      "id": "evt_gary_3896674c",
       "name": "Crypto Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1587,7 +668,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -1599,8 +680,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1616,7 +697,7 @@
       }
     },
     {
-      "id": "evt_gary_fa8d1d76",
+      "id": "evt_gary_f8cf0dcf",
       "name": "Scaling SaaS - Art Of Storytelling & Investor Strategy",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1671,7 +752,7 @@
       }
     },
     {
-      "id": "evt_gary_d9919b6c",
+      "id": "evt_gary_f88cc72e",
       "name": "Reinventing The Heartland",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1682,7 +763,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 32.0,
@@ -1694,8 +775,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1727,7 +808,7 @@
       }
     },
     {
-      "id": "evt_gary_052cf5fb",
+      "id": "evt_gary_2a710e1c",
       "name": "Surviving Nova",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1770,7 +851,7 @@
       }
     },
     {
-      "id": "evt_gary_e51c611c",
+      "id": "evt_gary_7a3cc9d6",
       "name": "Cybersecurity Summit",
       "type": "Conference",
       "locationId": "loc_tbd",
@@ -1781,7 +862,7 @@
       "category": [
         "Conference",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 250.0,
@@ -1793,8 +874,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
-        "AI"
+        "AI",
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -1866,7 +947,7 @@
       }
     },
     {
-      "id": "evt_gary_c4c22e4e",
+      "id": "evt_gary_82c10324",
       "name": "Wellness Morning For Women Founders",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -1877,7 +958,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 10.0,
@@ -1889,8 +970,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
         "AI",
+        "Business",
         "Workshop"
       ],
       "image": "gary-event.jpg",
@@ -1938,7 +1019,7 @@
       }
     },
     {
-      "id": "evt_gary_8e23b0cd",
+      "id": "evt_gary_c68cbf46",
       "name": "Drones & Robotics AI Summit",
       "type": "Conference",
       "locationId": "loc_tbd",
@@ -1949,7 +1030,7 @@
       "category": [
         "Conference",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 50.0,
@@ -1961,9 +1042,9 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
+        "AI",
         "Business",
-        "AI"
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2025,7 +1106,7 @@
       }
     },
     {
-      "id": "evt_gary_be9a4081",
+      "id": "evt_gary_860148c0",
       "name": "Navigate Your Career Path In The AI Era - A Roadmap To Success",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2105,7 +1186,7 @@
       }
     },
     {
-      "id": "evt_gary_a76a7530",
+      "id": "evt_gary_efbc9907",
       "name": "Tech & Startup Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2116,7 +1197,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -2128,8 +1209,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2145,7 +1226,7 @@
       }
     },
     {
-      "id": "evt_gary_def58cbe",
+      "id": "evt_gary_3edb1964",
       "name": "International Women's Day Mixer w/ Slovak PRO",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2184,7 +1265,7 @@
       }
     },
     {
-      "id": "evt_gary_ea5f0e87",
+      "id": "evt_gary_8f240750",
       "name": "Americas Information War Comes Home",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2239,7 +1320,7 @@
       }
     },
     {
-      "id": "evt_gary_766d0eee",
+      "id": "evt_gary_517e6963",
       "name": "Climatetech Innovation Across Markets - Global Incubator Program",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2250,7 +1331,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -2262,8 +1343,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2285,7 +1366,7 @@
       }
     },
     {
-      "id": "evt_gary_62d7ed18",
+      "id": "evt_gary_63b1f465",
       "name": "Site Reliability Engg Tech Talks",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2296,7 +1377,7 @@
       "category": [
         "Event",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -2308,9 +1389,9 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
+        "AI",
         "Business",
-        "AI"
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2342,7 +1423,7 @@
       }
     },
     {
-      "id": "evt_gary_d11dbc2a",
+      "id": "evt_gary_4837e5b6",
       "name": "Starting & Building A Career In Digital Mktg",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2412,7 +1493,7 @@
       }
     },
     {
-      "id": "evt_gary_e48d6f10",
+      "id": "evt_gary_176765b7",
       "name": "NY Legal Tech Happy Hour",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2451,18 +1532,18 @@
       }
     },
     {
-      "id": "evt_gary_ffda9613",
-      "name": "[Book Launch] World Eaters",
+      "id": "evt_gary_9f3a9bc0",
+      "name": "Friends Of Koop Happy Hour",
       "type": "Event",
       "locationId": "loc_tbd",
       "communityId": "com_gary",
-      "description": "The modern tech-driven economy is not working for most of us- what can we do about it?\r If we are going to solve the challenges that the tech industry has created, we need to address its problems at its root.\r TechEquity's research found that venture capital is impacting the health of our economy by exacerbating the housing crisis, exploiting workers, & suppressing innovation in the areas where we need it most. In order to sufficiently address tech's inequities, simply put: we need to follow the money.\r Join us on Thursday, March 6th for the launch of Catherine Bracy's new book World Eaters: an examination of venture capital, how it drives growth above wellbeing, & how we can change this model for sustainable, responsible growth. We'll hear remarks from the author herself as well as Felicia Wong, Principal, Roosevelt Institute, & Janet Haven, Executive Director, Data & Society Research Institute. Drinks & light snacks will be provided.\r   Event Schedule\rDoors open: 6:00 pm\rFireside Chat: 6:30-7:00 pm\rPanel Discussion: 7:00 - 7:45 pm\rReception/Book Signing: 7:45-9:00 pm\r  About World Eaters\rAn urgent & illuminating perspective that offers a window into how the most pernicious aspects of the venture capital ethos is reaching all areas of our lives, into everything from healthcare to food to entertainment to the labor market & leaving a trail of destruction in its wake.\r The venture capital playbook is causing unique harms to society. And in World Eaters, Catherine Bracy offers a window into the pernicious aspects of VC & shows us how its bad practices are bleeding into all industries, undermining the labor & housing markets & posing unique dangers to the economy at large. VC's creates a wide, powerful wake that impacts the average consumer just as much as it does investors & entrepreneurs.\r In researching this book, Bracy has interviewed founders, fund managers, contract & temp workers in the gig economy, & Limited Partners across the landscape. She learned that the current VC model is not a good fit for the majority of start-ups, & yet, there are too few options for early stage funding outside of VC dollars. And while there are some alternative paths for sustainable, responsible growth, without the help of regulators, there is not much motivation to drive investors from the roulette table that is venture capital.\r World Eaters is an eye-opening account of the ways that the values of contemporary venture capital hurt founders, consumers, & the market. Bracy's clear-eyed debut is a must-read for fans of Winners Take All, Super Pumped, & Brotopia, an appealing insider / outsider perspective on Silicon Valley, & those who are fascinated to look under the hood & learn why the modern economy is not working for most of us.\r ----------------\r We enforce a Code of Conduct at our events. Please take a minute & read it through.\r We charge for our events in order to cover the costs associated with hosting. If the ticket fee is prohibitive, please send us a note (keirstan@techequity.us) & we're happy to share a comp code good for a free ticket.",
-      "startDate": "2025-03-06T18:30:00-05:00",
-      "endDate": "2025-03-06T20:00:00-05:00",
+      "description": "Join fellow Founders, Builders, & Investors for an evening of great conversation, networking, & friendly competition over fancy cocktails!nThis casual meetup is the perfect opportunity to connect, exchange ideas, & build meaningful relationships in a relaxed setting.nPlus, dont miss our special giveaway at Unlisted in Lower Manhattan!nWe look forward to seeing you there!nHow the Giveaway WorksnAll event attendees will be eligible for a 20% discount on one year of SOC 2 certification!nThe discount will be redeemable through an event-specific code well share by email & must be used within 90 days of this event (so in this case, by June 4 2025).nThats it!nWell also be sharing details about Housekeeper, our recently-launched AI Agent for compliance & insurance.nAbout KoopnKoops trust management platform helps startups navigate the complexities of regulatory compliance, security reviews, & liability insurance in a single place.nFounders & operators have to go through stringent procurement before they can land a deal with enterprise or government customers. Growing compliance standards, never-ending security reviews, & high-limit insurance requirements can derail budgets & timelines even for the most ambitious projects.nKoop liberates startups from the procurement burden by combining compliance, security, & insurance in a single platform! Companies can achieve many compliance certifications (e.g. SOC 2, ISO 27001, HIPAA), do security questionnaires, & purchase required liability insurance (e.g. General Liability, Cyber, Directors & Officers) without leaving the platform. Become Enterprise-Ready in a Click with AI at koop.ai.",
+      "startDate": "2025-03-06T18:00:00-05:00",
+      "endDate": "2025-03-06T19:30:00-05:00",
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -2474,8 +1555,48 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
+        "AI",
+        "Business"
+      ],
+      "image": "gary-event.jpg",
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://www.garysguide.com/events/8hryi4k/Friends-Of-Koop-Happy-Hour",
+        "registration_url": "http://gary.to/ltt38c1",
+        "speakers": [],
+        "venue": {
+          "name": "Friends Of Koop Happy Hour\n\u00a0\n\n\nUnlisted",
+          "address": "3 Freeman Alley, 11th Fl, New York\n\n\nMar 06 (Thu) , 2025 @ 06:00 PM\n\n\nFREE\n\n\n\u00a0\n\n\nRegister\u00a0\n\n Export GoogleYahooApple iCalOutlook\u00a0\n\n\n\n\n\n\n\n\n\n\n\u00a0\nDETAILS\n\n\n\nJoin fellow Founders, Builders, & Investors for an evening of great conversation, networking, & friendly competition over fancy cocktails!nThis casual meetup is the perfect opportunity to connect, exchange ideas, & build meaningful relationships in a relaxed setting.nPlus, dont miss our special giveaway at Unlisted in Lower Manhattan!nWe look forward to seeing you there!nHow the Giveaway WorksnAll event attendees will be eligible for a 20% discount on one year of SOC 2 certification!nThe discount will be redeemable through an event-specific code well share by email & must be used within 90 days of this event (so in this case, by June 4 2025).nThats it!nWell also be sharing details about Housekeeper, our recently-launched AI Agent for compliance & insurance.nAbout KoopnKoops trust management platform helps startups navigate the complexities of regulatory compliance, security reviews, & liability insurance in a single place.nFounders & operators have to go through stringent procurement before they can land a deal with enterprise or government customers. Growing compliance standards, never-ending security reviews, & high-limit insurance requirements can derail budgets & timelines even for the most ambitious projects.nKoop liberates startups from the procurement burden by combining compliance, security, & insurance in a single platform! Companies can achieve many compliance certifications (e.g. SOC 2, ISO 27001, HIPAA), do security questionnaires, & purchase required liability insurance (e.g. General Liability, Cyber, Directors & Officers) without leaving the platform. Become Enterprise-Ready in a Click with AI at koop.ai.",
+          "type": "Other"
+        }
+      }
+    },
+    {
+      "id": "evt_gary_34208371",
+      "name": "[Book Launch] World Eaters",
+      "type": "Event",
+      "locationId": "loc_tbd",
+      "communityId": "com_gary",
+      "description": "The modern tech-driven economy is not working for most of us- what can we do about it?\r If we are going to solve the challenges that the tech industry has created, we need to address its problems at its root.\r TechEquity's research found that venture capital is impacting the health of our economy by exacerbating the housing crisis, exploiting workers, & suppressing innovation in the areas where we need it most. In order to sufficiently address tech's inequities, simply put: we need to follow the money.\r Join us on Thursday, March 6th for the launch of Catherine Bracy's new book World Eaters: an examination of venture capital, how it drives growth above wellbeing, & how we can change this model for sustainable, responsible growth. We'll hear remarks from the author herself as well as Felicia Wong, Principal, Roosevelt Institute, & Janet Haven, Executive Director, Data & Society Research Institute. Drinks & light snacks will be provided.\r   Event Schedule\rDoors open: 6:00 pm\rFireside Chat: 6:30-7:00 pm\rPanel Discussion: 7:00 - 7:45 pm\rReception/Book Signing: 7:45-9:00 pm\r  About World Eaters\rAn urgent & illuminating perspective that offers a window into how the most pernicious aspects of the venture capital ethos is reaching all areas of our lives, into everything from healthcare to food to entertainment to the labor market & leaving a trail of destruction in its wake.\r The venture capital playbook is causing unique harms to society. And in World Eaters, Catherine Bracy offers a window into the pernicious aspects of VC & shows us how its bad practices are bleeding into all industries, undermining the labor & housing markets & posing unique dangers to the economy at large. VC's creates a wide, powerful wake that impacts the average consumer just as much as it does investors & entrepreneurs.\r In researching this book, Bracy has interviewed founders, fund managers, contract & temp workers in the gig economy, & Limited Partners across the landscape. She learned that the current VC model is not a good fit for the majority of start-ups, & yet, there are too few options for early stage funding outside of VC dollars. And while there are some alternative paths for sustainable, responsible growth, without the help of regulators, there is not much motivation to drive investors from the roulette table that is venture capital.\r World Eaters is an eye-opening account of the ways that the values of contemporary venture capital hurt founders, consumers, & the market. Bracy's clear-eyed debut is a must-read for fans of Winners Take All, Super Pumped, & Brotopia, an appealing insider / outsider perspective on Silicon Valley, & those who are fascinated to look under the hood & learn why the modern economy is not working for most of us.\r ----------------\r We enforce a Code of Conduct at our events. Please take a minute & read it through.\r We charge for our events in order to cover the costs associated with hosting. If the ticket fee is prohibitive, please send us a note (keirstan@techequity.us) & we're happy to share a comp code good for a free ticket.",
+      "startDate": "2025-03-06T18:30:00-05:00",
+      "endDate": "2025-03-06T20:00:00-05:00",
+      "category": [
+        "Event",
+        "Tech",
         "AI"
+      ],
+      "price": {
+        "amount": 0,
+        "type": "Free",
+        "currency": "USD",
+        "details": ""
+      },
+      "capacity": 100,
+      "registrationRequired": true,
+      "tags": [
+        "Tech",
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2507,7 +1628,7 @@
       }
     },
     {
-      "id": "evt_gary_717ac197",
+      "id": "evt_gary_30986168",
       "name": "Tech Gather Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -2544,7 +1665,7 @@
       }
     },
     {
-      "id": "evt_gary_0689868a",
+      "id": "evt_gary_28a7709f",
       "name": "New York Tech & Beer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2583,7 +1704,7 @@
       }
     },
     {
-      "id": "evt_gary_3ba89c8b",
+      "id": "evt_gary_34e274cc",
       "name": "How Bitcoin Brings About Social Change",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2633,7 +1754,7 @@
       }
     },
     {
-      "id": "evt_gary_42a51ff8",
+      "id": "evt_gary_f480c201",
       "name": "Women Designing The Future - Looking Back Moving Forward",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2644,7 +1765,7 @@
       "category": [
         "Event",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 20.0,
@@ -2656,9 +1777,9 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
+        "AI",
         "Business",
-        "AI"
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2720,7 +1841,7 @@
       }
     },
     {
-      "id": "evt_gary_44792081",
+      "id": "evt_gary_9856f014",
       "name": "TechCon Unplugged",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2759,7 +1880,7 @@
       }
     },
     {
-      "id": "evt_gary_f5e72e38",
+      "id": "evt_gary_d38899ba",
       "name": "Super Diners Club",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2798,7 +1919,7 @@
       }
     },
     {
-      "id": "evt_gary_1795e404",
+      "id": "evt_gary_fc1094b7",
       "name": "AI vs Human Roast Battle",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2837,7 +1958,7 @@
       }
     },
     {
-      "id": "evt_gary_73bafddc",
+      "id": "evt_gary_8bcddcb7",
       "name": "NY Tech Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -2848,7 +1969,7 @@
       "category": [
         "Meetup",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 20.0,
@@ -2860,8 +1981,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2888,7 +2009,7 @@
       }
     },
     {
-      "id": "evt_gary_6ca713be",
+      "id": "evt_gary_b86933fc",
       "name": "Lab To Impact - Thought Leader Series",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -2899,7 +2020,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -2911,8 +2032,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -2939,7 +2060,7 @@
       }
     },
     {
-      "id": "evt_gary_8d7aca4d",
+      "id": "evt_gary_87411840",
       "name": "Faith Tech Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -2984,7 +2105,7 @@
       }
     },
     {
-      "id": "evt_gary_1ebdeb03",
+      "id": "evt_gary_53a080d8",
       "name": "AI/ML Conversations Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -3023,7 +2144,7 @@
       }
     },
     {
-      "id": "evt_gary_e01e7099",
+      "id": "evt_gary_95bf366d",
       "name": "Founder's Roundtable",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3034,7 +2155,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3046,8 +2167,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -3074,7 +2195,7 @@
       }
     },
     {
-      "id": "evt_gary_e4b3bfca",
+      "id": "evt_gary_9545ff26",
       "name": "GenAI Companies Building In NYC",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3085,7 +2206,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3097,8 +2218,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -3114,7 +2235,7 @@
       }
     },
     {
-      "id": "evt_gary_37aeebec",
+      "id": "evt_gary_39d297ce",
       "name": "Make It In Brooklyn - Sustainable Technologies",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3153,7 +2274,7 @@
       }
     },
     {
-      "id": "evt_gary_3322a59f",
+      "id": "evt_gary_b6f9c6c7",
       "name": "Choosing Between Open & Closed Source Data Products",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3213,7 +2334,7 @@
       }
     },
     {
-      "id": "evt_gary_8e034b98",
+      "id": "evt_gary_91578b60",
       "name": "AI Agents For Work",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3224,7 +2345,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3236,8 +2357,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
         "AI",
+        "Business",
         "Workshop"
       ],
       "image": "gary-event.jpg",
@@ -3280,7 +2401,7 @@
       }
     },
     {
-      "id": "evt_gary_9b9ed830",
+      "id": "evt_gary_b1c212ab",
       "name": "Brunch & Learn w/ Innovatemap",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3335,7 +2456,7 @@
       }
     },
     {
-      "id": "evt_gary_ec2fe4e9",
+      "id": "evt_gary_1cd4e5ab",
       "name": "CTV Connect",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3390,7 +2511,7 @@
       }
     },
     {
-      "id": "evt_gary_ed35dd21",
+      "id": "evt_gary_587f2357",
       "name": "Work-Bench Pre-Seed GTM Summit",
       "type": "Conference",
       "locationId": "loc_tbd",
@@ -3401,7 +2522,7 @@
       "category": [
         "Conference",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3413,9 +2534,9 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
+        "AI",
         "Business",
-        "AI"
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -3447,7 +2568,7 @@
       }
     },
     {
-      "id": "evt_gary_adea0b02",
+      "id": "evt_gary_c5c9ae9e",
       "name": "Startup School",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3458,7 +2579,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3470,8 +2591,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -3498,7 +2619,7 @@
       }
     },
     {
-      "id": "evt_gary_2dec09f2",
+      "id": "evt_gary_ee4d133e",
       "name": "Women Sellers In Amazon's Store",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3568,7 +2689,7 @@
       }
     },
     {
-      "id": "evt_gary_c360a671",
+      "id": "evt_gary_836776a9",
       "name": "Women Of SaaS - Making Bold Moves In 2025",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3648,7 +2769,7 @@
       }
     },
     {
-      "id": "evt_gary_8c22e7b5",
+      "id": "evt_gary_b471cbb1",
       "name": "-1 To Bilt Rewards",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3659,7 +2780,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3671,8 +2792,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -3699,7 +2820,7 @@
       }
     },
     {
-      "id": "evt_gary_4e349dee",
+      "id": "evt_gary_1cdf2054",
       "name": "CFO Happy Hour",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3738,7 +2859,7 @@
       }
     },
     {
-      "id": "evt_gary_eedc7028",
+      "id": "evt_gary_dc4f624d",
       "name": "NYVR Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -3775,7 +2896,7 @@
       }
     },
     {
-      "id": "evt_gary_1c0079a6",
+      "id": "evt_gary_b797f499",
       "name": "Investor Connect - Pitch Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3786,7 +2907,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -3798,8 +2919,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -3815,7 +2936,7 @@
       }
     },
     {
-      "id": "evt_gary_c1752c35",
+      "id": "evt_gary_78116da2",
       "name": "ComfyUI Meetup - Celebrating Women In AI",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -3854,7 +2975,7 @@
       }
     },
     {
-      "id": "evt_gary_8bf96520",
+      "id": "evt_gary_e3517c5f",
       "name": "Machine Learning, Physics & Order - Understanding Gen AI",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3893,7 +3014,7 @@
       }
     },
     {
-      "id": "evt_gary_908d6c7a",
+      "id": "evt_gary_b60ef7e8",
       "name": "Science & Society - AI & Us",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3938,7 +3059,7 @@
       }
     },
     {
-      "id": "evt_gary_fe160c87",
+      "id": "evt_gary_1cc421e9",
       "name": "Conscious Leadership Coaching Office Hours",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -3977,7 +3098,7 @@
       }
     },
     {
-      "id": "evt_gary_5e19b147",
+      "id": "evt_gary_1d743023",
       "name": "Building Intelligent Things - R&D In AI",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4016,7 +3137,7 @@
       }
     },
     {
-      "id": "evt_gary_e8fe50e7",
+      "id": "evt_gary_9f6e8b14",
       "name": "Gen Z Founder & Creator Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4055,7 +3176,7 @@
       }
     },
     {
-      "id": "evt_gary_e8d5bf41",
+      "id": "evt_gary_d9901270",
       "name": "VC Reality Check - Startup Pitch",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4066,7 +3187,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4078,8 +3199,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4116,7 +3237,7 @@
       }
     },
     {
-      "id": "evt_gary_e1b3003a",
+      "id": "evt_gary_4b838e0d",
       "name": "Code & Content - Tech & Media Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4127,7 +3248,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4139,8 +3260,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4156,7 +3277,7 @@
       }
     },
     {
-      "id": "evt_gary_aad7183a",
+      "id": "evt_gary_65c53e18",
       "name": "Shoe Talks w/ Lilith NYC",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4204,7 +3325,7 @@
       }
     },
     {
-      "id": "evt_gary_2b47353f",
+      "id": "evt_gary_b6f2fce8",
       "name": "Healthcare Homies Happy Hour",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4241,7 +3362,7 @@
       }
     },
     {
-      "id": "evt_gary_8477c631",
+      "id": "evt_gary_5f021b53",
       "name": "[Book Talk] Stream Big",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4252,7 +3373,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4264,8 +3385,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4302,7 +3423,7 @@
       }
     },
     {
-      "id": "evt_gary_ae93655e",
+      "id": "evt_gary_99d567ee",
       "name": "New York Tech & Beer - Happy Hour Social",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4341,7 +3462,7 @@
       }
     },
     {
-      "id": "evt_gary_5f0b4162",
+      "id": "evt_gary_c74cd478",
       "name": "Beyond Beijing 30 - AI For Equity & Impact",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4352,7 +3473,7 @@
       "category": [
         "Event",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4364,8 +3485,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
-        "AI"
+        "AI",
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4412,7 +3533,7 @@
       }
     },
     {
-      "id": "evt_gary_7cf817da",
+      "id": "evt_gary_b2755fda",
       "name": "Urban Science Research Seminar",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4423,7 +3544,7 @@
       "category": [
         "Event",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4435,8 +3556,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
-        "AI"
+        "AI",
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4458,7 +3579,7 @@
       }
     },
     {
-      "id": "evt_gary_c8a20f60",
+      "id": "evt_gary_2a437e4f",
       "name": "Exec GTM Roundtable",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4469,7 +3590,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4481,8 +3602,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4514,7 +3635,7 @@
       }
     },
     {
-      "id": "evt_gary_6f76405e",
+      "id": "evt_gary_b2f3d4a3",
       "name": "OWIH Accelerator Happy Hour",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4553,7 +3674,7 @@
       }
     },
     {
-      "id": "evt_gary_3b1f1b7a",
+      "id": "evt_gary_df9873bc",
       "name": "New York Tech Social",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4564,7 +3685,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 10.0,
@@ -4576,8 +3697,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4593,7 +3714,7 @@
       }
     },
     {
-      "id": "evt_gary_82e7c9b7",
+      "id": "evt_gary_86717a7b",
       "name": "NYC GTM Leaders Dinner",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4630,7 +3751,7 @@
       }
     },
     {
-      "id": "evt_gary_c90cb8fa",
+      "id": "evt_gary_7fe7bf51",
       "name": "3DNY Meetup",
       "type": "Meetup",
       "locationId": "loc_tbd",
@@ -4685,7 +3806,7 @@
       }
     },
     {
-      "id": "evt_gary_3fe3e07e",
+      "id": "evt_gary_76ab9478",
       "name": "Book Talk - The Experimentation Machine",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4696,7 +3817,7 @@
       "category": [
         "Event",
         "Tech",
-        "Business"
+        "AI"
       ],
       "price": {
         "amount": 0,
@@ -4708,8 +3829,8 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Business",
-        "AI"
+        "AI",
+        "Business"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",
@@ -4741,7 +3862,7 @@
       }
     },
     {
-      "id": "evt_gary_5a0c90a9",
+      "id": "evt_gary_ea7f3fd7",
       "name": "Crazy Rich Asians Ivy Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4780,7 +3901,7 @@
       }
     },
     {
-      "id": "evt_gary_df126410",
+      "id": "evt_gary_0f1ca80b",
       "name": "Road To Overflow",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4817,7 +3938,7 @@
       }
     },
     {
-      "id": "evt_gary_609a36b5",
+      "id": "evt_gary_3cba63db",
       "name": "Founder Poker Club",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4856,7 +3977,7 @@
       }
     },
     {
-      "id": "evt_gary_e4365f83",
+      "id": "evt_gary_c5060522",
       "name": "FinTech GTM Leadership Roundtable",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4906,7 +4027,7 @@
       }
     },
     {
-      "id": "evt_gary_cb58b33f",
+      "id": "evt_gary_6bd5da32",
       "name": "Redefine Possible - Women Pioneering Future Of AI",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -4966,7 +4087,7 @@
       }
     },
     {
-      "id": "evt_gary_eb170f57",
+      "id": "evt_gary_9f772d44",
       "name": "Crypto Mixer",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -5003,7 +4124,7 @@
       }
     },
     {
-      "id": "evt_gary_2e093cde",
+      "id": "evt_gary_ff70bfaa",
       "name": "Data Science Salon - Applying AI & ML To Finance & Tech",
       "type": "Event",
       "locationId": "loc_tbd",
@@ -5014,7 +4135,7 @@
       "category": [
         "Event",
         "Tech",
-        "Conference"
+        "AI"
       ],
       "price": {
         "amount": 475.0,
@@ -5026,9 +4147,9 @@
       "registrationRequired": true,
       "tags": [
         "Tech",
-        "Conference",
+        "AI",
         "Workshop",
-        "AI"
+        "Conference"
       ],
       "image": "gary-event.jpg",
       "status": "upcoming",

@@ -9,7 +9,13 @@ from bs4 import BeautifulSoup
 from typing import Dict, List, Optional
 from datetime import datetime, UTC
 from icalendar import Calendar
-from calendar_configs import ICS_CALENDARS
+from tech.scrapers.calendar_configs import ICS_CALENDARS
+import ics
+
+# Setup paths
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(TECH_DIR, 'data')
 
 # Configure logging
 logging.basicConfig(
@@ -19,8 +25,16 @@ logging.basicConfig(
 )
 
 # Load communities data
-with open('../../public/data/communities.json', 'r') as f:
-    COMMUNITIES = {community['id']: community for community in json.load(f)['communities']}
+communities = {}
+try:
+    communities_file = os.path.join(DATA_DIR, 'communities.json')
+    if os.path.exists(communities_file):
+        with open(communities_file, 'r') as f:
+            communities = {com['id']: com for com in json.load(f).get('communities', [])}
+    else:
+        logging.warning(f"Communities file not found: {communities_file}")
+except Exception as e:
+    logging.error(f"Error loading communities data: {e}")
 
 def get_luma_event_details(event_url: str) -> Optional[Dict]:
     """Fetch detailed event information from Luma event page"""
@@ -441,30 +455,32 @@ def is_future_event(event: Dict) -> bool:
 def main():
     all_events = []
     
-    # Fetch ICS Calendar events
-    print("Fetching ICS Calendar events...")
-    for calendar_name, config in ICS_CALENDARS.items():
-        print(f"Fetching events for {calendar_name}...")
-        try:
-            ics_events = get_luma_events(config["id"])
-            converted_events = [convert_ics_event(event, config["community_id"]) for event in ics_events]
+    # Create data directory if it doesn't exist
+    os.makedirs(DATA_DIR, exist_ok=True)
+    
+    for calendar_name, calendar_config in ICS_CALENDARS.items():
+        logging.info(f"Fetching events for {calendar_name}")
+        calendar_events = get_luma_events(calendar_config["id"])
+        if calendar_events:
+            converted_events = [convert_ics_event(event, calendar_config["community_id"]) for event in calendar_events]
             all_events.extend(converted_events)
-        except Exception as e:
-            print(f"Error fetching ICS events for {calendar_name}: {e}")
+            logging.info(f"Fetched {len(converted_events)} events from {calendar_name}")
+        else:
+            logging.warning(f"No events fetched from {calendar_name}")
     
     # Filter out past events
     filtered_events = [event for event in all_events if is_future_event(event)]
     
-    # Save filtered events to file
-    output = {"events": filtered_events}
-    output_file = 'data/ics_calendar_events.json'
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-    
-    print(f"\nTotal future events collected: {len(filtered_events)}")
-    print(f"Events saved to {output_file}")
+    # Save events to file
+    output_file = os.path.join(DATA_DIR, 'ics_calendar_events.json')
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({"events": filtered_events}, f, indent=2, ensure_ascii=False)
+        logging.info(f"Saved {len(filtered_events)} events to {output_file}")
+        return output_file
+    except Exception as e:
+        logging.error(f"Failed to save events: {e}")
+        return None
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main() 

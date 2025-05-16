@@ -8,3 +8,196 @@
 2025-03-04 11:21:11,512 - INFO - file_cache is only supported with oauth2client<4.0.0
 2025-03-04 11:21:26,696 - INFO - Found 0 upcoming events
 2025-03-04 16:16:14,153 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-03-09 15:45:15,637 - INFO - Starting Bryant Park event scraper...
+2025-03-09 15:45:29,073 - INFO - Total future events collected: 7
+2025-03-09 15:45:29,073 - INFO - Events saved to data/bryant_park_events.json
+2025-03-09 15:48:03,298 - INFO - Starting Bryant Park event scraper...
+2025-03-09 15:48:11,933 - INFO - Total future events collected: 7
+2025-03-09 15:48:11,933 - INFO - Events saved to data/bryant_park_events.json
+2025-03-09 15:50:39,473 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 15:50:41,941 - ERROR - Error parsing date and time: time data 'March 5, 2025 until Wednesday, March 26, 2025 11:00 AM' does not match format '%B %d, %Y %I:%M %p', Wednesday, March 5, 2025 until Wednesday, March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 15:50:52,218 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 15:50:52,219 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 15:50:52,224 - INFO - Found 3 event items
+2025-03-09 15:50:52,360 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 15:50:52,362 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 15:50:52,363 - INFO - Processed event: Spring Bird Walk
+2025-03-09 15:50:52,365 - INFO - Total future events collected: 3
+2025-03-09 15:50:52,366 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 15:51:03,614 - ERROR - Error parsing date and time: time data 'March 14, 2025' does not match format '%B %d, %Y %I:%M %p', Friday, March 14, 2025
+2025-03-09 15:51:03,753 - ERROR - Error parsing date and time: time data 'March 14, 2025' does not match format '%B %d, %Y %I:%M %p', Friday, March 14, 2025
+2025-03-09 15:52:55,732 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 15:52:55,732 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 15:52:55,738 - INFO - Found 5 event items
+2025-03-09 15:52:55,818 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 15:52:55,820 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 15:52:55,820 - INFO - Processed event: Spring Bird Walk
+2025-03-09 15:52:55,822 - INFO - Found date range with 1 dates for event: Nature Photography Workshop Series
+2025-03-09 15:52:55,822 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 15:52:55,822 - INFO - Processed event: Park Stewardship Day
+2025-03-09 15:52:55,822 - INFO - Total future events collected: 4
+2025-03-09 15:52:55,822 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 15:53:09,650 - ERROR - Error parsing date and time: time data 'April 10, 2025' does not match format '%B %d, %Y %I:%M %p', Thursday, April 10, 2025
+2025-03-09 15:53:40,257 - ERROR - Error parsing date and time: time data 'May 17, 2025' does not match format '%B %d, %Y %I:%M %p', Saturday, May 17, 2025
+2025-03-09 15:53:43,094 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 15:53:43,094 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 15:53:43,098 - INFO - Found 5 event items
+2025-03-09 15:53:43,153 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 15:53:43,154 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 15:53:43,154 - INFO - Processed event: Spring Bird Walk
+2025-03-09 15:53:43,155 - INFO - Created 1 daily events from 2025-03-05 to 2025-03-05
+2025-03-09 15:53:43,156 - INFO - Found date range with 1 dates for event: Nature Photography Workshop Series
+2025-03-09 15:53:43,156 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 15:53:43,157 - INFO - Processed event: Park Stewardship Day
+2025-03-09 15:53:43,157 - INFO - Total future events collected: 4
+2025-03-09 15:53:43,159 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 15:53:44,437 - ERROR - Error parsing date and time: time data 'May 31, 2025' does not match format '%B %d, %Y %I:%M %p', Saturday, May 31, 2025
+2025-03-09 15:53:56,143 - ERROR - Error parsing date and time: time data 'July 3, 2025' does not match format '%B %d, %Y %I:%M %p', Thursday, July 3, 2025
+2025-03-09 15:53:59,279 - ERROR - Error parsing date and time: time data 'September 13, 2025' does not match format '%B %d, %Y %I:%M %p', Saturday, September 13, 2025
+2025-03-09 15:53:59,854 - ERROR - Error parsing date and time: time data 'October 4, 2025' does not match format '%B %d, %Y %I:%M %p', Saturday, October 4, 2025
+2025-03-09 15:54:02,264 - INFO - Total future events collected: 392
+2025-03-09 15:54:02,265 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 15:54:39,223 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 15:54:39,223 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 15:54:39,226 - INFO - Found 5 event items
+2025-03-09 15:54:39,283 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 15:54:39,283 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 15:54:39,285 - INFO - Processed event: Spring Bird Walk
+2025-03-09 15:54:39,287 - INFO - Date string: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM, Weekly indicator: True
+2025-03-09 15:54:39,287 - INFO - Date range: 2025-03-05 to 2025-03-26, 21 days
+2025-03-09 15:54:39,287 - INFO - Detected weekly series from 2025-03-05 to 2025-03-26
+2025-03-09 15:54:39,287 - INFO - Created 4 weekly events
+2025-03-09 15:54:39,287 - INFO - Found date range with 4 dates for event: Nature Photography Workshop Series
+2025-03-09 15:54:39,289 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 15:54:39,289 - INFO - Processed event: Park Stewardship Day
+2025-03-09 15:54:39,291 - INFO - Total future events collected: 7
+2025-03-09 15:54:39,291 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 15:58:17,699 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 15:58:17,699 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 15:58:17,700 - INFO - Found 5 event items
+2025-03-09 15:58:17,754 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 15:58:17,754 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 15:58:17,760 - INFO - Processed event: Spring Bird Walk
+2025-03-09 15:58:17,760 - INFO - Date string: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM, Weekly indicator: True
+2025-03-09 15:58:17,760 - INFO - Date range: 2025-03-05 to 2025-03-26, 21 days
+2025-03-09 15:58:17,760 - INFO - Detected weekly series from 2025-03-05 to 2025-03-26
+2025-03-09 15:58:17,760 - INFO - Created 4 weekly events
+2025-03-09 15:58:17,760 - INFO - Found date range with 4 dates for event: Nature Photography Workshop Series
+2025-03-09 15:58:17,760 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 15:58:17,760 - INFO - Processed event: Park Stewardship Day
+2025-03-09 15:58:17,764 - INFO - Total future events collected: 7
+2025-03-09 15:58:17,764 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 15:58:19,951 - INFO - Starting Bryant Park event scraper...
+2025-03-09 15:58:19,952 - ERROR - Error updating venue coordinates: [Errno 2] No such file or directory: 'fitconnect-nyc/src/data/venue-coordinates.json'
+2025-03-09 15:58:32,991 - INFO - Starting Bryant Park event scraper...
+2025-03-09 15:58:41,888 - INFO - Total future events collected: 7
+2025-03-09 15:58:41,889 - INFO - Events saved to fitconnect-nyc/src/data/bryant_park_events.json
+2025-03-09 16:16:37,338 - INFO - Starting Bryant Park event scraper...
+2025-03-09 16:16:44,349 - INFO - Total future events collected: 7
+2025-03-09 16:16:44,350 - INFO - Events saved to fitconnect-nyc/src/data/bryant_park_events.json
+2025-03-09 16:17:00,471 - INFO - Starting Bryant Park event scraper...
+2025-03-09 16:17:08,563 - INFO - Total future events collected: 7
+2025-03-09 16:17:08,564 - INFO - Events saved to fitconnect-nyc/src/data/bryant_park_events.json
+2025-03-09 16:23:51,493 - INFO - Starting Bryant Park event scraper...
+2025-03-09 16:23:51,494 - INFO - Added Bryant Park coordinates to fitconnect-nyc/src/data/venue-coordinates.json
+2025-03-09 16:23:59,966 - INFO - Total future events collected: 7
+2025-03-09 16:23:59,966 - INFO - Events saved to fitconnect-nyc/src/data/events.json
+2025-03-09 17:04:42,689 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 17:04:42,693 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 17:04:42,697 - INFO - Found 5 event items
+2025-03-09 17:04:42,807 - ERROR - Error parsing date and time: time data '2025 06:30 PM' does not match format '%m/%d/%Y %I:%M %p', Thursday, March 20, 2025 06:30 PM - 08:30 PM
+2025-03-09 17:04:43,014 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 17:04:43,014 - ERROR - Error parsing date and time: time data '2025 10:00 AM' does not match format '%m/%d/%Y %I:%M %p', Saturday, March 22, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:04:43,126 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 17:04:43,126 - ERROR - Error parsing date and time: time data '2025 10:00 AM' does not match format '%m/%d/%Y %I:%M %p', Saturday, March 29, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:04:43,310 - INFO - Processed event: Spring Bird Walk
+2025-03-09 17:04:43,310 - ERROR - Error parsing date and time: time data '2025 until March 26, 2025 11:00 AM' does not match format '%m/%d/%Y %I:%M %p', Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:04:43,431 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 17:04:43,432 - ERROR - Error parsing date and time: time data '2025' does not match format '%m/%d/%Y %I:%M %p', Friday, March 14, 2025
+2025-03-09 17:04:44,020 - INFO - Processed event: Park Stewardship Day
+2025-03-09 17:04:44,022 - INFO - Total future events collected: 5
+2025-03-09 17:04:44,022 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 17:06:27,334 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 17:06:27,334 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 17:06:27,337 - INFO - Found 5 event items
+2025-03-09 17:06:27,576 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 17:06:27,752 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 17:06:27,957 - INFO - Processed event: Spring Bird Walk
+2025-03-09 17:06:28,126 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 17:06:28,378 - INFO - Processed event: Park Stewardship Day
+2025-03-09 17:06:28,379 - INFO - Total future events collected: 4
+2025-03-09 17:06:28,379 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 17:08:39,301 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 17:08:39,301 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 17:08:39,304 - INFO - Found 5 event items
+2025-03-09 17:08:39,363 - INFO - Parsing date time string: Thursday, March 20, 2025 06:30 PM - 08:30 PM
+2025-03-09 17:08:39,367 - INFO - Directly parsed date and time: 2025-03-20 18:30:00-04:00 - 2025-03-20 20:30:00-04:00
+2025-03-09 17:08:39,511 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 17:08:39,511 - INFO - Parsing date time string: Saturday, March 22, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:08:39,511 - INFO - Directly parsed date and time: 2025-03-22 10:00:00-04:00 - 2025-03-22 12:00:00-04:00
+2025-03-09 17:08:39,632 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 17:08:39,633 - INFO - Parsing date time string: Saturday, March 29, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:08:39,633 - INFO - Directly parsed date and time: 2025-03-29 10:00:00-04:00 - 2025-03-29 12:00:00-04:00
+2025-03-09 17:08:39,788 - INFO - Processed event: Spring Bird Walk
+2025-03-09 17:08:39,788 - INFO - Parsing date time string: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:08:39,789 - INFO - Detected recurring event: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:08:39,789 - INFO - Parsed recurring event: 2025-03-05 11:00:00-05:00 - 2025-03-05 14:00:00-05:00
+2025-03-09 17:08:39,970 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 17:08:39,970 - INFO - Parsing date time string: Friday, March 14, 2025
+2025-03-09 17:08:39,971 - INFO - Parsed date without time: 2025-03-14 09:00:00-04:00 - 2025-03-14 17:00:00-04:00
+2025-03-09 17:08:40,121 - INFO - Processed event: Park Stewardship Day
+2025-03-09 17:08:40,123 - INFO - Total future events collected: 4
+2025-03-09 17:08:40,123 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 17:09:26,573 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 17:09:26,574 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 17:09:26,583 - INFO - Found 5 event items
+2025-03-09 17:09:26,736 - INFO - Parsing date time string: Thursday, March 20, 2025 06:30 PM - 08:30 PM
+2025-03-09 17:09:26,744 - INFO - Directly parsed date and time: 2025-03-20 18:30:00-04:00 - 2025-03-20 20:30:00-04:00
+2025-03-09 17:09:26,983 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 17:09:26,984 - INFO - Parsing date time string: Saturday, March 22, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:09:26,984 - INFO - Directly parsed date and time: 2025-03-22 10:00:00-04:00 - 2025-03-22 12:00:00-04:00
+2025-03-09 17:09:27,097 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 17:09:27,097 - INFO - Parsing date time string: Saturday, March 29, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:09:27,097 - INFO - Directly parsed date and time: 2025-03-29 10:00:00-04:00 - 2025-03-29 12:00:00-04:00
+2025-03-09 17:09:27,221 - INFO - Processed event: Spring Bird Walk
+2025-03-09 17:09:27,222 - INFO - Parsing date time string: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:09:27,222 - INFO - Detected recurring event: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:09:27,222 - INFO - Parsed recurring event: 2025-03-05 11:00:00-05:00 - 2025-03-05 14:00:00-05:00
+2025-03-09 17:09:27,350 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 17:09:27,351 - INFO - Parsing date time string: Friday, March 14, 2025
+2025-03-09 17:09:27,352 - INFO - Parsed date without time: 2025-03-14 09:00:00-04:00 - 2025-03-14 17:00:00-04:00
+2025-03-09 17:09:27,451 - INFO - Processed event: Park Stewardship Day
+2025-03-09 17:09:27,452 - INFO - Event: Spring Equinox Night Hike, Date: 2025-03-20 18:30:00-04:00, Is future: True
+2025-03-09 17:09:27,452 - INFO - Event: Penn Shoreline Cleanup, Date: 2025-03-22 10:00:00-04:00, Is future: True
+2025-03-09 17:09:27,452 - INFO - Event: Spring Bird Walk, Date: 2025-03-29 10:00:00-04:00, Is future: True
+2025-03-09 17:09:27,452 - INFO - Event: Nature Photography Workshop Series, Date: 2025-03-05 11:00:00-05:00, Is future: False
+2025-03-09 17:09:27,452 - INFO - Event: Park Stewardship Day, Date: 2025-03-14 09:00:00-04:00, Is future: True
+2025-03-09 17:09:27,453 - INFO - Total future events collected: 4
+2025-03-09 17:09:27,453 - INFO - Events saved to data/shirley_chisholm_events.json
+2025-03-09 17:10:16,051 - INFO - Starting Shirley Chisholm State Park event scraper...
+2025-03-09 17:10:16,053 - INFO - Using sample file: sample_shirley_chisholm.html
+2025-03-09 17:10:16,057 - INFO - Found 5 event items
+2025-03-09 17:10:16,118 - INFO - Parsing date time string: Thursday, March 20, 2025 06:30 PM - 08:30 PM
+2025-03-09 17:10:16,122 - INFO - Directly parsed date and time: 2025-03-20 18:30:00-04:00 - 2025-03-20 20:30:00-04:00
+2025-03-09 17:10:16,339 - INFO - Processed event: Spring Equinox Night Hike
+2025-03-09 17:10:16,340 - INFO - Parsing date time string: Saturday, March 22, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:10:16,340 - INFO - Directly parsed date and time: 2025-03-22 10:00:00-04:00 - 2025-03-22 12:00:00-04:00
+2025-03-09 17:10:16,626 - INFO - Processed event: Penn Shoreline Cleanup
+2025-03-09 17:10:16,626 - INFO - Parsing date time string: Saturday, March 29, 2025 10:00 AM - 12:00 PM
+2025-03-09 17:10:16,626 - INFO - Directly parsed date and time: 2025-03-29 10:00:00-04:00 - 2025-03-29 12:00:00-04:00
+2025-03-09 17:10:16,739 - INFO - Processed event: Spring Bird Walk
+2025-03-09 17:10:16,739 - INFO - Parsing date time string: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:10:16,739 - INFO - Detected recurring event: Wednesdays, March 5, 2025 until March 26, 2025 11:00 AM - 02:00 PM
+2025-03-09 17:10:16,739 - INFO - Parsed recurring event: 2025-03-05 11:00:00-05:00 - 2025-03-05 14:00:00-05:00
+2025-03-09 17:10:16,739 - INFO - Adjusted recurring event date to future: 2025-03-12 11:00:16.739406-04:00 - 2025-03-12 14:00:16.739406-04:00
+2025-03-09 17:10:16,871 - INFO - Processed event: Nature Photography Workshop Series
+2025-03-09 17:10:16,871 - INFO - Parsing date time string: Friday, March 14, 2025
+2025-03-09 17:10:16,871 - INFO - Parsed date without time: 2025-03-14 09:00:00-04:00 - 2025-03-14 17:00:00-04:00
+2025-03-09 17:10:17,037 - INFO - Processed event: Park Stewardship Day
+2025-03-09 17:10:17,037 - INFO - Event: Spring Equinox Night Hike, Date: 2025-03-20 18:30:00-04:00, Is future: True
+2025-03-09 17:10:17,037 - INFO - Event: Penn Shoreline Cleanup, Date: 2025-03-22 10:00:00-04:00, Is future: True
+2025-03-09 17:10:17,037 - INFO - Event: Spring Bird Walk, Date: 2025-03-29 10:00:00-04:00, Is future: True
+2025-03-09 17:10:17,037 - INFO - Event: Nature Photography Workshop Series, Date: 2025-03-12 11:00:16.739406-04:00, Is future: True
+2025-03-09 17:10:17,037 - INFO - Event: Park Stewardship Day, Date: 2025-03-14 09:00:00-04:00, Is future: True
+2025-03-09 17:10:17,042 - INFO - Total future events collected: 5
+2025-03-09 17:10:17,042 - INFO - Events saved to data/shirley_chisholm_events.json

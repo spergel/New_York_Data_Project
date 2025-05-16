@@ -6,6 +6,18 @@ from bs4 import BeautifulSoup
 import requests
 import hashlib
 import logging
+import os
+
+# Setup paths
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(TECH_DIR, 'data')
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+)
 
 def generate_event_id(title):
     return f"evt_pioneer_{hashlib.md5(title.encode()).hexdigest()[:8]}"
@@ -96,6 +108,9 @@ def main():
     base_url = "https://pioneerworks.org"
     calendar_url = f"{base_url}/calendar"
     
+    # Create data directory if it doesn't exist
+    os.makedirs(DATA_DIR, exist_ok=True)
+    
     # Get calendar page
     response = requests.get(calendar_url)
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -116,8 +131,15 @@ def main():
         events.append(transformed)
     
     # Save output
-    with open('./data/pioneer_works_events.json', 'w') as f:
-        json.dump({"events": events}, f, indent=2)
+    output_file = os.path.join(DATA_DIR, 'pioneer_works_events.json')
+    try:
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump({"events": events}, f, indent=2, ensure_ascii=False)
+        logging.info(f"Saved {len(events)} events to {output_file}")
+        return output_file
+    except Exception as e:
+        logging.error(f"Failed to save events: {str(e)}")
+        return None
 
 if __name__ == "__main__":
     main() 

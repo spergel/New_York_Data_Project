@@ -1,0 +1,526 @@
+{
+  "events": [
+    {
+      "id": "evt_columbia_a30abac9",
+      "name": "Columbia AI Summit - Morningside Campus",
+      "description": "&lt;p&gt;The Columbia AI Summit will bring together the University community to explore the frontiers of artificial intelligence as it intersects with the University&amp;rsquo;s vast array of fields and disciplines. Held across three Columbia campuses&amp;mdash;Morningside, Manhattanville, and the Medical Center&amp;mdash;this day-long event will showcase the University&amp;rsquo;s leadership in AI research and application. Covering topics from healthcare, business and policy, to the sciences, engineering, and the humanities, the summit will offer a 360-degree view of AI&amp;rsquo;s transformative impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Low Memorial Library &amp;mdash; Morningside Campus&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;em&gt;9:00 AM - 10:00 AM: Check-in and Poster Session&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;10:00 AM - 11:00 AM:&amp;nbsp;&lt;/strong&gt;New Frontiers of AI&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;11:00 AM - 12:00 PM:&amp;nbsp;&lt;/strong&gt;Will Machines Have Free Will? Shaping the Future of AI&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;12:00 PM - 1:00 PM:&amp;nbsp;&lt;/strong&gt;From Chaos to Code: How AI Can Tame the Climate Crisis&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;s&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/s&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;5:30 PM - 6:30 PM: Sami Haddadin&lt;/strong&gt;, Director of the Munich Institute of Robotics and Machine Intelligence&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=\"https://rebrand.ly/AI-Summit\" target=\"_blank\"&gt;Learn more about other offerings on Manhattanville and CUIMC campuses&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Registration is required and open to current Columbia University, Barnard College, and Teachers College students, faculty, and staff. Valid/Active CUID will be required for in-person attendance. Livestream will be available on the Columbia AI website.&lt;/em&gt;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Low Library, 535 W. 116 St., New York, NY 10027\t",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_99b5ae81",
+      "name": "Columbia AI Summit - Manhattanville Campus",
+      "description": "&lt;p&gt;The Columbia AI Summit will bring together the University community to explore the frontiers of artificial intelligence as it intersects with the University&amp;rsquo;s vast array of fields and disciplines. Held across three Columbia campuses&amp;mdash;Morningside, Manhattanville, and the Medical Center&amp;mdash;this day-long event will showcase the University&amp;rsquo;s leadership in AI research and application. Covering topics from healthcare, business and policy, to the sciences, engineering, and the humanities, the summit will offer a 360-degree view of AI&amp;rsquo;s transformative impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Lee C. Bollinger Forum &amp;mdash; Manhattanville Campus&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;em&gt;12:00 PM - 1:00 PM: Check-in and Poster Session&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;1:00 PM - 2:00 PM:&amp;nbsp;&lt;/strong&gt;AI and Creativity&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;2:00 PM - 3:00 PM:&amp;nbsp;&lt;/strong&gt;ChatCEO: How AI is Influencing Leadership and Labor&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=\"https://rebrand.ly/AI-Summit\" target=\"_blank\"&gt;Learn more about other offerings on the Morningside and CUIMC campuses&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Registration is required and open to current Columbia University, Barnard College, and Teachers College students, faculty, and staff. Valid/Active CUID will be required for in-person attendance. Livestream will be available on the Columbia AI website.&lt;/em&gt;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\t",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_1f175182",
+      "name": "Columbia AI Summit &mdash; CUIMC Campus",
+      "description": "&lt;p&gt;The Columbia AI Summit will bring together the University community to explore the frontiers of artificial intelligence as it intersects with the University&amp;rsquo;s vast array of fields and disciplines. Held across three Columbia campuses&amp;mdash;Morningside, Manhattanville, and the Medical Center&amp;mdash;this day-long event will showcase the University&amp;rsquo;s leadership in AI research and application. Covering topics from healthcare, business and policy, to the sciences, engineering, and the humanities, the summit will offer a 360-degree view of AI&amp;rsquo;s transformative impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Vagelos Education Center &amp;mdash; CUIMC&amp;nbsp;Campus&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;em&gt;2:00 PM - 3:00 PM: Check-in and Poster Session&lt;/em&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;3:00 PM - 4:00 PM:&amp;nbsp;&lt;/strong&gt;Decoding the Mind: From the Brain to Mental Health&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;4:00 PM - 5:00 PM:&amp;nbsp;&lt;/strong&gt;AI for Cancer Care: From Cells to Systems&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=\"https://rebrand.ly/AI-Summit\" target=\"_blank\"&gt;Learn more about other offerings on the Morningside and Manhattanville&amp;nbsp;campuses&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Registration is required and open to current Columbia University, Barnard College, and Teachers College students, faculty, and staff. Valid/Active CUID will be required for in-person attendance. Livestream will be available on the Columbia AI website.&lt;/em&gt;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Roy And Diana Vagelos Education Center, 104 Haven Ave., New York, NY 10032\t",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_c4a7e8ed",
+      "name": "Columbia Class of 2035: Will We Need To Reinvent Higher Education?",
+      "description": "&lt;p&gt;As part of the Columbia AI Summit, join us for an interactive session in which organizers will facilitate a conversation about how we imagine AI may change the teaching and learning landscape in higher education. Session facilitators will also share what we have been learning from research among Columbia students about how AI is changing the classroom experience.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Matthew Connelly, History professor and Vice Dean of AI Initiatives, School of Arts &amp;amp; Sciences&lt;br /&gt;\nAmanda Irvin, Executive Director, Center for Teaching and Learning&lt;br /&gt;\nVishal Misra, Professor of Computer Science, Vice Dean of Computing and AI, Columbia Engineering&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Registration is required and open to current Columbia University, Barnard College, and Teachers College students, faculty, and staff. Valid/Active CUID will be required for in-person attendance.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://rebrand.ly/Summit_Workshop\" target=\"_blank\"&gt;REGISTER HERE&lt;/a&gt;.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Low Library, 535 W. 116 St., New York, NY 10027\tFaculty Room",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_dcb4fe05",
+      "name": "Applied Mathematics Colloquium with Thomas Chen, UT Austin",
+      "description": "&lt;h3&gt;&lt;strong&gt;Please note special date/time for this Applied Math&amp;nbsp;seminar.&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;br /&gt;\n&lt;strong&gt;Speaker: &lt;/strong&gt;&lt;a href=\"https://web.ma.utexas.edu/users/tc/\" target=\"_blank\"&gt;Thomas Chen&lt;/a&gt;, UT Austin&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;Title:&amp;nbsp;&lt;/strong&gt;Explicit construction of global minimizers and the interpretability problem in Deep Learning&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;Abstract:&amp;nbsp;&lt;/strong&gt;In this talk, we present some recent results aimed at the rigorous mathematical understanding of how and why supervised learning works. We point out genericness conditions related to reachability of zero loss minimization, in underparametrized versus overparametrized Deep Learning (DL) networks. For underparametrized DL networks, we explicitly construct global, zero loss cost minimizers for sufficiently clustered data. In addition, we derive effective equations governing the cumulative biases and weights, and show that gradient descent corresponds to a dynamical process in the input layer, whereby clusters of data are progressively reduced in complexity (&amp;quot;truncated&amp;quot;) at an exponential rate that increases with the number of data points that have already been truncated. For overparametrized DL networks, we prove that the gradient descent flow is homotopy equivalent to a geometrically adapted flow that induces a (constrained) Euclidean gradient flow in output space. If a certain rank condition holds, the latter is, upon reparametrization of the time variable, equivalent to simple linear interpolation. This in turn implies zero loss minimization and the phenomenon known as &amp;ldquo;Neural Collapse&amp;rdquo;. Moreover, we derive zero loss guarantees, and construct explicit global minimizers for overparametrized deep networks, given generic training data. The work presented includes collaborations with Patricia Munoz Ewald and Andrew G. Moore (UT Austin).&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;In person attendance at this seminar is only open to Columbia Univesity affiliates. External guests are welcome to attend remotely. Please contact &lt;a href=\"mailto:apam@columbia.edu?subject=Zoom%20link%20needed%20for%20AM%20Colloquium\" target=\"_blank\"&gt;apam@columbia.edu&lt;/a&gt; if you need the Zoom link for this seminar. &lt;/em&gt;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Mudd Building",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Courant Institute Community"
+      }
+    },
+    {
+      "id": "evt_columbia_a0cb83a4",
+      "name": "15th Annual Kenneth J. Arrow Lecture with Susan Athey",
+      "description": "&lt;p&gt;This talk will review several recent papers that focus on labor market transitions. The first project analyzes worker resilience in response to layoffs, using administrative data from Sweden. Recently developed machine learning methods identify and characterize groups of workers who are predictably less resilient to layoffs. There is substantial heterogeneity within firms and within markets in terms of worker resilience. Second, recent work applies foundation models based on custom-created transformer neural networks and/or large language models to model worker careers and decompose gender wage gaps, identifying areas where unexplained wage gaps remain relatively large. Two additional projects create, implement, and evaluate digital interventions that help disadvantaged workers successfully transition into growing occupations related to information technology and data science.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Lecture by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Susan Athey&lt;/strong&gt;, The Economics of Technology Professor, Stanford Graduate School of Business; Professor of Economics (by courtesy), School of Humanities and Sciences, Stanford University; Senior Fellow, Stanford Institute for Economic Policy Research&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Discussants:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Bentley MacLeod&lt;/strong&gt;, Sami Mnaymneh Professor Emeritus of Economics, Columbia University&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Suresh Naidu&lt;/strong&gt;, Jack Wang and Echo Ren Professor of Economics, Professor of International and Public Affairs, Columbia University&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Joseph Stiglitz&lt;/strong&gt;, 2001 Nobel Laureate and University Professor, Columbia University&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Introductory remarks by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Michael Woodford&lt;/strong&gt;, John Bates Clark Professor of Economics, Columbia University&lt;/p&gt;\n&lt;p&gt;______&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Kenneth J. Arrow Lecture Series&lt;/strong&gt;&lt;br /&gt;\n&lt;a href=\"https://cup.columbia.edu/series/kenneth-j-arrow-lecture-series\"&gt;The Kenneth J. Arrow Lecture Series&lt;/a&gt; highlights economists, from Nobel laureates to groundbreaking younger scholars, whose work builds on Kenneth J. Arrow&amp;rsquo;s scholarship as well as his innovative spirit. The books in the series are an expansion of the lectures that are held in Arrow&amp;rsquo;s honor at Columbia University.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Institute of Global Politics (IGP) at Columbia SIPA&lt;/strong&gt;&lt;br /&gt;\nThe Institute of Global Politics (IGP) convenes leading scholars and practitioners to advance policy solutions to today&amp;rsquo;s pressing global challenges. IGP brings together experts&amp;mdash;from the public and private sectors and across the political spectrum&amp;mdash;to foster civil discourse and create evidence-based policy strategies for local to global impact.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Center for Political Economy at Columbia World Projects&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Launched in 2022, the Columbia Center for Political Economy has two primary goals: to identify and advance the most promising post-2008 developments within economics and to promote a new political economy with robust philosophical underpinnings. This approach is distinctive for our time, with an institutional, cross-disciplinary orientation connecting economics to history, law, political science, sociology, public health, engineering, data science and more.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Program for Economic Research at Columbia&amp;rsquo;s Department of Economics&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Founded in 2003, the Program for Economic Research (PER) at Columbia University focuses on identifying and funding research aimed at the economic challenges, trends, and policies affecting people around the world, informing our understanding of global economic issues. PER&amp;rsquo;s diverse portfolio of academic programs and initiatives combines theory with practical application, emphasizing open access and active learning.&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\t1501",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_51409802",
+      "name": "Signature Speaker Series: Jesper Brodin, CEO, Ingka Group I IKEA",
+      "description": "&lt;h3&gt;Please join us for our next Climate School Signature Speaker Series featuring&lt;/h3&gt;\n&lt;h3&gt;&lt;strong&gt;Jesper Brodin, CEO, Ingka Group I IKEA&lt;/strong&gt;&lt;/h3&gt;\n&lt;h3&gt;&lt;strong&gt;Topic:&amp;nbsp;&lt;/strong&gt;&amp;ldquo;It&amp;rsquo;s good business to be a good business&amp;rdquo;&lt;/h3&gt;\n&lt;h3&gt;Jesper Brodin is the President and CEO of Ingka Group, IKEA. Ingka is one of the world&amp;rsquo;s largest home furnishing retailer and owns and operates more than 450 IKEA stores in 30 markets (FY22) under franchise agreements with Inter IKEA Systems B.V. Ingka Group was founded by Ingvar Kamprad and is a strategic partner in the IKEA franchise systems and in addition to operate IKEA Retail, the company consists of Ingka Centres and Ingka Investments.&lt;/h3&gt;\n&lt;h3&gt;Jesper started his IKEA career in 1995 as the Purchase manager in Pakistan, IKEA Group. During the years he has held different roles such as assistant to Ingvar Kamprad and Anders Dahlvig, CEO at the time, Business area manager Kitchen and Dining as well as his recent role as Managing Director for Range &amp;amp; Supply, Inter IKEA Group.&lt;/h3&gt;\n&lt;h3&gt;Jesper is a passionate advocate for climate action. He currently serves as a board member in World Resources Institute, as chair of the B Team, Vice Chair of UNGC and as co-chair of the World Economic Forum Alliance of CEO Climate Leaders. He was also named one of the worlds 100 most influential people by TIME Magazine.&lt;/h3&gt;\n&lt;h3&gt;He has a Master of Science in Industrial Engineering from Chalmers University of Technology, Gothenburg, Sweden.&lt;/h3&gt;\n&lt;h3&gt;&lt;strong&gt;6:00PM-7:00PM &lt;/strong&gt;Program&lt;br /&gt;\n&lt;strong&gt;7:00PM-8:00pm&amp;nbsp;&lt;/strong&gt;Reception&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;ADVANCE REGISTRATION REQUIRED&lt;/strong&gt;. NO WALK-IN&amp;#39;S WILL BE ACCEPTED FOR THIS EVENT DUE TO COLUMBIA UNIVERSITY EXTERNAL GUEST POLICY.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Low Library, 535 W. 116 St., New York, NY 10027\tFaculty Room, 2nd floor, room 207",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_ddd9b5b3",
+      "name": "IICD Seminar Series: Le Cong, Stanford University",
+      "description": "&lt;p&gt;The&amp;nbsp;&lt;a href=\"https://cancerdynamics.columbia.edu\" target=\"_blank\"&gt;Herbert and Florence Irving Institute for Cancer Dynamics&lt;/a&gt; will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online) and to researchers outside Columbia (via Zoom).&lt;/p&gt;\n&lt;p&gt;On &lt;strong&gt;Wednesday, March 12th (2:00 PM ET)&lt;/strong&gt;, IICD welcomes Le Cong, Assistant Professor of Pathology and of Genetics, Stanford University. Seminar hosted by Jellert Gaublomme. The seminar will take place in person in Schermerhorn Hall 603 (Morningside Heights campus). If you wish to attend the seminar remotely, please register using the following link: &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/tJMqcuGgpzgtH9L5BjAilbREBYvPlUvrdg6k\" target=\"_blank\"&gt;https://columbiauniversity.zoom.us/meeting/register/tJMqcuGgpzgtH9L5BjAilbREBYvPlUvrdg6k&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title: &lt;/strong&gt;AI-Powered Genome Technology for Tracking Cancer Evolution and Immune Resistance&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Abstract:&amp;nbsp;&lt;/strong&gt;Recent advances in gene-editing and single-cell multi-omics have opened new frontiers in understanding cancer evolution and immune escape mechanisms. This talk will present our development of machine learning-optimized CRISPR tools that enable simultaneous perturbation and lineage tracing at unprecedented precision. Using melanoma as a model system, we have leveraged these tools to uncover mechanisms of drug resistance and immune evasion. Specifically, our work reveals how EZH2 and other epigenetic regulators influence melanoma evolution. Additionally, I will discuss our recent work in tracking natural killer (NK) cell-mediated tumor killing through multi-omics approaches and the development of CRISPR-GPT, an AI-powered platform for automated genome engineering. These integrated technologies provide new insights into cancer-immune interactions and suggest novel therapeutic strategies for overcoming treatment resistance.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Bio: &lt;/strong&gt;Le Cong is an Assistant Professor in the Departments of Pathology and Genetics at Stanford. His lab pioneers scalable gene-editing and gene insertion technologies for gene and cell therapy by integrating insights from metagenomics, computational biology, and high-throughput engineering. Leveraging single-cell functional screening and multi-omics approaches, his group elucidates the molecular mechanisms underpinning cancer and immunological diseases. Recently, they have focused on harnessing AI and machine learning to design and evolve gene-editing proteins and RNAs, thereby accelerating the discovery of druggable targets for immune therapeutics across cancer and other human diseases.&lt;/p&gt;\n&lt;p&gt;If you would like to meet one-on-one (possibly via Zoom) or attend the lunch or dinner with the speaker, please contact the event organizer.&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Hybrid Event\tSchermerhorn Hall 603",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_6e1c4f17",
+      "name": "Screening of The Siren with Director Sepideh Farsi",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;em&gt;La Sir&amp;egrave;ne (The Siren)&lt;/em&gt;&lt;br /&gt;\nSepideh Farsi, 2023, 100 min. In Persian with English subtitles&lt;br /&gt;\nScreening followed by a Q&amp;amp;A with Director Sepideh Farsi and Aubrey Gabel&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Register &lt;a href=\"https://www.eventbrite.com/e/la-sirene-the-siren-tickets-1226789082169?aff=oddtdtcreator\"&gt;here&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;1980. Southern Iran. The people of Abadan have been fighting an Iraqi siege. Amongst them is the 14-year-old Omid, who chose to stay in the city with his grandfather, waiting for his elder brother to return from the frontline. But how can you resist in a war without taking up arms?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Then Omid finds an abandoned ship in Abadan&amp;rsquo;s harbor. Is this the answer to saving the people he loves?&lt;/p&gt;\n&lt;p&gt;Trailer &lt;a href=\"https://youtu.be/1YC5g-gWdBE?si=ReGhq5I9AfTeFtli\"&gt;here&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Sepideh Farsi&lt;/strong&gt; is a Franco-Iranian film director known for her poignant exploration of identity and exile. Born in Iran, she left the country in 1984 to study mathematics in Paris but soon shifted her focus to the visual arts, beginning with photography before transitioning to filmmaking. Farsi&amp;#39;s films, celebrated for their bold storytelling, have consistently challenged the Iranian regime. Since 2009, she has been unable to return to Iran due to her activism and the critical nature of her work. All of her films remain banned in the country. In February 2023, her first animated feature, &lt;em&gt;The Siren (La Sir&amp;egrave;ne)&lt;/em&gt;, premiered as the opening film of the Panorama section at the 73rd Berlin International Film Festival. The film later won Best Animated Film at the 16th Asia Pacific Screen Awards in Gold Coast, Australia, in November 2023.&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;Aubrey Gabel&lt;/strong&gt; is Assistant Professor of French at Columbia University.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Produced by Maison Fran&amp;ccedil;aise and co-sponsored by the MESAAS and Middle East Institute at Columbia University.&lt;/em&gt;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Buell Hall, 515 W. 116 St., New York, NY 10027\tEast Gallery",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Courant Institute Community"
+      }
+    },
+    {
+      "id": "evt_columbia_2eff029f",
+      "name": "Joint CIMBID/HICCC Seminar",
+      "description": "&lt;p&gt;&lt;em&gt;This seminar is co-sponsored by the Herbert Irving Comprehensive Cancer Center (HICCC) and the Center for Innovation in Imaging Biomarkers and Integrated Diagnostics (CIMBID)&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt;&amp;nbsp;Personalizing interventions through imaging-based digital twins&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Our lab focuses on developing tumor forecasting methods by integrating medical imaging data with biology-based, mathematical models to predict tumor growth and treatment response on an individual patient basis. These data are acquired before therapy begins, and again at one or more time points during therapy. All model parameters that are not directly measured are calibrated to the longitudinal imaging data from a patient. Then, the personalized model is run forward to predict tumor size and other characteristics of the patient&amp;rsquo;s tumor at future times which can be directly tested against observation and, ultimately, guide intervention. &amp;nbsp;In this presentation, we will provide an overview of this effort through four vignettes focusing on 1) incorporating patient-specific data into biology-based mathematical models, 2) simulating outcomes via digital twins, 3) guiding interventions through optimal control theory, and 4) updating interventions through data assimilation. To tell a complete story we will focus on breast cancer, but also summarize our efforts in brain, cervical, and prostate cancer.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Speaker:&amp;nbsp;&lt;/strong&gt;Thomas Yankeelov, PhD,&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;em&gt;Director of Center for Computational Oncology, UT Austin&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Speaker:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Tom Yankeelov received an MA in Applied Mathematics and an MS in Physics from Indiana University, before completing the PhD in Biomedical Engineering at SUNY @ Stony Brook.&amp;nbsp; He completed his post-doc with Dr. John Gore at the Vanderbilt University Institute of Imaging Science and climbed the ranks to Full Professor in 2010.&amp;nbsp; He then joined the faculty at The University of Texas at Austin in 2016 where he is now the Moncrief Chair of Computational Oncology and Professor of Biomedical Engineering and&amp;nbsp;Diagnostic Medicine.&amp;nbsp; Dr. Yankeelov is the founding Director of the Center for Computational Oncology and also serves as co-Director for the Quantitative Oncology Research Program within the Livestrong Cancer Institutes at UT Austin.&amp;nbsp; He is also an Adjunct Professor of Imaging Physics at MD Anderson Cancer Center.&amp;nbsp; The overall goal of Dr. Yankeelov&amp;#39;s research is to develop tumor forecasting methods by integrating advanced imaging technologies with predictive models of tumor growth to optimize therapy on a patient-specific basis. &amp;nbsp;This is accomplished by dividing his efforts into approximately equal parts mathematical modeling, pre-clinical development, and implementation in clinical trials.&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Courant Institute Community"
+      }
+    },
+    {
+      "id": "evt_columbia_64f626dc",
+      "name": "Entering Mentoring: Assessing Understanding",
+      "description": "&lt;p&gt;&lt;strong&gt;A 60-minute workshop for faculty and research officers mentoring graduate students and postdoc researchers in Science and Engineering and the Health Sciences.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Are you searching for ways to assess how well your mentees are understanding the core concepts and processes of your discipline? Do you want to learn strategies to assess and address any lack of understanding your colleagues have used with mentees that have worked well? &lt;/em&gt;Join fellow research mentors for a conversation on ways to assess your mentee&amp;rsquo;s understanding of the discipline, especially of core research concepts, led by CTL facilitators trained by the &lt;a href=\"https://cimerproject.org/\"&gt;Center for the Improvement of Mentored Experiences in Research&lt;/a&gt; (CIMER).&lt;/p&gt;\n&lt;p&gt;Determining whether our mentees understand the content and processes of our disciplines is not easy, yet doing so is critical for a productive mentoring relationship. Through facilitated discussions and case studies, we will collectively surface multiple strategies that you can use to identify potential causes for when mentees struggle with understanding and how to address them accordingly.&lt;/p&gt;\n&lt;p&gt;In this session, research mentors will explore how to:&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;Assess their mentees&amp;rsquo; understanding of core concepts and processes, including possible reasons for a lack of understanding.&lt;/li&gt;\n&lt;li&gt;Use multiple strategies to enhance mentee understanding.&lt;/li&gt;\n&lt;/ol&gt;\n&lt;p&gt;Unable to join us for this discussion on mentoring? Schedule a &lt;a href=\"https://ctl.columbia.edu/faculty/offerings/consultations/\"&gt;consultation&lt;/a&gt; to discuss your mentoring questions, or find other opportunities on the &lt;a href=\"https://ctl.columbia.edu/advancing-mentorship/\"&gt;Advancing Mentorship Practices: Supporting Mentors of Graduate Students and Postdocs at Columbia&lt;/a&gt; website.&lt;/p&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact&amp;nbsp;ColumbiaCTL@columbia.edu&amp;nbsp;or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. Note, if this is an online event, CTL staff may take screenshots. For concerns, contact&amp;nbsp;ColumbiaCTL@columbia.edu.&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Online Event",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_columbia_d615f925",
+      "name": "Applied Mathematics Colloquium with Antoine Levitt, Univ Paris",
+      "description": "&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&amp;nbsp;&lt;a href=\"https://www.imo.universite-paris-saclay.fr/~antoine.levitt/\" target=\"_blank\"&gt;Antoine Levitt&lt;/a&gt;, Univ Paris, Orsay&lt;br /&gt;\n&lt;br /&gt;\nTitle and abstract coming soon!&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;In person attendance at this seminar is only open to Columbia Univesity affiliates. External guests are welcome to attend remotely. Please contact &lt;a href=\"mailto:apam@columbia.edu?subject=Zoom%20link%20needed%20for%20AM%20Colloquium\" target=\"_blank\"&gt;apam@columbia.edu&lt;/a&gt; if you need the Zoom link for this seminar. &lt;/em&gt;&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Mudd Building",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Courant Institute Community"
+      }
+    },
+    {
+      "id": "evt_columbia_3f2a4205",
+      "name": "Caste Marking and Unmarking",
+      "description": "&lt;p&gt;Caste has long been treated as a peculiar social institution that sets South Asia apart from geographies structured by modern systems of classification. As such, claims to modernity in the subcontinent and in South Asian diasporas are often made through a disavowal of caste. A parallel strand of scholarship and politics insists on the historicity of caste and its role in constituting contemporary political and economic orders. Much of the latter work on the modernity of caste illuminates its continuing operations as a social structure of dispossession, enclosure, and accumulation, while a subset attends to how it simultaneously recedes from view. In this talk, Ajantha Subramanian addresses the dialectics of marking and unmarking through which caste remains an essential but commonly unremarked feature of contemporary social and political life, the fierce contestation over efforts to subject it to critical scrutiny, and the differences between elite and subaltern articulations of castelessness. She does so both in reference to her own books and ongoing projects and through an engagement with a wider set of scholarly and public debates.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://www.gc.cuny.edu/people/ajantha-subramanian\" target=\"_blank\"&gt;Ajantha Subramanian&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;is a Professor of Anthropology at the CUNY Graduate Center and author of&amp;nbsp;&lt;em&gt;Shorelines: Space and Rights in South India&lt;/em&gt;&amp;nbsp;(Stanford University Press, 2009) and&amp;nbsp;&lt;em&gt;The Caste of Merit: Engineering Education in India&lt;/em&gt;&amp;nbsp;(Harvard University Press, 2019). She is currently working on two projects on industrial and post-industrial life in a South Indian gold mining company town, and on the transnationality of caste in the United States.&lt;/p&gt;\n&lt;p&gt;Moderated by SOF Fellow&amp;nbsp;&lt;a href=\"https://sofheyman.org/persons/sonali-dhanpal\" target=\"_blank\"&gt;Sonali Dhanpal&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;\n&lt;em&gt;Please email&amp;nbsp;disability@columbia.edu&amp;nbsp;to request disability accommodations. Advance notice is necessary to arrange for some accessibility needs.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;CU/ID holders, please register below.&amp;nbsp;&lt;/strong&gt;&lt;br /&gt;\nAll others interested in attending, please email the SOF/Heyman at&amp;nbsp;sofheyman@columbia.edu&lt;/p&gt;",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "Heyman Center for the Humanities, 74 Morningside Dr., New York, NY 10027\tSecond floor common room",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_cuny_f73593cb",
+      "name": "Mathematics Colloquium: Invariants of Words from Random Group Elements",
+      "description": "Mathematics Colloquium: Invariants of Words from Random Group ElementsProfessor Doron Puder(Tel Aviv University)\nAbstract\nLet w be a word in a free group and let G be a finite group (or more generally, a compact group). A w-random element of G is obtained by substituting the letters of w with uniform random elements from G. For example, if w=xyxy^{-2}, the random element is ghg^{-2}, with g and h independent random elements of G. In a series of works with various coauthors, we discovered that in nice families of groups, such as the symmetric groups or the unitary groups, some very interesting invariants of the word w can be extracted from w-random elements.\nNote: This story involves probability, topology, algebra, combinatorics and representation theory. In the talk, which is aimed at graduate students, I will try to give a flavor of these interesting phenomena.\n\nDate:\nMarch 6, 2025\nTime:\n12:30 PM — 1:30 PM\nCollege:\nThe City College of New York\nAddress:\nThe City College of NY 160 Convent Avenue New York, NY 10031\nManhattan\nBuilding:\nThe North Academic Center (NAC) Room: 6/115\nPhone:\n(212)650-5346\nAdmission:\nFree\nWebsite:\nhttps://math.sci.ccny.cuny.edu/seminar/mathematics-colloquium/talk/247/",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "CUNY",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Courant Institute Community"
+      }
+    },
+    {
+      "id": "evt_nyu_eng_516e015f",
+      "name": "NYU Tandon Emerging Technologies MS Information Session",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_nyu_eng_156906ae",
+      "name": "Columbia & NYU Financial Engineering Colloquium: Agostino Capponi, Rama Cont, & Xin Guo",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_nyu_eng_93c7a6dd",
+      "name": "NYU Tandon Cyber Fellows MS Information Session",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    },
+    {
+      "id": "evt_nyu_eng_be46dc7d",
+      "name": "2025 Tandon Research Excellence Exhibit",
+      "description": "",
+      "startDate": "",
+      "endDate": "",
+      "location": "",
+      "url": "",
+      "category": "tech_talks",
+      "subcategory": "tech_panels",
+      "free": true,
+      "price": 0,
+      "priceType": "Free",
+      "details": "",
+      "capacity": 100,
+      "registrationRequired": true,
+      "image": "default-event.jpg",
+      "status": "past",
+      "metadata": {
+        "source_url": "",
+        "speakers": [],
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "New York, NY",
+          "type": "Academic"
+        },
+        "institution": "NYU Tandon Engineering Community"
+      }
+    }
+  ]
+}

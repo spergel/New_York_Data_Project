@@ -1,13 +1,15 @@
 import json
 import os
-import torch
-from transformers import BertTokenizer, BertModel
-import numpy as np
 from typing import Dict, List, Tuple
 import logging
 from tqdm import tqdm
-import requests  # Import the requests library
+import requests
 from datetime import datetime, timedelta
+import argparse
+import sys
+from collections import defaultdict
+import re
+import unicodedata
 
 # Configure logging
 logging.basicConfig(
@@ -16,7 +18,131 @@ logging.basicConfig(
     handlers=[logging.FileHandler('categorizer.log'), logging.StreamHandler()]
 )
 
-# Load community and location data
+# Define categories
+CATEGORIES = {
+    "tech_talks": {
+        "name": "Tech Talks & Conferences",
+        "subcategories": [
+            "tech_conferences",      # tech industry conferences
+            "tech_meetups",         # tech community meetups
+            "dev_talks",            # developer focused talks
+            "product_talks",        # product demos/launches
+            "tech_panels",          # industry panels
+            "lightning_talks"       # short format talks
+        ],
+        "keywords": [
+            "tech talk", "conference", "meetup", "presentation", "panel", 
+            "product demo", "launch", "tech event", "developer", "engineering"
+        ]
+    },
+    "hackathons_competitions": {
+        "name": "Hackathons & Competitions",
+        "subcategories": [
+            "hackathons",           # coding competitions
+            "code_challenges",      # pbrogramming challenges
+            "game_jams",           # game development events
+            "datathons",           # data science competitions
+            "design_sprints",       # rapid prototyping events
+            "tech_competitions"     # technology contests
+        ],
+        "keywords": [
+            "hackathon", "competition", "challenge", "game jam", "datathon",
+            "code challenge", "sprint", "contest", "competitive", "hack"
+        ]
+    },
+    "networking_social": {
+        "name": "Networking & Social",
+        "subcategories": [
+            "tech_mixers",          # tech networking events
+            "startup_socials",      # startup community events
+            "industry_meetups",     # industry networking
+            "career_events",        # tech career events
+            "community_gatherings", # tech community events
+            "social_events"         # casual tech socials
+        ],
+        "keywords": [
+            "networking", "mixer", "social", "community", "meetup", "career",
+            "gathering", "industry", "professional", "connection"
+        ]
+    },
+    "workshops_training": {
+        "name": "Workshops & Training",
+        "subcategories": [
+            "dev_workshops",        # developer workshops
+            "tech_training",       # technical training
+            "skill_workshops",     # skill development
+            "code_labs",          # coding workshops
+            "tech_bootcamps",     # intensive training
+            "certification_prep"   # certification training
+        ],
+        "keywords": [
+            "workshop", "training", "bootcamp", "lab", "hands-on", "learning",
+            "development", "skills", "certification", "education"
+        ]
+    },
+    "startup_entrepreneurship": {
+        "name": "Startup & Entrepreneurship",
+        "subcategories": [
+            "founder_events",       # founder focused events
+            "startup_workshops",    # startup education
+            "pitch_events",        # pitch competitions
+            "investor_events",     # investment focused
+            "accelerator_programs", # accelerator events
+            "startup_mentoring"    # mentorship programs
+        ],
+        "keywords": [
+            "startup", "entrepreneur", "founder", "investor", "pitch",
+            "venture", "accelerator", "incubator", "business", "funding"
+        ]
+    },
+    "tech_innovation": {
+        "name": "Tech Innovation",
+        "subcategories": [
+            "innovation_talks",     # innovation focused talks
+            "tech_research",       # research presentations
+            "future_tech",        # emerging technology
+            "tech_demos",         # technology demos
+            "product_launches",    # new product launches
+            "research_showcase"    # research demonstrations
+        ],
+        "keywords": [
+            "innovation", "research", "emerging", "future", "demonstration",
+            "prototype", "breakthrough", "cutting-edge", "advanced", "novel"
+        ]
+    },
+    "special_interest": {
+        "name": "Special Interest Tech",
+        "subcategories": [
+            "ai_ml_events",        # AI/ML focused
+            "blockchain_crypto",   # blockchain/crypto
+            "cybersecurity",      # security focused
+            "cloud_computing",    # cloud technology
+            "mobile_dev",         # mobile development
+            "web_development"     # web technology
+        ],
+        "keywords": [
+            "artificial intelligence", "machine learning", "blockchain", "crypto",
+            "security", "cloud", "mobile", "web", "specialized", "specific"
+        ]
+    },
+    "coworking_workspace": {
+        "name": "Coworking & Workspace",
+        "subcategories": [
+            "workspace_events",     # workspace focused
+            "coworking_socials",   # coworking community
+            "facility_tours",      # space tours
+            "member_events",       # member only events
+            "amenity_showcases",   # facility features
+            "community_programs"   # community initiatives
+        ],
+        "keywords": [
+            "coworking", "workspace", "office", "facility", "space", "amenities",
+            "community", "member", "tour", "environment"
+        ]
+    }
+}
+        
+        # Load community and location data
 def load_auxiliary_data():
     """Load community and location data for enhanced categorization"""
     communities = {}
@@ -35,404 +161,182 @@ def load_auxiliary_data():
     
     return communities, locations
 
-# Define categories
-CATEGORIES = {
-    "tech_talks": {
-        "name": "Tech Talks & Conferences",
-        "subcategories": [
-            "conferences",      # tech conferences
-            "meetups",         # tech meetups
-            "workshops",       # technical workshops
-            "panels",         # expert panels
-            "keynotes",       # keynote presentations
-            "lightning_talks"  # lightning talks
-        ],
-        "keywords": [
-            "tech talk", "conference", "meetup", "workshop", "panel", "keynote",
-            "presentation", "speaker", "lightning talk", "tech event", "summit",
-            "symposium", "tech conference", "developer conference", "tech summit"
-        ],
-        "community_types": ["Tech Community", "Conference Organizer"],
-        "location_types": ["Conference Center", "Auditorium", "Meeting Space"]
-    },
-    "hackathons_competitions": {
-        "name": "Hackathons & Competitions",
-        "subcategories": [
-            "hackathons",       # coding competitions
-            "code_challenges",  # programming challenges
-            "game_jams",       # game development events
-            "datathons",       # data science competitions
-            "pitch_contests",   # startup pitch competitions
-            "tech_olympics"     # technology competitions
-        ],
-        "keywords": [
-            "hackathon", "competition", "challenge", "code challenge", "game jam",
-            "datathon", "pitch", "contest", "coding competition", "tech competition",
-            "programming contest", "coding challenge", "competitive programming"
-        ],
-        "community_types": ["Tech Community", "Developer Group", "Startup Community"],
-        "location_types": ["Coworking Space", "Tech Hub", "Innovation Center"]
-    },
-    "networking_social": {
-        "name": "Networking & Social",
-        "subcategories": [
-            "tech_mixers",      # tech networking events
-            "startup_socials",  # startup community events
-            "founder_meetups",  # founder networking
-            "industry_nights",  # industry networking
-            "career_fairs",     # tech job fairs
-            "community_events"  # tech community gatherings
-        ],
-        "keywords": [
-            "networking", "mixer", "social", "meetup", "community", "startup",
-            "founder", "entrepreneur", "career fair", "job fair", "industry night",
-            "tech social", "tech mixer", "startup social", "tech community"
-        ],
-        "community_types": ["Tech Community", "Startup Community", "Professional Network"],
-        "location_types": ["Coworking Space", "Tech Hub", "Event Space"]
-    },
-    "workshops_training": {
-        "name": "Workshops & Training",
-        "subcategories": [
-            "coding_workshops",    # programming workshops
-            "dev_training",       # developer training
-            "tech_bootcamps",     # technology bootcamps
-            "skill_development",  # technical skill development
-            "certification_prep", # certification preparation
-            "hands_on_labs"       # practical labs
-        ],
-        "keywords": [
-            "workshop", "training", "bootcamp", "course", "class", "certification",
-            "learning", "education", "skill development", "hands-on", "practical",
-            "tutorial", "lab", "technical training", "coding workshop"
-        ],
-        "community_types": ["Education Provider", "Training Center", "Tech School"],
-        "location_types": ["Training Center", "Classroom", "Lab Space"]
-    },
-    "startup_entrepreneurship": {
-        "name": "Startup & Entrepreneurship",
-        "subcategories": [
-            "founder_talks",     # founder presentations
-            "startup_pitch",     # pitch events
-            "funding_events",    # investment/funding events
-            "accelerator_demo",  # accelerator demo days
-            "mentor_sessions",   # mentorship sessions
-            "startup_workshop"   # startup workshops
-        ],
-        "keywords": [
-            "startup", "entrepreneur", "founder", "pitch", "investor", "venture",
-            "funding", "accelerator", "incubator", "mentor", "seed", "angel",
-            "demo day", "pitch deck", "startup pitch", "venture capital"
-        ],
-        "community_types": ["Startup Community", "Investor Network", "Accelerator"],
-        "location_types": ["Startup Hub", "Incubator", "Innovation Center"]
-    },
-    "tech_innovation": {
-        "name": "Tech Innovation & Research",
-        "subcategories": [
-            "tech_demos",        # technology demonstrations
-            "product_launches",  # new product launches
-            "research_talks",    # research presentations
-            "innovation_labs",   # innovation lab events
-            "future_tech",       # emerging technology
-            "research_showcase"  # research exhibitions
-        ],
-        "keywords": [
-            "innovation", "research", "demo", "launch", "prototype", "emerging tech",
-            "future tech", "breakthrough", "invention", "discovery", "showcase",
-            "demonstration", "product launch", "technology demo", "innovation lab"
-        ],
-        "community_types": ["Research Institution", "Innovation Lab", "Tech Company"],
-        "location_types": ["Research Lab", "Innovation Center", "Tech Campus"]
-    },
-    "coworking_workspace": {
-        "name": "Coworking & Workspace",
-        "subcategories": [
-            "space_tours",       # workspace tours
-            "member_events",     # member-only events
-            "workspace_launch",  # new space openings
-            "amenity_showcase",  # facility showcases
-            "community_events",  # community gatherings
-            "workspace_social"   # social events
-        ],
-        "keywords": [
-            "coworking", "workspace", "office space", "hot desk", "dedicated desk",
-            "private office", "meeting room", "conference room", "amenities", "tour",
-            "member event", "facility", "space", "work environment", "flexible workspace"
-        ],
-        "community_types": ["Coworking Space", "Workspace Provider", "Office Community"],
-        "location_types": ["Coworking Space", "Shared Office", "Business Center"]
-    },
-    "special_interest": {
-        "name": "Special Interest Tech",
-        "subcategories": [
-            "ai_ml",            # AI/ML events
-            "blockchain",       # blockchain/crypto
-            "cybersecurity",    # security events
-            "devops",          # DevOps events
-            "mobile_dev",       # mobile development
-            "cloud_computing"   # cloud technology
-        ],
-        "keywords": [
-            "artificial intelligence", "machine learning", "blockchain", "crypto",
-            "cybersecurity", "security", "devops", "mobile", "cloud", "web3",
-            "data science", "big data", "IoT", "AR/VR", "quantum computing"
-        ],
-        "community_types": ["Tech Community", "Special Interest Group", "Professional Association"],
-        "location_types": ["Tech Hub", "Innovation Center", "Research Lab"]
-    }
-}
-
 class EventCategorizer:
     def __init__(self):
-        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        self.tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-        self.model = BertModel.from_pretrained('bert-base-uncased').to(self.device)
-        self.model.eval()
-        
-        # Load community and location data
+        """Initialize the event categorizer"""
+        self.categories = CATEGORIES
         self.communities, self.locations = load_auxiliary_data()
         
-        # Pre-compute category embeddings
-        self.category_embeddings = {}
-        for category, data in CATEGORIES.items():
-            # Combine keywords and subcategories for better embeddings
-            all_terms = data['keywords'] + [sub.replace('_', ' ') for sub in data['subcategories']]
-            self.category_embeddings[category] = self._get_text_embedding(
-                ' '.join(all_terms)
-            )
-            
-        # Build community category mappings
-        self.community_category_mappings = self._build_community_category_mappings()
-    
-    def _build_community_category_mappings(self):
-        """Build mappings between community categories/tags and our event categories"""
-        mappings = {}
+    def determine_event_type(self, event):
+        """Determine if event is tech, academic, or performance based"""
+        title = event.get('name', '').lower()
+        description = event.get('description', '').lower()
+        text = f"{title} {description}"
         
-        # Define category mappings
-        category_map = {
-            # Tech Talks & Conferences
-            "Tech Talks": "tech_talks",
-            "Tech Conferences": "tech_talks",
-            "Meetups": "tech_talks",
-            "Workshops": "tech_talks",
-            "Panels": "tech_talks",
-            "Keynotes": "tech_talks",
-            "Lightning Talks": "tech_talks",
-            
-            # Hackathons & Competitions
-            "Hackathons": "hackathons_competitions",
-            "Competitions": "hackathons_competitions",
-            "Code Challenges": "hackathons_competitions",
-            "Game Jams": "hackathons_competitions",
-            "Datathons": "hackathons_competitions",
-            "Pitch Contests": "hackathons_competitions",
-            "Tech Olympics": "hackathons_competitions",
-            
-            # Networking & Social
-            "Tech Mixers": "networking_social",
-            "Startup Socials": "networking_social",
-            "Founder Meetups": "networking_social",
-            "Industry Nights": "networking_social",
-            "Career Fairs": "networking_social",
-            "Community Events": "networking_social",
-            
-            # Workshops & Training
-            "Coding Workshops": "workshops_training",
-            "Dev Training": "workshops_training",
-            "Tech Bootcamps": "workshops_training",
-            "Skill Development": "workshops_training",
-            "Certification Prep": "workshops_training",
-            "Hands-on Labs": "workshops_training",
-            
-            # Startup & Entrepreneurship
-            "Founder Talks": "startup_entrepreneurship",
-            "Startup Pitch": "startup_entrepreneurship",
-            "Funding Events": "startup_entrepreneurship",
-            "Accelerator Demo": "startup_entrepreneurship",
-            "Mentor Sessions": "startup_entrepreneurship",
-            "Startup Workshop": "startup_entrepreneurship",
-            
-            # Tech Innovation & Research
-            "Tech Demos": "tech_innovation",
-            "Product Launches": "tech_innovation",
-            "Research Talks": "tech_innovation",
-            "Innovation Labs": "tech_innovation",
-            "Future Tech": "tech_innovation",
-            "Research Showcase": "tech_innovation",
-            
-            # Coworking & Workspace
-            "Space Tours": "coworking_workspace",
-            "Member Events": "coworking_workspace",
-            "Workspace Launch": "coworking_workspace",
-            "Amenity Showcase": "coworking_workspace",
-            "Community Events": "coworking_workspace",
-            "Workspace Social": "coworking_workspace",
-            
-            # Special Interest Tech
-            "AI/ML Events": "special_interest",
-            "Blockchain Events": "special_interest",
-            "Cybersecurity Events": "special_interest",
-            "DevOps Events": "special_interest",
-            "Mobile Development": "special_interest",
-            "Cloud Technology": "special_interest"
+        # Academic indicators
+        academic_terms = {
+            "lecture", "seminar", "symposium", "colloquium", "thesis", 
+            "dissertation", "research presentation", "academic", "faculty",
+            "professor", "scholar", "department", "university", "college"
         }
         
-        # Build mappings for each community
-        for community_id, community in self.communities.items():
-            community_mappings = set()
-            
-            # Map community categories
-            for category in community.get('category', []):
-                if category in category_map:
-                    community_mappings.add(category_map[category])
-            
-            # Map community tags
-            for tag in community.get('tags', []):
-                tag_upper = tag.title()
-                if tag_upper in category_map:
-                    community_mappings.add(category_map[tag_upper])
-            
-            # Map community type
-            comm_type = community.get('type', '')
-            if comm_type in category_map:
-                community_mappings.add(category_map[comm_type])
-            
-            mappings[community_id] = list(community_mappings)
-            
-        return mappings
-    
-    def _get_community_categories(self, event: Dict) -> List[str]:
-        """Get relevant categories based on community information"""
-        community_id = event.get('communityId')
-        if not community_id or community_id not in self.communities:
-            return []
-            
-        # Get pre-mapped categories for this community
-        base_categories = self.community_category_mappings.get(community_id, [])
+        # Performance indicators
+        performance_terms = {
+            "concert", "recital", "performance", "theatre", "theater",
+            "dance", "exhibition", "gallery", "screening", "film",
+            "music", "play", "show", "art", "artistic", "performer"
+        }
         
-        # Get community data
-        community = self.communities[community_id]
+        # Count matches for each type
+        academic_count = sum(1 for term in academic_terms if term in text)
+        performance_count = sum(1 for term in performance_terms if term in text)
         
-        # Add categories based on community type
-        if community.get('type') == 'Cultural Institution':
-            base_categories.append('tech_talks')
-        elif community.get('type') == 'Tech Community':
-            base_categories.append('workshops_training')
+        # Default to tech unless strong indicators of other types
+        if academic_count > 2:
+            return "academic"
+        elif performance_count > 2:
+            return "performance"
+        return "tech"
+
+    def categorize_event(self, event):
+        """Categorize an event based on its content"""
+        # Determine event type first
+        event_type = self.determine_event_type(event)
+        event['event_type'] = event_type
         
-        return list(set(base_categories))  # Remove duplicates
-    
-    def _get_text_embedding(self, text: str) -> np.ndarray:
-        """Get BERT embedding for a text string"""
-        with torch.no_grad():
-            inputs = self.tokenizer(
-                text,
-                return_tensors='pt',
-                truncation=True,
-                max_length=512,
-                padding=True
-            ).to(self.device)
+        if event_type != "tech":
+            # Skip tech categorization for non-tech events
+            return event
             
-            outputs = self.model(**inputs)
-            # Use CLS token embedding as text representation
-            embedding = outputs.last_hidden_state[0][0].cpu().numpy()
-            
-        return embedding
-    
-    def _cosine_similarity(self, a: np.ndarray, b: np.ndarray) -> float:
-        """Calculate cosine similarity between two vectors"""
-        return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-    
-    def _get_community_boost(self, event: Dict, category: str, similarity: float) -> float:
-        """Calculate confidence boost based on community data"""
-        boost = 0.0
+        # Prepare text for analysis
+        text = self._prepare_text_for_analysis(event).lower()
         
-        # Get community data if available
-        community_id = event.get('communityId')
-        if community_id and community_id in self.communities:
-            community = self.communities[community_id]
+        # Get category predictions
+        predictions = self._get_category_predictions(text)
+        
+        if not predictions:
+            return event
             
-            # Boost if community type matches category
-            if community['type'] in CATEGORIES[category].get('community_types', []):
-                boost += 0.15
+        # Get highest confidence category
+        top_category = max(predictions, key=lambda x: x[1])
+        category_id, confidence = top_category
+        
+        if confidence < 0.15:  # Minimum confidence threshold
+            return event
             
-            # Boost based on community categories
-            community_categories = [cat.lower() for cat in community.get('category', [])]
-            category_keywords = [kw.lower() for kw in CATEGORIES[category]['keywords']]
-            if any(cat in category_keywords for cat in community_categories):
-                boost += 0.1
+        # Add category with rounded confidence
+        event['category'] = {
+            'id': category_id,
+            'name': self.categories[category_id]['name'],
+            'confidence': round(float(confidence), 3)
+        }
+        
+        # Generate subcategories
+        subcats = self._generate_subcategories(category_id, text)
+        if subcats:
+            event['subcategories'] = subcats
+            
+        return event
+
+    def _prepare_text_for_analysis(self, event):
+        """Prepare event text for analysis"""
+        text_parts = [
+            event.get('name', ''),
+            event.get('description', ''),
+            event.get('organizer', {}).get('name', '') if isinstance(event.get('organizer'), dict) else '',
+            event.get('venue', {}).get('name', '') if isinstance(event.get('venue'), dict) else ''
+        ]
+        
+        # Add speaker names if available
+        speakers = event.get('speakers', [])
+        if speakers and isinstance(speakers, list):
+            for speaker in speakers:
+                if isinstance(speaker, dict):
+                    text_parts.append(speaker.get('name', ''))
+                elif isinstance(speaker, str):
+                    text_parts.append(speaker)
+            
+        return ' '.join(filter(None, text_parts))
+
+    def _get_category_predictions(self, text):
+        """Get category predictions with confidence scores based on keyword matching"""
+        predictions = []
+        
+        for cat_id, cat_data in self.categories.items():
+            # Calculate keyword matches
+            match_count = 0
+            total_keywords = len(cat_data['keywords'])
+            
+            for keyword in cat_data['keywords']:
+                if keyword.lower() in text:
+                    match_count += 1
+            
+            # Calculate confidence based on percentage of matching keywords
+            if total_keywords > 0 and match_count > 0:
+                confidence = round(match_count / total_keywords, 3)
+                predictions.append((cat_id, confidence))
                 
-            # Boost based on community tags
-            community_tags = [tag.lower() for tag in community.get('tags', [])]
-            if any(tag in category_keywords for tag in community_tags):
-                boost += 0.05
+        return sorted(predictions, key=lambda x: x[1], reverse=True)
+
+    def _generate_subcategories(self, category_id, text):
+        """Generate relevant subcategories for an event based on keyword matching"""
+        subcats = []
+        category = self.categories[category_id]
         
-        return min(boost, 0.3)  # Cap the boost at 0.3
-    
-    def _get_location_boost(self, event: Dict, category: str, similarity: float) -> float:
-        """Calculate confidence boost based on location data"""
-        boost = 0.0
-        
-        # Get location data if available
-        location_id = event.get('locationId')
-        if location_id and location_id in self.locations:
-            location = self.locations[location_id]
+        for subcat in category['subcategories']:
+            # Direct keyword matching
+            subcat_terms = self._get_subcat_terms(subcat)
+            if any(term.lower() in text for term in subcat_terms):
+                subcats.append(subcat)
+                
+        return subcats[:3]  # Limit to top 3 most relevant subcategories
+
+    def _get_subcat_terms(self, subcat):
+        """Get related terms for a subcategory"""
+        # Define related terms for each subcategory
+        subcat_terms = {
+            # Tech Talks & Conferences
+            "tech_conferences": ["conference", "summit", "convention", "expo", "symposium"],
+            "tech_meetups": ["meetup", "gathering", "community event", "tech event"],
+            "dev_talks": ["developer talk", "engineering talk", "tech presentation"],
+            "product_talks": ["product demo", "launch event", "showcase"],
+            "tech_panels": ["panel discussion", "expert panel", "industry panel"],
+            "lightning_talks": ["lightning talk", "flash talk", "quick presentation"],
             
-            # Boost if location type matches category
-            if location['type'] in CATEGORIES[category].get('location_types', []):
-                boost += 0.15
+            # Hackathons & Competitions
+            "hackathons": ["hackathon", "coding competition", "hack event"],
+            "code_challenges": ["coding challenge", "programming contest", "algorithm competition"],
+            "game_jams": ["game jam", "game dev", "game development event"],
+            "datathons": ["datathon", "data science competition", "data challenge"],
+            "design_sprints": ["design sprint", "rapid prototyping", "innovation sprint"],
+            "tech_competitions": ["tech contest", "technology competition", "innovation challenge"],
             
-            # Boost based on location amenities
-            amenities = [am.lower() for am in location.get('amenities', [])]
-            category_keywords = [kw.lower() for kw in CATEGORIES[category]['keywords']]
-            if any(am in category_keywords for am in amenities):
-                boost += 0.1
-        
-        return min(boost, 0.3)  # Cap the boost at 0.3
-    
-    def categorize_event(self, event: Dict) -> List[Tuple[str, float]]:
-        """Categorize an event using both community info and content analysis"""
-        # Get community-based categories first
-        community_categories = self._get_community_categories(event)
-        
-        # Combine relevant text fields with different weights
-        event_text = (
-            f"{event.get('name', '')} " 
-            f"{' '.join(event.get('tags', []))} " 
-            f"{event.get('type', '')} " * 2 +  # Weight event type
-            f"{' '.join(str(cat) for cat in event.get('category', []))} " 
-            f"{event.get('description', '')} "  # Base weight for description
-        )
-        
-        # Get event embedding
-        event_embedding = self._get_text_embedding(event_text)
-        
-        # Calculate similarity with each category
-        similarities = []
-        for category, embedding in self.category_embeddings.items():
-            # Get base similarity
-            similarity = self._cosine_similarity(event_embedding, embedding)
+            # Networking & Social
+            "tech_mixers": ["mixer", "networking event", "social gathering"],
+            "startup_socials": ["startup event", "founder social", "entrepreneur meetup"],
+            "industry_meetups": ["industry event", "professional meetup", "business networking"],
+            "career_events": ["career fair", "job fair", "recruitment event"],
+            "community_gatherings": ["community event", "tech community", "local tech"],
+            "social_events": ["social", "casual meetup", "informal gathering"],
             
-            # Boost score if category was suggested by community info
-            if category in community_categories:
-                similarity = min(similarity * 1.5, 1.0)  # 50% boost, capped at 1.0
+            # Workshops & Training
+            "dev_workshops": ["developer workshop", "coding workshop", "programming training"],
+            "tech_training": ["technical training", "technology course", "tech education"],
+            "skill_workshops": ["skill building", "professional development", "learning session"],
+            "code_labs": ["coding lab", "programming lab", "hands-on coding"],
+            "tech_bootcamps": ["bootcamp", "intensive training", "tech camp"],
+            "certification_prep": ["certification", "exam prep", "qualification training"],
             
-            # Apply community-based boost
-            community_boost = self._get_community_boost(event, category, similarity)
-            
-            # Apply location-based boost
-            location_boost = self._get_location_boost(event, category, similarity)
-            
-            # Combine base similarity with boosts
-            final_similarity = min(similarity + community_boost + location_boost, 1.0)
-            
-            similarities.append((category, final_similarity))
+            # Special Interest Tech
+            "ai_ml_events": ["AI", "machine learning", "artificial intelligence", "deep learning"],
+            "blockchain_crypto": ["blockchain", "cryptocurrency", "web3", "crypto"],
+            "cybersecurity": ["security", "cyber", "infosec", "network security"],
+            "cloud_computing": ["cloud", "aws", "azure", "cloud native"],
+            "mobile_dev": ["mobile", "ios", "android", "app development"],
+            "web_development": ["web dev", "frontend", "backend", "full stack"]
+        }
         
-        # Sort by similarity score
-        similarities.sort(key=lambda x: x[1], reverse=True)
-        
-        # Filter out low confidence matches
-        return [(cat, conf) for cat, conf in similarities if conf > 0.6]  # Lowered threshold for better coverage
+        return subcat_terms.get(subcat, [subcat.replace('_', ' ')])
 
 def load_events(file_path: str) -> List[Dict]:
     """Load events from a JSON file"""
@@ -566,7 +470,7 @@ def generate_locations_from_events(events: List[Dict], existing_locations: Dict)
 
 def deduplicate_events(events: List[Dict]) -> List[Dict]:
     """
-    Deduplicate events based on Luma URLs or identical event details.
+    Deduplicate events based on Luma URLs, identical event details, or matching against existing events.
     For duplicate events, preserve both location and community information.
     """
     logging.info("\n=== Starting Event Deduplication ===")
@@ -576,6 +480,26 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
     events = [event for event in events if event.get('name') and event.get('name').strip()]
     if original_count > len(events):
         logging.info(f"Filtered out {original_count - len(events)} events without a name or with a blank name")
+    
+    # Create a unique event identifier based on name, date, and community
+    event_signatures = set()
+    deduplicated_by_signature = []
+    
+    for event in events:
+        name = event.get('name', '').strip().lower() if event.get('name') else ''
+        start_date = event.get('startDate', '') if event.get('startDate') else ''
+        community_id = event.get('communityId', '') if event.get('communityId') else ''
+        
+        # Create a signature for this event
+        signature = f"{name}_{start_date}_{community_id}"
+        
+        # If we haven't seen this signature before, keep the event
+        if signature not in event_signatures:
+            event_signatures.add(signature)
+            deduplicated_by_signature.append(event)
+        
+    logging.info(f"Removed {len(events) - len(deduplicated_by_signature)} events based on name/date/community signature")
+    events = deduplicated_by_signature
     
     # Group events by their Luma URL if available
     events_by_luma_url = {}
@@ -611,14 +535,14 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
             logging.info(f"\nFound {len(event_group)} duplicate events with URL: {luma_url}")
             for idx, event in enumerate(event_group, 1):
                 logging.info(f"\nDuplicate #{idx}:")
-                logging.info(f"  Title: {event.get('name', 'N/A')}")
-                logging.info(f"  Community ID: {event.get('communityId', 'N/A')}")
-                logging.info(f"  Location: {event.get('locationId', 'N/A')}")
-                logging.info(f"  Source: {event.get('source', 'N/A')}")
+                logging.info(f"  Title: {ensure_ascii_safe(event.get('name', 'N/A'))}")
+                logging.info(f"  Community ID: {ensure_ascii_safe(event.get('communityId', 'N/A'))}")
+                logging.info(f"  Location: {ensure_ascii_safe(event.get('locationId', 'N/A'))}")
+                logging.info(f"  Source: {ensure_ascii_safe(event.get('source', 'N/A'))}")
                 if event.get('metadata'):
-                    logging.info(f"  Organizer: {event['metadata'].get('organizer', 'N/A')}")
+                    logging.info(f"  Organizer: {ensure_ascii_safe(event['metadata'].get('organizer', 'N/A'))}")
                     if 'speakers' in event['metadata']:
-                        speakers = [s.get('name', 'N/A') for s in event['metadata']['speakers']]
+                        speakers = [ensure_ascii_safe(s.get('name', 'N/A')) for s in event['metadata']['speakers']]
                         logging.info(f"  Speakers: {', '.join(speakers)}")
             
             # Merge duplicate events
@@ -628,8 +552,47 @@ def deduplicate_events(events: List[Dict]) -> List[Dict]:
     # Add events without Luma URLs
     deduplicated_events.extend(events_without_luma)
     
+    # Final step: Check against existing events in the data file to prevent infinite duplicates
+    try:
+        existing_events = []
+        existing_events_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
+                                          'tech', 'data', 'all_events_categorized.json')
+        
+        if os.path.exists(existing_events_path):
+            with open(existing_events_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                existing_events = data.get('events', [])
+            
+            logging.info(f"Loaded {len(existing_events)} existing events for deduplication check")
+            
+            # Create signatures for existing events
+            existing_signatures = set()
+            for event in existing_events:
+                name = event.get('name', '').strip().lower() if event.get('name') else ''
+                start_date = event.get('startDate', '') if event.get('startDate') else ''
+                community_id = event.get('communityId', '') if event.get('communityId') else ''
+                signature = f"{name}_{start_date}_{community_id}"
+                existing_signatures.add(signature)
+            
+            # Filter out events that already exist
+            final_events = []
+            for event in deduplicated_events:
+                name = event.get('name', '').strip().lower() if event.get('name') else ''
+                start_date = event.get('startDate', '') if event.get('startDate') else ''
+                community_id = event.get('communityId', '') if event.get('communityId') else ''
+                signature = f"{name}_{start_date}_{community_id}"
+                
+                if signature not in existing_signatures:
+                    final_events.append(event)
+            
+            logging.info(f"Removed {len(deduplicated_events) - len(final_events)} events that already exist in the database")
+            deduplicated_events = final_events
+    except Exception as e:
+        logging.warning(f"Error checking against existing events: {str(e)}")
+        logging.warning("Proceeding with deduplicated events without checking against existing database")
+    
     logging.info(f"\n=== Deduplication Summary ===")
-    logging.info(f"Total events before deduplication: {len(events)}")
+    logging.info(f"Total events before deduplication: {original_count}")
     logging.info(f"Total events after deduplication: {len(deduplicated_events)}")
     logging.info(f"Number of duplicate groups found: {len([g for g in events_by_luma_url.values() if len(g) > 1])}")
     logging.info("=====================================\n")
@@ -666,8 +629,8 @@ def merge_duplicate_events(event_group: List[Dict]) -> Dict:
     # Get associated communities (all except primary)
     associated_communities = [c for c, _ in communities_with_priority if c != primary_community_id]
     
-    logging.info(f"  Primary Community: {primary_community_id}")
-    logging.info(f"  Associated Communities: {', '.join(associated_communities) if associated_communities else 'None'}")
+    logging.info(f"  Primary Community: {ensure_ascii_safe(primary_community_id)}")
+    logging.info(f"  Associated Communities: {', '.join([ensure_ascii_safe(c) for c in associated_communities]) if associated_communities else 'None'}")
     
     # Initialize or update metadata
     if 'metadata' not in merged_event:
@@ -730,7 +693,7 @@ def merge_duplicate_events(event_group: List[Dict]) -> Dict:
     if organizers:
         merged_event['metadata']['organizers'] = organizers
         # Log organizer names only
-        organizer_names = [org.get('name', 'Unknown') for org in organizers]
+        organizer_names = [ensure_ascii_safe(org.get('name', 'Unknown')) for org in organizers]
         logging.info(f"  Organizers: {', '.join(organizer_names)}")
     
     # Remove any speaker duplicates
@@ -747,7 +710,7 @@ def merge_duplicate_events(event_group: List[Dict]) -> Dict:
         
         if len(speakers) != len(unique_speakers):
             logging.info(f"  Removed {len(speakers) - len(unique_speakers)} duplicate speakers")
-            logging.info(f"  Final speakers: {', '.join(s.get('name', 'N/A') for s in unique_speakers)}")
+            logging.info(f"  Final speakers: {', '.join(ensure_ascii_safe(s.get('name', 'N/A')) for s in unique_speakers)}")
                 
         merged_event['metadata']['speakers'] = unique_speakers
     
@@ -783,7 +746,6 @@ def create_default_events() -> List[Dict]:
             "description": description,
             "startDate": (datetime.now() + timedelta(days=i*7)).isoformat(),
             "endDate": (datetime.now() + timedelta(days=i*7, hours=2)).isoformat(),
-            "category": ["Tech"],
             "price": {
                 "amount": price,
                 "type": price_type,
@@ -792,7 +754,6 @@ def create_default_events() -> List[Dict]:
             },
             "capacity": 100,
             "registrationRequired": True,
-            "tags": tags,
             "image": "default-event.jpg",
             "status": "upcoming",
             "metadata": {
@@ -804,189 +765,167 @@ def create_default_events() -> List[Dict]:
                     "type": "Other"
                 }
             }
-        } for i, (name, description, price, price_type, tags) in enumerate([
+        } for i, (name, description, price, price_type) in enumerate([
             (
                 "Introduction to AI Workshop",
                 "Learn the basics of artificial intelligence and machine learning in this hands-on workshop.",
-                0, "Free", ["AI", "Workshop", "Tech"]
+                0, "Free"
             ),
             (
                 "NYC Tech Networking Mixer",
                 "Connect with fellow tech professionals in a casual networking environment.",
-                10, "Paid", ["Networking", "Social", "Tech"]
+                10, "Paid"
             ),
             (
                 "Startup Pitch Night",
                 "Watch innovative startups pitch their ideas to potential investors.",
-                15, "Paid", ["Startup", "Pitch", "Innovation"]
+                15, "Paid"
             ),
             (
                 "Web3 Developer Conference",
                 "A full-day conference exploring the latest in blockchain and web3 development.",
-                50, "Paid", ["Blockchain", "Conference", "Development"]
+                50, "Paid"
             ),
             (
                 "Data Science Hackathon",
                 "48-hour hackathon focused on solving real-world problems with data science.",
-                0, "Free", ["Hackathon", "Data Science", "Competition"]
+                0, "Free"
             )
         ])
     ]
     
     return default_events
 
-def main():
-    # Create necessary directories
-    os.makedirs('scrapers/data', exist_ok=True)
-    os.makedirs('stats', exist_ok=True)
-    os.makedirs('data', exist_ok=True)
-    
-    # Initialize categorizer
+def process_events(events):
+    """Process and categorize events"""
     categorizer = EventCategorizer()
+    processed_events = []
+    stats = {
+        'total': len(events),
+        'tech': 0,
+        'academic': 0,
+        'performance': 0,
+        'categories': defaultdict(int),
+        'subcategories': defaultdict(int)
+    }
     
-    # Get all JSON files from data directory
-    data_dir = 'scrapers/data'
-    json_files = [f for f in os.listdir(data_dir) if f.endswith('.json')]
-    
-    all_events = []
-    category_stats = {}  # Track statistics for each category
-    source_stats = {}    # Track statistics for each source file
-    
-    # Process each input file
-    for json_file in json_files:
-        file_path = os.path.join(data_dir, json_file)
-        source_name = json_file.replace('.json', '')
+    for event in events:
+        # Remove unused fields
+        event.pop('category', None)
+        event.pop('tags', None)
         
-        logging.info(f"\nProcessing {json_file}")
-        events = load_events(file_path)
+        # Categorize event
+        processed_event = categorizer.categorize_event(event)
         
-        # Filter out events without a name or with a blank name
-        original_count = len(events)
-        events = [event for event in events if event.get('name') and event.get('name').strip()]
-        if original_count > len(events):
-            logging.info(f"Filtered out {original_count - len(events)} events without a name or with a blank name")
+        # Update statistics
+        event_type = processed_event.get('event_type')
+        stats[event_type] += 1
         
-        source_stats[source_name] = {'total': len(events), 'categorized': 0, 'categories': {}}
+        if event_type == 'tech':
+            if 'category' in processed_event:
+                stats['categories'][processed_event['category']['id']] += 1
+            
+            if 'subcategories' in processed_event:
+                for subcat in processed_event['subcategories']:
+                    stats['subcategories'][subcat] += 1
         
-        # Add events to all_events list
-        all_events.extend(events)
+        processed_events.append(processed_event)
     
-    # If no events found, create default events
-    if not all_events:
-        all_events = create_default_events()
-        source_stats['default'] = {'total': len(all_events), 'categorized': 0, 'categories': {}}
+    # Log statistics
+    logging.info(f"Processed {stats['total']} events:")
+    logging.info(f"- Tech events: {stats['tech']}")
+    logging.info(f"- Academic events: {stats['academic']}")
+    logging.info(f"- Performance events: {stats['performance']}")
+    
+    if stats['tech'] > 0:
+        logging.info("\nTop tech categories:")
+        for cat_id, count in sorted(stats['categories'].items(), key=lambda x: x[1], reverse=True)[:5]:
+            cat_name = CATEGORIES[cat_id]['name']
+            logging.info(f"- {cat_name}: {count}")
         
-        # Save default events to data directory
-        with open(os.path.join(data_dir, 'default_events.json'), 'w', encoding='utf-8') as f:
-            json.dump({'events': all_events}, f, indent=2, ensure_ascii=False)
-        
-        logging.info(f"Created {len(all_events)} default events")
+        logging.info("\nTop tech subcategories:")
+        for subcat, count in sorted(stats['subcategories'].items(), key=lambda x: x[1], reverse=True)[:5]:
+            logging.info(f"- {subcat}: {count}")
     
-    # Categorize events
-    for event in tqdm(all_events, desc="Categorizing events"):
-        # Get category predictions
-        categories = categorizer.categorize_event(event)
-        
-        # Construct event text for subcategory matching
-        event_text = (
-            f"{event.get('name', '')} " +
-            f"{event.get('description', '')} " +
-            f"{' '.join(event.get('tags', []))} " +
-            f"{event.get('type', '')} " +
-            f"{' '.join(str(cat) for cat in event.get('category', []))}"
-        ).lower()
-        
-        # Check for farmers market specifically
-        if any(kw in event_text for kw in ["greenmarket", "farmstand", "farm stand", "farmers market"]):
-            # Add farmers market as a high confidence category if found
-            categories = [("farmers_market", 0.95)] + [c for c in categories if c[0] != "farmers_market"]
-        
-        # Add top categories to event
-        event['categories'] = [
-            {
-                'name': CATEGORIES[cat]['name'],
-                'id': cat,
-                'confidence': float(conf),
-                'subcategories': [
-                    sub for sub in CATEGORIES[cat]['subcategories']
-                    if any(kw in event_text for kw in [sub.replace('_', ' ')])
-                ]
-            }
-            for cat, conf in categories[:3]  # Keep top 3 categories
-            if conf > 0.6  # Lower threshold to 40% for better coverage
-        ]
-        
-        # Track statistics
-        if event['categories']:
-            source_stats[source_name]['categorized'] += 1
-            for cat in event['categories']:
-                # Update source stats
-                source_stats[source_name]['categories'][cat['id']] = \
-                    source_stats[source_name]['categories'].get(cat['id'], 0) + 1
-                
-                # Update overall category stats
-                if cat['id'] not in category_stats:
-                    category_stats[cat['id']] = {
-                        'name': cat['name'],
-                        'total': 0,
-                        'sources': {},
-                        'avg_confidence': 0,
-                        'subcategories': {}
-                    }
-                category_stats[cat['id']]['total'] += 1
-                category_stats[cat['id']]['sources'][source_name] = \
-                    category_stats[cat['id']]['sources'].get(source_name, 0) + 1
-                category_stats[cat['id']]['avg_confidence'] += cat['confidence']
-                
-                # Track subcategories
-                for sub in cat.get('subcategories', []):
-                    category_stats[cat['id']]['subcategories'][sub] = \
-                        category_stats[cat['id']]['subcategories'].get(sub, 0) + 1
-        
-        # Add source information
-        event['source'] = source_name
-    
-    # Deduplicate events before saving
-    all_events = deduplicate_events(all_events)
-    
-    # Load existing locations
-    existing_locations = {}
-    try:
-        with open('data/locations.json', 'r', encoding='utf-8') as f:
-            existing_locations = {loc['id']: loc for loc in json.load(f).get('locations', [])}
-    except Exception as e:
-        logging.warning(f"Could not load existing locations: {e}")
-    
-    # Generate new locations from events
-    new_locations, venue_to_location = generate_locations_from_events(all_events, existing_locations)
-    
-    # Combine existing and new locations
-    all_locations = {**existing_locations, **new_locations}
-    
-    # Calculate category averages
-    for cat_id, stats in category_stats.items():
-        if stats['total'] > 0:
-            stats['avg_confidence'] = round(stats['avg_confidence'] / stats['total'], 2)
-    
-    # Save categorized events
-    save_categorized_events(all_events, 'data/events.json')
-    
-   
-    # Save category statistics
-    with open('stats/category_stats.json', 'w', encoding='utf-8') as f:
-        json.dump(category_stats, f, indent=2, ensure_ascii=False)
-    
-    # Save source statistics
-    with open('stats/source_stats.json', 'w', encoding='utf-8') as f:
-        json.dump(source_stats, f, indent=2, ensure_ascii=False)
-    
-    # Print summary
-    logging.info("\nSummary:")
-    logging.info(f"Total events: {len(all_events)}")
-    logging.info(f"Total locations: {len(all_locations)}")
-    logging.info("Top categories:")
-    for cat_id, stats in sorted(category_stats.items(), key=lambda x: x[1]['total'], reverse=True)[:10]:
-        logging.info(f"  {stats['name']}: {stats['total']} events ({stats['avg_confidence']} avg confidence)")
+    return processed_events
 
-if __name__ == "__main__":
-    main() 
+def main():
+    """Main entry point"""
+    parser = argparse.ArgumentParser(description='Categorize events from JSON file')
+    parser.add_argument('input_file', help='Input JSON file containing events')
+    parser.add_argument('output_file', help='Output JSON file to write categorized events')
+    args = parser.parse_args()
+    
+    try:
+        # Load events
+        with open(args.input_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            events = data.get('events', [])
+        
+        if not events:
+            logging.error(f"No events found in {args.input_file}")
+            return 1
+            
+        # Process events
+        processed_events = process_events(events)
+        
+        # Write output
+        with open(args.output_file, 'w', encoding='utf-8') as f:
+            json.dump({'events': processed_events}, f, indent=2, ensure_ascii=False)
+            
+        logging.info(f"\nCategorized events written to {args.output_file}")
+        return 0
+        
+    except Exception as e:
+        logging.error(f"Error processing events: {str(e)}")
+        return 1
+
+def ensure_ascii_safe(text):
+    """Ensure text is safely represented for logging, handling all Unicode characters.
+    
+    This function:
+    1. Converts None to 'N/A'
+    2. Replaces emojis with [emoji] 
+    3. Handles any other Unicode encoding errors
+    
+    Returns a string safe for logging in any environment.
+    """
+    if text is None:
+        return "N/A"
+    
+    try:
+        # Convert to string if not already
+        text = str(text)
+        
+        # Pattern to detect emoji characters
+        emoji_pattern = re.compile(
+            "["
+            "\U0001F600-\U0001F64F"  # emoticons
+            "\U0001F300-\U0001F5FF"  # symbols & pictographs
+            "\U0001F680-\U0001F6FF"  # transport & map symbols
+            "\U0001F700-\U0001F77F"  # alchemical symbols
+            "\U0001F780-\U0001F7FF"  # Geometric Shapes
+            "\U0001F800-\U0001F8FF"  # Supplemental Arrows-C
+            "\U0001F900-\U0001F9FF"  # Supplemental Symbols and Pictographs
+            "\U0001FA00-\U0001FA6F"  # Chess Symbols
+            "\U0001FA70-\U0001FAFF"  # Symbols and Pictographs Extended-A
+            "\U00002702-\U000027B0"  # Dingbats
+            "\U000024C2-\U0001F251" 
+            "]+"
+        )
+        
+        # Replace emojis with placeholder
+        text = emoji_pattern.sub("[emoji]", text)
+        
+        # Try to ensure it's ASCII safe
+        return text
+    except UnicodeEncodeError:
+        # If still getting encode errors, try to normalize
+        try:
+            return unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('ascii')
+        except:
+            # Last resort: fully ASCII representation
+            return repr(text)
+
+if __name__ == '__main__':
+    sys.exit(main()) 

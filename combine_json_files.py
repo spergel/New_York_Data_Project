@@ -12,6 +12,7 @@ import glob
 from typing import List, Dict, Set, Counter
 from pathlib import Path
 from collections import Counter
+from datetime import datetime
 
 # Import from our utilities module
 from utils.event_utils import (
@@ -22,6 +23,9 @@ from utils.event_utils import (
     convert_event_format,
     extract_locations_and_communities
 )
+
+# Import from general models
+from general.models import EventCategory, EventStatus, Price, Venue, Organizer, EventMetadata
 
 # Configure logging
 logging.basicConfig(
@@ -51,6 +55,153 @@ def extract_group_name(file_path: str) -> str:
         return parts[0]
     return "unknown"
 
+def standardize_event_fields(event: Dict, source_group: str) -> Dict:
+    """
+    Standardize event fields to a common format while preserving essential data.
+    Ensures consistent field names and removes extraneous fields.
+    """
+    # Create a new standardized event with only the fields we want
+    standardized = {}
+    
+    # Essential fields - preserve and standardize names
+    standardized['id'] = event.get('id', '')
+    
+    # Name field - could be 'name', 'title', or others
+    standardized['name'] = event.get('name', event.get('title', ''))
+    
+    # Type field
+    standardized['type'] = event.get('type', '')
+    
+    # Description field
+    standardized['description'] = event.get('description', '')
+    
+    # Dates - standardize to start_date and end_date
+    standardized['start_date'] = event.get('start_date', event.get('startDate', event.get('start_time', '')))
+    standardized['end_date'] = event.get('end_date', event.get('endDate', event.get('end_time', '')))
+    
+    # Location and community - standardize field names
+    standardized['location_id'] = event.get('location_id', event.get('locationId', ''))
+    standardized['community_id'] = event.get('community_id', event.get('communityId', ''))
+    
+    # Categories - map to unified EventCategory enum
+    categories = set()
+    
+    # Process original categories
+    if 'category' in event:
+        orig_cats = event['category']
+        if isinstance(orig_cats, list):
+            for cat in orig_cats:
+                # Try to map the category to our enum
+                cat_str = str(cat).upper()
+                try:
+                    # Try direct mapping
+                    categories.add(EventCategory[cat_str])
+                except KeyError:
+                    # Try to find a matching category
+                    for enum_cat in EventCategory:
+                        if cat_str in enum_cat.value or cat_str in enum_cat.name:
+                            categories.add(enum_cat)
+                            break
+    
+    # Process academic categories
+    if 'categories' in event:
+        academic_cats = event['categories']
+        if isinstance(academic_cats, list):
+            for cat in academic_cats:
+                if isinstance(cat, dict) and 'id' in cat:
+                    cat_id = cat['id'].upper()
+                    try:
+                        categories.add(EventCategory[cat_id])
+                    except KeyError:
+                        pass
+                elif isinstance(cat, str):
+                    cat_str = cat.upper()
+                    try:
+                        categories.add(EventCategory[cat_str])
+                    except KeyError:
+                        pass
+    
+    # Process tech categories
+    if 'tech_categories' in event:
+        tech_cats = event['tech_categories']
+        if isinstance(tech_cats, list):
+            for cat in tech_cats:
+                if isinstance(cat, dict) and 'id' in cat:
+                    cat_id = f"TECH_{cat['id'].upper()}"
+                    try:
+                        categories.add(EventCategory[cat_id])
+                    except KeyError:
+                        pass
+    
+    # Process exercise categories
+    if 'exercise_categories' in event:
+        exercise_cats = event['exercise_categories']
+        if isinstance(exercise_cats, list):
+            for cat in exercise_cats:
+                if isinstance(cat, str):
+                    cat_str = cat.upper()
+                    try:
+                        categories.add(EventCategory[cat_str])
+                    except KeyError:
+                        pass
+    
+    # If no categories were mapped, add OTHER
+    if not categories:
+        categories.add(EventCategory.OTHER)
+    
+    standardized['category'] = list(categories)
+    
+    # Price information
+    if 'price' in event:
+        standardized['price'] = event['price']
+    else:
+        # Create default price object
+        standardized['price'] = {
+            'amount': 0.0,
+            'type': 'free',
+            'details': None
+        }
+    
+    # Status
+    if 'status' in event:
+        standardized['status'] = event.get('status', 'scheduled')
+    
+    # Tags
+    if 'tags' in event:
+        standardized['tags'] = event['tags']
+    
+    # Registration info
+    if 'registration_required' in event:
+        standardized['registration_required'] = event['registration_required']
+    
+    # Image URL
+    if 'image_url' in event:
+        standardized['image_url'] = event['image_url']
+    
+    # Metadata - preserve but standardize structure
+    standardized['metadata'] = {
+        'source_url': '',
+        'source_name': source_group
+    }
+    
+    if 'metadata' in event:
+        standardized['metadata'].update(event['metadata'])
+    else:
+        # Try to construct metadata from individual fields
+        if 'venue' in event:
+            standardized['metadata']['venue'] = event['venue']
+        if 'organizer' in event:
+            standardized['metadata']['organizer'] = event['organizer']
+        if 'source_url' in event:
+            standardized['metadata']['source_url'] = event['source_url']
+        if 'source_name' in event:
+            standardized['metadata']['source_name'] = event['source_name']
+    
+    # Add source group
+    standardized['source_group'] = source_group
+    
+    return standardized
+
 def combine_events():
     """Find and combine event JSON files"""
     # Find all event JSON files (specifically named events.json)
@@ -68,68 +219,75 @@ def combine_events():
         logging.info(f"Loaded {len(events)} events from {file_path}")
         
         # Track categories by group
-        group_categories[group_name] = set()
+        group_categories[group_name] = Counter()
         
-        # Convert each event to the standardized format
-        converted_events = []
+        # Process each event
         for event in events:
-            # Add source group to the event
-            event['sourceGroup'] = group_name
+            # Check if event matches our criteria
+            is_networking = False
             
-            # Collect categories before conversion
+            # Check categories for networking_social
             if 'category' in event:
-                categories = event['category']
-                if isinstance(categories, list):
-                    for category in categories:
-                        all_categories.add(category)
-                        category_distribution[category] += 1
-                        group_categories[group_name].add(category)
-                elif isinstance(categories, str):
-                    all_categories.add(categories)
-                    category_distribution[categories] += 1
-                    group_categories[group_name].add(categories)
+                categories = event.get('category', [])
+                if not isinstance(categories, list):
+                    categories = [categories]
+                
+                # Check each category - it might be a dict with an id field
+                for cat in categories:
+                    if isinstance(cat, dict) and cat.get('id') == 'networking_social':
+                        is_networking = True
+                        break
+                    elif str(cat) == 'networking_social':
+                        is_networking = True
+                        break
             
-            # Also check for academic-specific categories field
-            if 'categories' in event:
-                academic_categories = event['categories']
-                if isinstance(academic_categories, list):
-                    for category in academic_categories:
-                        all_categories.add(f"academic_{category}")
-                        category_distribution[f"academic_{category}"] += 1
-                        group_categories[group_name].add(f"academic_{category}")
-            
-            # Check for mapped categories
-            if 'mappedCategories' in event:
-                mapped_categories = event['mappedCategories']
-                if isinstance(mapped_categories, list):
-                    for category in mapped_categories:
-                        all_categories.add(f"mapped_{category}")
-                        category_distribution[f"mapped_{category}"] += 1
-                        group_categories[group_name].add(f"mapped_{category}")
-            
-            # Convert the event to the standardized format
-            converted_event = convert_event_format(event)
-            converted_events.append(converted_event)
-        
-        all_events.extend(converted_events)
-    
-    # Convert group_categories sets to lists for JSON serialization
-    for group in group_categories:
-        group_categories[group] = list(group_categories[group])
+            # Only process events that match our criteria
+            if is_networking:
+                # Add source group to the event
+                event['source_group'] = group_name
+                
+                # Track category statistics
+                if 'category' in event:
+                    for cat in categories:
+                        # Handle both dict and string categories
+                        if isinstance(cat, dict):
+                            cat_str = cat.get('id', '').lower()
+                        else:
+                            cat_str = str(cat).lower()
+                        all_categories.add(cat_str)
+                        category_distribution[cat_str] += 1
+                        group_categories[group_name][cat_str] += 1
+                
+                all_events.append(event)
     
     # Create metadata about the categories
     category_metadata = {
-        "all_categories": list(all_categories),
-        "category_distribution": dict(category_distribution),
-        "group_categories": group_categories,
-        "total_events": len(all_events),
-        "total_groups": len(event_files),
-        "total_categories": len(all_categories)
+        "statistics": {
+            "total_events": len(all_events),
+            "total_categories": len(all_categories),
+            "category_distribution": {
+                cat: {
+                    'count': count,
+                    'percentage': round(count / len(all_events) * 100, 2)
+                }
+                for cat, count in category_distribution.most_common()
+            },
+            "by_group": {
+                group: {
+                    cat: {
+                        'count': count,
+                        'percentage': round(count / sum(counts.values()) * 100, 2)
+                    }
+                    for cat, count in counts.most_common()
+                }
+                for group, counts in group_categories.items()
+            }
+        }
     }
     
     # Save category metadata
     save_json_file(category_metadata, OUTPUT_METADATA_PATH)
-    logging.info(f"Saved category metadata with {len(all_categories)} unique categories to {OUTPUT_METADATA_PATH}")
+    logging.info(f"Saved category statistics with {len(all_categories)} unique categories to {OUTPUT_METADATA_PATH}")
     
     # Save combined events
     save_events_to_file(all_events, OUTPUT_EVENTS_PATH)

@@ -8,30 +8,48 @@ from typing import List, Dict, Any, Optional
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlparse
-import logging
+import os
 
-from models import SubstackPost
+# Setup paths
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TECH_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(TECH_DIR, 'data')
 
 # Setup logging
-log_path = Path("logs")
-log_path.mkdir(parents=True, exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
+
+class SubstackPost:
+    """Model class for a Substack post"""
+    def __init__(self, id, title, subtitle, publication, url, post_date, description, cover_image, excerpt, metadata, type="article"):
+        self.id = id
+        self.title = title
+        self.subtitle = subtitle
+        self.publication = publication
+        self.url = url
+        self.post_date = post_date
+        self.description = description
+        self.cover_image = cover_image
+        self.excerpt = excerpt
+        self.type = type
+        self.metadata = metadata
+
 class SubstackScraper:
     def __init__(self):
         self.source_name = "substack"
         self.six_months_ago = datetime.now(timezone.utc) - timedelta(days=180)
-        self.output_dir = Path("data")
+        self.output_dir = Path(DATA_DIR)
         self.output_dir.mkdir(parents=True, exist_ok=True)
-        self.output_file = self.output_dir / "substackposts.json"
+        self.output_file = self.output_dir / "substack_events.json"
         self.substack_data = self.load_substack_data()
 
     def load_substack_data(self) -> List[Dict]:
         """Loads Substack data from data/substacks.json."""
         try:
-            with open("data/substacks.json", 'r', encoding='utf-8') as f:
+            substack_config = os.path.join(DATA_DIR, "substacks.json")
+            with open(substack_config, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 if 'substacks' in data and isinstance(data['substacks'], list):
                     return data['substacks']
@@ -208,19 +226,72 @@ class SubstackScraper:
                 for post in posts
             ]
             
-            with open(self.output_file, 'w', encoding='utf-8') as f:
-                json.dump({"posts": posts_data}, f, indent=2, ensure_ascii=False)
+            # Convert posts to events format
+            events = []
+            for post in posts_data:
+                event = {
+                    "id": post["id"],
+                    "name": post["title"],
+                    "type": "Tech Event",
+                    "description": post["description"],
+                    "startDate": post["post_date"],
+                    "endDate": None,
+                    "locationId": f"loc_{post['publication']}",
+                    "communityId": f"com_{post['publication']}",
+                    "category": ["Tech", "Article"],
+                    "tags": ["tech", "newsletter", "substack"],
+                    "price": {
+                        "amount": 0,
+                        "type": "Free",
+                        "currency": "USD"
+                    },
+                    "metadata": post["metadata"]
+                }
+                events.append(event)
             
-            logging.info(f"Successfully saved {len(posts)} posts to {self.output_file}")
-            return posts
+            with open(self.output_file, 'w', encoding='utf-8') as f:
+                json.dump({"events": events}, f, indent=2, ensure_ascii=False)
+            
+            logging.info(f"Successfully saved {len(events)} events to {self.output_file}")
+            return str(self.output_file)
             
         except Exception as e:
             logging.error(f"Error running scraper: {str(e)}")
-            return []
+            return None
+
+    def run(self):
+        """Run the scraper and return the output file path."""
+        # Create empty substacks.json if it doesn't exist
+        substacks_file = os.path.join(DATA_DIR, "substacks.json")
+        if not os.path.exists(substacks_file):
+            with open(substacks_file, 'w', encoding='utf-8') as f:
+                json.dump({"substacks": [
+                    {
+                        "id": "sample_substack",
+                        "name": "Sample Substack",
+                        "url": "https://example.substack.com",
+                        "description": "Sample Substack for testing"
+                    }
+                ]}, f, indent=2)
+            logging.info(f"Created default substacks.json at {substacks_file}")
+        
+        # Run the scraper
+        if not self.substack_data:
+            logging.error("No Substack data available. Please check substacks.json")
+            return None
+            
+        # For asyncio
+        try:
+            loop = asyncio.get_event_loop()
+        except RuntimeError:
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+        
+        return loop.run_until_complete(self.scrape_posts())
 
 def main():
     scraper = SubstackScraper()
-    scraper.run()
+    return scraper.run()
 
 if __name__ == "__main__":
     main()

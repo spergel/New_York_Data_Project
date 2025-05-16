@@ -499,44 +499,67 @@ def save_categorized_events(events: List[Dict], output_path: str):
         # Convert any numpy values to Python native types
         for event in events:
             if 'categoryConfidence' in event:
-                # Ensure all values are native Python types
+                # Ensure all values are native Python types and round to 2 decimal places
                 event['categoryConfidence'] = {
-                    cat: round(float(conf), 2) 
+                    str(cat): round(float(conf), 2) 
                     for cat, conf in event['categoryConfidence'].items()
                 }
                 
-            # Map our academic categories to EventCategory enum values from models.py
+            # Clean up categories to ensure they're just the category IDs
             if 'categories' in event:
-                mapped_categories = []
+                # Ensure categories are strings and remove any that are malformed
+                cleaned_categories = []
+                for cat in event['categories']:
+                    # If it's a string and in our CATEGORIES dict, keep it
+                    if isinstance(cat, str) and cat in CATEGORIES:
+                        cleaned_categories.append(cat)
+                    # If it's a dict or malformed string, try to extract the ID
+                    elif isinstance(cat, (dict, str)):
+                        try:
+                            if isinstance(cat, dict) and 'id' in cat:
+                                if cat['id'] in CATEGORIES:
+                                    cleaned_categories.append(cat['id'])
+                            elif isinstance(cat, str):
+                                # Try to find a matching category ID
+                                for category_id in CATEGORIES:
+                                    if category_id in cat or CATEGORIES[category_id]['name'] in cat:
+                                        cleaned_categories.append(category_id)
+                                        break
+                        except:
+                            continue
+                
+                # Remove duplicates while preserving order
+                event['categories'] = list(dict.fromkeys(cleaned_categories))
+                
+                # Map academic categories to standard model categories
+                mapped_categories = set()
                 for cat in event['categories']:
                     if cat == 'lectures_seminars' or cat == 'conferences_symposia':
-                        mapped_categories.append('education')
+                        mapped_categories.add('education')
                     elif cat == 'research_presentations':
-                        mapped_categories.append('science')
+                        mapped_categories.add('science')
                     elif cat == 'performances_exhibitions':
-                        mapped_categories.append('arts')
+                        mapped_categories.add('arts')
                     elif cat == 'student_activities':
-                        mapped_categories.append('social')
+                        mapped_categories.add('social')
                     elif cat == 'workshops_trainings':
-                        mapped_categories.append('education')
+                        mapped_categories.add('education')
                     elif cat == 'panel_discussions':
-                        mapped_categories.append('education')
+                        mapped_categories.add('education')
                     elif cat == 'academic_ceremonies':
-                        mapped_categories.append('education')
+                        mapped_categories.add('education')
                     else:
-                        mapped_categories.append('other')
-                
-                # Remove duplicates
-                mapped_categories = list(set(mapped_categories))
+                        mapped_categories.add('other')
                 
                 # Add mapped categories to the event
-                event['mappedCategories'] = mapped_categories
+                event['mappedCategories'] = list(mapped_categories)
         
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump({'events': events}, f, indent=2)
         logging.info(f"Saved categorized events to {output_path}")
     except Exception as e:
         logging.error(f"Error saving categorized events: {str(e)}")
+        raise
 
 def create_sample_event_file():
     """Create a sample event file for testing if all_events_combined.json doesn't exist"""
@@ -725,6 +748,229 @@ def create_sample_event_file():
         logging.error(f"Error creating sample events file: {str(e)}")
         return []
 
+def filter_and_separate_events(events: List[Dict]) -> Dict[str, List[Dict]]:
+    """Filter events and separate them into categories"""
+    result = {
+        "combined": [],  # All filtered events combined
+        "lectures": [],  # Lecture/seminar events
+        "performances": [],  # Free performance events
+        "other": []  # Events that didn't match our filter criteria
+    }
+    
+    filtered_count = 0
+    lecture_count = 0
+    performance_count = 0
+    other_count = 0
+    
+    # Non-academic keywords - events with these in the title or description should not be considered academic lectures
+    non_academic_keywords = [
+        "information session", "info session", "advocate", "well-being", "wellness", 
+        "orientation", "recruitment", "recruiting", "information meeting", "office hours",
+        "group meeting", "club meeting", "committee meeting", "social", "networking", 
+        "meetup", "meet-up", "meet up", "mixer", "tea", "coffee", "lunch", "dinner", 
+        "breakfast", "reception", "celebration", "party", "graduation", "ceremony", 
+        "career fair", "job fair", "employment", "volunteer", "grand rounds",
+        "mental health", "emotional health", "well-being resource", "wellness resource",
+        "student organization", "student club", "student group", "safe zone", 
+        "training session", "support", "solidarity", "ally", "advocacy training",
+        "awareness training", "identity", "resource sharing", "diversity training"
+    ]
+    
+    # Positive academic indicators - events with these in title/description are more likely to be academic
+    academic_indicators = [
+        "lecture", "seminar", "colloquium", "symposium", "conference", "talk", 
+        "book event", "book talk", "research", "professor", "faculty", "scholar",
+        "physics", "mathematics", "computer science", "biology", "chemistry",
+        "literature", "history", "philosophy", "economics", "sociology",
+        "anthropology", "psychology", "political science", "linguistics",
+        "astronomy", "earth science", "engineering", "archaeology", 
+        "classics", "humanities", "neuroscience", "justice", "rights",
+        "policy", "discussion", "panel", "author", "debate", "institute"
+    ]
+    
+    # Exclusive performance keywords - MUST have one of these in the title to be considered a performance
+    exclusive_performance_keywords = [
+        "concert", "recital", "music", "musical", "theatre", "theater", 
+        "performance", "dance", "symphony", "orchestra", "choir", 
+        "opera", "exhibit", "exhibition", "gallery", "screening", "film",
+        "play", "jazz", "band"
+    ]
+    
+    for event in events:
+        # Get event name, type, and description for analysis
+        name = event.get('name', '').lower()
+        event_type = event.get('type', '').lower()
+        description = event.get('description', '').lower()
+        text = f"{name} {description}"
+        tags = event.get('tags', [])
+        if isinstance(tags, list):
+            tags = [tag.lower() if isinstance(tag, str) else '' for tag in tags]
+        else:
+            tags = []
+        
+        # Check for non-academic indicators
+        is_non_academic = any(keyword in text for keyword in non_academic_keywords)
+        is_student_related = any(term in text for term in ["student group", "student club", "student org", "student association", "well-being advocate"])
+        
+        # Check for academic indicators
+        has_academic_indicator = any(indicator in text for indicator in academic_indicators)
+        
+        # Check for academic speakers - professors, researchers, etc.
+        academic_speaker_indicators = ["professor", "faculty", "researcher", "scientist", "dr.", "phd", "scholar", "author"]
+        has_academic_speaker = any(indicator in text for indicator in academic_speaker_indicators)
+        
+        # Check if this is explicitly a lecture/talk/seminar/colloquium/book event
+        lecture_indicators = ["lecture", "seminar", "talk", "colloquium", "symposium", "conference", "book event", "book talk", "discussion", "panel"]
+        is_explicit_lecture = any(indicator in name.lower() for indicator in lecture_indicators)
+        
+        # Determine if this is a genuine academic lecture - be more lenient
+        is_lecture = (
+            (is_explicit_lecture or has_academic_speaker or 
+             (has_academic_indicator and not is_student_related)) and 
+            not is_non_academic
+        )
+        
+        # Type indicates it's an academic event
+        if event_type == "seminar" or event_type == "colloquium" or event_type == "lecture":
+            # Still check if it contains non-academic keywords to exclude training sessions
+            if not any(keyword in text for keyword in ["safe zone", "training session", "identity", "ally", "advocacy training"]):
+                is_lecture = True
+        
+        # STRICT performance check - must have a performance keyword in the title
+        is_performance = any(keyword in name.lower() for keyword in exclusive_performance_keywords)
+        
+        # Double check with venue for additional confirmation
+        if is_performance:
+            metadata = event.get('metadata', {})
+            venue_name = metadata.get('venue', {}).get('name', '').lower() if metadata else ''
+            organizer_name = metadata.get('organizer', {}).get('name', '').lower() if metadata else ''
+            
+            # Look for artistic venues
+            artistic_venues = ['theatre', 'theater', 'gallery', 'museum', 'concert hall', 'auditorium', 'recital hall'] 
+            venue_confirms = any(venue in venue_name for venue in artistic_venues)
+            
+            # If it's not a clear performance from title + venue, require more confirmation
+            if not venue_confirms:
+                # Count performance terms in description
+                performance_terms_in_desc = sum(1 for term in exclusive_performance_keywords if term in description.lower())
+                # Only keep it as a performance if there are multiple mentions in description 
+                if performance_terms_in_desc < 2:
+                    is_performance = False
+        
+        # Check if event is free
+        is_free = False
+        
+        # Check price dictionary
+        price_info = event.get('price', {})
+        if isinstance(price_info, dict):
+            price_type = price_info.get('type', '').lower()
+            price_amount = price_info.get('amount', 0)
+            price_details = price_info.get('details', '').lower()
+            
+            is_free = (price_type == 'free' or 
+                      price_amount == 0 or 
+                      'free' in price_type or 
+                      'free' in price_details)
+        
+        # Check metadata for price information
+        if not is_free:
+            metadata = event.get('metadata', {})
+            if isinstance(metadata, dict):
+                # Check if there's price info in metadata
+                if 'price' in metadata:
+                    meta_price = metadata.get('price', '')
+                    if isinstance(meta_price, dict):
+                        is_free = meta_price.get('type', '').lower() == 'free' or meta_price.get('amount', 0) == 0
+                    elif isinstance(meta_price, str):
+                        is_free = 'free' in meta_price.lower()
+                
+                # Check additional info
+                additional_info = metadata.get('additional_info', {})
+                if isinstance(additional_info, dict) and 'price' in additional_info:
+                    add_price = additional_info.get('price', '')
+                    if isinstance(add_price, str):
+                        is_free = 'free' in add_price.lower()
+                    elif isinstance(add_price, dict):
+                        is_free = add_price.get('type', '').lower() == 'free' or add_price.get('amount', 0) == 0
+        
+        # If price info still not found, check for free keywords in description
+        if not is_free:
+            is_free = ('free' in description or 
+                      'no charge' in description or 
+                      'complimentary' in description or
+                      'no admission' in description)
+        
+        # Add events to appropriate categories
+        if is_lecture:
+            event['filter_reason'] = 'lecture_seminar'
+            result["lectures"].append(event)
+            result["combined"].append(event)
+            lecture_count += 1
+            filtered_count += 1
+        elif is_performance and is_free:
+            event['filter_reason'] = 'free_performance'
+            result["performances"].append(event)
+            result["combined"].append(event)
+            performance_count += 1
+            filtered_count += 1
+        else:
+            # Keep track of other events too
+            event['filter_reason'] = 'other'
+            result["other"].append(event)
+            other_count += 1
+    
+    logging.info(f"Processed {len(events)} events:")
+    logging.info(f"- Lectures & Seminars: {lecture_count}")
+    logging.info(f"- Free Performances: {performance_count}")
+    logging.info(f"- Other (not matching filters): {other_count}")
+    logging.info(f"- Total filtered events: {filtered_count}")
+    
+    return result
+
+def generate_filter_report(events: List[Dict]):
+    """Generate a report of filtered events by source and category"""
+    sources = {}
+    categories = {
+        'lectures_seminars': 0,
+        'performances_exhibitions': 0,
+        'other': 0
+    }
+    
+    for event in events:
+        # Count by source
+        source = event.get('source', 'unknown')
+        if source not in sources:
+            sources[source] = {
+                'total': 0,
+                'lectures': 0,
+                'performances': 0
+            }
+        
+        sources[source]['total'] += 1
+        
+        # Count by filter reason
+        filter_reason = event.get('filter_reason', '')
+        
+        if filter_reason == 'lecture_seminar':
+            categories['lectures_seminars'] += 1
+            sources[source]['lectures'] += 1
+        elif filter_reason == 'free_performance':
+            categories['performances_exhibitions'] += 1
+            sources[source]['performances'] += 1
+        else:
+            categories['other'] += 1
+    
+    # Print report
+    logging.info("\n=== FILTERED EVENTS REPORT ===")
+    logging.info(f"Total events: {len(events)}")
+    logging.info(f"Lectures & Seminars: {categories['lectures_seminars']}")
+    logging.info(f"Free Performances & Exhibitions: {categories['performances_exhibitions']}")
+    logging.info(f"Other: {categories['other']}")
+    
+    logging.info("\nEvents by source:")
+    for source, counts in sorted(sources.items(), key=lambda x: x[1]['total'], reverse=True):
+        logging.info(f"  {source}: {counts['total']} total ({counts['lectures']} lectures, {counts['performances']} performances)")
+
 def main():
     # Create necessary directories
     os.makedirs('academic/data', exist_ok=True)
@@ -763,10 +1009,23 @@ def main():
         except Exception as e:
             logging.error(f"Error categorizing event {event.get('id', 'unknown')}: {str(e)}")
     
-    # Save categorized events to academic/data/events.json
-    save_categorized_events(events, 'academic/data/events.json')
+    # Filter and separate events into categories
+    categorized_events = filter_and_separate_events(events)
+    
+    # Generate report for filtered events
+    generate_filter_report(categorized_events['combined'])
+    
+    # Save each category to a separate file
+    save_categorized_events(categorized_events['combined'], 'academic/data/events.json')
+    save_categorized_events(categorized_events['lectures'], 'academic/data/lecture_events.json')
+    save_categorized_events(categorized_events['performances'], 'academic/data/performance_events.json')
+    save_categorized_events(categorized_events['other'], 'academic/data/other_events.json')
     
     logging.info(f"Categorized {categorized_count} out of {len(events)} events")
+    logging.info(f"Saved {len(categorized_events['combined'])} filtered events (combined)")
+    logging.info(f"Saved {len(categorized_events['lectures'])} lecture events")
+    logging.info(f"Saved {len(categorized_events['performances'])} performance events")
+    logging.info(f"Saved {len(categorized_events['other'])} other events")
 
 if __name__ == "__main__":
     main()

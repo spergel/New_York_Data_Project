@@ -1,0 +1,174 @@
+{
+  "events": [
+    {
+      "id": "shirley_chisholm_b7e46e0b",
+      "name": "Spring Equinox Night Hike",
+      "description": "Celebrate the arrival of spring with a special night hike! Learn about the night sky and have a chance to look at the stars! Registration isrequiredand opens 1 week in advance on 3/13/2025.",
+      "category": "nature",
+      "community_id": "shirley_chisholm",
+      "location": "loc_shirley_chisholm",
+      "start_date": "2025-03-20T18:30:00-04:00",
+      "end_date": "2025-03-20T20:30:00-04:00",
+      "image_url": "https://parks.ny.gov/parks/images/shirleychisholm_event.jpg",
+      "metadata": {
+        "source_url": "https://parks.ny.gov/events/event.aspx?e=200-42734.0",
+        "venue": {
+          "name": "Shirley Chisholm State Park",
+          "address": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "coordinates": {
+            "latitude": 40.6507,
+            "longitude": -73.8854
+          },
+          "type": "venue"
+        },
+        "organizer": "New York State Parks"
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "nature",
+        "outdoors",
+        "state park"
+      ]
+    },
+    {
+      "id": "shirley_chisholm_647c6586",
+      "name": "Penn Shoreline Cleanup",
+      "description": "Volunteer to help us clean washed up debris off the shoreline at the Penn Water Access Area! All materials provided. Clickherefor more information.",
+      "category": "nature",
+      "community_id": "shirley_chisholm",
+      "location": "loc_shirley_chisholm",
+      "start_date": "2025-03-22T10:00:00-04:00",
+      "end_date": "2025-03-22T12:00:00-04:00",
+      "image_url": "https://parks.ny.gov/parks/images/shirleychisholm_event.jpg",
+      "metadata": {
+        "source_url": "https://parks.ny.gov/events/event.aspx?e=200-42735.0",
+        "venue": {
+          "name": "Shirley Chisholm State Park",
+          "address": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "coordinates": {
+            "latitude": 40.6507,
+            "longitude": -73.8854
+          },
+          "type": "venue"
+        },
+        "organizer": "New York State Parks"
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "nature",
+        "outdoors",
+        "state park"
+      ]
+    },
+    {
+      "id": "shirley_chisholm_295c214b",
+      "name": "Spring Bird Walk",
+      "description": "Birdwatch and look for signs of spring on the Fountain side of the park! Beginners and experts welcome! Binoculars & guides to borrow. Clickherefor more information.",
+      "category": "nature",
+      "community_id": "shirley_chisholm",
+      "location": "loc_shirley_chisholm",
+      "start_date": "2025-03-29T10:00:00-04:00",
+      "end_date": "2025-03-29T12:00:00-04:00",
+      "image_url": "https://parks.ny.gov/parks/images/shirleychisholm_event.jpg",
+      "metadata": {
+        "source_url": "https://parks.ny.gov/events/event.aspx?e=200-42736.0",
+        "venue": {
+          "name": "Shirley Chisholm State Park",
+          "address": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "coordinates": {
+            "latitude": 40.6507,
+            "longitude": -73.8854
+          },
+          "type": "venue"
+        },
+        "organizer": "New York State Parks"
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "nature",
+        "outdoors",
+        "state park"
+      ]
+    },
+    {
+      "id": "shirley_chisholm_59ae4e20",
+      "name": "Nature Photography Workshop Series",
+      "description": "Join us for a four-week workshop series on nature photography. Learn techniques for capturing wildlife, landscapes, and macro photography in the park. Each week focuses on a different theme. Equipment provided. Clickherefor more information.\n\nThis is a recurring event: wednesdays, march 5, 2025 until march 26, 2025 11:00 am - 02:00 pm",
+      "category": "nature",
+      "community_id": "shirley_chisholm",
+      "location": "loc_shirley_chisholm",
+      "start_date": "2025-03-12T11:00:16.739406-04:00",
+      "end_date": "2025-03-12T14:00:16.739406-04:00",
+      "image_url": "https://parks.ny.gov/parks/images/shirleychisholm_event.jpg",
+      "metadata": {
+        "source_url": "https://parks.ny.gov/events/event.aspx?e=200-42740.0",
+        "venue": {
+          "name": "Shirley Chisholm State Park",
+          "address": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "coordinates": {
+            "latitude": 40.6507,
+            "longitude": -73.8854
+          },
+          "type": "venue"
+        },
+        "organizer": "New York State Parks"
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "nature",
+        "outdoors",
+        "state park"
+      ]
+    },
+    {
+      "id": "shirley_chisholm_ae38d7e4",
+      "name": "Park Stewardship Day",
+      "description": "A day dedicated to caring for our park. Join fellow community members for a day of stewardship activities including planting, trash cleanup, and trail maintenance. All ages welcome! Clickherefor more information.",
+      "category": "nature",
+      "community_id": "shirley_chisholm",
+      "location": "loc_shirley_chisholm",
+      "start_date": "2025-03-14T09:00:00-04:00",
+      "end_date": "2025-03-14T17:00:00-04:00",
+      "image_url": "https://parks.ny.gov/parks/images/shirleychisholm_event.jpg",
+      "metadata": {
+        "source_url": "https://parks.ny.gov/events/event.aspx?e=200-42741.0",
+        "venue": {
+          "name": "Shirley Chisholm State Park",
+          "address": "1750 Pennsylvania Ave, Brooklyn, NY 11239",
+          "coordinates": {
+            "latitude": 40.6507,
+            "longitude": -73.8854
+          },
+          "type": "venue"
+        },
+        "organizer": "New York State Parks"
+      },
+      "price": {
+        "is_free": true,
+        "price_range": "Free",
+        "currency": "USD"
+      },
+      "tags": [
+        "nature",
+        "outdoors",
+        "state park"
+      ]
+    }
+  ]
+}

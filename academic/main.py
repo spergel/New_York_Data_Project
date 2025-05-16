@@ -248,43 +248,68 @@ def main():
     # Run the advanced categorization system
     try:
         print("\nRunning advanced categorization system...")
+        print("Note: The system will separate events into lectures, free performances, and other categories.")
         import categorize_events
         categorize_events.main()
         print("Advanced categorization complete!")
         
-        # Check if categorized events file exists
-        categorized_file = os.path.join("events", "categorized_events.json")
-        if os.path.exists(categorized_file):
-            print(f"Categorized events saved to {categorized_file}")
-            
-            # Optionally merge the categorized data back into the main events
-            try:
-                from utils.event_utils import load_json_file
-                categorized_events = load_json_file(categorized_file)
+        # Define paths for the categorized events files
+        categorized_files = {
+            'combined': os.path.join("academic", "data", "events.json"),
+            'lectures': os.path.join("academic", "data", "lecture_events.json"),
+            'performances': os.path.join("academic", "data", "performance_events.json"),
+            'other': os.path.join("academic", "data", "other_events.json")
+        }
+        
+        # Process and convert each category of events
+        for category, file_path in categorized_files.items():
+            if os.path.exists(file_path):
+                print(f"Processing {category} events from {file_path}")
                 
-                # Create a mapping of event_id to detailed categories
-                event_categories = {}
-                for event in categorized_events:
-                    if 'event_id' in event and 'detailed_categories' in event:
-                        event_categories[event['event_id']] = {
-                            'detailed_categories': event['detailed_categories'],
-                            'main_categories': event.get('main_categories', [])
-                        }
-                
-                # Update the original events with the detailed categories
-                updated_count = 0
-                for event in all_events:
-                    event_id = event.get('event_id')
-                    if event_id in event_categories:
-                        event['detailed_categories'] = event_categories[event_id]['detailed_categories']
-                        event['main_categories'] = event_categories[event_id]['main_categories']
-                        updated_count += 1
-                
-                # Save the updated events
-                save_events_to_file(all_events, events_file)
-                print(f"Updated {updated_count} events with detailed categories")
-            except Exception as e:
-                print(f"Error merging categorized data: {e}")
+                try:
+                    from utils.event_utils import load_json_file
+                    category_events = load_json_file(file_path)
+                    
+                    # Get events from loaded file
+                    if 'events' in category_events:
+                        category_events_list = category_events['events'] 
+                    else:
+                        category_events_list = category_events
+                    
+                    # Get the list of event IDs
+                    event_ids = {event.get('id', '') for event in category_events_list}
+                    
+                    # Find matching events from all_events
+                    matching_events = [
+                        event for event in all_events 
+                        if event.get('id', '') in event_ids or event.get('event_id', '') in event_ids
+                    ]
+                    
+                    # Convert to standard format if needed
+                    converted_matching = []
+                    for event in matching_events:
+                        if 'sourceGroup' not in event:
+                            event['sourceGroup'] = 'academic'
+                        try:
+                            converted_event = convert_event_format(event)
+                            converted_matching.append(converted_event)
+                        except Exception as e:
+                            print(f"Error converting event {event.get('event_id', 'unknown')}: {e}")
+                    
+                    # Save the corresponding events
+                    output_file = os.path.join("events", f"{category}_events.json")
+                    save_events_to_file(matching_events, output_file)
+                    
+                    # Save converted events
+                    converted_output_file = os.path.join("events", f"{category}_events_converted.json")
+                    save_events_to_file(converted_matching, converted_output_file)
+                    
+                    print(f"Saved {len(matching_events)} {category} events to {output_file}")
+                    print(f"Saved {len(converted_matching)} converted {category} events to {converted_output_file}")
+                    
+                except Exception as e:
+                    print(f"Error processing {category} events: {e}")
+                    
     except Exception as e:
         print(f"Error running advanced categorization: {e}")
 
