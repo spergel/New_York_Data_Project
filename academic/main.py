@@ -266,10 +266,10 @@ def main():
             if os.path.exists(file_path):
                 print(f"Processing {category} events from {file_path}")
                 
-                try:
-                    from utils.event_utils import load_json_file
+            try:
+                from utils.event_utils import load_json_file
                     category_events = load_json_file(file_path)
-                    
+                
                     # Get events from loaded file
                     if 'events' in category_events:
                         category_events_list = category_events['events'] 
@@ -307,7 +307,7 @@ def main():
                     print(f"Saved {len(matching_events)} {category} events to {output_file}")
                     print(f"Saved {len(converted_matching)} converted {category} events to {converted_output_file}")
                     
-                except Exception as e:
+            except Exception as e:
                     print(f"Error processing {category} events: {e}")
                     
     except Exception as e:

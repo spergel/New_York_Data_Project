@@ -2,42 +2,38 @@ import requests
 from datetime import datetime, timedelta
 import json
 from bs4 import BeautifulSoup
-from dateutil import parser as date_parser
 import pytz
 import hashlib
+import warnings
 
-url = "https://www.simonsfoundation.org/wp/wp-admin/admin-ajax.php"
+# URLs for different event series
+PRESIDENTIAL_LECTURES_URL = "https://www.simonsfoundation.org/sf-events/?type=simons-foundation-presidential-lectures"
+PRESENTS_EVENTS_URL = "https://www.simonsfoundation.org/sf-events/?type=simons-foundation-presents"
 
 headers = {
-    "accept": "*/*",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
     "accept-language": "en-US,en;q=0.9",
-    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+    # Cookie kept as it might be necessary for access/consent
     "cookie": "_ga=GA1.1.1640635026.1727143515; privacy-consent-given=true; A17_fonts_cookie_sans=2; _ga_C1G2F4HXQL=GS1.1.1727622620.5.1.1727622648.32.0.0",
-    "origin": "https://www.simonsfoundation.org",
-    "referer": "https://www.simonsfoundation.org/flatiron/events/",
+    "referer": "https://www.simonsfoundation.org/sf-events/", # Updated referer
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0",
 }
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
     if not location_str:
-        return "loc_virtual"
+        return "loc_virtual" # Default to virtual if no string
     
     location_str = location_str.lower()
     
-    # Check for online/virtual events
     if any(term in location_str for term in ['online', 'zoom', 'virtual', 'webinar']):
         return "loc_virtual"
     
-    # Check for Simons Foundation building
-    if any(term in location_str for term in ['162 5th', '162 fifth', 'simons foundation']):
-        return "loc_simons_main"
+    if any(term in location_str for term in ['162 5th', '162 fifth', 'simons foundation', 'flatiron institute', 'gerald d. fischbach auditorium']):
+        return "loc_simons_main" # Consolidate Simons/Flatiron to main for lectures
     
-    # Check for Flatiron Institute
-    if 'flatiron' in location_str:
-        return "loc_simons_flatiron"
-    
-    return "loc_simons_main"  # Default to main building
+    # For Presidential Lectures, if not explicitly virtual, assume main venue
+    return "loc_simons_main"
 
 def standardize_venue(location_str):
     """Create a standardized Venue object from location string."""
@@ -47,181 +43,308 @@ def standardize_venue(location_str):
             "type": "virtual"
         }
     
-    # Handle Simons Foundation building
-    if any(term in location_str.lower() for term in ['162 5th', '162 fifth', 'simons foundation']):
+    # For Presidential Lectures, assume Simons Foundation if not specified as virtual
+    # The address is the same for Simons Foundation and Flatiron Institute
+    if any(term in location_str.lower() for term in ['gerald d. fischbach auditorium', 'fischbach']):
         return {
-            "name": "Simons Foundation",
+            "name": "Gerald D. Fischbach Auditorium, Simons Foundation",
             "address": "162 5th Ave, New York, NY 10010",
             "type": "venue"
         }
-    
-    # Handle Flatiron Institute
-    if 'flatiron' in location_str.lower():
-        return {
-            "name": "Flatiron Institute",
-            "address": "162 5th Ave, New York, NY 10010",
-            "type": "venue"
-        }
-    
+        
     return {
-        "name": location_str,
+        "name": "Simons Foundation",
+        "address": "162 5th Ave, New York, NY 10010",
         "type": "venue"
     }
 
 def determine_event_type(event_data):
-    """Determine event type based on title and tags."""
+    """Determine event type based on HTML data or title."""
+    html_event_type = event_data.get('html_event_type', '').strip()
+    if html_event_type:
+        return html_event_type.capitalize() # e.g., "In conversation" -> "In Conversation"
+    
     title = event_data.get('title', '').lower()
-    tags = [tag.lower() for tag in event_data.get('tags', [])]
+    if 'lecture' in title: return "Lecture"
+    if 'seminar' in title or 'colloquium' in title: return "Seminar"
+    if 'workshop' in title: return "Workshop"
+    if 'conference' in title or 'symposium' in title: return "Conference"
+    if 'conversation' in title or 'discussion' in title: return "Discussion"
     
-    if any(term in title + ' '.join(tags) for term in ['seminar', 'colloquium', 'lecture']):
-        return "Seminar"
-    elif any(term in title + ' '.join(tags) for term in ['workshop', 'training']):
-        return "Workshop"
-    elif any(term in title + ' '.join(tags) for term in ['conference', 'symposium']):
-        return "Conference"
-    elif any(term in title + ' '.join(tags) for term in ['meeting', 'discussion']):
-        return "Meeting"
-    
-    return "Academic"
+    return "Event" # Generic fallback
 
 def determine_categories(event_data):
-    """Map Simons Foundation categories to standard EventCategory enum values."""
+    """Determine categories for Simons Foundation events."""
     categories = set()
+    categories.add('SCIENCE') # Core theme of Simons Foundation
+    
     title = event_data.get('title', '').lower()
-    tags = [tag.lower() for tag in event_data.get('tags', [])]
-    department = event_data.get('department', '').lower()
+    html_event_type = event_data.get('html_event_type', '').lower()
     
-    # Default category
-    categories.add('SCIENCE')
-    
-    # Add categories based on content
-    if any(term in title + ' '.join(tags) + department for term in ['math', 'mathematics', 'theorem']):
-        categories.add('MATH')
-    if any(term in title + ' '.join(tags) + department for term in ['computer', 'programming', 'software']):
-        categories.add('TECH')
-    if any(term in title + ' '.join(tags) + department for term in ['physics', 'quantum', 'astrophysics']):
-        categories.add('PHYSICS')
-    if any(term in title + ' '.join(tags) + department for term in ['biology', 'neuroscience']):
-        categories.add('BIOLOGY')
+    if 'lecture' in html_event_type or 'lecture' in title:
+        categories.add('LECTURE')
+    if 'in conversation' in html_event_type or 'discussion' in title:
+        categories.add('DISCUSSION')
+        categories.add('PUBLIC_ENGAGEMENT')
+
+    if any(term in title for term in ['math', 'mathematics']): categories.add('MATH')
+    if any(term in title for term in ['physics', 'quantum', 'astrophysics', 'matter']): categories.add('PHYSICS')
+    if any(term in title for term in ['biology', 'neuroscience', 'gene', 'frogs', 'spider', 'brain', 'birds']): categories.add('BIOLOGY')
+    if any(term in title for term in ['computing', 'computational']): categories.add('TECH')
     
     return list(categories)
 
-def fetch_events(month, year):
-    payload = f"action=a17_flatiron_filters&data%5Borganization%5D%5B%5D=46693&data%5Borganization%5D%5B%5D=108527&data%5Borganization%5D%5B%5D=110645&data%5Borganization%5D%5B%5D=110647&data%5Borganization%5D%5B%5D=41&data%5Borganization%5D%5B%5D=37593&data%5Borganization%5D%5B%5D=104999&data%5Borganization%5D%5B%5D=105250&data%5Borganization%5D%5B%5D=40&data%5Borganization%5D%5B%5D=110674&data%5Borganization%5D%5B%5D=114703&data%5Borganization%5D%5B%5D=114706&data%5Borganization%5D%5B%5D=20820&data%5Borganization%5D%5B%5D=26704&data%5Borganization%5D%5B%5D=26761&data%5Borganization%5D%5B%5D=110655&data%5Borganization%5D%5B%5D=110657&data%5Borganization%5D%5B%5D=28938&data%5Borganization%5D%5B%5D=46688&data%5Borganization%5D%5B%5D=46734&data%5Borganization%5D%5B%5D=46781&data%5Borganization%5D%5B%5D=110664&data%5Borganization%5D%5B%5D=110666&data%5Borganization%5D%5B%5D=110668&data%5Borganization%5D%5B%5D=110672&data%5Borganization%5D%5B%5D=54588&data%5Borganization%5D%5B%5D=68601&data%5Borganization%5D%5B%5D=98273&data%5Borganization%5D%5B%5D=105774&data%5Borganization%5D%5B%5D=110661&data%5Borganization%5D%5B%5D=106630&data%5Borganization%5D%5B%5D=39&data%5Borganization%5D%5B%5D=44&data%5Borganization%5D%5B%5D=43&data%5Borganization%5D%5B%5D=8668&data%5Borganization%5D%5B%5D=57030&data%5Borganization%5D%5B%5D=68733&data%5Borganization%5D%5B%5D=108067&data%5Borganization%5D%5B%5D=108116&data%5Borganization%5D%5B%5D=112186&data%5Borganization%5D%5B%5D=113897&data%5Borganization%5D%5B%5D=42&data%5Borganization%5D%5B%5D=102977&data%5Borganization%5D%5B%5D=102984&data%5Borganization%5D%5B%5D=102996&data%5Borganization%5D%5B%5D=103002&data%5Borganization%5D%5B%5D=47&data%5Borganization%5D%5B%5D=33189&data%5Borganization%5D%5B%5D=33242&data%5Borganization%5D%5B%5D=33246&data%5Borganization%5D%5B%5D=34535&data%5Borganization%5D%5B%5D=14709&data%5Borganization%5D%5B%5D=33251&data%5Borganization%5D%5B%5D=33261&data%5Borganization%5D%5B%5D=60169&data%5Borganization%5D%5B%5D=14718&data%5Borganization%5D%5B%5D=33268&data%5Borganization%5D%5B%5D=49077&data%5Borganization%5D%5B%5D=49187&data%5Borganization%5D%5B%5D=60398&data%5Borganization%5D%5B%5D=77607&data%5Borganization%5D%5B%5D=14731&data%5Borganization%5D%5B%5D=33297&data%5Borganization%5D%5B%5D=33301&data%5Borganization%5D%5B%5D=37564&data%5Borganization%5D%5B%5D=38647&data%5Borganization%5D%5B%5D=60191&data%5Borganization%5D%5B%5D=33275&data%5Borganization%5D%5B%5D=82402&data%5Borganization%5D%5B%5D=102726&data%5Borganization%5D%5B%5D=46&data%5Borganization%5D%5B%5D=37212&data%5Borganization%5D%5B%5D=41421&data%5Borganization%5D%5B%5D=66629&data%5Borganization%5D%5B%5D=41449&data%5Borganization%5D%5B%5D=69598&data%5Borganization%5D%5B%5D=100239&data%5Borganization%5D%5B%5D=100243&data%5Borganization%5D%5B%5D=40178&data%5Borganization%5D%5B%5D=64743&data%5Borganization%5D%5B%5D=67280&data%5Borganization%5D%5B%5D=72386&data%5Borganization%5D%5B%5D=72395&data%5Borganization%5D%5B%5D=72403&data%5Borganization%5D%5B%5D=69374&data%5Borganization%5D%5B%5D=69378&data%5Borganization%5D%5B%5D=82190&data%5Borganization%5D%5B%5D=82184&data%5Borganization%5D%5B%5D=68462&data%5Borganization%5D%5B%5D=81498&data%5Borganization%5D%5B%5D=89186&data%5Borganization%5D%5B%5D=94223&data%5Borganization%5D%5B%5D=106561&data%5Borganization%5D%5B%5D=38&data%5Bmonth%5D={month}&data%5Byear%5D={year}"
+def fetch_events_from_url(url_to_fetch, series_name):
+    """Fetch HTML content from a given URL."""
+    print(f"Fetching {series_name} events from: {url_to_fetch}")
+    try:
+        response = requests.get(url_to_fetch, headers=headers, timeout=15)
+        response.raise_for_status()
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching {series_name} page ({url_to_fetch}): {e}")
+        return None
 
-    response = requests.request("POST", url, data=payload, headers=headers)
-    return response.json()['html']
-
-def parse_events(html):
+def parse_events(html, series_name):
+    if not html:
+        return []
+        
     soup = BeautifulSoup(html, 'html.parser')
-    event_articles = soup.find_all('article', class_='m-date-item')
+    event_articles = soup.find_all('article', class_='m-post--date')
     standardized_events = []
+    current_utc_time = datetime.now(pytz.utc)
 
     for article in event_articles:
         try:
-            title_elem = article.find('h3', class_='m-date-item__title')
-            if not title_elem:
-                continue
-
+            title_elem = article.find('a', class_='m-post__title')
+            if not title_elem: continue
             title = title_elem.text.strip()
-            url_elem = title_elem.find('a')
-            url = url_elem['href'] if url_elem else "https://www.simonsfoundation.org/flatiron/events/"
+            url = title_elem['href']
 
-            add_cal_div = article.find('div', class_='a-add-cal')
-            if not add_cal_div:
+            time_tag = article.find('time', datetime=True)
+            if not time_tag or not time_tag.get('datetime'):
+                print(f"Skipping event (missing time attribute): {title}")
                 continue
 
-            start_date = add_cal_div.get('data-start')
-            end_date = add_cal_div.get('data-end')
-            start_time = add_cal_div.get('data-start-time')
-            end_time = add_cal_div.get('data-end-time')
-            all_day = add_cal_div.get('data-all-day-event') == 'true'
+            event_timestamp = int(time_tag['datetime'])
+            start_datetime_utc = datetime.fromtimestamp(event_timestamp, tz=pytz.utc)
 
-            start_datetime = datetime.strptime(f"{start_date} {start_time}", "%d/%m/%Y %H:%M")
-            end_datetime = datetime.strptime(f"{end_date} {end_time}", "%d/%m/%Y %H:%M")
+            if start_datetime_utc < current_utc_time:
+                continue # Skip past events
 
-            location_elem = article.find('span', class_='m-date-item__meta-title', string='Where')
-            location = location_elem.find_next('span').text.strip() if location_elem else 'Online'
+            # Default end time, can be overridden
+            end_datetime_utc = start_datetime_utc + timedelta(hours=2)
+            
+            # Check for specific start/end times in m-post__cal
+            cal_div = article.find('div', class_='m-post__cal')
+            location_str_from_cal = "Simons Foundation" # Default
+            
+            if cal_div:
+                data_start_time_str = cal_div.get('data-start-time')
+                data_end_time_str = cal_div.get('data-end-time')
+                data_start_date_str = cal_div.get('data-start') # DD/MM/YYYY
+                
+                if data_start_time_str and data_start_date_str:
+                    try:
+                        # Parse date and time from cal_div attributes
+                        parsed_start_date = datetime.strptime(data_start_date_str, "%d/%m/%Y").date()
+                        parsed_start_time = datetime.strptime(data_start_time_str, "%H:%M").time()
+                        start_datetime_utc = pytz.utc.localize(datetime.combine(parsed_start_date, parsed_start_time))
+                        
+                        if data_end_time_str:
+                            parsed_end_time = datetime.strptime(data_end_time_str, "%H:%M").time()
+                            # Assume end date is same as start date unless data-end is different and parsed
+                            end_datetime_utc = pytz.utc.localize(datetime.combine(parsed_start_date, parsed_end_time))
+                        else: # Fallback if only start time is available from cal_div
+                            end_datetime_utc = start_datetime_utc + timedelta(hours=2)
+                    except ValueError as ve:
+                        print(f"Warning: Could not parse time from cal_div for {title}: {ve}. Using default.")
+                
+                cal_location = cal_div.get('data-location')
+                if cal_location:
+                    location_str_from_cal = cal_location
 
-            tag_elem = article.find('span', class_='m-date-item__type')
-            tag = tag_elem.text.strip() if tag_elem else ''
 
-            # Get department from title or default to CCA if mentioned
-            department = "Center for Computational Astrophysics" if "CCA" in title else "Flatiron Institute"
+            # Speaker information (can be single or multiple)
+            speakers = []
+            people_div = article.find('div', class_='m-people-multi') # For multiple speakers
+            if not people_div: # Try single speaker
+                people_div = article.find('div', class_='m-person')
+            
+            if people_div:
+                person_tags = people_div.find_all('div', class_='m-person', recursive=False) # Direct children if m-people-multi
+                if not person_tags and people_div.name == 'div' and 'm-person' in people_div.get('class', []): # If people_div itself is m-person
+                    person_tags = [people_div]
 
-            # Create event ID using hash of URL and title
-            event_id = f"evt_simons_{hashlib.md5((url + title).encode()).hexdigest()[:8]}"
+                for person_tag in person_tags:
+                    name_tag = person_tag.find('span', class_='m-person__title')
+                    if name_tag:
+                        speaker_name = name_tag.get_text(strip=True)
+                        affiliation = ""
+                        # Attempt to get affiliation more robustly
+                        # Affiliation might be directly after the name_tag span, or as part of the parent's text
+                        sibling_text = name_tag.next_sibling
+                        if sibling_text and isinstance(sibling_text, str) and sibling_text.strip():
+                            affiliation = sibling_text.strip().lstrip(',').strip()
+                        
+                        if not affiliation: # Fallback if not a direct sibling
+                            full_text_nodes = [node for node in name_tag.parent.contents if isinstance(node, str)]
+                            if len(full_text_nodes) > 0:
+                                potential_affiliation = " ".join(node.strip() for node in full_text_nodes).strip()
+                                if potential_affiliation.startswith(speaker_name): # Basic check
+                                     potential_affiliation = potential_affiliation[len(speaker_name):].strip().lstrip(',').strip()
+                                affiliation = potential_affiliation
 
-            # Get location details
-            location_id = get_location_id(location)
-            venue = standardize_venue(location)
+                        speakers.append({"name": speaker_name, "affiliation": affiliation})
 
-            event_data = {
+            # Event type, location from m-post__cats
+            html_event_type = "Event" # Default
+            location_str_from_cats = None
+            registration_url = None
+            
+            cats_div = article.find('div', class_='m-post__cats')
+            if cats_div and cats_div.ul:
+                list_items = cats_div.ul.find_all('li', recursive=False)
+                if list_items:
+                    html_event_type = list_items[0].text.strip() # First li is usually type
+                    for li in list_items:
+                        loc_tag = li.find('a', href=lambda x: x and 'maps.google.com' in x)
+                        if loc_tag:
+                            location_str_from_cats = loc_tag.text.strip()
+                        
+                        reg_button = li.find('a', class_='btn--block', string=lambda t: 'Register' in t if t else False)
+                        if not reg_button: # Try button within m-block-button
+                             block_button_div = li.find('div', class_='m-block-button')
+                             if block_button_div:
+                                 reg_button = block_button_div.find('a', class_='btn--block')
+                        if reg_button and reg_button.has_attr('href'):
+                            registration_url = reg_button['href']
+
+
+            # Determine final location string (prefer more specific if available)
+            final_location_str = location_str_from_cats or location_str_from_cal or "Simons Foundation"
+            location_id = get_location_id(final_location_str)
+            venue = standardize_venue(final_location_str)
+
+            event_id_source = url + title + start_datetime_utc.isoformat()
+            event_id = f"evt_simons_{hashlib.md5(event_id_source.encode()).hexdigest()[:12]}" # Longer hash
+
+            event_data_for_typing_cats = {
                 "title": title,
-                "tags": [tag] if tag else [],
-                "department": department
+                "html_event_type": html_event_type,
+                "tags": [html_event_type] if html_event_type else [] 
             }
+            
+            description_parts = [f"{s['name']} ({s['affiliation']})" for s in speakers if s['name'] and s['affiliation']]
+            if not description_parts and speakers: # If affiliation is missing but name is there
+                 description_parts = [s['name'] for s in speakers if s['name']]
+            
+            event_description = "; ".join(description_parts) if description_parts else title
 
-            # Create metadata
             metadata = {
                 "source_url": url,
-                "source_name": "Simons Foundation",
+                "source_name": f"Simons Foundation - {series_name}",
                 "venue": venue,
-                "organizer": {
-                    "name": "Simons Foundation",
-                    "type": "organizer"
-                },
+                "organizer": {"name": "Simons Foundation", "type": "organizer"},
                 "additional_info": {
-                    "department": department,
-                    "event_type": tag,
-                    "all_day": all_day
+                    "department": f"Simons Foundation {series_name} Series",
+                    "speakers": speakers if speakers else None,
+                    "video_url": None, # Video URL parsing was for a different structure
+                    "registration_url": registration_url,
+                    "event_source_type": html_event_type
                 }
             }
+            # Attempt to find video URL if present (might be in different location in this HTML)
+            video_link_tag = article.find('a', class_='btn--block', string=lambda t: 'Watch Video' in t if t else False)
+            if video_link_tag and video_link_tag.has_attr('href'):
+                metadata['additional_info']['video_url'] = video_link_tag['href']
+
 
             standardized_event = {
                 "id": event_id,
                 "name": title,
-                "type": determine_event_type(event_data),
+                "type": determine_event_type(event_data_for_typing_cats),
                 "location_id": location_id,
                 "community_id": "com_simons",
-                "description": "",  # No description available in the source
-                "start_date": start_datetime.isoformat(),
-                "end_date": end_datetime.isoformat(),
-                "category": determine_categories(event_data),
-                "metadata": metadata
+                "description": event_description,
+                "start_date": start_datetime_utc.isoformat(),
+                "end_date": end_datetime_utc.isoformat(),
+                "category": determine_categories(event_data_for_typing_cats),
+                "metadata": metadata,
+                "price": {"amount": 0.0, "type": "free"},
+                "status": "scheduled",
+                "registration_required": bool(registration_url)
             }
-
             standardized_events.append(standardized_event)
 
         except Exception as e:
-            print(f"Error processing event: {title if 'title' in locals() else 'Unknown'}. Error: {str(e)}")
+            title_for_error = title if 'title' in locals() and title else 'Unknown Event'
+            print(f"Error processing event: {title_for_error} from {series_name}. Error: {str(e)}")
+            import traceback
+            traceback.print_exc()
             continue
 
     return standardized_events
 
 def scrape_simons_events():
-    all_events = []
-    current_date = datetime.now()
+    """Scrape events from multiple Simons Foundation series."""
+    all_fetched_events = []
+    
+    # Simons Foundation Presidential Lectures
+    html_presidential = fetch_events_from_url(PRESIDENTIAL_LECTURES_URL, "Presidential Lectures")
+    if html_presidential:
+        events_presidential = parse_events(html_presidential, "Presidential Lectures")
+        all_fetched_events.extend(events_presidential)
+        print(f"Parsed {len(events_presidential)} events from Presidential Lectures.")
 
-    for i in range(3):
-        target_date = current_date + timedelta(days=30*i)
-        html = fetch_events(target_date.month, target_date.year)
-        events = parse_events(html)
-        all_events.extend(events)
+    # Simons Foundation Presents
+    html_presents = fetch_events_from_url(PRESENTS_EVENTS_URL, "Simons Foundation Presents")
+    if html_presents:
+        events_presents = parse_events(html_presents, "Simons Foundation Presents")
+        all_fetched_events.extend(events_presents)
+        print(f"Parsed {len(events_presents)} events from Simons Foundation Presents.")
 
-    # Remove duplicates based on title and start_date
-    unique_events = {(e['name'], e['start_date']): e for e in all_events}.values()
-    return {"events": list(unique_events)}
+    # Deduplicate events based on ID (since ID is now more unique with timestamp)
+    # If IDs are truly unique, this step might be redundant but safe
+    unique_events_dict = {event['id']: event for event in all_fetched_events}
+    final_unique_events = list(unique_events_dict.values())
+    
+    print(f"Total unique events fetched: {len(final_unique_events)}")
+    return {"events": final_unique_events}
+
+def get_simons_internal_events():
+    """
+    DEPRECATED: Function to fetch Simons Foundation internal events.
+    
+    This function is deprecated and will not be called by default.
+    It retrieves internal Simons Foundation events that are sometimes open to the public.
+    Kept for future reference and potential implementation.
+    
+    Returns:
+        dict: Dictionary containing events data
+    """
+    warnings.warn(
+        "get_simons_internal_events is deprecated and not currently used. "
+        "It may be implemented in the future to fetch internal events.", 
+        DeprecationWarning, 
+        stacklevel=2
+    )
+    
+    # This is just a placeholder. The actual implementation would go here.
+    # For now, we return an empty events list
+    return {"events": []}
+
 
 def main():
-    events = scrape_simons_events()
-    print(f"Successfully processed {len(events['events'])} Simons Foundation events.")
+    events_data = scrape_simons_events()
+    num_events = len(events_data.get('events', []))
+    print(f"Successfully processed {num_events} Simons Foundation events.")
     
-    # Save to file for debugging
-    if events['events']:
-        with open('simons_foundation_events_debug.json', 'w', encoding='utf-8') as f:
-            json.dump(events, f, indent=2, ensure_ascii=False)
-        print("Events saved to simons_foundation_events_debug.json")
+    output_filename = 'simons_foundation_events.json'  # Keep original filename
+    if events_data['events']:
+        with open(output_filename, 'w', encoding='utf-8') as f:
+            json.dump(events_data, f, indent=2, ensure_ascii=False)
+        print(f"Events saved to {output_filename}")
     else:
         print("No events were found to save.")
 
