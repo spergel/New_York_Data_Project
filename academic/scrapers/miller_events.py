@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 import json
 from datetime import datetime, timedelta
 import pytz
@@ -6,7 +6,8 @@ import re
 
 def fetch_events(page):
     url = f"https://www.millertheatre.com/events?page={page}"
-    response = requests.get(url)
+    scraper = cloudscraper.create_scraper()
+    response = scraper.get(url)
     return response.text
 
 def extract_events_data(html_content):

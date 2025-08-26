@@ -1,0 +1,2222 @@
+{
+  "events": [
+    {
+      "id": "evt_newschool_c456234d",
+      "name": "The Stone at The New School: August Calendar",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The Stone at The New School serves as an artist-centric home and community for experimental and avant-garde artists, where they can perform what they want without any interference. With concerts every Wednesday through Saturday evening, The Stone at The New School continues the tradition of the landmark non-profit performance space founded in 2005 by Artistic Director John Zorn, within a greatly improved space.August 2025 will feature residencies by Nicole Mitchell, Vernon Reid, John Zorn, Kenny Wollesen, and Trevor Dunn",
+      "start_date": "2025-08-02T00:30:00+00:00",
+      "end_date": "2025-09-01T02:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/thestone2508",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The Glassbox Theater",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "stone_event",
+            "lobbymonitor",
+            "general public",
+            "college of performing arts",
+            "performances",
+            "the glassbox theater",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_c456234d",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_683ad26c",
+      "name": "Start of Semester Celebration",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Let’s kick off the semester in style with our annual start of semester staff brunch on Thursday, August 28th! Join us at the Admin Hub from 10-11:30am and enjoy a classic NYC bagel spread, coffee, and other refreshments as you connect with new and old colleagues.  In addition to brunch, we’ll have on-site photographers to update your professional headshots and our colleagues at The New Store will bring extra school spirit with their pop-up shop! Check out a wide range of featured TNS merchandise and limited-edition items available to staff at an exclusive 15% discount for this event. Please note: This event is open to New School staff only. ",
+      "start_date": "2025-08-28T14:00:00+00:00",
+      "end_date": "2025-08-28T15:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/start_of_semester",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Admin Hub",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "hrevent",
+            "staff",
+            "human resources",
+            "university",
+            "receptions",
+            "admin hub"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_683ad26c",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_b596630a",
+      "name": "University Convocation",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "It is our pleasure to invite the New School community to attend a University Convocation! We are excited to welcome the community to the Fall semester and celebrate the exciting academic year to come. Attendees are also invited to join the university Block Party after the ceremony from 4:30–7:00 p.m. on 12th Street (outside auditorium).  ",
+      "start_date": "2025-08-28T19:30:00+00:00",
+      "end_date": "2025-08-28T20:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/universityconvocation2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The Auditorium A 106",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "faculty",
+            "staff",
+            "students",
+            "president's office",
+            "university",
+            "ceremonies",
+            "the auditorium a 106"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_b596630a",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_dbcacd11",
+      "name": "Transdiciplinary Design Convening",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The MFA in Transdisciplinary Design opens the academic year with a public gathering that brings together people working across disciplines, contexts, and communities. Grounded in critical praxis, our program develops reflexive, experimental, and responsive forms of practice and aesthetic experiences that engage with the complexities of our social, ecological, and cultural conditions. The Fall Convening reflects this ethos through intimate sessions of conversations, performances, and live experiments. Alongside welcoming our new cohort, the event invites graduate students and faculty from across The New School to take part and see how our work connects with diverse fields of study. Most MFA Transdisciplinary Design courses are open to graduate students from all divisions, creating opportunities to work alongside peers from a wide range of disciplines and perspectives. As part of the event, we will also share an overview of all our courses, open to graduate students across The New School, so participants can explore how they might connect to their own practice or research. We will also introduce this year’s thematic inquiry in our first-year studio, which explores how creative practice can respond to the cultural, ecological, and political dimensions of extinction.Guests:James Oliver is a Hebridean Gàidheal and transdisciplinary academic. He is an Associate Professor at the School of Design at RMIT University in Melbourne. His career in ‘practice-research’ bridges cultural relations, creative practice research, and Indigenous Practice Research. His passion project, Tuath, is a collaboration with ancestral and common land in the Isle of Skye.Erin Dixon grew with the crystal-clear waters of Bineshii Okaninguming, Skeleton Lake in the traditional homelands of the Anishiinabeg. Of Otipemisiwak Cree-Métis and Icelandic-Isles heritage, she is dedicated to Indigenous-Ancestral knowledge in times of prophecy and planetary health transformation. She directs Wise Practices for the RAD Network, teaches across institutions including Banff Centre and Royal Roads University, and co-convenes the Indigenous Leadership stream within the ILA. At home, she serves in leadership and community roles such as Feather Carriers, the Gojijing Roundtable, and the Bineshi Okanin Centre for Sacred Places. Erin is pursuing a Practice-Based PhD with RMIT and Parsons New School, collaborating with the Collective Fabulation Lab.Jeongki Lim is Associate Professor of Strategic Design and Management and serves as Dean of the School of Design Strategies at Parsons School of Design. His work spans launching strategic initiatives in private and public sectors to research at the intersection of design and science. His current projects examine artificial intelligence as relational artifacts in creative learning and develop AI-enabled systems for art and design pedagogy. His research, published in major conferences and journals, also explores complexity science, design fiction, and posthumanism in curricula. He holds degrees from NYU and a Doctor of Arts in New Media from Aalto University, Finland.Tiffany Sia is an artist, filmmaker, and writer whose films have screened at TIFF, NYFF, MoMA Doc Fortnight, and more. She has presented solo exhibitions at Artists Space (NY), Cantor Arts Center (Stanford), Maxwell Graham Gallery (NY), and Felix Gaudlitz (Vienna). Sia is the author of On and Off-Screen Imaginaries (Primary Information, 2024), a compendium of essays on fugitive, exilic cinema. Her practice spans film, video sculpture, artist books, and critical writing, challenging representation, historical periodization, and the politics of record. Recipient of the 2024 Baloise Art Prize, she has lectured at institutions including Dia Art Foundation, Stanford, and Yale.Schedule:Wednesday, September 3Johnson/Kaplan Auditorium9:30 AM – 11:30 AMTransdisciplinary Practice Research: Erin Dixon and James Oliver—presentations and in a conversationJames Oliver: Practice Research: our Technology of the ImaginationDrawing from a range of place-based projects and international creative collaborations that have evolved in relation to learning with land and language, as cultural and cognitive justice, we will consider how we can transcend the limits of national and disciplinary boundaries. This seminar is an introduction on working (or doing and thinking) with practices of openness and collaboration—practice research as a means of not (over)determining futures—doing/making in terms of methodology, and of being and becoming with practice.Erin Dixon: Awi-Niiganni-Mino- Wiji-Inawendiwin: Going Forward Together in HarmonyThrough the generosity of our grandmother's tidal estuaries and mahicantuck ways, Erin will share storywork to reflect on the deepening of lifeway practices. Shifting from survival to sitting at the centre in re-search; scouting, futuring in footsteps, that unfolds a web of deep listening to place, and the movements of Indigenous—Ancestral practices in the spirit of reweaving kinship in right relations—reconciliation with all our relations.2:00 PM – 3:30 PMWollman HallPractice Research RoundtableErin Dixon, James Oliver, and Jeongki Lim explore practice-based research as a mode of inquiry, collaboration, and world-making. Together, they will share how their work—spanning Indigenous leadership, creative practice, land-based research, and AI-enabled pedagogies—engages with knowledge traditions and emerging possibilities across design, culture, and planetary health.Thursday, September 410:00 AM – 11:30 AMWollman HallHow to make a life with Tiffany SiaAn intimate conversation about what it means to build a practice as a transdisciplinary maker/thinker. Drawing from her work as both an artist and filmmaker Tiffany will share insights into navigating creative work and building a sustainable, multidimensional career.2:00 PM – 3:30 PMJohnson/Kaplan AuditoriumConsortium for Trans/disciplinarity Labs: Collective Fabulation Lab; Life in the Fault Line LabJoin us for short presentations of ongoing projects of these new university Labs, and open discussion for ways to collaborate.Collective Fabulation Lab is a space for transdisciplinary practice research, scholarship, and teaching and learning in and through narrative forms as exploratory and experimental ways, centering processual story-making as critical praxis. Fabulations are emergent imaginaries, narratives that unfold and reweave. Collective fabulation is a method of ontological practice through myriad tactical and improvisational ways of being, relating and becoming with the world.Life in the Fault LineThe University of California Santa Cruz, and The New School are facilitating the Life in the Fault Line initiative in the Brazilian Amazon, a region of vast biodiversity and rich cultural heritage that faces ongoing threats from deforestation, forced labor, and infrastructural disruption. At the center of these tensions is the BR-319 highway, a literal and metaphorical “faultline” that starkly exposes the conflicts between development and ecological coexistence.The Consortium for Transdisciplinarity(CT/d) is a framework for connecting transdisciplinary teaching, learning, and research across the university. CT/d supports collaboration between Parsons, The New School for Social Research, and other divisions, fostering a robust ecosystem for inquiry.6:15 PM – 7:30 PMWeiss LectureKaplan HallJames Oliver: Cultural Longing and Belonging in Practice as ResearchInspired by anthropologist and poet Renato Rosaldo’s proposition that human action and articulations, including the creative expression of doing or making, are also deeply related to the cultural force of emotion, this presentation unfolds its own focus (on the cultural force of research and practice-research as a cultural force) through a reflective narrative on places, projects and pedagogy, across the personal and professional practice of a professor. This is presented as a connectedness of place-based, temporal and spatial stories, hyper-local relationships in the global archipelago, our island ocean; the professor is a transdisciplinary educator, researcher and writer (of sorts), with several decades experience across a range of disciplines and sectors, including the creative arts, design, social science, arts development and community practice.",
+      "start_date": "2025-09-02T17:00:00+00:00",
+      "end_date": "2025-09-04T16:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "DESIGN",
+        "POLITICS",
+        "ARTS",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/tdconvening25",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Multiple Locations",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "school of design strategies",
+            "design",
+            "parsons school of design",
+            "lectures and talks",
+            "multiple locations",
+            "lectures and panel discussions",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_dbcacd11",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_cbcdb57c",
+      "name": "Institute for Philosophy and New Humanities 2025",
+      "type": "Conference",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "**Attendance is limited to current New School faculty and students. Must have an @newschool.edu email address to register.** Join us for a series of keynote presentations as part of the 2025 Institute for Philosophy and New Humanities: Iconoclasm: Past and Present. The internet (and AI) have made us acutely aware of the power of images, and how it can come to seem reasonable to want to destroy these images as a defense mechanism. The idea of the seminar would be to take up not just explicit bans on images or various forms of censorship, but the philosophical underpinnings of iconoclasm: namely, the view that images are not bearers of truth, are antithetical to human efforts at making the world intelligible, and psychologically deleterious. We hope to invite people with art historical perspectives, alongside philosophers of art with things to say about the fate of iconoclasm beyond its ancient pedigree (Plato, the Bible) into the contemporary world.KEYNOTE LECTURES AND Q&ASTuesday, September 2, 4pm Birgit Mersmann, University of Bonn Thursday, September 4, 4pm Alva Noë, University of California, Berkeley Friday, September 5, 4pm Erin Thompson, CUNY",
+      "start_date": "2025-09-02T20:00:00+00:00",
+      "end_date": "2025-09-05T22:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/ipnh2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "University Center, Starr Foundation Hall (UL102)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "faculty",
+            "students",
+            "liberal studies",
+            "philosophy",
+            "intellectual culture and big ideas",
+            "the new school for social research",
+            "conferences",
+            "university center, starr foundation hall (ul102)",
+            "conferences and symposia"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_cbcdb57c",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_3e1a903f",
+      "name": "Poetry Reading with Elaine Equi & Jerome Sala",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a celebration of two new books and a shared life in poetry featuring Elaine Equi and Jerome Sala. Beloved New School poetry professor for many years, Elaine Equi is the author of more than ten books of poems. Equi’s Out of the Blank from Coffee House Press showcases her trademark brevity and finesse. Dream logic and a particular, understated, idiosyncratic wit wash together in these poems with a painterly use of color and texture. According to critic Ben Shields in Artforum, the “generousness of an Equi poem lets you take for granted its offhand grandeur.” Combining pop culture, humor, and irony, Equi’s poems are both direct and nuanced. Jerome Sala, poet, critic, freelance copywriter, and content developer, has cultivated the kind of insider/outsider status that grants access to the parts of the American psyche he most wants to satirize. Sala’s new book of poems from BlazeVOX, Glop, enlivens language that contemporary capitalism has left for dead. He illuminates the fundamental soulfulness of paying attention to what we encounter moment-to-moment, even the “nastyass” honey badgers we see on YouTube while being stalked by targeted advertising. Having established a life together as poets, the pair will also discuss their experience prioritizing creativity and writing. Hosted by Laura Cronk, assistant professor and chair of poetry, MFA in Creative Writing at The New School.  Elaine Equi’s latest book is Out of the Blank from Coffee House Press. Her other books include Voice-Over, which won the San Francisco State Poetry Award; Ripple Effect: New & Selected Poems, which was a finalist for the L.A. Times Book Award and on the short list for the Griffin Poetry Prize; and Sentences and Rain. Widely published and anthologized, her work has appeared in the American Poetry Review, Brooklyn Rail, Big Other, The Nation, The New Yorker, and many other journals. In 2023, she was the guest editor of the annual anthology, Best American Poetry. In 2024, she received a Guggenheim fellowship. She has taught in many creative writing programs, including those at New York University, City College of New York, and The New School. She lives in New York with her husband, the poet Jerome Sala. Jerome Sala’s latest book of poems is Glop, just out from BlazeVOX. Other collectionsinclude cult classics such as I Am Not a Juvenile Delinquent, The Trip, Raw Deal, LookSlimmer Instantly, The Cheapskates, Corporations Are People, Too!, How Much? Newand Selected Poems, Prom Night (a chapbook collaboration with artist TamaraGonzales) and Double Feature (a chapbook collaboration with poet Elaine Equi). Hispoetry and criticism have appeared in The Nation, Evergreen Review, Rolling Stone,Pleiades, Conjunctions, Boundary 2, The Brooklyn Rail, and many others. His work hasalso been anthologized in Pathetic Literature and several editions of The Best AmericanPoetry series. Before moving to New York City in the 80s, Sala and his spouse, poetElaine Equi did numerous readings together in Chicago, helping to create the city’slively performance poetry scene. He has worked as a copywriter and creative directorand has a PhD in American Studies from New York University.",
+      "start_date": "2025-09-03T22:00:00+00:00",
+      "end_date": "2025-09-03T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "A-407",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Creative Writing"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "creative writing program",
+            "writing and literature",
+            "the new school for social research",
+            "lectures and talks",
+            "a-407",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_3e1a903f",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_61855696",
+      "name": "Craft, Culture & Creative Alchemy",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for an illuminating dialogue with Dynasty and Soull Ogun, the visionary twin founders of L’Enchanteur, and Yvonne Watson, Vice Provost for Global Academic Strategy and Partnerships at Parsons School of Design. Recently recognized as winners of the 2024 CFDA/Vogue Fashion Fund and preparing to showcase their work at New York Fashion Week, Soull and Dynasty embody the transformative spirit of contemporary artisan culture. Together with Yvonne Watson, they will explore what it means to alchemize your life, nurture a love of craft, and create with intention in today’s rapidly shifting creative landscape.Moderating the discussion is S. PhaFa Roy, the Assistant Dean of Academic Operations & Community Engagement at Parsons. Audience Q&A to follow.Featured SpeakersDynasty & Soull Ogun — Twin co-creators of L’Enchanteur, a lifestyle, jewelry, and fashion brand steeped in symbolism and mysticism. Drawing inspiration from science, color theory, mythologies, numerology, and spirituality, their creations redefine heirlooms by infusing them with purpose and enchantment.Yvonne Watson — As Vice Provost for Global Academic Strategy and Partnerships and former Executive Dean of Parsons School of Design, Yvonne brings a visionary perspective on the intersections of creative education, global collaboration, and artisan traditions.",
+      "start_date": "2025-09-03T22:30:00+00:00",
+      "end_date": "2025-09-03T23:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/ccca",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Tishman Auditorium, The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "arts",
+            "design",
+            "parsons school of design",
+            "lectures and talks",
+            "tishman auditorium, the new school",
+            "lectures and panel discussions",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_61855696",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_ca99b30a",
+      "name": "Faculty Welcome Back Reception",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Provost Richard Kessler cordially invites all full- and part-time faculty to celebrate the start of the Fall 2025 semester.  Join us for an informal and festive gathering to meet new colleagues, reconnect in person after the summer months, and toast the start of a new academic year. We hope to see you there!",
+      "start_date": "2025-09-04T20:00:00+00:00",
+      "end_date": "2025-09-04T22:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/facultywelcomeback2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wollman Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "faculty",
+            "receptions",
+            "wollman hall"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_ca99b30a",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_1daa207b",
+      "name": "Tech Help Days",
+      "type": "Workshop",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Prep your devices for success and learn about the available technology services at The New School! Need a hand getting your laptop, phone, or tablet ready for the semester? Drop by IT's Tech Help Days for walk-up assistance from the IT team. Our staff will help you troubleshoot issues, set up your accounts, and introduce you to the technology services available to support your success. Dates & TimesFriday, September 5, 10:30am-2:30pmFriday, September 12, 11:00am-3:00pmLocationUniversity Center Events Cafe, room UL10363 Fifth AvenueOpen to all students, faculty, and staff, no reservation required. Stop by, get your tech ready, and learn how to make the most of the university's offerings! ",
+      "start_date": "2025-09-05T14:30:00+00:00",
+      "end_date": "2025-09-12T19:00:00+00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/tech_help_days",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "University Center, Events Cafe",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "faculty",
+            "staff",
+            "students",
+            "university",
+            "workshops and training",
+            "university center, events cafe",
+            "continuing education"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_1daa207b",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_49a1cc5e",
+      "name": "Creativity & Data Science",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "While art is often thought to be oppositional to science & technology, these domains are less distinct than many of us might believe. From cave paintings to photography to the Adobe Creative Suite, artists have always endeavored to incorporate novel means of production into creative practice; and from the invention of perspectival representation to Cubism to the New Aesthetic, artists often attempt to understand and express the new sensoria that novel technologies unlock. Conversely, technology is also often driven by new creative vision, attempting to both capture and empower new forms of creativity; and science, for its part, also relies on new ways of seeing, and the capacity to draw new knowledge into being through creative questioning.Why then, in recent decades, do we seem to have come to see these domains as oppositional? Technology is too often understood as a tool of bureaucracy or the war machine, or enlisted in service of the profit motive. Similarly, science is frequently evaluated in terms of the size of data sets and other quantitative measures that downplay experimentation and exploration. In this talk, Tugçce Bilgin will explore how to ensure creative thinking is not forgotten by scientists and technologists. Playful challenges, games, and other artistic activities offer powerful ways to nurture imagination both in STEM education and as part of the scientific method itself. Drawing from her work as a published evolutionary biologist and an instructor of creative programming, she will share strategies for fostering creative thinking among scientists and technologists – and will welcome insights from the audience on how we can further bridge these worlds. The Code at Lang Colloquium (CaLC) is an event series putting scholars, artists, and other practitioners in conversation with New School faculty to examine what it means to do critical computer science within the arts, humanities, and social sciences.",
+      "start_date": "2025-09-05T16:00:00+00:00",
+      "end_date": "2025-09-05T17:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "TECH",
+        "HUMANITIES",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/creativitydatascience",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "6 EAST 16TH STREET, ROOM 532",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "langengage",
+            "lobbymonitor",
+            "online_events_cal",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "6 east 16th street, room 532",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_49a1cc5e",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_89e018bd",
+      "name": "Visibilize-ing Care Festival: Unsent Letters Mailbox",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_parsons",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab. Do you have messages you never sent to a parent, loved one, friend, partner, or perhaps even to your pet? We are bringing The Unsent Letter Mailbox, to share your unsaid thoughts, on four days throughout this fall 2025.The Unsent Letter Mailbox is an urban pop-up series where participants are invited to write an unsent letter and, in return, read one written by someone else anonymously.We’re creating a safe, judgment-free space for irreverent, wild, and beautiful stories to be written, expressed, and shared.Stop by the Unsent Letters Mailbox tables:- Monday, Sept 8 from 1:30 pm – 3:00 pm in the Parsons Lobby at 2 West 13th Street- Monday, Sept 15 from 1:30 pm – 3:00 pm in the University Center Lobby at 63 Fifth Avenue- Monday, Oct 6 from 1:30 pm – 3:00 pm in the Parsons Lobby at 2 West 13th Street- Monday, Oct 20 from 1:30 pm – 3:00 pm in the University Center Lobby at 63 Fifth AvenueIf you miss the tabling events, look out for the Unsent Letters Mailbox which will be placed around campus this Fall semester.  The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during the 25-26 academic year. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-09-08T17:30:00+00:00",
+      "end_date": "2025-09-08T19:00:00+00:00",
+      "category": [
+        "TECH",
+        "HUMANITIES",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Parsons School of Design",
+          "address": "66 Fifth Avenue, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_89e018bd",
+      "locationId": "loc_newschool_parsons",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_8d67cc1a",
+      "name": "Economics Seminar: Jamee Moudud",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Dr. Moudud (PhD 1998) will present his new book “Legal and Political Foundations of Capitalism: the End of Laissez Faire?”  The title is an extension of John R. Commons’ classic book “Legal Foundations of Capitalism” and an important article by John Maynard Keynes, “The End of Laissez Faire”.  The question mark captures the essence of the book. Drawing on the insights of the Original Institutional Economics and American Legal Realist tradition along with those of Adam Smith, Karl Polanyi, and Piero Sraffa it provides new insights on the nature of institutions in capitalism.  By arguing that society is a political community it challenges the private law versus public law or state versus markets distinction. Focusing on property, credit and public finance, constitutional law and social rights, monetary sovereignty and colonialism, corporations, and authoritarianism this book argues that laissez faire is the foundational myth of capitalism and that “state intervention versus de‑regulation” and “market failures versus free markets” are false dichotomies. The book engages closely with Friedrich Hayek’s contributions to law and challenges New Institutional Economics as well as the Law and Development/Rule of Law framework promoted by the World Bank. It proposes the need to engage with legal‑economic theory and history to understand what institutions are, the political foundations of law, what economic regulation means, law’s constitutive role with respect to the economy, and the distribution of power relations within capitalism. It will be of interest to readers of economics, law, public policy, international and development studies, and all those seeking to explore progressive alternatives in this period of multiple crises. Jamee K. Moudud, Legal and Political Foundations of Capitalism: the End of Laissez Faire?, (Routledge, 2025), available here. External guests, please register using the link, so that security at our building has your name, otherwise you will be denied entry. Thanks.",
+      "start_date": "2025-09-09T20:00:00+00:00",
+      "end_date": "2025-09-09T22:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "POLITICS",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/economicsseminaralexmthomascopy",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room, RM 1103",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "economics",
+            "the new school for social research",
+            "lectures and talks",
+            "wolff conference room, rm 1103",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_8d67cc1a",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_f7795982",
+      "name": "Healthy Materials Lab 10th Anniversary Celebration",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Healthy Materials Lab is excited to celebrate 10 years at Parsons with a garden party in Brooklyn. This gala will raise funds to support further research, advocacy, scholarships, and assistantships to keep driving industry change and promote healthier design. Attire: Joyous with a Spot of YellowFor information about donations, sponsorships, and ticket packages, contact Assistant Director, Ahalia Persaud at healthymaterialslab@newschool.edu Hosted by Parsons Healthy Materials Lab",
+      "start_date": "2025-09-09T21:30:00+00:00",
+      "end_date": "2025-09-10T01:30:00+00:00",
+      "category": [
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/hml10",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Carroll Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "the new school alumni relations",
+            "arts",
+            "design",
+            "environment, sustainability, and climate change",
+            "parsons school of design",
+            "university",
+            "receptions",
+            "carroll hall",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_f7795982",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_1beddecc",
+      "name": "The Jewelry Book: An Evening with Melanie Grant, Lorraine West, Joy BC, and NGHI",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Phaidon and Parsons School of Design present designers Lorraine West, Joy BC, and NGHI in dialogue with author Melanie Grant to discuss the rich history, meaning, and evolution of jewelry over the ages. Discover the designers, artists, collectors, and style icons from around the world who have produced and inspired the most memorable designs in jewelry from Boucheron and Elsa Peretti to Iris Apfel and Loulou de la Falaise. “The fact that no one needs jewelry and yet so many have scaled walls of ferocious class systems with little more than a burning desire and a purse full of hard-earned cash makes it all the more profound.\" – Melanie Grant, introduction of The Jewelry Book Audience Q&A and book signing to follow. Pre-order The Jewelry Book at www.phaidon.com or purchase at the event.  About the Speakers:Melanie Grant is a luxury writer and curator based in London, specializing in the interplay between art, jewelry, and economics in society. Joy BC (Joy Bonfield–Colombara) is an artist and goldsmith working predominantly in noble metals and bronze. Her works are often challenging pre-existing notions of precious materials and ingrained societal ideals of western female bodies in sculpture. Joy BC plays with mythologies and re-examines the fascination with the \"Classical.\" Lorraine West is a NYC-based jewelry designer celebrated for her handcrafted contemporary and fine jewelry that blends bold, minimalist designs with deep cultural and spiritual significance. As a self-taught craftswoman, Lorraine pays homage to her Caribbean roots by incorporating symbolic and geometric elements into her pieces, aiming to reflect the inner beauty and power of the wearer.  NGHI believes the most beautiful thing in life is the mystery of the unknown, a force that has shaped his 26-year creative journey across three continents. From growing up in Australia as a war refugee to designing costumes in Japan for cult films to creating jewelry for global icons and, most recently, high jewelry for New York’s iconic heritage houses, his path has unfolded through bold and unexpected turns. He founded NN Jewels as a tribute to the spirit of creative evolution—a body of work inspired by poets, dreamers, and visionary warriors who find strength in the unseen and beauty in the mystery. @NNBYNGHI",
+      "start_date": "2025-09-09T22:00:00+00:00",
+      "end_date": "2025-09-10T00:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/thejewelrybook",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Alvin Johnson/J.M. Kaplan Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "art and design history and theory",
+            "fashion",
+            "arts",
+            "design",
+            "parsons school of design",
+            "lectures and talks",
+            "alvin johnson/j.m. kaplan hall",
+            "lectures and panel discussions",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_1beddecc",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_56992a9b",
+      "name": "Reading and Conversation: Adam Ross",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a reading with novelist Adam Ross as he sits down with Sidik Fofana to discuss his latest work Playworld.About Playworld Griffin Hurt is in over his head. Between his role as Peter Proton on the hit TV show The Nuclear Family and the pressure of high school at New York's elite Boyd Prep—along with the increasingly compromising demands of his wrestling coach—he's teetering on the edge of collapse.Then comes Naomi Shah, twenty-two years Griffin’s senior. Unwilling to lay his burdens on his shrink—whom he shares with his father, mother, and younger brother, Oren—Griffin soon finds himself in the back of Naomi’s Mercedes sedan, again and again, confessing all to the one person who might do him the most harm.Less a bildungsroman than a story of miseducation, Playworld is a novel of epic proportions, bursting with laughter and heartache. Adam Ross immerses us in the life of Griffin and his loving (yet disintegrating) family while seeming to evoke the entirety of Manhattan and the ethos of an era—with Jimmy Carter on his way out and a B-list celebrity named Ronald Reagan on his way in. Surrounded by adults who embody the age’s excesses—and who seem to care little about what their children are up to—Griffin is left to himself to find the line between youth and maturity, dependence and love, acting and truly grappling with life.",
+      "start_date": "2025-09-09T22:00:00+00:00",
+      "end_date": "2025-09-09T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/readingandconversationadamross",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "A-407",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Creative Writing"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "creative writing program",
+            "writing and literature",
+            "the new school for social research",
+            "author readings",
+            "a-407",
+            "author readings and discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_56992a9b",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_5128409f",
+      "name": "In Conversation with Sache Taylor: Director of Special Events at Vogue",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for an exclusive conversation with Sache Taylor, Director of Special Events at Vogue. Sache plays a key role in planning and executing major industry events, including the Met Gala, ensuring each occasion reflects Vogue's influence and standards.In this session, we’ll discuss how passion, personal storytelling, and intentional career design can shape your professional journey in the fashion industry. Sache will share insights on leveraging unique experiences, crafting your narrative, and making strategic career moves—along with practical advice on navigating challenges, building meaningful connections, and aligning your career with your goals and values.",
+      "start_date": "2025-09-11T15:00:00+00:00",
+      "end_date": "2025-09-11T16:30:00+00:00",
+      "category": [
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/inconversationwithsachetaylor",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Kellen Auditorium - Room 101",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "staff",
+            "students",
+            "fashion",
+            "parsons school of design",
+            "lectures and talks",
+            "kellen auditorium - room 101",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_5128409f",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_7fbd7e49",
+      "name": "Zolberg Institute Open House and Research Showcase",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Join us on September 11 for catered light bites, brief project presentations from affiliated faculty researchers, and information about how to get involved with the institute!We look forward to highlighting the wide array of research occurring within the institute, and opportunities for students, such as the Zolberg Student Fellowship and Zolberg-IRC Fellowship.",
+      "start_date": "2025-09-11T20:30:00+00:00",
+      "end_date": "2025-09-11T22:30:00+00:00",
+      "category": [
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/zolberginstituteopenhouse",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "79 5th Ave, Floor 16",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "research",
+            "open house",
+            "lobbymonitor",
+            "slide_events",
+            "faculty",
+            "prospective students",
+            "staff",
+            "students",
+            "faculty/student/alumni/staff research & work",
+            "the new school for social research",
+            "info session/open house",
+            "79 5th ave, floor 16",
+            "admission info session/open house",
+            "online or live streamed"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_7fbd7e49",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_70e2bcef",
+      "name": "Reading and Conversation: Scott Alexander Hess",
+      "type": "Academic",
+      "location_id": "loc_newschool_66w12",
+      "community_id": "com_newschool",
+      "description": "Join us for a reading with Scott Alexander Hess as he sits down with Luis Jamarillo to discuss his latest work, Drought. About Drought  When Parnell, a recluse from Newark, New Jersey, inherits a dilapidated tobacco farm in Kentucky from his estranged Uncle Willy, he moves to the farm hoping to jump-start his empty life. Such begins an odyssey igniting a dual narrative as Uncle Willy shares from the grave about his deep love for a man named Phil, and a violent curse born from hate and intolerance. In Kentucky, Parnell befriends Darl, who works at the Sonic, and John, an eccentric preacher who guides him to learn the twisted fate of his Uncle Willy. Parnell discovers there are more than tobacco leaves buried in the fields. As he unearths a long-hidden crime, to his surprise, he gains a new sense of self.",
+      "start_date": "2025-09-16T22:00:00+00:00",
+      "end_date": "2025-09-16T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 66 West 12th Street",
+          "address": "66 West 12th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Creative Writing"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "creative writing program",
+            "writing and literature",
+            "the new school for social research",
+            "author readings",
+            "66 w 12th st,  a 407",
+            "author readings and discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_70e2bcef",
+      "locationId": "loc_newschool_66w12",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_24f75247",
+      "name": "Unfamiliar Intelligence: Art, AI, and Robots",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Goldberg will share examples of his robotic artworks exploring the boundary between human & machine. The word \"robot\" was coined shortly after the 1918 pandemic in a theatrical play about mechanical workers organizing a rebellion to defeat their human overlords. A century later, after new developments in computer vision, machine learning, and automation, fueled by venture capital & governments, robots continue to disrupt labor, trade, and political stability. Now, paired with the latest advances in artificial intelligence, robots foist new opportunities & threats on modern life, and continue raising new questions about the distinction between humanity and the machinic.To contextualize this collection of artwork, Ken references Sigmund Freud's Uncanny (1919) and Masahiro Mori's Uncanny Valley (1970). He will share robot paintings from his first art exhibit at CMU and art installations such as the Telegarden (1995-2004), a living garden tended by a robot operated by over 100,000 visitors over the Internet, and AlphaGarden (2020-), a fully automated garden that took an unexpected twist during the pandemic.The Code at Lang Colloquium (CaLC) is an event series putting scholars, artists, and other practitioners in conversation with New School faculty to examine what it means to do critical computer science within the arts, humanities, and social sciences.",
+      "start_date": "2025-09-17T21:30:00+00:00",
+      "end_date": "2025-09-17T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "HUMANITIES",
+        "POLITICS",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/unfamiliarintelligence",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "WOLLMAN HALL, 65 WEST 11TH STREET, ROOM B500, 5TH FLOOR",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "langengage",
+            "lobbymonitor",
+            "online_event_cal",
+            "general public",
+            "code as a liberal art",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "wollman hall, 65 west 11th street, room b500, 5th floor",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_24f75247",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_69c80026",
+      "name": "Gromek Institute presents: A Conversation with Fashion Retailer Mickey Drexler",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Chances are you’ve worn his work: Gap, Old Navy, J.Crew, Madewell, and Alex Mill. Meet the builder behind those brands. The Gromek Institute for Fashion Business at Parsons hosts a fireside chat with Mickey Drexler, retail’s definitive merchant, moderated by Tim Ceci, veteran fashion retail executive and Parsons faculty.Born and raised in the Bronx, Drexler brings a scrappy, straight-talking point of view shaped by real store-floor experience, a reminder that big ideas often start small.Built for emerging talent, this conversation pulls back the curtain on how fashion really works, where creativity meets merchandising, product gets made and remade, and customer insight drives assortment, pricing, store experience, and digital. Expect inside stories from Drexler’s run at Gap Inc. (CEO 1995–2002): launching Old Navy and GapKids, repositioning Banana Republic upmarket, and helping grow company revenue from under $500 million in the early 1980s to roughly $14 billion by 2000 as the portfolio expanded to Gap, GapKids, babyGap, Banana Republic, and Old Navy (plus outlet formats). We’ll also cover his J.Crew partnership with Jenna Lyons and why he now champions timeless essentials at Alex Mill, the brand founded by his son where Drexler later took the helm.With four decades in retail, Tim Ceci has led teams in the U.S. and Europe across merchandising, operations, and client strategy at Banana Republic, Gap Inc., Barneys New York, Saks, Nordstrom, Céline, and Goyard, building brands, turning around businesses, and developing talent. As an educator and mentor at Parsons, he’s known for translating shop floor to boardroom lessons into practical guidance for students and early-career professionals.Expect sales-floor stories, honest lessons on building culture and teams, and the advice Drexler is known for: be curious, be a detective, and do better tomorrow than you did today. Bring questions, leave with playbook-ready takeaways for your next studio critique, internship, or first role.",
+      "start_date": "2025-09-17T22:00:00+00:00",
+      "end_date": "2025-09-18T03:59:59+00:00",
+      "category": [
+        "TECH",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Tishman Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "University Level"
+          ],
+          "tags": [
+            "gromek institute",
+            "mickey drexler",
+            "gap",
+            "alex mill",
+            "fashion business",
+            "fashion retail",
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "fashion",
+            "management and entrepreneurship",
+            "parsons school of design",
+            "university",
+            "lectures and talks",
+            "tishman auditorium",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_69c80026",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_84173b08",
+      "name": "Climate Week 2025 Keynote Event",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "  Mark Your Calendars! Join the Tishman Environment and Design Center at The New School this Climate Week 2025, as we continue our year-long celebration honoring two decades of our mission-driven work bringing together research and action to tackle the root causes of climate and environmental injustice within and beyond The New School.We are excited to co-produce this year's Climate Week Keynote event in collaboration with the Center for Investigative Reporting (CIR), founded in 1977 as the nation’s first nonprofit investigative journalism organization, and the Sustainable Energy and Environment Coalition Institute (SEEC Institute), a nonprofit established in 2023, to increase understanding, build support, and drive action on critical climate and environmental issues.Block your calendars and stay tuned for exciting announcements about our keynote speakers and program details. Register here to reserve your seat and receive updates.#TishmanCenter20 #ClimateWeek2025 ",
+      "start_date": "2025-09-23T14:00:00+00:00",
+      "end_date": "2025-09-23T15:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "DESIGN",
+        "POLITICS",
+        "ARTS",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/climateweek2025keynote",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "clean energy",
+            "climate change",
+            "climate justice",
+            "earth month",
+            "earth week",
+            "energy",
+            "environmental justice",
+            "online_events_cal",
+            "public programs",
+            "climate_env_sus",
+            "eisjweb",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "cities and urbanism",
+            "education and pedagogy",
+            "environment, sustainability, and climate change",
+            "humanity, society, social justice",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "media, science, and technology",
+            "performing arts",
+            "politics, policy and government",
+            "lectures and talks",
+            "tishman auditorium, 63 5th avenue",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_84173b08",
+      "locationId": "loc_newschool_63fifth",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_38473b0c",
+      "name": "India China Day 2025",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "﻿Join India China Day for tasty food of India and China, and listen to the presentations by the ICI student fellows. All on campus are welcome – TNS students, faculty and staff! India China Day is an annual celebration of our student fellows’ works. It is an occasion to meet new and old ICI friends, learn about ICI fellowships, programs and opportunities for the new academic year.Five student fellows from the current cohort will present their diverse research findings. One investigates the new wave of Chinese migrants to Southeast Asia, while another explores e-commerce as a rural development strategy in China. A third examines the conditions for collective struggle among South Asian workers in Hong Kong’s post-colonial capitalist economy. Two others focus on India: one project aims to develop a low-cost, plug-and-play kit for off-grid communities in extreme climate conditions in Turkuk, Leh; the other seeks to inform inclusive and adaptive policy solutions to enhance resilience and rights-based protections for climate migrants in India. 2024-2025 Student FellowsAratrika Debrath, Emily Li, Nolan Young, Parth Patel and Florian Chi Zhang",
+      "start_date": "2025-09-25T21:00:00+00:00",
+      "end_date": "2025-09-25T22:30:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "POLITICS",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/indiachinaday2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "cities and urbanism",
+            "international and global affairs",
+            "writing and literature",
+            "university",
+            "lectures and talks",
+            "starr foundation hall (ul102)  university center (lower level)  63 5th avenue, new york, ny ",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_38473b0c",
+      "locationId": "loc_newschool_63fifth",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_3abad284",
+      "name": "YEBBA Ensemble",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join the YEBBA Ensemble as they bring the music of singer-songwriter YEBBA and similar artists to life!",
+      "start_date": "2025-09-26T00:00:00+00:00",
+      "end_date": "2025-09-26T01:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/yebbaensemble",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnie Lawrence Hall, 55 West 13th Street",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "jazz",
+            "college of performing arts",
+            "performance",
+            "arnie lawrence hall, 55 west 13th street"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_3abad284",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_f49c9c28",
+      "name": "Regenerative Metropolis ’25 – Passive House as Foundation to System Integration",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Passive house’s reliable and superior energy performance with its myriad of co-benefits, is the cornerstone of the architectural solutions we require to be able to thrive. It is a firm foundation upon which we can build a regenerative society that repairs ecosystems damage, reverses it, and begins to increase all life.  There is a rising consciousness emerging revealing how comprehensive the field of sustainability is truly required to be if we are to meaningfully move towards regeneration. Only by broadening the lenses of our understanding can we take advantage of synergies of our actions across systems, and exponentially increase positive impacts.For this year’s symposium, we invited you to submit proposals showcasing how passive house design relates to any aspects of regenerative design that are dear to your interests or practice.  We had an enthusiastic response from diverse locations and perspectives, all with inspiring examples of reaching for Regeneration and how Passive House was, or in some cases was not, a cornerstone of the strategy.In the spirit of this symposium’s continual drive to integrate various disciplines through architecture, we also invited a scientist focused on Green Chemistry to close out the day and inspire us with efforts in that movement to address issues upstream.Please join our tireless community for what we believe will be an inspiring, challenging, yet hopeful day!Organized by New York Passive House, Healthy Materials Lab, and The School of Constructed Environments at Parsons School of DesignPlease hold the date for what we aim to be an inspiring, paradigm probing event! Members are strongly encouraged to reach out to us at info@nypassivehouse.org if you are interested in helping plan the program and event.",
+      "start_date": "2025-09-26T13:00:00+00:00",
+      "end_date": "2025-09-26T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "address": "72 5th Ave, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Constructed Environments"
+          ],
+          "tags": [
+            "batec",
+            "online_events_cal",
+            "slide_event",
+            "slide_events",
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "school of constructed environments",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "environment, sustainability, and climate change",
+            "parsons school of design",
+            "lectures and talks",
+            "lectures and panel discussions",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_f49c9c28",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_a3f646ac",
+      "name": "Psychedelic Rock & Soul Ensemble",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Directed by Dirk FreymuthThe Psychedelic Rock and Soul Ensemble explores Psychedelic music from its origins in the late 1960s through the 1970s. The group will perform music by artists including Jimi Hendrix, Janis Joplin, Jefferson Airplane, Pink Floyd, Sly and the Family Stone, Parliament Funkadelic, Isaac Hayes, and others.",
+      "start_date": "2025-09-27T00:00:00+00:00",
+      "end_date": "2025-09-27T01:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/psychedelicrocksoul2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnie Lawrence Hall, 55 West 13th Street",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "jazz",
+            "college of performing arts",
+            "performance",
+            "arnie lawrence hall, 55 west 13th street"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_a3f646ac",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_1d8255ff",
+      "name": "Rituals of Care",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Workshop led by Anne Gaines and Michele KahaneThe Rituals of Care workshop will explore the pedagogy of care, relevant for faculty and anyone who aspires to be an educator in diverse contexts. The workshop stems from research on the Pedagogy of Care completed by CareLab in 2024 which can be found on the CareLab website here. ______________________________________________About the Parsons Carelab:The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-09-30T17:30:00+00:00",
+      "end_date": "2025-09-30T19:30:00+00:00",
+      "category": [
+        "TECH",
+        "HUMANITIES",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/ritualsofcare",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "school of design strategies",
+            "arts",
+            "design",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "arnhold hall",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_1d8255ff",
+      "locationId": "loc_newschool_arnhold",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_ead0a041",
+      "name": "Techniques of Music Distinguished Scholars Lecture Series",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Techniques of Music Distinguished Scholars Lecture Series presents Prof. Elizabeth H. Margulis (Princeton University)Elizabeth H. Margulis, Professor of Music at Princeton University and Director of the Music Cognition Lab, will deliver a lecture entitled “What Can We Learn from Musical Daydreams? Insights from Music Cognition.”A leading scholar in the field, Prof. Margulis is the author of award-winning publications and a former president of the Society for Music Perception and Cognition.This lecture is free and open to both the New School community and the public.",
+      "start_date": "2025-10-03T20:00:00+00:00",
+      "end_date": "2025-10-03T21:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Ernst C. Stiefel Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel hall",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_ead0a041",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_dfb63460",
+      "name": "2025-2026 Schneider Concerts Season",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The Schneider Concerts chamber music season celebrates the nation’s 250th anniversary by embracing Abigail Adams’ call, made in 1776, to “remember the ladies.\" Six concerts at The New School feature outstanding, emerging chamber ensembles performing music by exceptional American women composers—paired with repertoire developed by the musicians, all in dialogue with beloved, traditional works. The season affirms the place of living American women composers within the chamber music canon.Dates, ensembles, and repertoire for this season noted below. To offer context, the season will include 4 pre-concert talks led by violist Dana Kelley —requires separate ticket purchase.Each concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music.Explore www.newschoolconcerts.org for more details on this season's concerts and events presented in partner venues ",
+      "start_date": "2025-10-05T18:00:00+00:00",
+      "end_date": "2026-06-15T21:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/2025-26schneiderconcertsseason",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School's Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "online_events_cal",
+            "slide_events",
+            "general public",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "performance",
+            "the new school's auditorium"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_dfb63460",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_2b80c779",
+      "name": "Online | Schneider Concerts Presents The Dolphins - Livestream",
+      "type": "Performance",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School for those who can't join us in person. In the opening concert of the Schneider Concerts 2025-26 season, The Dolphins Quartet performs works by Beethoven, Montgomery, Schulhoff, and an ensemble-composed work. Recognized for performances at Lincoln Center and collaborations with living composers, the Dolphins celebrate community in chamber music.Sunday, October 5, 2025The Dolphins QuartetJessie Montgomery: String Quartet \"Voodoo Dolls\" (2008)Wolfgang Amadeus Mozart: String Quartet No. 16 in E-flat, K. 428 (1783)Erwin Schulhoff: Five Pieces for String Quartet (1924)The Dolphins: Angel Fire Quartet (2024)This concert will be approximately 1 hour and 40 minutes, including intermission Livestreams are offered with pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's up to you! No judgement - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins. This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2025-10-05T18:00:00+00:00",
+      "end_date": "2025-10-05T20:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "virtual"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_2b80c779",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_6ef23d9c",
+      "name": "Schneider Concerts Presents | The Dolphins Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The Dolphins Quartet In the opening concert of the Schneider Concerts 2025-26 season, The Dolphins perform works by Beethoven, Montgomery, Schulhoff, and an ensemble-composed work. Recognized for performances at Lincoln Center and collaborations with living composers, the Dolphins celebrate community in chamber music. Jessie Montgomery: String Quartet \"Voodoo Dolls\" (2008)Wolfgang Amadeus Mozart: String Quartet No. 16 in E-flat, K. 428 (1783)Erwin Schulhoff: Five Pieces for String Quartet (1924)The Dolphins: Angel Fire Quartet (2024).This concert will be approximately 1 hour and 40 minutes, including intermissionThis concert is also available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. Click here to register.That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
+      "start_date": "2025-10-05T18:00:00+00:00",
+      "end_date": "2025-10-05T20:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_6ef23d9c",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_b015eadf",
+      "name": "Celebrate Liberal Arts: The Politics of Contemporary Theater",
+      "type": "Performance",
+      "location_id": "loc_newschool_66w12",
+      "community_id": "com_newschool",
+      "description": "Lang Theater Faculty and colleagues explore how the radical ethos that marked the early years of The New School has shaped the role of theater and performance at Lang throughout the past century to the present moment. Most importantly, we ask how this legacy shapes the teaching and research we carry out in this same building—under a distinct yet eerily similar set of challenges—today.In 1939, Alvin Johnson, the first president of The New School, famously invited the prominent political theater maker and theorist Erwin Piscator to start the Dramatic Workshop in the building that now houses the Eugene Lang College of Liberal Arts. In 1933, Johnson had founded The University in Exile as an intellectual home for scholars fleeing Nazism in Europe. The history of classes setting theater in conversation with contemporary society goes even further back, to the first decade after its founding in 1919. This panel explores how the radical ethos that marked the early years of The New School has shaped the role of theater and performance at Lang throughout the past century and until the present. Established in the historical window between the rise of Fascism in Europe and the Second Red Scare in the United States, the Dramatic Workshop brought together Piscator’s foundational experience in epic theater with the political effervescence of the post-Depression New York theater scene. As such, the Workshop can be thought of as a theatrical strand within a larger trend that effectively moved the center of the intellectual, artistic, and political discussions of the time from the European capitals—then under the expanding threat of fascism and war—to New York City. The Second Red Scare gradually strangled the political effervescence of US education and cultural production, yet the legacy of this original gesture can be traced in many strands throughout the past century, such as in alum Judith Malina’s subversive work with the Living Theater, in the radical Black performance of Sekou Sundiata, in the political plays produced by Lang Theater faculty and students in the 21st Century, among so many other places. Carried out in the same theater that showcased the productions of the Dramatic Workshop in the 1940s, the talks in this panel explore the many ways in which the legacy of contemporary political theater has been carried out, expanded, and challenged over the decades. Most importantly, we ask how this legacy shapes the teaching and research we carry out in this same building—under a distinct yet eerily similar set of challenges—today.Schedule:100 Years of Contemporary Theater at The New School:Exhibit in the lobby of copies of historical visual materials and video documentation of recent performances with students.The Politics of Contemporary Theater at The New School:From The 1920s to The PresentMarcos Davi Silva Steuernagel, Assistant Professor of Theater at LangPiscator’s Aesthetic Legacy:Radical Theater Practice in New York CityDrew Lichtenberg, Author of The Piscatorbühne Century: Politics and Aesthetics in the Modern Theater After 1927Augusto Boal and the Theater of the Oppressed:The New School ConnectionGeo Britto, Founder of the School of Popular Theater, Rio de Janeiro, Brazil Renegades:Women & Theater at The New SchoolCecilia Rubino, Associate Professor of Theater at LangBlack lineage and legacy at LANG; A ReflectionKa’ramuu Kush, Director of the BFA Program in Film & Television at PaceVitality of Documentary Theater:The Credible Tool for Social ChangeZishan Ugurlu, Professor of Theater at LangQ&A This event is part of Lang's special programing in commemoration of its 40th Anniversary and in celebration of liberal arts at The New School.",
+      "start_date": "2025-10-14T22:00:00+00:00",
+      "end_date": "2025-10-15T00:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "POLITICS",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/politicsoftheater",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 66 West 12th Street",
+          "address": "66 West 12th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "lang40",
+            "lobbymonitor",
+            "online_events_cal",
+            "general public",
+            "eugene lang college of liberal arts",
+            "performance",
+            "johnson/kaplan auditorium, 66 west 12th street, room a106, first floor"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_b015eadf",
+      "locationId": "loc_newschool_66w12",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_cace31b6",
+      "name": "2025 City Visionary Awards",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "6:30 p.m. Cocktail Reception7:30 p.m. Dinner and ProgramCocktail & Business AttireLike The New School itself, City Visionary Award honorees strive to make NYC more equitable, sustainable, and joyful through high-impact work that drives bold progress and innovation. About the AwardsFunds raised from The New School City Visionary Awards Dinner will support scholarships across The New School, launching the next generation of visionaries to make their mark on this city and the world around us.",
+      "start_date": "2025-10-21T22:30:00+00:00",
+      "end_date": "2025-10-22T03:59:59+00:00",
+      "category": [
+        "SOCIAL",
+        "POLITICS"
+      ],
+      "metadata": {
+        "source_url": "https://cityvisionaryawards.com",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Aspire at One World Observatory",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "staff",
+            "development and alumni engagement",
+            "faculty/student/alumni/staff research & work",
+            "cities and urbanism",
+            "environment, sustainability, and climate change",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "university",
+            "receptions",
+            "aspire at one world observatory"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_cace31b6",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_3b91eff5",
+      "name": "Economics Seminar: Lenore Palladino",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Dr. Palladino (PhD 2015) will lead a discussion based on her book published by Chicago Press \"Good Company: Economic Policy after Shareholder Primacy\", about current issues in the political economy of corporations, plus more recent work on unregulated financial markets.Dr. Palladino is an Associate Professor in the Department of Economics and School of Public Policy at the University of Massachusetts Amherst. She earned her PhD in Economics from The New School in 2015, and holds a JD from Fordham Law School. Palladino’s research centers on the political economy of corporations and finance. External guests, please register using the link, so that security at our building has your name, otherwise you will be denied entry. Thanks.",
+      "start_date": "2025-10-28T20:00:00+00:00",
+      "end_date": "2025-10-28T22:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "POLITICS",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/econsemlenorepalladin",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room - RM 1103",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "economics",
+            "the new school for social research",
+            "lectures and talks",
+            "wolff conference room - rm 1103",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_3b91eff5",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_c2f847f0",
+      "name": "Literary Studies Presents: 40th Anniversary Alumni Reading",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "In celebration of Lang's 40th Anniversary, four Literary Studies Alumni will read from new book publications and engage in a roundtable discussion about their work.  This event is part of Lang's special programing in commemoration of its [40th Anniversary] and the celebration of the liberal arts at The New School.",
+      "start_date": "2025-10-29T21:00:00+00:00",
+      "end_date": "2025-10-29T23:00:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/alumnireading40",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "65 WEST 11TH STREET, WOLLMAN HALL, ROOM B500, 5TH FLOOR",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "langat40",
+            "online_events_cal",
+            "general public",
+            "writing and literature",
+            "eugene lang college of liberal arts",
+            "author readings",
+            "65 west 11th street, wollman hall, room b500, 5th floor",
+            "author readings and discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_c2f847f0",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_602d7b84",
+      "name": "ONLINE | Book Talk: Immigration Detention Inc.",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "Join us ONLINE on November 6 for a book talk with authors Nancy Hiemstra and Deirdre Conlon!The United States has the most extensive immigration detention system in the world, expanding from a capacity of less than 5,000 detainees per day in the 1980s to 52,000 by 2019, and even higher today. While the most vociferous anti-immigrant rhetoric may be attributed to Republicans, US detention infrastructure has grown exponentially regardless of the political party in power as reports of abysmal detention conditions pile up.Nancy Hiemstra and Deirdre Conlon provide a damning exposé of the ways immigration detention generates income. At the same time, those detained are starved, sickened, and exploited as a matter of routine detention operations. Drawing on over a decade of research focusing on detention centers in New Jersey and New York, the authors map public-private financial relationships and trace how detention contracts for food, medical care, and in-facility stores are fought over to the penny. By dissecting the inner workings of immigration detention, they show a system governed by a capitalist logic that produces sickening and corrupting dependencies in communities across the US.Coming at a pivotal social and political moment, Immigration Detention Inc. makes the case for dismantling immigration detention regimes everywhere.",
+      "start_date": "2025-11-06T18:00:00+00:00",
+      "end_date": "2025-11-06T19:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/immigrationdetentioninc",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "book talk",
+            "immigration",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "the new school for social research",
+            "lectures and talks",
+            "online | zoom",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_602d7b84",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_c6da4465",
+      "name": "Schneider Concerts Presents | Abeo Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Abeo Quartet This award-winning ensemble made its New York debut in 2022 and returns now with works by Reena Esmail, Felix Mendelssohn, and Johannes Brahms. Reena Esmail: String Quartet \"Ragamala\" (2013)Felix Mendelssohn: String Quartet No. 1 in E-flat major, Op. 12 (1829)Johannes Brahms: String Quartet No. 1 in C Minor (1873).This concert will be approximately 1 hour and 40 minutes, including intermissionThis concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Click here to register for the live stream. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season below ",
+      "start_date": "2025-11-09T19:00:00+00:00",
+      "end_date": "2025-11-09T21:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_c6da4465",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_37e45d0b",
+      "name": "Print Media and the Authoritarian Turn in India, China, and the United States",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The panel features scholars and writers offering perspectives on print media and investigative journalism as a global authoritarian turn erodes norms of press freedom in India and the United States, and eliminates once acceptable forms of investigative practices in Chinese journalism. Under the authoritarian turn, states are using laws on libel and other statutes to sanction commercial print media outlets. Popular pressurefrom illiberal social organizations have also been used to intimidate and physically attack journalists, domestically and transnationally. Panelists will discuss recent research and writing projects on government efforts to restrict if not control what journalists and writers produce, as well as coping strategies they have deployed in response.",
+      "start_date": "2025-11-13T22:00:00+00:00",
+      "end_date": "2025-11-14T04:59:59+00:00",
+      "category": [
+        "SOCIAL",
+        "POLITICS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "U 700- University Center - Faculty Lounge",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "politics, policy and government",
+            "university",
+            "lectures and talks",
+            "u 700- university center - faculty lounge",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_37e45d0b",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_345d0a21",
+      "name": "Schneider Concerts Presents | Trio Eris - New York Debut",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Trio Eris - New York Debut A top-prize winning piano trio, Trio Eris is New England Conservatory's professional trio-in-residence and makes its New York debut with a program of Katherine Balch, Fanny Mendelssohn, and Franz Schubert. Katherine Balch: different gravities (2023)Fanny Mendelssohn Hensel: Piano Trio (1847)Franz Schubert: Piano Trio No. 2, Op. 100 (1828).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - purchase here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register here for the livestream. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2025-12-07T19:00:00+00:00",
+      "end_date": "2025-12-07T21:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_345d0a21",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_c945d9fd",
+      "name": "Online | Schneider Concerts Presents Trio Eris - Livestream",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School for those who can't join us in person.Trio Eris - New York Debut A top-prize winning piano trio, Trio Eris is New England Conservatory's professional trio-in-residence and makes its New York debut with a program of Katherine Balch, Fanny Mendelssohn, and Franz Schubert. Katherine Balch: different gravities (2023)Fanny Mendelssohn Hensel: Piano Trio (1847)Franz Schubert: Piano Trio No. 2, Op. 100 (1828).This concert will be approximately 1 hour and 40 minutes, including intermission Livestreams are offered with pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's up to you! No judgement - we want as many people as possible to enjoy the music. Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 5 minutes before the live concert begins. This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2025-12-08T00:00:00+00:00",
+      "end_date": "2025-12-08T02:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_c945d9fd",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_93ed81fb",
+      "name": "Schneider Concerts Presents | Dana Kelley, January Preconcert Talk",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Violist Dana Kelley, celebrated chamber musician and associate principal of the National Symphony, goes in depth exploring works being performed during the Schneider Concerts 2025-2026 season at The New School in four pre-concert talks in December, January, March, and April. Join us for one or all four.  Sunday, January 11 at  12:30p.m.Dana introduces the works to be performed by the Ulysses Quartet at 2pm [separate ticket required for concert]Ulysses Quartet—first of three concerts with our 2025–2026 curating and performing ensembleTina Davidson: \"Just before Light\" (2025)—World premiere of Schneider Concerts co-commissionClaude Debussy: String Quartet in G minor, Op. 10 (1893)Traditional—celebrating Ulysses Quartet members' cultural roots in Taiwan, Ireland, Poland, and the United States with folk song arrangementsFelix Mendelssohn: String Quartet in F minor, Op. 80 (1847) $5 entry free for talk $17-$20 ticket for concert  This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
+      "start_date": "2026-01-11T17:30:00+00:00",
+      "end_date": "2026-01-11T18:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneider-kelleytalk-january",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "lectures and talks",
+            "the new school",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_93ed81fb",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_8f30d2aa",
+      "name": "Schneider Concerts Presents | Ulysses Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Ulysses Quartet 10 years after their New York debut on this series, the Ulysses Quartet returns as our 2025-2026 Curating/Performing ensemble. In the first of three concerts, they perform works of  Claude Debussy, Felix Mendelssohn, a world premiere of a Schneider Concerts co-commission, \"Tina Davidson's \"Just before Light\", and arrangements of folks songs from the members' heritage.Christina Bouey, violinRhiannon Banerdt, violinPeter Dudek, violaGrace Ho, celloTina Davidson: \"Just Before Light\" (2025)—World premiere of Schneider Concerts co-commissionClaude Debussy: String Quartet in G minor, Op. 10 (1893)Traditional —celebrating Ulysses Quartet members' cultural roots in Taiwan, Ireland, Poland, and the United States with folk song arrangementsFelix Mendelssohn: String Quartet in F minor, Op. 80 (1847).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register to receive livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
+      "start_date": "2026-01-11T19:00:00+00:00",
+      "end_date": "2026-01-11T21:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-ulysses",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "general public",
+            "performing arts",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_8f30d2aa",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_f21b88fd",
+      "name": "Schneider Concerts Presents | Dana Kelley, March Preconcert Talk",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Violist Dana Kelley, celebrated chamber musician and associate principal of the National Symphony, goes in depth exploring works being performed during the Schneider Concerts 2025-2026 season at The New School in four pre-concert talks in December, January, March, and April. Join us for one or all four.On Sunday, March 22, Dana introduces the works to be performed by the Ulysses Quartet and pianist Olga Kern at 2pm [separate ticket required for concert.]$5 pre-concert talkFor their second concert, the award-winning Ulysses Quartet invites pianist Olga Kern to join them in a performance of Dvorak's Piano Quintet No. 2 on a program that includes works by Caroline Shaw, Fanny Mendelssohn, and a New York Premiere of a Christina Bouey's quartet \"Soul.\" Caroline Shaw: String Quartet \"Valencia\" (2012)Christina Bouey: String Quartet \"Soul\" (2024)—New York PremiereFanny Mendelssohn Hensel: String Quartet in E-flat Major (1834)Antonín Dvořák: Piano Quintet No. 2 in A major, Op. 81 (1887) This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2026-03-22T16:30:00+00:00",
+      "end_date": "2026-03-22T17:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_f21b88fd",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_d4c6be14",
+      "name": "Schneider Concerts Presents | Ulysses Quartet with Pianist Olga Kern",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "For their second concert, the award-winning Ulysses Quartet invites pianist Olga Kern to join them in a performance of Dvorak's Piano Quintet No. 2 on a program that includes works by Caroline Shaw, Fanny Mendelssohn, and a New York Premiere of a Christina Bouey's quartet \"Soul.\" Caroline Shaw: String Quartet \"Valencia\" (2012)Christina Bouey: String Quartet \"Soul\" (2024)—New York PremiereFanny Mendelssohn Hensel: String Quartet in E-flat Major (1834)Antonín Dvořák: Piano Quintet No. 2 in A major, Op. 81 (1887).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register to receive livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
+      "start_date": "2026-03-22T18:00:00+00:00",
+      "end_date": "2026-03-22T20:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_d4c6be14",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_ed85e8ec",
+      "name": "Schneider Concerts Presents | Dana Kelley, April Preconcert Talk",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Violist Dana Kelley, celebrated chamber musician and associate principal of the National Symphony goes in depth exploring works being performed during the Schneider Concerts 2025-2026 season at The New School in four pre-concert talks in December, January, March, and April. Join us for one or all four.Sunday, January 11 at  12:30p.m.Dana introduces the works to be performed by the Katarina and Ulysses Quartets at 2pm[concert requires separate ticket purchase] Vivian Fung: String Quartet No. 5 \"Spiraling\" (2022)—New York City PremiereFranz Joseph Haydn: String Quartet in C Major, Op. 50, No. 2 (1787)Felix Mendelssohn: Octet in E-flat, Op. 20 (1825)—with members of the Ulysses Quartet This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2026-04-26T16:30:00+00:00",
+      "end_date": "2026-04-26T17:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_ed85e8ec",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_d99803f2",
+      "name": "Online | Schneider Concerts Presents Katarina Quartet - Livestream",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The season closes with the Katarina String Quartet, 2025 Grand Prize winner of the Fischoff Competition. Selected by curating/performing ensemble Ulysses Quartet, the Katarina will perform works by Vivian Fung and Franz Joseph Haydn, and be joined by the Ulysses Quartet in a performance of Felix Mendelssohn's Octet. Vivian Fung: String Quartet No. 5 \"Spiraling\" (2022)—New York City PremiereFranz Joseph Haydn: String Quartet in C Major, Op. 50, No. 2 (1787)Felix Mendelssohn: Octet in E-flat, Op. 20 (1825)—with members of the Ulysses Quartet.This concert will be approximately 1 hour and 40 minutes, including intermission Livestreams are offered with pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's up to you! No judgement - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2026-04-26T18:00:00+00:00",
+      "end_date": "2026-04-26T20:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_d99803f2",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_4d32ea9c",
+      "name": "Schneider Concerts Presents | Katarina String Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The season closes with the Katarina String Quartet, 2025 Grand Prize winner of the Fischoff Competition. Selected by curating/performing ensemble Ulysses Quartet, the Katarina will perform works by Vivian Fung and Franz Joseph Haydn, and be joined by the Ulysses Quartet in a performance of Felix Mendelssohn's Octet. Vivian Fung: String Quartet No. 5 \"Spiraling\" (2022)—New York City PremiereFranz Joseph Haydn: String Quartet in C Major, Op. 50, No. 2 (1787)Felix Mendelssohn: Octet in E-flat, Op. 20 (1825)—with members of the Ulysses Quartet.This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person.That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
+      "start_date": "2026-04-26T18:00:00+00:00",
+      "end_date": "2026-04-26T20:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "performing arts",
+            "college of performing arts",
+            "university",
+            "performance",
+            "the new school"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_4d32ea9c",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    }
+  ]
+}

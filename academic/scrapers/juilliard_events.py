@@ -1,4 +1,4 @@
-import requests
+import cloudscraper
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 import hashlib
@@ -144,11 +144,35 @@ def fetch_juilliard_events():
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
     }
     
-    response = requests.get(url, headers=headers, params=querystring)
-    return response.json()
+    try:
+        # Use cloudscraper to bypass Cloudflare protection
+        scraper = cloudscraper.create_scraper()
+        response = scraper.get(url, headers=headers, params=querystring)
+        
+        # Check if response is empty or not JSON
+        if not response.text.strip():
+            print("Warning: Empty response from Juilliard API")
+            return []
+        
+        # Try to parse JSON
+        try:
+            return response.json()
+        except json.JSONDecodeError as e:
+            print(f"Warning: Failed to parse JSON from Juilliard API: {e}")
+            print(f"Response text: {response.text[:200]}...")
+            return []
+            
+    except Exception as e:
+        print(f"Error fetching Juilliard events: {e}")
+        return []
 
 def parse_juilliard_events(data):
     standardized_events = []
+    
+    # Handle empty or None data
+    if not data:
+        print("No data received from Juilliard API")
+        return {"events": []}
     
     for item in data:
         if item.get('command') == 'insert' and 'data' in item:

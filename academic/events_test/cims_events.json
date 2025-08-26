@@ -1,0 +1,1200 @@
+{
+  "events": [
+    {
+      "id": "evt_nyu_cims_6ab1d79e",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-05T14:00:00",
+      "end_date": "2025-09-05T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Yifan Guo, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_6ab1d79e",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_5f08f18c",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-16T14:00:00",
+      "end_date": "2025-09-16T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1314",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Daniel McGinnis, Princeton U",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_5f08f18c",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_b50e4b2e",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-19T14:00:00",
+      "end_date": "2025-09-19T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4233",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Ramon van Handel, Princeton University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_b50e4b2e",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_acb8f777",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-26T14:00:00",
+      "end_date": "2025-09-26T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4234",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Shouhei Honda, University of Tokyo",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_acb8f777",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_5c597d98",
+      "name": "TBD",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-03T14:00:00",
+      "end_date": "2025-10-03T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Anil Zenginoglu, U Maryland",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_5c597d98",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_d0840fc4",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-10T14:00:00",
+      "end_date": "2025-10-10T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Sahana Vasudevan, IAS",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_d0840fc4",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_f7e86841",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-24T14:00:00",
+      "end_date": "2025-10-24T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Corey Bregman, Tufts University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_f7e86841",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_b472e75e",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-28T14:00:00",
+      "end_date": "2025-10-28T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Ben Raichel, UT Dallas",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_b472e75e",
+      "locationId": "loc_virtual",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_5c1fa6e1",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-31T14:00:00",
+      "end_date": "2025-10-31T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Mikhail Ostrovskii, St. John's University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_5c1fa6e1",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_9b06d383",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-07T14:00:00",
+      "end_date": "2025-11-07T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Cristina Rea, MIT",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_9b06d383",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_d1b53e84",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-11T14:00:00",
+      "end_date": "2025-11-11T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1314",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Jonathan Tidor, Princeton U",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_d1b53e84",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_2e6e5620",
+      "name": "TBD",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-14T14:00:00",
+      "end_date": "2025-11-14T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Hanwen Zhang, Yale",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_2e6e5620",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_27a27d19",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-18T14:00:00",
+      "end_date": "2025-11-18T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Sharath Raghvendra, North Carolina State",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_27a27d19",
+      "locationId": "loc_virtual",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_0d09c627",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-21T14:00:00",
+      "end_date": "2025-11-21T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Mingyang Li, Stony Brook University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_0d09c627",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_600062c5",
+      "name": "TBD",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-12-05T14:00:00",
+      "end_date": "2025-12-05T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Jason Kaye, Flatiron Institute",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_600062c5",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_6ab1d79e",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-05T14:00:00",
+      "end_date": "2025-09-05T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Yifan Guo, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_6ab1d79e",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_5f08f18c",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-16T14:00:00",
+      "end_date": "2025-09-16T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1314",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Daniel McGinnis, Princeton U",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_5f08f18c",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_b50e4b2e",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-19T14:00:00",
+      "end_date": "2025-09-19T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4233",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Ramon van Handel, Princeton University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_b50e4b2e",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_acb8f777",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-26T14:00:00",
+      "end_date": "2025-09-26T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4234",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Shouhei Honda, University of Tokyo",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_acb8f777",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_5c597d98",
+      "name": "TBD",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-03T14:00:00",
+      "end_date": "2025-10-03T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Anil Zenginoglu, U Maryland",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_5c597d98",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_d0840fc4",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-10T14:00:00",
+      "end_date": "2025-10-10T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Sahana Vasudevan, IAS",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_d0840fc4",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_f7e86841",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-24T14:00:00",
+      "end_date": "2025-10-24T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Corey Bregman, Tufts University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_f7e86841",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_b472e75e",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-28T14:00:00",
+      "end_date": "2025-10-28T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Ben Raichel, UT Dallas",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_b472e75e",
+      "locationId": "loc_virtual",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_5c1fa6e1",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-31T14:00:00",
+      "end_date": "2025-10-31T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Mikhail Ostrovskii, St. John's University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_5c1fa6e1",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_9b06d383",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-07T14:00:00",
+      "end_date": "2025-11-07T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Cristina Rea, MIT",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_9b06d383",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_d1b53e84",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-11T14:00:00",
+      "end_date": "2025-11-11T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1314",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Jonathan Tidor, Princeton U",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_d1b53e84",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_2e6e5620",
+      "name": "TBD",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-14T14:00:00",
+      "end_date": "2025-11-14T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Hanwen Zhang, Yale",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_2e6e5620",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_27a27d19",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-18T14:00:00",
+      "end_date": "2025-11-18T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Sharath Raghvendra, North Carolina State",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_27a27d19",
+      "locationId": "loc_virtual",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_0d09c627",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-21T14:00:00",
+      "end_date": "2025-11-21T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Mingyang Li, Stony Brook University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_0d09c627",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_600062c5",
+      "name": "TBD",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-12-05T14:00:00",
+      "end_date": "2025-12-05T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Jason Kaye, Flatiron Institute",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_600062c5",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    }
+  ]
+}

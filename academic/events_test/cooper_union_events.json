@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "evt_cooper_union_023a9f47c7",
+      "name": "A Comedy for Mortals: Artists Books of Tammy Nguyen A'07",
+      "description": "June 27, 2025 to October 10, 2025",
+      "start_date": "2025-06-27",
+      "end_date": "",
+      "source": "cooper_union",
+      "source_group": "cooper_union",
+      "metadata": {
+        "source_url": "https://cooper.edu/events",
+        "source_name": "Cooper Union",
+        "venue": {
+          "name": "Cooper Union",
+          "type": "Offline"
+        }
+      },
+      "event_id": "evt_cooper_union_023a9f47c7"
+    }
+  ]
+}

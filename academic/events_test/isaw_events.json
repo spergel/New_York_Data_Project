@@ -1,0 +1,188 @@
+{
+  "events": [
+    {
+      "id": "evt_isaw_7320d932",
+      "name": "The Materiality of Death in the Transitional Phase: The Funerary Landscape of Roman Egypt",
+      "type": "Academic",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Leah Mascia\n\nDr. Leah Mascia presents on the ways in which funerary customs of Roman Egypt adapted to a changing multicultural landscape while remaining firmly embedded in the Pharaonic tradition.",
+      "start_date": "2025-09-09T17:30:00",
+      "end_date": "2025-09-09T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/isawlib-mascia-roman-egypt-funerary-landscape",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/isawlib-mascia-roman-egypt-funerary-landscape/leadImage_mini",
+          "speaker": "Leah Mascia",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_7320d932",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_8e0f2e87",
+      "name": "Invisible Hands",
+      "type": "Academic",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Candida Moss\n\nThe Hidden Labor Behind Ancient Texts and Libraries\n\nProf. Candida Moss draws from her research in her recent book, God’s Ghostwriters, to reveal how enslaved scribes, copyists, and curators were essential to the production, preservation, and dissemination of the texts we now regard as sacred or canonical.",
+      "start_date": "2025-10-07T17:30:00",
+      "end_date": "2025-10-07T19:30:00",
+      "category": [
+        "SCIENCE",
+        "HISTORY"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/moss-invisible-hands",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/moss-invisible-hands/leadImage_mini",
+          "speaker": "Candida Moss",
+          "subtitle": "The Hidden Labor Behind Ancient Texts and Libraries",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_8e0f2e87",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_78293145",
+      "name": "How China’s Early Empires Conquered and Colonized the Yangtze Delta",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Brian Lander\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This talk will analyze how the Chu, Qin and Han empires conquered and colonized this region, gradually transforming it from a culturally alien frontier into a regular, if remote, part of the Han empire. The paucity of texts on this region’s early history reflects the disdain early China’s literate elites held towards it and makes archaeological evidence particularly important.",
+      "start_date": "2025-10-14T17:30:00",
+      "end_date": "2025-10-14T19:30:00",
+      "category": [
+        "HISTORY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/china-yangtze-delta",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/china-yangtze-delta/leadImage_mini",
+          "speaker": "Brian Lander",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_78293145",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_efee7e86",
+      "name": "Open House for Prospective Students",
+      "type": "Exhibition",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "ISAW's open house for prospective doctoral students will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. The event will include an opportunity to meet the ISAW faculty; an information session about our academic program; a Q&A session with current students; and sessions on archaeology, digital humanities, exhibitions, and the library at ISAW.",
+      "start_date": "2025-11-05T10:00:00",
+      "end_date": "2025-11-05T12:00:00",
+      "category": [
+        "ARCHAEOLOGY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/open-house-2025",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/open-house-2025/leadImage_mini",
+          "speaker": "",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_efee7e86",
+      "locationId": "loc_virtual",
+      "communityId": "com_isaw"
+    },
+    {
+      "id": "evt_isaw_c4d14012",
+      "name": "Nature’s Greatest Success",
+      "type": "Academic",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Robert N. Spengler\n\nHow Plants Evolved to Exploit Humanity\n\nThe domestication of plants in prehistory allowed humanity to demographically expand, form dense population congregations (urbanism and social hierarchies), and advance the arts and sciences. For millennia, humans drove the evolution of domestication traits in crops and animals. Archaeologists, ecologists, and geneticists are all working to develop new theories about how domestication in antiquity occurred; one of these theories  – the ecological release hypothesis – suggests that crops and animals evolved traits of domestication as a response to humans simply removing predators and herbivores. Dr. Spengler will briefly explore a few key themes in this theory and the rich history of domestication and culture, which he traces in his recent book, Nature's Greatest Success: How Plants evolved to Exploit Humanity.",
+      "start_date": "2025-12-04T17:30:00",
+      "end_date": "2025-12-04T19:30:00",
+      "category": [
+        "SCIENCE",
+        "HISTORY",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success/leadImage_mini",
+          "speaker": "Robert N. Spengler",
+          "subtitle": "How Plants Evolved to Exploit Humanity",
+          "rsvp_required": true
+        }
+      },
+      "source": "isaw",
+      "event_id": "evt_isaw_c4d14012",
+      "locationId": "loc_isaw_lecture",
+      "communityId": "com_isaw"
+    }
+  ]
+}

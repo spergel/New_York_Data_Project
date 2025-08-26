@@ -1,0 +1,973 @@
+{
+  "events": [
+    {
+      "title": "14th Annual Morningside Lights",
+      "start_date": "2025-09-21T00:00:00+00:00",
+      "end_date": "2025-09-21T02:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "TIMEFRAME 1965",
+      "url": "https://www.millertheatre.com/events/14th-annual-morningside-lights",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Morningside-Lights-by-Cherylynn-Tsushima.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Community Events"
+      ],
+      "event_id": "evt_f3f2d155622dcba6"
+    },
+    {
+      "title": "Hannah Kendall",
+      "start_date": "2026-04-23T23:30:00+00:00",
+      "end_date": "2026-04-24T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/hannah-kendall",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Hannah-kendall-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_c0ce08faf8520bfe"
+    },
+    {
+      "title": "Chinary Ung",
+      "start_date": "2026-03-26T23:30:00+00:00",
+      "end_date": "2026-03-27T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/chinary-ung",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Chinary-Ung-by-Sandy-Huffaker.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_3c4c479c19b6a1c4"
+    },
+    {
+      "title": "Lisa Bielawa",
+      "start_date": "2026-02-27T00:30:00+00:00",
+      "end_date": "2026-02-27T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/lisa-bielawa",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Lisa-Bielawa-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_8b8f6bbca580cdb0"
+    },
+    {
+      "title": "Andrew McIntosh",
+      "start_date": "2026-02-06T00:30:00+00:00",
+      "end_date": "2026-02-06T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/andrew-mcintosh",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Andrew-McIntosh-by-Alex-Welsh.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_5f98f29c1f93302b"
+    },
+    {
+      "title": "Anthony Cheung",
+      "start_date": "2025-11-14T00:30:00+00:00",
+      "end_date": "2025-11-14T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/anthony-cheung",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Anthony-Cheung2-by-Jodi-Hilton.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_7d6acd1af92fac52"
+    },
+    {
+      "title": "Helmut Lachenmann",
+      "start_date": "2025-10-09T23:30:00+00:00",
+      "end_date": "2025-10-10T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Complete String Quartets",
+      "url": "https://www.millertheatre.com/events/helmut-lachenmann-complete-string-quartets",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Helmut-Lachenman-by-Giovanni-Dainotti.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_001b360c922c80f9"
+    },
+    {
+      "title": "Honoring Tania León",
+      "start_date": "2025-09-25T23:30:00+00:00",
+      "end_date": "2025-09-26T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "William Schuman Award Concert",
+      "url": "https://www.millertheatre.com/events/honoring-tania-leon",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Tania-Leon-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Special Events"
+      ],
+      "event_id": "evt_d8f0208730379135"
+    },
+    {
+      "title": "Sullivan Fortner Trio",
+      "start_date": "2026-03-08T00:30:00+00:00",
+      "end_date": "2026-03-08T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/sullivan-fortner-trio",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Sullivan-Fortner-by-Ogata.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_489270b95818861d"
+    },
+    {
+      "title": "John Medeski and Kirk Knuffke",
+      "start_date": "2026-02-08T00:30:00+00:00",
+      "end_date": "2026-02-08T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "The Angelic Brothers",
+      "url": "https://www.millertheatre.com/events/john-medeski-and-kirk-knuffke",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/John-Medeski-courtesy-of-the-artist-and-Kirk-Knuffke-by-Ken-Weiss.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_cd5ca638c854db76"
+    },
+    {
+      "title": "Sean Mason Quartet",
+      "start_date": "2025-11-16T00:30:00+00:00",
+      "end_date": "2025-11-16T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/sean-mason-quartet",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Sean-Mason-by-Taylor-Banner.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_47fda286a1ea6cf6"
+    },
+    {
+      "title": "Anat Cohen Quartetinho",
+      "start_date": "2025-10-04T23:30:00+00:00",
+      "end_date": "2025-10-05T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/anat-cohen-quartetinho",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Anat-Cohen-Quartetinho-by-Shervin-Lainez.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_eacb3510f289cb2f"
+    },
+    {
+      "title": "The Marian Consort",
+      "start_date": "2026-02-15T00:30:00+00:00",
+      "end_date": "2026-02-15T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "City of Echoes—Rome in the 16th Century",
+      "url": "https://www.millertheatre.com/events/the-marian-consort-city-of-echoes-rome-in-the-16th-century",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Marian-Consort-by-Frances-Marshall.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_5956f06c8388968d"
+    },
+    {
+      "title": "The Tallis Scholars",
+      "start_date": "2025-12-05T00:30:00+00:00",
+      "end_date": "2025-12-05T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Mother and Child",
+      "url": "https://www.millertheatre.com/events/the-tallis-scholars-mother-and-child",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Tallis-Scholars-by-Hugo-Glendinning.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_b3e5906172ef2a5c"
+    },
+    {
+      "title": "Stile Antico",
+      "start_date": "2025-11-09T00:30:00+00:00",
+      "end_date": "2025-11-09T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Golden Renaissance",
+      "url": "https://www.millertheatre.com/events/stile-antico-golden-renaissance",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Stile-Antico2-by-eduardus-lee.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_7ee626c4d8504201"
+    },
+    {
+      "title": "The Gesualdo Six",
+      "start_date": "2025-10-18T23:30:00+00:00",
+      "end_date": "2025-10-19T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Motets and Madrigals of Palestrina and Gesualdo",
+      "url": "https://www.millertheatre.com/events/the-gesualdo-six-motets-and-madrigals-of-palestrina-and-gesualdo",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Gesualdo-Six-2025-by-Ash-Mills.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_e1f75abb9738d844"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-29T22:00:00+00:00",
+      "end_date": "2025-10-30T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert Three",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-three",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-One-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_f81866f667b70e4e"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-28T22:00:00+00:00",
+      "end_date": "2025-10-29T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert Two",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-two",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-Two-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_1c0c96bb87dbb05a"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-27T22:00:00+00:00",
+      "end_date": "2025-10-28T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert One",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-one",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-One-by-Mark-Sommerfeld.960x1446_2025-05-12-170919_henv.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_4a7fbe436f92dd36"
+    },
+    {
+      "title": "14th Annual Morningside Lights",
+      "start_date": "2025-09-21T00:00:00+00:00",
+      "end_date": "2025-09-21T02:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "TIMEFRAME 1965",
+      "url": "https://www.millertheatre.com/events/14th-annual-morningside-lights",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Morningside-Lights-by-Cherylynn-Tsushima.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Community Events"
+      ],
+      "event_id": "evt_f3f2d155622dcba6"
+    },
+    {
+      "title": "Hannah Kendall",
+      "start_date": "2026-04-23T23:30:00+00:00",
+      "end_date": "2026-04-24T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/hannah-kendall",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Hannah-kendall-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_c0ce08faf8520bfe"
+    },
+    {
+      "title": "Chinary Ung",
+      "start_date": "2026-03-26T23:30:00+00:00",
+      "end_date": "2026-03-27T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/chinary-ung",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Chinary-Ung-by-Sandy-Huffaker.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_3c4c479c19b6a1c4"
+    },
+    {
+      "title": "Lisa Bielawa",
+      "start_date": "2026-02-27T00:30:00+00:00",
+      "end_date": "2026-02-27T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/lisa-bielawa",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Lisa-Bielawa-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_8b8f6bbca580cdb0"
+    },
+    {
+      "title": "Andrew McIntosh",
+      "start_date": "2026-02-06T00:30:00+00:00",
+      "end_date": "2026-02-06T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/andrew-mcintosh",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Andrew-McIntosh-by-Alex-Welsh.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_5f98f29c1f93302b"
+    },
+    {
+      "title": "Anthony Cheung",
+      "start_date": "2025-11-14T00:30:00+00:00",
+      "end_date": "2025-11-14T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/anthony-cheung",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Anthony-Cheung2-by-Jodi-Hilton.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_7d6acd1af92fac52"
+    },
+    {
+      "title": "Helmut Lachenmann",
+      "start_date": "2025-10-09T23:30:00+00:00",
+      "end_date": "2025-10-10T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Complete String Quartets",
+      "url": "https://www.millertheatre.com/events/helmut-lachenmann-complete-string-quartets",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Helmut-Lachenman-by-Giovanni-Dainotti.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_001b360c922c80f9"
+    },
+    {
+      "title": "Honoring Tania León",
+      "start_date": "2025-09-25T23:30:00+00:00",
+      "end_date": "2025-09-26T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "William Schuman Award Concert",
+      "url": "https://www.millertheatre.com/events/honoring-tania-leon",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Tania-Leon-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Special Events"
+      ],
+      "event_id": "evt_d8f0208730379135"
+    },
+    {
+      "title": "Sullivan Fortner Trio",
+      "start_date": "2026-03-08T00:30:00+00:00",
+      "end_date": "2026-03-08T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/sullivan-fortner-trio",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Sullivan-Fortner-by-Ogata.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_489270b95818861d"
+    },
+    {
+      "title": "John Medeski and Kirk Knuffke",
+      "start_date": "2026-02-08T00:30:00+00:00",
+      "end_date": "2026-02-08T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "The Angelic Brothers",
+      "url": "https://www.millertheatre.com/events/john-medeski-and-kirk-knuffke",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/John-Medeski-courtesy-of-the-artist-and-Kirk-Knuffke-by-Ken-Weiss.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_cd5ca638c854db76"
+    },
+    {
+      "title": "Sean Mason Quartet",
+      "start_date": "2025-11-16T00:30:00+00:00",
+      "end_date": "2025-11-16T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/sean-mason-quartet",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Sean-Mason-by-Taylor-Banner.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_47fda286a1ea6cf6"
+    },
+    {
+      "title": "Anat Cohen Quartetinho",
+      "start_date": "2025-10-04T23:30:00+00:00",
+      "end_date": "2025-10-05T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/anat-cohen-quartetinho",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Anat-Cohen-Quartetinho-by-Shervin-Lainez.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_eacb3510f289cb2f"
+    },
+    {
+      "title": "The Marian Consort",
+      "start_date": "2026-02-15T00:30:00+00:00",
+      "end_date": "2026-02-15T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "City of Echoes—Rome in the 16th Century",
+      "url": "https://www.millertheatre.com/events/the-marian-consort-city-of-echoes-rome-in-the-16th-century",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Marian-Consort-by-Frances-Marshall.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_5956f06c8388968d"
+    },
+    {
+      "title": "The Tallis Scholars",
+      "start_date": "2025-12-05T00:30:00+00:00",
+      "end_date": "2025-12-05T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Mother and Child",
+      "url": "https://www.millertheatre.com/events/the-tallis-scholars-mother-and-child",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Tallis-Scholars-by-Hugo-Glendinning.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_b3e5906172ef2a5c"
+    },
+    {
+      "title": "Stile Antico",
+      "start_date": "2025-11-09T00:30:00+00:00",
+      "end_date": "2025-11-09T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Golden Renaissance",
+      "url": "https://www.millertheatre.com/events/stile-antico-golden-renaissance",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Stile-Antico2-by-eduardus-lee.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_7ee626c4d8504201"
+    },
+    {
+      "title": "The Gesualdo Six",
+      "start_date": "2025-10-18T23:30:00+00:00",
+      "end_date": "2025-10-19T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Motets and Madrigals of Palestrina and Gesualdo",
+      "url": "https://www.millertheatre.com/events/the-gesualdo-six-motets-and-madrigals-of-palestrina-and-gesualdo",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Gesualdo-Six-2025-by-Ash-Mills.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_e1f75abb9738d844"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-29T22:00:00+00:00",
+      "end_date": "2025-10-30T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert Three",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-three",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-One-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_f81866f667b70e4e"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-28T22:00:00+00:00",
+      "end_date": "2025-10-29T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert Two",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-two",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-Two-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_1c0c96bb87dbb05a"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-27T22:00:00+00:00",
+      "end_date": "2025-10-28T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert One",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-one",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-One-by-Mark-Sommerfeld.960x1446_2025-05-12-170919_henv.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_4a7fbe436f92dd36"
+    },
+    {
+      "title": "14th Annual Morningside Lights",
+      "start_date": "2025-09-21T00:00:00+00:00",
+      "end_date": "2025-09-21T02:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "TIMEFRAME 1965",
+      "url": "https://www.millertheatre.com/events/14th-annual-morningside-lights",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Morningside-Lights-by-Cherylynn-Tsushima.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Community Events"
+      ],
+      "event_id": "evt_f3f2d155622dcba6"
+    },
+    {
+      "title": "Hannah Kendall",
+      "start_date": "2026-04-23T23:30:00+00:00",
+      "end_date": "2026-04-24T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/hannah-kendall",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Hannah-kendall-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_c0ce08faf8520bfe"
+    },
+    {
+      "title": "Chinary Ung",
+      "start_date": "2026-03-26T23:30:00+00:00",
+      "end_date": "2026-03-27T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/chinary-ung",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Chinary-Ung-by-Sandy-Huffaker.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_3c4c479c19b6a1c4"
+    },
+    {
+      "title": "Lisa Bielawa",
+      "start_date": "2026-02-27T00:30:00+00:00",
+      "end_date": "2026-02-27T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/lisa-bielawa",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Lisa-Bielawa-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_8b8f6bbca580cdb0"
+    },
+    {
+      "title": "Andrew McIntosh",
+      "start_date": "2026-02-06T00:30:00+00:00",
+      "end_date": "2026-02-06T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/andrew-mcintosh",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Andrew-McIntosh-by-Alex-Welsh.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_5f98f29c1f93302b"
+    },
+    {
+      "title": "Anthony Cheung",
+      "start_date": "2025-11-14T00:30:00+00:00",
+      "end_date": "2025-11-14T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/anthony-cheung",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Anthony-Cheung2-by-Jodi-Hilton.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_7d6acd1af92fac52"
+    },
+    {
+      "title": "Helmut Lachenmann",
+      "start_date": "2025-10-09T23:30:00+00:00",
+      "end_date": "2025-10-10T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Complete String Quartets",
+      "url": "https://www.millertheatre.com/events/helmut-lachenmann-complete-string-quartets",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Helmut-Lachenman-by-Giovanni-Dainotti.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Composer Portraits"
+      ],
+      "event_id": "evt_001b360c922c80f9"
+    },
+    {
+      "title": "Honoring Tania León",
+      "start_date": "2025-09-25T23:30:00+00:00",
+      "end_date": "2025-09-26T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "William Schuman Award Concert",
+      "url": "https://www.millertheatre.com/events/honoring-tania-leon",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Tania-Leon-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Special Events"
+      ],
+      "event_id": "evt_d8f0208730379135"
+    },
+    {
+      "title": "Sullivan Fortner Trio",
+      "start_date": "2026-03-08T00:30:00+00:00",
+      "end_date": "2026-03-08T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/sullivan-fortner-trio",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Sullivan-Fortner-by-Ogata.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_489270b95818861d"
+    },
+    {
+      "title": "John Medeski and Kirk Knuffke",
+      "start_date": "2026-02-08T00:30:00+00:00",
+      "end_date": "2026-02-08T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "The Angelic Brothers",
+      "url": "https://www.millertheatre.com/events/john-medeski-and-kirk-knuffke",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/John-Medeski-courtesy-of-the-artist-and-Kirk-Knuffke-by-Ken-Weiss.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_cd5ca638c854db76"
+    },
+    {
+      "title": "Sean Mason Quartet",
+      "start_date": "2025-11-16T00:30:00+00:00",
+      "end_date": "2025-11-16T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/sean-mason-quartet",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Sean-Mason-by-Taylor-Banner.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_47fda286a1ea6cf6"
+    },
+    {
+      "title": "Anat Cohen Quartetinho",
+      "start_date": "2025-10-04T23:30:00+00:00",
+      "end_date": "2025-10-05T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "",
+      "url": "https://www.millertheatre.com/events/anat-cohen-quartetinho",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Anat-Cohen-Quartetinho-by-Shervin-Lainez.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Jazz"
+      ],
+      "event_id": "evt_eacb3510f289cb2f"
+    },
+    {
+      "title": "The Marian Consort",
+      "start_date": "2026-02-15T00:30:00+00:00",
+      "end_date": "2026-02-15T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "City of Echoes—Rome in the 16th Century",
+      "url": "https://www.millertheatre.com/events/the-marian-consort-city-of-echoes-rome-in-the-16th-century",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Marian-Consort-by-Frances-Marshall.960x1446.png",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_5956f06c8388968d"
+    },
+    {
+      "title": "The Tallis Scholars",
+      "start_date": "2025-12-05T00:30:00+00:00",
+      "end_date": "2025-12-05T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Mother and Child",
+      "url": "https://www.millertheatre.com/events/the-tallis-scholars-mother-and-child",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Tallis-Scholars-by-Hugo-Glendinning.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_b3e5906172ef2a5c"
+    },
+    {
+      "title": "Stile Antico",
+      "start_date": "2025-11-09T00:30:00+00:00",
+      "end_date": "2025-11-09T02:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Golden Renaissance",
+      "url": "https://www.millertheatre.com/events/stile-antico-golden-renaissance",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Stile-Antico2-by-eduardus-lee.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_7ee626c4d8504201"
+    },
+    {
+      "title": "The Gesualdo Six",
+      "start_date": "2025-10-18T23:30:00+00:00",
+      "end_date": "2025-10-19T01:30:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Motets and Madrigals of Palestrina and Gesualdo",
+      "url": "https://www.millertheatre.com/events/the-gesualdo-six-motets-and-madrigals-of-palestrina-and-gesualdo",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Gesualdo-Six-2025-by-Ash-Mills.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Early Music"
+      ],
+      "event_id": "evt_e1f75abb9738d844"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-29T22:00:00+00:00",
+      "end_date": "2025-10-30T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert Three",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-three",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-One-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_f81866f667b70e4e"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-28T22:00:00+00:00",
+      "end_date": "2025-10-29T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert Two",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-two",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-Two-by-Rob-Davidson.960x1446.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_1c0c96bb87dbb05a"
+    },
+    {
+      "title": "Celebrating 20 Years of Yarn/Wire",
+      "start_date": "2025-10-27T22:00:00+00:00",
+      "end_date": "2025-10-28T00:00:00+00:00",
+      "location": "Miller Theatre, Columbia University",
+      "description": "Pop-Up Concerts Festival: Concert One",
+      "url": "https://www.millertheatre.com/events/celebrating-20-years-of-yarn-wire-concert-one",
+      "source": "Miller Theatre",
+      "image_url": "https://millertheatre.s3.amazonaws.com/Yarn-Wire-Concert-One-by-Mark-Sommerfeld.960x1446_2025-05-12-170919_henv.jpg",
+      "department": "Miller Theatre",
+      "university": "Columbia University",
+      "tags": [
+        "Performance",
+        "Pop-Up Concerts"
+      ],
+      "event_id": "evt_4a7fbe436f92dd36"
+    }
+  ]
+}

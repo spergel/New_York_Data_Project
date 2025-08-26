@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "evt_hunter_511af679b4",
+      "name": "Navigating Your Key to Success: Internship Strategy Workshop",
+      "description": "",
+      "start_date": "",
+      "end_date": "",
+      "source": "hunter",
+      "source_group": "hunter_college",
+      "metadata": {
+        "source_url": "https://hunter.cuny.edu/events/",
+        "source_name": "Hunter College",
+        "venue": {
+          "name": "Hunter College",
+          "type": "Offline"
+        }
+      },
+      "event_id": "evt_hunter_511af679b4"
+    }
+  ]
+}
