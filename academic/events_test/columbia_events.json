@@ -1,634 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_columbia_92f9ad35",
-      "name": "OT &amp; PT - New Student Financial Aid Orientation",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;We will be hosting the financial aid portion of the OT &amp;amp; PT orientation being held on Tuesday, August 26, 2025.&amp;nbsp; You should review orientation materials posted on &lt;a href=\"https://courseworks.columbia.edu/\" target=\"_blank\"&gt;Courseworks&lt;/a&gt; prior to orientation.&amp;nbsp; We have also posted additional resources for your review.&lt;/p&gt;\n&lt;p&gt;Please feel free to contact me if you have any questions.&amp;nbsp; We look forwrd to seeing you soon.&lt;/p&gt;",
-      "start_date": "2025-08-26T14:30:00+00:00",
-      "end_date": "2025-08-26T15:20:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98acc228-0198-ae51cac4-000047aaevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Hammer Health Sciences Center, 701 W. 168 St., New York, NY 10032\tHSC 301",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "P&amp;S - Office of Student Financial Aid &amp; Planning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "P&amp;S - Office of Student Financial Aid &amp; Planning",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Orientation",
-            "org/psfinaid",
-            "College of Physicians and Surgeons",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Orientation",
-            "org/psfinaid",
-            "College of Physicians and Surgeons",
-            "org/cumc"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_92f9ad35",
-      "locationId": "loc_columbia_main",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_27ee6222",
-      "name": "Sundae Soiree",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Whether you chose a&amp;nbsp;delectable ice cream sundae or a refreshing fruit bar, come join us to mix and mingle as we welcome the beginning of the&amp;nbsp;academic year.&amp;nbsp;All Columbia Mailman faculty and staff are welcome!&lt;/p&gt;\n&lt;p&gt;While you&amp;rsquo;re enjoying a sweet treat, we will be accepting donations for the &lt;a href=\"https://neighbors.columbia.edu/events/10th-annual-back-school-supply-drive\" target=\"_blank\"&gt;10th Annual Back-2-School Drive&lt;/a&gt;, in partnership with the Office of Public Safety. If you&amp;#39;re able, consider bringing a donation item to contribute to this wonderful community initiative. Your donation will help&amp;nbsp;provide school supplies to children in need across our neighborhood.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://neighbors.columbia.edu/events/10th-annual-back-school-supply-drive\" target=\"_blank\"&gt;Drive&lt;/a&gt;&lt;a href=\"https://neighbors.columbia.edu/events/10th-annual-back-school-supply-drive\"&gt;&amp;nbsp;Details&lt;/a&gt;&lt;br /&gt;\n&lt;strong&gt;Duration: &lt;/strong&gt;August 5 &amp;ndash; August 26&lt;br /&gt;\n&lt;strong&gt;Drop off locations:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;ARB Lobby, 10th Floor (near security desk) | 722 W. 168th Street&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Public Safety Operations | William Black Building, Room 109&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;This community initiative helps provide school supplies to children in need across our neighborhood.&amp;nbsp;Let&amp;rsquo;s work together to make a difference.&lt;/p&gt;\n&lt;p&gt;We hope to see you at the Sundae Soiree, with a scoop in one hand and school supplies in the other!&lt;/p&gt;",
-      "start_date": "2025-08-26T17:30:00+00:00",
-      "end_date": "2025-08-26T17:30:00+00:00",
-      "category": [
-        "HEALTH"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98c15f1e-0198-c2d89f19-00003d9devents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Allan Rosenfield Building, 722 W. 168 St., New York, NY 10032\tHess Commons, 10th Floor",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Public Health &ndash; Special Events",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Public Health &ndash; Special Events",
-          "tags": [
-            "org/msph_spc",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Mailman School of Public Health",
-            "Community",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Mailman School of Public Health",
-            "Community",
-            "org/cumc"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_27ee6222",
-      "locationId": "loc_columbia_main",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_e8a1f2c0",
-      "name": "Human Nutrition - New Student Financial Aid Orientation",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The office of Student Financial Aid &amp;amp; Planning we will be hosting the Financial Aid portion of the Human Nutrition&amp;nbsp;Orientation being held on Wednesday, August 27, 2025.&amp;nbsp; Please go to&amp;nbsp;&lt;a href=\"https://cas.columbia.edu/cas/login?service=https%3A%2F%2Fcourseworks2.columbia.edu%2Flogin%2Fcas\" target=\"_blank\"&gt;CourseWorks&lt;/a&gt;&amp;nbsp;for orientation materials as well as helpful links.&lt;/p&gt;\n&lt;p&gt;Please feel free to contact me if you have any questions. We look forward to seeing you soon.&lt;/p&gt;",
-      "start_date": "2025-08-27T14:00:00+00:00",
-      "end_date": "2025-08-27T15:00:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98370f12-0198-38924cf3-000046cdevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Hammer Health Sciences Center, 701 W. 168 St., New York, NY 10032\tHSC 301",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "P&amp;S - Office of Student Financial Aid &amp; Planning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "P&amp;S - Office of Student Financial Aid &amp; Planning",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Orientation",
-            "org/psfinaid",
-            "College of Physicians and Surgeons",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Orientation",
-            "org/psfinaid",
-            "College of Physicians and Surgeons",
-            "org/cumc"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_e8a1f2c0",
-      "locationId": "loc_columbia_main",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_fa63668d",
-      "name": "Dept of Med Summer of Science: Pulmonary, Allergy &amp; Critical Care",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h1&gt;The Department of Medicine&amp;#39;s Summer of Science series: Pulmonary, Allergy, and Critical Care&lt;/h1&gt;\n&lt;h2&gt;with Chair Ali Gharavi&amp;nbsp;and PACC Chief Christine Garcia&lt;/h2&gt;\n&lt;p&gt;Please join the Department of Medicine and Chair Ali Gharavi for a series of summer lectures dedicated&amp;nbsp;to highlighting the most exciting research and opportunities in each division.&lt;/p&gt;\n&lt;p&gt;Lunch: 11:30 am&lt;/p&gt;\n&lt;p&gt;Lecture 12:00-1:00 pm&lt;/p&gt;\n&lt;p&gt;Join via Zoom:&amp;nbsp;&lt;a href=\"https://forms.gle/J1tnwFNn2ndCoLen7\" target=\"_blank\"&gt;https://forms.gle/J1tnwFNn2ndCoLen7&lt;/a&gt;&lt;/p&gt;",
-      "start_date": "2025-08-27T16:00:00+00:00",
-      "end_date": "2025-08-27T17:00:00+00:00",
-      "category": [
-        "SCIENCE",
-        "HEALTH",
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-97e91514-0197-ebb2fe0d-00006f74events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "NewYork-Presbyterian Hospital, 622 W. 168 St., New York, NY 10032\tP&amp;S Amphitheater 1",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "CUMC Department of Medicine",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "CUMC Department of Medicine",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Webcast",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "Continuing Education",
-            "Postdocs",
-            "Lunch",
-            "Prospective Students",
-            "org/CUMCMedicine",
-            "Healthcare",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Grand Rounds",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Webcast",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "Continuing Education",
-            "Postdocs",
-            "Lunch",
-            "Prospective Students",
-            "org/CUMCMedicine",
-            "Healthcare",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Grand Rounds",
-            "org/cumc"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_fa63668d",
-      "locationId": "loc_columbia_main",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_9c423ba5",
-      "name": "POP-UP Market at The Bollinger Forum",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Come Shop bed Sleepwear at the Bollinger Forum Pop-Up Market&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Thursday, August 28, 2025 | 9:00 AM &amp;ndash; 6:00 PM&lt;/p&gt;\n&lt;p&gt;Friday, August 29, 2025 | 9:00 AM &amp;ndash; 6:00 PM&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2025-08-28T13:00:00+00:00",
-      "end_date": "2025-08-29T22:00:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98bc39a7-0198-bf0a8dc6-00007f63events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Forum",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Forum",
-          "tags": [
-            "org/forum",
-            "Manhattanville",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Other",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Other",
-            "Arts"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_9c423ba5",
-      "locationId": "loc_columbia_main",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_99cb14d5",
-      "name": "Teaching Orientation for Graduate Students (in-person)",
-      "type": "Academic",
-      "location_id": "loc_columbia_butler",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Columbia University graduate students preparing for their first TA assignment in Fall 2025 are invited to join the CTL for a newly-expanded Teaching Orientation for Graduate Students on &lt;strong&gt;Thursday, August 28th, 2025&lt;/strong&gt; in Butler Library. This in-person offering complements &lt;a href=\"https://courseworks2.columbia.edu/enroll/LB6GRA\"&gt;on-demand orientation modules&lt;/a&gt; available via Courseworks.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Participants in the in-person orientation will leave with:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A plan for the first day of class, as well as strategies to overcome common TA challenges.&lt;/li&gt;\n&lt;li&gt;Guidance on setting expectations for and engaging with your students.&lt;/li&gt;\n&lt;li&gt;A peer mentorship network of first time and more experienced TAs.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;A &lt;strong&gt;morning session&lt;/strong&gt; &lt;strong&gt;for all registrants&lt;/strong&gt; will run from 9:30 am - 12:00 pm, featuring the following:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A panel of experienced TAs from a range of disciplines who will share how they&amp;rsquo;ve set expectations for and with students, planned the first day of class activities, navigated challenges with facilitating discussion, and coordinated effectively with faculty instructors.&lt;/li&gt;\n&lt;li&gt;Activities to directly prepare you for your teaching assignment, through the development of your own policies and first day of class lesson plans.&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Additional activities available to a limited number of registrants&lt;/strong&gt; will run from 12:00 pm - 3:00 pm, for those interested in individualized guidance and practice. These activities include:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;A lunch provided by CTL, featuring informal conversations with experienced and new TAs.&lt;/li&gt;\n&lt;li&gt;A Practice Teaching session, providing a chance to try out and get supportive feedback on icebreaker or early class activities.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Please register for &lt;strong&gt;one&lt;/strong&gt; of the following:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;Morning session only&lt;/strong&gt;, 9:30 am - 12:00 pm (coffee provided) - &lt;a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf_sKOX-jQYRe21kPsI9LSN6vsaIQdHHR0Z7UsUzkBQ0ikrTA/viewform?usp=preview\" target=\"_blank\"&gt;register here&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Full day&lt;/strong&gt;, 9:30 am - 3:00 pm (coffee and lunch provided) - &lt;a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeCja4WwEC7ho4IBXTNW2zZiPAskHPQPATpzG0peR6yy1jnbA/viewform?usp=preview\" target=\"_blank\"&gt;register here&lt;/a&gt;&lt;br /&gt;\n&lt;em&gt;Note that these slots are limited due to resource and staffing constraints; please sign up for this one only if you are committed to participating for the full day.&lt;/em&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;We are happy to answer any questions you may have about CTL&amp;rsquo;s Teaching Orientation for Graduate Students; please send them to &lt;a href=\"mailto:CTLgrads@columbia.edu\"&gt;CTLgrads@columbia.edu&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2025-08-28T13:30:00+00:00",
-      "end_date": "2025-08-28T19:00:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-96c8ad07-0196-cacbc1b4-00004b16events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Butler Library",
-          "address": "535 W 114th St, New York, NY 10027",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Center for Teaching and Learning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Center for Teaching and Learning",
-          "tags": [
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Workshop",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Teaching and Learning",
-            "CTL",
-            "Graduate Students"
-          ],
-          "audience": [
-            "Category",
-            "Workshop",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Teaching and Learning",
-            "CTL",
-            "Graduate Students"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_99cb14d5",
-      "locationId": "loc_columbia_butler",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_b68ed6c7",
-      "name": "Study Abroad with CASA in Cuba!",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;You are invited to join us for the&amp;nbsp;&lt;a href=\"https://global.undergrad.columbia.edu/program/casa-cuba\" target=\"_blank\"&gt;CASA in Cuba&lt;/a&gt; information session, hosted by Brown University! Learn more about how you can&amp;nbsp;immerse yourself in Cuba, taking in credit-bearing lectures from recognized experts in Spanish on key issues facing the country and interacting with peers who share your intellectual curiosity about Cuba&amp;rsquo;s past, present, and future.&lt;/p&gt;\n&lt;p&gt;Join us on &lt;strong&gt;Thursday, August 28th, 2025, at 12:00 PM ET &lt;a href=\"https://brown.zoom.us/j/93419451478\" target=\"_blank\"&gt;via Zoom&lt;/a&gt;&lt;/strong&gt; to learn more about this exciting opportunity for the Spring 2026 semester or beyond!&lt;/p&gt;\n&lt;p&gt;Please visit the &lt;a href=\"https://global.undergrad.columbia.edu/\" target=\"_blank\"&gt;Center for Undergraduate Global Engagement&amp;#39;s&lt;/a&gt; website to learn more about the &lt;a href=\"https://global.undergrad.columbia.edu/program/casa-cuba\" target=\"_blank\"&gt;CASA in Cuba&lt;/a&gt; program, application process, and eligibility requirements. If you have any questions, please reach out to us at &lt;a href=\"mailto:uge@columbia.edu\" target=\"_blank\"&gt;uge@columbia.edu&lt;/a&gt;.&lt;/p&gt;",
-      "start_date": "2025-08-28T16:00:00+00:00",
-      "end_date": "2025-08-28T16:45:00+00:00",
-      "category": [
-        "TECH"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98c68660-0198-c8fa9ce5-000063f3events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Office of Global Programs and Fellowships",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Office of Global Programs and Fellowships",
-          "tags": [
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Online",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Columbia College",
-            "Columbia Engineering",
-            "Global Programs",
-            "General Studies",
-            "org/OGPF",
-            "Study Abroad"
-          ],
-          "audience": [
-            "Category",
-            "Online",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Columbia College",
-            "Columbia Engineering",
-            "Global Programs",
-            "General Studies",
-            "org/OGPF",
-            "Study Abroad"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_b68ed6c7",
-      "locationId": "loc_virtual",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_8a84a452",
-      "name": "Genetic Counseling - New Student Financial Aid Orientation",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The office of Student Financial Aid &amp;amp; Planning will be hosting the financial aid portion of the Genetic Counseling orientation on Thursday, August 28, 2025.&lt;/p&gt;\n&lt;p&gt;Feel free to contact me if you have any questions.&amp;nbsp; We look forward to seeing you soon.&lt;/p&gt;",
-      "start_date": "2025-08-28T17:00:00+00:00",
-      "end_date": "2025-08-28T18:00:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98acc228-0198-ae7259c9-00004f64events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Roy And Diana Vagelos Education Center, 104 Haven Ave., New York, NY 10032\t1303",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "P&amp;S - Office of Student Financial Aid &amp; Planning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "P&amp;S - Office of Student Financial Aid &amp; Planning",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Orientation",
-            "org/psfinaid",
-            "College of Physicians and Surgeons",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Orientation",
-            "org/psfinaid",
-            "College of Physicians and Surgeons",
-            "org/cumc"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_8a84a452",
-      "locationId": "loc_columbia_main",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_7859ee00",
-      "name": "Admissions Information Session (Webinar)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Join the Columbia Engineering Office of Graduate Admissions for a virtual Information Session, designed for Master&amp;#39;s and Doctoral applicants. This webinar will help you explore our distinguished programs, review application instructions and requirements, and gain valuable application tips. The webinar will also feature an interactive Q&amp;amp;A session to get your questions answered. Don&amp;#39;t miss this opportunity to take a step closer to your academic aspirations!&lt;/p&gt;",
-      "start_date": "2025-08-29T13:30:00+00:00",
-      "end_date": "2025-08-29T14:30:00+00:00",
-      "category": [
-        "TECH"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9888ba0f-0198-8acf362c-00005877events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "SEAS - Graduate Student Affairs",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "SEAS - Graduate Student Affairs",
-          "tags": [
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Online",
-            "Information Session",
-            "Events open to",
-            "org/UniversityEvents",
-            "Admissions",
-            "Prospective Students",
-            "org/seas_gradengineering"
-          ],
-          "audience": [
-            "Category",
-            "Online",
-            "Information Session",
-            "Events open to",
-            "org/UniversityEvents",
-            "Admissions",
-            "Prospective Students",
-            "org/seas_gradengineering"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_7859ee00",
-      "locationId": "loc_virtual",
-      "communityId": "com_columbia_general"
-    },
-    {
-      "id": "evt_columbia_53f7a7b3",
-      "name": "CTLgrads Office Hours (for Graduate Students)",
-      "type": "Academic",
-      "location_id": "loc_columbia_butler",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;We invite current Columbia graduate students with&amp;nbsp;questions about maintaining an inclusive teaching environment and all other aspects of pedagogy&amp;nbsp;to drop by &lt;a href=\"https://ctl.columbia.edu/graduate-instructors/programs-for-graduate-students/office-hours/\" target=\"_blank\"&gt;office hours&lt;/a&gt; on Fridays&amp;nbsp;from 2:00&amp;ndash;4:00 pm. We also welcome conversations about CTL fellowships, programs, services, job market preparation, and making progress in the Teaching Development Program (tdp.ctl.columbia.edu).&lt;/p&gt;\n&lt;p&gt;No appointment is necessary; you can join us in-person in 212 Butler Library, or via Zoom. To join office hours via Zoom, email&amp;nbsp;CTLgrads@columbia.edu&amp;nbsp;to obtain the link.&lt;/p&gt;\n&lt;p&gt;Learn more about what you can expect in office hours here:&amp;nbsp;https://ctl.columbia.edu/graduate-instructors/programs-for-graduate-students/office-hours/&lt;/p&gt;\n&lt;p&gt;If&amp;nbsp;you can&amp;#39;t make office hours but want support, you can request an individual consultation at http://bit.ly/ctl-gradconsult or email us at&amp;nbsp;CTLgrads@columbia.edu.&lt;/p&gt;",
-      "start_date": "2025-08-29T18:00:00+00:00",
-      "end_date": "2025-08-29T20:00:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-96809334-0196-82af6002-0000591fevents%40columbia.edu&recurrenceId=20250829T180000Z",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Butler Library",
-          "address": "535 W 114th St, New York, NY 10027",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Center for Teaching and Learning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Center for Teaching and Learning",
-          "tags": [
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Workshop",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Postdocs",
-            "Teaching and Learning",
-            "CTL",
-            "Graduate Students"
-          ],
-          "audience": [
-            "Category",
-            "Workshop",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Postdocs",
-            "Teaching and Learning",
-            "CTL",
-            "Graduate Students"
-          ]
-        }
-      },
-      "source": "columbia",
-      "event_id": "evt_columbia_53f7a7b3",
-      "locationId": "loc_columbia_butler",
-      "communityId": "com_columbia_general"
-    },
-    {
       "id": "evt_columbia_ef5dba66",
       "name": "New Student Orientation Blood Drive",
       "type": "Academic",
@@ -1125,9 +497,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "EDUCATION",
         "HEALTH",
-        "EDUCATION"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aef89382-0000347cevents%40columbia.edu&recurrenceId=",
@@ -1217,9 +589,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "EDUCATION",
         "HEALTH",
-        "EDUCATION"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-97e91514-0197-ebb50e34-00006fabevents%40columbia.edu&recurrenceId=",
@@ -1494,8 +866,8 @@
       "start_date": "2025-09-04T14:00:00+00:00",
       "end_date": "2025-09-04T20:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-8da6e14b-018d-a92b7ab3-00004639events%40columbia.edu&recurrenceId=",
@@ -1665,9 +1037,9 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "HEALTH",
         "SOCIAL",
+        "HEALTH",
+        "SCIENCE",
         "ARTS"
       ],
       "metadata": {
@@ -2162,8 +1534,8 @@
       "start_date": "2025-09-08T15:00:00+00:00",
       "end_date": "2025-09-08T16:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccfa7d45-0000403devents%40columbia.edu&recurrenceId=",
@@ -2193,6 +1565,7 @@
             "Alumni",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/PublicHealth",
             "Prospective Students",
@@ -2201,6 +1574,7 @@
             "Wellness",
             "Trainees",
             "Education",
+            "org/DentalMedicine",
             "org/cumc"
           ],
           "audience": [
@@ -2213,6 +1587,7 @@
             "Alumni",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/PublicHealth",
             "Prospective Students",
@@ -2221,6 +1596,7 @@
             "Wellness",
             "Trainees",
             "Education",
+            "org/DentalMedicine",
             "org/cumc"
           ]
         }
@@ -2657,8 +2033,8 @@
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "SOCIAL"
+        "SOCIAL",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2f6084f-00007cddevents%40columbia.edu&recurrenceId=",
@@ -2706,6 +2082,79 @@
       },
       "source": "columbia",
       "event_id": "evt_columbia_14c5319e",
+      "locationId": "loc_virtual",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_1e4f9244",
+      "name": "Introduction to Human-Centered and Inclusive Design",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Natalie Benda, PhD&lt;/strong&gt;, is an Assistant Professor of Health Informatics at Columbia University&amp;rsquo;s School of Nursing. She is cross trained in human factors engineering and health informatics. Dr. Benda&amp;rsquo;s program of research utilizes human-centered design methods to improve the quality, safety, and inclusivity of healthcare, with a special focus on developing health technologies and artificial intelligence (AI). Her work has been funded by NSF, NIH, and AHRQ and includes over 75 peer-reviewed publications.&lt;/p&gt;\n&lt;p&gt;Join Via ZOOM:&amp;nbsp;&lt;a href=\"https://nyph.zoom.us/j/93198024600?pwd=bygBlIeRS7jnLUyzfVLQszbXClD0le.1&amp;amp;from=addon\" target=\"_blank\"&gt;https://nyph.zoom.us/j/93198024600?pwd=bygBlIeRS7jnLUyzfVLQszbXClD0le.1&amp;amp;from=addon&lt;/a&gt;&amp;nbsp;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;sub&gt;EQUIP scholars are supported in part by the Agency for Healthcare Research and Quality (AHRQ) through Grant Number P30HS029763, the Dalio Center for Health Justice at NewYork-Presbyterian, and the Departments of Medicine and Pediatrics at Montefiore.&lt;/sub&gt;&lt;/p&gt;",
+      "start_date": "2025-09-09T19:00:00+00:00",
+      "end_date": "2025-09-09T20:00:00+00:00",
+      "category": [
+        "HEALTH",
+        "SCIENCE",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e04ab4-0198-e20d2316-00006860events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "EQUIP Event and Education Calendar",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "EQUIP Event and Education Calendar",
+          "tags": [
+            "org/nursingCHP",
+            "AI",
+            "org/EQUIP",
+            "Artificial Intelligence",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Lecture",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "Clinical Health Sciences",
+            "Postdocs",
+            "Healthcare",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Columbia Nursing",
+            "Mailman School of Public Health",
+            "org/cumc"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Lecture",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "Clinical Health Sciences",
+            "Postdocs",
+            "Healthcare",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Columbia Nursing",
+            "Mailman School of Public Health",
+            "org/cumc"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_1e4f9244",
       "locationId": "loc_virtual",
       "communityId": "com_columbia_general"
     },
@@ -2904,9 +2353,9 @@
       "start_date": "2025-09-10T16:00:00+00:00",
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "EDUCATION",
         "HEALTH",
-        "EDUCATION"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefa93ee-000034acevents%40columbia.edu&recurrenceId=",
@@ -3393,6 +2842,79 @@
       "communityId": "com_columbia_general"
     },
     {
+      "id": "evt_columbia_effce953",
+      "name": "ISSG Drag Performance Workshop",
+      "type": "Workshop",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;In preparation for the ISSG Drag Ball to be held on September 19, affiliated students are invited to join us for a Drag Performance Workshop&amp;nbsp;featuring&amp;nbsp;&lt;a href=\"https://www.instagram.com/theydy.bedbug/reels/\" target=\"_blank\"&gt;&lt;strong&gt;Theydy Bedbug&lt;/strong&gt;&lt;/a&gt;&amp;nbsp;and&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;a href=\"https://www.instagram.com/issabigdragon/?hl=en\" target=\"_blank\"&gt;&lt;strong&gt;Issa Big Dragon&lt;/strong&gt;&lt;/a&gt;! This workshop will be a place to hone your emerging drag persona and practice working the runway. We will touch on the history of drag culture as a catalyst for social change and explore the tools of movement, facial expressions, and costumes in expressive exercises and performance games. Bring your costumes and charisma! &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Whether it&amp;#39;s your first time in drag or you just want to meet some fellow queens/kings before the big night, all student affiliates are&amp;nbsp;welcome!&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;USE&amp;nbsp;&lt;/strong&gt;&lt;a href=\"https://forms.gle/EBTt3UDb4hNY9Vuu9\" target=\"_blank\"&gt;&lt;strong&gt;THE&amp;nbsp;INTEREST FORM&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&amp;nbsp;TO SIGN UP TO PERFORM AND/OR RSVP TO ATTEND EITHER EVENT&lt;/strong&gt;&lt;br /&gt;\n&lt;br /&gt;\nQUESTIONS? email&lt;a href=\"mailto:issg@columbia.edu\"&gt;&amp;nbsp;issg@columbia.edu&amp;nbsp;&lt;/a&gt;&lt;br /&gt;\n&lt;br /&gt;\nOrganized by the Institute for the Study of Sexuality and Gender&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Cosponsored by the Institute for Comparative Literature and Society.&lt;/p&gt;",
+      "start_date": "2025-09-11T22:00:00+00:00",
+      "end_date": "2025-09-12T00:00:00+00:00",
+      "category": [
+        "SCIENCE",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7c8b485-000002e8events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Schermerhorn Extension, 1200 Amsterdam Ave., New York, NY 10027\t754",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "WGS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "WGS",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Student",
+            "Events open to",
+            "org/UniversityEvents",
+            "Gender",
+            "Women",
+            "Sexuality",
+            "org/wgs",
+            "Core Curriculum",
+            "Performance",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Cultural",
+            "Humanities",
+            "Arts",
+            "Theater"
+          ],
+          "audience": [
+            "Category",
+            "Student",
+            "Events open to",
+            "org/UniversityEvents",
+            "Gender",
+            "Women",
+            "Sexuality",
+            "org/wgs",
+            "Core Curriculum",
+            "Performance",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Cultural",
+            "Humanities",
+            "Arts",
+            "Theater"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_effce953",
+      "locationId": "loc_columbia_main",
+      "communityId": "com_columbia_general"
+    },
+    {
       "id": "evt_columbia_1c4a8c0b",
       "name": "Le Corbeau -- Censored Film Series",
       "type": "Academic",
@@ -3483,10 +3005,10 @@
       "start_date": "2025-09-12T12:30:00+00:00",
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "HEALTH",
         "SOCIAL",
-        "EDUCATION"
+        "HEALTH",
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85c4f50b-0000303devents%40columbia.edu&recurrenceId=",
@@ -3812,8 +3334,8 @@
       "start_date": "2025-09-12T16:00:00+00:00",
       "end_date": "2025-09-12T20:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27f9626-00005d86events%40columbia.edu&recurrenceId=",
@@ -3838,6 +3360,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/ColumbiaHealth",
             "Graduate Students",
@@ -3849,6 +3372,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/ColumbiaHealth",
             "Graduate Students",
@@ -3929,8 +3453,8 @@
       "start_date": "2025-09-12T17:30:00+00:00",
       "end_date": "2025-09-12T18:30:00+00:00",
       "category": [
-        "SCIENCE",
-        "SOCIAL"
+        "SOCIAL",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2f74660-00007d32events%40columbia.edu&recurrenceId=",
@@ -4119,8 +3643,8 @@
       "start_date": "2025-09-15T16:00:00+00:00",
       "end_date": "2025-09-15T17:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27436d0-00005962events%40columbia.edu&recurrenceId=",
@@ -4146,6 +3670,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/ColumbiaHealth",
             "Graduate Students",
@@ -4159,6 +3684,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/ColumbiaHealth",
             "Graduate Students",
@@ -4182,8 +3708,8 @@
       "start_date": "2025-09-15T20:30:00+00:00",
       "end_date": "2025-09-15T21:30:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-985a658d-0198-5c86d68d-00001356events%40columbia.edu&recurrenceId=",
@@ -4268,8 +3794,8 @@
       "start_date": "2025-09-15T22:30:00+00:00",
       "end_date": "2025-09-16T00:00:00+00:00",
       "category": [
-        "SCIENCE",
         "SOCIAL",
+        "SCIENCE",
         "ARTS"
       ],
       "metadata": {
@@ -4350,8 +3876,8 @@
       "start_date": "2025-09-16T14:00:00+00:00",
       "end_date": "2025-09-16T18:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "HEALTH"
+        "HEALTH",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-96a9c614-0196-ac6ec2e9-00005fdaevents%40columbia.edu&recurrenceId=",
@@ -4873,6 +4399,7 @@
             "Town Hall",
             "org/univeristysenate",
             "Graduate Students",
+            "org/DentalMedicine",
             "Other",
             "University Governance"
           ],
@@ -4890,6 +4417,7 @@
             "Town Hall",
             "org/univeristysenate",
             "Graduate Students",
+            "org/DentalMedicine",
             "Other",
             "University Governance"
           ]
@@ -4969,9 +4497,9 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "EDUCATION",
         "HEALTH",
-        "EDUCATION"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefd7b8d-000034c2events%40columbia.edu&recurrenceId=",
@@ -5061,8 +4589,8 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98c68ae9-0198-c8df7f1b-00005dddevents%40columbia.edu&recurrenceId=",
@@ -5094,7 +4622,9 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/cumc_ihn",
             "org/PublicHealth",
+            "org/pediatrics",
             "Prospective Students",
             "Teaching and Learning",
             "Graduate Students",
@@ -5119,7 +4649,9 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/cumc_ihn",
             "org/PublicHealth",
+            "org/pediatrics",
             "Prospective Students",
             "Teaching and Learning",
             "Graduate Students",
@@ -5204,8 +4736,8 @@
       "start_date": "2025-09-18T11:00:00+00:00",
       "end_date": "2025-09-18T21:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-981772cf-0198-19b7ca5d-000052ffevents%40columbia.edu&recurrenceId=",
@@ -5289,8 +4821,8 @@
       "start_date": "2025-09-18T15:00:00+00:00",
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
-        "SOCIAL",
         "HEALTH",
+        "SOCIAL",
         "SCIENCE"
       ],
       "metadata": {
@@ -5325,9 +4857,11 @@
             "Economics",
             "Panel",
             "Social Justice",
+            "org/universitylife",
             "Postdocs",
             "org/PublicHealth",
             "Government and Public Policy",
+            "org/pediatrics",
             "Prospective Students",
             "Discussion",
             "Graduate Students",
@@ -5335,6 +4869,7 @@
             "Finance",
             "Trainees",
             "org/cu_alumni_association",
+            "org/DentalMedicine",
             "org/LDEO",
             "org/SIPA_PAP",
             "org/alliance",
@@ -5354,9 +4889,11 @@
             "Economics",
             "Panel",
             "Social Justice",
+            "org/universitylife",
             "Postdocs",
             "org/PublicHealth",
             "Government and Public Policy",
+            "org/pediatrics",
             "Prospective Students",
             "Discussion",
             "Graduate Students",
@@ -5364,6 +4901,7 @@
             "Finance",
             "Trainees",
             "org/cu_alumni_association",
+            "org/DentalMedicine",
             "org/LDEO",
             "org/SIPA_PAP",
             "org/alliance",
@@ -5386,8 +4924,8 @@
       "start_date": "2025-09-18T16:00:00+00:00",
       "end_date": "2025-09-18T17:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d262deb9-0000530bevents%40columbia.edu&recurrenceId=",
@@ -5413,6 +4951,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/ColumbiaHealth",
             "Graduate Students",
@@ -5426,6 +4965,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/universitylife",
             "Postdocs",
             "org/ColumbiaHealth",
             "Graduate Students",
@@ -5570,6 +5110,68 @@
       "source": "columbia",
       "event_id": "evt_columbia_b6854b63",
       "locationId": "loc_columbia_sipa",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_0953348d",
+      "name": "ISHR Fall Social",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;IN-PERSON EVENT: Bar 314 (3143 Broadway)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Join the Institute for the Study of Human Rights for a Fall Social welcoming back students and faculty. The event will be at&amp;nbsp;&lt;strong&gt;Bar 314&lt;/strong&gt;&amp;nbsp;(3143 Broadway between La Salle St. and Tiemann Pl.) on &lt;strong&gt;Thursday, Se&lt;/strong&gt;&lt;strong&gt;ptember 18th from 5-7 pm.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Please&amp;nbsp;&lt;strong&gt;RSVP by September 12th&lt;/strong&gt;&amp;nbsp;so we have a headcount for food.&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2025-09-18T21:00:00+00:00",
+      "end_date": "2025-09-18T23:00:00+00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-987e6d65-0198-8042734e-0000634cevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Off-campus\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of Human Rights (ISHR)",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Institute for the Study of Human Rights (ISHR)",
+          "tags": [
+            "Off Campus",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Graduate Students",
+            "Community",
+            "org/ishr",
+            "Other"
+          ],
+          "audience": [
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Graduate Students",
+            "Community",
+            "org/ishr",
+            "Other"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_0953348d",
+      "locationId": "loc_columbia_main",
       "communityId": "com_columbia_general"
     },
     {
@@ -5771,6 +5373,7 @@
             "Town Hall",
             "org/univeristysenate",
             "Graduate Students",
+            "org/DentalMedicine",
             "Other",
             "University Governance"
           ],
@@ -5788,6 +5391,7 @@
             "Town Hall",
             "org/univeristysenate",
             "Graduate Students",
+            "org/DentalMedicine",
             "Other",
             "University Governance"
           ]
@@ -5960,9 +5564,9 @@
       "start_date": "2025-09-19T12:30:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "EDUCATION",
         "HEALTH",
-        "EDUCATION"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85deaa42-000034d6events%40columbia.edu&recurrenceId=",
@@ -6110,6 +5714,78 @@
       },
       "source": "columbia",
       "event_id": "evt_columbia_138c9dd0",
+      "locationId": "loc_columbia_main",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_1c5ad3f6",
+      "name": "UNESCO International Year of Quantum Symposium",
+      "type": "Conference",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;On June 7, 2024, the United Nations proclaimed 2025 as the&amp;nbsp;&lt;a href=\"https://quantum2025.org/\" target=\"_blank\"&gt;International Year of Quantum Science and Technology (IYQ)&lt;/a&gt;, marking 100 years since the initial development of quantum mechanics.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Join the &lt;a href=\"https://quantum.columbia.edu/\" target=\"_blank\"&gt;Columbia Quantum Initiative&lt;/a&gt;&amp;nbsp;on Friday, September 19th, to welcome experts from industry and academia who share their insights into recent quantum research and the development of emerging quantum technologies.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h1&gt;&lt;strong&gt;Schedule:&lt;/strong&gt;&lt;/h1&gt;\n&lt;p&gt;10:00 am | Sarah Sheldon, IBM:&amp;nbsp;The Path to Useful Quantum Computing: From Algorithms to Applications&lt;/p&gt;\n&lt;p&gt;10:45 am | Henry Yuen, Columbia: Quantum Cryptography: A Journey from Quantum Money to Quantum Gravity&lt;/p&gt;\n&lt;p&gt;11:15 am | Marissa Giustina, Google DeepMind: The Physicality of Information; the Information of Physicality&lt;/p&gt;\n&lt;p&gt;Noon | Break for Lunch&lt;br /&gt;\n1:00 pm | Chris Monroe, IonQ/Duke: Quantum Computers: Hype and Hope&lt;/p&gt;\n&lt;p&gt;1:45 pm |&amp;nbsp;Sebastian Will, Columbia: Pushing the Frontier of Quantum Control of Atoms and Molecules&lt;/p&gt;\n&lt;p&gt;2:15 pm | Vladan Vuletic, MIT/QuERA: Quantum Computing with Neutral Atoms: From Physical to Logical Qubits&lt;/p&gt;\n&lt;p&gt;3:00 pm | Afternoon Break&lt;br /&gt;\n3:30 pm | Ana Asenjo-Garcia:&amp;nbsp;Emergent Behavior in a Noisy Quantum World&lt;/p&gt;\n&lt;p&gt;4:00 pm | Mihai Vidrighin, PsiQuantum: Linear Optical Quantum Computing with Integrated Photonics&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only. We have a limited number of guest spots available. Interested non-affiliates, please contact&amp;nbsp;&lt;/em&gt;&lt;a href=\"mailto:quantum@columbia.edu\"&gt;&lt;em&gt;quantum@columbia.edu&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&amp;nbsp;to be added to the symposium waitlist.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
+      "start_date": "2025-09-19T14:00:00+00:00",
+      "end_date": "2025-09-19T21:00:00+00:00",
+      "category": [
+        "SCIENCE",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e57111-0198-e7a936ab-00007895events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Lerner Hall, 2920 Broadway, New York, NY 10027\tRoom 555",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Quantum at Columbia",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Quantum at Columbia",
+          "tags": [
+            "org/quantum",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Computer Science",
+            "Research",
+            "Postdocs",
+            "Graduate Students",
+            "Symposium",
+            "Trainees",
+            "Engineering",
+            "Natural Sciences"
+          ],
+          "audience": [
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Computer Science",
+            "Research",
+            "Postdocs",
+            "Graduate Students",
+            "Symposium",
+            "Trainees",
+            "Engineering",
+            "Natural Sciences"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_1c5ad3f6",
       "locationId": "loc_columbia_main",
       "communityId": "com_columbia_general"
     },
@@ -6376,6 +6052,91 @@
       "communityId": "com_columbia_general"
     },
     {
+      "id": "evt_columbia_ff76ebc0",
+      "name": "ISSG Drag Ball",
+      "type": "Performance",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;The Institute for the Study of Sexuality and Gender presents our first&lt;br /&gt;\n&lt;strong&gt;ISSG Drag Ball&lt;/strong&gt;&lt;br /&gt;\n&lt;strong&gt;FRIDAY, SEPTEMBER 19, 2025, 6pm-8pm&lt;/strong&gt;&lt;br /&gt;\n&lt;em&gt;Teatro, Italian Academy&lt;/em&gt;&lt;br /&gt;\n&lt;strong&gt;Hosted by&amp;nbsp;&lt;/strong&gt;&lt;a href=\"https://www.instagram.com/juniormintt/\" target=\"_blank\"&gt;&lt;strong&gt;Junior Mintt&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&amp;nbsp;with sounds by&amp;nbsp;&lt;/strong&gt;&lt;a href=\"https://soundcloud.com/sp3cialkdj\" target=\"_blank\"&gt;&lt;strong&gt;DJ Sp3cial K&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Join us for&amp;nbsp;an evening of looks,&amp;nbsp;performances, and community!&lt;/p&gt;\n&lt;p&gt;Students and other affiliates of Columbia, Barnard, TC and UTS are invited to perform or simply cheer the performers on. There will be food, judges, and trophies for the most fabulous! Performances by special guests&amp;nbsp;&lt;a href=\"https://www.instagram.com/theydy.bedbug/reels/\" target=\"_blank\"&gt;&lt;strong&gt;Theydy Bedbug&lt;/strong&gt;&lt;/a&gt;&amp;nbsp;and&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;a href=\"https://www.instagram.com/issabigdragon/?hl=en\" target=\"_blank\"&gt;&lt;strong&gt;Issa Big Dragon&lt;/strong&gt;&lt;/a&gt;, Alumni, faculty, and staff are invited to volunteer or attend as space allows.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;The categories are:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Queer Trailblazer:&amp;nbsp;&lt;/strong&gt;Icons of the past and present come alive. Herstorical/historical figures and conthemporary queers.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Queer Liberation Faceoff:&amp;nbsp;&lt;/strong&gt;The forces of good and evil collide on one stage. Winning hero and villain will face-off for a final showdown&lt;/p&gt;\n&lt;p&gt;-&amp;nbsp;&lt;strong&gt;Heroes&lt;/strong&gt;: Free us all with your look! Brave, superhero vibes.&lt;/p&gt;\n&lt;p&gt;-&amp;nbsp;&lt;strong&gt;Villains&lt;/strong&gt;: Devious, haunting, and maniacal looks. Plan to steal the show.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Supernatural Body:&lt;/strong&gt;&amp;nbsp;Bewitching, magical, fantastical, and simply out of this world. Show us your creature features. Are you human, are you machine, or are you a legend from fairy tales and dreams?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Campus Crush:&lt;/strong&gt;&amp;nbsp;The whole campus has a crush on this stylish, brilliant scholar. Bring your fiercest A+ student realness! Whether it&amp;#39;s the star athlete, the conscious rebel, the quirky art major, the book worm, the class clown or the mysterious philosophy student, own it and serve it up hot. Top of their class, serving confidence and edge.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Best Dance Performance:&lt;/strong&gt;&amp;nbsp;Choreography, freestyle, or movement-based drag bringing the energy!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Lip Sync Extravaganza:&lt;/strong&gt;&amp;nbsp;Perform an iconic lip sync. Could be dramatic, emotional, or hilarious.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Dorm Room Couture:&amp;nbsp;&lt;/strong&gt;Runway! Serve a runway moment using DIY fashion, dorm inspiration, and pure imagination.&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;SEE&amp;nbsp;&lt;/strong&gt;&lt;a href=\"https://forms.gle/EBTt3UDb4hNY9Vuu9\" target=\"_blank\"&gt;&lt;strong&gt;THE&amp;nbsp;INTEREST FORM&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&amp;nbsp;TO RSVP&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;New to drag and want some tips??&lt;br /&gt;\n&lt;strong&gt;Students are invited to attend a Drag Performance Workshop&lt;/strong&gt;&lt;br /&gt;\n&lt;strong&gt;THURSDAY, SEPTEMBER 11, 6PM - 8PM&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;\nOrganized by the Institute for the Study of Sexuality and Gender&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Cosponsored by the Institute for Comparative Literature and Society&lt;/p&gt;",
+      "start_date": "2025-09-19T22:00:00+00:00",
+      "end_date": "2025-09-20T00:00:00+00:00",
+      "category": [
+        "SCIENCE",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7d5b17e-000005a9events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Italian Academy, 1161 Amsterdam Ave., New York, NY 10027\tTeatro",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "WGS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "WGS",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Gender",
+            "Women",
+            "Sexuality",
+            "org/wgs",
+            "Postdocs",
+            "Prospective Students",
+            "Performance",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Community",
+            "Cultural",
+            "Humanities",
+            "Other",
+            "Arts",
+            "Theater"
+          ],
+          "audience": [
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Gender",
+            "Women",
+            "Sexuality",
+            "org/wgs",
+            "Postdocs",
+            "Prospective Students",
+            "Performance",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Community",
+            "Cultural",
+            "Humanities",
+            "Other",
+            "Arts",
+            "Theater"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_ff76ebc0",
+      "locationId": "loc_columbia_main",
+      "communityId": "com_columbia_general"
+    },
+    {
       "id": "evt_columbia_d446475b",
       "name": "2025 Fitch Colloquium: Fragments of the Imagination",
       "type": "Seminar",
@@ -6609,7 +6370,7 @@
       "type": "Academic",
       "location_id": "loc_columbia_sipa",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Co-hosted by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Fashion, Energy, and Climate Network, Columbia Climate School&lt;/p&gt;\n&lt;p&gt;Center on Global Energy Policy, School of International and Public Affairs, Columbia University&lt;/p&gt;\n&lt;p&gt;Energy, Climate Justice, and Sustainability Lab, New York University&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:00am &amp;ndash; 9:30am&lt;/strong&gt; Networking and Coffee&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:30am &amp;ndash; 10:00am&lt;/strong&gt; Welcome&amp;nbsp; and Fireside Chat&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:00am &amp;ndash; 11:00am&lt;/strong&gt; Panel Discussion I: &lt;em&gt;Materials Innovation for Decarbonization&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;11:00am &amp;ndash; 12:00pm&lt;/strong&gt; Panel Discussion II: &lt;em&gt;New Paradigms for Fashion Business&lt;/em&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Following last year&amp;rsquo;s &lt;a href=\"https://www.climate.columbia.edu/events/renewing-fashion-clean-energy-and-circular-economy\"&gt;&lt;em&gt;Renewing Fashion&lt;/em&gt;&lt;/a&gt; event, this year&amp;rsquo;s &lt;em&gt;Transforming Fashion&amp;#39;s Footprint: Innovation and Business&lt;/em&gt; digs deeper into key challenges and opportunities for climate and energy transition actions in the fashion sector. While various efforts continue to be made to estimate fashion&amp;rsquo;s environmental footprint, major gaps remain in how to decarbonize material production and reshape business practices.&lt;/p&gt;\n&lt;p&gt;Our first session explores cutting-edge materials innovations where the biggest contribution could be made in ameliorating the largest share of the fashion value chain&amp;rsquo;s carbon emissions.&amp;nbsp;The second session turns to business models. How can fashion bridge the gap between academic research and real-world enterprise? What strategies work to scale sustainability while maintaining commercial viability?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;Key Questions:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;What are the most promising materials innovations to cut carbon in fashion?&lt;/li&gt;\n&lt;li&gt;How can regenerative agriculture and bio-based materials reshape supply chains?&lt;/li&gt;\n&lt;li&gt;What does a business model look like when it centers both addressing climate impact and profitability?&lt;/li&gt;\n&lt;li&gt;How can academia and industry collaborate more effectively to accelerate and scale solutions?&lt;/li&gt;\n&lt;li&gt;What roles do brands play in reshaping the fashion ecosystem?&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Confirmed Speakers &lt;/strong&gt;(in alphabetic order of last name; more to be added):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Christina Castle, Senior Manager, Impact &amp;amp; Product Sustainability, D&amp;Ocirc;EN&lt;/li&gt;\n&lt;li&gt;Michelle Gabriel, Lecturer, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Kelley Kizzier, Director of Corporate Action and Markets, Bezos Earth Fund&lt;/li&gt;\n&lt;li&gt;Sandra Goldmark, Associate Dean for Engagement and Impact, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Amy Jaffe, Director, Energy, Climate Justice, and Sustainability Lab, NYU&lt;/li&gt;\n&lt;li&gt;Kevin Karl, Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Sarah Kent, Chief Sustainability Correspondent, Business of Fashion&lt;/li&gt;\n&lt;li&gt;Miguel Modestino , Director, Sustainable Engineering Initiative, NYU Tandon&lt;/li&gt;\n&lt;li&gt;Stewart Pe&amp;ntilde;a Feliz, Co-Founder &amp;amp; CEO, MacroCycle Technologies&lt;/li&gt;\n&lt;li&gt;Sally Qiu , Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Indr&amp;eacute; Rockefeller, Founder of The Circularity Project&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Jon Veldhouse, CEO, Qore&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;For Columbia affiliates, please register using the &amp;#39;Reserve Your Seat&amp;#39; button below. For NYU affiliates, please register on the NYU website. For public audience, please complete the attendance request form by following this link:&amp;nbsp;&lt;a href=\"https://forms.gle/Yj3jshZrNJY1mX9N7\"&gt;https://forms.gle/Yj3jshZrNJY1mX9N7&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;strong&gt;Co-hosted by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Fashion, Energy, and Climate Network, Columbia Climate School&lt;/p&gt;\n&lt;p&gt;Center on Global Energy Policy, School of International and Public Affairs, Columbia University&lt;/p&gt;\n&lt;p&gt;Energy, Climate Justice, and Sustainability Lab, New York University&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:00am - 9:30am&lt;/strong&gt; Networking and Coffee&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:30am - 9:40am&lt;/strong&gt; Welcome&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:40am - 10:00am&lt;/strong&gt;&amp;nbsp; Fireside Chat with Indr&amp;eacute; Rockefeller, The Circularity Project&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:00am - 10:20am&lt;/strong&gt; State of Play: Fashion Industry Sustainability with Sarah Kent, Business of Fashion&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:20am - 11:10am&lt;/strong&gt; Panel Discussion I: &lt;em&gt;Materials Innovation for Decarbonization&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;11:10am - 12:00pm&lt;/strong&gt; Panel Discussion II: &lt;em&gt;New Paradigms for Fashion Business&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;Following last year&amp;rsquo;s &lt;a href=\"https://www.climate.columbia.edu/events/renewing-fashion-clean-energy-and-circular-economy\"&gt;&lt;em&gt;Renewing Fashion&lt;/em&gt;&lt;/a&gt; event, this year&amp;rsquo;s &lt;em&gt;Transforming Fashion&amp;#39;s Footprint: Innovation and Business&lt;/em&gt; digs deeper into key challenges and opportunities for climate and energy transition actions in the fashion sector. While various efforts continue to be made to estimate fashion&amp;rsquo;s environmental footprint, major gaps remain in how to decarbonize material production and reshape business practices.&lt;/p&gt;\n&lt;p&gt;Our first session explores cutting-edge materials innovations where the biggest contribution could be made in ameliorating the largest share of the fashion value chain&amp;rsquo;s carbon emissions.&amp;nbsp;The second session turns to business models. How can fashion bridge the gap between academic research and real-world enterprise? What strategies work to scale sustainability while maintaining commercial viability?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;Key Questions:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;What are the most promising materials innovations to cut carbon in fashion?&lt;/li&gt;\n&lt;li&gt;How can regenerative agriculture and bio-based materials reshape supply chains?&lt;/li&gt;\n&lt;li&gt;What does a business model look like when it centers both addressing climate impact and profitability?&lt;/li&gt;\n&lt;li&gt;How can academia and industry collaborate more effectively to accelerate and scale solutions?&lt;/li&gt;\n&lt;li&gt;What roles do brands play in reshaping the fashion ecosystem?&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Confirmed Speakers &lt;/strong&gt;(in alphabetic order of last name; more to be added):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Christina Castle, Senior Manager, Impact &amp;amp; Product Sustainability, D&amp;Ocirc;EN&lt;/li&gt;\n&lt;li&gt;Michelle Gabriel, Lecturer, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Kelley Kizzier, Director of Corporate Action and Markets, Bezos Earth Fund&lt;/li&gt;\n&lt;li&gt;Sandra Goldmark, Associate Dean for Engagement and Impact, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Amy Jaffe, Director, Energy, Climate Justice, and Sustainability Lab, NYU&lt;/li&gt;\n&lt;li&gt;Kevin Karl, Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Sarah Kent, Chief Sustainability Correspondent, Business of Fashion&lt;/li&gt;\n&lt;li&gt;Miguel Modestino , Director, Sustainable Engineering Initiative, NYU Tandon&lt;/li&gt;\n&lt;li&gt;Stewart Pe&amp;ntilde;a Feliz, Co-Founder &amp;amp; CEO, MacroCycle Technologies&lt;/li&gt;\n&lt;li&gt;Sally Qiu , Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Indr&amp;eacute; Rockefeller, Founder of The Circularity Project&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Jon Veldhouse, CEO, Qore&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;For Columbia affiliates, please register using the &amp;#39;Reserve Your Seat&amp;#39; button below. For NYU affiliates, please register on the NYU website. For public audience, please complete the attendance request form by following this link:&amp;nbsp;&lt;a href=\"https://forms.gle/Yj3jshZrNJY1mX9N7\"&gt;https://forms.gle/Yj3jshZrNJY1mX9N7&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
       "start_date": "2025-09-22T13:00:00+00:00",
       "end_date": "2025-09-22T16:00:00+00:00",
       "category": [
@@ -6762,8 +6523,8 @@
       "start_date": "2025-09-22T16:00:00+00:00",
       "end_date": "2025-09-22T17:00:00+00:00",
       "category": [
-        "SCIENCE",
         "SOCIAL",
+        "SCIENCE",
         "ARTS"
       ],
       "metadata": {
@@ -6901,6 +6662,418 @@
       "source": "columbia",
       "event_id": "evt_columbia_a45457d0",
       "locationId": "loc_virtual",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_73518388",
+      "name": "Nurse State Legislators Webinar",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;The Center for Health Policy is hosting a Webinar where an expert panel will discuss nurses&amp;rsquo; role in health policy and advocacy.&lt;/p&gt;\n&lt;p&gt;Panelists include New York State Assemblymember Karines Reyes;&amp;nbsp;Darlene Curley,&amp;nbsp;Chair of Utah Governor&amp;rsquo;s Commission on Aging; Bethany Hall-Long, the&amp;nbsp;75th Governor of Delaware; Gale Adcock, Senator in the North Carolina General Assembly; and Ross Frommer, the&amp;nbsp;Vice President for Government Affairs at Columbia University Irving Medical Center.&lt;/p&gt;\n&lt;h3&gt;You can register for the event here:&amp;nbsp;&lt;a href=\"https://columbiacuimc.zoom.us/webinar/register/WN_OPyMRFFMS72DWzpoAoH9ig?ampDeviceId=b7686996-2999-410c-abaa-63e050a8aff7&amp;amp;ampSessionId=1755787733365&amp;amp;_gl=1*1w3dwm5*_gcl_au*NzIwNTM0NDguMTc0OTU2OTA0Mw..*_ga*MTYwNjU3NzgyOS4xNzUwNDMxNDcx*_ga_L8TBF28DDX*czE3NTU3ODc3MzMkbzE2JGcxJHQxNzU1Nzg3Nzc5JGoxNCRsMCRoMA..#/registration\"&gt;Webinar Registration - Zoom&lt;/a&gt;&lt;/h3&gt;",
+      "start_date": "2025-09-22T17:00:00+00:00",
+      "end_date": "2025-09-22T18:00:00+00:00",
+      "category": [
+        "HEALTH",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98ea92e3-0198-ec487b73-00006116events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Columbia Nursing Center for Health Policy",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Columbia Nursing Center for Health Policy",
+          "tags": [
+            "org/nursingCHP",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Teaching and Learning",
+            "Healthcare",
+            "Discussion",
+            "Graduate Students",
+            "Mailman School of Public Health",
+            "Trainees",
+            "org/cumc",
+            "Political Science"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Teaching and Learning",
+            "Healthcare",
+            "Discussion",
+            "Graduate Students",
+            "Mailman School of Public Health",
+            "Trainees",
+            "org/cumc",
+            "Political Science"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_73518388",
+      "locationId": "loc_virtual",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_6dab20c5",
+      "name": "Investment and Careers in Climate",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;In the wake of federal rollbacks, climate professionals are increasingly turning to state and local governments, philanthropy, and the private sector to sustain the progress made. But where exactly is the money flowing&amp;mdash;and what does that mean for your career?&lt;/p&gt;\n&lt;p&gt;The Center on Global Energy Policy at Columbia University SIPA&amp;rsquo;s Women in Energy initiative and Pillsbury invite you to join us for Follow the Capital: Investment and Careers in Climate, a timely conversation and networking event that explores the evolving climate funding landscape&amp;mdash;and how to navigate it.&lt;/p&gt;\n&lt;p&gt;This event will focus on two key questions:&lt;/p&gt;\n&lt;p&gt;1. &amp;nbsp; &amp;nbsp; Where is climate capital moving under the new administration?&lt;/p&gt;\n&lt;p&gt;2. &amp;nbsp; &amp;nbsp; How are those shifts shaping hiring and talent demands across sectors?&lt;/p&gt;\n&lt;p&gt;Hear from leaders tracking the flow of climate capital&amp;mdash;from venture investments to government grants&amp;mdash;and learn how these trends are influencing not only what gets funded, but who gets hired. Whether you&amp;#39;re seeking your next job, making investment decisions, or simply trying to stay ahead of the curve, this event will provide actionable insights, meaningful connections, and a sharper understanding of where opportunities are headed in the climate space.&lt;/p&gt;",
+      "start_date": "2025-09-22T19:00:00+00:00",
+      "end_date": "2025-09-22T22:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98742526-0198-75cbf34b-00004505events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Pillsbury Winthrop Shaw Pittman, 31 West 52nd Street, 29th Floor, New York, NY 10019\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SIPA - Center on Global Energy Policy",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SIPA - Center on Global Energy Policy",
+          "tags": [
+            "org/CCS",
+            "International and Public Affairs",
+            "Off Campus",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Reception",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Earth Institute",
+            "Panel",
+            "Postdocs",
+            "SIPA",
+            "Climate",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Trainees",
+            "Energy",
+            "org/SIPA_CGEP"
+          ],
+          "audience": [
+            "Category",
+            "Reception",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Earth Institute",
+            "Panel",
+            "Postdocs",
+            "SIPA",
+            "Climate",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Trainees",
+            "Energy",
+            "org/SIPA_CGEP"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_6dab20c5",
+      "locationId": "loc_columbia_main",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_5581c314",
+      "name": "Data and Partnerships for Global Clean Air and Climate",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Air pollution is a global public health crisis, causing more than 8 million premature deaths annually. The environmental damage of air pollution must be reversed hand in hand with addressing the climate challenge. Sensing, data science, and sustainable energy technology all help remove barriers towards progress towards cleaner air and sustainable climate. For real impact, this work must be co-designed and performed on a local level in partnership with those who are most affected. We will highlight creative and innovative work at the interface of environmental science, engineering, public health, data science, economics, policy, and community engagement.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;This event is part of&lt;/strong&gt;&lt;/strong&gt;&lt;strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/strong&gt;&lt;a href=\"https://www.engineering.columbia.edu/climate-week-columbia-engineering-2025\" target=\"_blank\"&gt;&lt;strong&gt;&lt;strong&gt;Climate Week at Columbia Engineering 2025&lt;/strong&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;",
+      "start_date": "2025-09-22T19:30:00+00:00",
+      "end_date": "2025-09-22T21:30:00+00:00",
+      "category": [
+        "HEALTH",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98370f12-0198-388161fa-0000424eevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Columbia Engineering Innovation Hub, 2276 12th Avenue, New York, NY 10027\t2nd Floor",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SEAS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SEAS",
+          "tags": [
+            "org/CCS",
+            "Manhattanville",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "org/PublicHealth",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Engineering"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "org/PublicHealth",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Engineering"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_5581c314",
+      "locationId": "loc_columbia_main",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_d8f934d5",
+      "name": "CET Taiwan | Information Session with Alumni!",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Are you interested in studying abroad in Taiwan? Join this virtual information session on &lt;strong&gt;Monday, September 22nd at 4:00 PM ET&lt;/strong&gt;&amp;nbsp;&lt;a href=\"https://events.teams.microsoft.com/event/7f370376-ee22-4947-b8d8-9755708b1248@1eb1283f-7a15-43ab-84df-87a2f6ade4fd\" target=\"_blank\"&gt;hosted by CET Academic Programs&lt;/a&gt; to learn more about study abroad in Taiwan. During this session, you will hear&amp;nbsp;directly from recent program alums about their experience!&lt;/p&gt;\n&lt;p&gt;Immerse yourself in the Chinese language, take English-taught electives that fit your major, and live with local peers! All language levels (including elementary!) are offered, so all are welcome.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Even if you are unable to attend, we encourage you to register with CET since it will ensure you receive a recording to view at your convenience.&lt;/p&gt;\n&lt;p&gt;Please visit the &lt;a href=\"https://global.undergrad.columbia.edu/\" target=\"_blank\"&gt;Center for Undergraduate Global Engagement&amp;#39;s&lt;/a&gt; website to learn more about&amp;nbsp;&lt;a href=\"https://global.undergrad.columbia.edu/program/cet-taiwan\" target=\"_blank\"&gt;CET&amp;nbsp;Taiwan&lt;/a&gt;, the application process, and eligibility requirements. If you have any questions, please reach out to us at &lt;a href=\"mailto:uge@columbia.edu\" target=\"_blank\"&gt;uge@columbia.edu&lt;/a&gt;.&lt;/p&gt;",
+      "start_date": "2025-09-22T20:00:00+00:00",
+      "end_date": "2025-09-22T21:00:00+00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-989d4f10-0198-9fe2b242-00000bb3events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Office of Global Programs and Fellowships",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Office of Global Programs and Fellowships",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Information Session",
+            "Student",
+            "Events open to",
+            "org/UniversityEvents",
+            "First-years",
+            "Sophomores",
+            "Juniors",
+            "Seniors",
+            "Global Programs",
+            "org/OGPF",
+            "Study Abroad"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Information Session",
+            "Student",
+            "Events open to",
+            "org/UniversityEvents",
+            "First-years",
+            "Sophomores",
+            "Juniors",
+            "Seniors",
+            "Global Programs",
+            "org/OGPF",
+            "Study Abroad"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_d8f934d5",
+      "locationId": "loc_virtual",
+      "communityId": "com_columbia_general"
+    },
+    {
+      "id": "evt_columbia_004bb49d",
+      "name": "Playing for the Planet",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Every sport is played on nature&amp;rsquo;s stage. As climate change and habitat destruction threaten biodiversity, the sports industry must step up as a key player in conservation. This panel will bring together experts to explore how sports organizations, teams, leagues, venues, and athletes are working to restore natural habitats, promote sustainable land use, and reduce their ecological impact.&lt;/p&gt;\n&lt;p&gt;Join us during Climate Week NYC to discover how sports can inspire action and drive lasting change to safeguard the planet&amp;rsquo;s biodiversity.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Welcome remarks:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Brendan Buckley&lt;/strong&gt;&lt;/strong&gt;,&lt;strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/strong&gt;Program Co-Director, Lamont-Doherty Earth Observatory Research Professor, Biology and Paleo Environment, Lecturer in Professional Studies, Sustainability Science.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Moderator:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Chandler Precht&lt;/strong&gt;&lt;/strong&gt;, Lecturer, Sustainability Management Program and Director, External Affairs and Communications, Sustainability Management and Sustainability Science Programs.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Panel:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Lewis Blaustein&lt;/strong&gt;&lt;/strong&gt;, CEO/Founder, Eco Athletes.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Mackenzie Feldman&lt;/strong&gt;&lt;/strong&gt;, founnder and co-director of Re:wild Your Campus.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Lady Merle Liivand&lt;/strong&gt;&lt;/strong&gt;, Modern Life Mermaid and Gold Medalist.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Zach Ruiz&lt;/strong&gt;&lt;/strong&gt;, Sustainability Manager, Kaseya Center, The Heat Group.&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;\nRECEPTION&lt;/p&gt;\n&lt;p&gt;The event will conclude with a reception featuring light refreshments, passed hors d&amp;rsquo;oeuvres, and opportunities to connect.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;em&gt;This event is free and open to the public. Registration is recommended and is open until Thursday, September 18th, 2025.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;RSVP link &lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For more information, please contact the Sustainability Graduate Programs&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;sustainabilitygradprograms@columbia.edu&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To obtain additional information about program offerings at Columbia University&amp;rsquo;s School of Professional Studies, please contact an Admissions Counselor at&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;inquire@sps.columbia.edu&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you require closed captioning, sign-language interpretation, or any other disability accommodations, please contact Disability Services,&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;disability@columbia.edu&lt;/a&gt;, at least 10 days in advance.&lt;/p&gt;\n&lt;p&gt;Please visit Columbia University&amp;rsquo;s Hub for Emergency Preparedness (&lt;a href=\"https://preparedness.columbia.edu/\" target=\"_blank\"&gt;https://preparedness.columbia.edu/&lt;/a&gt;) to stay up to date on the latest campus health and safety policies.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This event is open to individuals irrespective of identity and sex.&lt;/p&gt;",
+      "start_date": "2025-09-22T22:00:00+00:00",
+      "end_date": "2025-09-23T01:00:00+00:00",
+      "category": [
+        "BUSINESS",
+        "SCIENCE",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97bfe6ab-0197-c1df5829-00005c98events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Casa Italiana, 1161 Amsterdam Ave., New York, NY 10027\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SPS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SPS",
+          "tags": [
+            "org/neighbors",
+            "org/CCS",
+            "org/EJCJC",
+            "org/climateOOR",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Reception",
+            "Lecture",
+            "Business",
+            "Sports",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Earth Institute",
+            "Panel",
+            "org/universitylife",
+            "org/sps",
+            "Postdocs",
+            "Global Programs",
+            "Government and Public Policy",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Finance",
+            "Graduate School of Arts and Sciences",
+            "Trainees",
+            "org/LDEO",
+            "Panel Discussion",
+            "Athletics",
+            "Other"
+          ],
+          "audience": [
+            "Category",
+            "Reception",
+            "Lecture",
+            "Business",
+            "Sports",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Earth Institute",
+            "Panel",
+            "org/universitylife",
+            "org/sps",
+            "Postdocs",
+            "Global Programs",
+            "Government and Public Policy",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Finance",
+            "Graduate School of Arts and Sciences",
+            "Trainees",
+            "org/LDEO",
+            "Panel Discussion",
+            "Athletics",
+            "Other"
+          ]
+        }
+      },
+      "source": "columbia",
+      "event_id": "evt_columbia_004bb49d",
+      "locationId": "loc_columbia_main",
       "communityId": "com_columbia_general"
     }
   ]

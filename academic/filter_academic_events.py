@@ -4,9 +4,10 @@ import re
 from typing import List, Dict
 
 def is_academic_event(event: Dict) -> bool:
-    """Determine if an event is truly academic - only lectures and academic series"""
+    """Determine if an event is academic - more inclusive approach"""
     title = event.get('name', event.get('title', '')).lower()
     description = event.get('description', '').lower()
+    source = event.get('source', '').lower()
     combined_text = f"{title} {description}"
     
     # Non-academic keywords that indicate this is NOT an academic event
@@ -30,11 +31,20 @@ def is_academic_event(event: Dict) -> bool:
         if keyword in combined_text:
             return False
     
-    # Only allow specific academic event types
+    # Academic event types and keywords
     academic_event_types = [
         'lecture', 'seminar', 'conference', 'symposium', 'workshop', 'colloquium',
         'research presentation', 'thesis defense', 'dissertation defense', 'academic series',
-        'lecture series', 'seminar series', 'colloquium series'
+        'lecture series', 'seminar series', 'colloquium series', 'talk', 'presentation',
+        'discussion', 'panel', 'roundtable', 'forum', 'research', 'study', 'analysis',
+        'mathematics', 'mathematical', 'physics', 'chemistry', 'biology', 'computer science',
+        'engineering', 'technology', 'innovation', 'entrepreneurship', 'climate', 'environmental',
+        'policy', 'economics', 'philosophy', 'history', 'literature', 'art history',
+        'archaeology', 'anthropology', 'sociology', 'psychology', 'neuroscience', 'medicine',
+        'health', 'public health', 'urban', 'city', 'architecture', 'design', 'music theory',
+        'composition', 'performance studies', 'theater', 'drama', 'film', 'media', 'journalism',
+        'law', 'legal', 'business', 'management', 'finance', 'accounting', 'marketing',
+        'education', 'pedagogy', 'teaching', 'learning', 'curriculum', 'assessment'
     ]
     
     # Check for academic event types
@@ -42,16 +52,18 @@ def is_academic_event(event: Dict) -> bool:
         if event_type in combined_text:
             return True
     
-    # Also check for specific academic keywords that indicate a lecture/series
-    academic_keywords = [
-        'lecture', 'seminar', 'conference', 'symposium', 'workshop', 'colloquium',
-        'research presentation', 'thesis defense', 'dissertation defense'
+    # Trust certain academic institutions by default (unless they have non-academic keywords)
+    trusted_academic_sources = [
+        'cims', 'courant', 'cornell_tech', 'hunter', 'pratt', 'simons', 'simons_foundation',
+        'barnard', 'cooper_union', 'fordham', 'gallatin', 'isaw', 'jtsa', 'new_school',
+        'nyu', 'nyu_engineering', 'nyu_cims', 'nyu_education', 'nyu_law', 'nyu_medicine', 'nyu_stern',
+        'columbia', 'columbia_classics', 'columbia_general', 'columbia_history', 'columbia_law', 
+        'columbia_math', 'columbia_religion', 'columbia_social_difference'
     ]
     
-    # Check if title contains academic event types
-    for keyword in academic_keywords:
-        if keyword in title:
-            return True
+    # If it's from a trusted academic source and doesn't have non-academic keywords, include it
+    if source in trusted_academic_sources:
+        return True
     
     return False
 

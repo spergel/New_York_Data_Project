@@ -19,60 +19,6 @@
       "event_id": "evt_nyu_law_edfd4c761f"
     },
     {
-      "id": "evt_nyu_law_eed9d16077",
-      "name": "LLM Inaugural Lecture",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      },
-      "event_id": "evt_nyu_law_eed9d16077"
-    },
-    {
-      "id": "evt_nyu_law_a0e78c9326",
-      "name": "Law Library Tour",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      },
-      "event_id": "evt_nyu_law_a0e78c9326"
-    },
-    {
-      "id": "evt_nyu_law_7102c7e1f4",
-      "name": "Clerkships with the US Tax Court - Hybrid Panel (LLM/JD)",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      },
-      "event_id": "evt_nyu_law_7102c7e1f4"
-    },
-    {
       "id": "evt_nyu_law_b10868cad4",
       "name": "PILC Week: Practice Area Panel - Law Reform",
       "description": "",
@@ -107,6 +53,24 @@
         }
       },
       "event_id": "evt_nyu_law_dd12ffdb3e"
+    },
+    {
+      "id": "evt_nyu_law_a0e78c9326",
+      "name": "Law Library Tour",
+      "description": "",
+      "start_date": "",
+      "end_date": "",
+      "source": "nyu",
+      "source_group": "nyu_law",
+      "metadata": {
+        "source_url": "https://law.nyu.edu/events",
+        "source_name": "NYU School of Law",
+        "venue": {
+          "name": "NYU Law",
+          "type": "Offline"
+        }
+      },
+      "event_id": "evt_nyu_law_a0e78c9326"
     }
   ]
 }

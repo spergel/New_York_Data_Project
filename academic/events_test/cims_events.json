@@ -1,8 +1,8 @@
 {
   "events": [
     {
-      "id": "evt_nyu_cims_6ab1d79e",
-      "name": "TBA",
+      "id": "evt_nyu_cims_15bb52f6",
+      "name": "On polynomial solutions to the minimal surface equation",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -10,8 +10,8 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
@@ -36,13 +36,13 @@
         }
       },
       "source": "cims",
-      "event_id": "evt_nyu_cims_6ab1d79e",
+      "event_id": "evt_nyu_cims_15bb52f6",
       "locationId": "loc_nyu_wwh",
       "communityId": "com_nyu_courant"
     },
     {
-      "id": "evt_nyu_cims_5f08f18c",
-      "name": "TBA",
+      "id": "evt_nyu_cims_06683e05",
+      "name": "A necessary and sufficient condition for k-transversals",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -50,8 +50,8 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
@@ -76,7 +76,7 @@
         }
       },
       "source": "cims",
-      "event_id": "evt_nyu_cims_5f08f18c",
+      "event_id": "evt_nyu_cims_06683e05",
       "locationId": "loc_nyu_wwh",
       "communityId": "com_nyu_courant"
     },
@@ -90,8 +90,8 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4233",
@@ -130,8 +130,8 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4234",
@@ -170,8 +170,8 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
@@ -210,8 +210,8 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
@@ -241,6 +241,86 @@
       "communityId": "com_nyu_courant"
     },
     {
+      "id": "evt_nyu_cims_db05d835",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-17T14:00:00",
+      "end_date": "2025-10-17T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Camillo Brena, IAS",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_db05d835",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_acaa7816",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-23T14:00:00",
+      "end_date": "2025-10-23T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Sylvia Serfaty, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_acaa7816",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
       "id": "evt_nyu_cims_f7e86841",
       "name": "TBA",
       "type": "Academic",
@@ -250,8 +330,8 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
@@ -290,8 +370,8 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
@@ -320,6 +400,46 @@
       "communityId": "com_nyu_courant"
     },
     {
+      "id": "evt_nyu_cims_213ac9b7",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-30T14:00:00",
+      "end_date": "2025-10-30T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Scott Armstrong, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_213ac9b7",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
       "id": "evt_nyu_cims_5c1fa6e1",
       "name": "TBA",
       "type": "Academic",
@@ -329,8 +449,8 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
@@ -369,8 +489,8 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
@@ -409,8 +529,8 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
@@ -449,8 +569,8 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
@@ -489,8 +609,8 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
@@ -528,8 +648,8 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
@@ -568,8 +688,8 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
@@ -599,8 +719,8 @@
       "communityId": "com_nyu_courant"
     },
     {
-      "id": "evt_nyu_cims_6ab1d79e",
-      "name": "TBA",
+      "id": "evt_nyu_cims_15bb52f6",
+      "name": "On polynomial solutions to the minimal surface equation",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -608,8 +728,8 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
@@ -634,13 +754,13 @@
         }
       },
       "source": "cims",
-      "event_id": "evt_nyu_cims_6ab1d79e",
+      "event_id": "evt_nyu_cims_15bb52f6",
       "locationId": "loc_nyu_wwh",
       "communityId": "com_nyu_courant"
     },
     {
-      "id": "evt_nyu_cims_5f08f18c",
-      "name": "TBA",
+      "id": "evt_nyu_cims_06683e05",
+      "name": "A necessary and sufficient condition for k-transversals",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -648,8 +768,8 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
@@ -674,7 +794,7 @@
         }
       },
       "source": "cims",
-      "event_id": "evt_nyu_cims_5f08f18c",
+      "event_id": "evt_nyu_cims_06683e05",
       "locationId": "loc_nyu_wwh",
       "communityId": "com_nyu_courant"
     },
@@ -688,8 +808,8 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4233",
@@ -728,8 +848,8 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4234",
@@ -768,8 +888,8 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
@@ -808,8 +928,8 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
@@ -839,6 +959,86 @@
       "communityId": "com_nyu_courant"
     },
     {
+      "id": "evt_nyu_cims_db05d835",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-17T14:00:00",
+      "end_date": "2025-10-17T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Camillo Brena, IAS",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_db05d835",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
+      "id": "evt_nyu_cims_acaa7816",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-23T14:00:00",
+      "end_date": "2025-10-23T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Sylvia Serfaty, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_acaa7816",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
       "id": "evt_nyu_cims_f7e86841",
       "name": "TBA",
       "type": "Academic",
@@ -848,8 +1048,8 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
@@ -888,8 +1088,8 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
@@ -918,6 +1118,46 @@
       "communityId": "com_nyu_courant"
     },
     {
+      "id": "evt_nyu_cims_213ac9b7",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-30T14:00:00",
+      "end_date": "2025-10-30T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Scott Armstrong, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      },
+      "source": "cims",
+      "event_id": "evt_nyu_cims_213ac9b7",
+      "locationId": "loc_nyu_wwh",
+      "communityId": "com_nyu_courant"
+    },
+    {
       "id": "evt_nyu_cims_5c1fa6e1",
       "name": "TBA",
       "type": "Academic",
@@ -927,8 +1167,8 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
@@ -967,8 +1207,8 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
@@ -1007,8 +1247,8 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
@@ -1047,8 +1287,8 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
@@ -1087,8 +1327,8 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
@@ -1126,8 +1366,8 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
@@ -1166,8 +1406,8 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",

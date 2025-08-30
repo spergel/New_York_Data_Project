@@ -47,96 +47,6 @@
       "communityId": "com_newschool"
     },
     {
-      "id": "evt_newschool_683ad26c",
-      "name": "Start of Semester Celebration",
-      "type": "Academic",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Let’s kick off the semester in style with our annual start of semester staff brunch on Thursday, August 28th! Join us at the Admin Hub from 10-11:30am and enjoy a classic NYC bagel spread, coffee, and other refreshments as you connect with new and old colleagues.  In addition to brunch, we’ll have on-site photographers to update your professional headshots and our colleagues at The New Store will bring extra school spirit with their pop-up shop! Check out a wide range of featured TNS merchandise and limited-edition items available to staff at an exclusive 15% discount for this event. Please note: This event is open to New School staff only. ",
-      "start_date": "2025-08-28T14:00:00+00:00",
-      "end_date": "2025-08-28T15:30:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/start_of_semester",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Admin Hub",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level"
-          ],
-          "tags": [
-            "hrevent",
-            "staff",
-            "human resources",
-            "university",
-            "receptions",
-            "admin hub"
-          ],
-          "audience": []
-        }
-      },
-      "source": "new_school",
-      "event_id": "evt_newschool_683ad26c",
-      "locationId": "loc_newschool_main",
-      "communityId": "com_newschool"
-    },
-    {
-      "id": "evt_newschool_b596630a",
-      "name": "University Convocation",
-      "type": "Academic",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "It is our pleasure to invite the New School community to attend a University Convocation! We are excited to welcome the community to the Fall semester and celebrate the exciting academic year to come. Attendees are also invited to join the university Block Party after the ceremony from 4:30–7:00 p.m. on 12th Street (outside auditorium).  ",
-      "start_date": "2025-08-28T19:30:00+00:00",
-      "end_date": "2025-08-28T20:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/universityconvocation2025",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The Auditorium A 106",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level"
-          ],
-          "tags": [
-            "lobbymonitor",
-            "slide_events",
-            "faculty",
-            "staff",
-            "students",
-            "president's office",
-            "university",
-            "ceremonies",
-            "the auditorium a 106"
-          ],
-          "audience": []
-        }
-      },
-      "source": "new_school",
-      "event_id": "evt_newschool_b596630a",
-      "locationId": "loc_newschool_main",
-      "communityId": "com_newschool"
-    },
-    {
       "id": "evt_newschool_dbcacd11",
       "name": "Transdiciplinary Design Convening",
       "type": "Seminar",
@@ -149,8 +59,8 @@
         "SOCIAL",
         "DESIGN",
         "POLITICS",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tdconvening25",
@@ -197,12 +107,12 @@
       "type": "Conference",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "**Attendance is limited to current New School faculty and students. Must have an @newschool.edu email address to register.** Join us for a series of keynote presentations as part of the 2025 Institute for Philosophy and New Humanities: Iconoclasm: Past and Present. The internet (and AI) have made us acutely aware of the power of images, and how it can come to seem reasonable to want to destroy these images as a defense mechanism. The idea of the seminar would be to take up not just explicit bans on images or various forms of censorship, but the philosophical underpinnings of iconoclasm: namely, the view that images are not bearers of truth, are antithetical to human efforts at making the world intelligible, and psychologically deleterious. We hope to invite people with art historical perspectives, alongside philosophers of art with things to say about the fate of iconoclasm beyond its ancient pedigree (Plato, the Bible) into the contemporary world.KEYNOTE LECTURES AND Q&ASTuesday, September 2, 4pm Birgit Mersmann, University of Bonn Thursday, September 4, 4pm Alva Noë, University of California, Berkeley Friday, September 5, 4pm Erin Thompson, CUNY",
+      "description": "**Attendance is limited to current New School faculty and students. Must have an @newschool.edu email address to register.** Join us for a series of keynote presentations as part of the 2025 Institute for Philosophy and New Humanities: Iconoclasm: Past and Present. The internet (and AI) have made us acutely aware of the power of images, and how it can come to seem reasonable to want to destroy these images as a defense mechanism. The idea of the seminar would be to take up not just explicit bans on images or various forms of censorship, but the philosophical underpinnings of iconoclasm: namely, the view that images are not bearers of truth, are antithetical to human efforts at making the world intelligible, and psychologically deleterious. We hope to invite people with art historical perspectives, alongside philosophers of art with things to say about the fate of iconoclasm beyond its ancient pedigree (Plato, the Bible) into the contemporary world.KEYNOTE LECTURES AND Q&ASTuesday, September 2, 4-6 pm Birgit Mersmann, University of Bonn\"Love and Fear of the Synthetic Image. AI Imaging and Post-photographic Iconoclasm\" Thursday, September 4, 4-6 pm Ned Block, New York University “Can only meat machines be conscious”  Friday, September 510am-12pmAlva Noë, University of California, Berkeley “Love and Consciousness” 4pm-6pmErin Thompson, CUNY “Iconoclasm without Icons: Protesting the Monuments of Generative AI” ",
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "HUMANITIES",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -240,6 +150,49 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_b399ff9e",
+      "name": "Community Weaving: The Future We Want to Run Toward",
+      "type": "Workshop",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a Community Weaving Experience that transforms textile scraps and yarn into a collaborative art piece. In partnership with the incredible team at FABSCRAP, this hands-on session invites participants of all skill levels to contribute to a collective tapestry—one that celebrates creativity, sustainability, and community connection. Together, we’ll explore how discarded materials can be reimagined into something beautiful and lasting. - Connect with fellow students, staff, and community members- Learn about creative reuse and the impact of textile waste- Add your own unique thread to a larger shared artworkCome as you are—no experience necessary, just curiosity and a willingness to weave your story into ours. Let’s create something meaningful together. This event is part of a series in partnership with Planetary Guardians. ",
+      "start_date": "2025-09-03T15:30:00+00:00",
+      "end_date": "2025-09-03T17:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School Student Hub",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "environment, sustainability, and climate change",
+            "workshops and training",
+            "the new school student hub",
+            "continuing education"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_b399ff9e",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_3e1a903f",
       "name": "Poetry Reading with Elaine Equi & Jerome Sala",
       "type": "Seminar",
@@ -249,8 +202,8 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "HUMANITIES",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -298,15 +251,15 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Tishman Auditorium, The New School",
+          "name": "Tishman Auditorium",
           "type": "venue"
         },
         "organizer": {
@@ -328,7 +281,7 @@
             "design",
             "parsons school of design",
             "lectures and talks",
-            "tishman auditorium, the new school",
+            "tishman auditorium",
             "lectures and panel discussions",
             "art and design"
           ],
@@ -379,6 +332,58 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_d04f5ad0",
+      "name": "Philosophy Colloquium: Denise Ferreira da Silva “On Interiority”",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Abstract:If every concept, like any other modern tool for thinking, cannot but presuppose interiority as its domain of operation, how can the latter be brought under interrogation - how can interiority itself become available to its own (our mental) tools? In this talk I speculate on what happens when blackness – as a  tool of raciality (that is, racial difference and cultural difference), which is the symbolic arsenal that plays in both the ethic-economic and an ethic-juridic corner of the liberal political architecture –  guides an analysis of interiority able to expose how it has operated in the accumulation of capital in the past two hundred years or so. The key formulation of interiority engaged here is the one presented in Kant’s Critique of Pure Reason and Critique of Practical Reason, namely the formal thing or “unity of apperception.”  Both books will be read with theoretical contributions that frame raciality as a political concept, such as Gayatri C. Spivak’s, David C. Lloyd’s, Sylvia Wynter’s, Judith Butler’s, Frantz Fanon’s, C.L.R James’s, Édouard Glissant’s, among others. Bio:The artist and philosopher Denise Ferreira da Silva is the Samuel Rudin Professor in the Humanities and Co-Director of the Critical Racial & Anti-Colonial Study Co-Laboratory at New York University and adjunct professor at the Monash University School of Art, Architecture, and Design (Australia). Her  artistic and academic work reflect and speculate on themes and questions crucial to contemporary philosophy, aesthetics, political theory, black thought, feminist thought, and historical materialism.  She is the author of Toward a Global Idea of Race (University of Minnesota Press, 2007), The Impagavel Divide (Workshop of Political Imagination and Living Commons, 2019), Unpayable Debt (Stenberg / MIT Press, 2022) and co-editor (with Paula Chakravartty) of Race, Empire, and the Crisis of the Subprime (Johns Hopkins University Press, 2013)   Her artwork includes the films Serpent Rain (2016), 4Waters-Deep Implicancy (2018), Soot Breath / Corpus Infinitum (2020) and Ancestral Claims/Ancestral Clouds (2023) in collaboration with Arjuna Neuman; and the relational artistic practices Poethical Readings and Sensing Salon, in collaboration with Valentina Desideri. She has performed shows and lectures in important artistic spaces, such as the Pompidou Centre (Paris), Whitechapel Gallery (London), MASP (São Paulo), Guggenheim (New York) and MoMa (New York). She also wrote and created for publications for major art events (Liverpool Biennale, 2017; São Paulo Biennale, 2016; 2023 Venice Biennale, 2017 and Documenta 14, São Paulo Biennale, 2023) and published in art spaces such as Canadian Art, Texte Zur Kunst and E-Flux. ",
+      "start_date": "2025-09-04T22:00:00+00:00",
+      "end_date": "2025-09-05T00:00:00+00:00",
+      "category": [
+        "DESIGN",
+        "HUMANITIES",
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room/D1103 ",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "staff",
+            "students",
+            "philosophy",
+            "intellectual culture and big ideas",
+            "eugene lang college of liberal arts",
+            "the new school for social research",
+            "lectures and talks",
+            "wolff conference room/d1103 ",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_d04f5ad0",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_1daa207b",
       "name": "Tech Help Days",
       "type": "Workshop",
@@ -424,22 +429,20 @@
       "communityId": "com_newschool"
     },
     {
-      "id": "evt_newschool_49a1cc5e",
+      "id": "evt_newschool_1010da84",
       "name": "Creativity & Data Science",
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "While art is often thought to be oppositional to science & technology, these domains are less distinct than many of us might believe. From cave paintings to photography to the Adobe Creative Suite, artists have always endeavored to incorporate novel means of production into creative practice; and from the invention of perspectival representation to Cubism to the New Aesthetic, artists often attempt to understand and express the new sensoria that novel technologies unlock. Conversely, technology is also often driven by new creative vision, attempting to both capture and empower new forms of creativity; and science, for its part, also relies on new ways of seeing, and the capacity to draw new knowledge into being through creative questioning.Why then, in recent decades, do we seem to have come to see these domains as oppositional? Technology is too often understood as a tool of bureaucracy or the war machine, or enlisted in service of the profit motive. Similarly, science is frequently evaluated in terms of the size of data sets and other quantitative measures that downplay experimentation and exploration. In this talk, Tugçce Bilgin will explore how to ensure creative thinking is not forgotten by scientists and technologists. Playful challenges, games, and other artistic activities offer powerful ways to nurture imagination both in STEM education and as part of the scientific method itself. Drawing from her work as a published evolutionary biologist and an instructor of creative programming, she will share strategies for fostering creative thinking among scientists and technologists – and will welcome insights from the audience on how we can further bridge these worlds. The Code at Lang Colloquium (CaLC) is an event series putting scholars, artists, and other practitioners in conversation with New School faculty to examine what it means to do critical computer science within the arts, humanities, and social sciences.",
+      "description": "Tugçe Bilgin, Evolutionary Biologist & Creative Technologist, Zürich University of Applied ScienceWhile art is often thought to be oppositional to science & technology, these domains are less distinct than many of us might believe. From cave paintings to photography to the Adobe Creative Suite, artists have always endeavored to incorporate novel means of production into creative practice; and from the invention of perspectival representation to Cubism to the New Aesthetic, artists often attempt to understand and express the new sensoria that novel technologies unlock. Conversely, technology is also often driven by new creative vision, attempting to both capture and empower new forms of creativity; and science, for its part, also relies on new ways of seeing, and the capacity to draw new knowledge into being through creative questioning.Why then, in recent decades, do we seem to have come to see these domains as oppositional? Technology is too often understood as a tool of bureaucracy or the war machine, or enlisted in service of the profit motive. Similarly, science is frequently evaluated in terms of the size of data sets and other quantitative measures that downplay experimentation and exploration. In this talk, Tugçce Bilgin will explore how to ensure creative thinking is not forgotten by scientists and technologists. Playful challenges, games, and other artistic activities offer powerful ways to nurture imagination both in STEM education and as part of the scientific method itself. Drawing from her work as a published evolutionary biologist and an instructor of creative programming, she will share strategies for fostering creative thinking among scientists and technologists – and will welcome insights from the audience on how we can further bridge these worlds.",
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "SOCIAL",
         "TECH",
-        "HUMANITIES",
         "ARTS"
       ],
       "metadata": {
-        "source_url": "https://event.newschool.edu/creativitydatascience",
+        "source_url": "https://event.newschool.edu/tugce-bilgin",
         "source_name": "The New School Events",
         "venue": {
           "name": "6 EAST 16TH STREET, ROOM 532",
@@ -456,7 +459,7 @@
           "tags": [
             "langengage",
             "lobbymonitor",
-            "online_events_cal",
+            "slide_events",
             "general public",
             "eugene lang college of liberal arts",
             "lectures and talks",
@@ -467,82 +470,26 @@
         }
       },
       "source": "new_school",
-      "event_id": "evt_newschool_49a1cc5e",
+      "event_id": "evt_newschool_1010da84",
       "locationId": "loc_newschool_main",
       "communityId": "com_newschool"
     },
     {
-      "id": "evt_newschool_89e018bd",
-      "name": "Visibilize-ing Care Festival: Unsent Letters Mailbox",
-      "type": "Exhibition",
-      "location_id": "loc_newschool_parsons",
-      "community_id": "com_newschool",
-      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab. Do you have messages you never sent to a parent, loved one, friend, partner, or perhaps even to your pet? We are bringing The Unsent Letter Mailbox, to share your unsaid thoughts, on four days throughout this fall 2025.The Unsent Letter Mailbox is an urban pop-up series where participants are invited to write an unsent letter and, in return, read one written by someone else anonymously.We’re creating a safe, judgment-free space for irreverent, wild, and beautiful stories to be written, expressed, and shared.Stop by the Unsent Letters Mailbox tables:- Monday, Sept 8 from 1:30 pm – 3:00 pm in the Parsons Lobby at 2 West 13th Street- Monday, Sept 15 from 1:30 pm – 3:00 pm in the University Center Lobby at 63 Fifth Avenue- Monday, Oct 6 from 1:30 pm – 3:00 pm in the Parsons Lobby at 2 West 13th Street- Monday, Oct 20 from 1:30 pm – 3:00 pm in the University Center Lobby at 63 Fifth AvenueIf you miss the tabling events, look out for the Unsent Letters Mailbox which will be placed around campus this Fall semester.  The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during the 25-26 academic year. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
-      "start_date": "2025-09-08T17:30:00+00:00",
-      "end_date": "2025-09-08T19:00:00+00:00",
-      "category": [
-        "TECH",
-        "HUMANITIES",
-        "ARTS",
-        "DESIGN"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Parsons School of Design",
-          "address": "66 Fifth Avenue, New York, NY 10011",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Parsons School of Design",
-            "Design Strategies"
-          ],
-          "tags": [
-            "faculty",
-            "staff",
-            "students",
-            "school of design strategies",
-            "faculty/student/alumni/staff research & work",
-            "arts",
-            "design",
-            "cities and urbanism",
-            "education and pedagogy",
-            "media, science, and technology",
-            "writing and literature",
-            "parsons school of design",
-            "exhibitions and openings",
-            "art and design"
-          ],
-          "audience": []
-        }
-      },
-      "source": "new_school",
-      "event_id": "evt_newschool_89e018bd",
-      "locationId": "loc_newschool_parsons",
-      "communityId": "com_newschool"
-    },
-    {
-      "id": "evt_newschool_8d67cc1a",
+      "id": "evt_newschool_8a3ca026",
       "name": "Economics Seminar: Jamee Moudud",
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "Dr. Moudud (PhD 1998) will present his new book “Legal and Political Foundations of Capitalism: the End of Laissez Faire?”  The title is an extension of John R. Commons’ classic book “Legal Foundations of Capitalism” and an important article by John Maynard Keynes, “The End of Laissez Faire”.  The question mark captures the essence of the book. Drawing on the insights of the Original Institutional Economics and American Legal Realist tradition along with those of Adam Smith, Karl Polanyi, and Piero Sraffa it provides new insights on the nature of institutions in capitalism.  By arguing that society is a political community it challenges the private law versus public law or state versus markets distinction. Focusing on property, credit and public finance, constitutional law and social rights, monetary sovereignty and colonialism, corporations, and authoritarianism this book argues that laissez faire is the foundational myth of capitalism and that “state intervention versus de‑regulation” and “market failures versus free markets” are false dichotomies. The book engages closely with Friedrich Hayek’s contributions to law and challenges New Institutional Economics as well as the Law and Development/Rule of Law framework promoted by the World Bank. It proposes the need to engage with legal‑economic theory and history to understand what institutions are, the political foundations of law, what economic regulation means, law’s constitutive role with respect to the economy, and the distribution of power relations within capitalism. It will be of interest to readers of economics, law, public policy, international and development studies, and all those seeking to explore progressive alternatives in this period of multiple crises. Jamee K. Moudud, Legal and Political Foundations of Capitalism: the End of Laissez Faire?, (Routledge, 2025), available here. External guests, please register using the link, so that security at our building has your name, otherwise you will be denied entry. Thanks.",
+      "description": "Dr. Moudud (PhD 1998) will present his new book “Legal and Political Foundations of Capitalism: the End of Laissez Faire?”  The title is an extension of John R. Commons’ classic book “Legal Foundations of Capitalism” and an important article by John Maynard Keynes, “The End of Laissez Faire”.  The question mark captures the essence of the book.  Drawing on the insights of the Original Institutional Economics and American Legal Realist tradition along with those of Adam Smith, Karl Polanyi, and Piero Sraffa it provides new insights on the nature of institutions in capitalism.  By arguing that society is a political community it challenges the private law versus public law or state versus markets distinction. Focusing on property, credit and public finance, constitutional law and social rights, monetary sovereignty and colonialism, corporations, and authoritarianism this book argues that laissez faire is the foundational myth of capitalism and that “state intervention versus de‑regulation” and “market failures versus free markets” are false dichotomies. The book engages critically with Friedrich Hayek’s approach to law and challenges New Institutional Economics (in particular the contributions of Douglass North and Daron Acemoglu) as well as the broader Law and Development/Rule of Law framework promoted by the World Bank.  It proposes the need to engage with legal‑economic theory and history to understand what institutions are, the political foundations of law, what economic regulation means, law’s constitutive role with respect to the economy, and the distribution of power relations within capitalism. It will be of interest to readers of economics, law, public policy, international and development studies, and all those seeking to explore progressive alternatives in this period of multiple crises. Jamee K. Moudud, Legal and Political Foundations of Capitalism: the End of Laissez Faire?, (Routledge, 2025), available here. External guests, please register using the link, so that security at our building has your name, otherwise you will be denied entry. Thanks.",
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "POLITICS",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
-        "source_url": "https://event.newschool.edu/economicsseminaralexmthomascopy",
+        "source_url": "https://event.newschool.edu/econsemjameemoudud",
         "source_name": "The New School Events",
         "venue": {
           "name": "Wolff Conference Room, RM 1103",
@@ -570,7 +517,7 @@
         }
       },
       "source": "new_school",
-      "event_id": "evt_newschool_8d67cc1a",
+      "event_id": "evt_newschool_8a3ca026",
       "locationId": "loc_newschool_main",
       "communityId": "com_newschool"
     },
@@ -584,8 +531,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -635,9 +582,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -689,8 +636,8 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "HUMANITIES",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -725,6 +672,99 @@
       },
       "source": "new_school",
       "event_id": "evt_newschool_56992a9b",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_8986cbc9",
+      "name": "NSSR Fall 2025 Welcome Reception",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Kick off the Fall 2025 semester with your fellow New School for Social Research students, faculty, and staff! We're especially excited to welcome our new students and colleagues and friends from Creative Writing, International Affairs, and Public and Urban Policy.We'll be serving food and drinks and honoring the 2025 recipients of our Outstanding Graduate Student Teaching Awards.Looking forward to seeing familiar faces and welcoming new ones!Please register with your @newschool.edu email address",
+      "start_date": "2025-09-10T20:00:00+00:00",
+      "end_date": "2025-09-10T23:00:00+00:00",
+      "category": [
+        "POLITICS",
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/nssrfall2025welcomereception",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wollman Hall B500",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "faculty",
+            "staff",
+            "students",
+            "faculty/student/alumni/staff research & work",
+            "the new school for social research",
+            "receptions",
+            "wollman hall b500"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_8986cbc9",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_4d50fffd",
+      "name": "Movie Screening: Plastic People",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a screening and facilitated discussion on the impact of plastics. Popcorn and snacks provided! The award-winning feature documentary Plastic People investigates our addiction to plastic and the growing threat of microplastics on human health. Almost every bit of plastic ever made breaks down into “microplastics.” These microscopic particles drift in the air, float in all bodies of water, and mix into the soil, becoming a permanent part of the environment.Now, leading scientists are finding these particles in our bodies: organs, blood, brain tissue, and even the placentas of new mothers. What is the impact of these invisible invaders on our health? And can anything be done about it?Acclaimed author and science journalist Ziya Tong takes a personal approach by visiting leading scientists around the world and undergoing experiments in her home, on her food, and her body while collaborating with award-winning director Ben Addelman (Discordia, Bombay Calling, Nollywood Babylon, Kivalina v. Exxon) in an urgent call to action for all of us to rethink our relationship with plastic.This event is part of a series exploring \"The Future We Want to Run Toward\".",
+      "start_date": "2025-09-10T20:00:00+00:00",
+      "end_date": "2025-09-10T22:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/moviescreeningplasticpeople",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "39 West 13th Street",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "environment, sustainability, and climate change",
+            "university",
+            "screenings",
+            "39 west 13th street",
+            "film and media screenings"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_4d50fffd",
       "locationId": "loc_newschool_main",
       "communityId": "com_newschool"
     },
@@ -826,6 +866,156 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_b97ebea3",
+      "name": "Lang Arts Fall Welcome - Jerron Herman: LAX",
+      "type": "Workshop",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "LAX for Lang is a series of participatory activations that explore the athleticism of rest led by dancer/choreographer Jerron Herman. Rest is mostly understood as calm and tranquility yet it takes labor and effort to achieve it. Explore the contours of this state and have fun doing it.Open to students and faculty in the Lang Arts department.Refreshments will be served.",
+      "start_date": "2025-09-11T22:00:00+00:00",
+      "end_date": "2025-09-12T00:00:00+00:00",
+      "category": [
+        "DESIGN",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/langarts-jerronherman",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Lang Cafe (B 100)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "langbuild",
+            "faculty",
+            "students",
+            "arts",
+            "eugene lang college of liberal arts",
+            "workshops and training",
+            "lang cafe (b 100)",
+            "continuing education",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_b97ebea3",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_89e018bd",
+      "name": "Visibilize-ing Care Festival: Unsent Letters Mailbox",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_parsons",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab. Do you have messages you never sent to a parent, loved one, friend, partner, or perhaps even to your pet? We are bringing The Unsent Letter Mailbox, to share your unsaid thoughts, on four days throughout this fall 2025.The Unsent Letter Mailbox is an urban pop-up series where participants are invited to write an unsent letter and, in return, read one written by someone else anonymously.We’re creating a safe, judgment-free space for irreverent, wild, and beautiful stories to be written, expressed, and shared.Stop by the Unsent Letters Mailbox tables:-Monday, September 15th from 1:30 pm – 3:00 pm in the University Center Lobby at 63 Fifth Avenue-Monday, September 22nd from 1:30pm - 3:00 pm in the Parsons Lobby at 2 West 13th Street - Monday, October 6th from 1:30 pm – 3:00 pm in the Parsons Lobby at 2 West 13th Street- Monday, October 20th from 1:30 pm – 3:00 pm in the University Center Lobby at 63 Fifth AvenueIf you miss the tabling events, look out for the Unsent Letters Mailbox which will be placed around campus this Fall semester. The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during the 2025-2026 academic year. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-09-15T17:30:00+00:00",
+      "end_date": "2025-09-15T19:00:00+00:00",
+      "category": [
+        "DESIGN",
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Parsons School of Design",
+          "address": "66 Fifth Avenue, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_89e018bd",
+      "locationId": "loc_newschool_parsons",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_e97934f1",
+      "name": "Lang Craft Talks featuring Alum Imani Christopher",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "The Fall 2025 Lang Craft Talks series continues with Alum, Imani Christopher.Imani Christopher (she/her) is an award-winning filmmaker and published poet based in New York City with a passion for crafting stories that put people of color in the spotlight.A self-described (forever) poet, (sometimes) florist, and (budding) filmmaker, her poems start with questions and end with memories. She earned her BA in Dramatic Writing and Film Production ('21) from The New School and her MFA in Literary Arts ('25) from Brown University. Lang hosts a series of weekly dynamic and interactive lessons in the craft of writing. Each week features a different writer including Lang faculty, alumni and special guest writers.  Visit the Lang Craft Talks Hub for the full line-up of writers this semester!",
+      "start_date": "2025-09-16T16:30:00+00:00",
+      "end_date": "2025-09-16T17:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/imanichristopher",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "langengage",
+            "lobbymonitor",
+            "alumnievents",
+            "eisjweb",
+            "slide_events",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_e97934f1",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_70e2bcef",
       "name": "Reading and Conversation: Scott Alexander Hess",
       "type": "Academic",
@@ -835,8 +1025,8 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "HUMANITIES",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -885,9 +1075,9 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "HUMANITIES",
         "POLITICS",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -934,9 +1124,9 @@
       "start_date": "2025-09-17T22:00:00+00:00",
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
+        "DESIGN",
         "TECH",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -996,8 +1186,8 @@
         "SOCIAL",
         "DESIGN",
         "POLITICS",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweek2025keynote",
@@ -1055,11 +1245,13 @@
       "type": "Seminar",
       "location_id": "loc_newschool_63fifth",
       "community_id": "com_newschool",
-      "description": "﻿Join India China Day for tasty food of India and China, and listen to the presentations by the ICI student fellows. All on campus are welcome – TNS students, faculty and staff! India China Day is an annual celebration of our student fellows’ works. It is an occasion to meet new and old ICI friends, learn about ICI fellowships, programs and opportunities for the new academic year.Five student fellows from the current cohort will present their diverse research findings. One investigates the new wave of Chinese migrants to Southeast Asia, while another explores e-commerce as a rural development strategy in China. A third examines the conditions for collective struggle among South Asian workers in Hong Kong’s post-colonial capitalist economy. Two others focus on India: one project aims to develop a low-cost, plug-and-play kit for off-grid communities in extreme climate conditions in Turkuk, Leh; the other seeks to inform inclusive and adaptive policy solutions to enhance resilience and rights-based protections for climate migrants in India. 2024-2025 Student FellowsAratrika Debrath, Emily Li, Nolan Young, Parth Patel and Florian Chi Zhang",
+      "description": "Join us for our annual India China Day to celebrate this year’s cohort of student fellows and hear about their research projects. Also meet new and old ICI friends, learn about new ICI fellowships, opportunities, and programs for the new academic year.Five student fellows from the current cohort will present their research findings:Aratrika Debrath: Hungry Tides: Climate Migration and Resettlement Planning in the SundarbansThis project examines climate-induced migration in the Sundarbans region spanning India and Bangladesh. Through fieldwork with displaced communities and analysis of stakeholder perspectives, it aims to produce policy solutions that support resilience and protection for climate migrants.Emily Li: Precarious Labor and Political Identity of South Asian Platform Workers in Hong KongThis project explores how South Asian food delivery workers in Hong Kong organize and resist exploitation, especially in the context of rising precarity and weakened trade unions. It focuses on how ethnic identity shapes labor activism and the possibilities for collective struggle in modern Hong Kong.Parth Patel: Off Grid Assemblies Off Grid Assemblies aims to co-design a low-cost energy kit with the community of Turtuk— a remote village in Leh, India. As an alternative to limited diesel generation, this project aims to build a decentralized, self-sufficient, and resilient off-grid electricity source for rural communities dealing with extreme climates. Nolan Young: E-Commerce as Rural Development Strategy in China — Contours of a Public-Private PartnershipThis project examines the public-private partnership model between the Chinese government and private e-commerce platforms as a rural development strategy. The project seeks to identify tangible forms of state involvement, and to understand the impacts on local communities as well as possible implications for global development.Florian Chi Zhang: Seeking Taohuayuan in a Foreign Land: Chinese New Migrants in Southeast AsiaThis project explores Chinese migration to Chiang Mai, Thailand, and how these migrants build new communities and navigate local society. Through ethnographic research, it connects this migration trend to the history of Chinese immigration in Thailand and shifting ideas of mobility, hope, and China’s global role.",
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
         "HUMANITIES",
+        "SOCIAL",
+        "DESIGN",
         "POLITICS",
         "ARTS"
       ],
@@ -1100,6 +1292,58 @@
       "source": "new_school",
       "event_id": "evt_newschool_38473b0c",
       "locationId": "loc_newschool_63fifth",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_af9f419b",
+      "name": "Philosophy Colloquium: “Ágnes Heller's thought in the context of the Budapest School” with Olay Csaba (Eötvös Loránd University Budapest)",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The paper situates Ágnes Heller’s thought within the context of the Budapest School around György Lukács. After a brief overview of the School’s main intellectual goal as well as its personal composition, some of Lukács’s decisive influences on his students will be highlighted. Second, the paper provides a cursory look at two other significant members of the School, György Vajda and György Márkus. Finally, the more detailed part of the talk is devoted to Heller’s theory of modernity, with particular emphasis on her central idea of the gift and burden of freedom.Bio:Csaba Olay is currently a professor and director of the Institute of Philosophy at Eötvös Loránd University Budapest. Having studied philosophy, mathematics, and physics at Eötvös Loránd University Budapest, he obtained his PhD in philosophy at Freiburg University (Germany). He has been teaching at Eötvös Loránd University since 2001, where he was appointed as a full professor in 2015.His main research areas include 19-20th century continental philosophy, hermeneutics, Heidegger, Gadamer, Hannah Arendt, and Frankfurt School. He has published books and articles, among others Hans-Georg Gadamer: Phänomenologie der ungegenständlichen Zusammenhänge (Königshausen & Neumann 2007); Regional and national identity: a hermeneutic approach (L’Harmattan 2022), Art and mass culture: Frankfurt School, Arendt and after (L’Harmattan 2024). He also edited collections of essays in these fields, among others (with Jean-Claude Gens) Charles Taylor - Interpretation, modernity, and identity. Charles Taylor – Interprétation, modernité et identité.  (Le Cercle herméneutique 2014).",
+      "start_date": "2025-09-25T22:00:00+00:00",
+      "end_date": "2025-09-26T00:00:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room/D1103",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "faculty",
+            "staff",
+            "students",
+            "philosophy",
+            "intellectual culture and big ideas",
+            "eugene lang college of liberal arts",
+            "the new school for social research",
+            "lectures and talks",
+            "wolff conference room/d1103",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_af9f419b",
+      "locationId": "loc_newschool_main",
       "communityId": "com_newschool"
     },
     {
@@ -1154,9 +1398,9 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -1201,6 +1445,62 @@
       },
       "source": "new_school",
       "event_id": "evt_newschool_f49c9c28",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_731d94e1",
+      "name": "Everyday Things",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab. Speculative Futures Workshop, led by Monisha Raju and Paola Machuca Hernandez.This exhibition and workshop explores how our relationship with everyday plastic objects reflects—and reshapes—our values of care for the planet, for labor, and for the objects themselves. The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during the 2025-2026 academic year. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-09-26T14:00:00+00:00",
+      "end_date": "2025-09-26T21:00:00+00:00",
+      "category": [
+        "DESIGN",
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/everydaythings",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Vera List Courtyard",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "vera list courtyard",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_731d94e1",
       "locationId": "loc_newschool_main",
       "communityId": "com_newschool"
     },
@@ -1256,10 +1556,10 @@
       "start_date": "2025-09-30T17:30:00+00:00",
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
-        "TECH",
+        "DESIGN",
         "HUMANITIES",
-        "ARTS",
-        "DESIGN"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -1301,6 +1601,61 @@
       },
       "source": "new_school",
       "event_id": "evt_newschool_1d8255ff",
+      "locationId": "loc_newschool_arnhold",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_5972cc55",
+      "name": "Commons Project",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Participatory Design Workshop led by by Anupama Krishnan, Isabel Meriales, and Ananya SinghHow might we build, sustain, and repair trust in student–faculty relationships - especially in culturally diverse spaces?The Commons Project is a research-informed workshop that explores how graduate-level learning environments can better adapt to students’ diverse cultural perspectives to foster more reciprocal, trust-based relationships between students and faculty.  Born out of a recognition that academic spaces often operate through dominant cultural frameworks, this project interrogates the often-unspoken gaps in trust, inclusion, and relational equity within higher education—particularly among international students and their instructors.This workshop will be of interest to both faculty and students interested in how cultural dynamics influence learning in higher education.More information about this project can be found here. ______________________________________________About the Parsons Carelab:The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-10-01T17:30:00+00:00",
+      "end_date": "2025-10-01T19:30:00+00:00",
+      "category": [
+        "DESIGN",
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/commonsproject",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "arts",
+            "design",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "arnhold hall, hirshon suite ",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_5972cc55",
       "locationId": "loc_newschool_arnhold",
       "communityId": "com_newschool"
     },
@@ -1483,6 +1838,504 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_1fbab08d",
+      "name": "Naked Angels 1st Mondays at The School of Drama",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join the School of Drama and Naked Angels on Monday, October 6, 2025 at 7:00pm for the first collaborative reading of the year.This event is free and open to the public, no ticket required.The School of Drama continues its dynamic partnership with Naked Angels, a leading figure in New York City’s theater community. The esteemed “1st Mondays at The New School” series is a vital platform for emerging playwrights from Naked Angels’ Tuesdays@9 community to showcase their work and for School of Drama students to interact with and learn from these emerging talents, gain insights into the process of creating and workshopping new plays, and forge meaningful connections within the industry.  Established in 2003, the 1st Mondays program is part of a long tradition of creative development powered by NYC writers and actors. Over the years, 1st Mondays has launched plays that later achieved critical success, including as Geoffrey Nauffts' Next Fall (Broadway) and Cynthia Kaplan's Cindy of Arc (finalist for the 2023 Richard Rodgers Award for Musical Theater).Naked Angels is thrilled that the 2025-26 season will be hosted by the School of Drama, our partner in building community through theatre. ",
+      "start_date": "2025-10-06T23:00:00+00:00",
+      "end_date": "2025-10-07T01:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Ernst C. Stiefel Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "drama",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "ernst c. stiefel hall",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_1fbab08d",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_61936850",
+      "name": "ONLINE | 10-Week Seminar: Gender-based Violence and Women’s Activism in Post Arab Revolutionary Societies",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "Description:Despite the tumultuous events of the Arab revolts that ignited in 2010, the voices of some women continue to be obscured. This is a consequence of the media and intelligentsia’s singular focus on political and military movements led by men, overlooking the fundamental role of women as integral components of Arab society during the so-called Arab Spring. This online seminar delves into the analysis of women’s participation in the Arab revolts emphasizing their contributions to the struggle for freedom against dictatorship and the military propaganda exploiting women as soldiers or politicians and considering others as sexual objects for armed groups in Syria for instance. The seminar also grabs attention on gender-based violence against women based on their ethnicity and religion. Our objective is to explore the distinctive roles played by Arab women as political activists, artists, journalists, and writers, showing how they resist and denounce political and military and crimes against women. More information:The New University in Exile Consortium’s Co-Led Online Seminars are taught by two endangered scholars – one who is hosted by a Consortium member institution, and the other a colleague of their choice. The seminars are designed to reconnect endangered scholars with the academic community they have lost while in exile and reengage students from around the world with professors they have lost. They are free and open to anyone anywhere in the world with an internet connection. Certificates of Satisfactory Completion:Participants who attend 8 out of 10 complete seminar sessions are elligible to receive a Certificate of Satisfactory Completion signed by the Executive Dean of The New School for Social Research. ",
+      "start_date": "2025-10-07T14:00:00+00:00",
+      "end_date": "2025-10-07T15:30:00+00:00",
+      "category": [
+        "DESIGN",
+        "POLITICS",
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/genderbasedviolence",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "general public",
+            "humanity, society, social justice",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "online learning",
+            "virtual"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_61936850",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_107ccda2",
+      "name": "Lang Craft Talks featuring Alum Danielle Pafunda",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "The Fall 2025 Lang Craft Talks series continues with Alum, Danielle Pafunda.Danielle Pafunda is the author of ten books of poetry and prose including Along the Road Everyone Must Travel selected by Hoa Nguyen as the winner of the 2023 Saturnalia Books Poetry Prize, Spite (The Operating System), The Book of Scab (Ricochet Editions, winner of Troubling the I), and The Dead Girls Speak in Unison (Bloof Books), which has been translated into Spanish by the writer Cristina Rivera Garza as Las Chicas Muertas Hablan al Unísono (Dharma Books).Poems, stories, essays, and hybrid works appear in American Poetry Review, BAX: Best American Experimental Writing, Conjunctions, the Texas Review, and others. An associate professor of English, she/they teach creative writing, literature, queer and gender studies, and worldbuilding at Rochester Institute of Technology. Lang hosts a series of weekly dynamic and interactive lessons in the craft of writing. Each week features a different writer including Lang faculty, alumni and special guest writers.  Visit the Lang Craft Talks Hub for the full line-up of writers this semester!",
+      "start_date": "2025-10-07T16:30:00+00:00",
+      "end_date": "2025-10-07T17:30:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/daniellepafunda",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "alumnievents",
+            "eisjweb",
+            "langengage",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_107ccda2",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_905ae6cb",
+      "name": "Economics Seminar: Naoki Yoshihara",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Dr Yoshihara from UMASS/ Amherst, will present \"Sraffian Indeterminacy\".﻿Unlike the neoclassical school, the classical and Marxian schools view long-period equilibrium in a capitalist market economy as a system with one degree of freedom, as described by Piero Sraffa. However, neoclassical economists have criticized this vision, pointing out that Sraffa's system does not account for excess demand conditions in goods and factor markets. This presentation discusses recent research trends regarding Sraffian equilibrium indeterminacy that demonstrate the unfounded nature of neoclassical criticism. External guests, please register using the link, so that security at our building has your name, otherwise you will be denied entry. Thanks.",
+      "start_date": "2025-10-07T20:00:00+00:00",
+      "end_date": "2025-10-07T22:00:00+00:00",
+      "category": [
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/econsemnaokiyoshihara",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room 6 E 16th St #1103",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "economics",
+            "the new school for social research",
+            "lectures and talks",
+            "wolff conference room 6 e 16th st #1103",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_905ae6cb",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_8a5f1573",
+      "name": "ONLINE | 10-Week Seminar: Lamenting Identity: Arab Women and the Melancholy of Exile in Modern Literature",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "Description: Language of instruction will be ArabicThis course aims to explore the profound impact of exile and displacement on contemporary Arab women writers in the aftermath of the 2011 Arab Uprisings. Through an analysis of literary works by writers from countries such as Yemen, Libya, Syria, and Iraq, the course will focus on how themes of melancholy, identity, and the trauma of displacement shape their narratives. By highlighting both personal and political dimensions, the course will reveal how these writers use their outsider perspectives to depict the harsh realities of their homelands, while grappling with the emotional toll of exile.More information:The New University in Exile Consortium’s Co-Led Online Seminars are taught by two endangered scholars – one who is hosted by a Consortium member institution, and the other a colleague of their choice. The seminars are designed to reconnect endangered scholars with the academic community they have lost while in exile and reengage students from around the world with professors they have lost. They are free and open to anyone anywhere in the world with an internet connection.Certificates of Satisfactory Completion:Participants who attend 8 out of 10 complete seminar sessions are eligible to receive a Certificate of Satisfactory Completion signed by the Executive Dean of The New School for Social Research.",
+      "start_date": "2025-10-08T14:00:00+00:00",
+      "end_date": "2025-10-08T15:30:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "SOCIAL",
+        "DESIGN",
+        "POLITICS",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/seminarlamenting",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "education and pedagogy",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "writing and literature",
+            "online learning",
+            "virtual"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_8a5f1573",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_5683e915",
+      "name": "ONLINE | 10-Week Seminar: Bodies and Spaces of Resistance: The Untold History of and Lessons from Contemporary Art in Eastern Europe",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "Description: This free 10-week co-led seminar focuses on the social history of contemporary art in the Eastern Bloc and post-socialist Eastern Europe as a history of resistance, with particular emphasis on the contributions of feminist and queer artists. Emerging in the late Stalin era, early contemporary art existed underground and is known for its tactics of resisting the official Soviet regime (often referred to as 'unofficial art', Sjeklocha and Mead 1967; Stuart 1977; Groys 2010). More information:The New University in Exile Consortium’s Co-Led Online Seminars are taught by two endangered scholars – one who is hosted by a Consortium member institution, and the other a colleague of their choice. The seminars are designed to reconnect endangered scholars with the academic community they have lost while in exile and reengage students from around the world with professors they have lost. They are free and open to anyone anywhere in the world with an internet connection.Certificates of Satisfactory Completion:Participants who attend 8 out of 10 complete seminar sessions are elligible to receive a Certificate of Satisfactory Completion signed by the Executive Dean of The New School for Social Research.",
+      "start_date": "2025-10-08T16:00:00+00:00",
+      "end_date": "2025-10-08T17:30:00+00:00",
+      "category": [
+        "DESIGN",
+        "POLITICS",
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/sembodiesandspaces",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "arts",
+            "education and pedagogy",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "online learning",
+            "virtual",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_5683e915",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_4bbacc0d",
+      "name": "Lovely, Ordinary Strange: Multispecies Community Building",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab Workshop led by Isabelle GroenewegenWhile Lang Courtyard is a seemingly small and contained urban ecosystem, a deeper attention to what life exists beyond our sensory perception brings us into closer relationship with the flora, fauna, bacteria, fungi and other beings that abound in this space. By cultivating presence in space, reflecting on what we notice, being curious about what we neglect, and sharing these insights through collaborative artmaking, participants will explore, discuss, and document the importance of renewed attention and relation to the more-than-human world we often forget we live in.Project Description:Lovely, Ordinary, Strange is inspired by the written reflections of indigenous author and botanist Robin Wall Kimmerer on Becoming Indigenous to Place and applies the creative and collaborative tenets of socio-ecological praxis, a nascent and dynamic framework underpinned by the belief that collaborative creative processes can strengthen our capacity for ecological thinking and being. This collaborative artmaking project seeks to bring us into a deeper presence with the Lang Courtyard ecosystem. Through walking, meditation, sensory engagement, imagination, and collaborative documentation, we are encouraged to bring attention to the ignored and invisible forces that shape our ecosystem and ourselves, and reflect on their significance for a multispecies future. ______________________________________________The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-10-09T16:30:00+00:00",
+      "end_date": "2025-10-09T19:00:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "SOCIAL",
+        "DESIGN",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/multispecies",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Vera List Courtyard",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "vera list courtyard",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_4bbacc0d",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_7fffda8f",
+      "name": "Desire Lines",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab Movement Workshop led by Camille SteeleDesire Lines is a movement therapy workshop that examines the effects of living in urban, industrial environments.Desire Lines explores movement habits shaped by colonialist values, such as isolation, the separation of the human body from the natural environment, and reactive responses to impulse.This project is a movement and somatic therapy workshop that explores the corporeal and emotional effects of living in industrialized environments.Participants will learn somatic therapy strategies for nervous system regulation and self-soothing, while gaining insight into their own movement patterns and habits that they may wish to explore further. _____________________________________________About the Parsons Carelab:The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-10-13T17:30:00+00:00",
+      "end_date": "2025-10-13T19:30:00+00:00",
+      "category": [
+        "DESIGN",
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/desirelines",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": " Hirshon Suite",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "arts",
+            "design",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            " hirshon suite",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_7fffda8f",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_88ec17e1",
+      "name": "The New School Student Health Survey",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab Presentation by Tamara Oyola Santiago Student health and wellbeing are supported in many ways at The New School. Student Health Services (SHS) will present the results of a comprehensive survey on student health, which helps shape Student Success and SHS services and programs. Data matters and a university community must be student centered. Join us to stay informed about the initiatives and services available to support your wellbeing. _____________________________________________About the Parsons Carelab:The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-10-14T16:00:00+00:00",
+      "end_date": "2025-10-14T17:30:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "SOCIAL",
+        "DESIGN",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Hirshon Suite - Room 203",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "arts",
+            "design",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "hirshon suite - room 203",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_88ec17e1",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_1340073e",
+      "name": "Lang Craft Talks featuring Alum Zeba Blay",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "The Fall 2025 Lang Craft Talks series continues with Alum, Zeba Blay.Zeba Blay is a culture and film critic born in Accra, Ghana and based in New York City. She is the former Senior Culture Writer at The Huffington Post where, in addition to writing commentary on pop culture and politics, she created and produced the annual “Culture Shifters” list. Her writing has also appeared in Film Comment, Indiewire, Allure, ESSENCE, Refinery 29, Teen Vogue, Filmmaker, Shadow and Act, The Village Voice, CNN, Them, Harper’s Bazaar, and the Webby Award-winning MTV digital series “Decoded.” She is the author of Carefree Black Girls, her debut essay collection on the impact of Black women on popular culture. Alongside her freelance work, she writes the Substack newsletter, Carefree Black Girl. Lang hosts a series of weekly dynamic and interactive lessons in the craft of writing. Each week features a different writer including Lang faculty, alumni and special guest writers.  Visit the Lang Craft Talks Hub for the full line-up of writers this semester!",
+      "start_date": "2025-10-14T16:30:00+00:00",
+      "end_date": "2025-10-14T17:30:00+00:00",
+      "category": [
+        "POLITICS",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/zebablay",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "alumnievents",
+            "eisjweb",
+            "langengage",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_1340073e",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_b015eadf",
       "name": "Celebrate Liberal Arts: The Politics of Contemporary Theater",
       "type": "Performance",
@@ -1492,8 +2345,8 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "SOCIAL",
         "POLITICS",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -1530,6 +2383,99 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_41f4626c",
+      "name": "ONLINE | 10-Week Seminar: Intersectionality as a Theory, Methodology, and Guide to Social Change",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "Description: This 10-week seminar explores intersectionality not just as a theoretical concept but also as a methodological tool and a framework for activism and social movements. It provides participants with a strong theoretical foundation in intersectionality, encourages critical analysis of power structures and social systems using an intersectional approach, fosters the development of strategies for social change, informed by the insights of intersectionality. More information:The New University in Exile Consortium’s Co-Led Online Seminars are taught by two endangered scholars – one who is hosted by a Consortium member institution, and the other a colleague of their choice. The seminars are designed to reconnect endangered scholars with the academic community they have lost while in exile and reengage students from around the world with professors they have lost. They are free and open to anyone anywhere in the world with an internet connection.Certificates of Satisfactory Completion:Participants who attend 8 out of 10 complete seminar sessions are eligible to receive a Certificate of Satisfactory Completion signed by the Executive Dean of The New School for Social Research.",
+      "start_date": "2025-10-16T15:00:00+00:00",
+      "end_date": "2025-10-16T16:30:00+00:00",
+      "category": [
+        "DESIGN",
+        "POLITICS",
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/intersectiontheorymeth",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "education and pedagogy",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "online learning",
+            "virtual"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_41f4626c",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_116ba030",
+      "name": "Freedom of Expression in the Academy",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "Join us for a discussion about the state of free speech in the academy.",
+      "start_date": "2025-10-16T16:30:00+00:00",
+      "end_date": "2025-10-16T18:00:00+00:00",
+      "category": [
+        "POLITICS",
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/freedomofexpression",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "politics, policy and government",
+            "the new school for social research",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_116ba030",
+      "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_cace31b6",
       "name": "2025 City Visionary Awards",
       "type": "Academic",
@@ -1539,8 +2485,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://cityvisionaryawards.com",
@@ -1582,6 +2528,52 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_83b9bb85",
+      "name": "As You Like It",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join the School of Drama for a bold adaptation of William Shakespeare’s As You Like It, directed by Glynis Rigsby, Associate Professor of Dramatic Arts. This production proudly opens our Bank Street production season.Performance DetailsThursday, October 23rd at 7:30pmFriday, October 24th at 7:30pmSaturday, October 25th at 2:00pmSaturday, October 26th at 7:30pmOn-Demand ViewingMonday, November 3rd (4:00pm) - Tuesday, November 4th (4:00pm)Synopsis Sometimes family is your greatest enemy and sometimes family makes home wherever they go. In this vibrant new imagining of Shakespeare’s comedy, Arden becomes both a dance floor and a dreamscape: a place where you might escape villains, but never the voice rising from within. Exiled nobles, lovesick shepherds, and sharp-tongued fools collide in a world where identity shifts, desire runs free, and every heart is tested. Here, love may be foolish, messy, and exhilarating—but it always finds the spotlight.Creative TeamGlynis Rigsby | Director / AdaptorGavin Petersen | Production Stage ManagerAusten Parent | Assistant Stage Manager +Cat Raynor | Scenic DesignerColleen Doherty | Lighting Designer ^Bryn Scharenberg | Sound DesignerJasmine Lewis | Costume DesignerMark Alberto McKnight | Projection DesignerPatrick Anthony Surillo | Production Manager * Contemporary Theatre Performance+ BFA Dramatic Arts Alumni^ Local USA 829 Union Member",
+      "start_date": "2025-10-23T23:00:00+00:00",
+      "end_date": "2025-11-04T21:00:00+00:00",
+      "category": [
+        "DESIGN",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/asyoulikeit",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "151 Bank Street",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "drama",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "151 bank street",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_83b9bb85",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_3b91eff5",
       "name": "Economics Seminar: Lenore Palladino",
       "type": "Seminar",
@@ -1591,8 +2583,8 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "POLITICS",
+        "SOCIAL",
         "ARTS"
       ],
       "metadata": {
@@ -1613,6 +2605,8 @@
           "tags": [
             "lobbymonitor",
             "slide_events",
+            "alumnievents",
+            "alumni",
             "general public",
             "economics",
             "the new school for social research",
@@ -1675,6 +2669,60 @@
       "communityId": "com_newschool"
     },
     {
+      "id": "evt_newschool_42092fa9",
+      "name": "Visualizing Care",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab Workshop with Michele Kahane and Paola Machuca HernandezThis workshop invites participants to explore collage not merely as an artistic technique, but as a powerful medium for reflection and storytelling — a way to assemble fragments into visions for care in the future.  Through collage, the personal and political intertwine, the poetic and practical converge — offering a form of visual activism that surfaces values, tensions, and dreams.The workshop will start with making and then turn to collective storytelling and reflection on themes of care based on the work created by participants.  A similar workshop was held last year and is documented here. _____________________________________________About the Parsons Carelab:The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-11-03T18:30:00+00:00",
+      "end_date": "2025-11-03T20:30:00+00:00",
+      "category": [
+        "DESIGN",
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/visualizingcare",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Student Hub ",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "arts",
+            "design",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "student hub ",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_42092fa9",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
       "id": "evt_newschool_602d7b84",
       "name": "ONLINE | Book Talk: Immigration Detention Inc.",
       "type": "Seminar",
@@ -1721,6 +2769,58 @@
       "source": "new_school",
       "event_id": "evt_newschool_602d7b84",
       "locationId": "loc_virtual",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_09faec4f",
+      "name": "BFA Dramatic Arts Creative Studio",
+      "type": "Performance",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Creative Lab/Studio is an opportunity for BFA Drama students to propose and produce self-directed projects with the resource support of the College of Performing Arts and the guidance of BFA Faculty. The program provides a testing ground for students to put into practice the skills they are building in Drama classes. It is also a foundation for the creative life of the BFA community, creating a space for students to build relationships with collaborators (new and familiar) and to gather to see each other’s work. Creative Lab/Studio is also modeled as a proto-professional experience for students, exposing them to the demands of project planning that accompany creative work, as well as a space to engage in project development activities including new play dramaturgy, applied practice of BFA program skills, and exploration of a wide range of theatrical approaches/techniques.",
+      "start_date": "2025-11-08T23:00:00+00:00",
+      "end_date": "2025-12-08T03:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "sparkperformance25",
+            "dramaperfromances",
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "drama",
+            "performing arts",
+            "college of performing arts",
+            "festivals and fairs",
+            "arnhold hall"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_09faec4f",
+      "locationId": "loc_newschool_arnhold",
       "communityId": "com_newschool"
     },
     {
@@ -1778,8 +2878,8 @@
       "start_date": "2025-11-13T22:00:00+00:00",
       "end_date": "2025-11-14T04:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
@@ -1814,6 +2914,107 @@
       },
       "source": "new_school",
       "event_id": "evt_newschool_37e45d0b",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_ac0b8d9b",
+      "name": "Economics Seminar: Gerald Epstein",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Dr Epstein from the Department of Economics and Political Economy Research Institute (PERI) at UMASS/Amherst, will present his paper :\" Too Much Crypto? The Political Economy of the Crypto Economy\". Finance, especially in the United States, is entering a new era. It is becoming more deeply entwined with and perhaps even dominated by the “tech” industry. Of course, financial innovation has often occurred hand in hand with innovations in communications and now digitization. However, with the technological innovation and the political rise of crypto, AI, and high-tech billionaires, especially in the US under the Trump administration, we must consider whether there is now, or will soon become, “Too much ‘Crypto’”, where ‘crypto’ is a shorthand for the marriage of tech, finance, and fossil fuel. This paper explores the nature of this new form of high fossil-fueled finance. The paper analyzes its likely impact on growth and distribution in the USand the dangers it might pose for the rest of the world.External guests, please register using the link, so that security at our building has your name; otherwise, you will be denied entry. Thanks.",
+      "start_date": "2025-11-18T21:00:00+00:00",
+      "end_date": "2025-11-18T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/econsemgeraldepstein",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room 6 E 16th St #1103",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "economics",
+            "the new school for social research",
+            "lectures and talks",
+            "wolff conference room 6 e 16th st #1103",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_ac0b8d9b",
+      "locationId": "loc_newschool_main",
+      "communityId": "com_newschool"
+    },
+    {
+      "id": "evt_newschool_4426a9ee",
+      "name": "Unsent Letters Salon",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by the Visibilize-ing Care Festival, a project of Parsons CareLab Exhibit and Discussion Facilitated by Monisha Raju and Kyra Assibey-Bonsu The Unsent Letters Salon is the final exhibition and the culminating event of the Pop-up Unsent Letters Mailbox series this Fall semester. The exhibition is an immersive space where The New School community can view and reflect upon the anonymously written letters and discover the shared threads of universal human experiences. Grounded in the belief that we have more in common than we think, we will share meaningful, anonymous reflections. You can learn more about the Unsent Letters Mailbox project, which has been hosted in many communities, here.  _____________________________________________About the Parsons Carelab:The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during AY 25-26. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
+      "start_date": "2025-11-21T17:00:00+00:00",
+      "end_date": "2025-11-21T19:00:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "SOCIAL",
+        "DESIGN",
+        "TECH",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/unsentletterssalon",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Starr Foundation (U L102)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design",
+            "Design Strategies"
+          ],
+          "tags": [
+            "faculty",
+            "staff",
+            "students",
+            "school of design strategies",
+            "arts",
+            "design",
+            "education and pedagogy",
+            "media, science, and technology",
+            "writing and literature",
+            "parsons school of design",
+            "exhibitions and openings",
+            "starr foundation (u l102)",
+            "art and design"
+          ],
+          "audience": []
+        }
+      },
+      "source": "new_school",
+      "event_id": "evt_newschool_4426a9ee",
       "locationId": "loc_newschool_main",
       "communityId": "com_newschool"
     },

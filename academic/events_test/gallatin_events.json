@@ -35,40 +35,6 @@
       "communityId": "com_gallatin"
     },
     {
-      "id": "evt_gallatin_9ece59f7",
-      "name": "MA Program Welcome and Orientation",
-      "type": "Academic",
-      "location_id": "loc_gallatin_main",
-      "community_id": "com_gallatin",
-      "description": "RSVP required",
-      "start_date": "2025-08-26T17:00:00",
-      "end_date": "2025-08-26T19:00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/08/ma-program-welcome---orientation.html",
-        "source_name": "NYU Gallatin Events",
-        "venue": {
-          "type": "venue",
-          "name": "Room 527, 1 Washington Place",
-          "address": "1 Washington Place, New York, NY 10003"
-        },
-        "organizer": {
-          "name": "NYU Gallatin School of Individualized Study",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/08/ma-program-welcome---orientation/jcr:content/image.img.480.medium.jpg",
-          "rsvp_required": true
-        }
-      },
-      "source": "gallatin",
-      "event_id": "evt_gallatin_9ece59f7",
-      "locationId": "loc_gallatin_main",
-      "communityId": "com_gallatin"
-    },
-    {
       "id": "evt_gallatin_2a9ecb78",
       "name": "Opening Reception for How Many Roads: Bob Dylan and his Changing Times, 1961–1964",
       "type": "Academic",
@@ -195,7 +161,7 @@
           "type": "organizer"
         },
         "additional_info": {
-          "image_url": "https://gallatin.nyu.edu/content/dam/gallatin/carousels/event-default.jpg",
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/gallatin-recent-alumni-happy-hour/jcr:content/image.img.480.medium.jpg",
           "rsvp_required": true
         }
       },
