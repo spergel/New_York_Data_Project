@@ -35,12 +35,12 @@ def convert_events_to_cloudflare():
             "event_id": event.get('id', f"evt_{i}"),
             "name": event.get('name', ''),
             "description": event.get('description', ''),
-            "start_date": event.get('start_date', ''),
-            "end_date": event.get('end_date', ''),
+            "start_date": event.get('startDate', ''),  # Fix: use startDate from source
+            "end_date": event.get('endDate', ''),      # Fix: use endDate from source
             "source": event.get('source', ''),
-            "source_group": event.get('source_group', ''),
-            "source_url": event.get('metadata', {}).get('source_url', ''),
-            "source_name": event.get('metadata', {}).get('source_name', ''),
+            "source_group": event.get('source_group', event.get('source', '')),  # Use source as fallback
+            "source_url": event.get('metadata', {}).get('sourceUrl', ''),  # Fix: use sourceUrl
+            "source_name": event.get('metadata', {}).get('sourceName', ''),  # Fix: use sourceName
             "venue_name": event.get('metadata', {}).get('venue', {}).get('name', ''),
             "venue_type": event.get('metadata', {}).get('venue', {}).get('type', ''),
             "is_academic": True  # All events in this file are academic
