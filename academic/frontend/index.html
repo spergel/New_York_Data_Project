@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Academic Events</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-graduation-cap"></i> NYC Academic Events</h1>
+                <p>Discover lectures, seminars, and academic events across New York City's universities</p>
+            </div>
+        </header>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <i class="fas fa-calendar-alt"></i>
+                <span id="total-events">Loading...</span>
+                <label>Total Events</label>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-university"></i>
+                <span id="total-institutions">Loading...</span>
+                <label>Institutions</label>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-clock"></i>
+                <span id="last-updated">Loading...</span>
+                <label>Last Updated</label>
+            </div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters">
+            <div class="filter-group">
+                <label for="institution-filter">Institution:</label>
+                <select id="institution-filter">
+                    <option value="">All Institutions</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="date-from">From Date:</label>
+                <input type="date" id="date-from">
+            </div>
+            <div class="filter-group">
+                <label for="date-to">To Date:</label>
+                <input type="date" id="date-to">
+            </div>
+            <div class="filter-group">
+                <label for="search-input">Search:</label>
+                <input type="text" id="search-input" placeholder="Search events...">
+            </div>
+            <button id="clear-filters" class="clear-btn">
+                <i class="fas fa-times"></i> Clear Filters
+            </button>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Loading academic events...</p>
+        </div>
+
+        <!-- Events Container -->
+        <div id="events-container" class="events-container" style="display: none;">
+            <div class="events-header">
+                <h2 id="events-count">Events</h2>
+                <div class="view-controls">
+                    <button id="grid-view" class="view-btn active">
+                        <i class="fas fa-th"></i> Grid
+                    </button>
+                    <button id="list-view" class="view-btn">
+                        <i class="fas fa-list"></i> List
+                    </button>
+                </div>
+            </div>
+            <div id="events-grid" class="events-grid"></div>
+        </div>
+
+        <!-- No Results -->
+        <div id="no-results" class="no-results" style="display: none;">
+            <i class="fas fa-search"></i>
+            <h3>No events found</h3>
+            <p>Try adjusting your filters or search terms</p>
+        </div>
+
+        <!-- Pagination -->
+        <div id="pagination" class="pagination" style="display: none;">
+            <button id="prev-page" class="page-btn">
+                <i class="fas fa-chevron-left"></i> Previous
+            </button>
+            <span id="page-info">Page 1 of 1</span>
+            <button id="next-page" class="page-btn">
+                Next <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Event Modal -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
