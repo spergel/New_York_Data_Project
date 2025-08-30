@@ -1,0 +1,14 @@
+name = "nyc-academic-events-api"
+main = "cloudflare-worker-with-data.js"
+compatibility_date = "2024-01-15"
+
+[env.production]
+name = "nyc-academic-events-api"
+
+[env.staging]
+name = "nyc-academic-events-api-staging"
+
+# Optional: Add custom domain
+# routes = [
+#   { pattern = "api.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
