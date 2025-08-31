@@ -1,6 +1,7 @@
 name = "nyc-academic-events-api"
 main = "cloudflare-worker.js"
 compatibility_date = "2024-01-15"
+account_id = "23c130823dcbb93f12c6d918a26f37a9"
 
 [env.production]
 name = "nyc-academic-events-api"
