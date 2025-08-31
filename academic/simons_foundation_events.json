@@ -1,0 +1,240 @@
+{
+  "events": [
+    {
+      "id": "evt_simons_623e6229ff07",
+      "name": "Emergent Phenomena Under Pressure: From Hydrogen to Hot Superconductors",
+      "type": "Lecture",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "Russell Hemley, Ph.D. (Professor and LAS Distinguished Chair in the Natural Sciences, University of Illinois at Chicago)",
+      "start_date": "2025-09-10T18:00:00+00:00",
+      "end_date": "2025-09-10T19:00:00+00:00",
+      "category": [
+        "LECTURE",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/emergent-phenomena-under-pressure-from-hydrogen-to-hot-superconductors/",
+        "source_name": "Simons Foundation - Presidential Lectures",
+        "venue": {
+          "name": "Gerald D. Fischbach Auditorium, Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Simons Foundation Presidential Lectures Series",
+          "speakers": [
+            {
+              "name": "Russell Hemley, Ph.D.",
+              "affiliation": "Professor and LAS Distinguished Chair in the Natural Sciences, University of Illinois at Chicago"
+            }
+          ],
+          "video_url": null,
+          "registration_url": null,
+          "event_source_type": "Lecture"
+        }
+      },
+      "price": {
+        "amount": 0.0,
+        "type": "free"
+      },
+      "status": "scheduled",
+      "registration_required": false
+    },
+    {
+      "id": "evt_simons_fc9392845700",
+      "name": "Where Did All the Dogs Come From? Dogs, Ancestors, Breeds and Genomes",
+      "type": "Lecture",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "Elaine A. Ostrander, Ph.D. (Distinguished Senior Investigator and Section Head, National Human Genome Research Institute)",
+      "start_date": "2025-09-17T18:00:00+00:00",
+      "end_date": "2025-09-17T19:00:00+00:00",
+      "category": [
+        "LECTURE",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/where-did-all-the-dogs-come-from-dogs-ancestors-breeds-and-genomes/",
+        "source_name": "Simons Foundation - Presidential Lectures",
+        "venue": {
+          "name": "Gerald D. Fischbach Auditorium, Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Simons Foundation Presidential Lectures Series",
+          "speakers": [
+            {
+              "name": "Elaine A. Ostrander, Ph.D.",
+              "affiliation": "Distinguished Senior Investigator and Section Head, National Human Genome Research Institute"
+            }
+          ],
+          "video_url": null,
+          "registration_url": null,
+          "event_source_type": "Lecture"
+        }
+      },
+      "price": {
+        "amount": 0.0,
+        "type": "free"
+      },
+      "status": "scheduled",
+      "registration_required": false
+    },
+    {
+      "id": "evt_simons_d7903f5ff4c5",
+      "name": "Where is Mathematics Going?",
+      "type": "Lecture",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "Kevin Buzzard, Ph.D. (Professor of Pure Mathematics Department of Mathematics - Faculty of Natural Sciences, Imperial College London)",
+      "start_date": "2025-09-24T18:00:00+00:00",
+      "end_date": "2025-09-24T19:00:00+00:00",
+      "category": [
+        "LECTURE",
+        "MATH",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/where-is-mathematics-going/",
+        "source_name": "Simons Foundation - Presidential Lectures",
+        "venue": {
+          "name": "Gerald D. Fischbach Auditorium, Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Simons Foundation Presidential Lectures Series",
+          "speakers": [
+            {
+              "name": "Kevin Buzzard, Ph.D.",
+              "affiliation": "Professor of Pure Mathematics Department of Mathematics - Faculty of Natural Sciences, Imperial College London"
+            }
+          ],
+          "video_url": null,
+          "registration_url": null,
+          "event_source_type": "Lecture"
+        }
+      },
+      "price": {
+        "amount": 0.0,
+        "type": "free"
+      },
+      "status": "scheduled",
+      "registration_required": false
+    },
+    {
+      "id": "evt_simons_d1c0b9c56474",
+      "name": "Life on Earth Over Deep Time",
+      "type": "In conversation",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "Arpita Bose (Associate Professor of Biology, Washington University in St. Louis); Jessica Tierney (Professor of Geosciences, University of Arizona)",
+      "start_date": "2025-09-26T18:00:00+00:00",
+      "end_date": "2025-09-26T20:00:00+00:00",
+      "category": [
+        "PUBLIC_ENGAGEMENT",
+        "SCIENCE",
+        "DISCUSSION"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/life-on-earth-over-deep-time/",
+        "source_name": "Simons Foundation - Simons Foundation Presents",
+        "venue": {
+          "name": "Gerald D. Fischbach Auditorium, Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Simons Foundation Simons Foundation Presents Series",
+          "speakers": [
+            {
+              "name": "Arpita Bose",
+              "affiliation": "Associate Professor of Biology, Washington University in St. Louis"
+            },
+            {
+              "name": "Jessica Tierney",
+              "affiliation": "Professor of Geosciences, University of Arizona"
+            }
+          ],
+          "video_url": null,
+          "registration_url": null,
+          "event_source_type": "In Conversation"
+        }
+      },
+      "price": {
+        "amount": 0.0,
+        "type": "free"
+      },
+      "status": "scheduled",
+      "registration_required": false
+    },
+    {
+      "id": "evt_simons_d3305d5a6125",
+      "name": "Monsters, Memories and the Stories We Keep",
+      "type": "In conversation",
+      "location_id": "loc_simons_main",
+      "community_id": "com_simons",
+      "description": "Leslie Sibener, Ph.D. (Rockefeller University); Mathias Clasen (Co-Director, Recreational Fear Lab, Aarhus University)",
+      "start_date": "2025-10-24T18:00:00+00:00",
+      "end_date": "2025-10-24T20:00:00+00:00",
+      "category": [
+        "PUBLIC_ENGAGEMENT",
+        "SCIENCE",
+        "DISCUSSION"
+      ],
+      "metadata": {
+        "source_url": "https://www.simonsfoundation.org/event/monsters-memories-and-the-stories-we-keep/",
+        "source_name": "Simons Foundation - Simons Foundation Presents",
+        "venue": {
+          "name": "Gerald D. Fischbach Auditorium, Simons Foundation",
+          "address": "162 5th Ave, New York, NY 10010",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Simons Foundation",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Simons Foundation Simons Foundation Presents Series",
+          "speakers": [
+            {
+              "name": "Leslie Sibener, Ph.D.",
+              "affiliation": "Rockefeller University"
+            },
+            {
+              "name": "Mathias Clasen",
+              "affiliation": "Co-Director, Recreational Fear Lab, Aarhus University"
+            }
+          ],
+          "video_url": null,
+          "registration_url": null,
+          "event_source_type": "In Conversation"
+        }
+      },
+      "price": {
+        "amount": 0.0,
+        "type": "free"
+      },
+      "status": "scheduled",
+      "registration_required": false
+    }
+  ]
+}

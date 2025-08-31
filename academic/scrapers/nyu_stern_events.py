@@ -129,7 +129,7 @@ def main():
 		# Save debug file
 		if result.get("events"):
 			import json
-			with open("events_test/nyu_stern_events.json", "w", encoding="utf-8") as f:
+			with open("nyu_stern_events_debug.json", "w", encoding="utf-8") as f:
 				json.dump(result, f, ensure_ascii=False, indent=2)
 	except Exception as e:
 		print(f"Error scraping NYU Stern: {e}")

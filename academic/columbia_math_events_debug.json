@@ -1,0 +1,38 @@
+{
+  "events": [
+    {
+      "id": "evt_columbia_math_eab81d68fb",
+      "name": "2016 SPRING TERM LECTURE SERIES",
+      "description": "",
+      "start_date": "2016-01-28",
+      "end_date": "",
+      "source": "columbia",
+      "source_group": "columbia_math",
+      "metadata": {
+        "source_url": "https://math.columbia.edu/events",
+        "source_name": "Columbia University Department of Mathematics",
+        "venue": {
+          "name": "Columbia University",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_math_8df0f723ae",
+      "name": "Geometric Analysis Seminar",
+      "description": "507 Mathematics Hall\t\n\n\t\t507 Math",
+      "start_date": "2015-06-12",
+      "end_date": "",
+      "source": "columbia",
+      "source_group": "columbia_math",
+      "metadata": {
+        "source_url": "https://math.columbia.edu/events",
+        "source_name": "Columbia University Department of Mathematics",
+        "venue": {
+          "name": "Columbia University",
+          "type": "Offline"
+        }
+      }
+    }
+  ]
+}

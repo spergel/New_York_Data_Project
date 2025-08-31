@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "id": "evt_cornell_tech_79341d58",
+      "name": "Innovation & Entrepreneurship Workshop: Startup Tech Sales",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_cornell_tech",
+      "description": "Workshop, Public",
+      "start_date": "2025-08-28T11:45:00",
+      "end_date": "2025-08-28T13:00:00",
+      "category": [
+        "BUSINESS",
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://tech.cornell.edu/events/innovation-entrepreneurship-workshop-startup-tech-sales/",
+        "source_name": "Cornell Tech Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Cornell Tech",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://tech.cornell.edu/wp-content/uploads/2025/08/https___cdn.evbuc_.com_images_1044858713_134417915717_1_original.png",
+          "tags": [
+            "Workshop",
+            "Public"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_cornell_tech_dff5387e",
+      "name": "New York Climate Week: The Future of Public Transit",
+      "type": "Academic",
+      "location_id": "loc_cornell_tech_tata",
+      "community_id": "com_cornell_tech",
+      "description": "Urban Tech, Public",
+      "start_date": "2025-09-25T16:00:00",
+      "end_date": "2025-09-25T20:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://tech.cornell.edu/events/new-york-climate-week-the-future-of-public-transit/",
+        "source_name": "Cornell Tech Events",
+        "venue": {
+          "name": "Tata Innovation Center",
+          "address": "11 E Loop Rd, New York, NY 10044",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Cornell Tech",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://tech.cornell.edu/wp-content/uploads/2025/08/The-Future-of-Public-Transit-1440x960.jpg",
+          "tags": [
+            "Urban Tech",
+            "Public"
+          ]
+        }
+      }
+    }
+  ]
+}

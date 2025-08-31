@@ -1,3 +1,4 @@
+/* 90s Global Village Coffeehouse + NYC Academic Events */
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -6,504 +7,908 @@
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
     line-height: 1.6;
-    color: #333;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #2c1810;
+    background: 
+        linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 50%, #d4c4a8 100%),
+        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="0.5" fill="%23d4c4a8" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
     min-height: 100vh;
+    background-attachment: fixed;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0;
 }
 
-/* Header */
+/* Coffeehouse Typography */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* Header - Coffeehouse Sign */
 .header {
+    background: 
+        linear-gradient(135deg, #8b4513 0%, #a0522d 50%, #8b4513 100%);
+    padding: 30px 0;
+    border-bottom: 4px solid #654321;
+    box-shadow: 0 4px 20px rgba(139, 69, 19, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
     text-align: center;
-    margin-bottom: 30px;
-    color: white;
 }
 
 .header-content h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 15px;
+    color: #f5f1e8;
+    text-shadow: 3px 3px 0px #654321, 6px 6px 0px rgba(0,0,0,0.2);
+    letter-spacing: 2px;
+}
+
+.header-content h1::before {
+    content: "☕";
+    margin-right: 15px;
+    font-size: 3rem;
 }
 
 .header-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    color: #e8dcc0;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Navigation - Coffeehouse Menu Style */
+.nav-menu {
+    background: rgba(139, 69, 19, 0.95);
+    padding: 15px 0;
+    border-bottom: 2px solid #654321;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.nav-menu a {
+    color: #f5f1e8;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
     font-size: 1.1rem;
-    opacity: 0.9;
-    font-weight: 300;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
 }
 
-/* Stats Bar */
-.stats-bar {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.stat-item {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
-}
-
-.stat-item:hover {
+.nav-menu a:hover {
+    border-color: #e8dcc0;
+    background: rgba(232, 220, 192, 0.1);
     transform: translateY(-2px);
 }
 
-.stat-item i {
-    font-size: 2rem;
-    color: #667eea;
-    margin-bottom: 10px;
-    display: block;
+.nav-menu a.active {
+    border-color: #e8dcc0;
+    background: rgba(232, 220, 192, 0.2);
+    box-shadow: 0 2px 10px rgba(232, 220, 192, 0.3);
 }
 
-.stat-item span {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #333;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.stat-item label {
-    font-size: 0.9rem;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* Filters */
-.filters {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    align-items: end;
-}
-
-.filter-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.filter-group label {
-    font-weight: 500;
-    margin-bottom: 8px;
-    color: #333;
-    font-size: 0.9rem;
-}
-
-.filter-group select,
-.filter-group input {
-    padding: 12px;
-    border: 2px solid #e1e5e9;
-    border-radius: 8px;
-    font-size: 1rem;
-    transition: border-color 0.2s ease;
-    background: white;
-}
-
-.filter-group select:focus,
-.filter-group input:focus {
-    outline: none;
-    border-color: #667eea;
-}
-
-.clear-btn {
-    padding: 12px 20px;
-    background: #ff4757;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 500;
-    transition: background 0.2s ease;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.clear-btn:hover {
-    background: #ff3742;
-}
-
-/* Loading */
-.loading {
-    text-align: center;
+/* Hero Section - Coffeehouse Bulletin Board */
+.hero-section {
+    background: 
+        linear-gradient(135deg, rgba(139, 69, 19, 0.1) 0%, rgba(160, 82, 45, 0.05) 100%);
     padding: 60px 20px;
-    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #8b4513;
 }
 
-.spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid rgba(255,255,255,0.3);
-    border-top: 4px solid white;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin: 0 auto 20px;
+.hero-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2c1810;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(139, 69, 19, 0.3);
 }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+.hero-content p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    color: #654321;
+    margin-bottom: 50px;
+    font-weight: 400;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Events Container */
-.events-container {
-    background: white;
-    border-radius: 12px;
-    padding: 25px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.events-header {
+/* Hero Stats - Coffeehouse Specials Board */
+.hero-stats {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 25px;
+    justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
-    gap: 15px;
 }
 
-.events-header h2 {
-    font-size: 1.5rem;
-    color: #333;
-}
-
-.view-controls {
-    display: flex;
-    gap: 10px;
-}
-
-.view-btn {
-    padding: 8px 16px;
-    border: 2px solid #e1e5e9;
-    background: white;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.view-btn.active {
-    background: #667eea;
-    color: white;
-    border-color: #667eea;
-}
-
-.view-btn:hover:not(.active) {
-    border-color: #667eea;
-    color: #667eea;
-}
-
-/* Events Grid */
-.events-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 20px;
-}
-
-.events-grid.list-view {
-    grid-template-columns: 1fr;
-}
-
-.event-card {
-    background: white;
-    border: 1px solid #e1e5e9;
-    border-radius: 12px;
-    padding: 20px;
-    transition: all 0.2s ease;
-    cursor: pointer;
+.hero-stat {
+    background: 
+        linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+    padding: 25px 35px;
+    border-radius: 20px;
+    border: 3px solid #8b4513;
+    text-align: center;
+    min-width: 180px;
+    box-shadow: 
+        0 8px 25px rgba(139, 69, 19, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
     position: relative;
     overflow: hidden;
 }
 
-.event-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    border-color: #667eea;
-}
-
-.event-card::before {
-    content: '';
+.hero-stat::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #667eea, #764ba2);
+    background: linear-gradient(90deg, #8b4513, #a0522d, #8b4513);
 }
 
-.event-title {
-    font-size: 1.1rem;
+.hero-stat span {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #8b4513;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.hero-stat label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    color: #654321;
     font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
-    line-height: 1.4;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.event-description {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-    line-height: 1.5;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+/* Quick Filters - Coffeehouse Menu Tabs */
+.quick-filters {
+    background: rgba(139, 69, 19, 0.1);
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #8b4513;
+}
+
+.filter-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-tab {
+    background: 
+        linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+    border: 2px solid #8b4513;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #654321;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
+    position: relative;
     overflow: hidden;
 }
 
-.event-meta {
+.filter-tab::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.filter-tab:hover::before {
+    left: 100%;
+}
+
+.filter-tab:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(139, 69, 19, 0.3);
+    border-color: #a0522d;
+}
+
+.filter-tab.active {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    color: #f5f1e8;
+    border-color: #654321;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+}
+
+.filter-tab i {
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+/* Advanced Filters - Coffeehouse Order Form */
+.advanced-filters {
+    background: 
+        linear-gradient(135deg, rgba(245, 241, 232, 0.9) 0%, rgba(232, 220, 192, 0.9) 100%);
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    border: 2px solid #8b4513;
+    border-radius: 15px;
+    box-shadow: 
+        0 8px 25px rgba(139, 69, 19, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.filter-row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.85rem;
-    color: #888;
-}
-
-.event-date {
-    font-weight: 500;
-    color: #667eea;
-}
-
-.event-institution {
-    background: #f8f9fa;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 0.8rem;
-}
-
-/* List View */
-.events-grid.list-view .event-card {
-    display: grid;
-    grid-template-columns: 1fr auto;
     gap: 20px;
-    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: end;
 }
 
-.events-grid.list-view .event-meta {
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 5px;
+.filter-group {
+    flex: 1;
+    min-width: 200px;
 }
 
-/* No Results */
-.no-results {
-    text-align: center;
-    padding: 60px 20px;
-    color: #666;
+.filter-group label {
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #654321;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
-.no-results i {
-    font-size: 3rem;
-    color: #ccc;
+.filter-group select,
+.filter-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #8b4513;
+    border-radius: 8px;
+    background: #f5f1e8;
+    color: #2c1810;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.filter-group select:focus,
+.filter-group input:focus {
+    outline: none;
+    border-color: #a0522d;
+    box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
+    background: #fff;
+}
+
+.clear-btn {
+    background: linear-gradient(135deg, #dc143c 0%, #b22222 100%);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(220, 20, 60, 0.3);
+}
+
+.clear-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(220, 20, 60, 0.4);
+}
+
+/* Events Container - Coffeehouse Bulletin Board */
+.events-container {
+    padding: 20px;
+    background: rgba(245, 241, 232, 0.8);
+    border-radius: 15px;
+    border: 2px solid #8b4513;
+    margin-bottom: 30px;
+    box-shadow: 
+        0 8px 25px rgba(139, 69, 19, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Events Grid - Coffeehouse Menu Cards */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.event-card {
+    background: 
+        linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+    border: 2px solid #8b4513;
+    border-radius: 15px;
+    padding: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.2);
+}
+
+.event-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #8b4513, #a0522d, #8b4513);
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(139, 69, 19, 0.3);
+    border-color: #a0522d;
+}
+
+.event-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c1810;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.event-card .event-meta {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.event-card .event-meta span {
+    background: rgba(139, 69, 19, 0.1);
+    color: #654321;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+.event-card .event-description {
+    color: #654321;
+    font-size: 0.95rem;
+    line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.no-results h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #333;
+.event-card .event-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-/* Pagination */
+.event-card .event-actions button {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    color: #f5f1e8;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(139, 69, 19, 0.3);
+}
+
+.event-card .event-actions button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.4);
+}
+
+/* Pagination - Coffeehouse Page Numbers */
 .pagination {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     margin-top: 30px;
-    padding: 20px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
 }
 
-.page-btn {
-    padding: 10px 20px;
-    border: 2px solid #e1e5e9;
-    background: white;
-    border-radius: 8px;
+.pagination button {
+    background: linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+    border: 2px solid #8b4513;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #654321;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.2);
+}
+
+.pagination button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.3);
+    border-color: #a0522d;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination .page-info {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #654321;
+    font-weight: 600;
+    padding: 10px 20px;
+    background: rgba(139, 69, 19, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 69, 19, 0.2);
+}
+
+/* Loading States - Coffeehouse Brewing */
+.loading {
+    text-align: center;
+    padding: 60px 20px;
+    color: #654321;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+.loading::before {
+    content: "☕";
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    animation: brew 2s infinite ease-in-out;
+}
+
+@keyframes brew {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+/* No Results - Coffeehouse Empty State */
+.no-results {
+    text-align: center;
+    padding: 60px 20px;
+    color: #654321;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+.no-results::before {
+    content: "📚";
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* NYC Academic Specific Touches */
+.nyc-accent {
+    color: #8b4513;
+    font-weight: 700;
+}
+
+.institution-badge {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    color: #f5f1e8;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* View Sections */
+.view-section {
+    min-height: 60vh;
+    padding: 20px;
+}
+
+.view-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c1810;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(139, 69, 19, 0.2);
+}
+
+.view-section p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    color: #654321;
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Calendar View Styling */
+.calendar-placeholder {
+    background: 
+        linear-gradient(135deg, rgba(245, 241, 232, 0.9) 0%, rgba(232, 220, 192, 0.9) 100%);
+    border: 3px solid #8b4513;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 
+        0 12px 30px rgba(139, 69, 19, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.calendar-grid {
+    text-align: center;
+}
+
+.calendar-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #8b4513;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.day-header {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    color: #f5f1e8;
+    padding: 12px 8px;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.calendar-grid-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    min-height: 300px;
+}
+
+/* List View Styling */
+.list-controls {
+    background: 
+        linear-gradient(135deg, rgba(245, 241, 232, 0.9) 0%, rgba(232, 220, 192, 0.9) 100%);
+    border: 2px solid #8b4513;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.15);
+}
+
+.list-filters {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.list-filters select {
+    padding: 10px 15px;
+    border: 2px solid #8b4513;
+    border-radius: 8px;
+    background: #f5f1e8;
+    color: #2c1810;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.list-filters select:focus {
+    outline: none;
+    border-color: #a0522d;
+    box-shadow: 0 0 0 3px rgba(139, 69, 19, 0.1);
+}
+
+.events-list {
+    background: 
+        linear-gradient(135deg, rgba(245, 241, 232, 0.9) 0%, rgba(232, 220, 192, 0.9) 100%);
+    border: 2px solid #8b4513;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.15);
+}
+
+/* Map View Styling */
+.map-placeholder {
+    background: 
+        linear-gradient(135deg, rgba(245, 241, 232, 0.9) 0%, rgba(232, 220, 192, 0.9) 100%);
+    border: 3px solid #8b4513;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 
+        0 12px 30px rgba(139, 69, 19, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.nyc-map {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.map-region {
+    background: 
+        linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+    border: 2px solid #8b4513;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.map-region::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #8b4513, #a0522d, #8b4513);
+}
+
+.map-region:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(139, 69, 19, 0.3);
+    border-color: #a0522d;
+}
+
+.map-region h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #8b4513;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.region-events {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #654321;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+/* Institutions View Styling */
+.institutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.institution-card {
+    background: 
+        linear-gradient(135deg, #f5f1e8 0%, #e8dcc0 100%);
+    border: 2px solid #8b4513;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.institution-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #8b4513, #a0522d, #8b4513);
+}
+
+.institution-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(139, 69, 19, 0.3);
+    border-color: #a0522d;
+}
+
+.institution-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c1810;
+    margin-bottom: 15px;
+}
+
+.institution-card .institution-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.institution-stat {
+    text-align: center;
+}
+
+.institution-stat span {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #8b4513;
+}
+
+.institution-stat label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.8rem;
+    color: #654321;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Enhanced Event Cards for Dashboard */
+.event-card .event-institution {
+    background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
+    color: #f5f1e8;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.event-card .event-date {
+    color: #8b4513;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.page-btn:hover:not(:disabled) {
-    border-color: #667eea;
-    color: #667eea;
+.event-card .event-date i {
+    color: #a0522d;
 }
 
-.page-btn:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-
-#page-info {
-    font-weight: 500;
-    color: #333;
-}
-
-/* Modal */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    backdrop-filter: blur(5px);
-}
-
-.modal-content {
-    background-color: white;
-    margin: 5% auto;
-    padding: 30px;
-    border-radius: 12px;
-    width: 90%;
-    max-width: 600px;
-    max-height: 80vh;
-    overflow-y: auto;
-    position: relative;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-}
-
-.close {
+/* Coffeehouse Decorative Elements */
+.coffee-stain {
     position: absolute;
-    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: radial-gradient(circle, rgba(139, 69, 19, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.coffee-stain.top-right {
     top: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    color: #aaa;
-    transition: color 0.2s ease;
+    right: 20px;
 }
 
-.close:hover {
-    color: #333;
+.coffee-stain.bottom-left {
+    bottom: 20px;
+    left: 20px;
 }
 
-.modal-event-title {
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 15px;
-    padding-right: 40px;
+/* Enhanced Loading Animation */
+.loading::after {
+    content: "...";
+    animation: dots 1.5s infinite;
 }
 
-.modal-event-description {
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 20px;
+@keyframes dots {
+    0%, 20% { content: "."; }
+    40% { content: ".."; }
+    60%, 100% { content: "..."; }
 }
 
-.modal-event-details {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.modal-detail {
-    background: #f8f9fa;
-    padding: 15px;
-    border-radius: 8px;
-}
-
-.modal-detail-label {
-    font-size: 0.8rem;
-    color: #888;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    margin-bottom: 5px;
-}
-
-.modal-detail-value {
-    font-weight: 500;
-    color: #333;
-}
-
-.modal-source-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #667eea;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: background 0.2s ease;
-}
-
-.modal-source-link:hover {
-    background: #5a6fd8;
-}
+/* NYC Borough Colors */
+.manhattan { border-left: 4px solid #8b4513; }
+.brooklyn { border-left: 4px solid #a0522d; }
+.queens { border-left: 4px solid #cd853f; }
+.bronx { border-left: 4px solid #daa520; }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .container {
-        padding: 15px;
-    }
-    
     .header-content h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     
-    .stats-bar {
-        grid-template-columns: 1fr;
-    }
-    
-    .filters {
-        grid-template-columns: 1fr;
+    .hero-content h2 {
+        font-size: 2.5rem;
     }
     
     .events-grid {
         grid-template-columns: 1fr;
     }
     
-    .events-header {
+    .filter-row {
         flex-direction: column;
-        align-items: stretch;
     }
     
-    .modal-content {
-        margin: 10% auto;
-        width: 95%;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-content h1 {
-        font-size: 1.5rem;
-    }
-    
-    .event-card {
-        padding: 15px;
-    }
-    
-    .events-grid.list-view .event-card {
-        grid-template-columns: 1fr;
+    .nav-menu ul {
+        flex-direction: column;
         gap: 15px;
+    }
+    
+    .nyc-map {
+        grid-template-columns: 1fr;
+    }
+    
+    .institutions-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .calendar-days,
+    .calendar-grid-days {
+        gap: 3px;
+    }
+    
+    .day-header {
+        padding: 8px 4px;
+        font-size: 0.8rem;
+    }
+    
+    .list-filters {
+        flex-direction: column;
+        align-items: center;
     }
 }

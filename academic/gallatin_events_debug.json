@@ -1,0 +1,634 @@
+{
+  "events": [
+    {
+      "id": "evt_gallatin_d488261d",
+      "name": "How Many Roads: Bob Dylan and his Changing Times, 1961–1964",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "",
+      "start_date": "2025-08-25T10:00:00",
+      "end_date": "2025-08-25T18:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/08/bob-dylan-exhibit--how-many-roads.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "The Gallatin Galleries",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/08/bob-dylan-exhibit--how-many-roads/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": false
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_2a9ecb78",
+      "name": "Opening Reception for How Many Roads: Bob Dylan and his Changing Times, 1961–1964",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-03T18:00:00",
+      "end_date": "2025-09-03T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/bob-dylan-exhibit--how-many-roads-reception.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "The Gallatin Galleries",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/bob-dylan-exhibit--how-many-roads-reception/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_f6f4fcd8",
+      "name": "Gallatin Fall Club Fair",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "",
+      "start_date": "2025-09-09T11:00:00",
+      "end_date": "2025-09-09T14:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/gallatin-fall-club-fair.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/gallatin-fall-club-fair/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": false
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_f58c7925",
+      "name": "UDL Film Screening: American Agitators",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-18T18:00:00",
+      "end_date": "2025-09-18T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/dam/gallatin/carousels/event-default.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_71cd8ef1",
+      "name": "Gallatin Recent Alumni Happy Hour",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-18T18:00:00",
+      "end_date": "2025-09-18T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/gallatin-recent-alumni-happy-hour.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "117 Avenue A",
+          "address": "117 Avenue A, New York, NY 10009"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/gallatin-recent-alumni-happy-hour/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_2d56ab9d",
+      "name": "Gallatin Goes Apple Picking",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-19T09:00:00",
+      "end_date": "2025-09-19T17:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/gallatin-goes-apple-picking-.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "name": "NYU Gallatin School",
+          "address": "1 Washington Place, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/gallatin-goes-apple-picking-/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_21f01e5e",
+      "name": "The Big Walk: Greenwich Village",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-20T10:00:00",
+      "end_date": "2025-09-20T15:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/big-walk-.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "name": "NYU Gallatin School",
+          "address": "1 Washington Place, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/big-walk-/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_c25ea60f",
+      "name": "First Friday: Bob Dylan's Legacy",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-03T18:00:00",
+      "end_date": "2025-10-03T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/first-friday--remix-the-future.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/first-friday--remix-the-future/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_a828a12f",
+      "name": "Global Fellowship in Human Rights Symposium",
+      "type": "Conference",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-15T18:30:00",
+      "end_date": "2025-10-15T20:30:00",
+      "category": [
+        "GLOBAL"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/global-fellowship-in-human-rights-symposium.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/global-fellowship-in-human-rights-symposium/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_3cd2a6fb",
+      "name": "Gallatin Goes to Freight Fest",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-17T17:00:00",
+      "end_date": "2025-10-17T23:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/gallatin-goes-to-freight-fest.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Offsite",
+          "address": "New York, NY"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/gallatin-goes-to-freight-fest/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_6159cfdf",
+      "name": "Gallatin Global Fellowship in Urban Practice",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-21T17:30:00",
+      "end_date": "2025-10-21T20:30:00",
+      "category": [
+        "GLOBAL"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/gallatin-global-fellowship-in-urban-practice.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/gallatin-global-fellowship-in-urban-practice/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_3fbb12e7",
+      "name": "Marketing Your Gallatin Degree",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-22T18:00:00",
+      "end_date": "2025-10-22T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/marketing-your-gallatin-degree.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "TBD",
+          "address": "New York, NY"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/marketing-your-gallatin-degree/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_1d5ec7b7",
+      "name": "Fall Lunchtime Writing Workshop",
+      "type": "Workshop",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-23T12:30:00",
+      "end_date": "2025-10-23T13:45:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/fall-lunchtime-writing-workshop.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "TBD",
+          "address": "New York, NY"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/fall-lunchtime-writing-workshop/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_9372cbbf",
+      "name": "Alumni and Families Weekend: Flamenco Class and Reception",
+      "type": "Workshop",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-10-25T15:00:00",
+      "end_date": "2025-10-25T17:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/10/alumni-and-families-weekend--flamenco-class-and-reception.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/10/alumni-and-families-weekend--flamenco-class-and-reception/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_e5745aad",
+      "name": "Gallery Exhibit: Shatima’s Shop: Brooklyn, Beauty Salons, Barbershops, and a Brilliant Space",
+      "type": "Exhibition",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "",
+      "start_date": "2025-11-05T10:00:00",
+      "end_date": "2025-11-05T18:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/gallery-exhibit--shatima-s-shop--brooklyn--beauty-salons--barber.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "The Gallatin Galleries",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/gallery-exhibit--shatima-s-shop--brooklyn--beauty-salons--barber/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": false
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_29a0ff2b",
+      "name": "OPENING RECEPTION: Shatima’s Shop: Brooklyn, Beauty Salons, Barbershops, and a Brilliant Space",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-11-06T18:00:00",
+      "end_date": "2025-11-06T21:30:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/opening-reception--shatima-s-shop--brooklyn--beauty-salons--barb.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "The Gallatin Galleries",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/opening-reception--shatima-s-shop--brooklyn--beauty-salons--barb/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_6f2680bb",
+      "name": "First Friday",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-11-07T14:00:00",
+      "end_date": "2025-11-07T16:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/first-friday.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Room 527, 1 Washington Place",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/first-friday/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_96b714bb",
+      "name": "Fall Arts Intensive",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-11-08T17:00:00",
+      "end_date": "2025-11-08T20:00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/fall-arts-intensive.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/fall-arts-intensive/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_9b4e9ba4",
+      "name": "Gallatin Theatre Troupe Mainstage Production (Fall Musical)",
+      "type": "Performance",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-11-13T19:00:00",
+      "end_date": "2025-11-13T20:30:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/gallatin-theatre-troupe-mainstage-production--fall-musical-.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/gallatin-theatre-troupe-mainstage-production--fall-musical-/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_bd992647",
+      "name": "Great World Texts Celebration",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-11-20T13:00:00",
+      "end_date": "2025-11-20T15:00:00",
+      "category": [
+        "GLOBAL"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/great-world-texts-celebration.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/great-world-texts-celebration/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_9e9a5cb1",
+      "name": "A Decade of (De)Tangling the Business of Black Women’s Hair (a conference and homecoming)",
+      "type": "Conference",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-11-21T12:00:00",
+      "end_date": "2025-11-21T20:30:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/a-decade-of--de-tangling-the-business-of-black-women-s-hair--a-c.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/a-decade-of--de-tangling-the-business-of-black-women-s-hair--a-c/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    }
+  ]
+}

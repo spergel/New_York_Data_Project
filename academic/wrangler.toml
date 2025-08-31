@@ -1,5 +1,5 @@
 name = "nyc-academic-events-api"
-main = "cloudflare-worker-with-data.js"
+main = "cloudflare-worker.js"
 compatibility_date = "2024-01-15"
 
 [env.production]

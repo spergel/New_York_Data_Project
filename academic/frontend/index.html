@@ -3,111 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NYC Academic Events</title>
+    <title>NYC Academic Events - Global Village Coffeehouse</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
+        <!-- Header - Coffeehouse Sign -->
         <header class="header">
             <div class="header-content">
-                <h1><i class="fas fa-graduation-cap"></i> NYC Academic Events</h1>
+                <h1>NYC Academic Events</h1>
                 <p>Discover lectures, seminars, and academic events across New York City's universities</p>
             </div>
         </header>
 
-        <!-- Stats Bar -->
-        <div class="stats-bar">
-            <div class="stat-item">
-                <i class="fas fa-calendar-alt"></i>
-                <span id="total-events">Loading...</span>
-                <label>Total Events</label>
-            </div>
-            <div class="stat-item">
-                <i class="fas fa-university"></i>
-                <span id="total-institutions">Loading...</span>
-                <label>Institutions</label>
-            </div>
-            <div class="stat-item">
-                <i class="fas fa-clock"></i>
-                <span id="last-updated">Loading...</span>
-                <label>Last Updated</label>
-            </div>
-        </div>
+        <!-- Navigation - Coffeehouse Menu -->
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" class="active" data-view="dashboard">
+                    <i class="fas fa-home"></i> Dashboard
+                </a></li>
+                <li><a href="#" data-view="calendar">
+                    <i class="fas fa-calendar-alt"></i> Calendar View
+                </a></li>
+                <li><a href="#" data-view="list">
+                    <i class="fas fa-list"></i> List View
+                </a></li>
+                <li><a href="#" data-view="map">
+                    <i class="fas fa-map-marker-alt"></i> NYC Map
+                </a></li>
+                <li><a href="#" data-view="institutions">
+                    <i class="fas fa-university"></i> Institutions
+                </a></li>
+            </ul>
+        </nav>
 
-        <!-- Filters -->
-        <div class="filters">
-            <div class="filter-group">
-                <label for="institution-filter">Institution:</label>
-                <select id="institution-filter">
-                    <option value="">All Institutions</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label for="date-from">From Date:</label>
-                <input type="date" id="date-from">
-            </div>
-            <div class="filter-group">
-                <label for="date-to">To Date:</label>
-                <input type="date" id="date-to">
-            </div>
-            <div class="filter-group">
-                <label for="search-input">Search:</label>
-                <input type="text" id="search-input" placeholder="Search events...">
-            </div>
-            <button id="clear-filters" class="clear-btn">
-                <i class="fas fa-times"></i> Clear Filters
-            </button>
-        </div>
+        <!-- Main Dashboard View -->
+        <div id="dashboard-view" class="view-section active">
+            <!-- Hero Section - Coffeehouse Bulletin Board -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h2 id="hero-title">What's Happening Today?</h2>
+                    <p id="hero-subtitle">Discover academic events across NYC's top institutions</p>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span id="today-events">Loading...</span>
+                            <label>Today's Events</label>
+                        </div>
+                        <div class="hero-stat">
+                            <span id="week-events">Loading...</span>
+                            <label>This Week</label>
+                        </div>
+                        <div class="hero-stat">
+                            <span id="total-institutions">Loading...</span>
+                            <label>Institutions</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <!-- Loading State -->
-        <div id="loading" class="loading">
-            <div class="spinner"></div>
-            <p>Loading academic events...</p>
-        </div>
-
-        <!-- Events Container -->
-        <div id="events-container" class="events-container" style="display: none;">
-            <div class="events-header">
-                <h2 id="events-count">Events</h2>
-                <div class="view-controls">
-                    <button id="grid-view" class="view-btn active">
-                        <i class="fas fa-th"></i> Grid
+            <!-- Quick Filters - Coffeehouse Menu Tabs -->
+            <section class="quick-filters">
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-filter="all">
+                        <i class="fas fa-globe"></i> All Events
                     </button>
-                    <button id="list-view" class="view-btn">
-                        <i class="fas fa-list"></i> List
+                    <button class="filter-tab" data-filter="today">
+                        <i class="fas fa-calendar-day"></i> Today
+                    </button>
+                    <button class="filter-tab" data-filter="week">
+                        <i class="fas fa-calendar-week"></i> This Week
+                    </button>
+                    <button class="filter-tab" data-filter="month">
+                        <i class="fas fa-calendar-alt"></i> This Month
                     </button>
                 </div>
+            </section>
+
+            <!-- Advanced Filters - Coffeehouse Order Form -->
+            <section class="advanced-filters">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="institution-filter">Institution:</label>
+                        <select id="institution-filter">
+                            <option value="">All Institutions</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="event-type-filter">Event Type:</label>
+                        <select id="event-type-filter">
+                            <option value="">All Types</option>
+                            <option value="lecture">Lecture</option>
+                            <option value="seminar">Seminar</option>
+                            <option value="conference">Conference</option>
+                            <option value="workshop">Workshop</option>
+                            <option value="colloquium">Colloquium</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="search-input">Search:</label>
+                        <input type="text" id="search-input" placeholder="Search events, topics, speakers...">
+                    </div>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="date-from">From Date:</label>
+                        <input type="date" id="date-from">
+                    </div>
+                    <div class="filter-group">
+                        <label for="date-to">To Date:</label>
+                        <input type="date" id="date-to">
+                    </div>
+                    <button id="clear-filters" class="clear-btn">
+                        <i class="fas fa-times"></i> Clear Filters
+                    </button>
+                </div>
+            </section>
+
+            <!-- Events Container - Coffeehouse Bulletin Board -->
+            <section class="events-container">
+                <div id="loading" class="loading" style="display: none;">
+                    Brewing up some events... ☕
+                </div>
+                
+                <div id="events-container" style="display: none;">
+                    <div id="events-grid" class="events-grid">
+                        <!-- Event cards will be populated here -->
+                    </div>
+                    
+                    <div id="no-results" class="no-results" style="display: none;">
+                        <h3>No events found</h3>
+                        <p>Try adjusting your filters or search terms</p>
+                    </div>
+                    
+                    <!-- Pagination - Coffeehouse Page Numbers -->
+                    <div id="pagination" class="pagination" style="display: none;">
+                        <button id="prev-page" class="page-btn">
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <span id="page-info" class="page-info">Page 1 of 1</span>
+                        <button id="next-page" class="page-btn">
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Calendar View -->
+        <div id="calendar-view" class="view-section" style="display: none;">
+            <div class="calendar-container">
+                <h2><i class="fas fa-calendar-alt"></i> Academic Calendar</h2>
+                <p>Coming soon... A vintage calendar view of all events</p>
             </div>
-            <div id="events-grid" class="events-grid"></div>
         </div>
 
-        <!-- No Results -->
-        <div id="no-results" class="no-results" style="display: none;">
-            <i class="fas fa-search"></i>
-            <h3>No events found</h3>
-            <p>Try adjusting your filters or search terms</p>
+        <!-- List View -->
+        <div id="list-view" class="view-section" style="display: none;">
+            <div class="list-container">
+                <h2><i class="fas fa-list"></i> Event List</h2>
+                <p>Coming soon... A traditional list view with coffeehouse styling</p>
+            </div>
         </div>
 
-        <!-- Pagination -->
-        <div id="pagination" class="pagination" style="display: none;">
-            <button id="prev-page" class="page-btn">
-                <i class="fas fa-chevron-left"></i> Previous
-            </button>
-            <span id="page-info">Page 1 of 1</span>
-            <button id="next-page" class="page-btn">
-                Next <i class="fas fa-chevron-right"></i>
-            </button>
+        <!-- Map View -->
+        <div id="map-view" class="view-section" style="display: none;">
+            <div class="map-container">
+                <h2><i class="fas fa-map-marker-alt"></i> NYC Academic Map</h2>
+                <p>Coming soon... Explore events by NYC neighborhood</p>
+            </div>
         </div>
-    </div>
 
-    <!-- Event Modal -->
-    <div id="event-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="modal-content"></div>
+        <!-- Institutions View -->
+        <div id="institutions-view" class="view-section" style="display: none;">
+            <div class="institutions-container">
+                <h2><i class="fas fa-university"></i> NYC Academic Institutions</h2>
+                <p>Coming soon... Browse events by institution</p>
+            </div>
         </div>
     </div>
 
