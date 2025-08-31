@@ -1,0 +1,63 @@
+name: Weekly Academic Events Scraping
+
+on:
+  schedule:
+    # Run every Sunday at 2 AM UTC (10 PM Saturday EST)
+    - cron: '0 2 * * 0'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        cd academic
+        pip install -r requirements.txt
+        
+    - name: Run weekly scraping
+      run: |
+        cd academic
+        python weekly_scraper.py
+        
+    - name: Update worker with real events
+      run: |
+        cd academic
+        python update_worker_with_real_events.py
+        
+    - name: Deploy to Cloudflare
+      run: |
+        cd academic
+        npx wrangler deploy --env=""
+      env:
+        CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        
+    - name: Commit and push updates
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "🤖 Weekly automated scraping and deployment [skip ci]" || exit 0
+        git push
+        
+    - name: Notify success
+      if: success()
+      run: |
+        echo "✅ Weekly scraping completed successfully!"
+        echo "📊 Events updated and API deployed"
+        echo "🌐 Available at: https://nyc-academic-events-api.spergel-joshua.workers.dev"
+        
+    - name: Notify failure
+      if: failure()
+      run: |
+        echo "❌ Weekly scraping failed!"
+        echo "Check the logs for details"

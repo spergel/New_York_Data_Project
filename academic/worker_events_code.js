@@ -1,5 +1,5 @@
 // Auto-generated events data - 280 events
-// Generated at: 2025-08-31T19:12:43.282657
+// Generated at: 2025-08-31T19:15:35.540588
 // This file is automatically updated weekly by the scraping process
 
 const academicEvents = [
@@ -1068,10 +1068,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "SOCIAL",
-      "ARTS",
       "SCIENCE",
-      "HEALTH"
+      "SOCIAL",
+      "HEALTH",
+      "ARTS"
     ]
   },
   {
@@ -1357,8 +1357,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": true,
     "category": [
-      "SOCIAL",
-      "SCIENCE"
+      "SCIENCE",
+      "SOCIAL"
     ]
   },
   {
@@ -1378,8 +1378,8 @@ const academicEvents = [
     "is_academic": true,
     "category": [
       "ARTS",
-      "SCIENCE",
-      "HEALTH"
+      "HEALTH",
+      "SCIENCE"
     ]
   },
   {
@@ -1590,8 +1590,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SCIENCE"
+      "SCIENCE",
+      "ARTS"
     ]
   },
   {
@@ -1610,8 +1610,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
-      "SCIENCE"
+      "SCIENCE",
+      "ARTS"
     ]
   },
   {
@@ -1767,8 +1767,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": true,
     "category": [
-      "SOCIAL",
-      "SCIENCE"
+      "SCIENCE",
+      "SOCIAL"
     ]
   },
   {
@@ -1865,9 +1865,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
+      "SCIENCE",
       "SOCIAL",
-      "ARTS",
-      "SCIENCE"
+      "ARTS"
     ]
   },
   {
@@ -2002,8 +2002,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
-      "SCIENCE"
+      "SCIENCE",
+      "ARTS"
     ]
   },
   {
@@ -2141,8 +2141,8 @@ const academicEvents = [
     "is_academic": true,
     "category": [
       "SOCIAL",
-      "SCIENCE",
-      "HEALTH"
+      "HEALTH",
+      "SCIENCE"
     ]
   },
   {
@@ -2314,8 +2314,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
-      "SCIENCE"
+      "SCIENCE",
+      "ARTS"
     ]
   },
   {
@@ -2470,8 +2470,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SCIENCE"
+      "SCIENCE",
+      "ARTS"
     ]
   },
   {
@@ -2586,8 +2586,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "SOCIAL",
       "ARTS",
+      "SOCIAL",
       "SCIENCE"
     ]
   },
@@ -2665,8 +2665,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "TECH",
-      "HEALTH"
+      "HEALTH",
+      "TECH"
     ]
   },
   {
@@ -3430,8 +3430,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "HISTORY",
-      "SCIENCE"
+      "SCIENCE",
+      "HISTORY"
     ]
   },
   {
@@ -3450,8 +3450,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "HISTORY",
-      "ARTS"
+      "ARTS",
+      "HISTORY"
     ]
   },
   {
@@ -3470,8 +3470,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARCHAEOLOGY",
-      "ARTS"
+      "ARTS",
+      "ARCHAEOLOGY"
     ]
   },
   {
@@ -3490,9 +3490,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "HISTORY",
+      "ARTS",
       "SCIENCE",
-      "ARTS"
+      "HISTORY"
     ]
   },
   {
@@ -3702,8 +3702,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -3722,10 +3722,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "POLITICS",
       "DESIGN",
       "SOCIAL",
+      "ARTS",
+      "POLITICS",
       "TECH"
     ]
   },
@@ -3745,9 +3745,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -3766,8 +3766,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -3786,9 +3786,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -3807,9 +3807,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -3847,10 +3847,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -3888,8 +3888,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH"
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -3908,9 +3908,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
+      "SOCIAL",
       "ARTS",
-      "POLITICS",
-      "SOCIAL"
+      "POLITICS"
     ]
   },
   {
@@ -3929,8 +3929,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
-      "DESIGN"
+      "DESIGN",
+      "ARTS"
     ]
   },
   {
@@ -3949,9 +3949,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -3970,9 +3970,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -3991,8 +3991,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "POLITICS",
-      "SOCIAL"
+      "SOCIAL",
+      "POLITICS"
     ]
   },
   {
@@ -4068,8 +4068,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "DESIGN"
+      "DESIGN",
+      "ARTS"
     ]
   },
   {
@@ -4088,10 +4088,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH",
       "DESIGN",
-      "HUMANITIES"
+      "HUMANITIES",
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -4129,9 +4129,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -4150,10 +4150,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "POLITICS",
+      "SOCIAL",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS",
+      "POLITICS"
     ]
   },
   {
@@ -4172,9 +4172,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "DESIGN",
       "TECH",
-      "DESIGN"
+      "ARTS"
     ]
   },
   {
@@ -4193,10 +4193,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "POLITICS",
       "DESIGN",
       "SOCIAL",
+      "ARTS",
+      "POLITICS",
       "TECH"
     ]
   },
@@ -4216,10 +4216,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "POLITICS",
       "DESIGN",
       "SOCIAL",
+      "ARTS",
+      "POLITICS",
       "HUMANITIES"
     ]
   },
@@ -4239,9 +4239,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "HUMANITIES",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -4279,9 +4279,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
-      "SOCIAL"
+      "ARTS"
     ]
   },
   {
@@ -4300,10 +4300,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH",
       "DESIGN",
-      "HUMANITIES"
+      "HUMANITIES",
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -4341,10 +4341,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH",
       "DESIGN",
-      "HUMANITIES"
+      "HUMANITIES",
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -4363,10 +4363,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH",
       "DESIGN",
-      "HUMANITIES"
+      "HUMANITIES",
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -4385,8 +4385,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4424,8 +4424,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4444,8 +4444,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4464,8 +4464,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4484,10 +4484,10 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
-      "POLITICS",
-      "SOCIAL"
+      "ARTS",
+      "POLITICS"
     ]
   },
   {
@@ -4506,9 +4506,9 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "HUMANITIES",
       "TECH",
-      "HUMANITIES"
+      "ARTS"
     ]
   },
   {
@@ -4546,10 +4546,10 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "POLITICS",
       "DESIGN",
       "SOCIAL",
+      "ARTS",
+      "POLITICS",
       "HUMANITIES"
     ]
   },
@@ -4569,10 +4569,10 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
-      "POLITICS",
-      "SOCIAL"
+      "ARTS",
+      "POLITICS"
     ]
   },
   {
@@ -4591,11 +4591,11 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
       "DESIGN",
       "SOCIAL",
-      "TECH",
-      "HUMANITIES"
+      "ARTS",
+      "HUMANITIES",
+      "TECH"
     ]
   },
   {
@@ -4614,10 +4614,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH",
       "DESIGN",
-      "HUMANITIES"
+      "HUMANITIES",
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -4636,11 +4636,11 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
       "DESIGN",
       "SOCIAL",
-      "TECH",
-      "HUMANITIES"
+      "ARTS",
+      "HUMANITIES",
+      "TECH"
     ]
   },
   {
@@ -4659,8 +4659,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
       "TECH",
+      "ARTS",
       "POLITICS"
     ]
   },
@@ -4680,9 +4680,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
+      "SOCIAL",
       "ARTS",
-      "POLITICS",
-      "SOCIAL"
+      "POLITICS"
     ]
   },
   {
@@ -4701,10 +4701,10 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
+      "SOCIAL",
       "DESIGN",
-      "POLITICS",
-      "SOCIAL"
+      "ARTS",
+      "POLITICS"
     ]
   },
   {
@@ -4723,8 +4723,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "POLITICS",
-      "SOCIAL"
+      "SOCIAL",
+      "POLITICS"
     ]
   },
   {
@@ -4743,8 +4743,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "POLITICS",
-      "SOCIAL"
+      "SOCIAL",
+      "POLITICS"
     ]
   },
   {
@@ -4763,8 +4763,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "DESIGN"
+      "DESIGN",
+      "ARTS"
     ]
   },
   {
@@ -4783,9 +4783,9 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
+      "SOCIAL",
       "ARTS",
-      "POLITICS",
-      "SOCIAL"
+      "POLITICS"
     ]
   },
   {
@@ -4804,8 +4804,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": true,
     "category": [
-      "ARTS",
-      "HUMANITIES"
+      "HUMANITIES",
+      "ARTS"
     ]
   },
   {
@@ -4824,10 +4824,10 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "TECH",
       "DESIGN",
-      "HUMANITIES"
+      "HUMANITIES",
+      "TECH",
+      "ARTS"
     ]
   },
   {
@@ -4846,8 +4846,8 @@ const academicEvents = [
     "venue_type": "Virtual",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4866,8 +4866,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4886,8 +4886,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4906,8 +4906,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "POLITICS",
-      "SOCIAL"
+      "SOCIAL",
+      "POLITICS"
     ]
   },
   {
@@ -4926,8 +4926,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4946,11 +4946,11 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
       "DESIGN",
       "SOCIAL",
-      "TECH",
-      "HUMANITIES"
+      "ARTS",
+      "HUMANITIES",
+      "TECH"
     ]
   },
   {
@@ -4969,8 +4969,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -4989,8 +4989,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5009,8 +5009,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5029,8 +5029,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5049,8 +5049,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5069,8 +5069,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5089,8 +5089,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5109,8 +5109,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {
@@ -5129,8 +5129,8 @@ const academicEvents = [
     "venue_type": "venue",
     "is_academic": false,
     "category": [
-      "ARTS",
-      "SOCIAL"
+      "SOCIAL",
+      "ARTS"
     ]
   },
   {

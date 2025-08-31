@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-31T19:12:43.264238",
+  "generated_at": "2025-08-31T19:15:35.509328",
   "total_events": 280,
   "events": [
     {
@@ -1067,10 +1067,10 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "SOCIAL",
-        "ARTS",
         "SCIENCE",
-        "HEALTH"
+        "SOCIAL",
+        "HEALTH",
+        "ARTS"
       ]
     },
     {
@@ -1356,8 +1356,8 @@
       "venue_type": "Virtual",
       "is_academic": true,
       "category": [
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ]
     },
     {
@@ -1377,8 +1377,8 @@
       "is_academic": true,
       "category": [
         "ARTS",
-        "SCIENCE",
-        "HEALTH"
+        "HEALTH",
+        "SCIENCE"
       ]
     },
     {
@@ -1589,8 +1589,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ]
     },
     {
@@ -1609,8 +1609,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ]
     },
     {
@@ -1766,8 +1766,8 @@
       "venue_type": "Virtual",
       "is_academic": true,
       "category": [
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ]
     },
     {
@@ -1864,9 +1864,9 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
+        "SCIENCE",
         "SOCIAL",
-        "ARTS",
-        "SCIENCE"
+        "ARTS"
       ]
     },
     {
@@ -2001,8 +2001,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ]
     },
     {
@@ -2140,8 +2140,8 @@
       "is_academic": true,
       "category": [
         "SOCIAL",
-        "SCIENCE",
-        "HEALTH"
+        "HEALTH",
+        "SCIENCE"
       ]
     },
     {
@@ -2313,8 +2313,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ]
     },
     {
@@ -2469,8 +2469,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ]
     },
     {
@@ -2585,8 +2585,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "SCIENCE"
       ]
     },
@@ -2664,8 +2664,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "TECH",
-        "HEALTH"
+        "HEALTH",
+        "TECH"
       ]
     },
     {
@@ -3429,8 +3429,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "HISTORY",
-        "SCIENCE"
+        "SCIENCE",
+        "HISTORY"
       ]
     },
     {
@@ -3449,8 +3449,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "HISTORY",
-        "ARTS"
+        "ARTS",
+        "HISTORY"
       ]
     },
     {
@@ -3469,8 +3469,8 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARCHAEOLOGY",
-        "ARTS"
+        "ARTS",
+        "ARCHAEOLOGY"
       ]
     },
     {
@@ -3489,9 +3489,9 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "HISTORY",
+        "ARTS",
         "SCIENCE",
-        "ARTS"
+        "HISTORY"
       ]
     },
     {
@@ -3701,8 +3701,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -3721,10 +3721,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "POLITICS",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
+        "POLITICS",
         "TECH"
       ]
     },
@@ -3744,9 +3744,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -3765,8 +3765,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -3785,9 +3785,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -3806,9 +3806,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -3846,10 +3846,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -3887,8 +3887,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -3907,9 +3907,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
+        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "SOCIAL"
+        "POLITICS"
       ]
     },
     {
@@ -3928,8 +3928,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ]
     },
     {
@@ -3948,9 +3948,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -3969,9 +3969,9 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -3990,8 +3990,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ]
     },
     {
@@ -4067,8 +4067,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ]
     },
     {
@@ -4087,10 +4087,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -4128,9 +4128,9 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -4149,10 +4149,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "POLITICS",
+        "SOCIAL",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS",
+        "POLITICS"
       ]
     },
     {
@@ -4171,9 +4171,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "DESIGN",
         "TECH",
-        "DESIGN"
+        "ARTS"
       ]
     },
     {
@@ -4192,10 +4192,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "POLITICS",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
+        "POLITICS",
         "TECH"
       ]
     },
@@ -4215,10 +4215,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "POLITICS",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
+        "POLITICS",
         "HUMANITIES"
       ]
     },
@@ -4238,9 +4238,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "HUMANITIES",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -4278,9 +4278,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
-        "SOCIAL"
+        "ARTS"
       ]
     },
     {
@@ -4299,10 +4299,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -4340,10 +4340,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -4362,10 +4362,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -4384,8 +4384,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4423,8 +4423,8 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4443,8 +4443,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4463,8 +4463,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4483,10 +4483,10 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
-        "POLITICS",
-        "SOCIAL"
+        "ARTS",
+        "POLITICS"
       ]
     },
     {
@@ -4505,9 +4505,9 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "HUMANITIES",
         "TECH",
-        "HUMANITIES"
+        "ARTS"
       ]
     },
     {
@@ -4545,10 +4545,10 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "POLITICS",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
+        "POLITICS",
         "HUMANITIES"
       ]
     },
@@ -4568,10 +4568,10 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
-        "POLITICS",
-        "SOCIAL"
+        "ARTS",
+        "POLITICS"
       ]
     },
     {
@@ -4590,11 +4590,11 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "TECH",
-        "HUMANITIES"
+        "ARTS",
+        "HUMANITIES",
+        "TECH"
       ]
     },
     {
@@ -4613,10 +4613,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -4635,11 +4635,11 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "TECH",
-        "HUMANITIES"
+        "ARTS",
+        "HUMANITIES",
+        "TECH"
       ]
     },
     {
@@ -4658,8 +4658,8 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
         "TECH",
+        "ARTS",
         "POLITICS"
       ]
     },
@@ -4679,9 +4679,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
+        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "SOCIAL"
+        "POLITICS"
       ]
     },
     {
@@ -4700,10 +4700,10 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
+        "SOCIAL",
         "DESIGN",
-        "POLITICS",
-        "SOCIAL"
+        "ARTS",
+        "POLITICS"
       ]
     },
     {
@@ -4722,8 +4722,8 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ]
     },
     {
@@ -4742,8 +4742,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ]
     },
     {
@@ -4762,8 +4762,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ]
     },
     {
@@ -4782,9 +4782,9 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
+        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "SOCIAL"
+        "POLITICS"
       ]
     },
     {
@@ -4803,8 +4803,8 @@
       "venue_type": "venue",
       "is_academic": true,
       "category": [
-        "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "ARTS"
       ]
     },
     {
@@ -4823,10 +4823,10 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "TECH",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH",
+        "ARTS"
       ]
     },
     {
@@ -4845,8 +4845,8 @@
       "venue_type": "Virtual",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4865,8 +4865,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4885,8 +4885,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4905,8 +4905,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ]
     },
     {
@@ -4925,8 +4925,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4945,11 +4945,11 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "TECH",
-        "HUMANITIES"
+        "ARTS",
+        "HUMANITIES",
+        "TECH"
       ]
     },
     {
@@ -4968,8 +4968,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -4988,8 +4988,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5008,8 +5008,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5028,8 +5028,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5048,8 +5048,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5068,8 +5068,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5088,8 +5088,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5108,8 +5108,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
@@ -5128,8 +5128,8 @@
       "venue_type": "venue",
       "is_academic": false,
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ]
     },
     {
