@@ -42,8 +42,8 @@
       "start_date": "2025-10-07T17:30:00",
       "end_date": "2025-10-07T19:30:00",
       "category": [
-        "SCIENCE",
-        "HISTORY"
+        "HISTORY",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/moss-invisible-hands",
@@ -75,8 +75,8 @@
       "start_date": "2025-10-14T17:30:00",
       "end_date": "2025-10-14T19:30:00",
       "category": [
-        "ARTS",
-        "HISTORY"
+        "HISTORY",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/china-yangtze-delta",
@@ -140,9 +140,9 @@
       "start_date": "2025-12-04T17:30:00",
       "end_date": "2025-12-04T19:30:00",
       "category": [
+        "HISTORY",
         "SCIENCE",
-        "ARTS",
-        "HISTORY"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success",

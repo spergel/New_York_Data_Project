@@ -61,14 +61,23 @@ def run_scrapers():
         if scraper_path.exists():
             print(f"🔄 Running {scraper}...")
             try:
-                result = subprocess.run([sys.executable, str(scraper_path)], 
-                                      capture_output=True, text=True, timeout=300)
+                # Run the scraper
+                result = subprocess.run(
+                    ['python', str(scraper_path)],
+                    capture_output=True,
+                    text=True,
+                    timeout=300,  # 5 minute timeout
+                    cwd=Path.cwd()  # Run from current directory
+                )
+                
                 if result.returncode == 0:
                     print(f"✅ {scraper} completed successfully")
                     successful_scrapers.append(scraper)
                 else:
-                    print(f"❌ {scraper} failed: {result.stderr}")
+                    print(f"❌ {scraper} failed with return code {result.returncode}")
+                    print(f"Error: {result.stderr}")
                     failed_scrapers.append(scraper)
+                    
             except subprocess.TimeoutExpired:
                 print(f"⏰ {scraper} timed out after 5 minutes")
                 failed_scrapers.append(scraper)
@@ -77,6 +86,13 @@ def run_scrapers():
                 failed_scrapers.append(scraper)
         else:
             print(f"⚠️  {scraper} not found, skipping")
+
+    print(f"\n📊 Scraping Summary:")
+    print(f"✅ Successful: {len(successful_scrapers)}")
+    print(f"❌ Failed: {len(failed_scrapers)}")
+    
+    if failed_scrapers:
+        print(f"Failed scrapers: {', '.join(failed_scrapers)}")
     
     return successful_scrapers, failed_scrapers
 

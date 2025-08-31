@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-08-31T18:46:45.150046",
+  "scraped_at": "2025-08-31T19:12:43.182010",
   "total_events": 280,
   "event_sources": {
     "cims_events_debug": 36,
@@ -31,8 +31,8 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
@@ -67,8 +67,8 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
@@ -103,8 +103,8 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4233",
@@ -139,8 +139,8 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4234",
@@ -175,8 +175,8 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
@@ -211,8 +211,8 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
@@ -247,8 +247,8 @@
       "start_date": "2025-10-17T14:00:00",
       "end_date": "2025-10-17T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
@@ -283,8 +283,8 @@
       "start_date": "2025-10-23T14:00:00",
       "end_date": "2025-10-23T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
@@ -319,8 +319,8 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
@@ -355,8 +355,8 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
@@ -390,8 +390,8 @@
       "start_date": "2025-10-30T14:00:00",
       "end_date": "2025-10-30T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
@@ -426,8 +426,8 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
@@ -462,8 +462,8 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
@@ -498,8 +498,8 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
@@ -534,8 +534,8 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
@@ -570,8 +570,8 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
@@ -605,8 +605,8 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
@@ -641,8 +641,8 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
@@ -1397,9 +1397,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aef89382-0000347cevents%40columbia.edu&recurrenceId=",
@@ -1485,9 +1485,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-97e91514-0197-ebb50e34-00006fabevents%40columbia.edu&recurrenceId=",
@@ -1746,8 +1746,8 @@
       "start_date": "2025-09-04T14:00:00+00:00",
       "end_date": "2025-09-04T20:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-8da6e14b-018d-a92b7ab3-00004639events%40columbia.edu&recurrenceId=",
@@ -1909,10 +1909,10 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
-        "HEALTH",
-        "ARTS",
         "SOCIAL",
-        "SCIENCE"
+        "ARTS",
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98312e19-0198-32d26832-000039d4events%40columbia.edu&recurrenceId=",
@@ -2374,8 +2374,8 @@
       "start_date": "2025-09-08T15:00:00+00:00",
       "end_date": "2025-09-08T16:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccfa7d45-0000403devents%40columbia.edu&recurrenceId=",
@@ -2903,9 +2903,9 @@
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
-        "HEALTH",
         "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e04ab4-0198-e20d2316-00006860events%40columbia.edu&recurrenceId=",
@@ -3145,9 +3145,9 @@
       "start_date": "2025-09-10T16:00:00+00:00",
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefa93ee-000034acevents%40columbia.edu&recurrenceId=",
@@ -3761,10 +3761,10 @@
       "start_date": "2025-09-12T12:30:00+00:00",
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION",
         "SOCIAL",
-        "SCIENCE"
+        "EDUCATION",
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85c4f50b-0000303devents%40columbia.edu&recurrenceId=",
@@ -4071,8 +4071,8 @@
       "start_date": "2025-09-12T16:00:00+00:00",
       "end_date": "2025-09-12T20:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27f9626-00005d86events%40columbia.edu&recurrenceId=",
@@ -4360,8 +4360,8 @@
       "start_date": "2025-09-15T16:00:00+00:00",
       "end_date": "2025-09-15T17:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27436d0-00005962events%40columbia.edu&recurrenceId=",
@@ -4421,8 +4421,8 @@
       "start_date": "2025-09-15T20:30:00+00:00",
       "end_date": "2025-09-15T21:30:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-985a658d-0198-5c86d68d-00001356events%40columbia.edu&recurrenceId=",
@@ -4503,8 +4503,8 @@
       "start_date": "2025-09-15T22:30:00+00:00",
       "end_date": "2025-09-16T00:00:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
+        "ARTS",
         "SCIENCE"
       ],
       "metadata": {
@@ -4581,8 +4581,8 @@
       "start_date": "2025-09-16T14:00:00+00:00",
       "end_date": "2025-09-16T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-96a9c614-0196-ac6ec2e9-00005fdaevents%40columbia.edu&recurrenceId=",
@@ -4658,8 +4658,8 @@
       "start_date": "2025-09-16T15:00:00+00:00",
       "end_date": "2025-09-16T16:00:00+00:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97e9198f-0197-ebac3d76-00006fe5events%40columbia.edu&recurrenceId=",
@@ -5166,9 +5166,9 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefd7b8d-000034c2events%40columbia.edu&recurrenceId=",
@@ -5254,8 +5254,8 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98c68ae9-0198-c8df7f1b-00005dddevents%40columbia.edu&recurrenceId=",
@@ -5393,8 +5393,8 @@
       "start_date": "2025-09-18T11:00:00+00:00",
       "end_date": "2025-09-18T21:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-981772cf-0198-19b7ca5d-000052ffevents%40columbia.edu&recurrenceId=",
@@ -5474,9 +5474,9 @@
       "start_date": "2025-09-18T15:00:00+00:00",
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
-        "HEALTH",
         "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985535db-0198-56decc16-00006d8fevents%40columbia.edu&recurrenceId=",
@@ -5573,8 +5573,8 @@
       "start_date": "2025-09-18T16:00:00+00:00",
       "end_date": "2025-09-18T17:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d262deb9-0000530bevents%40columbia.edu&recurrenceId=",
@@ -6177,9 +6177,9 @@
       "start_date": "2025-09-19T12:30:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "HEALTH",
         "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85deaa42-000034d6events%40columbia.edu&recurrenceId=",
@@ -6332,8 +6332,8 @@
       "start_date": "2025-09-19T14:00:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e57111-0198-e7a936ab-00007895events%40columbia.edu&recurrenceId=",
@@ -7084,8 +7084,8 @@
       "start_date": "2025-09-22T16:00:00+00:00",
       "end_date": "2025-09-22T17:00:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
+        "ARTS",
         "SCIENCE"
       ],
       "metadata": {
@@ -7227,8 +7227,8 @@
       "start_date": "2025-09-22T17:00:00+00:00",
       "end_date": "2025-09-22T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98ea92e3-0198-ec487b73-00006116events%40columbia.edu&recurrenceId=",
@@ -7386,8 +7386,8 @@
       "start_date": "2025-09-22T19:30:00+00:00",
       "end_date": "2025-09-22T21:30:00+00:00",
       "category": [
-        "HEALTH",
-        "TECH"
+        "TECH",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98370f12-0198-388161fa-0000424eevents%40columbia.edu&recurrenceId=",
@@ -7519,9 +7519,9 @@
       "start_date": "2025-09-22T22:00:00+00:00",
       "end_date": "2025-09-23T01:00:00+00:00",
       "category": [
+        "BUSINESS",
         "ARTS",
-        "SCIENCE",
-        "BUSINESS"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97bfe6ab-0197-c1df5829-00005c98events%40columbia.edu&recurrenceId=",
@@ -7675,8 +7675,8 @@
       "start_date": "2025-09-23T17:00:00+00:00",
       "end_date": "2025-09-23T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccff4186-000041b8events%40columbia.edu&recurrenceId=",
@@ -7822,8 +7822,8 @@
       "start_date": "2025-08-28T11:45:00",
       "end_date": "2025-08-28T13:00:00",
       "category": [
-        "BUSINESS",
-        "TECH"
+        "TECH",
+        "BUSINESS"
       ],
       "metadata": {
         "source_url": "https://tech.cornell.edu/events/innovation-entrepreneurship-workshop-startup-tech-sales/",
@@ -8669,8 +8669,8 @@
       "start_date": "2025-10-07T17:30:00",
       "end_date": "2025-10-07T19:30:00",
       "category": [
-        "SCIENCE",
-        "HISTORY"
+        "HISTORY",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/moss-invisible-hands",
@@ -8702,8 +8702,8 @@
       "start_date": "2025-10-14T17:30:00",
       "end_date": "2025-10-14T19:30:00",
       "category": [
-        "ARTS",
-        "HISTORY"
+        "HISTORY",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/china-yangtze-delta",
@@ -8767,9 +8767,9 @@
       "start_date": "2025-12-04T17:30:00",
       "end_date": "2025-12-04T19:30:00",
       "category": [
+        "HISTORY",
         "SCIENCE",
-        "ARTS",
-        "HISTORY"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success",
@@ -8801,8 +8801,8 @@
       "start_date": "2025-09-03T12:00:00",
       "end_date": "2025-09-03T13:00:00",
       "category": [
-        "RELIGION",
-        "ARTS"
+        "ARTS",
+        "RELIGION"
       ],
       "metadata": {
         "source_url": "https://www.jtsa.edu/event/women-rabbis-as-change-agents/",
@@ -9052,8 +9052,8 @@
       "start_date": "2025-08-02T00:30:00+00:00",
       "end_date": "2025-09-01T02:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thestone2508",
@@ -9094,11 +9094,11 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "TECH",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tdconvening25",
@@ -9145,9 +9145,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -9189,8 +9189,8 @@
       "start_date": "2025-09-03T15:30:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
@@ -9228,9 +9228,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -9274,8 +9274,8 @@
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -9356,9 +9356,9 @@
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -9486,9 +9486,9 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
+        "ARTS",
         "POLITICS",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemjameemoudud",
@@ -9577,8 +9577,8 @@
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -9626,9 +9626,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -9889,9 +9889,9 @@
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -9983,9 +9983,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -10029,10 +10029,10 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "POLITICS",
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unfamiliarintelligence",
@@ -10075,8 +10075,8 @@
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
         "ARTS",
-        "DESIGN",
-        "TECH"
+        "TECH",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -10129,11 +10129,11 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "TECH",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweek2025keynote",
@@ -10191,11 +10191,11 @@
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
-        "HUMANITIES",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
@@ -10242,9 +10242,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -10329,8 +10329,8 @@
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -10385,9 +10385,9 @@
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -10475,9 +10475,9 @@
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -10529,9 +10529,9 @@
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -10579,8 +10579,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -10659,8 +10659,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -10700,8 +10700,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -10741,8 +10741,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -10784,9 +10784,9 @@
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -10824,9 +10824,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
-        "HUMANITIES",
         "ARTS",
-        "TECH"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -10910,11 +10910,11 @@
       "start_date": "2025-10-08T14:00:00+00:00",
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
-        "HUMANITIES",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -10956,9 +10956,9 @@
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -11000,11 +11000,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "TECH",
+        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -11054,9 +11054,9 @@
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -11103,11 +11103,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "HUMANITIES",
-        "TECH",
+        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -11154,9 +11154,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "POLITICS",
         "ARTS",
-        "TECH"
+        "TECH",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -11199,9 +11199,9 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
+        "ARTS",
         "POLITICS",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/politicsoftheater",
@@ -11243,9 +11243,9 @@
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -11417,9 +11417,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
+        "ARTS",
         "POLITICS",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemlenorepalladin",
@@ -11462,8 +11462,8 @@
       "start_date": "2025-10-29T21:00:00+00:00",
       "end_date": "2025-10-29T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "ARTS"
+        "ARTS",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/alumnireading40",
@@ -11505,9 +11505,9 @@
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -11554,8 +11554,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -11599,8 +11599,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -11647,8 +11647,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -11733,8 +11733,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -11775,11 +11775,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "TECH",
+        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -11826,8 +11826,8 @@
       "start_date": "2025-12-07T19:00:00+00:00",
       "end_date": "2025-12-07T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
@@ -11867,8 +11867,8 @@
       "start_date": "2025-12-08T00:00:00+00:00",
       "end_date": "2025-12-08T02:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
@@ -11908,8 +11908,8 @@
       "start_date": "2026-01-11T17:30:00+00:00",
       "end_date": "2026-01-11T18:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-january",
@@ -11950,8 +11950,8 @@
       "start_date": "2026-01-11T19:00:00+00:00",
       "end_date": "2026-01-11T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-ulysses",
@@ -11986,8 +11986,8 @@
       "start_date": "2026-03-22T16:30:00+00:00",
       "end_date": "2026-03-22T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
@@ -12027,8 +12027,8 @@
       "start_date": "2026-03-22T18:00:00+00:00",
       "end_date": "2026-03-22T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
@@ -12068,8 +12068,8 @@
       "start_date": "2026-04-26T16:30:00+00:00",
       "end_date": "2026-04-26T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
@@ -12109,8 +12109,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
@@ -12150,8 +12150,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",

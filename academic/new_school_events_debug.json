@@ -10,8 +10,8 @@
       "start_date": "2025-08-02T00:30:00+00:00",
       "end_date": "2025-09-01T02:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thestone2508",
@@ -52,11 +52,11 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "TECH",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tdconvening25",
@@ -103,9 +103,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -147,8 +147,8 @@
       "start_date": "2025-09-03T15:30:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
@@ -186,9 +186,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -232,8 +232,8 @@
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -314,9 +314,9 @@
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -444,9 +444,9 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
+        "ARTS",
         "POLITICS",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemjameemoudud",
@@ -535,8 +535,8 @@
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -584,9 +584,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -847,9 +847,9 @@
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -941,9 +941,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -987,10 +987,10 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "POLITICS",
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unfamiliarintelligence",
@@ -1033,8 +1033,8 @@
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
         "ARTS",
-        "DESIGN",
-        "TECH"
+        "TECH",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -1087,11 +1087,11 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "TECH",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweek2025keynote",
@@ -1149,11 +1149,11 @@
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
-        "HUMANITIES",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
@@ -1200,9 +1200,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -1287,8 +1287,8 @@
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -1343,9 +1343,9 @@
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -1433,9 +1433,9 @@
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -1487,9 +1487,9 @@
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -1537,8 +1537,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -1617,8 +1617,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -1658,8 +1658,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -1699,8 +1699,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -1742,9 +1742,9 @@
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -1782,9 +1782,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
-        "HUMANITIES",
         "ARTS",
-        "TECH"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -1868,11 +1868,11 @@
       "start_date": "2025-10-08T14:00:00+00:00",
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
-        "HUMANITIES",
-        "DESIGN",
+        "ARTS",
         "POLITICS",
+        "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -1914,9 +1914,9 @@
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -1958,11 +1958,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "TECH",
+        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -2012,9 +2012,9 @@
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -2061,11 +2061,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "HUMANITIES",
-        "TECH",
+        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -2112,9 +2112,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "POLITICS",
         "ARTS",
-        "TECH"
+        "TECH",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -2157,9 +2157,9 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
+        "ARTS",
         "POLITICS",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/politicsoftheater",
@@ -2201,9 +2201,9 @@
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -2375,9 +2375,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
+        "ARTS",
         "POLITICS",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemlenorepalladin",
@@ -2420,8 +2420,8 @@
       "start_date": "2025-10-29T21:00:00+00:00",
       "end_date": "2025-10-29T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "ARTS"
+        "ARTS",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/alumnireading40",
@@ -2463,9 +2463,9 @@
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
         "ARTS",
+        "TECH",
         "DESIGN",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -2512,8 +2512,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -2557,8 +2557,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -2605,8 +2605,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -2691,8 +2691,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -2733,11 +2733,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "TECH",
+        "ARTS",
         "DESIGN",
         "SOCIAL",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -2784,8 +2784,8 @@
       "start_date": "2025-12-07T19:00:00+00:00",
       "end_date": "2025-12-07T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
@@ -2825,8 +2825,8 @@
       "start_date": "2025-12-08T00:00:00+00:00",
       "end_date": "2025-12-08T02:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
@@ -2866,8 +2866,8 @@
       "start_date": "2026-01-11T17:30:00+00:00",
       "end_date": "2026-01-11T18:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-january",
@@ -2908,8 +2908,8 @@
       "start_date": "2026-01-11T19:00:00+00:00",
       "end_date": "2026-01-11T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-ulysses",
@@ -2944,8 +2944,8 @@
       "start_date": "2026-03-22T16:30:00+00:00",
       "end_date": "2026-03-22T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
@@ -2985,8 +2985,8 @@
       "start_date": "2026-03-22T18:00:00+00:00",
       "end_date": "2026-03-22T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
@@ -3026,8 +3026,8 @@
       "start_date": "2026-04-26T16:30:00+00:00",
       "end_date": "2026-04-26T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
@@ -3067,8 +3067,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
@@ -3108,8 +3108,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",
