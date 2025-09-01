@@ -359,6 +359,8 @@ def parse_juilliard_events(data):
                     "start_date": date.isoformat(),
                     "end_date": end_date.isoformat(),
                     "category": determine_categories(event_info),
+                    "source": "juilliard",
+                    "source_group": "juilliard",
                     "metadata": metadata
                 }
 
@@ -426,6 +428,8 @@ def parse_juilliard_events(data):
                             "start_date": date.isoformat(),
                             "end_date": end_date.isoformat(),
                             "category": determine_categories(event_data),
+                            "source": "juilliard",
+                            "source_group": "juilliard",
                             "metadata": metadata
                         }
 

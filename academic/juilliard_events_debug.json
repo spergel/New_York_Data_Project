@@ -10,11 +10,13 @@
       "start_date": "2025-09-12T19:30:00+00:00",
       "end_date": "2025-09-12T21:30:00+00:00",
       "category": [
+        "ARTS",
         "DANCE",
         "MUSIC",
-        "ARTS",
         "THEATER"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177901/opening-night",
         "source_name": "Juilliard Events Calendar",
@@ -48,9 +50,11 @@
       "start_date": "2025-09-13T10:00:00+00:00",
       "end_date": "2025-09-13T12:00:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177906/place-us-opening-day-juilliard-station",
         "source_name": "Juilliard Events Calendar",
@@ -84,9 +88,11 @@
       "start_date": "2025-09-13T19:30:00+00:00",
       "end_date": "2025-09-13T21:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179241/juilliard-jazz-orchestra-american-orchestra-early-swing-bands-1920s-and-1930s",
         "source_name": "Juilliard Events Calendar",
@@ -121,6 +127,8 @@
         "ARTS",
         "THEATER"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177916/juilliard-drama-presents-scenes-recent-playwriting-alums",
         "source_name": "Juilliard Events Calendar",
@@ -151,9 +159,11 @@
       "start_date": "2025-09-16T17:30:00+00:00",
       "end_date": "2025-09-16T19:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179791/rush-hour-performance-faculty-spotlight-shai-wosner-piano",
         "source_name": "Juilliard Events Calendar",
@@ -184,9 +194,11 @@
       "start_date": "2025-09-16T19:30:00+00:00",
       "end_date": "2025-09-16T21:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177921/new-series-piano-story",
         "source_name": "Juilliard Events Calendar",
@@ -224,9 +236,11 @@
       "start_date": "2025-09-17T13:00:00+00:00",
       "end_date": "2025-09-17T15:00:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177926/wednesdays-one-chamber-music",
         "source_name": "Juilliard Events Calendar",
@@ -258,9 +272,11 @@
       "start_date": "2025-09-17T17:30:00+00:00",
       "end_date": "2025-09-17T19:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179796/rush-hour-performance-graduate-string-quartet-spotlight-katarina-string-quartet",
         "source_name": "Juilliard Events Calendar",
@@ -292,10 +308,12 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:30:00+00:00",
       "category": [
-        "MUSIC",
         "ARTS",
+        "MUSIC",
         "THEATER"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177931/juilliard-joes-pub-songs-tesori-sessions",
         "source_name": "Juilliard Events Calendar",
@@ -327,9 +345,11 @@
       "start_date": "2025-09-18T19:30:00+00:00",
       "end_date": "2025-09-18T21:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179246/juilliard-orchestra-conducted-stephanie-childress",
         "source_name": "Juilliard Events Calendar",
@@ -361,9 +381,11 @@
       "start_date": "2025-09-19T18:00:00+00:00",
       "end_date": "2025-09-19T20:00:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179801/rush-hour-performance-faculty-spotlight-ted-rosenthal-jazz-piano",
         "source_name": "Juilliard Events Calendar",
@@ -395,9 +417,11 @@
       "start_date": "2025-09-19T19:30:00+00:00",
       "end_date": "2025-09-19T21:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179251/juilliard415-crossing-alps-how-italian-baroque-traveled-north",
         "source_name": "Juilliard Events Calendar",
@@ -429,10 +453,12 @@
       "start_date": "2025-09-20T11:00:00+00:00",
       "end_date": "2025-09-20T13:00:00+00:00",
       "category": [
+        "ARTS",
         "DANCE",
-        "MUSIC",
-        "ARTS"
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177946/juilliard-outdoors",
         "source_name": "Juilliard Events Calendar",
@@ -467,11 +493,13 @@
       "start_date": "2025-09-20T14:00:00+00:00",
       "end_date": "2025-09-20T16:00:00+00:00",
       "category": [
+        "ARTS",
         "DANCE",
         "MUSIC",
-        "ARTS",
         "THEATER"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177951/my-brain-after-rupture-screening-and-talk-clemency-burton-hill",
         "source_name": "Juilliard Events Calendar",
@@ -505,11 +533,13 @@
       "start_date": "2025-09-20T19:30:00+00:00",
       "end_date": "2025-09-20T21:30:00+00:00",
       "category": [
+        "ARTS",
         "DANCE",
         "MUSIC",
-        "ARTS",
         "THEATER"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177956/departing",
         "source_name": "Juilliard Events Calendar",
@@ -546,9 +576,11 @@
       "start_date": "2025-09-23T17:30:00+00:00",
       "end_date": "2025-09-23T19:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179806/rush-hour-performance-faculty-spotlight-mark-sherman-jazz-percussion",
         "source_name": "Juilliard Events Calendar",
@@ -580,9 +612,11 @@
       "start_date": "2025-09-24T17:30:00+00:00",
       "end_date": "2025-09-24T19:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179811/rush-hour-performance-faculty-spotlight-nadia-sirota-viola-nico-muhly-composition",
         "source_name": "Juilliard Events Calendar",
@@ -613,9 +647,11 @@
       "start_date": "2025-09-24T18:00:00+00:00",
       "end_date": "2025-09-24T20:00:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/177961/sonatenabend",
         "source_name": "Juilliard Events Calendar",
@@ -648,9 +684,11 @@
       "start_date": "2025-09-25T17:30:00+00:00",
       "end_date": "2025-09-25T19:30:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179816/rush-hour-performance-faculty-spotlight-daniel-block-jazz-saxophone",
         "source_name": "Juilliard Events Calendar",
@@ -682,9 +720,11 @@
       "start_date": "2025-09-26T18:00:00+00:00",
       "end_date": "2025-09-26T20:00:00+00:00",
       "category": [
-        "MUSIC",
-        "ARTS"
+        "ARTS",
+        "MUSIC"
       ],
+      "source": "juilliard",
+      "source_group": "juilliard",
       "metadata": {
         "source_url": "https://www.juilliard.edu/event/179821/rush-hour-performance-faculty-spotlight-hsin-yun-huang-viola-misha-armory-viola",
         "source_name": "Juilliard Events Calendar",
