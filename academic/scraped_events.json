@@ -1,21 +1,23 @@
 {
-  "scraped_at": "2025-08-31T19:15:35.344298",
-  "total_events": 280,
+  "scraped_at": "2025-09-01T13:15:29.385953",
+  "total_events": 379,
   "event_sources": {
-    "cims_events_debug": 36,
+    "cims_events_debug": 38,
     "columbia_classics_events_debug": 23,
     "columbia_events_debug": 100,
     "columbia_math_events_debug": 2,
     "cooper_union_events_debug": 2,
     "cornell_tech_events_debug": 2,
-    "fordham_events_debug": 6,
+    "fordham_calendar_events_debug": 6,
     "gallatin_events_debug": 21,
     "hunter_college_events_debug": 1,
     "isaw_events_debug": 5,
     "jtsa_events_debug": 10,
-    "new_school_events_debug": 70,
+    "juilliard_events_debug": 20,
+    "new_school_events_debug": 69,
+    "nyu_api_events_debug": 43,
     "nyu_education_events_debug": 2,
-    "nyu_law_events_debug": 4,
+    "nyu_engineering_events_debug": 40,
     "nyu_medicine_events_debug": 2,
     "nyu_stern_events_debug": 8,
     "pratt_events_debug": 4
@@ -48,6 +50,42 @@
         },
         "additional_info": {
           "speaker": "Yifan Guo, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_cims_ec1f7418",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-12T14:00:00",
+      "end_date": "2025-09-12T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Junsheng Zhang, NYU",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -1059,58 +1097,6 @@
       }
     },
     {
-      "id": "evt_columbia_8e288a20",
-      "name": "SOTD | Afternoon Tea",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Join us for a low tea at&amp;nbsp;&lt;a href=\"https://thewolseleycity.com/\"&gt;The Wolseley&amp;#39;s&lt;/a&gt;&amp;nbsp;iconic City location. Hosted by She Opened the Door Chairperson&amp;nbsp;&lt;a href=\"https://www.linkedin.com/in/cassandra-l-ziegler/\"&gt;Cassandra L. Ziegler,&amp;nbsp;&lt;/a&gt;&amp;#39;17TC, &amp;#39;25SIPA&amp;nbsp;and representatives from the Columbia University Club of London, this afternoon event promises stimulating conversation alongside a classic high tea menu. The classic tea includes* assorted finger sandwiches, scones with strawberry jam and clotted cream, a selection of cakes and The Wolseley Collection teas.&amp;nbsp;Enjoy this British tradition alongside live music, with live jazz on the mezzanine on Sundays.&lt;/p&gt;\n&lt;p&gt;This event is presented by the&amp;nbsp;&lt;strong&gt;Columbia University Club of London&lt;/strong&gt;&amp;nbsp;in collaboration with&amp;nbsp;&lt;strong&gt;Columbia Alumni Association&amp;#39;s&lt;/strong&gt;&amp;nbsp;&lt;a href=\"https://sotd.alumni.columbia.edu/\" target=\"_blank\"&gt;She Opened the Door&lt;/a&gt;&amp;nbsp;initiative.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Please read our updated&amp;nbsp;&lt;a href=\"https://london.alumni.columbia.edu/cancellation-policy\" target=\"_blank\"&gt;Cancellation Policy&lt;/a&gt;.&amp;nbsp;&lt;em&gt;&lt;strong&gt;Ticket price includes your classic tea, service charge, and processing fees.&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;*Please note, 48 hours notice is required to accommodate the following dietary needs:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Vegetarian&lt;/li&gt;\n&lt;li&gt;Vegan&lt;/li&gt;\n&lt;li&gt;Pescatarian&lt;/li&gt;\n&lt;li&gt;Dairy free&lt;/li&gt;\n&lt;li&gt;Nut free&lt;/li&gt;\n&lt;li&gt;Gluten free&lt;/li&gt;\n&lt;/ul&gt;",
-      "start_date": "2025-08-31T11:30:00+00:00",
-      "end_date": "2025-08-31T13:30:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98a2753e-0198-a4a47c0f-00007a80events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Off-campus\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Columbia Alumni Association",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Columbia Alumni Association",
-          "tags": [
-            "Off Campus",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Lunch",
-            "Community",
-            "org/cu_alumni_association",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Lunch",
-            "Community",
-            "org/cu_alumni_association",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_085dbd45",
       "name": "Setting the Tone: Communicating Your AI Expectations",
       "type": "Academic",
@@ -1397,8 +1383,8 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -1485,8 +1471,8 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -1746,8 +1732,8 @@
       "start_date": "2025-09-04T14:00:00+00:00",
       "end_date": "2025-09-04T20:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-8da6e14b-018d-a92b7ab3-00004639events%40columbia.edu&recurrenceId=",
@@ -1909,10 +1895,10 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
+        "ARTS",
         "SCIENCE",
         "SOCIAL",
-        "HEALTH",
-        "ARTS"
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98312e19-0198-32d26832-000039d4events%40columbia.edu&recurrenceId=",
@@ -2904,8 +2890,8 @@
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
         "ARTS",
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e04ab4-0198-e20d2316-00006860events%40columbia.edu&recurrenceId=",
@@ -3145,8 +3131,8 @@
       "start_date": "2025-09-10T16:00:00+00:00",
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -3615,8 +3601,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7c8b485-000002e8events%40columbia.edu&recurrenceId=",
@@ -3684,8 +3670,8 @@
       "start_date": "2025-09-11T22:30:00+00:00",
       "end_date": "2025-09-12T00:30:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33717e39-00006241events%40columbia.edu&recurrenceId=",
@@ -3761,9 +3747,9 @@
       "start_date": "2025-09-12T12:30:00+00:00",
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
+        "SOCIAL",
         "HEALTH"
       ],
       "metadata": {
@@ -4503,9 +4489,9 @@
       "start_date": "2025-09-15T22:30:00+00:00",
       "end_date": "2025-09-16T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SCIENCE",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33887390-0000673fevents%40columbia.edu&recurrenceId=",
@@ -4968,8 +4954,8 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-338b4e1b-0000680bevents%40columbia.edu&recurrenceId=",
@@ -5166,8 +5152,8 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -5393,8 +5379,8 @@
       "start_date": "2025-09-18T11:00:00+00:00",
       "end_date": "2025-09-18T21:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-981772cf-0198-19b7ca5d-000052ffevents%40columbia.edu&recurrenceId=",
@@ -5474,9 +5460,9 @@
       "start_date": "2025-09-18T15:00:00+00:00",
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
+        "SCIENCE",
         "SOCIAL",
-        "HEALTH",
-        "SCIENCE"
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985535db-0198-56decc16-00006d8fevents%40columbia.edu&recurrenceId=",
@@ -6102,8 +6088,8 @@
       "start_date": "2025-09-18T22:30:00+00:00",
       "end_date": "2025-09-19T00:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-3374f2d7-00006300events%40columbia.edu&recurrenceId=",
@@ -6177,8 +6163,8 @@
       "start_date": "2025-09-19T12:30:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -6646,8 +6632,8 @@
       "start_date": "2025-09-19T22:00:00+00:00",
       "end_date": "2025-09-20T00:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7d5b17e-000005a9events%40columbia.edu&recurrenceId=",
@@ -7085,8 +7071,8 @@
       "end_date": "2025-09-22T17:00:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98a7a05e-0198-a94a71b0-00005102events%40columbia.edu&recurrenceId=",
@@ -7386,8 +7372,8 @@
       "start_date": "2025-09-22T19:30:00+00:00",
       "end_date": "2025-09-22T21:30:00+00:00",
       "category": [
-        "HEALTH",
-        "TECH"
+        "TECH",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98370f12-0198-388161fa-0000424eevents%40columbia.edu&recurrenceId=",
@@ -7519,9 +7505,9 @@
       "start_date": "2025-09-22T22:00:00+00:00",
       "end_date": "2025-09-23T01:00:00+00:00",
       "category": [
-        "BUSINESS",
         "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "BUSINESS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97bfe6ab-0197-c1df5829-00005c98events%40columbia.edu&recurrenceId=",
@@ -7745,6 +7731,84 @@
       }
     },
     {
+      "id": "evt_columbia_5ace1b05",
+      "name": "Edward P. Evans MDS Center Seminar Series: Francesco Maura, MD",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Speaker:&amp;nbsp;&lt;a href=\"https://www.mskcc.org/cancer-care/doctors/francesco-maura\" target=\"_blank\"&gt;Francesco Maura, MD,&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;Assistant Professor at the Memorial Sloan Kettering Cancer Center&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Hosted by Suzanne Lentzsch, MD, Professor of Medicine at CUIMC;&amp;nbsp;Director, Multiple Myeloma and Amyloidosis Program.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;This event is sponsored by the Herbert Irving Comprehensive Cancer Center&amp;#39;s (HICCC)&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/research/researchers/edward-p-evans-center-myelodysplastic-syndromes-mds\" target=\"_blank\"&gt;Edward P. Evans Center for Myelodysplastic Syndromes (MDS)&lt;/a&gt;&amp;nbsp;at Columbia University, established to&amp;nbsp;foster an all-encompassing approach in studying MDS&amp;nbsp;giving us&amp;nbsp;molecular, cellular genetic and epigenetic insights to develop and test innovative therapies.&lt;/p&gt;",
+      "start_date": "2025-09-23T17:15:00+00:00",
+      "end_date": "2025-09-23T18:15:00+00:00",
+      "category": [
+        "SCIENCE",
+        "HEALTH"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-989d53e6-0198-9fd8fcd3-000071b7events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
+          "tags": [
+            "org/MDS",
+            "Medical Center",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Clinical Health Sciences",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Trainees",
+            "org/cumc_hiccc",
+            "org/cumc"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Clinical Health Sciences",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Trainees",
+            "org/cumc_hiccc",
+            "org/cumc"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_math_eab81d68fb",
       "name": "2016 SPRING TERM LECTURE SERIES",
       "description": "",
@@ -7879,103 +7943,103 @@
       }
     },
     {
-      "id": "evt_fordham_b8f3812930",
-      "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society of America",
-      "description": "",
+      "id": "evt_fordham_calendar_bf65d1e844",
+      "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society",
+      "description": "Longterm loans of important and rarely seen ancient sculpture f",
       "start_date": "2025-01-17",
-      "end_date": "",
+      "end_date": "2026-12-31",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
-        "source_url": "https://www.fordham.edu/events/",
+        "source_url": "https://now.fordham.edu/event/ancient-sculpture-from-the-brooklyn-museu",
         "source_name": "Fordham University",
         "venue": {
-          "name": "Fordham University",
+          "name": "Museum of Greek\\, Etruscan\\, and Roman Art\\, Walsh Library\\, 441 E",
           "type": "Offline"
         }
       }
     },
     {
-      "id": "evt_fordham_4feb10d87f",
-      "name": "“Ground Meets Water”: Photographs by Michael Chovan-Dalton",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "fordham",
-      "source_group": "fordham",
-      "metadata": {
-        "source_url": "https://www.fordham.edu/events/",
-        "source_name": "Fordham University",
-        "venue": {
-          "name": "Fordham University",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_fordham_aab3b743a6",
-      "name": "Book Talk: ‘Lost Indignation’",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "fordham",
-      "source_group": "fordham",
-      "metadata": {
-        "source_url": "https://www.fordham.edu/events/",
-        "source_name": "Fordham University",
-        "venue": {
-          "name": "Fordham University",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_fordham_9a12385662",
+      "id": "evt_fordham_calendar_544c5b591a",
       "name": "Scientific Symposium: Community Engagement and Migration",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
+      "description": "Join Fordham University’s Institute of International Humanitari",
+      "start_date": "2025-09-09",
+      "end_date": "2025-09-11",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
-        "source_url": "https://www.fordham.edu/events/",
+        "source_url": "https://now.fordham.edu/event/scientific-symposium-community-engagement",
         "source_name": "Fordham University",
         "venue": {
-          "name": "Fordham University",
+          "name": "12th-Floor Lounge\\, Lowenstein\\, 113 W 60th St\\, New York\\, NY\\, 1",
           "type": "Offline"
         }
       }
     },
     {
-      "id": "evt_fordham_3b5fc0cccc",
+      "id": "evt_fordham_calendar_4fa6fc36bc",
       "name": "Autumn Reflection and Spirituality Discussion",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
+      "description": "As part of our fall 2025 Ignatian programming, join members of",
+      "start_date": "2025-09-16",
+      "end_date": "2025-09-16",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
-        "source_url": "https://www.fordham.edu/events/",
+        "source_url": "https://now.fordham.edu/event/autumn-reflection-and-spirituality-discus",
         "source_name": "Fordham University",
         "venue": {
-          "name": "Fordham University",
+          "name": "Murray-Weigel Hall\\, 441 E. Fordham Road\\, Bronx\\, NY\\, 10458\\, Un",
           "type": "Offline"
         }
       }
     },
     {
-      "id": "evt_fordham_4235d41b60",
-      "name": "McGinley Chair Lecture— “The Ethics of Meritocracy: A Theological Assessment”",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
+      "id": "evt_fordham_calendar_7fbea1f98a",
+      "name": "Book Talk: 'Lost Indignation'",
+      "description": "Join The Bronx County Historical Society and author Becky McAul",
+      "start_date": "2025-09-06",
+      "end_date": "2025-09-06",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
-        "source_url": "https://www.fordham.edu/events/",
+        "source_url": "https://now.fordham.edu/event/book-talk-lost-indignation/",
         "source_name": "Fordham University",
         "venue": {
-          "name": "Fordham University",
+          "name": "Museum of Bronx History\\, 3266 Bainbridge Avenue\\, Bronx\\, NY\\, 10",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_5147e83c1f",
+      "name": "Ignatian Day of Service",
+      "description": "Join the Pedro Arrupe Volunteers, Alpha Sigma Nu, and Campus",
+      "start_date": "2025-09-13",
+      "end_date": "2025-09-13",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/ignatian-day-of-service-2025/",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Rose Hill Campus\\, Fordham University\\, The Bronx\\, NY\\, USA\\, Bro",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_5d4d660ce1",
+      "name": "McGinley Chair Lecture— \"The Ethics of Meritocracy: A Theological A",
+      "description": "Rev. Thomas Massaro, S.J., will deliver this McGinley Lecture",
+      "start_date": "2025-09-18",
+      "end_date": "2025-09-18",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/mcginley-chair-lecture-the-ethics-of-meri",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Flom Auditorium\\, Walsh Library\\, 441 East Fordham Road\\, Bronx\\,",
           "type": "Offline"
         }
       }
@@ -8801,8 +8865,8 @@
       "start_date": "2025-09-03T12:00:00",
       "end_date": "2025-09-03T13:00:00",
       "category": [
-        "ARTS",
-        "RELIGION"
+        "RELIGION",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://www.jtsa.edu/event/women-rabbis-as-change-agents/",
@@ -9043,44 +9107,707 @@
       }
     },
     {
-      "id": "evt_newschool_c456234d",
-      "name": "The Stone at The New School: August Calendar",
+      "id": "evt_juilliard_6492b45f",
+      "name": "Opening Night",
       "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "The Stone at The New School serves as an artist-centric home and community for experimental and avant-garde artists, where they can perform what they want without any interference. With concerts every Wednesday through Saturday evening, The Stone at The New School continues the tradition of the landmark non-profit performance space founded in 2005 by Artistic Director John Zorn, within a greatly improved space.August 2025 will feature residencies by Nicole Mitchell, Vernon Reid, John Zorn, Kenny Wollesen, and Trevor Dunn",
-      "start_date": "2025-08-02T00:30:00+00:00",
-      "end_date": "2025-09-01T02:00:00+00:00",
+      "location_id": "loc_juilliard_sharp",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Drama, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-12T19:30:00+00:00",
+      "end_date": "2025-09-12T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "DANCE",
+        "MUSIC",
+        "ARTS",
+        "THEATER"
       ],
       "metadata": {
-        "source_url": "https://event.newschool.edu/thestone2508",
-        "source_name": "The New School Events",
+        "source_url": "https://www.juilliard.edu/event/177901/opening-night",
+        "source_name": "Juilliard Events Calendar",
         "venue": {
-          "name": "The Glassbox Theater",
+          "name": "Peter Jay Sharp Theater",
+          "address": "155 W 65th St, New York, NY 10023",
           "type": "venue"
         },
         "organizer": {
-          "name": "The New School",
+          "name": "The Juilliard School",
           "type": "organizer"
         },
         "additional_info": {
-          "department": [
-            "College Of Performing Arts"
-          ],
           "tags": [
-            "stone_event",
-            "lobbymonitor",
-            "general public",
-            "college of performing arts",
-            "performances",
-            "the glassbox theater",
-            "music performances",
-            "theater performances"
-          ],
-          "audience": []
+            "Music",
+            "Dance",
+            "Drama",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_0e6fe32a",
+      "name": "A Place for Us: Opening Day at Juilliard Station",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Opera / Voice, Free, Chamber Music, Juilliard Station, Juilliard Fall Festival",
+      "start_date": "2025-09-13T10:00:00+00:00",
+      "end_date": "2025-09-13T12:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177906/place-us-opening-day-juilliard-station",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Opera / Voice",
+            "Free",
+            "Chamber Music",
+            "Juilliard Station",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_d138f398",
+      "name": "Juilliard Jazz Orchestra | The American Orchestra: Early Swing Bands of the 1920s and 1930s",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Jazz, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-13T19:30:00+00:00",
+      "end_date": "2025-09-13T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179241/juilliard-jazz-orchestra-american-orchestra-early-swing-bands-1920s-and-1930s",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Jazz",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_e076d128",
+      "name": "Juilliard Drama Presents Scenes by Recent Playwriting Alums",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Drama, Contemporary / New Work, Juilliard Fall Festival",
+      "start_date": "2025-09-15T19:30:00+00:00",
+      "end_date": "2025-09-15T21:30:00+00:00",
+      "category": [
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177916/juilliard-drama-presents-scenes-recent-playwriting-alums",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "DR2 Theatre",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Drama",
+            "Contemporary / New Work",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_d15c2720",
+      "name": "Rush Hour Performance | Faculty Spotlight: Shai Wosner, Piano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-09-16T17:30:00+00:00",
+      "end_date": "2025-09-16T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179791/rush-hour-performance-faculty-spotlight-shai-wosner-piano",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_ffc4e7bc",
+      "name": "The New Series | A Piano Story",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Jazz, Opera / Voice, Free, Chamber Music, Historical Performance, Contemporary / New Work, Live Streaming, Juilliard Fall Festival, The New Series, Music",
+      "start_date": "2025-09-16T19:30:00+00:00",
+      "end_date": "2025-09-16T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177921/new-series-piano-story",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Rosemary and Meredith Willson Theater",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Jazz",
+            "Opera / Voice",
+            "Free",
+            "Chamber Music",
+            "Historical Performance",
+            "Contemporary / New Work",
+            "Live Streaming",
+            "Juilliard Fall Festival",
+            "The New Series",
+            "Music"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_31850878",
+      "name": "Wednesdays at One: Chamber Music",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Chamber Music, Juilliard Fall Festival",
+      "start_date": "2025-09-17T13:00:00+00:00",
+      "end_date": "2025-09-17T15:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177926/wednesdays-one-chamber-music",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Chamber Music",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_043f80bf",
+      "name": "Rush Hour Performance | Graduate String Quartet Spotlight: Katarina String Quartet",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Chamber Music, Juilliard Station",
+      "start_date": "2025-09-17T17:30:00+00:00",
+      "end_date": "2025-09-17T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179796/rush-hour-performance-graduate-string-quartet-spotlight-katarina-string-quartet",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Chamber Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_1c769b4b",
+      "name": "Juilliard at Joe’s Pub: Songs From the Tesori Sessions",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Jazz, Drama, Juilliard Fall Festival",
+      "start_date": "2025-09-17T21:30:00+00:00",
+      "end_date": "2025-09-17T23:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177931/juilliard-joes-pub-songs-tesori-sessions",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Joe’s Pub, The Public Theater",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Jazz",
+            "Drama",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_2e6d3d53",
+      "name": "Juilliard Orchestra Conducted by Stephanie Childress",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Orchestra, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-18T19:30:00+00:00",
+      "end_date": "2025-09-18T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179246/juilliard-orchestra-conducted-stephanie-childress",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Orchestra",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_85a515a5",
+      "name": "Rush Hour Performance | Faculty Spotlight: Ted Rosenthal, Jazz Piano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Jazz, Juilliard Station",
+      "start_date": "2025-09-19T18:00:00+00:00",
+      "end_date": "2025-09-19T20:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179801/rush-hour-performance-faculty-spotlight-ted-rosenthal-jazz-piano",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Jazz",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_81e6a8e0",
+      "name": "Juilliard415 | Crossing the Alps: How the Italian Baroque Traveled North",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Historical Performance, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-19T19:30:00+00:00",
+      "end_date": "2025-09-19T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179251/juilliard415-crossing-alps-how-italian-baroque-traveled-north",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Historical Performance",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_de2fcc2a",
+      "name": "Juilliard Outdoors",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Free, Chamber Music, Contemporary / New Work, Preparatory Education, Juilliard Fall Festival",
+      "start_date": "2025-09-20T11:00:00+00:00",
+      "end_date": "2025-09-20T13:00:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177946/juilliard-outdoors",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Josie Robertson Plaza",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Free",
+            "Chamber Music",
+            "Contemporary / New Work",
+            "Preparatory Education",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_f949f090",
+      "name": "\"My Brain: After the Rupture\" Screening and Talk With Clemency Burton-Hill",
+      "type": "Seminar",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Drama, Contemporary / New Work, Pay-what-you-wish, Juilliard Fall Festival",
+      "start_date": "2025-09-20T14:00:00+00:00",
+      "end_date": "2025-09-20T16:00:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177951/my-brain-after-rupture-screening-and-talk-clemency-burton-hill",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Francesca Beale Theater, Film at Lincoln Center",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Drama",
+            "Contemporary / New Work",
+            "Pay-what-you-wish",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_68318100",
+      "name": "Departing",
+      "type": "Performance",
+      "location_id": "loc_juilliard_sharp",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Drama, Opera / Voice, Orchestra, Chamber Music, Live Streaming, Juilliard Fall Festival",
+      "start_date": "2025-09-20T19:30:00+00:00",
+      "end_date": "2025-09-20T21:30:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177956/departing",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Peter Jay Sharp Theater",
+          "address": "155 W 65th St, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Drama",
+            "Opera / Voice",
+            "Orchestra",
+            "Chamber Music",
+            "Live Streaming",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_430c2a82",
+      "name": "Rush Hour Performance | Faculty Spotlight: Mark Sherman, Jazz Percussion",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Jazz, Juilliard Station",
+      "start_date": "2025-09-23T17:30:00+00:00",
+      "end_date": "2025-09-23T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179806/rush-hour-performance-faculty-spotlight-mark-sherman-jazz-percussion",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Jazz",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_c91f16be",
+      "name": "Rush Hour Performance | Faculty Spotlight: Nadia Sirota, Viola; Nico Muhly, Composition",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-09-24T17:30:00+00:00",
+      "end_date": "2025-09-24T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179811/rush-hour-performance-faculty-spotlight-nadia-sirota-viola-nico-muhly-composition",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_31db8b8b",
+      "name": "Sonatenabend",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Classical, Live Streaming",
+      "start_date": "2025-09-24T18:00:00+00:00",
+      "end_date": "2025-09-24T20:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177961/sonatenabend",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Classical",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_c11a6eec",
+      "name": "Rush Hour Performance | Faculty Spotlight: Daniel Block, Jazz Saxophone",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Jazz, Juilliard Station",
+      "start_date": "2025-09-25T17:30:00+00:00",
+      "end_date": "2025-09-25T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179816/rush-hour-performance-faculty-spotlight-daniel-block-jazz-saxophone",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Jazz",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_e0ea7e1d",
+      "name": "Rush Hour Performance | Faculty Spotlight: Hsin-Yun Huang, Viola; Misha Armory, Viola",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-09-26T18:00:00+00:00",
+      "end_date": "2025-09-26T20:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179821/rush-hour-performance-faculty-spotlight-hsin-yun-huang-viola-misha-armory-viola",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
         }
       }
     },
@@ -9090,13 +9817,13 @@
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "The MFA in Transdisciplinary Design opens the academic year with a public gathering that brings together people working across disciplines, contexts, and communities. Grounded in critical praxis, our program develops reflexive, experimental, and responsive forms of practice and aesthetic experiences that engage with the complexities of our social, ecological, and cultural conditions. The Fall Convening reflects this ethos through intimate sessions of conversations, performances, and live experiments. Alongside welcoming our new cohort, the event invites graduate students and faculty from across The New School to take part and see how our work connects with diverse fields of study. Most MFA Transdisciplinary Design courses are open to graduate students from all divisions, creating opportunities to work alongside peers from a wide range of disciplines and perspectives. As part of the event, we will also share an overview of all our courses, open to graduate students across The New School, so participants can explore how they might connect to their own practice or research. We will also introduce this year’s thematic inquiry in our first-year studio, which explores how creative practice can respond to the cultural, ecological, and political dimensions of extinction.Guests:James Oliver is a Hebridean Gàidheal and transdisciplinary academic. He is an Associate Professor at the School of Design at RMIT University in Melbourne. His career in ‘practice-research’ bridges cultural relations, creative practice research, and Indigenous Practice Research. His passion project, Tuath, is a collaboration with ancestral and common land in the Isle of Skye.Erin Dixon grew with the crystal-clear waters of Bineshii Okaninguming, Skeleton Lake in the traditional homelands of the Anishiinabeg. Of Otipemisiwak Cree-Métis and Icelandic-Isles heritage, she is dedicated to Indigenous-Ancestral knowledge in times of prophecy and planetary health transformation. She directs Wise Practices for the RAD Network, teaches across institutions including Banff Centre and Royal Roads University, and co-convenes the Indigenous Leadership stream within the ILA. At home, she serves in leadership and community roles such as Feather Carriers, the Gojijing Roundtable, and the Bineshi Okanin Centre for Sacred Places. Erin is pursuing a Practice-Based PhD with RMIT and Parsons New School, collaborating with the Collective Fabulation Lab.Jeongki Lim is Associate Professor of Strategic Design and Management and serves as Dean of the School of Design Strategies at Parsons School of Design. His work spans launching strategic initiatives in private and public sectors to research at the intersection of design and science. His current projects examine artificial intelligence as relational artifacts in creative learning and develop AI-enabled systems for art and design pedagogy. His research, published in major conferences and journals, also explores complexity science, design fiction, and posthumanism in curricula. He holds degrees from NYU and a Doctor of Arts in New Media from Aalto University, Finland.Tiffany Sia is an artist, filmmaker, and writer whose films have screened at TIFF, NYFF, MoMA Doc Fortnight, and more. She has presented solo exhibitions at Artists Space (NY), Cantor Arts Center (Stanford), Maxwell Graham Gallery (NY), and Felix Gaudlitz (Vienna). Sia is the author of On and Off-Screen Imaginaries (Primary Information, 2024), a compendium of essays on fugitive, exilic cinema. Her practice spans film, video sculpture, artist books, and critical writing, challenging representation, historical periodization, and the politics of record. Recipient of the 2024 Baloise Art Prize, she has lectured at institutions including Dia Art Foundation, Stanford, and Yale.Schedule:Wednesday, September 3Johnson/Kaplan Auditorium9:30 AM – 11:30 AMTransdisciplinary Practice Research: Erin Dixon and James Oliver—presentations and in a conversationJames Oliver: Practice Research: our Technology of the ImaginationDrawing from a range of place-based projects and international creative collaborations that have evolved in relation to learning with land and language, as cultural and cognitive justice, we will consider how we can transcend the limits of national and disciplinary boundaries. This seminar is an introduction on working (or doing and thinking) with practices of openness and collaboration—practice research as a means of not (over)determining futures—doing/making in terms of methodology, and of being and becoming with practice.Erin Dixon: Awi-Niiganni-Mino- Wiji-Inawendiwin: Going Forward Together in HarmonyThrough the generosity of our grandmother's tidal estuaries and mahicantuck ways, Erin will share storywork to reflect on the deepening of lifeway practices. Shifting from survival to sitting at the centre in re-search; scouting, futuring in footsteps, that unfolds a web of deep listening to place, and the movements of Indigenous—Ancestral practices in the spirit of reweaving kinship in right relations—reconciliation with all our relations.2:00 PM – 3:30 PMWollman HallPractice Research RoundtableErin Dixon, James Oliver, and Jeongki Lim explore practice-based research as a mode of inquiry, collaboration, and world-making. Together, they will share how their work—spanning Indigenous leadership, creative practice, land-based research, and AI-enabled pedagogies—engages with knowledge traditions and emerging possibilities across design, culture, and planetary health.Thursday, September 410:00 AM – 11:30 AMWollman HallHow to make a life with Tiffany SiaAn intimate conversation about what it means to build a practice as a transdisciplinary maker/thinker. Drawing from her work as both an artist and filmmaker Tiffany will share insights into navigating creative work and building a sustainable, multidimensional career.2:00 PM – 3:30 PMJohnson/Kaplan AuditoriumConsortium for Trans/disciplinarity Labs: Collective Fabulation Lab; Life in the Fault Line LabJoin us for short presentations of ongoing projects of these new university Labs, and open discussion for ways to collaborate.Collective Fabulation Lab is a space for transdisciplinary practice research, scholarship, and teaching and learning in and through narrative forms as exploratory and experimental ways, centering processual story-making as critical praxis. Fabulations are emergent imaginaries, narratives that unfold and reweave. Collective fabulation is a method of ontological practice through myriad tactical and improvisational ways of being, relating and becoming with the world.Life in the Fault LineThe University of California Santa Cruz, and The New School are facilitating the Life in the Fault Line initiative in the Brazilian Amazon, a region of vast biodiversity and rich cultural heritage that faces ongoing threats from deforestation, forced labor, and infrastructural disruption. At the center of these tensions is the BR-319 highway, a literal and metaphorical “faultline” that starkly exposes the conflicts between development and ecological coexistence.The Consortium for Transdisciplinarity(CT/d) is a framework for connecting transdisciplinary teaching, learning, and research across the university. CT/d supports collaboration between Parsons, The New School for Social Research, and other divisions, fostering a robust ecosystem for inquiry.6:15 PM – 7:30 PMWeiss LectureKaplan HallJames Oliver: Cultural Longing and Belonging in Practice as ResearchInspired by anthropologist and poet Renato Rosaldo’s proposition that human action and articulations, including the creative expression of doing or making, are also deeply related to the cultural force of emotion, this presentation unfolds its own focus (on the cultural force of research and practice-research as a cultural force) through a reflective narrative on places, projects and pedagogy, across the personal and professional practice of a professor. This is presented as a connectedness of place-based, temporal and spatial stories, hyper-local relationships in the global archipelago, our island ocean; the professor is a transdisciplinary educator, researcher and writer (of sorts), with several decades experience across a range of disciplines and sectors, including the creative arts, design, social science, arts development and community practice.",
+      "description": "The MFA in Transdisciplinary Design opens the academic year with a public gathering that brings together people working across disciplines, contexts, and communities. Grounded in critical praxis, our program develops reflexive, experimental, and responsive forms of practice and aesthetic experiences that engage with the complexities of our social, ecological, and cultural conditions. The Fall Convening reflects this ethos through intimate sessions of conversations, performances, and live experiments. Alongside welcoming our new cohort, the event invites graduate students and faculty from across The New School to take part and see how our work connects with diverse fields of study. Most MFA Transdisciplinary Design courses are open to graduate students from all divisions, creating opportunities to work alongside peers from a wide range of disciplines and perspectives. As part of the event, we will also share an overview of all our courses, open to graduate students across The New School, so participants can explore how they might connect to their own practice or research. We will also introduce this year’s thematic inquiry in our first-year studio, which explores how creative practice can respond to the cultural, ecological, and political dimensions of extinction.Guests:James Oliver is a Hebridean Gàidheal and transdisciplinary academic. He is an Associate Professor at the School of Design at RMIT University in Melbourne. His career in ‘practice-research’ bridges cultural relations, creative practice research, and Indigenous Practice Research. His passion project, Tuath, is a collaboration with ancestral and common land in the Isle of Skye.Erin Dixon grew with the crystal-clear waters of Bineshii Okaninguming, Skeleton Lake in the traditional homelands of the Anishiinabeg. Of Otipemisiwak Cree-Métis and Icelandic-Isles heritage, she is dedicated to Indigenous-Ancestral knowledge in times of prophecy and planetary health transformation. She directs Wise Practices for the RAD Network, teaches across institutions including Banff Centre and Royal Roads University, and co-convenes the Indigenous Leadership stream within the ILA. At home, she serves in leadership and community roles such as Feather Carriers, the Gojijing Roundtable, and the Bineshi Okanin Centre for Sacred Places. Erin is pursuing a Practice-Based PhD with RMIT and Parsons New School, collaborating with the Collective Fabulation Lab.Rachel Robbins is the co-founder and Executive Director of Tangible Mind, an arts and human rights nonprofit exploring the intersections of embodied cognition, design, and emerging technology. With advising from the UN, Tangible Mind is prototyping the Embodied AI Index, a framework modeled on global equity metrics that measures the impact of AI on critical thinking and embodied intelligence. Her work emphasizes how the arts can expand civic discourse, foster resilience, and center embodied experiences in addressing systemic injustice and shaping social innovation.Jeongki Lim is Associate Professor of Strategic Design and Management and serves as Dean of the School of Design Strategies at Parsons School of Design. His work spans launching strategic initiatives in private and public sectors to research at the intersection of design and science. His current projects examine artificial intelligence as relational artifacts in creative learning and develop AI-enabled systems for art and design pedagogy. His research, published in major conferences and journals, also explores complexity science, design fiction, and posthumanism in curricula. He holds degrees from NYU and a Doctor of Arts in New Media from Aalto University, Finland.Tiffany Sia is an artist, filmmaker, and writer whose films have screened at TIFF, NYFF, MoMA Doc Fortnight, and more. She has presented solo exhibitions at Artists Space (NY), Cantor Arts Center (Stanford), Maxwell Graham Gallery (NY), and Felix Gaudlitz (Vienna). Sia is the author of On and Off-Screen Imaginaries (Primary Information, 2024), a compendium of essays on fugitive, exilic cinema. Her practice spans film, video sculpture, artist books, and critical writing, challenging representation, historical periodization, and the politics of record. Recipient of the 2024 Baloise Art Prize, she has lectured at institutions including Dia Art Foundation, Stanford, and Yale.Schedule:Wednesday, September 3Johnson/Kaplan Auditorium9:30 AM – 11:30 AMTransdisciplinary Practice Research: Erin Dixon and James Oliver—presentations and in a conversationJames Oliver: Practice Research: our Technology of the ImaginationDrawing from a range of place-based projects and international creative collaborations that have evolved in relation to learning with land and language, as cultural and cognitive justice, we will consider how we can transcend the limits of national and disciplinary boundaries. This seminar is an introduction on working (or doing and thinking) with practices of openness and collaboration—practice research as a means of not (over)determining futures—doing/making in terms of methodology, and of being and becoming with practice.Erin Dixon: Awi-Niiganni-Mino- Wiji-Inawendiwin: Going Forward Together in HarmonyThrough the generosity of our grandmother's tidal estuaries and mahicantuck ways, Erin will share storywork to reflect on the deepening of lifeway practices. Shifting from survival to sitting at the centre in re-search; scouting, futuring in footsteps, that unfolds a web of deep listening to place, and the movements of Indigenous—Ancestral practices in the spirit of reweaving kinship in right relations—reconciliation with all our relations.Rachel Robbins: Expanded notions of art as a counterforceThinking doesn't just happen in the brain, it extends into our bodies, environments, and interactions with others. Tangible Mind is an arts and human rights nonprofit exploring the intersections of embodied cognition, design, and emerging technology. Through programs that span community workshops, research and praxis partnerships, and public exhibitions, Tangible Mind brings together artists, technologists, and educators to prototype new forms of civic engagement and collective imagination.2:00 PM – 3:30 PMWollman HallPractice Research RoundtableErin Dixon, James Oliver, and Jeongki Lim explore practice-based research as a mode of inquiry, collaboration, and world-making. Together, they will share how their work—spanning Indigenous leadership, creative practice, land-based research, and AI-enabled pedagogies—engages with knowledge traditions and emerging possibilities across design, culture, and planetary health.Thursday, September 410:00 AM – 11:30 AMWollman HallHow to make a life with Tiffany SiaAn intimate conversation about what it means to build a practice as a transdisciplinary maker/thinker. Drawing from her work as both an artist and filmmaker Tiffany will share insights into navigating creative work and building a sustainable, multidimensional career.2:00 PM – 3:30 PMJohnson/Kaplan AuditoriumConsortium for Trans/disciplinarity Labs: Collective Fabulation Lab; Life in the Fault Line LabJoin us for short presentations of ongoing projects of these new university Labs, and open discussion for ways to collaborate.Collective Fabulation Lab is a space for transdisciplinary practice research, scholarship, and teaching and learning in and through narrative forms as exploratory and experimental ways, centering processual story-making as critical praxis. Fabulations are emergent imaginaries, narratives that unfold and reweave. Collective fabulation is a method of ontological practice through myriad tactical and improvisational ways of being, relating and becoming with the world.Life in the Fault LineThe University of California Santa Cruz, and The New School are facilitating the Life in the Fault Line initiative in the Brazilian Amazon, a region of vast biodiversity and rich cultural heritage that faces ongoing threats from deforestation, forced labor, and infrastructural disruption. At the center of these tensions is the BR-319 highway, a literal and metaphorical “faultline” that starkly exposes the conflicts between development and ecological coexistence.The Consortium for Transdisciplinarity(CT/d) is a framework for connecting transdisciplinary teaching, learning, and research across the university. CT/d supports collaboration between Parsons, The New School for Social Research, and other divisions, fostering a robust ecosystem for inquiry.6:15 PM – 7:30 PMWeiss LectureKaplan HallJames Oliver: Cultural Longing and Belonging in Practice as ResearchInspired by anthropologist and poet Renato Rosaldo’s proposition that human action and articulations, including the creative expression of doing or making, are also deeply related to the cultural force of emotion, this presentation unfolds its own focus (on the cultural force of research and practice-research as a cultural force) through a reflective narrative on places, projects and pedagogy, across the personal and professional practice of a professor. This is presented as a connectedness of place-based, temporal and spatial stories, hyper-local relationships in the global archipelago, our island ocean; the professor is a transdisciplinary educator, researcher and writer (of sorts), with several decades experience across a range of disciplines and sectors, including the creative arts, design, social science, arts development and community practice.",
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS",
         "TECH"
       ],
@@ -9145,9 +9872,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -9189,8 +9916,8 @@
       "start_date": "2025-09-03T15:30:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
@@ -9228,9 +9955,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -9273,9 +10000,9 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -9355,10 +10082,10 @@
       "start_date": "2025-09-04T22:00:00+00:00",
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
         "HUMANITIES",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -9444,8 +10171,8 @@
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "TECH",
-        "ARTS"
+        "ARTS",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tugce-bilgin",
@@ -9486,8 +10213,8 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -9529,8 +10256,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -9576,9 +10303,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -9626,9 +10353,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -9671,8 +10398,8 @@
       "start_date": "2025-09-10T20:00:00+00:00",
       "end_date": "2025-09-10T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nssrfall2025welcomereception",
@@ -9845,8 +10572,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/langarts-jerronherman",
@@ -9888,10 +10615,10 @@
       "start_date": "2025-09-15T17:30:00+00:00",
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -9983,9 +10710,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -10029,9 +10756,9 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
         "HUMANITIES",
-        "ARTS",
         "POLITICS"
       ],
       "metadata": {
@@ -10074,9 +10801,9 @@
       "start_date": "2025-09-17T22:00:00+00:00",
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -10130,8 +10857,8 @@
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS",
         "TECH"
       ],
@@ -10192,10 +10919,10 @@
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "HUMANITIES"
+        "SOCIAL",
+        "HUMANITIES",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
@@ -10242,9 +10969,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -10328,9 +11055,9 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -10384,10 +11111,10 @@
       "start_date": "2025-09-26T14:00:00+00:00",
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -10474,10 +11201,10 @@
       "start_date": "2025-09-30T17:30:00+00:00",
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -10528,10 +11255,10 @@
       "start_date": "2025-10-01T17:30:00+00:00",
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -10579,8 +11306,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -10659,8 +11386,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -10700,8 +11427,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -10741,8 +11468,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -10783,10 +11510,10 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -10824,9 +11551,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "TECH",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -10911,10 +11638,10 @@
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "HUMANITIES"
+        "SOCIAL",
+        "HUMANITIES",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -10955,10 +11682,10 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -11001,8 +11728,8 @@
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "HUMANITIES",
         "TECH"
       ],
@@ -11053,10 +11780,10 @@
       "start_date": "2025-10-13T17:30:00+00:00",
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -11104,8 +11831,8 @@
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "HUMANITIES",
         "TECH"
       ],
@@ -11154,8 +11881,8 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "TECH",
         "ARTS",
+        "TECH",
         "POLITICS"
       ],
       "metadata": {
@@ -11199,8 +11926,8 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -11242,10 +11969,10 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -11285,8 +12012,8 @@
       "start_date": "2025-10-16T16:30:00+00:00",
       "end_date": "2025-10-16T18:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/freedomofexpression",
@@ -11327,8 +12054,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://cityvisionaryawards.com",
@@ -11375,8 +12102,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/asyoulikeit",
@@ -11417,8 +12144,8 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -11462,8 +12189,8 @@
       "start_date": "2025-10-29T21:00:00+00:00",
       "end_date": "2025-10-29T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "ARTS"
+        "ARTS",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/alumnireading40",
@@ -11504,10 +12231,10 @@
       "start_date": "2025-11-03T18:30:00+00:00",
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -11554,8 +12281,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -11599,8 +12326,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -11647,8 +12374,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -11688,8 +12415,8 @@
       "start_date": "2025-11-13T22:00:00+00:00",
       "end_date": "2025-11-14T04:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
@@ -11733,8 +12460,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -11776,8 +12503,8 @@
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "HUMANITIES",
         "TECH"
       ],
@@ -11826,8 +12553,8 @@
       "start_date": "2025-12-07T19:00:00+00:00",
       "end_date": "2025-12-07T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
@@ -11867,8 +12594,8 @@
       "start_date": "2025-12-08T00:00:00+00:00",
       "end_date": "2025-12-08T02:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
@@ -11908,8 +12635,8 @@
       "start_date": "2026-01-11T17:30:00+00:00",
       "end_date": "2026-01-11T18:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-january",
@@ -11950,8 +12677,8 @@
       "start_date": "2026-01-11T19:00:00+00:00",
       "end_date": "2026-01-11T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-ulysses",
@@ -11986,8 +12713,8 @@
       "start_date": "2026-03-22T16:30:00+00:00",
       "end_date": "2026-03-22T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
@@ -12027,8 +12754,8 @@
       "start_date": "2026-03-22T18:00:00+00:00",
       "end_date": "2026-03-22T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
@@ -12068,8 +12795,8 @@
       "start_date": "2026-04-26T16:30:00+00:00",
       "end_date": "2026-04-26T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
@@ -12109,8 +12836,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
@@ -12150,8 +12877,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",
@@ -12178,6 +12905,737 @@
             "the new school"
           ],
           "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_d65c2cf75b",
+      "name": "Rediscovering Fanon - Film Screening and Discussion",
+      "description": "A film screening followed by a discussion with Fide Dayo (Festival Director, African Diaspora Cinema Festival) and the Director, Rico Speight, who will join the discussion via Zoom",
+      "start_date": "2025-09-02",
+      "end_date": "2025-09-02",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368253-rediscovering-fanon-film-screening-and",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU Florence - Villa Sassetti",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_012dcbb461",
+      "name": "Authors’ Roundtable: ‘How To Be Disabled In A Pandemic’, 09/03 at 4S 2025 Seattle",
+      "description": "",
+      "start_date": "2025-09-03",
+      "end_date": "2025-09-03",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://disabilitystudies.nyu.edu/event/4s-htbdiap/",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Sheraton Grand, Space Tower, Second Floor: Cedar B, Seattle",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_3fbff1e69c",
+      "name": "Service &amp; Volunteer Fair",
+      "description": "Dive into community service at NYU with the Service &amp; Volunteer Fair!",
+      "start_date": "2025-09-03",
+      "end_date": "2025-09-03",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365773-service-volunteer-fair",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Kimmel Center for University Life",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_59841293d4",
+      "name": "Jewish Guide to Greek Life",
+      "description": "",
+      "start_date": "2025-09-03",
+      "end_date": "2025-09-03",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368539-jewish-guide-to-greek-life",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Bronfman Center for Jewish Life at NYU",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_078f0091d4",
+      "name": "Documentary Screening - The Life of Brian (Maguire): The New Film on an Irish Art Legend",
+      "description": "The Life of Brian (Maguire) is a powerful new documentary that explores the extraordinary life and work of acclaimed Irish artist and social activist Brian Maguire. Directed by Mark McLoughlin, the film follows Maguire’s journey as he uses art to spotlight global injustices—from poverty and violence to the plight of migrants in the Arizona desert. Through his raw, politically charged work, Maguire gives voice to the marginalized and challenges dominant narratives. This special screening at NYU DC is presented in collaboration with Solas Nua and the Embassy of Ireland, and will feature a post-film Q&amp;A with Brian Maguire, director Mark McLoughlin, and producer Dara Jauch.",
+      "start_date": "2025-09-03",
+      "end_date": "2025-09-03",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367909-documentary-screening-the-life-of-brian-mag",
+        "source_name": "New York University",
+        "venue": {
+          "name": "1307 L Street, NW Washington, DC 20005",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_f8a3042e77",
+      "name": "Open House for Students at SPARK @ the Digital Studio",
+      "description": "Join us at our Open House for NYU Welcome! Thursday, September 4, 2025 3:00 – 6:00 PM Tour the space, try our tech, join our AI Art Show, experience live VR demos, visit info/demo tables. Plus: snacks, giveaways, crafts, raffles and more! Stop by, get inspired, and see what SPARK can do for you!",
+      "start_date": "2025-09-04",
+      "end_date": "2025-09-04",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/366625-open-house-for-students-at-spark-the-digita",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_1098f299b5",
+      "name": "Getting Started with Peerceptiv Peer Assessment and Live Presentations",
+      "description": "Interested in adding peer review or live presentations to your course? In this webinar, we’ll explore real examples of how instructors are using Peerceptiv to engage students and improve feedback.",
+      "start_date": "2025-09-08",
+      "end_date": "2025-09-08",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368110-getting-started-with-peerceptiv-peer-assess",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_d60f242068",
+      "name": "Urban Research Seminar",
+      "description": "",
+      "start_date": "2025-09-09",
+      "end_date": "2025-09-09",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367853-urban-research-seminar",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Student Event Space A - 270, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_2f38f7ef5e",
+      "name": "Sickle Cell Disease and Music: A Talk with Afrobeats Artist Adekunle Gold",
+      "description": "",
+      "start_date": "2025-09-11",
+      "end_date": "2025-09-11",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367054-sickle-cell-disease-and-music-a-talk-with",
+        "source_name": "New York University",
+        "venue": {
+          "name": "708 Broadway, Room 801, New York, NY 10003",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_3e2bd5f9e3",
+      "name": "Washington Square News Open House",
+      "description": "The open house will be an opportunity for anyone interested in journalism to talk with editors at the Washington Square News, NYU’s independent, student-run newspaper, and learn about contributing opportunities at its news, opinion, arts, culture, sports and multimedia desks.&#160;",
+      "start_date": "2025-09-13",
+      "end_date": "2025-09-13",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367581-washington-square-news-open-house",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Third Avenue North",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_31fe704191",
+      "name": "Career Conversations: Consulting Careers",
+      "description": "",
+      "start_date": "2025-09-16",
+      "end_date": "2025-09-16",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367561-career-conversations-consulting-careers",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Online",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_3c7f4c87ba",
+      "name": "Expanding your donor community: Collective giving",
+      "description": "",
+      "start_date": "2025-09-18",
+      "end_date": "2025-09-18",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368186-aperio-collective-giving",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Online",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_afa9afa489",
+      "name": "A Conversation with Peggy Noonan and Cardinal Timothy Dolan",
+      "description": "Peggy Noonan in conversation with Cardinal Timothy Dolan",
+      "start_date": "2025-09-18",
+      "end_date": "2025-09-18",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367843-a-conversation-with-peggy-noonan-and-cardin",
+        "source_name": "New York University",
+        "venue": {
+          "name": "The Catholic Center at NYU",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_a14de9a446",
+      "name": "Changemakers in Focus: A Conversation with Michigan Secretary of State Jocelyn Benson",
+      "description": "Join the NYU John Brademas Center for the Study of Congress for this Changemakers in Focus session featuring Michigan Secretary of State Jocelyn Benson and Washington Post breaking news reporter and NYU Alumna Maegan Vazquez. After their discussion, copies of The Purposeful Warrior: Standing Up for What&#8217;s Right When the Stakes Are High will be sold on site and can be signed by Secretary Benson. As Michigan’s Secretary of State and chief election official, Jocelyn Benson has overseen several of the highest turnout, most secure elections in the state’s history. But her life changed one snowy evening in December 2020 when armed protesters descended onto her doorstep, threatening her family. Her only crime: certifying a fair and accurate Presidential election in which the protesters’ preferred candidate – Donald Trump – did not win. Benson refused to back down. She stood her ground, spoke out louder, and helped expose and defeat a coordinated national effort to overturn the election. In The Purposeful Warrior, Benson shows us how to turn fear and frustration into a fight for integrity and truth. She shares powerful stories from her rise in politics—investigating domestic terrorist cells, becoming the youngest woman in U.S. history to lead a top 100 law school, and running the Boston Marathon while more than eight months pregnant—as well as those of paradigm-shifters throughout history, to demonstrate how we can be warriors for ourselves and for each other. It starts when we stand up for others, call out bullies, raise our voices, and work with grace and grit to ensure truth, integrity, fairness and justice prevail – even when it is difficult, risky, and the stakes are high. In times of intense conflict and anxiety it’s easy to believe we are powerless to make a difference. But we’re not. We are purposeful warriors. And we all have the power to define a better world. This program is open to everyone. Registration is required in order to attend. This program may be recorded. Seating is on a first-come, first-serve basis.",
+      "start_date": "2025-09-22",
+      "end_date": "2025-09-22",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/366995-changemakers-in-focus-a-conversation-with-m",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU Washington, DC 1307 L Street, NW Washington, DC 20005",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_03b30a2f9b",
+      "name": "Urban Research Seminar",
+      "description": "",
+      "start_date": "2025-09-23",
+      "end_date": "2025-09-23",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367852-urban-research-seminar",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Faculty Seminar Room Combined, 364, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_cb0e77eefd",
+      "name": "Career Conversations: Data Careers",
+      "description": "",
+      "start_date": "2025-09-30",
+      "end_date": "2025-09-30",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367560-career-conversations-data-careers",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Online",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_8a97281244",
+      "name": "National Theatre Live Screening: Inter Alia",
+      "description": "$18*- NYU Students $28*-NYU Faculty/Staff/Alumni $33* Full Price *Save $3 by buying in person at the NYU Box Office Screening of the hit London production.",
+      "start_date": "2025-10-05",
+      "end_date": "2025-10-05",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/366564-national-theatre-live-screening-inter-alia",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_1f77d4d019",
+      "name": "Urban Research Seminar",
+      "description": "",
+      "start_date": "2025-10-07",
+      "end_date": "2025-10-07",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367851-urban-research-seminar",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Faculty Seminar Room Combined, 364, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_bf2ffcaf8a",
+      "name": "Community Philanthropy’s Opportunities to Build Inclusive Communities",
+      "description": "",
+      "start_date": "2025-10-09",
+      "end_date": "2025-10-09",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368002-community-philanthropys-opportunities-to-bu",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Main Event Space, Rm. 101, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_bb0f730593",
+      "name": "Expanding your donor community: Engaging women",
+      "description": "",
+      "start_date": "2025-10-16",
+      "end_date": "2025-10-16",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368187-aperio-engaging-women",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_1251bb23ce",
+      "name": "Book Talk: Unruly Comparison: Queerness, Hong Kong, and the Sinophone",
+      "description": "a book launch and discussion with Alvin K. Wong Thursday, Oct 16, 2025 | 6pm to 7:30pm Please join the Center for the Study of Gender and Sexuality, co-sponsored by the Asian/Pacific/American Institute at NYU, for a book launch and discussion of Unruly Comparison: Hong Kong, and the Sinophone, with author Alvin K. Wong. A limited number of free copies will be available at the event. This event is free &amp; open to the public. Registration is required. To register for in-person attendance, please complete this form.",
+      "start_date": "2025-10-16",
+      "end_date": "2025-10-16",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367838-book-talk-unruly-comparison-queerness-hong-",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_97fb004dd5",
+      "name": "Counter-cartographies: Neurodivergence and the Errancies of Performance, a book talk with Leon Hilton",
+      "description": "",
+      "start_date": "2025-10-16",
+      "end_date": "2025-10-16",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://disabilitystudies.nyu.edu/event/counter-cartographies-neurodivergence-and-the-errancies-of-performance-a-book-talk-with-leon-hilton/",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Richard Schechner Studio, Room 612, 721 Broadway, New York, NY, 10003, United States",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_e4b91d3974",
+      "name": "Urban Research Seminar",
+      "description": "",
+      "start_date": "2025-10-21",
+      "end_date": "2025-10-21",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367849-urban-research-seminar",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Faculty Seminar Room Combined, 364, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_c9e437f3ef",
+      "name": "Global Climate Justice Fellows Presentations",
+      "description": "",
+      "start_date": "2025-10-21",
+      "end_date": "2025-10-21",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367647-global-climate-justice-fellows-presentation",
+        "source_name": "New York University",
+        "venue": {
+          "name": "7 East 12th Street, New York, New York, 10003",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_9bac229630",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-23",
+      "end_date": "2025-10-23",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365602-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_92420a7b35",
+      "name": "Academic Freedom Under Attack: The United States and Southeast Asia",
+      "description": "",
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-24",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/366285-academic-freedom-under-attack-the-united-st",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Main Event Space, Rm. 101, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_bab55ee5fc",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-24",
+      "end_date": "2025-10-24",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365603-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_8fbd273783",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-26",
+      "end_date": "2025-10-26",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365604-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_a7009dc016",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-27",
+      "end_date": "2025-10-27",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365605-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_91c4d14c86",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-28",
+      "end_date": "2025-10-28",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365606-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_cbd8bd248d",
+      "name": "Editor on Call: Inside Slate – An Unfiltered Conversation with Senior Editor Rebecca Onion",
+      "description": "",
+      "start_date": "2025-10-29",
+      "end_date": "2025-10-29",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368190-editor-on-call-inside-slate-an-unfiltered",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Virtual",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_db7b25ab91",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-29",
+      "end_date": "2025-10-29",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365607-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_884d05ca57",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-30",
+      "end_date": "2025-10-30",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365608-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_d0c2a90765",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-10-31",
+      "end_date": "2025-10-31",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365609-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_c1ea92938e",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-11-02",
+      "end_date": "2025-11-02",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365610-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_c961cdac25",
+      "name": "Theater In Quarantine: Phantom of the Opera",
+      "description": "$18*- NYU Students $22*-NYU Faculty/Staff/Alumni $22* Full Price *Save $3 by buying in person at the NYU Box Office",
+      "start_date": "2025-11-03",
+      "end_date": "2025-11-03",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365611-theater-in-quarantine-phantom-of-the-opera",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_2a9953f080",
+      "name": "Book Talk With Lance Richardson (Lit Rep ’15)",
+      "description": "Peter Mathiesson Biography Discussion",
+      "start_date": "2025-11-04",
+      "end_date": "2025-11-04",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/365078-book-talk-with-lance-richardson-lit-rep-15",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_1e05adacb8",
+      "name": "ISAW Open House for Prospective Students",
+      "description": "",
+      "start_date": "2025-11-05",
+      "end_date": "2025-11-05",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/open-house-2025",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_fe8844357c",
+      "name": "Book Talk: What It Takes to Heal",
+      "description": "",
+      "start_date": "2025-11-05",
+      "end_date": "2025-11-05",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/368121-book-talk-what-it-takes-to-heal",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Main Event Space, Rm. 101, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_fd324873b5",
+      "name": "Sickle Cell Disease 115 Years Later Symposium",
+      "description": "",
+      "start_date": "2025-11-12",
+      "end_date": "2025-11-12",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367395-sickle-cell-disease-115-years-later-symposi",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU Medical Science Building, 540 1st Avenue, Schwartz Hall E, New York, NY 10016",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_69ed6ebdbe",
+      "name": "National Theatre Live Screening: Mrs. Warren’s Profession",
+      "description": "$18*- NYU Students $28*-NYU Faculty/Staff/Alumni $33* Full Price *Save $3 by buying in person at the NYU Box Office Screening of the hit London production.",
+      "start_date": "2025-11-16",
+      "end_date": "2025-11-16",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/366565-national-theatre-live-screening-mrs-warrens",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_e532b4ec5a",
+      "name": "Urban Research Seminar",
+      "description": "",
+      "start_date": "2025-12-02",
+      "end_date": "2025-12-02",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/367848-urban-research-seminar",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Faculty Seminar Room Combined, 364, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_66e3dbd19d",
+      "name": "Closing Artist Talk for Hawai‘i is not the United States, but it is your Future",
+      "description": "The artist Sean Connelly reflects on his year-long residency at the Asian/Pacific/American Institute at NYU, and shares his curatorial process and vision for Hawai‘i is not the United States, but it is your Future. The exhibition, on view at 20 Cooper Square, first floor gallery, invites viewers to consider the built environment as oceanic, an interconnected system requiring collective cultural efforts to sustain.",
+      "start_date": "2025-12-03",
+      "end_date": "2025-12-03",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://apa.nyu.edu/event/closing-artist-talk-for-hawaii-is-not-the-united-states-but-it-is-your-future/",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square",
+          "type": "Offline"
         }
       }
     },
@@ -12216,70 +13674,1249 @@
       }
     },
     {
-      "id": "evt_nyu_law_edfd4c761f",
-      "name": "NYU Law Events",
+      "id": "evt_nyu_eng_40bd2a14",
+      "name": "Course Prep and Launch Workshop",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
       "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
+      "start_date": "2025-09-02T10:00:00",
+      "end_date": "2025-09-02T11:00:00",
+      "category": [
+        "TECH"
+      ],
       "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
+        "source_url": "https://engineering.nyu.edu/events/2025/09/02/course-prep-and-launch-workshop",
+        "source_name": "NYU Tandon School of Engineering",
         "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-11/ti_brightspace_training.png?h=d1cb525d&itok=2GdzQqdi"
         }
       }
     },
     {
-      "id": "evt_nyu_law_b10868cad4",
-      "name": "PILC Week: Practice Area Panel - Law Reform",
+      "id": "evt_nyu_eng_1e7f86bd",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
       "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
+      "start_date": "2025-09-02T10:00:00",
+      "end_date": "2025-09-02T11:00:00",
+      "category": [
+        "TECH"
+      ],
       "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
+        "source_url": "https://engineering.nyu.edu/events/2025/09/02/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
         "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
         }
       }
     },
     {
-      "id": "evt_nyu_law_dd12ffdb3e",
-      "name": "Book Talk | Michelle Adams: The Containment: Detroit, the Supreme Court, and the Battle for Racial Justice in the North",
+      "id": "evt_nyu_eng_9e4e800a",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
       "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
+      "start_date": "2025-09-02T11:00:00",
+      "end_date": "2025-09-02T12:00:00",
+      "category": [
+        "TECH"
+      ],
       "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
+        "source_url": "https://engineering.nyu.edu/events/2025/09/02/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
         "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
         }
       }
     },
     {
-      "id": "evt_nyu_law_a0e78c9326",
-      "name": "Law Library Tour",
+      "id": "evt_nyu_eng_47825258",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
       "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
+      "start_date": "2025-09-03T10:00:00",
+      "end_date": "2025-09-03T11:00:00",
+      "category": [
+        "TECH"
+      ],
       "metadata": {
-        "source_url": "https://law.nyu.edu/events",
-        "source_name": "NYU School of Law",
+        "source_url": "https://engineering.nyu.edu/events/2025/09/03/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
         "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_6aed9921",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-03T11:00:00",
+      "end_date": "2025-09-03T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/03/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_4fdbc186",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-04T12:00:00",
+      "end_date": "2025-09-04T13:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/04/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_eec8f47f",
+      "name": "Course Prep and Launch Workshop",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-04T14:00:00",
+      "end_date": "2025-09-04T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/04/course-prep-and-launch-workshop",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-11/ti_brightspace_training.png?h=d1cb525d&itok=2GdzQqdi"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_7fe3fdb4",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-04T14:00:00",
+      "end_date": "2025-09-04T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/04/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_e8e9ec4d",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-05T10:00:00",
+      "end_date": "2025-09-05T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/05/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_ff17a248",
+      "name": "Building the next generation of ocean-climate model with machine learning",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-05T10:45:00",
+      "end_date": "2025-09-05T11:45:00",
+      "category": [
+        "TECH",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/05/building-next-generation-ocean-climate-model-machine-learning",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/Adcroft_HS03.jpeg?h=37370bf0&itok=RSk8HQiX"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_28749849",
+      "name": "NYU Tandon Emerging Technologies MS Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-05T13:00:00",
+      "end_date": "2025-09-05T14:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/05/nyu-tandon-emerging-technologies-ms-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-10/NYO-23-8822_EmergingTech_0.jpg?h=d08f423e&itok=TPlZqZPN"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_5267b10d",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-09T10:00:00",
+      "end_date": "2025-09-09T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/09/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_18903d1f",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-09T11:00:00",
+      "end_date": "2025-09-09T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/09/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_272af55e",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-10T10:00:00",
+      "end_date": "2025-09-10T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/10/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_26302161",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-10T11:00:00",
+      "end_date": "2025-09-10T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/10/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_b59782e4",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-11T12:00:00",
+      "end_date": "2025-09-11T13:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/11/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_720444fb",
+      "name": "NYU Tandon Digital Learning Programs Application Demonstration",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-11T13:00:00",
+      "end_date": "2025-09-11T14:00:00",
+      "category": [
+        "TECH",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/11/nyu-tandon-digital-learning-programs-application-demonstration",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-04/AdobeStock_237521842.jpeg?h=926b4b60&itok=nb0Uo5Bo"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_7d93deef",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-11T14:00:00",
+      "end_date": "2025-09-11T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/11/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_786e0250",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-12T10:00:00",
+      "end_date": "2025-09-12T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/12/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_d39f5dee",
+      "name": "Crystallization, the missing link for sustainable manufacturing?",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-12T11:45:00",
+      "end_date": "2025-09-12T12:45:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/12/crystallization-missing-link-sustainable-manufacturing",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/Stelzer%20Wiegleby%2C%20Torsten%20-%20Headshot.jpg?h=d65ef12e&itok=Kl5N4qh2"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_20872619",
+      "name": "Andrea Baronchelli — Social Conventions in Human and LLM Populations: Emergence, Robustness, and Bias",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-15T11:00:00",
+      "end_date": "2025-09-15T12:00:00",
+      "category": [
+        "TECH",
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/15/andrea-baronchelli-social-conventions-human-and-llm-populations-emergence",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/andrea_baronchelli.jpg?h=56d0ca2e&itok=Eyd7kR5E"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_44789b46",
+      "name": "Online Cybersecurity M.S. & 75% Cyber Fellowship Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-15T13:00:00",
+      "end_date": "2025-09-15T14:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/15/online-cybersecurity-ms-75-cyber-fellowship-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-02/cyberfellows-splashimage_1.jpg?h=d08f423e&itok=gNzyYBgP"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_557fbc92",
+      "name": "Radley Horton — Urban Science Research Seminar",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-15T13:00:00",
+      "end_date": "2025-09-15T14:00:00",
+      "category": [
+        "TECH",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/15/radley-horton-urban-science-research-seminar",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/RadleyHorton.jpeg?h=b419ad6f&itok=tOGuFHnc"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_6bcf5f4b",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-16T10:00:00",
+      "end_date": "2025-09-16T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/16/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_1d316fab",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-16T11:00:00",
+      "end_date": "2025-09-16T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/16/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_f5c1d1ce",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-17T10:00:00",
+      "end_date": "2025-09-17T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/17/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_1640750c",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-17T11:00:00",
+      "end_date": "2025-09-17T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/17/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_10220e7c",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-18T12:00:00",
+      "end_date": "2025-09-18T13:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/18/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_5eec4dea",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-18T14:00:00",
+      "end_date": "2025-09-18T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/18/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_b8eeeead",
+      "name": "AI & Ethics in Cybersecurity",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-18T17:30:00",
+      "end_date": "2025-09-18T18:30:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/18/ai-ethics-cybersecurity",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Annual Event,  \nLecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/1_0.png?h=787f3c03&itok=nAb34fSo"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_31226487",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-19T10:00:00",
+      "end_date": "2025-09-19T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/19/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_c19b50ce",
+      "name": "Modeling the contribution of wildfire to atmospheric composition and air quality",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-19T10:45:00",
+      "end_date": "2025-09-19T11:45:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/19/modeling-contribution-wildfire-atmospheric-composition-and-air-quality",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/846-LWH-crop.jpg?h=6797c34c&itok=s4qDs4RN"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_d272a1c5",
+      "name": "CUE Alumni Reunion",
+      "type": "Career",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-20T17:00:00",
+      "end_date": "2025-09-20T18:00:00",
+      "category": [
+        "TECH",
+        "CAREER"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/20/cue-alumni-reunion",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Career Development",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-07/unnamed.png?h=0be4ca59&itok=xXyTCTBo"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_fdf1f1ed",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-23T10:00:00",
+      "end_date": "2025-09-23T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/23/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_8ecda05f",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-23T11:00:00",
+      "end_date": "2025-09-23T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/23/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_5f22ad8d",
+      "name": "Nicole Kennard — Urban Science Research Seminar",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-23T13:00:00",
+      "end_date": "2025-09-23T14:00:00",
+      "category": [
+        "TECH",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/23/nicole-kennard-urban-science-research-seminar",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-08/nicole-kennard.jpg?h=41f55a5b&itok=lNMHtJpy"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_2d181361",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-24T10:00:00",
+      "end_date": "2025-09-24T11:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/24/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_f603dfb0",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-24T11:00:00",
+      "end_date": "2025-09-24T12:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/24/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_6aa3d078",
+      "name": "Climate Storytelling: A Community-Engaged Workshop",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-24T14:00:00",
+      "end_date": "2025-09-24T15:00:00",
+      "category": [
+        "TECH",
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/24/climate-storytelling-community-engaged-workshop",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": null
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_b1b0377d",
+      "name": "Instructional Tech Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-25T12:00:00",
+      "end_date": "2025-09-25T13:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/25/instructional-tech-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
         }
       }
     },

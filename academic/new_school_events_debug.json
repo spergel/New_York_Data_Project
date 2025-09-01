@@ -1,60 +1,18 @@
 {
   "events": [
     {
-      "id": "evt_newschool_c456234d",
-      "name": "The Stone at The New School: August Calendar",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "The Stone at The New School serves as an artist-centric home and community for experimental and avant-garde artists, where they can perform what they want without any interference. With concerts every Wednesday through Saturday evening, The Stone at The New School continues the tradition of the landmark non-profit performance space founded in 2005 by Artistic Director John Zorn, within a greatly improved space.August 2025 will feature residencies by Nicole Mitchell, Vernon Reid, John Zorn, Kenny Wollesen, and Trevor Dunn",
-      "start_date": "2025-08-02T00:30:00+00:00",
-      "end_date": "2025-09-01T02:00:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/thestone2508",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The Glassbox Theater",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "stone_event",
-            "lobbymonitor",
-            "general public",
-            "college of performing arts",
-            "performances",
-            "the glassbox theater",
-            "music performances",
-            "theater performances"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
       "id": "evt_newschool_dbcacd11",
       "name": "Transdiciplinary Design Convening",
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "The MFA in Transdisciplinary Design opens the academic year with a public gathering that brings together people working across disciplines, contexts, and communities. Grounded in critical praxis, our program develops reflexive, experimental, and responsive forms of practice and aesthetic experiences that engage with the complexities of our social, ecological, and cultural conditions. The Fall Convening reflects this ethos through intimate sessions of conversations, performances, and live experiments. Alongside welcoming our new cohort, the event invites graduate students and faculty from across The New School to take part and see how our work connects with diverse fields of study. Most MFA Transdisciplinary Design courses are open to graduate students from all divisions, creating opportunities to work alongside peers from a wide range of disciplines and perspectives. As part of the event, we will also share an overview of all our courses, open to graduate students across The New School, so participants can explore how they might connect to their own practice or research. We will also introduce this year’s thematic inquiry in our first-year studio, which explores how creative practice can respond to the cultural, ecological, and political dimensions of extinction.Guests:James Oliver is a Hebridean Gàidheal and transdisciplinary academic. He is an Associate Professor at the School of Design at RMIT University in Melbourne. His career in ‘practice-research’ bridges cultural relations, creative practice research, and Indigenous Practice Research. His passion project, Tuath, is a collaboration with ancestral and common land in the Isle of Skye.Erin Dixon grew with the crystal-clear waters of Bineshii Okaninguming, Skeleton Lake in the traditional homelands of the Anishiinabeg. Of Otipemisiwak Cree-Métis and Icelandic-Isles heritage, she is dedicated to Indigenous-Ancestral knowledge in times of prophecy and planetary health transformation. She directs Wise Practices for the RAD Network, teaches across institutions including Banff Centre and Royal Roads University, and co-convenes the Indigenous Leadership stream within the ILA. At home, she serves in leadership and community roles such as Feather Carriers, the Gojijing Roundtable, and the Bineshi Okanin Centre for Sacred Places. Erin is pursuing a Practice-Based PhD with RMIT and Parsons New School, collaborating with the Collective Fabulation Lab.Jeongki Lim is Associate Professor of Strategic Design and Management and serves as Dean of the School of Design Strategies at Parsons School of Design. His work spans launching strategic initiatives in private and public sectors to research at the intersection of design and science. His current projects examine artificial intelligence as relational artifacts in creative learning and develop AI-enabled systems for art and design pedagogy. His research, published in major conferences and journals, also explores complexity science, design fiction, and posthumanism in curricula. He holds degrees from NYU and a Doctor of Arts in New Media from Aalto University, Finland.Tiffany Sia is an artist, filmmaker, and writer whose films have screened at TIFF, NYFF, MoMA Doc Fortnight, and more. She has presented solo exhibitions at Artists Space (NY), Cantor Arts Center (Stanford), Maxwell Graham Gallery (NY), and Felix Gaudlitz (Vienna). Sia is the author of On and Off-Screen Imaginaries (Primary Information, 2024), a compendium of essays on fugitive, exilic cinema. Her practice spans film, video sculpture, artist books, and critical writing, challenging representation, historical periodization, and the politics of record. Recipient of the 2024 Baloise Art Prize, she has lectured at institutions including Dia Art Foundation, Stanford, and Yale.Schedule:Wednesday, September 3Johnson/Kaplan Auditorium9:30 AM – 11:30 AMTransdisciplinary Practice Research: Erin Dixon and James Oliver—presentations and in a conversationJames Oliver: Practice Research: our Technology of the ImaginationDrawing from a range of place-based projects and international creative collaborations that have evolved in relation to learning with land and language, as cultural and cognitive justice, we will consider how we can transcend the limits of national and disciplinary boundaries. This seminar is an introduction on working (or doing and thinking) with practices of openness and collaboration—practice research as a means of not (over)determining futures—doing/making in terms of methodology, and of being and becoming with practice.Erin Dixon: Awi-Niiganni-Mino- Wiji-Inawendiwin: Going Forward Together in HarmonyThrough the generosity of our grandmother's tidal estuaries and mahicantuck ways, Erin will share storywork to reflect on the deepening of lifeway practices. Shifting from survival to sitting at the centre in re-search; scouting, futuring in footsteps, that unfolds a web of deep listening to place, and the movements of Indigenous—Ancestral practices in the spirit of reweaving kinship in right relations—reconciliation with all our relations.2:00 PM – 3:30 PMWollman HallPractice Research RoundtableErin Dixon, James Oliver, and Jeongki Lim explore practice-based research as a mode of inquiry, collaboration, and world-making. Together, they will share how their work—spanning Indigenous leadership, creative practice, land-based research, and AI-enabled pedagogies—engages with knowledge traditions and emerging possibilities across design, culture, and planetary health.Thursday, September 410:00 AM – 11:30 AMWollman HallHow to make a life with Tiffany SiaAn intimate conversation about what it means to build a practice as a transdisciplinary maker/thinker. Drawing from her work as both an artist and filmmaker Tiffany will share insights into navigating creative work and building a sustainable, multidimensional career.2:00 PM – 3:30 PMJohnson/Kaplan AuditoriumConsortium for Trans/disciplinarity Labs: Collective Fabulation Lab; Life in the Fault Line LabJoin us for short presentations of ongoing projects of these new university Labs, and open discussion for ways to collaborate.Collective Fabulation Lab is a space for transdisciplinary practice research, scholarship, and teaching and learning in and through narrative forms as exploratory and experimental ways, centering processual story-making as critical praxis. Fabulations are emergent imaginaries, narratives that unfold and reweave. Collective fabulation is a method of ontological practice through myriad tactical and improvisational ways of being, relating and becoming with the world.Life in the Fault LineThe University of California Santa Cruz, and The New School are facilitating the Life in the Fault Line initiative in the Brazilian Amazon, a region of vast biodiversity and rich cultural heritage that faces ongoing threats from deforestation, forced labor, and infrastructural disruption. At the center of these tensions is the BR-319 highway, a literal and metaphorical “faultline” that starkly exposes the conflicts between development and ecological coexistence.The Consortium for Transdisciplinarity(CT/d) is a framework for connecting transdisciplinary teaching, learning, and research across the university. CT/d supports collaboration between Parsons, The New School for Social Research, and other divisions, fostering a robust ecosystem for inquiry.6:15 PM – 7:30 PMWeiss LectureKaplan HallJames Oliver: Cultural Longing and Belonging in Practice as ResearchInspired by anthropologist and poet Renato Rosaldo’s proposition that human action and articulations, including the creative expression of doing or making, are also deeply related to the cultural force of emotion, this presentation unfolds its own focus (on the cultural force of research and practice-research as a cultural force) through a reflective narrative on places, projects and pedagogy, across the personal and professional practice of a professor. This is presented as a connectedness of place-based, temporal and spatial stories, hyper-local relationships in the global archipelago, our island ocean; the professor is a transdisciplinary educator, researcher and writer (of sorts), with several decades experience across a range of disciplines and sectors, including the creative arts, design, social science, arts development and community practice.",
+      "description": "The MFA in Transdisciplinary Design opens the academic year with a public gathering that brings together people working across disciplines, contexts, and communities. Grounded in critical praxis, our program develops reflexive, experimental, and responsive forms of practice and aesthetic experiences that engage with the complexities of our social, ecological, and cultural conditions. The Fall Convening reflects this ethos through intimate sessions of conversations, performances, and live experiments. Alongside welcoming our new cohort, the event invites graduate students and faculty from across The New School to take part and see how our work connects with diverse fields of study. Most MFA Transdisciplinary Design courses are open to graduate students from all divisions, creating opportunities to work alongside peers from a wide range of disciplines and perspectives. As part of the event, we will also share an overview of all our courses, open to graduate students across The New School, so participants can explore how they might connect to their own practice or research. We will also introduce this year’s thematic inquiry in our first-year studio, which explores how creative practice can respond to the cultural, ecological, and political dimensions of extinction.Guests:James Oliver is a Hebridean Gàidheal and transdisciplinary academic. He is an Associate Professor at the School of Design at RMIT University in Melbourne. His career in ‘practice-research’ bridges cultural relations, creative practice research, and Indigenous Practice Research. His passion project, Tuath, is a collaboration with ancestral and common land in the Isle of Skye.Erin Dixon grew with the crystal-clear waters of Bineshii Okaninguming, Skeleton Lake in the traditional homelands of the Anishiinabeg. Of Otipemisiwak Cree-Métis and Icelandic-Isles heritage, she is dedicated to Indigenous-Ancestral knowledge in times of prophecy and planetary health transformation. She directs Wise Practices for the RAD Network, teaches across institutions including Banff Centre and Royal Roads University, and co-convenes the Indigenous Leadership stream within the ILA. At home, she serves in leadership and community roles such as Feather Carriers, the Gojijing Roundtable, and the Bineshi Okanin Centre for Sacred Places. Erin is pursuing a Practice-Based PhD with RMIT and Parsons New School, collaborating with the Collective Fabulation Lab.Rachel Robbins is the co-founder and Executive Director of Tangible Mind, an arts and human rights nonprofit exploring the intersections of embodied cognition, design, and emerging technology. With advising from the UN, Tangible Mind is prototyping the Embodied AI Index, a framework modeled on global equity metrics that measures the impact of AI on critical thinking and embodied intelligence. Her work emphasizes how the arts can expand civic discourse, foster resilience, and center embodied experiences in addressing systemic injustice and shaping social innovation.Jeongki Lim is Associate Professor of Strategic Design and Management and serves as Dean of the School of Design Strategies at Parsons School of Design. His work spans launching strategic initiatives in private and public sectors to research at the intersection of design and science. His current projects examine artificial intelligence as relational artifacts in creative learning and develop AI-enabled systems for art and design pedagogy. His research, published in major conferences and journals, also explores complexity science, design fiction, and posthumanism in curricula. He holds degrees from NYU and a Doctor of Arts in New Media from Aalto University, Finland.Tiffany Sia is an artist, filmmaker, and writer whose films have screened at TIFF, NYFF, MoMA Doc Fortnight, and more. She has presented solo exhibitions at Artists Space (NY), Cantor Arts Center (Stanford), Maxwell Graham Gallery (NY), and Felix Gaudlitz (Vienna). Sia is the author of On and Off-Screen Imaginaries (Primary Information, 2024), a compendium of essays on fugitive, exilic cinema. Her practice spans film, video sculpture, artist books, and critical writing, challenging representation, historical periodization, and the politics of record. Recipient of the 2024 Baloise Art Prize, she has lectured at institutions including Dia Art Foundation, Stanford, and Yale.Schedule:Wednesday, September 3Johnson/Kaplan Auditorium9:30 AM – 11:30 AMTransdisciplinary Practice Research: Erin Dixon and James Oliver—presentations and in a conversationJames Oliver: Practice Research: our Technology of the ImaginationDrawing from a range of place-based projects and international creative collaborations that have evolved in relation to learning with land and language, as cultural and cognitive justice, we will consider how we can transcend the limits of national and disciplinary boundaries. This seminar is an introduction on working (or doing and thinking) with practices of openness and collaboration—practice research as a means of not (over)determining futures—doing/making in terms of methodology, and of being and becoming with practice.Erin Dixon: Awi-Niiganni-Mino- Wiji-Inawendiwin: Going Forward Together in HarmonyThrough the generosity of our grandmother's tidal estuaries and mahicantuck ways, Erin will share storywork to reflect on the deepening of lifeway practices. Shifting from survival to sitting at the centre in re-search; scouting, futuring in footsteps, that unfolds a web of deep listening to place, and the movements of Indigenous—Ancestral practices in the spirit of reweaving kinship in right relations—reconciliation with all our relations.Rachel Robbins: Expanded notions of art as a counterforceThinking doesn't just happen in the brain, it extends into our bodies, environments, and interactions with others. Tangible Mind is an arts and human rights nonprofit exploring the intersections of embodied cognition, design, and emerging technology. Through programs that span community workshops, research and praxis partnerships, and public exhibitions, Tangible Mind brings together artists, technologists, and educators to prototype new forms of civic engagement and collective imagination.2:00 PM – 3:30 PMWollman HallPractice Research RoundtableErin Dixon, James Oliver, and Jeongki Lim explore practice-based research as a mode of inquiry, collaboration, and world-making. Together, they will share how their work—spanning Indigenous leadership, creative practice, land-based research, and AI-enabled pedagogies—engages with knowledge traditions and emerging possibilities across design, culture, and planetary health.Thursday, September 410:00 AM – 11:30 AMWollman HallHow to make a life with Tiffany SiaAn intimate conversation about what it means to build a practice as a transdisciplinary maker/thinker. Drawing from her work as both an artist and filmmaker Tiffany will share insights into navigating creative work and building a sustainable, multidimensional career.2:00 PM – 3:30 PMJohnson/Kaplan AuditoriumConsortium for Trans/disciplinarity Labs: Collective Fabulation Lab; Life in the Fault Line LabJoin us for short presentations of ongoing projects of these new university Labs, and open discussion for ways to collaborate.Collective Fabulation Lab is a space for transdisciplinary practice research, scholarship, and teaching and learning in and through narrative forms as exploratory and experimental ways, centering processual story-making as critical praxis. Fabulations are emergent imaginaries, narratives that unfold and reweave. Collective fabulation is a method of ontological practice through myriad tactical and improvisational ways of being, relating and becoming with the world.Life in the Fault LineThe University of California Santa Cruz, and The New School are facilitating the Life in the Fault Line initiative in the Brazilian Amazon, a region of vast biodiversity and rich cultural heritage that faces ongoing threats from deforestation, forced labor, and infrastructural disruption. At the center of these tensions is the BR-319 highway, a literal and metaphorical “faultline” that starkly exposes the conflicts between development and ecological coexistence.The Consortium for Transdisciplinarity(CT/d) is a framework for connecting transdisciplinary teaching, learning, and research across the university. CT/d supports collaboration between Parsons, The New School for Social Research, and other divisions, fostering a robust ecosystem for inquiry.6:15 PM – 7:30 PMWeiss LectureKaplan HallJames Oliver: Cultural Longing and Belonging in Practice as ResearchInspired by anthropologist and poet Renato Rosaldo’s proposition that human action and articulations, including the creative expression of doing or making, are also deeply related to the cultural force of emotion, this presentation unfolds its own focus (on the cultural force of research and practice-research as a cultural force) through a reflective narrative on places, projects and pedagogy, across the personal and professional practice of a professor. This is presented as a connectedness of place-based, temporal and spatial stories, hyper-local relationships in the global archipelago, our island ocean; the professor is a transdisciplinary educator, researcher and writer (of sorts), with several decades experience across a range of disciplines and sectors, including the creative arts, design, social science, arts development and community practice.",
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS",
         "TECH"
       ],
@@ -103,9 +61,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -147,8 +105,8 @@
       "start_date": "2025-09-03T15:30:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
@@ -186,9 +144,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -231,9 +189,9 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -313,10 +271,10 @@
       "start_date": "2025-09-04T22:00:00+00:00",
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
         "HUMANITIES",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -402,8 +360,8 @@
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "TECH",
-        "ARTS"
+        "ARTS",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tugce-bilgin",
@@ -444,8 +402,8 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -487,8 +445,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -534,9 +492,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -584,9 +542,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -629,8 +587,8 @@
       "start_date": "2025-09-10T20:00:00+00:00",
       "end_date": "2025-09-10T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nssrfall2025welcomereception",
@@ -803,8 +761,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/langarts-jerronherman",
@@ -846,10 +804,10 @@
       "start_date": "2025-09-15T17:30:00+00:00",
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -941,9 +899,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -987,9 +945,9 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
         "HUMANITIES",
-        "ARTS",
         "POLITICS"
       ],
       "metadata": {
@@ -1032,9 +990,9 @@
       "start_date": "2025-09-17T22:00:00+00:00",
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -1088,8 +1046,8 @@
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS",
         "TECH"
       ],
@@ -1150,10 +1108,10 @@
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "HUMANITIES"
+        "SOCIAL",
+        "HUMANITIES",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
@@ -1200,9 +1158,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "HUMANITIES",
-        "ARTS"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -1286,9 +1244,9 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -1342,10 +1300,10 @@
       "start_date": "2025-09-26T14:00:00+00:00",
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -1432,10 +1390,10 @@
       "start_date": "2025-09-30T17:30:00+00:00",
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -1486,10 +1444,10 @@
       "start_date": "2025-10-01T17:30:00+00:00",
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -1537,8 +1495,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -1617,8 +1575,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -1658,8 +1616,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -1699,8 +1657,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -1741,10 +1699,10 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -1782,9 +1740,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
+        "ARTS",
         "HUMANITIES",
-        "TECH",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -1869,10 +1827,10 @@
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
-        "POLITICS",
-        "HUMANITIES"
+        "SOCIAL",
+        "HUMANITIES",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -1913,10 +1871,10 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -1959,8 +1917,8 @@
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "HUMANITIES",
         "TECH"
       ],
@@ -2011,10 +1969,10 @@
       "start_date": "2025-10-13T17:30:00+00:00",
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -2062,8 +2020,8 @@
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "HUMANITIES",
         "TECH"
       ],
@@ -2112,8 +2070,8 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "TECH",
         "ARTS",
+        "TECH",
         "POLITICS"
       ],
       "metadata": {
@@ -2157,8 +2115,8 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -2200,10 +2158,10 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -2243,8 +2201,8 @@
       "start_date": "2025-10-16T16:30:00+00:00",
       "end_date": "2025-10-16T18:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/freedomofexpression",
@@ -2285,8 +2243,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://cityvisionaryawards.com",
@@ -2333,8 +2291,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/asyoulikeit",
@@ -2375,8 +2333,8 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -2420,8 +2378,8 @@
       "start_date": "2025-10-29T21:00:00+00:00",
       "end_date": "2025-10-29T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "ARTS"
+        "ARTS",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/alumnireading40",
@@ -2462,10 +2420,10 @@
       "start_date": "2025-11-03T18:30:00+00:00",
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "HUMANITIES",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -2512,8 +2470,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -2557,8 +2515,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -2605,8 +2563,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -2646,8 +2604,8 @@
       "start_date": "2025-11-13T22:00:00+00:00",
       "end_date": "2025-11-14T04:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
@@ -2691,8 +2649,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -2734,8 +2692,8 @@
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
         "DESIGN",
-        "SOCIAL",
         "ARTS",
+        "SOCIAL",
         "HUMANITIES",
         "TECH"
       ],
@@ -2784,8 +2742,8 @@
       "start_date": "2025-12-07T19:00:00+00:00",
       "end_date": "2025-12-07T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
@@ -2825,8 +2783,8 @@
       "start_date": "2025-12-08T00:00:00+00:00",
       "end_date": "2025-12-08T02:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
@@ -2866,8 +2824,8 @@
       "start_date": "2026-01-11T17:30:00+00:00",
       "end_date": "2026-01-11T18:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-january",
@@ -2908,8 +2866,8 @@
       "start_date": "2026-01-11T19:00:00+00:00",
       "end_date": "2026-01-11T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-ulysses",
@@ -2944,8 +2902,8 @@
       "start_date": "2026-03-22T16:30:00+00:00",
       "end_date": "2026-03-22T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
@@ -2985,8 +2943,8 @@
       "start_date": "2026-03-22T18:00:00+00:00",
       "end_date": "2026-03-22T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
@@ -3026,8 +2984,8 @@
       "start_date": "2026-04-26T16:30:00+00:00",
       "end_date": "2026-04-26T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
@@ -3067,8 +3025,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
@@ -3108,8 +3066,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",

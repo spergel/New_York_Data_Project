@@ -1,58 +1,6 @@
 {
   "events": [
     {
-      "id": "evt_columbia_8e288a20",
-      "name": "SOTD | Afternoon Tea",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Join us for a low tea at&amp;nbsp;&lt;a href=\"https://thewolseleycity.com/\"&gt;The Wolseley&amp;#39;s&lt;/a&gt;&amp;nbsp;iconic City location. Hosted by She Opened the Door Chairperson&amp;nbsp;&lt;a href=\"https://www.linkedin.com/in/cassandra-l-ziegler/\"&gt;Cassandra L. Ziegler,&amp;nbsp;&lt;/a&gt;&amp;#39;17TC, &amp;#39;25SIPA&amp;nbsp;and representatives from the Columbia University Club of London, this afternoon event promises stimulating conversation alongside a classic high tea menu. The classic tea includes* assorted finger sandwiches, scones with strawberry jam and clotted cream, a selection of cakes and The Wolseley Collection teas.&amp;nbsp;Enjoy this British tradition alongside live music, with live jazz on the mezzanine on Sundays.&lt;/p&gt;\n&lt;p&gt;This event is presented by the&amp;nbsp;&lt;strong&gt;Columbia University Club of London&lt;/strong&gt;&amp;nbsp;in collaboration with&amp;nbsp;&lt;strong&gt;Columbia Alumni Association&amp;#39;s&lt;/strong&gt;&amp;nbsp;&lt;a href=\"https://sotd.alumni.columbia.edu/\" target=\"_blank\"&gt;She Opened the Door&lt;/a&gt;&amp;nbsp;initiative.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Please read our updated&amp;nbsp;&lt;a href=\"https://london.alumni.columbia.edu/cancellation-policy\" target=\"_blank\"&gt;Cancellation Policy&lt;/a&gt;.&amp;nbsp;&lt;em&gt;&lt;strong&gt;Ticket price includes your classic tea, service charge, and processing fees.&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;*Please note, 48 hours notice is required to accommodate the following dietary needs:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Vegetarian&lt;/li&gt;\n&lt;li&gt;Vegan&lt;/li&gt;\n&lt;li&gt;Pescatarian&lt;/li&gt;\n&lt;li&gt;Dairy free&lt;/li&gt;\n&lt;li&gt;Nut free&lt;/li&gt;\n&lt;li&gt;Gluten free&lt;/li&gt;\n&lt;/ul&gt;",
-      "start_date": "2025-08-31T11:30:00+00:00",
-      "end_date": "2025-08-31T13:30:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98a2753e-0198-a4a47c0f-00007a80events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Off-campus\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Columbia Alumni Association",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Columbia Alumni Association",
-          "tags": [
-            "Off Campus",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Lunch",
-            "Community",
-            "org/cu_alumni_association",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Lunch",
-            "Community",
-            "org/cu_alumni_association",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_085dbd45",
       "name": "Setting the Tone: Communicating Your AI Expectations",
       "type": "Academic",
@@ -339,8 +287,8 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -427,8 +375,8 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -688,8 +636,8 @@
       "start_date": "2025-09-04T14:00:00+00:00",
       "end_date": "2025-09-04T20:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-8da6e14b-018d-a92b7ab3-00004639events%40columbia.edu&recurrenceId=",
@@ -851,10 +799,10 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
+        "ARTS",
         "SCIENCE",
         "SOCIAL",
-        "HEALTH",
-        "ARTS"
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98312e19-0198-32d26832-000039d4events%40columbia.edu&recurrenceId=",
@@ -1846,8 +1794,8 @@
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
         "ARTS",
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e04ab4-0198-e20d2316-00006860events%40columbia.edu&recurrenceId=",
@@ -2087,8 +2035,8 @@
       "start_date": "2025-09-10T16:00:00+00:00",
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -2557,8 +2505,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7c8b485-000002e8events%40columbia.edu&recurrenceId=",
@@ -2626,8 +2574,8 @@
       "start_date": "2025-09-11T22:30:00+00:00",
       "end_date": "2025-09-12T00:30:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33717e39-00006241events%40columbia.edu&recurrenceId=",
@@ -2703,9 +2651,9 @@
       "start_date": "2025-09-12T12:30:00+00:00",
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
+        "SOCIAL",
         "HEALTH"
       ],
       "metadata": {
@@ -3445,9 +3393,9 @@
       "start_date": "2025-09-15T22:30:00+00:00",
       "end_date": "2025-09-16T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SCIENCE",
-        "SOCIAL",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33887390-0000673fevents%40columbia.edu&recurrenceId=",
@@ -3910,8 +3858,8 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-338b4e1b-0000680bevents%40columbia.edu&recurrenceId=",
@@ -4108,8 +4056,8 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -4335,8 +4283,8 @@
       "start_date": "2025-09-18T11:00:00+00:00",
       "end_date": "2025-09-18T21:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-981772cf-0198-19b7ca5d-000052ffevents%40columbia.edu&recurrenceId=",
@@ -4416,9 +4364,9 @@
       "start_date": "2025-09-18T15:00:00+00:00",
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
+        "SCIENCE",
         "SOCIAL",
-        "HEALTH",
-        "SCIENCE"
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985535db-0198-56decc16-00006d8fevents%40columbia.edu&recurrenceId=",
@@ -5044,8 +4992,8 @@
       "start_date": "2025-09-18T22:30:00+00:00",
       "end_date": "2025-09-19T00:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-3374f2d7-00006300events%40columbia.edu&recurrenceId=",
@@ -5119,8 +5067,8 @@
       "start_date": "2025-09-19T12:30:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "EDUCATION",
         "SCIENCE",
+        "EDUCATION",
         "HEALTH"
       ],
       "metadata": {
@@ -5588,8 +5536,8 @@
       "start_date": "2025-09-19T22:00:00+00:00",
       "end_date": "2025-09-20T00:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS"
+        "ARTS",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7d5b17e-000005a9events%40columbia.edu&recurrenceId=",
@@ -6027,8 +5975,8 @@
       "end_date": "2025-09-22T17:00:00+00:00",
       "category": [
         "ARTS",
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98a7a05e-0198-a94a71b0-00005102events%40columbia.edu&recurrenceId=",
@@ -6328,8 +6276,8 @@
       "start_date": "2025-09-22T19:30:00+00:00",
       "end_date": "2025-09-22T21:30:00+00:00",
       "category": [
-        "HEALTH",
-        "TECH"
+        "TECH",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98370f12-0198-388161fa-0000424eevents%40columbia.edu&recurrenceId=",
@@ -6461,9 +6409,9 @@
       "start_date": "2025-09-22T22:00:00+00:00",
       "end_date": "2025-09-23T01:00:00+00:00",
       "category": [
-        "BUSINESS",
         "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "BUSINESS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97bfe6ab-0197-c1df5829-00005c98events%40columbia.edu&recurrenceId=",
@@ -6681,6 +6629,84 @@
             "Trainees",
             "Education",
             "org/DentalMedicine",
+            "org/cumc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_5ace1b05",
+      "name": "Edward P. Evans MDS Center Seminar Series: Francesco Maura, MD",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Speaker:&amp;nbsp;&lt;a href=\"https://www.mskcc.org/cancer-care/doctors/francesco-maura\" target=\"_blank\"&gt;Francesco Maura, MD,&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;Assistant Professor at the Memorial Sloan Kettering Cancer Center&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Hosted by Suzanne Lentzsch, MD, Professor of Medicine at CUIMC;&amp;nbsp;Director, Multiple Myeloma and Amyloidosis Program.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;This event is sponsored by the Herbert Irving Comprehensive Cancer Center&amp;#39;s (HICCC)&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/research/researchers/edward-p-evans-center-myelodysplastic-syndromes-mds\" target=\"_blank\"&gt;Edward P. Evans Center for Myelodysplastic Syndromes (MDS)&lt;/a&gt;&amp;nbsp;at Columbia University, established to&amp;nbsp;foster an all-encompassing approach in studying MDS&amp;nbsp;giving us&amp;nbsp;molecular, cellular genetic and epigenetic insights to develop and test innovative therapies.&lt;/p&gt;",
+      "start_date": "2025-09-23T17:15:00+00:00",
+      "end_date": "2025-09-23T18:15:00+00:00",
+      "category": [
+        "SCIENCE",
+        "HEALTH"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-989d53e6-0198-9fd8fcd3-000071b7events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
+          "tags": [
+            "org/MDS",
+            "Medical Center",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Clinical Health Sciences",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Trainees",
+            "org/cumc_hiccc",
+            "org/cumc"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Clinical Health Sciences",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Trainees",
+            "org/cumc_hiccc",
             "org/cumc"
           ]
         }

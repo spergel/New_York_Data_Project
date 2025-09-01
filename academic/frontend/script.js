@@ -115,14 +115,14 @@ async function loadEvents() {
         elements.eventsContainer.style.display = 'none';
         elements.noResults.style.display = 'none';
         
-        // Load all events with a high limit
-        const response = await fetch(`${API_BASE_URL}/api/events?limit=1000`);
+        // Load all events using the new pagination API
+        const response = await fetch(`${API_BASE_URL}/api/events?page=1&per_page=1000`);
         const data = await response.json();
         
         allEvents = data.events || [];
         filteredEvents = [...allEvents];
         
-        console.log(`Loaded ${allEvents.length} events from API`);
+        console.log(`Loaded ${allEvents.length} events from API (Total: ${data.total})`);
         
         elements.loading.style.display = 'none';
         renderEvents();
@@ -197,14 +197,20 @@ function filterEvents() {
     // Institution filter
     const institution = elements.institutionFilter.value;
     if (institution) {
-        filtered = filtered.filter(event => event.source === institution);
+        filtered = filtered.filter(event => 
+            event.source === institution || 
+            event.source_name === institution ||
+            (event.source_name && event.source_name.toLowerCase().includes(institution.toLowerCase()))
+        );
     }
     
     // Event type filter
     const eventType = document.getElementById('event-type-filter')?.value;
     if (eventType) {
-        const eventText = event.name.toLowerCase() + ' ' + (event.description || '').toLowerCase();
-        filtered = filtered.filter(event => eventText.includes(eventType.toLowerCase()));
+        filtered = filtered.filter(event => {
+            const eventText = event.name.toLowerCase() + ' ' + (event.description || '').toLowerCase();
+            return eventText.includes(eventType.toLowerCase());
+        });
     }
     
     // Date range filter

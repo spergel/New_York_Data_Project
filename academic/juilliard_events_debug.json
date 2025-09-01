@@ -1,0 +1,709 @@
+{
+  "events": [
+    {
+      "id": "evt_juilliard_6492b45f",
+      "name": "Opening Night",
+      "type": "Performance",
+      "location_id": "loc_juilliard_sharp",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Drama, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-12T19:30:00+00:00",
+      "end_date": "2025-09-12T21:30:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177901/opening-night",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Peter Jay Sharp Theater",
+          "address": "155 W 65th St, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Drama",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_0e6fe32a",
+      "name": "A Place for Us: Opening Day at Juilliard Station",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Opera / Voice, Free, Chamber Music, Juilliard Station, Juilliard Fall Festival",
+      "start_date": "2025-09-13T10:00:00+00:00",
+      "end_date": "2025-09-13T12:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177906/place-us-opening-day-juilliard-station",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Opera / Voice",
+            "Free",
+            "Chamber Music",
+            "Juilliard Station",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_d138f398",
+      "name": "Juilliard Jazz Orchestra | The American Orchestra: Early Swing Bands of the 1920s and 1930s",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Jazz, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-13T19:30:00+00:00",
+      "end_date": "2025-09-13T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179241/juilliard-jazz-orchestra-american-orchestra-early-swing-bands-1920s-and-1930s",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Jazz",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_e076d128",
+      "name": "Juilliard Drama Presents Scenes by Recent Playwriting Alums",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Drama, Contemporary / New Work, Juilliard Fall Festival",
+      "start_date": "2025-09-15T19:30:00+00:00",
+      "end_date": "2025-09-15T21:30:00+00:00",
+      "category": [
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177916/juilliard-drama-presents-scenes-recent-playwriting-alums",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "DR2 Theatre",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Drama",
+            "Contemporary / New Work",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_d15c2720",
+      "name": "Rush Hour Performance | Faculty Spotlight: Shai Wosner, Piano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-09-16T17:30:00+00:00",
+      "end_date": "2025-09-16T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179791/rush-hour-performance-faculty-spotlight-shai-wosner-piano",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_ffc4e7bc",
+      "name": "The New Series | A Piano Story",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Jazz, Opera / Voice, Free, Chamber Music, Historical Performance, Contemporary / New Work, Live Streaming, Juilliard Fall Festival, The New Series, Music",
+      "start_date": "2025-09-16T19:30:00+00:00",
+      "end_date": "2025-09-16T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177921/new-series-piano-story",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Rosemary and Meredith Willson Theater",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Jazz",
+            "Opera / Voice",
+            "Free",
+            "Chamber Music",
+            "Historical Performance",
+            "Contemporary / New Work",
+            "Live Streaming",
+            "Juilliard Fall Festival",
+            "The New Series",
+            "Music"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_31850878",
+      "name": "Wednesdays at One: Chamber Music",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Chamber Music, Juilliard Fall Festival",
+      "start_date": "2025-09-17T13:00:00+00:00",
+      "end_date": "2025-09-17T15:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177926/wednesdays-one-chamber-music",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Chamber Music",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_043f80bf",
+      "name": "Rush Hour Performance | Graduate String Quartet Spotlight: Katarina String Quartet",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Chamber Music, Juilliard Station",
+      "start_date": "2025-09-17T17:30:00+00:00",
+      "end_date": "2025-09-17T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179796/rush-hour-performance-graduate-string-quartet-spotlight-katarina-string-quartet",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Chamber Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_1c769b4b",
+      "name": "Juilliard at Joe’s Pub: Songs From the Tesori Sessions",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Jazz, Drama, Juilliard Fall Festival",
+      "start_date": "2025-09-17T21:30:00+00:00",
+      "end_date": "2025-09-17T23:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177931/juilliard-joes-pub-songs-tesori-sessions",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Joe’s Pub, The Public Theater",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Jazz",
+            "Drama",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_2e6d3d53",
+      "name": "Juilliard Orchestra Conducted by Stephanie Childress",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Orchestra, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-18T19:30:00+00:00",
+      "end_date": "2025-09-18T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179246/juilliard-orchestra-conducted-stephanie-childress",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Orchestra",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_85a515a5",
+      "name": "Rush Hour Performance | Faculty Spotlight: Ted Rosenthal, Jazz Piano",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Jazz, Juilliard Station",
+      "start_date": "2025-09-19T18:00:00+00:00",
+      "end_date": "2025-09-19T20:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179801/rush-hour-performance-faculty-spotlight-ted-rosenthal-jazz-piano",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Jazz",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_81e6a8e0",
+      "name": "Juilliard415 | Crossing the Alps: How the Italian Baroque Traveled North",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Historical Performance, Juilliard Fall Festival, Live Streaming",
+      "start_date": "2025-09-19T19:30:00+00:00",
+      "end_date": "2025-09-19T21:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179251/juilliard415-crossing-alps-how-italian-baroque-traveled-north",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Alice Tully Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Historical Performance",
+            "Juilliard Fall Festival",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_de2fcc2a",
+      "name": "Juilliard Outdoors",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Free, Chamber Music, Contemporary / New Work, Preparatory Education, Juilliard Fall Festival",
+      "start_date": "2025-09-20T11:00:00+00:00",
+      "end_date": "2025-09-20T13:00:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177946/juilliard-outdoors",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Josie Robertson Plaza",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Free",
+            "Chamber Music",
+            "Contemporary / New Work",
+            "Preparatory Education",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_f949f090",
+      "name": "\"My Brain: After the Rupture\" Screening and Talk With Clemency Burton-Hill",
+      "type": "Seminar",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Drama, Contemporary / New Work, Pay-what-you-wish, Juilliard Fall Festival",
+      "start_date": "2025-09-20T14:00:00+00:00",
+      "end_date": "2025-09-20T16:00:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177951/my-brain-after-rupture-screening-and-talk-clemency-burton-hill",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Francesca Beale Theater, Film at Lincoln Center",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Drama",
+            "Contemporary / New Work",
+            "Pay-what-you-wish",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_68318100",
+      "name": "Departing",
+      "type": "Performance",
+      "location_id": "loc_juilliard_sharp",
+      "community_id": "com_juilliard",
+      "description": "Music, Dance, Drama, Opera / Voice, Orchestra, Chamber Music, Live Streaming, Juilliard Fall Festival",
+      "start_date": "2025-09-20T19:30:00+00:00",
+      "end_date": "2025-09-20T21:30:00+00:00",
+      "category": [
+        "DANCE",
+        "MUSIC",
+        "ARTS",
+        "THEATER"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177956/departing",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Peter Jay Sharp Theater",
+          "address": "155 W 65th St, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Music",
+            "Dance",
+            "Drama",
+            "Opera / Voice",
+            "Orchestra",
+            "Chamber Music",
+            "Live Streaming",
+            "Juilliard Fall Festival"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_430c2a82",
+      "name": "Rush Hour Performance | Faculty Spotlight: Mark Sherman, Jazz Percussion",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Jazz, Juilliard Station",
+      "start_date": "2025-09-23T17:30:00+00:00",
+      "end_date": "2025-09-23T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179806/rush-hour-performance-faculty-spotlight-mark-sherman-jazz-percussion",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Jazz",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_c91f16be",
+      "name": "Rush Hour Performance | Faculty Spotlight: Nadia Sirota, Viola; Nico Muhly, Composition",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-09-24T17:30:00+00:00",
+      "end_date": "2025-09-24T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179811/rush-hour-performance-faculty-spotlight-nadia-sirota-viola-nico-muhly-composition",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_31db8b8b",
+      "name": "Sonatenabend",
+      "type": "Performance",
+      "location_id": "loc_juilliard_paul",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Classical, Live Streaming",
+      "start_date": "2025-09-24T18:00:00+00:00",
+      "end_date": "2025-09-24T20:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/177961/sonatenabend",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Paul Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Classical",
+            "Live Streaming"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_c11a6eec",
+      "name": "Rush Hour Performance | Faculty Spotlight: Daniel Block, Jazz Saxophone",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Jazz, Juilliard Station",
+      "start_date": "2025-09-25T17:30:00+00:00",
+      "end_date": "2025-09-25T19:30:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179816/rush-hour-performance-faculty-spotlight-daniel-block-jazz-saxophone",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Jazz",
+            "Juilliard Station"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_e0ea7e1d",
+      "name": "Rush Hour Performance | Faculty Spotlight: Hsin-Yun Huang, Viola; Misha Armory, Viola",
+      "type": "Performance",
+      "location_id": "loc_juilliard_main",
+      "community_id": "com_juilliard",
+      "description": "Free, Music, Juilliard Station",
+      "start_date": "2025-09-26T18:00:00+00:00",
+      "end_date": "2025-09-26T20:00:00+00:00",
+      "category": [
+        "MUSIC",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/event/179821/rush-hour-performance-faculty-spotlight-hsin-yun-huang-viola-misha-armory-viola",
+        "source_name": "Juilliard Events Calendar",
+        "venue": {
+          "name": "Juilliard Station",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Juilliard School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "tags": [
+            "Free",
+            "Music",
+            "Juilliard Station"
+          ]
+        }
+      }
+    }
+  ]
+}

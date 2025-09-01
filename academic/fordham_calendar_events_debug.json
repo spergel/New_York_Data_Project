@@ -1,0 +1,106 @@
+{
+  "events": [
+    {
+      "id": "evt_fordham_calendar_bf65d1e844",
+      "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society",
+      "description": "Longterm loans of important and rarely seen ancient sculpture f",
+      "start_date": "2025-01-17",
+      "end_date": "2026-12-31",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/ancient-sculpture-from-the-brooklyn-museu",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Museum of Greek\\, Etruscan\\, and Roman Art\\, Walsh Library\\, 441 E",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_544c5b591a",
+      "name": "Scientific Symposium: Community Engagement and Migration",
+      "description": "Join Fordham University’s Institute of International Humanitari",
+      "start_date": "2025-09-09",
+      "end_date": "2025-09-11",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/scientific-symposium-community-engagement",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "12th-Floor Lounge\\, Lowenstein\\, 113 W 60th St\\, New York\\, NY\\, 1",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_4fa6fc36bc",
+      "name": "Autumn Reflection and Spirituality Discussion",
+      "description": "As part of our fall 2025 Ignatian programming, join members of",
+      "start_date": "2025-09-16",
+      "end_date": "2025-09-16",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/autumn-reflection-and-spirituality-discus",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Murray-Weigel Hall\\, 441 E. Fordham Road\\, Bronx\\, NY\\, 10458\\, Un",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_7fbea1f98a",
+      "name": "Book Talk: 'Lost Indignation'",
+      "description": "Join The Bronx County Historical Society and author Becky McAul",
+      "start_date": "2025-09-06",
+      "end_date": "2025-09-06",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/book-talk-lost-indignation/",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Museum of Bronx History\\, 3266 Bainbridge Avenue\\, Bronx\\, NY\\, 10",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_5147e83c1f",
+      "name": "Ignatian Day of Service",
+      "description": "Join the Pedro Arrupe Volunteers, Alpha Sigma Nu, and Campus",
+      "start_date": "2025-09-13",
+      "end_date": "2025-09-13",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/ignatian-day-of-service-2025/",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Rose Hill Campus\\, Fordham University\\, The Bronx\\, NY\\, USA\\, Bro",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_5d4d660ce1",
+      "name": "McGinley Chair Lecture— \"The Ethics of Meritocracy: A Theological A",
+      "description": "Rev. Thomas Massaro, S.J., will deliver this McGinley Lecture",
+      "start_date": "2025-09-18",
+      "end_date": "2025-09-18",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/mcginley-chair-lecture-the-ethics-of-meri",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Flom Auditorium\\, Walsh Library\\, 441 East Fordham Road\\, Bronx\\,",
+          "type": "Offline"
+        }
+      }
+    }
+  ]
+}

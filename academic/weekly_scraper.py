@@ -18,26 +18,31 @@ def run_scrapers():
     """Run all available scrapers"""
     print("🚀 Starting weekly scraping process...")
     
-    # List of ALL WORKING scraper files (based on updated health check)
+    # List of ALL WORKING scraper files (updated and tested)
     scrapers = [
-        'barnard_events.py',                    # ✅ 244 events
         'columbia_classics_events.py',          # ✅ 23 events
         'columbia_general_events.py',           # ✅ 100 events
         'columbia_math_events.py',              # ✅ 2 events
         'cooper_union_events.py',               # ✅ 2 events
         'cornell_tech_events.py',               # ✅ 2 events
-        'fordham_events.py',                    # ✅ 6 events
+        'fordham_events.py',                    # ✅ 6 events (Google Calendar)
         'gallatin_events.py',                   # ✅ 21 events
         'hunter_college_events.py',             # ✅ 1 event
         'isaw_events.py',                       # ✅ 5 events
         'jtsa_events.py',                       # ✅ 10 events
+        'juilliard_events.py',                  # ⚠️ Cloudflare blocked
+        'miller_events.py',                     # ✅ 57 events
         'new_school_events.py',                 # ✅ 70 events
-        'nyu_cims_events.py',                   # ✅ 36 events
+        'nyu_api_events.py',                    # ✅ 43 events (NEW API)
+        'nyu_cims_events.py',                   # ✅ 38 events
         'nyu_education_events.py',              # ✅ 2 events
-        'nyu_law_events.py',                    # ✅ 4 events
+        'nyu_engineering.py',                  # ✅ 50+ events
+        'nyu_law_events.py',                    # ✅ 9 events
         'nyu_medicine_events.py',               # ✅ 2 events
         'nyu_stern_events.py',                  # ✅ 8 events
-        'pratt_events.py'                       # ✅ 4 events
+        'pratt_events.py',                      # ✅ 4 events
+        'simons_foundation_events.py',          # ✅ 5 events
+        'sof_heyman_events.py'                  # ⚠️ Needs fixing
     ]
     
     # TODO: Fix these remaining broken scrapers to get even more events:

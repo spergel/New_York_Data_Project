@@ -37,6 +37,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_ec1f7418",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-12T14:00:00",
+      "end_date": "2025-09-12T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Junsheng Zhang, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_06683e05",
       "name": "A necessary and sufficient condition for k-transversals",
       "type": "Academic",
@@ -673,6 +709,42 @@
         },
         "additional_info": {
           "speaker": "Yifan Guo, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_cims_ec1f7418",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-12T14:00:00",
+      "end_date": "2025-09-12T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 512",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Junsheng Zhang, NYU",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
