@@ -1,6 +1,10 @@
 // API Configuration
 const API_BASE_URL = 'https://nyc-academic-events-api.spergel-joshua.workers.dev';
 
+// Debug logging
+console.log('🚀 Frontend script loaded!');
+console.log('🌐 API Base URL:', API_BASE_URL);
+
 // Global state
 let allEvents = [];
 let filteredEvents = [];
@@ -55,12 +59,23 @@ async function init() {
 // Load API statistics and update hero section
 async function loadStats() {
     try {
-        const response = await fetch(`${API_BASE_URL}/api/stats`);
+        console.log('📊 Starting to load stats...');
+        const statsUrl = `${API_BASE_URL}/api/stats`;
+        console.log('📡 Calling stats API:', statsUrl);
+        
+        const response = await fetch(statsUrl);
+        console.log('📥 Stats Response status:', response.status);
+        
         const stats = await response.json();
+        console.log('📊 Stats Response data:', stats);
         
         // Update hero stats
         const todayCount = getTodayEventsCount();
         const weekCount = getWeekEventsCount();
+        
+        console.log('📅 Today count:', todayCount);
+        console.log('📅 Week count:', weekCount);
+        console.log('🏛️ Total sources:', stats.data.sources);
         
         document.getElementById('today-events').textContent = todayCount;
         document.getElementById('week-events').textContent = weekCount;
@@ -77,8 +92,11 @@ async function loadStats() {
             heroTitle.textContent = `Discover Academic Events`;
             heroSubtitle.textContent = `Explore upcoming lectures, seminars, and conferences across NYC's universities`;
         }
+        
+        console.log('✅ Stats loaded successfully');
     } catch (error) {
-        console.error('Failed to load stats:', error);
+        console.error('❌ Failed to load stats:', error);
+        console.error('❌ Error details:', error.message);
     }
 }
 
@@ -111,23 +129,33 @@ function getWeekEventsCount() {
 // Load all events from API
 async function loadEvents() {
     try {
+        console.log('🔍 Starting to load events...');
         elements.loading.style.display = 'block';
         elements.eventsContainer.style.display = 'none';
         elements.noResults.style.display = 'none';
         
+        const apiUrl = `${API_BASE_URL}/api/events?limit=1000`;
+        console.log('📡 Calling API:', apiUrl);
+        
         // Load all events using the pagination API
-        const response = await fetch(`${API_BASE_URL}/api/events?limit=1000`);
+        const response = await fetch(apiUrl);
+        console.log('📥 API Response status:', response.status);
+        console.log('📥 API Response headers:', response.headers);
+        
         const data = await response.json();
+        console.log('📊 API Response data:', data);
         
         allEvents = data.data.events || [];
         filteredEvents = [...allEvents];
         
-        console.log(`Loaded ${allEvents.length} events from API (Total: ${data.data.pagination.total})`);
+        console.log(`✅ Loaded ${allEvents.length} events from API (Total: ${data.data.pagination.total})`);
+        console.log('📋 First few events:', allEvents.slice(0, 3));
         
         elements.loading.style.display = 'none';
         renderEvents();
     } catch (error) {
-        console.error('Failed to load events:', error);
+        console.error('❌ Failed to load events:', error);
+        console.error('❌ Error details:', error.message);
         elements.loading.style.display = 'none';
         showError('Failed to load events. Please try again later.');
     }

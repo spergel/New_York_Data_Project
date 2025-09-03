@@ -10,10 +10,10 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
         "TECH",
         "SOCIAL",
+        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -189,8 +189,8 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
+        "DESIGN",
         "ARTS"
       ],
       "metadata": {
@@ -272,8 +272,8 @@
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
         "HUMANITIES",
-        "DESIGN",
         "SOCIAL",
+        "DESIGN",
         "ARTS"
       ],
       "metadata": {
@@ -360,8 +360,8 @@
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tugce-bilgin",
@@ -442,8 +442,8 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "POLITICS",
         "SOCIAL",
+        "POLITICS",
         "ARTS"
       ],
       "metadata": {
@@ -532,8 +532,8 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
+        "DESIGN",
         "ARTS"
       ],
       "metadata": {
@@ -628,8 +628,8 @@
       "end_date": "2025-09-10T21:00:00+00:00",
       "category": [
         "HUMANITIES",
-        "DESIGN",
         "SOCIAL",
+        "DESIGN",
         "ARTS"
       ],
       "metadata": {
@@ -945,8 +945,8 @@
       "category": [
         "HUMANITIES",
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -1087,8 +1087,8 @@
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
         "HUMANITIES",
-        "POLITICS",
         "SOCIAL",
+        "POLITICS",
         "ARTS"
       ],
       "metadata": {
@@ -1132,8 +1132,8 @@
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -1186,10 +1186,10 @@
       "start_date": "2025-09-22T04:00:00+00:00",
       "end_date": "2025-09-26T22:00:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
         "TECH",
         "SOCIAL",
+        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -1244,10 +1244,10 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
         "TECH",
         "SOCIAL",
+        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -1451,10 +1451,10 @@
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
         "SOCIAL",
         "HUMANITIES",
+        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -1587,8 +1587,8 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
+        "DESIGN",
         "ARTS"
       ],
       "metadata": {
@@ -1638,8 +1638,8 @@
       "category": [
         "HUMANITIES",
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -1728,8 +1728,8 @@
       "category": [
         "HUMANITIES",
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -1782,8 +1782,8 @@
       "category": [
         "HUMANITIES",
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -1873,8 +1873,8 @@
       "start_date": "2025-10-04T17:00:00+00:00",
       "end_date": "2025-10-05T03:59:59+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
+        "DESIGN",
         "ARTS"
       ],
       "metadata": {
@@ -2077,10 +2077,10 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "POLITICS"
+        "DESIGN",
+        "POLITICS",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -2163,8 +2163,8 @@
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
         "HUMANITIES",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -2248,10 +2248,10 @@
       "start_date": "2025-10-08T14:00:00+00:00",
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
         "SOCIAL",
         "HUMANITIES",
+        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -2293,10 +2293,10 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "POLITICS"
+        "DESIGN",
+        "POLITICS",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -2338,11 +2338,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
         "SOCIAL",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -2393,8 +2393,8 @@
       "category": [
         "HUMANITIES",
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -2441,11 +2441,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
         "SOCIAL",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -2492,9 +2492,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
+        "TECH",
         "POLITICS",
-        "ARTS",
-        "TECH"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -2537,8 +2537,8 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "POLITICS",
         "SOCIAL",
+        "POLITICS",
         "ARTS"
       ],
       "metadata": {
@@ -2580,10 +2580,10 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
-        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "POLITICS"
+        "DESIGN",
+        "POLITICS",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -2800,8 +2800,8 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "POLITICS",
         "SOCIAL",
+        "POLITICS",
         "ARTS"
       ],
       "metadata": {
@@ -2878,6 +2878,50 @@
       }
     },
     {
+      "id": "evt_newschool_47151059",
+      "name": "Mannes Sounds Lecture: Anna and Dmitri Shelest present “Donna Voce”: Music of Women Composers from the 19th through 21st Centuries for Piano Duo",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Anna and Dmitri Shelest present“Donna Voce”: Music of Women Composers from the 19th through 21st Centuries for Piano DuoThe Shelest Piano Duo presents a captivating exploration of music for piano four hands and two pianos, featuring works by women composers spanning the past three centuries.AboutPraised for their “stirring performances of rare repertory” (Fanfare Magazine), the Shelest Piano Duo is a husband-and-wife team of ANNA AND DMITRI SHELEST who trace their roots to the music school in Ukraine. At their official Carnegie Hall debut in February 2018, their CD release of Ukrainian Rhapsodybrought the renewed attention to the music of their homeland. The Duo, who met as classmates in middle school, began performing together after their marriage in the U.S. Their inventive programs have brought them to a broad array of venues from concert stages to state functions, and, in words of Secretary-General of the United Nations Ban Ki-moon, “realized diplomacy through music.”Dmitri Shelest started studying piano at the age of six in Ukraine and soon enrolled into the Kharkiv Special Music School, succeeding at his first contest when he was 11 years old. It was also piano that brought him across to the U.S. after he was offered a full scholarship to Northern Kentucky University as a bachelor’s degree candidate in piano performance.While at NKU, Mr. Shelest won top prizes in various international piano competitions and participated in music festivals. After graduating in 2005, he pursued a post- baccalaureate degree in entrepreneurship. Since relocating with his family to New York, he has been active as a chamber musician in addition to managing a record label and a piano retail showroom.Hailed by The New York Times as a pianist of “a fiery sensibility and warm touch,” Anna Shelest is an international award-winning musician who has thrilled audiences throughout the world. Anna, a champion of esoteric repertoire, is currently collaborating with the legendary conductor Neeme Järvi on a project of recording the complete works for piano and orchestra by Anton Rubinstein.Anna made her orchestral debut at the age of 12 years old with the Kharkiv Symphony Orchestra, playing Rachmaninoff’s “Piano Concerto No. 1.” Since then, she has been a soloist with world-class orchestras such as Cincinnati Symphony Orchestra, Montreal Symphony Orchestra and Estonian National Symphony Orchestra among others.As a soloist, she has appeared at Alice Tully Hall and Stern Auditorium at Carnegie Hall in New York City, The Kennedy Center in Washington, DC, Wiener Konzerthaus in Vienna and Palacio de Bellas Artes in Mexico City.Born in Ukraine, Mrs. Shelest received her early music education at Kharkiv Special Music School. After receiving her Bachelor of Music degree at Northern Kentucky University, she graduated from The Juilliard School with a master’s degree.Today, Anna and Dmitri Shelest make their home in New York City with their two sons, Ivan and Alexey. ",
+      "start_date": "2025-11-02T23:30:00+00:00",
+      "end_date": "2025-11-03T01:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundslectureannaanddmit",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannessounds",
+            "msf",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_42092fa9",
       "name": "Visualizing Care",
       "type": "Exhibition",
@@ -2889,8 +2933,8 @@
       "category": [
         "HUMANITIES",
         "DESIGN",
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -3248,11 +3292,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
         "SOCIAL",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -3576,51 +3620,6 @@
             "performing arts",
             "performance",
             "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_a2fcab5f",
-      "name": "Mannes Sounds Piano Cantabile: The Piano in Transition",
-      "type": "Seminar",
-      "location_id": "loc_newschool_arnhold",
-      "community_id": "com_newschool",
-      "description": " Curated by Thomas SauerWorks by: Mozart, Chopin, Debussy, Schoenberg, Joplin, Bartok, and Ligeti.The Piano Cantabile Series is part of the Mannes Sounds Festival which was founded in 1999 by Pavlina Dokovska, chair of the Mannes Piano department. The festival presents more than 20 concerts annually performed by young artists from Mannes, the School of Jazz and Contemporary Music and the School of Drama as well as master classes and lectures by distinguished faculty members and renowned guest artists and is one of the outstanding components of Mannes' performance program. The events are held at various prestigious New York City concert venues and cultural institutions. ",
-      "start_date": "2026-02-06T23:30:00+00:00",
-      "end_date": "2026-02-07T01:30:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/mannessoundspianocantabilethep",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Arnhold Hall",
-          "address": "55 West 13th Street, New York, NY 10011",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Mannes",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "mannes sounds festival",
-            "msf",
-            "sparkperformance25",
-            "general public",
-            "mannes school of music",
-            "performing arts",
-            "college of performing arts",
-            "lectures and talks",
-            "ernst c. stiefel concert hall at arnhold hall",
-            "lectures and panel discussions"
           ],
           "audience": []
         }
