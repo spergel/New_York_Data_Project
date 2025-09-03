@@ -10,10 +10,10 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
-        "TECH",
         "DESIGN",
+        "ARTS",
+        "TECH",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -61,9 +61,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
+        "HUMANITIES",
         "SOCIAL",
-        "ARTS",
-        "HUMANITIES"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -144,9 +144,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
+        "HUMANITIES",
         "SOCIAL",
-        "ARTS",
-        "HUMANITIES"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -189,9 +189,9 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -271,10 +271,10 @@
       "start_date": "2025-09-04T22:00:00+00:00",
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS",
+        "HUMANITIES",
         "DESIGN",
-        "HUMANITIES"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -417,11 +417,14 @@
           "type": "organizer"
         },
         "additional_info": {
-          "department": [],
+          "department": [
+            "College Of Performing Arts"
+          ],
           "tags": [
             "general public",
             "jazz",
             "performing arts",
+            "college of performing arts",
             "performance",
             "theresa lang community and student center"
           ],
@@ -439,9 +442,9 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
+        "POLITICS",
         "SOCIAL",
-        "ARTS",
-        "POLITICS"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemjameemoudud",
@@ -482,8 +485,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -529,9 +532,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -579,9 +582,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
+        "HUMANITIES",
         "SOCIAL",
-        "ARTS",
-        "HUMANITIES"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -615,6 +618,57 @@
       }
     },
     {
+      "id": "evt_newschool_e71c101a",
+      "name": "Sequins, Clay & Creative Courage: A Journey in Authentic Self-Employment",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join ceramic artist, performer, and creative maximalist Alex Simon — the powerhouse behind the brand Make Good Choices — for an afternoon of sparkle-fueled movement and inspiring storytelling.• 3:00–3:45 PM – Prancercise: Dance for Joy with an Aerobic Ribbon Release!• 4:00–5:00 PM – Sequins, Clay & Creative Courage: A Journey in Authentic Self-Employment The event kicks off with Prancercise: Dance for Joy with an Aerobic Ribbon Release! — a queer, glitter-drenched homage to Richard Simmons… but even gayer. Part prancercise, part aerobics, part playground free-for-all, this joyful session uses ribbon dancers to shake off stress, unleash joy, and high-kick worry into oblivion. Expect laughter, sweat, and the kind of fabulous cardio that leaves you grinning. All bodies and all movement levels are welcome — it’s about comfort, joy, and self-expression. After we’ve twirled our worries away, Alex will present Sequins, Clay & Creative Courage: A Journey in Authentic Self-Employment — an intimate, funny, and heartfelt look at her path from an East Coast, indoor-asthmatic, musical-theater-camp-counselor type to art student to thriving full-time entrepreneur and ceramic artist for over a decade. She’ll share the wins, the pivots, the detours, and the “more is more” philosophy that has made her work a viral sensation across social media — and helped thousands of her ceramic pieces find their way into hands and hearts around the world.Schedule:BioAlex Simon (she/her) is a ceramic artist, creative maximalist, performer, and unapologetic sparkle queen based in Portland, Oregon. She creates vibrant, functional ceramic art that celebrates play, nostalgia, and queer joy — from prancing unicorn heart mugs to inhaler pipes for asthmatics to rainbow menorahs that shimmer with meaning. Her work invites delight, sparks conversation, and transforms everyday rituals into moments of wonder.After graduating from Bennington College with a concentration in Visual Arts, Alex worked in production pottery studios as a mold-maker and slip-caster before launching her own brand, Make Good Choices. Now with hundreds of thousands of followers across social media, she shares both her intricate ceramic process and her unapologetically authentic life with a devoted audience.When she’s not covered in clay, you can find her laughing with her queer community, bedazzling everything within reach, salting everything I can’t glitter, obsessing over my perfect dog, and probably looking at rainbow sequin outfits on the internet.",
+      "start_date": "2025-09-10T19:00:00+00:00",
+      "end_date": "2025-09-10T21:00:00+00:00",
+      "category": [
+        "HUMANITIES",
+        "DESIGN",
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/makegoodchoices",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School Student Hub (J 200)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "nd25",
+            "alumni",
+            "faculty",
+            "general public",
+            "staff",
+            "students",
+            "student leadership and involvement",
+            "arts",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "university",
+            "lectures and talks",
+            "the new school student hub (j 200)",
+            "lectures and panel discussions",
+            "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_8986cbc9",
       "name": "NSSR Fall 2025 Welcome Reception",
       "type": "Academic",
@@ -624,8 +678,8 @@
       "start_date": "2025-09-10T20:00:00+00:00",
       "end_date": "2025-09-10T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nssrfall2025welcomereception",
@@ -709,8 +763,8 @@
       "start_date": "2025-09-10T22:30:00+00:00",
       "end_date": "2025-09-11T01:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sustainabilityleaderssummit",
@@ -846,8 +900,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/langarts-jerronherman",
@@ -889,9 +943,9 @@
       "start_date": "2025-09-15T17:30:00+00:00",
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN",
         "HUMANITIES",
+        "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -986,9 +1040,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
+        "HUMANITIES",
         "SOCIAL",
-        "ARTS",
-        "HUMANITIES"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -1032,10 +1086,10 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS",
         "HUMANITIES",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unfamiliarintelligence",
@@ -1077,8 +1131,8 @@
       "start_date": "2025-09-17T22:00:00+00:00",
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
-        "ARTS",
         "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -1132,10 +1186,10 @@
       "start_date": "2025-09-22T04:00:00+00:00",
       "end_date": "2025-09-26T22:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
-        "TECH",
         "DESIGN",
+        "ARTS",
+        "TECH",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -1190,10 +1244,10 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
-        "TECH",
         "DESIGN",
+        "ARTS",
+        "TECH",
+        "SOCIAL",
         "POLITICS"
       ],
       "metadata": {
@@ -1243,6 +1297,53 @@
       }
     },
     {
+      "id": "evt_newschool_58be359c",
+      "name": "Organizing Towards Liberation: Social Justice Fair",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Lang Office of Civic Engagement and Social Justice invites you to our first annual Social Justice Fair, which aims to bring in several community organizations from around NYC and cultivate relationships with our students and TNS community. Come meet with various community-based organizations to learn about their ongoing activism opportunities, as well as be in community to learn important skills such as how to organize. Free Food!  The New School Student Hub 39 West 13th StreetNearby Trains: 6av, L train;1-3 trains, 14th St.Accessibility: Wheelchair Accessible. ",
+      "start_date": "2025-09-23T15:00:00+00:00",
+      "end_date": "2025-09-23T17:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/organizingtowardsliberationsoc1",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School Student Hub",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "langbuild",
+            "nd24pp",
+            "eisjweb",
+            "lobbymonitor",
+            "general public",
+            "civic engagement and social justice",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "eugene lang college of liberal arts",
+            "info session/open house",
+            "the new school student hub",
+            "admission info session/open house",
+            "online or live streamed"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_c8ea0039",
       "name": "Book Launch: Fools for Love: Stories by Helen Schulman",
       "type": "Academic",
@@ -1252,9 +1353,9 @@
       "start_date": "2025-09-24T22:00:00+00:00",
       "end_date": "2025-09-24T23:00:00+00:00",
       "category": [
+        "HUMANITIES",
         "SOCIAL",
-        "ARTS",
-        "HUMANITIES"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/foolsforlovesbooklaunch",
@@ -1350,10 +1451,10 @@
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
+        "DESIGN",
         "ARTS",
         "SOCIAL",
         "HUMANITIES",
-        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -1400,9 +1501,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
+        "HUMANITIES",
         "SOCIAL",
-        "ARTS",
-        "HUMANITIES"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -1486,9 +1587,9 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -1535,9 +1636,9 @@
       "start_date": "2025-09-26T14:00:00+00:00",
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN",
         "HUMANITIES",
+        "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -1625,9 +1726,9 @@
       "start_date": "2025-09-30T17:30:00+00:00",
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN",
         "HUMANITIES",
+        "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -1679,9 +1780,9 @@
       "start_date": "2025-10-01T17:30:00+00:00",
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN",
         "HUMANITIES",
+        "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -1772,9 +1873,9 @@
       "start_date": "2025-10-04T17:00:00+00:00",
       "end_date": "2025-10-05T03:59:59+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
-        "ARTS",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thepianopodliveinconcertabold",
@@ -1976,9 +2077,9 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
         "ARTS",
-        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -2008,6 +2109,50 @@
       }
     },
     {
+      "id": "evt_newschool_f0350a65",
+      "name": "Mannes Sounds Masterclass: Dror Semmel",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Featuring internationally acclaimed pianistDror Semmel from Buchman-Mehta Music School at Tel Aviv University, this masterclass provides music lovers with a rare opportunity to witness the interaction between gifted Mannes students and a great artist as they examine and explore the craft of performance at the highest level.About: Israeli pianist Dror Semmel teaches piano, theory, and chamber music at the Buchmann-Mehta School of Music at Tel Aviv University. He has been performing in Israel, Europe, and North America as a soloist with orchestras, in recitals, and in chamber music concerts. His performances are regarded as being of the highest caliber of artistry and sensitivity. Often described as a \"true follower of the Schnabel tradition,\" his interpretations of Germanic repertoire have been praised as \"extremely well thought-out, genuine, and insightful.\" In recent years, he has performed Beethoven's last three piano sonatas, Schubert's late sonatas and Winterreise, Bach's Goldberg Variations and Partitas, Brahms's complete chamber music, as well as Schumann's major works.Recent concerts include appearances with the Jerusalem Symphony Orchestra and the Israel Chamber Orchestra. He records frequently for Kan Kol Hamusika, Israel's classical radio station. In addition, his recordings have been broadcast on WQXR in New York City.As a keen chamber musician, Dror Semmel has collaborated with leading artists in Israel and performed in major venues and concert series. Together with his sister Shir Semmel, he founded the Jerusalem Piano Duo and has performed extensively in Israel and the United States.Recently, Dror Semmel began playing period instruments, particularly the Graf fortepiano, which he was instrumental in bringing to the Eden-Tamir Music Center in Jerusalem. It is the first and only Graf in Israel.Moreover, Dror Semmel has taught at Music Fest Perugia and at the Tel-Hai International Piano Master Classes. He has been invited to give masterclasses at top universities in Europe and the United States next season.Dror Semmel graduated from the Jerusalem Academy as a student of Bracha Eden and Alexander Tamir. In New York, he studied with Victor Rosenbaum and later completed his doctorate under the guidance of Gilbert Kalish. During his time in New York, he also worked with pianist Richard Goode.Dror Semmel also teaches at the Israel Conservatory of Music in Tel Aviv. He formerly taught at Levinsky College and at the Jerusalem Conservatory, where he served as head of the piano department. His students regularly win top prizes in competitions and perform with orchestras in Israel and abroad.Dror Semmel is the artistic director of the Eden-Tamir Music Center in Ein Kerem, Jerusalem, and the artistic director of Kan Voice of Music's Young Artists Competition. Together with Mrs. Lea Agmon, he is the co-director of the Edward Aldwell Institute in Jerusalem.",
+      "start_date": "2025-10-07T16:00:00+00:00",
+      "end_date": "2025-10-07T19:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundsmasterclassdrorsem",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannes sounds festival",
+            "msf",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_107ccda2",
       "name": "Lang Craft Talks featuring Alum Danielle Pafunda",
       "type": "Seminar",
@@ -2017,8 +2162,8 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
-        "ARTS",
         "HUMANITIES",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -2103,10 +2248,10 @@
       "start_date": "2025-10-08T14:00:00+00:00",
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
+        "DESIGN",
         "ARTS",
         "SOCIAL",
         "HUMANITIES",
-        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -2148,9 +2293,9 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
         "ARTS",
-        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -2193,11 +2338,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
-        "HUMANITIES",
         "DESIGN",
-        "TECH"
+        "ARTS",
+        "TECH",
+        "SOCIAL",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -2246,9 +2391,9 @@
       "start_date": "2025-10-13T17:30:00+00:00",
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN",
         "HUMANITIES",
+        "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -2296,11 +2441,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
-        "HUMANITIES",
         "DESIGN",
-        "TECH"
+        "ARTS",
+        "TECH",
+        "SOCIAL",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -2347,9 +2492,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "TECH",
+        "POLITICS",
         "ARTS",
-        "POLITICS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -2392,9 +2537,9 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
+        "POLITICS",
         "SOCIAL",
-        "ARTS",
-        "POLITICS"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/politicsoftheater",
@@ -2435,9 +2580,9 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
+        "DESIGN",
         "SOCIAL",
         "ARTS",
-        "DESIGN",
         "POLITICS"
       ],
       "metadata": {
@@ -2469,6 +2614,51 @@
       }
     },
     {
+      "id": "evt_newschool_bc7aa7f9",
+      "name": "Mannes Sounds Masterclass: Anthony Hewitt",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Featuring internationally acclaimed pianist Anthony Hewitt from Royal Birmingham Conservatoire this masterclass provides music lovers with a rare opportunity to witness the interaction between gifted Mannes students and a great artist as they examine and explore the craft of performance at the highest level.About: Anthony Hewitt is regarded as one of Britain’s finest pianists, and since winning the prestigious William Kapell Competition in Washington D.C., has enjoyed a prolific career spanning two decades, including concerto appearances with the National Symphony Orchestra in the U.S.A. and in the U.K with the English Chamber and Royal Philharmonic Orchestras. He has performed at most of the UK's major concerts halls, including concerto appearances at Royal Festival Hall in London and Symphony Hall in Birmingham, frequent recitals at Wigmore Hall since his debut there in 1998, and has appeared as chamber musician at King's Place and Cadogan Hall in London, Bridgewater Hall in Manchester, and Usher Hall in Edinburgh. Anthony has recorded for Decca, Naxos, Champs Hill Records, and Divine Art Records for whom he added to the catalogue the first coupling of the Liszt and Reubke a disc which was praised in International Record Review as \"magisterial\", a Pndia nreoc Seiovneadt aas, Gramophone recommendation. Anthony trained at the Yehudi Menuhin School with Simon Nicholls and Seta Tanyel, and was accepted at the Curtis Institute of Music in Philadelphia as a student of Leon Fleisher and Claude Frank at the age of 17. He enjoys a diverse musical life as piano tutor at the Royal Birmingham Conservatoire, as well as festival director; in 2003 Anthony founded the Ulverston International Music Festival in his hometown in Cumbria with the aim of bringing internationally renowned artists – including Nicola Benedetti, Steve Isserlis, Tasmin Little, Natalie Clein, Chloe Hanslip, and Alina Ibragimova to name a few – to a rural part of England. Part of his role includes work in the community with local school children in workshops, family concerts, and master classes. In 2014 he gave his conducting debut in a performance of Beethoven’s 2nd Symphony with the Northern Chamber Orchestra. His most unusual ‘feat’ however was in 2012 when he gained the admiration of the music world and beyond by cycling 1200 miles from Land’s End to John O’Groats and giving a concert every night, raising over £13,000 for charity.",
+      "start_date": "2025-10-16T16:00:00+00:00",
+      "end_date": "2025-10-16T19:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundsmasterclassanthony",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannes sounds festival",
+            "msf",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_116ba030",
       "name": "Freedom of Expression in the Academy",
       "type": "Seminar",
@@ -2478,8 +2668,8 @@
       "start_date": "2025-10-16T16:30:00+00:00",
       "end_date": "2025-10-16T18:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/freedomofexpression",
@@ -2520,8 +2710,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://cityvisionaryawards.com",
@@ -2568,8 +2758,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/asyoulikeit",
@@ -2610,9 +2800,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
+        "POLITICS",
         "SOCIAL",
-        "ARTS",
-        "POLITICS"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemlenorepalladin",
@@ -2655,8 +2845,8 @@
       "start_date": "2025-10-29T21:00:00+00:00",
       "end_date": "2025-10-29T23:00:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/alumnireading40",
@@ -2697,9 +2887,9 @@
       "start_date": "2025-11-03T18:30:00+00:00",
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN",
         "HUMANITIES",
+        "DESIGN",
+        "ARTS",
         "TECH"
       ],
       "metadata": {
@@ -2732,6 +2922,50 @@
             "exhibitions and openings",
             "student hub ",
             "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_bf568473",
+      "name": "Mannes Sounds Masterclass: Richard Goode",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Featuring internationally acclaimed pianist and Mannes School of Music faculty member, Richard Goode, this masterclass provides music lovers with a rare opportunity to witness the interaction between gifted Mannes students and a great artist as they examine and explore the craft of performance at the highest level.About: Richard Goode has been hailed for music-making of tremendous emotional power, depth, andexpressiveness, and has been acknowledged worldwide as one of today’s leading interpreters of Classicaland Romantic music. In regular performances with the major orchestras, recitals in the world’s musiccapitals, masterclasses in person or online, and through his extensive and acclaimed Nonesuch recordings,he has won a large and devoted following.An exclusive Nonesuch recording artist, Goode has made more than two dozen recordings over the years,ranging from solo and chamber works to lieder and concertos. His 10-CD set of the complete Beethovensonatas cycle, the first-ever by an American-born pianist, was nominated for a Grammy and has beenranked among the most distinguished recordings of this repertoire. Other recording highlights includenumerous Mozart piano concerti with Orpheus and the Beethoven piano concerti with Ivan Fischer andBudapest Festival Orchestra.A native of New York, Richard Goode studied at the Mannes College of Music and the Curtis Institute. Hisnumerous prizes over the years include the Young Concert Artists Award, First Prize in the Clara HaskilCompetition, the Avery Fisher Prize, and a Grammy award for the Brahms Sonatas recorded with clarinetistRichard Stoltzman.Mr. Goode served as co-Artistic Director of the renowned Marlboro Music School and Festival in Vermontfrom 1999 through 2013. In Fall 2021, Mr. Goode joined the Peabody Conservatory as Distinguished ArtistFaculty.He is married to the violinist Marcia Weinfeld, and, when the Goodes are not on tour, they and theircollection of some 5,000 volumes live in New York City.",
+      "start_date": "2025-11-04T17:00:00+00:00",
+      "end_date": "2025-11-04T20:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/msmasterclassrichardgoode25",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannes sounds festival",
+            "msf",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -2927,8 +3161,8 @@
       "start_date": "2025-11-13T22:00:00+00:00",
       "end_date": "2025-11-14T04:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
@@ -3014,11 +3248,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
-        "HUMANITIES",
         "DESIGN",
-        "TECH"
+        "ARTS",
+        "TECH",
+        "SOCIAL",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -3050,6 +3284,51 @@
             "exhibitions and openings",
             "starr foundation (u l102)",
             "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_28c3db9f",
+      "name": "Mannes Sounds Piano Cantabile: Dancing through Centuries",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "curated by Inessa Zaretsky Works by: Bach, Chopin, Rachmaninoff, Tchaikovsky, Bartok, Schumann, Schubert, Prokofiev, Piazzola,Jorg Widmann -ZirkustanzeThe Piano Cantabile Series is part of the Mannes Sounds Festival which was founded in 1999 by Pavlina Dokovska, chair of the Mannes Piano department. The festival presents more than 20 concerts annually performed by young artists from Mannes, the School of Jazz and Contemporary Music and the School of Drama as well as master classes and lectures by distinguished faculty members and renowned guest artists and is one of the outstanding components of Mannes' performance program. The events are held at various prestigious New York City concert venues and cultural institutions. ",
+      "start_date": "2025-12-05T23:30:00+00:00",
+      "end_date": "2025-12-06T01:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundspianocantabiledanc",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannes sounds festival",
+            "msf",
+            "sparkperformance25",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -3091,6 +3370,51 @@
             "university",
             "performance",
             "the new school"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_b8ad6846",
+      "name": "Mannes Sounds Piano Cantabile: Voyage to Italy",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
+      "community_id": "com_newschool",
+      "description": "Curated by John NovacekWorks by: Scarlatti, Marcello-Bach, Bellini-Liszt, Liszt, Poulenc, Casella, Respighi, Berio, Rossini-Czerni, TchaikovskyThe Piano Cantabile Series is part of the Mannes Sounds Festival which was founded in 1999 by Pavlina Dokovska, chair of the Mannes Piano department. The festival presents more than 20 concerts annually performed by young artists from Mannes, the School of Jazz and Contemporary Music and the School of Drama as well as master classes and lectures by distinguished faculty members and renowned guest artists and is one of the outstanding components of Mannes' performance program. The events are held at various prestigious New York City concert venues and cultural institutions. ",
+      "start_date": "2025-12-07T23:30:00+00:00",
+      "end_date": "2025-12-08T01:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundspianocantabilevoya",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannes sounds festival",
+            "msf",
+            "sparkperformance25",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -3258,104 +3582,23 @@
       }
     },
     {
-      "id": "evt_newschool_f21b88fd",
-      "name": "Schneider Concerts Presents | Dana Kelley, March Preconcert Talk",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
+      "id": "evt_newschool_a2fcab5f",
+      "name": "Mannes Sounds Piano Cantabile: The Piano in Transition",
+      "type": "Seminar",
+      "location_id": "loc_newschool_arnhold",
       "community_id": "com_newschool",
-      "description": "Violist Dana Kelley, celebrated chamber musician and associate principal of the National Symphony, goes in depth exploring works being performed during the Schneider Concerts 2025-2026 season at The New School in four pre-concert talks in December, January, March, and April. Join us for one or all four.On Sunday, March 22, Dana introduces the works to be performed by the Ulysses Quartet and pianist Olga Kern at 2pm [separate ticket required for concert.]$5 pre-concert talkFor their second concert, the award-winning Ulysses Quartet invites pianist Olga Kern to join them in a performance of Dvorak's Piano Quintet No. 2 on a program that includes works by Caroline Shaw, Fanny Mendelssohn, and a New York Premiere of a Christina Bouey's quartet \"Soul.\" Caroline Shaw: String Quartet \"Valencia\" (2012)Christina Bouey: String Quartet \"Soul\" (2024)—New York PremiereFanny Mendelssohn Hensel: String Quartet in E-flat Major (1834)Antonín Dvořák: Piano Quintet No. 2 in A major, Op. 81 (1887) This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
-      "start_date": "2026-03-22T16:30:00+00:00",
-      "end_date": "2026-03-22T17:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_d4c6be14",
-      "name": "Schneider Concerts Presents | Ulysses Quartet with Pianist Olga Kern",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "For their second concert, the award-winning Ulysses Quartet invites pianist Olga Kern to join them in a performance of Dvorak's Piano Quintet No. 2 on a program that includes works by Caroline Shaw, Fanny Mendelssohn, and a New York Premiere of a Christina Bouey's quartet \"Soul.\" Caroline Shaw: String Quartet \"Valencia\" (2012)Christina Bouey: String Quartet \"Soul\" (2024)—New York PremiereFanny Mendelssohn Hensel: String Quartet in E-flat Major (1834)Antonín Dvořák: Piano Quintet No. 2 in A major, Op. 81 (1887).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register to receive livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
-      "start_date": "2026-03-22T18:00:00+00:00",
-      "end_date": "2026-03-22T20:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_3d86e66a",
-      "name": "Mannes Sounds: Pianists at the Opera",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "*Donor Appreciation ConcertCurated by Donald Wagner 19th century grand opera was an art form that captivated audiences like no other. It also inspired new virtuoso piano techniques that brought fame and fortune for some of the greatest virtuoso pianists of the time.  Curated by Don Wagner, a member of the Mannes Board of Governors, this concert will explore a number of the most significant opera transcriptions for piano by masters of the genre: Thalberg, Liszt, Pabst, Moszkowski and Godowsky- as well as some of the original operatic scenes on which they based their brilliant and innovative works. * Mannes and the Mannes Sounds Festival are proudly supported by the generosity of people like you. To give or to learn about giving opportunities, please contact Development & Alumni Engagement by phone or email at (212) 229-5662 or development@newschool.edu. ",
-      "start_date": "2026-04-06T22:00:00+00:00",
-      "end_date": "2026-04-07T00:00:00+00:00",
+      "description": " Curated by Thomas SauerWorks by: Mozart, Chopin, Debussy, Schoenberg, Joplin, Bartok, and Ligeti.The Piano Cantabile Series is part of the Mannes Sounds Festival which was founded in 1999 by Pavlina Dokovska, chair of the Mannes Piano department. The festival presents more than 20 concerts annually performed by young artists from Mannes, the School of Jazz and Contemporary Music and the School of Drama as well as master classes and lectures by distinguished faculty members and renowned guest artists and is one of the outstanding components of Mannes' performance program. The events are held at various prestigious New York City concert venues and cultural institutions. ",
+      "start_date": "2026-02-06T23:30:00+00:00",
+      "end_date": "2026-02-07T01:30:00+00:00",
       "category": [
         "ARTS"
       ],
       "metadata": {
-        "source_url": "https://event.newschool.edu/mannessoundspianistsattheopera",
+        "source_url": "https://event.newschool.edu/mannessoundspianocantabilethep",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Victor Borge Hall at Scandinavia House ",
+          "name": "Arnhold Hall",
+          "address": "55 West 13th Street, New York, NY 10011",
           "type": "venue"
         },
         "organizer": {
@@ -3368,179 +3611,16 @@
             "College Of Performing Arts"
           ],
           "tags": [
-            "general public",
-            "mannes school of music",
-            "performing arts",
-            "college of performing arts",
-            "performance",
-            "victor borge hall at scandinavia house "
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_f3ea43f1",
-      "name": "Mannes Sounds: Romance is in the Air",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Donor Appreciation Concert*Hosted by Mrs. Grace Noyes Music by: Brahms, Bernstein, Bizet,  Debussy, Elgar, Cole Porter, Frolence Price, Puccini, Liszt, Mozart, Cole Porter, Schumann* Mannes, School of Drama, School of Jazz and Mannes Sounds are proudly supported by the generosity of people like you. To give or to learn about giving opportunities, please contact Development & Alumni Engagement by phone or email at (212) 229-5662 or development@newschool.edu. ",
-      "start_date": "2026-04-09T21:30:00+00:00",
-      "end_date": "2026-04-09T23:30:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/mannessoundsromanceisintheair",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Union Club",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Mannes",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "mannessounds",
+            "mannes sounds festival",
             "msf",
+            "sparkperformance25",
             "general public",
             "mannes school of music",
             "performing arts",
             "college of performing arts",
-            "performances",
-            "union club",
-            "music performances",
-            "theater performances"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_ed85e8ec",
-      "name": "Schneider Concerts Presents | Dana Kelley, April Preconcert Talk",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Violist Dana Kelley, celebrated chamber musician and associate principal of the National Symphony goes in depth exploring works being performed during the Schneider Concerts 2025-2026 season at The New School in four pre-concert talks in December, January, March, and April. Join us for one or all four.Sunday, January 11 at  12:30p.m.Dana introduces the works to be performed by the Katarina and Ulysses Quartets at 2pm[concert requires separate ticket purchase] Vivian Fung: String Quartet No. 5 \"Spiraling\" (2022)—New York City PremiereFranz Joseph Haydn: String Quartet in C Major, Op. 50, No. 2 (1787)Felix Mendelssohn: Octet in E-flat, Op. 20 (1825)—with members of the Ulysses Quartet This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
-      "start_date": "2026-04-26T16:30:00+00:00",
-      "end_date": "2026-04-26T17:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_d99803f2",
-      "name": "Online | Schneider Concerts Presents Katarina Quartet - Livestream",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The season closes with the Katarina String Quartet, 2025 Grand Prize winner of the Fischoff Competition. Selected by curating/performing ensemble Ulysses Quartet, the Katarina will perform works by Vivian Fung and Franz Joseph Haydn, and be joined by the Ulysses Quartet in a performance of Felix Mendelssohn's Octet. Vivian Fung: String Quartet No. 5 \"Spiraling\" (2022)—New York City PremiereFranz Joseph Haydn: String Quartet in C Major, Op. 50, No. 2 (1787)Felix Mendelssohn: Octet in E-flat, Op. 20 (1825)—with members of the Ulysses Quartet.This concert will be approximately 1 hour and 40 minutes, including intermission Livestreams are offered with pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's up to you! No judgement - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
-      "start_date": "2026-04-26T18:00:00+00:00",
-      "end_date": "2026-04-26T20:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_4d32ea9c",
-      "name": "Schneider Concerts Presents | Katarina String Quartet",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "The season closes with the Katarina String Quartet, 2025 Grand Prize winner of the Fischoff Competition. Selected by curating/performing ensemble Ulysses Quartet, the Katarina will perform works by Vivian Fung and Franz Joseph Haydn, and be joined by the Ulysses Quartet in a performance of Felix Mendelssohn's Octet. Vivian Fung: String Quartet No. 5 \"Spiraling\" (2022)—New York City PremiereFranz Joseph Haydn: String Quartet in C Major, Op. 50, No. 2 (1787)Felix Mendelssohn: Octet in E-flat, Op. 20 (1825)—with members of the Ulysses Quartet.This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person.That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
-      "start_date": "2026-04-26T18:00:00+00:00",
-      "end_date": "2026-04-26T20:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
+            "lectures and talks",
+            "ernst c. stiefel concert hall at arnhold hall",
+            "lectures and panel discussions"
           ],
           "audience": []
         }

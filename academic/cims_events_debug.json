@@ -10,8 +10,8 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
@@ -46,8 +46,8 @@
       "start_date": "2025-09-12T14:00:00",
       "end_date": "2025-09-12T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
@@ -82,8 +82,8 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
@@ -109,6 +109,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_5f82f30a",
+      "name": "Atmospheric gravity waves: new observations, high-resolution simulations, and data-informed methods",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-17T14:00:00",
+      "end_date": "2025-09-17T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4263",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Aditi Sheshadri, Stanford",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_bdba07d2",
       "name": "TBA",
       "type": "Academic",
@@ -118,8 +154,8 @@
       "start_date": "2025-09-18T14:00:00",
       "end_date": "2025-09-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4257",
@@ -154,8 +190,8 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4253",
@@ -181,6 +217,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_a1d069dc",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-24T14:00:00",
+      "end_date": "2025-09-24T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4264",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Renaud Falga, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_2bb24732",
       "name": "TBA",
       "type": "Academic",
@@ -190,8 +262,8 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4254",
@@ -217,6 +289,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_395535d1",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-01T14:00:00",
+      "end_date": "2025-10-01T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4265",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Wangying Kang, MIT",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_5c597d98",
       "name": "TBD",
       "type": "Academic",
@@ -226,8 +334,8 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
@@ -253,6 +361,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_5ab9da75",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-08T14:00:00",
+      "end_date": "2025-10-08T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4266",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Zheng Wu, Albany",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_d0840fc4",
       "name": "TBA",
       "type": "Academic",
@@ -262,8 +406,8 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
@@ -298,8 +442,8 @@
       "start_date": "2025-10-14T14:00:00",
       "end_date": "2025-10-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4259",
@@ -334,8 +478,8 @@
       "start_date": "2025-10-16T14:00:00",
       "end_date": "2025-10-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4258",
@@ -370,8 +514,8 @@
       "start_date": "2025-10-17T14:00:00",
       "end_date": "2025-10-17T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
@@ -406,8 +550,8 @@
       "start_date": "2025-10-23T14:00:00",
       "end_date": "2025-10-23T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
@@ -442,8 +586,8 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
@@ -478,8 +622,8 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
@@ -513,8 +657,8 @@
       "start_date": "2025-10-30T14:00:00",
       "end_date": "2025-10-30T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
@@ -549,8 +693,8 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
@@ -576,6 +720,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_c267637b",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-05T14:00:00",
+      "end_date": "2025-11-05T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4267",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Jiarong Wu, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_d3f3787f",
       "name": "TBA",
       "type": "Academic",
@@ -585,8 +765,8 @@
       "start_date": "2025-11-06T14:00:00",
       "end_date": "2025-11-06T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4261",
@@ -621,8 +801,8 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
@@ -657,8 +837,8 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
@@ -693,8 +873,8 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
@@ -729,8 +909,8 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
@@ -764,8 +944,8 @@
       "start_date": "2025-11-20T14:00:00",
       "end_date": "2025-11-20T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4256",
@@ -800,8 +980,8 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
@@ -836,8 +1016,8 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
@@ -872,8 +1052,8 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
@@ -908,8 +1088,8 @@
       "start_date": "2025-09-12T14:00:00",
       "end_date": "2025-09-12T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
@@ -944,8 +1124,8 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
@@ -971,6 +1151,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_5f82f30a",
+      "name": "Atmospheric gravity waves: new observations, high-resolution simulations, and data-informed methods",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-17T14:00:00",
+      "end_date": "2025-09-17T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4263",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Aditi Sheshadri, Stanford",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_bdba07d2",
       "name": "TBA",
       "type": "Academic",
@@ -980,8 +1196,8 @@
       "start_date": "2025-09-18T14:00:00",
       "end_date": "2025-09-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4257",
@@ -1016,8 +1232,8 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4253",
@@ -1043,6 +1259,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_a1d069dc",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-24T14:00:00",
+      "end_date": "2025-09-24T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4264",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Renaud Falga, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_2bb24732",
       "name": "TBA",
       "type": "Academic",
@@ -1052,8 +1304,8 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4254",
@@ -1079,6 +1331,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_395535d1",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-01T14:00:00",
+      "end_date": "2025-10-01T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4265",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Wangying Kang, MIT",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_5c597d98",
       "name": "TBD",
       "type": "Academic",
@@ -1088,8 +1376,8 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
@@ -1115,6 +1403,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_5ab9da75",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-08T14:00:00",
+      "end_date": "2025-10-08T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4266",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Zheng Wu, Albany",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_d0840fc4",
       "name": "TBA",
       "type": "Academic",
@@ -1124,8 +1448,8 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
@@ -1160,8 +1484,8 @@
       "start_date": "2025-10-14T14:00:00",
       "end_date": "2025-10-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4259",
@@ -1196,8 +1520,8 @@
       "start_date": "2025-10-16T14:00:00",
       "end_date": "2025-10-16T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4258",
@@ -1232,8 +1556,8 @@
       "start_date": "2025-10-17T14:00:00",
       "end_date": "2025-10-17T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
@@ -1268,8 +1592,8 @@
       "start_date": "2025-10-23T14:00:00",
       "end_date": "2025-10-23T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
@@ -1304,8 +1628,8 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
@@ -1340,8 +1664,8 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
@@ -1375,8 +1699,8 @@
       "start_date": "2025-10-30T14:00:00",
       "end_date": "2025-10-30T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
@@ -1411,8 +1735,8 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
@@ -1438,6 +1762,42 @@
       }
     },
     {
+      "id": "evt_nyu_cims_c267637b",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-05T14:00:00",
+      "end_date": "2025-11-05T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4267",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Jiarong Wu, NYU",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_d3f3787f",
       "name": "TBA",
       "type": "Academic",
@@ -1447,8 +1807,8 @@
       "start_date": "2025-11-06T14:00:00",
       "end_date": "2025-11-06T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4261",
@@ -1483,8 +1843,8 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
@@ -1519,8 +1879,8 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
@@ -1555,8 +1915,8 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
@@ -1591,8 +1951,8 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
@@ -1626,8 +1986,8 @@
       "start_date": "2025-11-20T14:00:00",
       "end_date": "2025-11-20T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4256",
@@ -1662,8 +2022,8 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
@@ -1698,8 +2058,8 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",

@@ -52,6 +52,31 @@
       }
     },
     {
+      "id": "evt_jtsa_c55130d1",
+      "name": "A Conference in Memory of David Ellenson: Assessing His Impact, Advancing His Legacy",
+      "type": "Seminar",
+      "location_id": "loc_jtsa_main",
+      "community_id": "com_jtsa",
+      "description": "Chancellor Shuly Rubin Schwartz will be speaking at an inspiring panel discussion that celebrates the profound scholarly and spiritual legacy of Rabbi David Ellenson z”l.",
+      "start_date": "2025-09-08T12:00:00",
+      "end_date": "2025-09-08T13:00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/david-ellenson-conference/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Marlene Meyerson JCC Manhattan",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
       "id": "evt_jtsa_4d60aa01",
       "name": "Beyond the Sermon: What High Holiday Prayers Offer and Demand",
       "type": "Religious",
@@ -219,31 +244,6 @@
         "venue": {
           "name": "The Grolier Club",
           "type": "venue"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_8c58c860",
-      "name": "Biblical Hebrew II: Workshop",
-      "type": "Workshop",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Can you read passages in the Tanakh on your own but lack the confidence to translate some of the more advanced verbal forms in the Qal stem, including commands and wishes, the “flipping Vav,” infinitives, and participles? Develop your skills in eight live online sessions.",
-      "start_date": "2025-10-20T12:00:00",
-      "end_date": "2025-10-20T13:00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-workshop-ii-fall-2025/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
         },
         "organizer": {
           "name": "Jewish Theological Seminary",
