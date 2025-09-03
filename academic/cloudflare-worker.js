@@ -185,12 +185,116 @@ async function handleRequest(request) {
     }
     
     // Health check
-    if (path === '/health' || path === '/') {
+    if (path === '/health') {
       return addCorsHeaders(new Response(JSON.stringify({
         status: 'healthy',
         service: 'NYC Academic Events API',
         version: '1.0.0',
-        events_count: academicEvents.length
+        events_count: academicEvents.length,
+        quick_start: 'Visit /docs for full API documentation'
+      }, null, 2), {
+        status: 200,
+        headers: { 'Content-Type': 'application/json' }
+      }));
+    }
+    
+    // Main API documentation page
+    if (path === '/' || path === '/docs') {
+      return addCorsHeaders(new Response(JSON.stringify({
+        status: 'healthy',
+        service: 'NYC Academic Events API',
+        version: '1.0.0',
+        events_count: academicEvents.length,
+        documentation: {
+          base_url: 'https://nyc-academic-events-api.spergel-joshua.workers.dev',
+          endpoints: {
+            '/api/events': {
+              method: 'GET',
+              description: 'Get academic events with filtering and pagination',
+              query_parameters: {
+                search: {
+                  type: 'string',
+                  description: 'Search events by name or description',
+                  example: '?search=lecture'
+                },
+                source: {
+                  type: 'string',
+                  description: 'Filter by institution/source (case-insensitive)',
+                  example: '?source=columbia',
+                  available_values: [...new Set(academicEvents.map(e => e.source_group))].filter(Boolean)
+                },
+                start_date: {
+                  type: 'string',
+                  description: 'Filter events starting from this date (ISO format)',
+                  example: '?start_date=2025-09-01'
+                },
+                end_date: {
+                  type: 'string',
+                  description: 'Filter events ending before this date (ISO format)',
+                  example: '?end_date=2025-12-31'
+                },
+                limit: {
+                  type: 'integer',
+                  description: 'Number of events to return per page (default: 100, max: 500)',
+                  example: '?limit=50'
+                },
+                offset: {
+                  type: 'integer',
+                  description: 'Number of events to skip for pagination (default: 0)',
+                  example: '?offset=100'
+                }
+              },
+              pagination: {
+                description: 'Response includes pagination metadata',
+                fields: {
+                  total: 'Total number of events matching filters',
+                  limit: 'Events per page',
+                  offset: 'Events skipped',
+                  has_more: 'Boolean indicating if more events exist'
+                }
+              },
+              examples: [
+                'GET /api/events - Get first 100 events',
+                'GET /api/events?limit=20 - Get first 20 events',
+                'GET /api/events?source=nyu&limit=10 - Get 10 NYU events',
+                'GET /api/events?search=lecture&limit=5 - Search for lectures, get 5 results',
+                'GET /api/events?start_date=2025-09-01&end_date=2025-09-30 - September 2025 events',
+                'GET /api/events?offset=100&limit=50 - Get events 101-150 (pagination)'
+              ]
+            },
+            '/api/events/{id}': {
+              method: 'GET',
+              description: 'Get a specific event by its ID',
+              example: 'GET /api/events/evt_nyu_cims_15bb52f6'
+            },
+            '/api/sources': {
+              method: 'GET',
+              description: 'Get list of all available institutions/sources',
+              example: 'GET /api/sources'
+            },
+            '/api/stats': {
+              method: 'GET',
+              description: 'Get API statistics and metadata',
+              example: 'GET /api/stats'
+            }
+          },
+          response_format: {
+            success: 'Boolean indicating if request was successful',
+            data: 'Main response data (varies by endpoint)',
+            meta: 'Metadata about the response',
+            pagination: 'Pagination information (for events endpoint)',
+            filters: 'Applied filters (for events endpoint)'
+          },
+          filtering_tips: [
+            'Use partial matches for source filtering (e.g., "columbia" matches "columbia_classics", "columbia_math")',
+            'Date filtering uses ISO 8601 format (YYYY-MM-DD)',
+            'Search is case-insensitive and searches both event names and descriptions',
+            'Combine multiple filters for precise results'
+          ],
+          rate_limits: 'No rate limits currently applied',
+          caching: 'Responses are cached for 1 hour',
+          cors: 'Full CORS support enabled for all origins'
+        }
       }, null, 2), {
         status: 200,
         headers: { 'Content-Type': 'application/json' }

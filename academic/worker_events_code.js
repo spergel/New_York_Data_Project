@@ -1,5 +1,5 @@
 // Auto-generated events data - 379 events
-// Generated at: 2025-09-01T13:32:38.013140
+// Generated at: 2025-09-01T13:34:37.195366
 // This file is automatically updated weekly by the scraping process
 
 const academicEvents = [
@@ -18,7 +18,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.961965",
+      "scraped_at": "2025-09-01T13:34:37.126337",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -37,7 +37,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962001",
+      "scraped_at": "2025-09-01T13:34:37.126381",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -56,7 +56,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962025",
+      "scraped_at": "2025-09-01T13:34:37.126407",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -75,7 +75,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962038",
+      "scraped_at": "2025-09-01T13:34:37.126420",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -94,7 +94,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962052",
+      "scraped_at": "2025-09-01T13:34:37.126431",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -113,7 +113,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962066",
+      "scraped_at": "2025-09-01T13:34:37.126442",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -132,7 +132,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962079",
+      "scraped_at": "2025-09-01T13:34:37.126452",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -151,7 +151,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962093",
+      "scraped_at": "2025-09-01T13:34:37.126462",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -170,7 +170,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962102",
+      "scraped_at": "2025-09-01T13:34:37.126471",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -189,7 +189,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962112",
+      "scraped_at": "2025-09-01T13:34:37.126481",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -208,7 +208,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962122",
+      "scraped_at": "2025-09-01T13:34:37.126490",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -227,7 +227,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962132",
+      "scraped_at": "2025-09-01T13:34:37.126511",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -246,7 +246,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962158",
+      "scraped_at": "2025-09-01T13:34:37.126542",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -265,7 +265,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962170",
+      "scraped_at": "2025-09-01T13:34:37.126557",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -284,7 +284,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962183",
+      "scraped_at": "2025-09-01T13:34:37.126582",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -303,7 +303,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962193",
+      "scraped_at": "2025-09-01T13:34:37.126597",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -322,7 +322,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962202",
+      "scraped_at": "2025-09-01T13:34:37.126608",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -341,7 +341,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962212",
+      "scraped_at": "2025-09-01T13:34:37.126617",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -360,7 +360,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962222",
+      "scraped_at": "2025-09-01T13:34:37.126626",
       "original_source": "NYU Courant Institute"
     }
   },
@@ -379,7 +379,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962446",
+      "scraped_at": "2025-09-01T13:34:37.126839",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -398,7 +398,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962488",
+      "scraped_at": "2025-09-01T13:34:37.126882",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -417,7 +417,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962528",
+      "scraped_at": "2025-09-01T13:34:37.126922",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -436,7 +436,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962569",
+      "scraped_at": "2025-09-01T13:34:37.126965",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -455,7 +455,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962605",
+      "scraped_at": "2025-09-01T13:34:37.127002",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -474,7 +474,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962638",
+      "scraped_at": "2025-09-01T13:34:37.127027",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -493,7 +493,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962675",
+      "scraped_at": "2025-09-01T13:34:37.127056",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -512,7 +512,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962708",
+      "scraped_at": "2025-09-01T13:34:37.127084",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -531,7 +531,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962744",
+      "scraped_at": "2025-09-01T13:34:37.127113",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -550,7 +550,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962772",
+      "scraped_at": "2025-09-01T13:34:37.127137",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -569,7 +569,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962810",
+      "scraped_at": "2025-09-01T13:34:37.127167",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -588,7 +588,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962839",
+      "scraped_at": "2025-09-01T13:34:37.127190",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -607,7 +607,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962871",
+      "scraped_at": "2025-09-01T13:34:37.127213",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -626,7 +626,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962910",
+      "scraped_at": "2025-09-01T13:34:37.127249",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -645,7 +645,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.962948",
+      "scraped_at": "2025-09-01T13:34:37.127280",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -664,7 +664,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963184",
+      "scraped_at": "2025-09-01T13:34:37.127548",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -683,7 +683,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963294",
+      "scraped_at": "2025-09-01T13:34:37.127698",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -702,7 +702,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963449",
+      "scraped_at": "2025-09-01T13:34:37.127973",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -721,7 +721,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963476",
+      "scraped_at": "2025-09-01T13:34:37.128065",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -740,7 +740,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963658",
+      "scraped_at": "2025-09-01T13:34:37.128360",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -759,7 +759,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963773",
+      "scraped_at": "2025-09-01T13:34:37.128562",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -778,7 +778,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963846",
+      "scraped_at": "2025-09-01T13:34:37.128683",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -797,7 +797,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.963929",
+      "scraped_at": "2025-09-01T13:34:37.128822",
       "original_source": "Columbia University Department of Classics"
     }
   },
@@ -816,7 +816,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964053",
+      "scraped_at": "2025-09-01T13:34:37.128944",
       "original_source": "Columbia University"
     }
   },
@@ -835,7 +835,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964196",
+      "scraped_at": "2025-09-01T13:34:37.129079",
       "original_source": "Columbia University"
     }
   },
@@ -854,7 +854,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964296",
+      "scraped_at": "2025-09-01T13:34:37.129166",
       "original_source": "Columbia University"
     }
   },
@@ -873,7 +873,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964358",
+      "scraped_at": "2025-09-01T13:34:37.129231",
       "original_source": "Columbia University"
     }
   },
@@ -892,7 +892,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964441",
+      "scraped_at": "2025-09-01T13:34:37.129313",
       "original_source": "Columbia University"
     }
   },
@@ -911,7 +911,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964466",
+      "scraped_at": "2025-09-01T13:34:37.129337",
       "original_source": "Columbia University"
     }
   },
@@ -930,7 +930,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964508",
+      "scraped_at": "2025-09-01T13:34:37.129378",
       "original_source": "Columbia University"
     }
   },
@@ -949,7 +949,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964556",
+      "scraped_at": "2025-09-01T13:34:37.129429",
       "original_source": "Columbia University"
     }
   },
@@ -968,7 +968,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964638",
+      "scraped_at": "2025-09-01T13:34:37.129518",
       "original_source": "Columbia University"
     }
   },
@@ -987,7 +987,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964668",
+      "scraped_at": "2025-09-01T13:34:37.129547",
       "original_source": "Columbia University"
     }
   },
@@ -1006,7 +1006,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.964884",
+      "scraped_at": "2025-09-01T13:34:37.129851",
       "original_source": "Columbia University"
     }
   },
@@ -1025,7 +1025,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965037",
+      "scraped_at": "2025-09-01T13:34:37.130040",
       "original_source": "Columbia University"
     }
   },
@@ -1044,7 +1044,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965105",
+      "scraped_at": "2025-09-01T13:34:37.130113",
       "original_source": "Columbia University"
     }
   },
@@ -1063,7 +1063,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965237",
+      "scraped_at": "2025-09-01T13:34:37.130252",
       "original_source": "Columbia University"
     }
   },
@@ -1082,7 +1082,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965355",
+      "scraped_at": "2025-09-01T13:34:37.130419",
       "original_source": "Columbia University"
     }
   },
@@ -1101,7 +1101,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965411",
+      "scraped_at": "2025-09-01T13:34:37.130489",
       "original_source": "Columbia University"
     }
   },
@@ -1120,7 +1120,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965536",
+      "scraped_at": "2025-09-01T13:34:37.130641",
       "original_source": "Columbia University"
     }
   },
@@ -1139,7 +1139,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965616",
+      "scraped_at": "2025-09-01T13:34:37.130761",
       "original_source": "Columbia University"
     }
   },
@@ -1158,7 +1158,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965743",
+      "scraped_at": "2025-09-01T13:34:37.130918",
       "original_source": "Columbia University"
     }
   },
@@ -1177,7 +1177,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965809",
+      "scraped_at": "2025-09-01T13:34:37.130998",
       "original_source": "Columbia University"
     }
   },
@@ -1196,7 +1196,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965922",
+      "scraped_at": "2025-09-01T13:34:37.131112",
       "original_source": "Columbia University"
     }
   },
@@ -1215,7 +1215,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965964",
+      "scraped_at": "2025-09-01T13:34:37.131156",
       "original_source": "Columbia University"
     }
   },
@@ -1234,7 +1234,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.965986",
+      "scraped_at": "2025-09-01T13:34:37.131179",
       "original_source": "Columbia University"
     }
   },
@@ -1253,7 +1253,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966081",
+      "scraped_at": "2025-09-01T13:34:37.131337",
       "original_source": "Columbia University"
     }
   },
@@ -1272,7 +1272,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966176",
+      "scraped_at": "2025-09-01T13:34:37.131446",
       "original_source": "Columbia University"
     }
   },
@@ -1291,7 +1291,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966280",
+      "scraped_at": "2025-09-01T13:34:37.131565",
       "original_source": "Columbia University"
     }
   },
@@ -1310,7 +1310,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966548",
+      "scraped_at": "2025-09-01T13:34:37.131829",
       "original_source": "Columbia University"
     }
   },
@@ -1329,7 +1329,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966594",
+      "scraped_at": "2025-09-01T13:34:37.131889",
       "original_source": "Columbia University"
     }
   },
@@ -1348,7 +1348,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966664",
+      "scraped_at": "2025-09-01T13:34:37.131967",
       "original_source": "Columbia University"
     }
   },
@@ -1367,7 +1367,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966732",
+      "scraped_at": "2025-09-01T13:34:37.132060",
       "original_source": "Columbia University"
     }
   },
@@ -1386,7 +1386,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966834",
+      "scraped_at": "2025-09-01T13:34:37.132176",
       "original_source": "Columbia University"
     }
   },
@@ -1405,7 +1405,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.966990",
+      "scraped_at": "2025-09-01T13:34:37.132349",
       "original_source": "Columbia University"
     }
   },
@@ -1424,7 +1424,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.967015",
+      "scraped_at": "2025-09-01T13:34:37.132374",
       "original_source": "Columbia University"
     }
   },
@@ -1443,7 +1443,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.967138",
+      "scraped_at": "2025-09-01T13:34:37.132514",
       "original_source": "Columbia University"
     }
   },
@@ -1462,7 +1462,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.967195",
+      "scraped_at": "2025-09-01T13:34:37.132588",
       "original_source": "Columbia University"
     }
   },
@@ -1481,7 +1481,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.967367",
+      "scraped_at": "2025-09-01T13:34:37.132786",
       "original_source": "Columbia University"
     }
   },
@@ -1500,7 +1500,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.967472",
+      "scraped_at": "2025-09-01T13:34:37.132849",
       "original_source": "Columbia University"
     }
   },
@@ -1519,7 +1519,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.967881",
+      "scraped_at": "2025-09-01T13:34:37.132966",
       "original_source": "Columbia University"
     }
   },
@@ -1538,7 +1538,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.968115",
+      "scraped_at": "2025-09-01T13:34:37.133021",
       "original_source": "Columbia University"
     }
   },
@@ -1557,7 +1557,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.968362",
+      "scraped_at": "2025-09-01T13:34:37.133112",
       "original_source": "Columbia University"
     }
   },
@@ -1576,7 +1576,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.969913",
+      "scraped_at": "2025-09-01T13:34:37.133163",
       "original_source": "Columbia University"
     }
   },
@@ -1595,7 +1595,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.970372",
+      "scraped_at": "2025-09-01T13:34:37.133268",
       "original_source": "Columbia University"
     }
   },
@@ -1614,7 +1614,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.970466",
+      "scraped_at": "2025-09-01T13:34:37.133307",
       "original_source": "Columbia University"
     }
   },
@@ -1633,7 +1633,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.970600",
+      "scraped_at": "2025-09-01T13:34:37.133391",
       "original_source": "Columbia University"
     }
   },
@@ -1652,7 +1652,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.970795",
+      "scraped_at": "2025-09-01T13:34:37.133610",
       "original_source": "Columbia University"
     }
   },
@@ -1671,7 +1671,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.970861",
+      "scraped_at": "2025-09-01T13:34:37.133771",
       "original_source": "Columbia University"
     }
   },
@@ -1690,7 +1690,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.970922",
+      "scraped_at": "2025-09-01T13:34:37.133885",
       "original_source": "Columbia University"
     }
   },
@@ -1709,7 +1709,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971062",
+      "scraped_at": "2025-09-01T13:34:37.134089",
       "original_source": "Columbia University"
     }
   },
@@ -1728,7 +1728,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971115",
+      "scraped_at": "2025-09-01T13:34:37.134163",
       "original_source": "Columbia University"
     }
   },
@@ -1747,7 +1747,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971208",
+      "scraped_at": "2025-09-01T13:34:37.134271",
       "original_source": "Columbia University"
     }
   },
@@ -1766,7 +1766,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971251",
+      "scraped_at": "2025-09-01T13:34:37.134335",
       "original_source": "Columbia University"
     }
   },
@@ -1785,7 +1785,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971303",
+      "scraped_at": "2025-09-01T13:34:37.134418",
       "original_source": "Columbia University"
     }
   },
@@ -1804,7 +1804,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971358",
+      "scraped_at": "2025-09-01T13:34:37.134509",
       "original_source": "Columbia University"
     }
   },
@@ -1823,7 +1823,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971494",
+      "scraped_at": "2025-09-01T13:34:37.134749",
       "original_source": "Columbia University"
     }
   },
@@ -1842,7 +1842,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971512",
+      "scraped_at": "2025-09-01T13:34:37.134779",
       "original_source": "Columbia University"
     }
   },
@@ -1861,7 +1861,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971663",
+      "scraped_at": "2025-09-01T13:34:37.135018",
       "original_source": "Columbia University"
     }
   },
@@ -1880,7 +1880,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971802",
+      "scraped_at": "2025-09-01T13:34:37.135210",
       "original_source": "Columbia University"
     }
   },
@@ -1899,7 +1899,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.971975",
+      "scraped_at": "2025-09-01T13:34:37.135417",
       "original_source": "Columbia University"
     }
   },
@@ -1918,7 +1918,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972384",
+      "scraped_at": "2025-09-01T13:34:37.135722",
       "original_source": "Columbia University"
     }
   },
@@ -1937,7 +1937,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972448",
+      "scraped_at": "2025-09-01T13:34:37.135788",
       "original_source": "Columbia University"
     }
   },
@@ -1956,7 +1956,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972549",
+      "scraped_at": "2025-09-01T13:34:37.135935",
       "original_source": "Columbia University"
     }
   },
@@ -1975,7 +1975,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972611",
+      "scraped_at": "2025-09-01T13:34:37.136027",
       "original_source": "Columbia University"
     }
   },
@@ -1994,7 +1994,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972774",
+      "scraped_at": "2025-09-01T13:34:37.136421",
       "original_source": "Columbia University"
     }
   },
@@ -2013,7 +2013,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972802",
+      "scraped_at": "2025-09-01T13:34:37.136482",
       "original_source": "Columbia University"
     }
   },
@@ -2032,7 +2032,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972918",
+      "scraped_at": "2025-09-01T13:34:37.136670",
       "original_source": "Columbia University"
     }
   },
@@ -2051,7 +2051,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.972948",
+      "scraped_at": "2025-09-01T13:34:37.136723",
       "original_source": "Columbia University"
     }
   },
@@ -2070,7 +2070,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973023",
+      "scraped_at": "2025-09-01T13:34:37.136842",
       "original_source": "Columbia University"
     }
   },
@@ -2089,7 +2089,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973156",
+      "scraped_at": "2025-09-01T13:34:37.137051",
       "original_source": "Columbia University"
     }
   },
@@ -2108,7 +2108,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973207",
+      "scraped_at": "2025-09-01T13:34:37.137274",
       "original_source": "Columbia University"
     }
   },
@@ -2127,7 +2127,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973289",
+      "scraped_at": "2025-09-01T13:34:37.137372",
       "original_source": "Columbia University"
     }
   },
@@ -2146,7 +2146,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973454",
+      "scraped_at": "2025-09-01T13:34:37.137720",
       "original_source": "Columbia University"
     }
   },
@@ -2165,7 +2165,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973514",
+      "scraped_at": "2025-09-01T13:34:37.137849",
       "original_source": "Columbia University"
     }
   },
@@ -2184,7 +2184,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973623",
+      "scraped_at": "2025-09-01T13:34:37.138062",
       "original_source": "Columbia University"
     }
   },
@@ -2203,7 +2203,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973787",
+      "scraped_at": "2025-09-01T13:34:37.138343",
       "original_source": "Columbia University"
     }
   },
@@ -2222,7 +2222,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973841",
+      "scraped_at": "2025-09-01T13:34:37.138439",
       "original_source": "Columbia University"
     }
   },
@@ -2241,7 +2241,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973856",
+      "scraped_at": "2025-09-01T13:34:37.138464",
       "original_source": "Columbia University"
     }
   },
@@ -2260,7 +2260,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.973935",
+      "scraped_at": "2025-09-01T13:34:37.138597",
       "original_source": "Columbia University"
     }
   },
@@ -2279,7 +2279,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974178",
+      "scraped_at": "2025-09-01T13:34:37.138957",
       "original_source": "Columbia University"
     }
   },
@@ -2298,7 +2298,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974326",
+      "scraped_at": "2025-09-01T13:34:37.139191",
       "original_source": "Columbia University"
     }
   },
@@ -2317,7 +2317,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974488",
+      "scraped_at": "2025-09-01T13:34:37.139409",
       "original_source": "Columbia University"
     }
   },
@@ -2336,7 +2336,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974572",
+      "scraped_at": "2025-09-01T13:34:37.139647",
       "original_source": "Columbia University"
     }
   },
@@ -2355,7 +2355,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974585",
+      "scraped_at": "2025-09-01T13:34:37.139684",
       "original_source": "Columbia University"
     }
   },
@@ -2374,7 +2374,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974625",
+      "scraped_at": "2025-09-01T13:34:37.139749",
       "original_source": "Columbia University"
     }
   },
@@ -2393,7 +2393,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974696",
+      "scraped_at": "2025-09-01T13:34:37.139851",
       "original_source": "Columbia University"
     }
   },
@@ -2412,7 +2412,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.974884",
+      "scraped_at": "2025-09-01T13:34:37.140132",
       "original_source": "Columbia University"
     }
   },
@@ -2431,7 +2431,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975081",
+      "scraped_at": "2025-09-01T13:34:37.140433",
       "original_source": "Columbia University"
     }
   },
@@ -2450,7 +2450,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975179",
+      "scraped_at": "2025-09-01T13:34:37.140615",
       "original_source": "Columbia University"
     }
   },
@@ -2469,7 +2469,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975335",
+      "scraped_at": "2025-09-01T13:34:37.140906",
       "original_source": "Columbia University"
     }
   },
@@ -2488,7 +2488,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975565",
+      "scraped_at": "2025-09-01T13:34:37.141392",
       "original_source": "Columbia University"
     }
   },
@@ -2507,7 +2507,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975752",
+      "scraped_at": "2025-09-01T13:34:37.141689",
       "original_source": "Columbia University"
     }
   },
@@ -2526,7 +2526,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975877",
+      "scraped_at": "2025-09-01T13:34:37.141851",
       "original_source": "Columbia University"
     }
   },
@@ -2545,7 +2545,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975902",
+      "scraped_at": "2025-09-01T13:34:37.141885",
       "original_source": "Columbia University"
     }
   },
@@ -2564,7 +2564,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.975957",
+      "scraped_at": "2025-09-01T13:34:37.141950",
       "original_source": "Columbia University"
     }
   },
@@ -2583,7 +2583,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976062",
+      "scraped_at": "2025-09-01T13:34:37.142053",
       "original_source": "Columbia University"
     }
   },
@@ -2602,7 +2602,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976128",
+      "scraped_at": "2025-09-01T13:34:37.142141",
       "original_source": "Columbia University"
     }
   },
@@ -2621,7 +2621,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976206",
+      "scraped_at": "2025-09-01T13:34:37.142220",
       "original_source": "Columbia University"
     }
   },
@@ -2640,7 +2640,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976386",
+      "scraped_at": "2025-09-01T13:34:37.142415",
       "original_source": "Columbia University"
     }
   },
@@ -2659,7 +2659,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976433",
+      "scraped_at": "2025-09-01T13:34:37.142464",
       "original_source": "Columbia University"
     }
   },
@@ -2678,7 +2678,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976547",
+      "scraped_at": "2025-09-01T13:34:37.142665",
       "original_source": "Columbia University"
     }
   },
@@ -2697,7 +2697,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976603",
+      "scraped_at": "2025-09-01T13:34:37.142774",
       "original_source": "Columbia University"
     }
   },
@@ -2716,7 +2716,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976614",
+      "scraped_at": "2025-09-01T13:34:37.142793",
       "original_source": "Columbia University Department of Mathematics"
     }
   },
@@ -2735,7 +2735,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976629",
+      "scraped_at": "2025-09-01T13:34:37.142816",
       "original_source": "Columbia University Department of Mathematics"
     }
   },
@@ -2754,7 +2754,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976649",
+      "scraped_at": "2025-09-01T13:34:37.142849",
       "original_source": "Cooper Union"
     }
   },
@@ -2773,7 +2773,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976662",
+      "scraped_at": "2025-09-01T13:34:37.142871",
       "original_source": "Cooper Union"
     }
   },
@@ -2792,7 +2792,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976674",
+      "scraped_at": "2025-09-01T13:34:37.142891",
       "original_source": "Cornell Tech Events"
     }
   },
@@ -2811,7 +2811,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976686",
+      "scraped_at": "2025-09-01T13:34:37.142912",
       "original_source": "Cornell Tech Events"
     }
   },
@@ -2830,7 +2830,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976703",
+      "scraped_at": "2025-09-01T13:34:37.142939",
       "original_source": "Fordham University"
     }
   },
@@ -2849,7 +2849,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976721",
+      "scraped_at": "2025-09-01T13:34:37.142975",
       "original_source": "Fordham University"
     }
   },
@@ -2868,7 +2868,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976737",
+      "scraped_at": "2025-09-01T13:34:37.142998",
       "original_source": "Fordham University"
     }
   },
@@ -2887,7 +2887,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976765",
+      "scraped_at": "2025-09-01T13:34:37.143020",
       "original_source": "Fordham University"
     }
   },
@@ -2906,7 +2906,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976784",
+      "scraped_at": "2025-09-01T13:34:37.143043",
       "original_source": "Fordham University"
     }
   },
@@ -2925,7 +2925,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976800",
+      "scraped_at": "2025-09-01T13:34:37.143065",
       "original_source": "Fordham University"
     }
   },
@@ -2944,7 +2944,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976811",
+      "scraped_at": "2025-09-01T13:34:37.143077",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -2963,7 +2963,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976823",
+      "scraped_at": "2025-09-01T13:34:37.143091",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -2982,7 +2982,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976831",
+      "scraped_at": "2025-09-01T13:34:37.143101",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3001,7 +3001,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976842",
+      "scraped_at": "2025-09-01T13:34:37.143116",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3020,7 +3020,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976852",
+      "scraped_at": "2025-09-01T13:34:37.143127",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3039,7 +3039,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976863",
+      "scraped_at": "2025-09-01T13:34:37.143139",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3058,7 +3058,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976873",
+      "scraped_at": "2025-09-01T13:34:37.143151",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3077,7 +3077,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976887",
+      "scraped_at": "2025-09-01T13:34:37.143168",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3096,7 +3096,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976898",
+      "scraped_at": "2025-09-01T13:34:37.143179",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3115,7 +3115,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976908",
+      "scraped_at": "2025-09-01T13:34:37.143192",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3134,7 +3134,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976919",
+      "scraped_at": "2025-09-01T13:34:37.143204",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3153,7 +3153,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976929",
+      "scraped_at": "2025-09-01T13:34:37.143217",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3172,7 +3172,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976940",
+      "scraped_at": "2025-09-01T13:34:37.143229",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3191,7 +3191,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976951",
+      "scraped_at": "2025-09-01T13:34:37.143242",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3210,7 +3210,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976962",
+      "scraped_at": "2025-09-01T13:34:37.143256",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3229,7 +3229,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976972",
+      "scraped_at": "2025-09-01T13:34:37.143268",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3248,7 +3248,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976983",
+      "scraped_at": "2025-09-01T13:34:37.143280",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3267,7 +3267,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.976996",
+      "scraped_at": "2025-09-01T13:34:37.143297",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3286,7 +3286,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977007",
+      "scraped_at": "2025-09-01T13:34:37.143309",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3305,7 +3305,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977389",
+      "scraped_at": "2025-09-01T13:34:37.143919",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3324,7 +3324,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977402",
+      "scraped_at": "2025-09-01T13:34:37.143936",
       "original_source": "NYU Gallatin Events"
     }
   },
@@ -3343,7 +3343,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977410",
+      "scraped_at": "2025-09-01T13:34:37.143946",
       "original_source": "Hunter College"
     }
   },
@@ -3362,7 +3362,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977435",
+      "scraped_at": "2025-09-01T13:34:37.143987",
       "original_source": "ISAW Events Calendar"
     }
   },
@@ -3381,7 +3381,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977474",
+      "scraped_at": "2025-09-01T13:34:37.144060",
       "original_source": "ISAW Events Calendar"
     }
   },
@@ -3400,7 +3400,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977525",
+      "scraped_at": "2025-09-01T13:34:37.144149",
       "original_source": "ISAW Events Calendar"
     }
   },
@@ -3419,7 +3419,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977609",
+      "scraped_at": "2025-09-01T13:34:37.144195",
       "original_source": "ISAW Events Calendar"
     }
   },
@@ -3438,7 +3438,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977725",
+      "scraped_at": "2025-09-01T13:34:37.144289",
       "original_source": "ISAW Events Calendar"
     }
   },
@@ -3457,7 +3457,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977763",
+      "scraped_at": "2025-09-01T13:34:37.144324",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3476,7 +3476,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977809",
+      "scraped_at": "2025-09-01T13:34:37.144356",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3495,7 +3495,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977836",
+      "scraped_at": "2025-09-01T13:34:37.144376",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3514,7 +3514,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977868",
+      "scraped_at": "2025-09-01T13:34:37.144402",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3533,7 +3533,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977899",
+      "scraped_at": "2025-09-01T13:34:37.144425",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3552,7 +3552,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977928",
+      "scraped_at": "2025-09-01T13:34:37.144449",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3571,7 +3571,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977951",
+      "scraped_at": "2025-09-01T13:34:37.144467",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3590,7 +3590,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.977987",
+      "scraped_at": "2025-09-01T13:34:37.144484",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3609,7 +3609,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978016",
+      "scraped_at": "2025-09-01T13:34:37.144506",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3628,7 +3628,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978063",
+      "scraped_at": "2025-09-01T13:34:37.144542",
       "original_source": "JTSA Events Calendar"
     }
   },
@@ -3647,7 +3647,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978084",
+      "scraped_at": "2025-09-01T13:34:37.144560",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3666,7 +3666,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978104",
+      "scraped_at": "2025-09-01T13:34:37.144577",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3685,7 +3685,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978120",
+      "scraped_at": "2025-09-01T13:34:37.144590",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3704,7 +3704,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978135",
+      "scraped_at": "2025-09-01T13:34:37.144604",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3723,7 +3723,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978148",
+      "scraped_at": "2025-09-01T13:34:37.144615",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3742,7 +3742,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978174",
+      "scraped_at": "2025-09-01T13:34:37.144635",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3761,7 +3761,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978189",
+      "scraped_at": "2025-09-01T13:34:37.144648",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3780,7 +3780,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978203",
+      "scraped_at": "2025-09-01T13:34:37.144660",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3799,7 +3799,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978236",
+      "scraped_at": "2025-09-01T13:34:37.144685",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3818,7 +3818,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978561",
+      "scraped_at": "2025-09-01T13:34:37.144926",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3837,7 +3837,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978603",
+      "scraped_at": "2025-09-01T13:34:37.144990",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3856,7 +3856,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978626",
+      "scraped_at": "2025-09-01T13:34:37.145016",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3875,7 +3875,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978648",
+      "scraped_at": "2025-09-01T13:34:37.145047",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3894,7 +3894,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978668",
+      "scraped_at": "2025-09-01T13:34:37.145067",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3913,7 +3913,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978688",
+      "scraped_at": "2025-09-01T13:34:37.145100",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3932,7 +3932,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978703",
+      "scraped_at": "2025-09-01T13:34:37.145140",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3951,7 +3951,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978717",
+      "scraped_at": "2025-09-01T13:34:37.145182",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3970,7 +3970,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978731",
+      "scraped_at": "2025-09-01T13:34:37.145197",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -3989,7 +3989,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978745",
+      "scraped_at": "2025-09-01T13:34:37.145211",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -4008,7 +4008,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.978758",
+      "scraped_at": "2025-09-01T13:34:37.145224",
       "original_source": "Juilliard Events Calendar"
     }
   },
@@ -4027,7 +4027,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.980018",
+      "scraped_at": "2025-09-01T13:34:37.146315",
       "original_source": "The New School Events"
     }
   },
@@ -4046,7 +4046,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.980170",
+      "scraped_at": "2025-09-01T13:34:37.146474",
       "original_source": "The New School Events"
     }
   },
@@ -4065,7 +4065,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.980265",
+      "scraped_at": "2025-09-01T13:34:37.146557",
       "original_source": "The New School Events"
     }
   },
@@ -4084,7 +4084,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.980639",
+      "scraped_at": "2025-09-01T13:34:37.146819",
       "original_source": "The New School Events"
     }
   },
@@ -4103,7 +4103,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.980751",
+      "scraped_at": "2025-09-01T13:34:37.146959",
       "original_source": "The New School Events"
     }
   },
@@ -4122,7 +4122,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.980787",
+      "scraped_at": "2025-09-01T13:34:37.146999",
       "original_source": "The New School Events"
     }
   },
@@ -4141,7 +4141,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981041",
+      "scraped_at": "2025-09-01T13:34:37.147247",
       "original_source": "The New School Events"
     }
   },
@@ -4160,7 +4160,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981105",
+      "scraped_at": "2025-09-01T13:34:37.147357",
       "original_source": "The New School Events"
     }
   },
@@ -4179,7 +4179,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981260",
+      "scraped_at": "2025-09-01T13:34:37.147516",
       "original_source": "The New School Events"
     }
   },
@@ -4198,7 +4198,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981431",
+      "scraped_at": "2025-09-01T13:34:37.147750",
       "original_source": "The New School Events"
     }
   },
@@ -4217,7 +4217,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981480",
+      "scraped_at": "2025-09-01T13:34:37.147846",
       "original_source": "The New School Events"
     }
   },
@@ -4236,7 +4236,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981668",
+      "scraped_at": "2025-09-01T13:34:37.148082",
       "original_source": "The New School Events"
     }
   },
@@ -4255,7 +4255,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981790",
+      "scraped_at": "2025-09-01T13:34:37.148204",
       "original_source": "The New School Events"
     }
   },
@@ -4274,7 +4274,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981836",
+      "scraped_at": "2025-09-01T13:34:37.148255",
       "original_source": "The New School Events"
     }
   },
@@ -4293,7 +4293,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.981934",
+      "scraped_at": "2025-09-01T13:34:37.148354",
       "original_source": "The New School Events"
     }
   },
@@ -4312,7 +4312,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982001",
+      "scraped_at": "2025-09-01T13:34:37.148419",
       "original_source": "The New School Events"
     }
   },
@@ -4331,7 +4331,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982038",
+      "scraped_at": "2025-09-01T13:34:37.148462",
       "original_source": "The New School Events"
     }
   },
@@ -4350,7 +4350,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982075",
+      "scraped_at": "2025-09-01T13:34:37.148498",
       "original_source": "The New School Events"
     }
   },
@@ -4369,7 +4369,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982205",
+      "scraped_at": "2025-09-01T13:34:37.148624",
       "original_source": "The New School Events"
     }
   },
@@ -4388,7 +4388,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982285",
+      "scraped_at": "2025-09-01T13:34:37.148689",
       "original_source": "The New School Events"
     }
   },
@@ -4407,7 +4407,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982362",
+      "scraped_at": "2025-09-01T13:34:37.148768",
       "original_source": "The New School Events"
     }
   },
@@ -4426,7 +4426,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982463",
+      "scraped_at": "2025-09-01T13:34:37.148868",
       "original_source": "The New School Events"
     }
   },
@@ -4445,7 +4445,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982622",
+      "scraped_at": "2025-09-01T13:34:37.149100",
       "original_source": "The New School Events"
     }
   },
@@ -4464,7 +4464,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982704",
+      "scraped_at": "2025-09-01T13:34:37.149190",
       "original_source": "The New School Events"
     }
   },
@@ -4483,7 +4483,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.982876",
+      "scraped_at": "2025-09-01T13:34:37.149370",
       "original_source": "The New School Events"
     }
   },
@@ -4502,7 +4502,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983012",
+      "scraped_at": "2025-09-01T13:34:37.149510",
       "original_source": "The New School Events"
     }
   },
@@ -4521,7 +4521,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983044",
+      "scraped_at": "2025-09-01T13:34:37.149531",
       "original_source": "The New School Events"
     }
   },
@@ -4540,7 +4540,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983185",
+      "scraped_at": "2025-09-01T13:34:37.149668",
       "original_source": "The New School Events"
     }
   },
@@ -4559,7 +4559,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983260",
+      "scraped_at": "2025-09-01T13:34:37.149736",
       "original_source": "The New School Events"
     }
   },
@@ -4578,7 +4578,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983294",
+      "scraped_at": "2025-09-01T13:34:37.149771",
       "original_source": "The New School Events"
     }
   },
@@ -4597,7 +4597,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983372",
+      "scraped_at": "2025-09-01T13:34:37.149841",
       "original_source": "The New School Events"
     }
   },
@@ -4616,7 +4616,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983487",
+      "scraped_at": "2025-09-01T13:34:37.149952",
       "original_source": "The New School Events"
     }
   },
@@ -4635,7 +4635,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983540",
+      "scraped_at": "2025-09-01T13:34:37.150015",
       "original_source": "The New School Events"
     }
   },
@@ -4654,7 +4654,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983633",
+      "scraped_at": "2025-09-01T13:34:37.150104",
       "original_source": "The New School Events"
     }
   },
@@ -4673,7 +4673,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983752",
+      "scraped_at": "2025-09-01T13:34:37.150298",
       "original_source": "The New School Events"
     }
   },
@@ -4692,7 +4692,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.983939",
+      "scraped_at": "2025-09-01T13:34:37.150527",
       "original_source": "The New School Events"
     }
   },
@@ -4711,7 +4711,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.984215",
+      "scraped_at": "2025-09-01T13:34:37.150729",
       "original_source": "The New School Events"
     }
   },
@@ -4730,7 +4730,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.984625",
+      "scraped_at": "2025-09-01T13:34:37.151002",
       "original_source": "The New School Events"
     }
   },
@@ -4749,7 +4749,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.984756",
+      "scraped_at": "2025-09-01T13:34:37.151182",
       "original_source": "The New School Events"
     }
   },
@@ -4768,7 +4768,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.984829",
+      "scraped_at": "2025-09-01T13:34:37.151319",
       "original_source": "The New School Events"
     }
   },
@@ -4787,7 +4787,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985009",
+      "scraped_at": "2025-09-01T13:34:37.151617",
       "original_source": "The New School Events"
     }
   },
@@ -4806,7 +4806,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985200",
+      "scraped_at": "2025-09-01T13:34:37.151749",
       "original_source": "The New School Events"
     }
   },
@@ -4825,7 +4825,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985374",
+      "scraped_at": "2025-09-01T13:34:37.152183",
       "original_source": "The New School Events"
     }
   },
@@ -4844,7 +4844,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985475",
+      "scraped_at": "2025-09-01T13:34:37.152739",
       "original_source": "The New School Events"
     }
   },
@@ -4863,7 +4863,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985558",
+      "scraped_at": "2025-09-01T13:34:37.152945",
       "original_source": "The New School Events"
     }
   },
@@ -4882,7 +4882,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985654",
+      "scraped_at": "2025-09-01T13:34:37.153134",
       "original_source": "The New School Events"
     }
   },
@@ -4901,7 +4901,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.985970",
+      "scraped_at": "2025-09-01T13:34:37.153666",
       "original_source": "The New School Events"
     }
   },
@@ -4920,7 +4920,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986077",
+      "scraped_at": "2025-09-01T13:34:37.153866",
       "original_source": "The New School Events"
     }
   },
@@ -4939,7 +4939,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986098",
+      "scraped_at": "2025-09-01T13:34:37.153909",
       "original_source": "The New School Events"
     }
   },
@@ -4958,7 +4958,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986149",
+      "scraped_at": "2025-09-01T13:34:37.153994",
       "original_source": "The New School Events"
     }
   },
@@ -4977,7 +4977,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986263",
+      "scraped_at": "2025-09-01T13:34:37.154189",
       "original_source": "The New School Events"
     }
   },
@@ -4996,7 +4996,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986334",
+      "scraped_at": "2025-09-01T13:34:37.154322",
       "original_source": "The New School Events"
     }
   },
@@ -5015,7 +5015,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986370",
+      "scraped_at": "2025-09-01T13:34:37.154471",
       "original_source": "The New School Events"
     }
   },
@@ -5034,7 +5034,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986472",
+      "scraped_at": "2025-09-01T13:34:37.154639",
       "original_source": "The New School Events"
     }
   },
@@ -5053,7 +5053,7 @@ const academicEvents = [
       "type": "virtual"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986578",
+      "scraped_at": "2025-09-01T13:34:37.154786",
       "original_source": "The New School Events"
     }
   },
@@ -5072,7 +5072,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986656",
+      "scraped_at": "2025-09-01T13:34:37.154897",
       "original_source": "The New School Events"
     }
   },
@@ -5091,7 +5091,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986741",
+      "scraped_at": "2025-09-01T13:34:37.155034",
       "original_source": "The New School Events"
     }
   },
@@ -5110,7 +5110,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986809",
+      "scraped_at": "2025-09-01T13:34:37.155129",
       "original_source": "The New School Events"
     }
   },
@@ -5129,7 +5129,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.986910",
+      "scraped_at": "2025-09-01T13:34:37.155320",
       "original_source": "The New School Events"
     }
   },
@@ -5148,7 +5148,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987030",
+      "scraped_at": "2025-09-01T13:34:37.155501",
       "original_source": "The New School Events"
     }
   },
@@ -5167,7 +5167,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987137",
+      "scraped_at": "2025-09-01T13:34:37.155826",
       "original_source": "The New School Events"
     }
   },
@@ -5186,7 +5186,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987245",
+      "scraped_at": "2025-09-01T13:34:37.156033",
       "original_source": "The New School Events"
     }
   },
@@ -5205,7 +5205,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987343",
+      "scraped_at": "2025-09-01T13:34:37.156268",
       "original_source": "The New School Events"
     }
   },
@@ -5224,7 +5224,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987463",
+      "scraped_at": "2025-09-01T13:34:37.156458",
       "original_source": "The New School Events"
     }
   },
@@ -5243,7 +5243,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987565",
+      "scraped_at": "2025-09-01T13:34:37.156572",
       "original_source": "The New School Events"
     }
   },
@@ -5262,7 +5262,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987669",
+      "scraped_at": "2025-09-01T13:34:37.156677",
       "original_source": "The New School Events"
     }
   },
@@ -5281,7 +5281,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987746",
+      "scraped_at": "2025-09-01T13:34:37.156757",
       "original_source": "The New School Events"
     }
   },
@@ -5300,7 +5300,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987866",
+      "scraped_at": "2025-09-01T13:34:37.156872",
       "original_source": "The New School Events"
     }
   },
@@ -5319,7 +5319,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.987972",
+      "scraped_at": "2025-09-01T13:34:37.156974",
       "original_source": "The New School Events"
     }
   },
@@ -5338,7 +5338,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988003",
+      "scraped_at": "2025-09-01T13:34:37.157005",
       "original_source": "New York University"
     }
   },
@@ -5357,7 +5357,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988026",
+      "scraped_at": "2025-09-01T13:34:37.157028",
       "original_source": "New York University"
     }
   },
@@ -5376,7 +5376,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988042",
+      "scraped_at": "2025-09-01T13:34:37.157048",
       "original_source": "New York University"
     }
   },
@@ -5395,7 +5395,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988051",
+      "scraped_at": "2025-09-01T13:34:37.157058",
       "original_source": "New York University"
     }
   },
@@ -5414,7 +5414,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988114",
+      "scraped_at": "2025-09-01T13:34:37.157123",
       "original_source": "New York University"
     }
   },
@@ -5433,7 +5433,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988154",
+      "scraped_at": "2025-09-01T13:34:37.157160",
       "original_source": "New York University"
     }
   },
@@ -5452,7 +5452,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988181",
+      "scraped_at": "2025-09-01T13:34:37.157186",
       "original_source": "New York University"
     }
   },
@@ -5471,7 +5471,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988189",
+      "scraped_at": "2025-09-01T13:34:37.157196",
       "original_source": "New York University"
     }
   },
@@ -5490,7 +5490,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988197",
+      "scraped_at": "2025-09-01T13:34:37.157204",
       "original_source": "New York University"
     }
   },
@@ -5509,7 +5509,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988227",
+      "scraped_at": "2025-09-01T13:34:37.157234",
       "original_source": "New York University"
     }
   },
@@ -5528,7 +5528,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988235",
+      "scraped_at": "2025-09-01T13:34:37.157242",
       "original_source": "New York University"
     }
   },
@@ -5547,7 +5547,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988243",
+      "scraped_at": "2025-09-01T13:34:37.157252",
       "original_source": "New York University"
     }
   },
@@ -5566,7 +5566,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988258",
+      "scraped_at": "2025-09-01T13:34:37.157267",
       "original_source": "New York University"
     }
   },
@@ -5585,7 +5585,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988437",
+      "scraped_at": "2025-09-01T13:34:37.157458",
       "original_source": "New York University"
     }
   },
@@ -5604,7 +5604,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988445",
+      "scraped_at": "2025-09-01T13:34:37.157480",
       "original_source": "New York University"
     }
   },
@@ -5623,7 +5623,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988453",
+      "scraped_at": "2025-09-01T13:34:37.157498",
       "original_source": "New York University"
     }
   },
@@ -5642,7 +5642,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988474",
+      "scraped_at": "2025-09-01T13:34:37.157588",
       "original_source": "New York University"
     }
   },
@@ -5661,7 +5661,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988481",
+      "scraped_at": "2025-09-01T13:34:37.157626",
       "original_source": "New York University"
     }
   },
@@ -5680,7 +5680,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988489",
+      "scraped_at": "2025-09-01T13:34:37.157648",
       "original_source": "New York University"
     }
   },
@@ -5699,7 +5699,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988496",
+      "scraped_at": "2025-09-01T13:34:37.157664",
       "original_source": "New York University"
     }
   },
@@ -5718,7 +5718,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988879",
+      "scraped_at": "2025-09-01T13:34:37.158035",
       "original_source": "New York University"
     }
   },
@@ -5737,7 +5737,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988901",
+      "scraped_at": "2025-09-01T13:34:37.158066",
       "original_source": "New York University"
     }
   },
@@ -5756,7 +5756,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988913",
+      "scraped_at": "2025-09-01T13:34:37.158085",
       "original_source": "New York University"
     }
   },
@@ -5775,7 +5775,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988923",
+      "scraped_at": "2025-09-01T13:34:37.158102",
       "original_source": "New York University"
     }
   },
@@ -5794,7 +5794,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988944",
+      "scraped_at": "2025-09-01T13:34:37.158137",
       "original_source": "New York University"
     }
   },
@@ -5813,7 +5813,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988952",
+      "scraped_at": "2025-09-01T13:34:37.158153",
       "original_source": "New York University"
     }
   },
@@ -5832,7 +5832,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988970",
+      "scraped_at": "2025-09-01T13:34:37.158186",
       "original_source": "New York University"
     }
   },
@@ -5851,7 +5851,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.988988",
+      "scraped_at": "2025-09-01T13:34:37.158221",
       "original_source": "New York University"
     }
   },
@@ -5870,7 +5870,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989006",
+      "scraped_at": "2025-09-01T13:34:37.158253",
       "original_source": "New York University"
     }
   },
@@ -5889,7 +5889,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989025",
+      "scraped_at": "2025-09-01T13:34:37.158296",
       "original_source": "New York University"
     }
   },
@@ -5908,7 +5908,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989043",
+      "scraped_at": "2025-09-01T13:34:37.158320",
       "original_source": "New York University"
     }
   },
@@ -5927,7 +5927,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989072",
+      "scraped_at": "2025-09-01T13:34:37.158357",
       "original_source": "New York University"
     }
   },
@@ -5946,7 +5946,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989093",
+      "scraped_at": "2025-09-01T13:34:37.158386",
       "original_source": "New York University"
     }
   },
@@ -5965,7 +5965,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989113",
+      "scraped_at": "2025-09-01T13:34:37.158417",
       "original_source": "New York University"
     }
   },
@@ -5984,7 +5984,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989134",
+      "scraped_at": "2025-09-01T13:34:37.158446",
       "original_source": "New York University"
     }
   },
@@ -6003,7 +6003,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989153",
+      "scraped_at": "2025-09-01T13:34:37.158476",
       "original_source": "New York University"
     }
   },
@@ -6022,7 +6022,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989167",
+      "scraped_at": "2025-09-01T13:34:37.158498",
       "original_source": "New York University"
     }
   },
@@ -6041,7 +6041,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989175",
+      "scraped_at": "2025-09-01T13:34:37.158512",
       "original_source": "New York University"
     }
   },
@@ -6060,7 +6060,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989184",
+      "scraped_at": "2025-09-01T13:34:37.158526",
       "original_source": "New York University"
     }
   },
@@ -6079,7 +6079,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989192",
+      "scraped_at": "2025-09-01T13:34:37.158566",
       "original_source": "New York University"
     }
   },
@@ -6098,7 +6098,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989216",
+      "scraped_at": "2025-09-01T13:34:37.158602",
       "original_source": "New York University"
     }
   },
@@ -6117,7 +6117,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989227",
+      "scraped_at": "2025-09-01T13:34:37.158623",
       "original_source": "New York University"
     }
   },
@@ -6136,7 +6136,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989290",
+      "scraped_at": "2025-09-01T13:34:37.158696",
       "original_source": "New York University"
     }
   },
@@ -6155,7 +6155,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989319",
+      "scraped_at": "2025-09-01T13:34:37.158743",
       "original_source": "NYU Steinhardt School of Education"
     }
   },
@@ -6174,7 +6174,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989356",
+      "scraped_at": "2025-09-01T13:34:37.158801",
       "original_source": "NYU Steinhardt School of Education"
     }
   },
@@ -6193,7 +6193,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989370",
+      "scraped_at": "2025-09-01T13:34:37.158825",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6212,7 +6212,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989380",
+      "scraped_at": "2025-09-01T13:34:37.158843",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6231,7 +6231,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989389",
+      "scraped_at": "2025-09-01T13:34:37.158859",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6250,7 +6250,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989397",
+      "scraped_at": "2025-09-01T13:34:37.158874",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6269,7 +6269,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989406",
+      "scraped_at": "2025-09-01T13:34:37.158890",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6288,7 +6288,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989415",
+      "scraped_at": "2025-09-01T13:34:37.158906",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6307,7 +6307,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989427",
+      "scraped_at": "2025-09-01T13:34:37.158952",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6326,7 +6326,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989435",
+      "scraped_at": "2025-09-01T13:34:37.159005",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6345,7 +6345,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989444",
+      "scraped_at": "2025-09-01T13:34:37.159087",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6364,7 +6364,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989456",
+      "scraped_at": "2025-09-01T13:34:37.159112",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6383,7 +6383,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989466",
+      "scraped_at": "2025-09-01T13:34:37.159135",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6402,7 +6402,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989482",
+      "scraped_at": "2025-09-01T13:34:37.159149",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6421,7 +6421,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989494",
+      "scraped_at": "2025-09-01T13:34:37.159162",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6440,7 +6440,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989508",
+      "scraped_at": "2025-09-01T13:34:37.159176",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6459,7 +6459,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989520",
+      "scraped_at": "2025-09-01T13:34:37.159197",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6478,7 +6478,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989530",
+      "scraped_at": "2025-09-01T13:34:37.159210",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6497,7 +6497,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989545",
+      "scraped_at": "2025-09-01T13:34:37.159236",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6516,7 +6516,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989557",
+      "scraped_at": "2025-09-01T13:34:37.159253",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6535,7 +6535,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989567",
+      "scraped_at": "2025-09-01T13:34:37.159267",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6554,7 +6554,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989577",
+      "scraped_at": "2025-09-01T13:34:37.159282",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6573,7 +6573,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989586",
+      "scraped_at": "2025-09-01T13:34:37.159296",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6592,7 +6592,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989596",
+      "scraped_at": "2025-09-01T13:34:37.159311",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6611,7 +6611,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989606",
+      "scraped_at": "2025-09-01T13:34:37.159326",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6630,7 +6630,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989615",
+      "scraped_at": "2025-09-01T13:34:37.159339",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6649,7 +6649,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989625",
+      "scraped_at": "2025-09-01T13:34:37.159352",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6668,7 +6668,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989634",
+      "scraped_at": "2025-09-01T13:34:37.159365",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6687,7 +6687,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989646",
+      "scraped_at": "2025-09-01T13:34:37.159383",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6706,7 +6706,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989655",
+      "scraped_at": "2025-09-01T13:34:37.159396",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6725,7 +6725,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989665",
+      "scraped_at": "2025-09-01T13:34:37.159416",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6744,7 +6744,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989675",
+      "scraped_at": "2025-09-01T13:34:37.159430",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6763,7 +6763,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989684",
+      "scraped_at": "2025-09-01T13:34:37.159444",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6782,7 +6782,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989692",
+      "scraped_at": "2025-09-01T13:34:37.159459",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6801,7 +6801,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989703",
+      "scraped_at": "2025-09-01T13:34:37.159477",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6820,7 +6820,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989712",
+      "scraped_at": "2025-09-01T13:34:37.159491",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6839,7 +6839,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989721",
+      "scraped_at": "2025-09-01T13:34:37.159507",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6858,7 +6858,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989822",
+      "scraped_at": "2025-09-01T13:34:37.159521",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6877,7 +6877,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989868",
+      "scraped_at": "2025-09-01T13:34:37.159545",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6896,7 +6896,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989890",
+      "scraped_at": "2025-09-01T13:34:37.159559",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6915,7 +6915,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989925",
+      "scraped_at": "2025-09-01T13:34:37.159571",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6934,7 +6934,7 @@ const academicEvents = [
       "type": "venue"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.989949",
+      "scraped_at": "2025-09-01T13:34:37.159584",
       "original_source": "NYU Tandon School of Engineering"
     }
   },
@@ -6953,7 +6953,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990245",
+      "scraped_at": "2025-09-01T13:34:37.159759",
       "original_source": "NYU School of Medicine"
     }
   },
@@ -6972,7 +6972,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990436",
+      "scraped_at": "2025-09-01T13:34:37.159958",
       "original_source": "NYU School of Medicine"
     }
   },
@@ -6991,7 +6991,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990470",
+      "scraped_at": "2025-09-01T13:34:37.160005",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7010,7 +7010,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990498",
+      "scraped_at": "2025-09-01T13:34:37.160052",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7029,7 +7029,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990543",
+      "scraped_at": "2025-09-01T13:34:37.160121",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7048,7 +7048,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990621",
+      "scraped_at": "2025-09-01T13:34:37.160219",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7067,7 +7067,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990670",
+      "scraped_at": "2025-09-01T13:34:37.160304",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7086,7 +7086,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990702",
+      "scraped_at": "2025-09-01T13:34:37.160356",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7105,7 +7105,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990743",
+      "scraped_at": "2025-09-01T13:34:37.160405",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7124,7 +7124,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990776",
+      "scraped_at": "2025-09-01T13:34:37.160465",
       "original_source": "NYU Stern School of Business"
     }
   },
@@ -7143,7 +7143,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990785",
+      "scraped_at": "2025-09-01T13:34:37.160480",
       "original_source": "Pratt Institute"
     }
   },
@@ -7162,7 +7162,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990794",
+      "scraped_at": "2025-09-01T13:34:37.160495",
       "original_source": "Pratt Institute"
     }
   },
@@ -7181,7 +7181,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990802",
+      "scraped_at": "2025-09-01T13:34:37.160508",
       "original_source": "Pratt Institute"
     }
   },
@@ -7200,7 +7200,7 @@ const academicEvents = [
       "type": "Offline"
     },
     "metadata": {
-      "scraped_at": "2025-09-01T13:32:37.990809",
+      "scraped_at": "2025-09-01T13:34:37.160522",
       "original_source": "Pratt Institute"
     }
   }
