@@ -75,8 +75,8 @@
       "start_date": "2025-10-14T17:30:00",
       "end_date": "2025-10-14T19:30:00",
       "category": [
-        "ARTS",
-        "HISTORY"
+        "HISTORY",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/china-yangtze-delta",
@@ -108,8 +108,8 @@
       "start_date": "2025-11-05T10:00:00",
       "end_date": "2025-11-05T12:00:00",
       "category": [
-        "ARTS",
-        "ARCHAEOLOGY"
+        "ARCHAEOLOGY",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/open-house-2025",
@@ -141,8 +141,8 @@
       "end_date": "2025-12-04T19:30:00",
       "category": [
         "SCIENCE",
-        "ARTS",
-        "HISTORY"
+        "HISTORY",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success",

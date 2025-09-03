@@ -284,9 +284,12 @@ def parse_cims_events(events):
                 }
             }
 
+            # Use speaker as title if available, otherwise fall back to original title
+            event_title = event.get('speaker', '') if event.get('speaker') else event.get('title', '')
+            
             standardized_event = {
                 "id": event_id,
-                "name": event.get('title', ''),
+                "name": event_title,
                 "type": determine_event_type(event),
                 "location_id": location_id,
                 "community_id": "com_nyu_courant",
@@ -294,6 +297,8 @@ def parse_cims_events(events):
                 "start_date": start_date.isoformat(),
                 "end_date": end_date.isoformat(),
                 "category": determine_categories(event),
+                "source": "nyu_cims",
+                "source_group": "nyu_cims",
                 "metadata": metadata
             }
 

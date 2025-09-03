@@ -125,8 +125,8 @@
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
         "HEALTH",
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aef89382-0000347cevents%40columbia.edu&recurrenceId=",
@@ -213,8 +213,8 @@
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
         "HEALTH",
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-97e91514-0197-ebb50e34-00006fabevents%40columbia.edu&recurrenceId=",
@@ -638,10 +638,10 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
-        "ARTS",
         "HEALTH",
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98312e19-0198-32d26832-000039d4events%40columbia.edu&recurrenceId=",
@@ -1576,8 +1576,8 @@
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2f6084f-00007cddevents%40columbia.edu&recurrenceId=",
@@ -1634,9 +1634,9 @@
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
-        "ARTS",
         "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e04ab4-0198-e20d2316-00006860events%40columbia.edu&recurrenceId=",
@@ -1879,8 +1879,8 @@
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
         "HEALTH",
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefa93ee-000034acevents%40columbia.edu&recurrenceId=",
@@ -2350,8 +2350,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7c8b485-000002e8events%40columbia.edu&recurrenceId=",
@@ -2419,8 +2419,8 @@
       "start_date": "2025-09-11T22:30:00+00:00",
       "end_date": "2025-09-12T00:30:00+00:00",
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33717e39-00006241events%40columbia.edu&recurrenceId=",
@@ -2497,9 +2497,9 @@
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
         "HEALTH",
+        "SCIENCE",
         "EDUCATION",
-        "SOCIAL",
-        "SCIENCE"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85c4f50b-0000303devents%40columbia.edu&recurrenceId=",
@@ -2919,8 +2919,8 @@
       "start_date": "2025-09-12T17:30:00+00:00",
       "end_date": "2025-09-12T18:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2f74660-00007d32events%40columbia.edu&recurrenceId=",
@@ -3240,9 +3240,9 @@
       "start_date": "2025-09-15T22:30:00+00:00",
       "end_date": "2025-09-16T00:00:00+00:00",
       "category": [
+        "SCIENCE",
         "ARTS",
-        "SOCIAL",
-        "SCIENCE"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33887390-0000673fevents%40columbia.edu&recurrenceId=",
@@ -3705,8 +3705,8 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-338b4e1b-0000680bevents%40columbia.edu&recurrenceId=",
@@ -3904,8 +3904,8 @@
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
         "HEALTH",
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefd7b8d-000034c2events%40columbia.edu&recurrenceId=",
@@ -4212,8 +4212,8 @@
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
         "HEALTH",
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985535db-0198-56decc16-00006d8fevents%40columbia.edu&recurrenceId=",
@@ -4842,8 +4842,8 @@
       "start_date": "2025-09-18T22:30:00+00:00",
       "end_date": "2025-09-19T00:00:00+00:00",
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-3374f2d7-00006300events%40columbia.edu&recurrenceId=",
@@ -4918,8 +4918,8 @@
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
         "HEALTH",
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85deaa42-000034d6events%40columbia.edu&recurrenceId=",
@@ -5388,8 +5388,8 @@
       "start_date": "2025-09-19T22:00:00+00:00",
       "end_date": "2025-09-20T00:00:00+00:00",
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98e56817-0198-e7d5b17e-000005a9events%40columbia.edu&recurrenceId=",
@@ -5685,8 +5685,8 @@
       "start_date": "2025-09-22T13:00:00+00:00",
       "end_date": "2025-09-22T16:00:00+00:00",
       "category": [
-        "ARTS",
-        "SCIENCE"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-989d53e6-0198-9f42cb83-00005622events%40columbia.edu&recurrenceId=",
@@ -5826,9 +5826,9 @@
       "start_date": "2025-09-22T16:00:00+00:00",
       "end_date": "2025-09-22T17:00:00+00:00",
       "category": [
-        "ARTS",
+        "SCIENCE",
         "SOCIAL",
-        "SCIENCE"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98a7a05e-0198-a94a71b0-00005102events%40columbia.edu&recurrenceId=",
@@ -6264,9 +6264,9 @@
       "start_date": "2025-09-22T22:00:00+00:00",
       "end_date": "2025-09-23T01:00:00+00:00",
       "category": [
+        "SCIENCE",
         "ARTS",
-        "BUSINESS",
-        "SCIENCE"
+        "BUSINESS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97bfe6ab-0197-c1df5829-00005c98events%40columbia.edu&recurrenceId=",
@@ -6636,8 +6636,8 @@
       "start_date": "2025-09-23T20:30:00+00:00",
       "end_date": "2025-09-23T22:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "SCIENCE"
+        "SCIENCE",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2fb65b7-00007e71events%40columbia.edu&recurrenceId=",

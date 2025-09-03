@@ -11,9 +11,9 @@
       "end_date": "2025-09-12T21:30:00+00:00",
       "category": [
         "ARTS",
-        "THEATER",
         "MUSIC",
-        "DANCE"
+        "DANCE",
+        "THEATER"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -309,8 +309,8 @@
       "end_date": "2025-09-17T23:30:00+00:00",
       "category": [
         "ARTS",
-        "THEATER",
-        "MUSIC"
+        "MUSIC",
+        "THEATER"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -494,9 +494,9 @@
       "end_date": "2025-09-20T16:00:00+00:00",
       "category": [
         "ARTS",
-        "THEATER",
         "MUSIC",
-        "DANCE"
+        "DANCE",
+        "THEATER"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -534,9 +534,9 @@
       "end_date": "2025-09-20T21:30:00+00:00",
       "category": [
         "ARTS",
-        "THEATER",
         "MUSIC",
-        "DANCE"
+        "DANCE",
+        "THEATER"
       ],
       "source": "juilliard",
       "source_group": "juilliard",

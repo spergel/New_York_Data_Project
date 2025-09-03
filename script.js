@@ -319,6 +319,9 @@ function renderEvents() {
     }
     
     // Render event cards
+    console.log('🎨 Rendering events:', pageEvents.length);
+    console.log('🎨 Sample event:', pageEvents[0]);
+    
     elements.eventsGrid.innerHTML = pageEvents.map(event => createEventCard(event)).join('');
     
     // Setup pagination
@@ -362,7 +365,7 @@ function createEventCard(event) {
             const institution = event.source_group || event.source || 'Unknown';
     
     return `
-        <div class="event-card" onclick="openEventModal('${event.event_id}')">
+        <div class="event-card" onclick="openEventModal('${event.id}')">
             <div class="event-title">${escapeHtml(event.name)}</div>
             <div class="event-description">${renderSafeHtml(event.description || 'No description available')}</div>
             <div class="event-meta">
@@ -410,19 +413,20 @@ function updateSortOrderIcon() {
 }
 
 // Open event modal
-async function openEventModal(eventId) {
+function openEventModal(eventId) {
     try {
-        const response = await fetch(`${API_BASE_URL}/api/events/${eventId}`);
-        const event = await response.json();
+        // Find the event in our already loaded events
+        const event = allEvents.find(e => e.id === eventId);
         
-        if (response.ok) {
+        if (event) {
             showEventModal(event);
         } else {
+            console.error('Event not found in loaded events:', eventId);
             showError('Event not found');
         }
     } catch (error) {
-        console.error('Failed to load event details:', error);
-        showError('Failed to load event details');
+        console.error('Failed to open event modal:', error);
+        showError('Failed to open event modal');
     }
 }
 
@@ -480,11 +484,11 @@ function showEventModal(event) {
             </div>
             <div class="modal-detail">
                 <div class="modal-detail-label">Venue</div>
-                <div class="modal-detail-value">${escapeHtml(event.venue_name || 'TBD')}</div>
+                <div class="modal-detail-value">${escapeHtml(event.metadata?.venue?.name || 'TBD')}</div>
             </div>
             <div class="modal-detail">
                 <div class="modal-detail-label">Type</div>
-                <div class="modal-detail-value">${escapeHtml(event.venue_type || 'Not specified')}</div>
+                <div class="modal-detail-value">${escapeHtml(event.metadata?.venue?.type || 'Not specified')}</div>
             </div>
         </div>
         ${event.source_url ? `<a href="${event.source_url}" target="_blank" class="modal-source-link">View Original Event</a>` : ''}
