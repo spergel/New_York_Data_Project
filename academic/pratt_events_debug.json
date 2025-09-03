@@ -50,23 +50,6 @@
           "type": "Offline"
         }
       }
-    },
-    {
-      "id": "evt_pratt_6e5fc00cf8",
-      "name": "70 Years [+] Pratt School of Architecture: An Ongoing Story",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "pratt",
-      "source_group": "pratt",
-      "metadata": {
-        "source_url": "https://www.pratt.edu/events/",
-        "source_name": "Pratt Institute",
-        "venue": {
-          "name": "Pratt Institute",
-          "type": "Offline"
-        }
-      }
     }
   ]
 }

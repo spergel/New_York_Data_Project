@@ -64,7 +64,7 @@ async function loadStats() {
         
         document.getElementById('today-events').textContent = todayCount;
         document.getElementById('week-events').textContent = weekCount;
-        document.getElementById('total-institutions').textContent = stats.total_institutions || '0';
+        document.getElementById('total-institutions').textContent = stats.data.sources || '0';
         
         // Update hero title based on today's events
         const heroTitle = document.getElementById('hero-title');
@@ -115,14 +115,14 @@ async function loadEvents() {
         elements.eventsContainer.style.display = 'none';
         elements.noResults.style.display = 'none';
         
-        // Load all events using the new pagination API
-        const response = await fetch(`${API_BASE_URL}/api/events?page=1&per_page=1000`);
+        // Load all events using the pagination API
+        const response = await fetch(`${API_BASE_URL}/api/events?limit=1000`);
         const data = await response.json();
         
-        allEvents = data.events || [];
+        allEvents = data.data.events || [];
         filteredEvents = [...allEvents];
         
-        console.log(`Loaded ${allEvents.length} events from API (Total: ${data.total})`);
+        console.log(`Loaded ${allEvents.length} events from API (Total: ${data.data.pagination.total})`);
         
         elements.loading.style.display = 'none';
         renderEvents();
@@ -135,7 +135,7 @@ async function loadEvents() {
 
 // Populate institution filter dropdown
 function populateInstitutionFilter() {
-    const institutions = [...new Set(allEvents.map(event => event.source).filter(Boolean))];
+    const institutions = [...new Set(allEvents.map(event => event.source_group).filter(Boolean))];
     institutions.sort();
     
     elements.institutionFilter.innerHTML = '<option value="">All Institutions</option>';
@@ -198,9 +198,8 @@ function filterEvents() {
     const institution = elements.institutionFilter.value;
     if (institution) {
         filtered = filtered.filter(event => 
-            event.source === institution || 
-            event.source_name === institution ||
-            (event.source_name && event.source_name.toLowerCase().includes(institution.toLowerCase()))
+            event.source_group === institution || 
+            (event.source_group && event.source_group.toLowerCase().includes(institution.toLowerCase()))
         );
     }
     
@@ -229,8 +228,8 @@ function filterEvents() {
     if (searchTerm) {
         filtered = filtered.filter(event => 
             event.name.toLowerCase().includes(searchTerm) ||
-            event.description.toLowerCase().includes(searchTerm) ||
-            (event.source_name && event.source_name.toLowerCase().includes(searchTerm))
+            (event.description && event.description.toLowerCase().includes(searchTerm)) ||
+            (event.source_group && event.source_group.toLowerCase().includes(searchTerm))
         );
     }
     
@@ -332,7 +331,7 @@ function createEventCard(event) {
     };
     
     const date = formatDate(event.start_date);
-    const institution = event.source_name || event.source || 'Unknown';
+            const institution = event.source_group || event.source || 'Unknown';
     
     return `
         <div class="event-card" onclick="openEventModal('${event.event_id}')">
@@ -449,7 +448,7 @@ function showEventModal(event) {
             </div>
             <div class="modal-detail">
                 <div class="modal-detail-label">Institution</div>
-                <div class="modal-detail-value">${escapeHtml(formatInstitution(event.source_name || event.source))}</div>
+                <div class="modal-detail-value">${escapeHtml(formatInstitution(event.source_group || event.source))}</div>
             </div>
             <div class="modal-detail">
                 <div class="modal-detail-label">Venue</div>

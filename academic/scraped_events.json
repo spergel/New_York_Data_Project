@@ -1,8 +1,8 @@
 {
-  "scraped_at": "2025-09-01T13:34:37.063588",
-  "total_events": 379,
+  "scraped_at": "2025-09-03T09:45:16.513754",
+  "total_events": 393,
   "event_sources": {
-    "cims_events_debug": 38,
+    "cims_events_debug": 48,
     "columbia_classics_events_debug": 23,
     "columbia_events_debug": 100,
     "columbia_math_events_debug": 2,
@@ -14,13 +14,13 @@
     "isaw_events_debug": 5,
     "jtsa_events_debug": 10,
     "juilliard_events_debug": 20,
-    "new_school_events_debug": 69,
+    "new_school_events_debug": 79,
     "nyu_api_events_debug": 43,
     "nyu_education_events_debug": 2,
     "nyu_engineering_events_debug": 40,
     "nyu_medicine_events_debug": 2,
     "nyu_stern_events_debug": 8,
-    "pratt_events_debug": 4
+    "pratt_events_debug": 3
   },
   "events": [
     {
@@ -132,23 +132,23 @@
       }
     },
     {
-      "id": "evt_nyu_cims_b50e4b2e",
+      "id": "evt_nyu_cims_bdba07d2",
       "name": "TBA",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
       "description": "",
-      "start_date": "2025-09-19T14:00:00",
-      "end_date": "2025-09-19T15:00:00",
+      "start_date": "2025-09-18T14:00:00",
+      "end_date": "2025-09-18T15:00:00",
       "category": [
         "SCIENCE",
         "EDUCATION"
       ],
       "metadata": {
-        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4233",
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4257",
         "source_name": "NYU Courant Institute",
         "venue": {
-          "name": "Warren Weaver Hall, Room 512",
+          "name": "Warren Weaver Hall, Room 1302",
           "address": "251 Mercer St, New York, NY 10012",
           "type": "venue"
         },
@@ -157,7 +157,7 @@
           "type": "organizer"
         },
         "additional_info": {
-          "speaker": "Ramon van Handel, Princeton University",
+          "speaker": "Tristan Buckmaster, NYU",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -168,7 +168,43 @@
       }
     },
     {
-      "id": "evt_nyu_cims_acb8f777",
+      "id": "evt_nyu_cims_fc6403f7",
+      "name": "Probability and the City seminar",
+      "type": "Seminar",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-09-19T14:00:00",
+      "end_date": "2025-09-19T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4253",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Volodymyr Riabov (ISTA), Pawel Duch (EPFL)",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_cims_2bb24732",
       "name": "TBA",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
@@ -181,10 +217,10 @@
         "EDUCATION"
       ],
       "metadata": {
-        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4234",
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4254",
         "source_name": "NYU Courant Institute",
         "venue": {
-          "name": "Warren Weaver Hall, Room 512",
+          "name": "Warren Weaver Hall, Room 1302",
           "address": "251 Mercer St, New York, NY 10012",
           "type": "venue"
         },
@@ -193,7 +229,7 @@
           "type": "organizer"
         },
         "additional_info": {
-          "speaker": "Shouhei Honda, University of Tokyo",
+          "speaker": "Yuxin Zhou, University of Chicago",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -276,6 +312,78 @@
       }
     },
     {
+      "id": "evt_nyu_cims_da610556",
+      "name": "On concentration of vorticity in 2D ideal incompressible fluid flow",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-14T14:00:00",
+      "end_date": "2025-10-14T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4259",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 201",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Helena Nussenzveig Lopes, Universidade Federal do Rio de Janeiro",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_cims_142a8f91",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-10-16T14:00:00",
+      "end_date": "2025-10-16T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4258",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Peter Constantin, Princeton University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_nyu_cims_db05d835",
       "name": "TBA",
       "type": "Academic",
@@ -337,7 +445,7 @@
           "type": "organizer"
         },
         "additional_info": {
-          "speaker": "Sylvia Serfaty, NYU",
+          "speaker": "Sylvia Serfaty, Sorbonne Université, LJLL",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -444,7 +552,7 @@
           "type": "organizer"
         },
         "additional_info": {
-          "speaker": "Scott Armstrong, NYU",
+          "speaker": "Scott Armstrong, CNRS at Sorbonne Université, LJLL",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -481,6 +589,42 @@
         },
         "additional_info": {
           "speaker": "Mikhail Ostrovskii, St. John's University",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_cims_d3f3787f",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-06T14:00:00",
+      "end_date": "2025-11-06T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4261",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Bill Cooperman, ETH Zurich",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -624,6 +768,42 @@
         },
         "additional_info": {
           "speaker": "Sharath Raghvendra, North Carolina State",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_cims_5df544c1",
+      "name": "TBA",
+      "type": "Academic",
+      "location_id": "loc_nyu_wwh",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-11-20T14:00:00",
+      "end_date": "2025-11-20T15:00:00",
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4256",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Warren Weaver Hall, Room 1302",
+          "address": "251 Mercer St, New York, NY 10012",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Alex Cohen, NYU",
           "department": "Courant Institute of Mathematical Sciences",
           "tags": [
             "mathematics",
@@ -1097,169 +1277,6 @@
       }
     },
     {
-      "id": "evt_columbia_085dbd45",
-      "name": "Setting the Tone: Communicating Your AI Expectations",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h2&gt;Setting the Tone: Communicating Your AI Expectations&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;A 60-minute discussion-based workshop for Columbia Faculty, Postdocs, and Graduate Students.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;This session is designed to help you articulate &lt;em&gt;why&lt;/em&gt; you allow AI for certain tasks or &lt;em&gt;why &lt;/em&gt;you don&amp;rsquo;t allow it at all, and how to communicate that reasoning in ways that promote trust, transparency, and learning. During the session, you will draft language to include on your syllabus, early semester talking points, and strategies that align your expectations with your course goals &amp;ndash; whatever your approach to AI.&amp;nbsp;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Unable to join us for this session? Visit our &lt;a href=\"https://ctl.columbia.edu/ai/\"&gt;Teaching and Learning in the Age of AI page&lt;/a&gt; to access additional resources and videos. You can also schedule a &lt;a href=\"https://ctl.columbia.edu/faculty/offerings/consultations/\"&gt;consultation&lt;/a&gt;, or find other workshops on our &lt;a href=\"https://ctl.columbia.edu/events/\"&gt;CTL events calendar&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact ColumbiaCTL@columbia.edu or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. Note, if this is an online event, CTL staff may take screenshots. For concerns, contact ColumbiaCTL@columbia.edu.&lt;/p&gt;",
-      "start_date": "2025-09-02T15:00:00+00:00",
-      "end_date": "2025-09-02T16:00:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-983b76bf-0198-3e3cf533-0000139aevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Center for Teaching and Learning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Center for Teaching and Learning",
-          "tags": [
-            "AI",
-            "Artificial Intelligence",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Workshop",
-            "Online",
-            "Faculty",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Postdocs",
-            "Teaching and Learning",
-            "CTL",
-            "Graduate Students"
-          ],
-          "audience": [
-            "Category",
-            "Workshop",
-            "Online",
-            "Faculty",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Postdocs",
-            "Teaching and Learning",
-            "CTL",
-            "Graduate Students"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_049b07fb",
-      "name": "University Life Resource Fair",
-      "type": "Academic",
-      "location_id": "loc_columbia_law",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Join us as we launch the start of the semester at Butler Plaza for the annual University Life Resource Fair. Explore campus resources, meet new people, enjoy some treats on the plaza,&amp;nbsp;and discover ways to get involved from day one. This event is held in collaboration with Treats on the Plaza hosted by University Programs and Events.&lt;/p&gt;\n&lt;p&gt;You&amp;rsquo;ll find:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;Campus partners including ISSO, Religious Life, Athletics, the Arts Initiative, Alumni Association, and more, sharing tools, opportunities, and support available to all students.&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Student groups recruiting new members and showcasing how you can get involved.&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Start your semester strong with resources, community, and some University Life freebies!&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The event is part of &lt;a href=\"https://universitylife.columbia.edu/welcome\"&gt;Welcome Week&lt;/a&gt;, which is a series of events that are free and open to all students.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;What if I need accommodations?&lt;/strong&gt; Columbia University makes every effort to accommodate individuals with disabilities. If you require accommodations to attend an event at Columbia University, please contact Disability Services (&lt;a href=\"mailto:disability@columbia.edu\"&gt;disability@columbia.edu&lt;/a&gt; or 212-854-2388) at least 10 days in advance of the event.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;Will my photo be taken?&lt;/strong&gt; Photographs and video may be taken at this event. ***By taking part in this event, you grant the organizers full rights to use the resulting images and to maintain in perpetuity copies of such recording in the collections of Columbia University. If you do not wish to be photographed, please inform an event organizer.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;By registering and attending this event, you agree to abide by the &lt;a href=\"https://universitypolicies.columbia.edu/content/rules-university-conduct\"&gt;Rules of University Conduct&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;!-- notionvc: 80a13ae1-4ce4-41c7-b396-00a6889d5f28 --&gt;&lt;/p&gt;",
-      "start_date": "2025-09-02T15:00:00+00:00",
-      "end_date": "2025-09-02T18:00:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98b1e880-0198-b41f9733-00005253events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "South Lawn, 500 W. 116 St., New York, NY 10027\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "UniversityLife",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "UniversityLife",
-          "tags": [
-            "Welcome Week",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universitylife",
-            "Graduate Students",
-            "Community",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universitylife",
-            "Graduate Students",
-            "Community",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_eb9621f8",
-      "name": "Treats on the Plaza, Morningside Campus",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Kick off the new academic year with some delicious summer treats at the &lt;strong&gt;&lt;a href=\"https://www.google.com/maps/place/Columbia+University+Sundial/@40.8072774,-73.9626919,19.39z/data=!4m14!1m7!3m6!1s0x89c2f73d5ba58771:0x8039c768160bedcd!2sColumbia+University+Sundial!8m2!3d40.8072825!4d-73.9625362!16s%2Fg%2F11tmrj3pr8!3m5!1s0x89c2f73d5ba58771:0x8039c768160bedcd!8m2!3d40.8072825!4d-73.9625362!16s%2Fg%2F11tmrj3pr8?entry=ttu&amp;amp;g_ep=EgoyMDI1MDgxMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\"&gt;Sundial&lt;/a&gt;!&amp;nbsp;&lt;/strong&gt;Grab some friends, cool down, and celebrate the first day of classes.&amp;nbsp;Don&amp;#39;t miss out on one last taste of summer!&lt;/p&gt;\n&lt;p&gt;All students are welcome while supplies last.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;This event is part of the annual&amp;nbsp;&lt;a href=\"https://events.columbia.edu/go/ulresourcefair25\" target=\"_blank\"&gt;University Life Resource Fair&lt;/a&gt; and&amp;nbsp;&lt;a href=\"https://universitylife.columbia.edu/welcome\" target=\"_blank\"&gt;Welcome Week&lt;/a&gt;.&amp;nbsp;Start your semester strong with resources, community, and some University Life freebies!&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Can&amp;#39;t make it on Tuesday? Join us at our bonus pop-up:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Wednesday, September 3, 12:00-2:00 p.m., &lt;strong&gt;&lt;a href=\"https://www.google.com/maps/@40.8167994,-73.9589626,3a,75y,28.17h,90t/data=!3m7!1e1!3m5!1sCvtZRbmux5vsXWo1kle7tA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3DCvtZRbmux5vsXWo1kle7tA%26yaw%3D28.17!7i16384!8i8192?coh=205410&amp;amp;entry=ttu\" target=\"_blank\"&gt;The Plaza, Manhattanville Campus&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;",
-      "start_date": "2025-09-02T16:00:00+00:00",
-      "end_date": "2025-09-02T18:00:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98a2753e-0198-a491bd08-000075b9events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "College Walk, Columbia University, 116th St. Between Broadway &amp; Amsterdam, New York, NY 10027\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "University Programs",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "University Programs",
-          "tags": [
-            "org/CCS",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universityprograms",
-            "Graduate Students",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universityprograms",
-            "Graduate Students",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_24c0dd58",
       "name": "Security Awareness - Ride Your Bike To Campus - Morningside Campus",
       "type": "Academic",
@@ -1383,9 +1400,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "HEALTH",
         "EDUCATION",
-        "HEALTH"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aef89382-0000347cevents%40columbia.edu&recurrenceId=",
@@ -1471,9 +1488,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "HEALTH",
         "EDUCATION",
-        "HEALTH"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-97e91514-0197-ebb50e34-00006fabevents%40columbia.edu&recurrenceId=",
@@ -1732,8 +1749,8 @@
       "start_date": "2025-09-04T14:00:00+00:00",
       "end_date": "2025-09-04T20:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-8da6e14b-018d-a92b7ab3-00004639events%40columbia.edu&recurrenceId=",
@@ -1843,6 +1860,7 @@
             "Career development",
             "Professional education",
             "org/sps",
+            "org/columbiaglobal",
             "Postdocs",
             "Government and Public Policy",
             "Prospective Students",
@@ -1871,6 +1889,7 @@
             "Career development",
             "Professional education",
             "org/sps",
+            "org/columbiaglobal",
             "Postdocs",
             "Government and Public Policy",
             "Prospective Students",
@@ -1895,10 +1914,10 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "ARTS",
+        "HEALTH",
         "SOCIAL",
-        "HEALTH"
+        "SCIENCE",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98312e19-0198-32d26832-000039d4events%40columbia.edu&recurrenceId=",
@@ -2214,6 +2233,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "Columbia College",
             "Columbia Engineering",
             "Global Programs",
@@ -2228,6 +2248,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "Columbia College",
             "Columbia Engineering",
             "Global Programs",
@@ -2360,8 +2381,8 @@
       "start_date": "2025-09-08T15:00:00+00:00",
       "end_date": "2025-09-08T16:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccfa7d45-0000403devents%40columbia.edu&recurrenceId=",
@@ -2831,8 +2852,8 @@
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "SOCIAL"
+        "SOCIAL",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2f6084f-00007cddevents%40columbia.edu&recurrenceId=",
@@ -2885,13 +2906,13 @@
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Natalie Benda, PhD&lt;/strong&gt;, is an Assistant Professor of Health Informatics at Columbia University&amp;rsquo;s School of Nursing. She is cross trained in human factors engineering and health informatics. Dr. Benda&amp;rsquo;s program of research utilizes human-centered design methods to improve the quality, safety, and inclusivity of healthcare, with a special focus on developing health technologies and artificial intelligence (AI). Her work has been funded by NSF, NIH, and AHRQ and includes over 75 peer-reviewed publications.&lt;/p&gt;\n&lt;p&gt;Join Via ZOOM:&amp;nbsp;&lt;a href=\"https://nyph.zoom.us/j/93198024600?pwd=bygBlIeRS7jnLUyzfVLQszbXClD0le.1&amp;amp;from=addon\" target=\"_blank\"&gt;https://nyph.zoom.us/j/93198024600?pwd=bygBlIeRS7jnLUyzfVLQszbXClD0le.1&amp;amp;from=addon&lt;/a&gt;&amp;nbsp;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;sub&gt;EQUIP scholars are supported in part by the Agency for Healthcare Research and Quality (AHRQ) through Grant Number P30HS029763, the Dalio Center for Health Justice at NewYork-Presbyterian, and the Departments of Medicine and Pediatrics at Montefiore.&lt;/sub&gt;&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;strong&gt;Natalie Benda, PhD&lt;/strong&gt;, is an Assistant Professor of Health Informatics at Columbia University&amp;rsquo;s School of Nursing. She is cross trained in human factors engineering and health informatics. Dr. Benda&amp;rsquo;s program of research utilizes human-centered design methods to improve the quality, safety, and inclusivity of healthcare, with a special focus on developing health technologies and artificial intelligence (AI). Her work has been funded by NSF, NIH, and AHRQ and includes over 75 peer-reviewed publications.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;sub&gt;EQUIP scholars are supported in part by the Agency for Healthcare Research and Quality (AHRQ) through Grant Number P30HS029763, the Dalio Center for Health Justice at NewYork-Presbyterian, and the Departments of Medicine and Pediatrics at Montefiore.&lt;/sub&gt;&lt;/p&gt;",
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
+        "HEALTH",
         "SCIENCE",
-        "ARTS",
-        "HEALTH"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e04ab4-0198-e20d2316-00006860events%40columbia.edu&recurrenceId=",
@@ -2983,6 +3004,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "First-years",
             "Sophomores",
             "Juniors",
@@ -2998,6 +3020,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "First-years",
             "Sophomores",
             "Juniors",
@@ -3131,9 +3154,9 @@
       "start_date": "2025-09-10T16:00:00+00:00",
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "HEALTH",
         "EDUCATION",
-        "HEALTH"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefa93ee-000034acevents%40columbia.edu&recurrenceId=",
@@ -3311,6 +3334,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "Columbia College",
             "Columbia Engineering",
             "First-years",
@@ -3328,6 +3352,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "Columbia College",
             "Columbia Engineering",
             "First-years",
@@ -3747,10 +3772,10 @@
       "start_date": "2025-09-12T12:30:00+00:00",
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
-        "SCIENCE",
         "EDUCATION",
+        "HEALTH",
         "SOCIAL",
-        "HEALTH"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85c4f50b-0000303devents%40columbia.edu&recurrenceId=",
@@ -3879,65 +3904,6 @@
       }
     },
     {
-      "id": "evt_columbia_eaae2d1b",
-      "name": "Study Abroad with CET in Italy, Brazil, or Taiwan!",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Interested in studying abroad in Italy, Brazil, or Taiwan? Learn about&amp;nbsp;&lt;a href=\"https://events.teams.microsoft.com/event/3ffef103-6688-4a53-8916-9fbff6d908c3@1eb1283f-7a15-43ab-84df-87a2f6ade4fd\" target=\"_blank\"&gt;CET Academic Programs&lt;/a&gt;, which is a study abroad provider that partners with Columbia University to provide enriching, academically rigorous, and immersive Columbia-Approved study abroad opportunities.&amp;nbsp;Attend this session to learn more about all program components, including academics, housing, immersion, extra-curricular and co-curricular opportunities, and the application process.&lt;/p&gt;\n&lt;p&gt;This information session hosted by Tim Baird, &amp;nbsp;Assistant Director, Institutional Relations at CET,&amp;nbsp;will give a brief overview of the programs (30 minutes) and leave 15 minutes for Q&amp;amp;A.&lt;/p&gt;\n&lt;p&gt;Please visit the &lt;a href=\"https://global.undergrad.columbia.edu/\" target=\"_blank\"&gt;Center for Undergraduate Global Engagement&amp;#39;s&lt;/a&gt; website to learn more about&amp;nbsp;&lt;a href=\"https://global.undergrad.columbia.edu/studyabroad/search\" target=\"_blank\"&gt;CET&amp;#39;s Academic Programs&lt;/a&gt;, the application process, and eligibility requirements.&amp;nbsp; If you have any questions, please reach out to us at &lt;a href=\"mailto:uge@columbia.edu\" target=\"_blank\"&gt;uge@columbia.edu&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Even if you are unable to attend, we encourage you to register with CET since it will ensure you receive a recording to view at your convenience.&lt;/p&gt;",
-      "start_date": "2025-09-12T15:00:00+00:00",
-      "end_date": "2025-09-12T15:45:00+00:00",
-      "category": [
-        "TECH"
-      ],
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-989d4f10-0198-9fed56f9-00000de0events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Office of Global Programs and Fellowships",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Office of Global Programs and Fellowships",
-          "tags": [
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Online",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Columbia College",
-            "Columbia Engineering",
-            "Global Programs",
-            "General Studies",
-            "org/OGPF",
-            "Study Abroad"
-          ],
-          "audience": [
-            "Category",
-            "Online",
-            "Information Session",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Columbia College",
-            "Columbia Engineering",
-            "Global Programs",
-            "General Studies",
-            "org/OGPF",
-            "Study Abroad"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_c9d68581",
       "name": "Grad Networking: A Cafe Connection",
       "type": "Academic",
@@ -3992,6 +3958,67 @@
             "Community",
             "Cultural",
             "Other"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_eaae2d1b",
+      "name": "Study Abroad with CET in Italy, Brazil, or Taiwan!",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Interested in studying abroad in Italy, Brazil, or Taiwan? Learn about&amp;nbsp;&lt;a href=\"https://events.teams.microsoft.com/event/3ffef103-6688-4a53-8916-9fbff6d908c3@1eb1283f-7a15-43ab-84df-87a2f6ade4fd\" target=\"_blank\"&gt;CET Academic Programs&lt;/a&gt;, which is a study abroad provider that partners with Columbia University to provide enriching, academically rigorous, and immersive Columbia-Approved study abroad opportunities.&amp;nbsp;Attend this session to learn more about all program components, including academics, housing, immersion, extra-curricular and co-curricular opportunities, and the application process.&lt;/p&gt;\n&lt;p&gt;This information session hosted by Tim Baird, &amp;nbsp;Assistant Director, Institutional Relations at CET,&amp;nbsp;will give a brief overview of the programs (30 minutes) and leave 15 minutes for Q&amp;amp;A.&lt;/p&gt;\n&lt;p&gt;Please visit the &lt;a href=\"https://global.undergrad.columbia.edu/\" target=\"_blank\"&gt;Center for Undergraduate Global Engagement&amp;#39;s&lt;/a&gt; website to learn more about&amp;nbsp;&lt;a href=\"https://global.undergrad.columbia.edu/studyabroad/search\" target=\"_blank\"&gt;CET&amp;#39;s Academic Programs&lt;/a&gt;, the application process, and eligibility requirements.&amp;nbsp; If you have any questions, please reach out to us at &lt;a href=\"mailto:uge@columbia.edu\" target=\"_blank\"&gt;uge@columbia.edu&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Even if you are unable to attend, we encourage you to register with CET since it will ensure you receive a recording to view at your convenience.&lt;/p&gt;",
+      "start_date": "2025-09-12T15:00:00+00:00",
+      "end_date": "2025-09-12T15:45:00+00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-989d4f10-0198-9fed56f9-00000de0events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Office of Global Programs and Fellowships",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Office of Global Programs and Fellowships",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Information Session",
+            "Student",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/columbiaglobal",
+            "Columbia College",
+            "Columbia Engineering",
+            "Global Programs",
+            "General Studies",
+            "org/OGPF",
+            "Study Abroad"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Information Session",
+            "Student",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/columbiaglobal",
+            "Columbia College",
+            "Columbia Engineering",
+            "Global Programs",
+            "General Studies",
+            "org/OGPF",
+            "Study Abroad"
           ]
         }
       }
@@ -4057,8 +4084,8 @@
       "start_date": "2025-09-12T16:00:00+00:00",
       "end_date": "2025-09-12T20:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27f9626-00005d86events%40columbia.edu&recurrenceId=",
@@ -4168,8 +4195,8 @@
       "start_date": "2025-09-12T17:30:00+00:00",
       "end_date": "2025-09-12T18:30:00+00:00",
       "category": [
-        "SCIENCE",
-        "SOCIAL"
+        "SOCIAL",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2f74660-00007d32events%40columbia.edu&recurrenceId=",
@@ -4346,8 +4373,8 @@
       "start_date": "2025-09-15T16:00:00+00:00",
       "end_date": "2025-09-15T17:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27436d0-00005962events%40columbia.edu&recurrenceId=",
@@ -4407,8 +4434,8 @@
       "start_date": "2025-09-15T20:30:00+00:00",
       "end_date": "2025-09-15T21:30:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-985a658d-0198-5c86d68d-00001356events%40columbia.edu&recurrenceId=",
@@ -4489,9 +4516,9 @@
       "start_date": "2025-09-15T22:30:00+00:00",
       "end_date": "2025-09-16T00:00:00+00:00",
       "category": [
+        "SOCIAL",
         "SCIENCE",
-        "ARTS",
-        "SOCIAL"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-33887390-0000673fevents%40columbia.edu&recurrenceId=",
@@ -4567,8 +4594,8 @@
       "start_date": "2025-09-16T14:00:00+00:00",
       "end_date": "2025-09-16T18:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "HEALTH"
+        "HEALTH",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-96a9c614-0196-ac6ec2e9-00005fdaevents%40columbia.edu&recurrenceId=",
@@ -4644,8 +4671,8 @@
       "start_date": "2025-09-16T15:00:00+00:00",
       "end_date": "2025-09-16T16:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97e9198f-0197-ebac3d76-00006fe5events%40columbia.edu&recurrenceId=",
@@ -4762,12 +4789,12 @@
       }
     },
     {
-      "id": "evt_columbia_7f46c5b3",
-      "name": "Finding Meaning: A Monthly Lunch Series",
+      "id": "evt_columbia_50b363bb",
+      "name": "Finding Meaning: A Monthly Lunch Series (Faculty &amp; Staff Only)",
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Finding Meaning: A Monthly Lunch Series&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Finding meaning in our work can help us feel awakened to our purpose, leading to an enhanced sense of overall well-being and mental health. Throughout many cultures, religions, and generations sharing a meal and conversation has been an integral place for deep connection. Over the fall semester, faculty and staff are invited for monthly in-person sessions where we will gather around the table to explore various religious and spiritual traditions as a lens to find meaning and purpose in the midst of life&amp;rsquo;s challenges. Join us monthly for lunch, connection, and stories as we will provide a space to listen, share, and find meaning.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Register below. &lt;strong&gt;As space is limited, we ask that you register only if you are able to join all four sessions.&lt;/strong&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Monthly sessions will be held on Tuesdays at 1pm&amp;nbsp;with catered lunch:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;September 16 &lt;/strong&gt;-&amp;nbsp;Living with Purpose: Finding Meaning at Work, Home, and in Academic Life&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;October 14&lt;/strong&gt; - Resilience and Renewal:&amp;nbsp;Practices from Various Spiritual Perspectives&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;November 11 -&lt;/strong&gt;&amp;nbsp;The Power of Connection: The role of relationships and community in meaning making&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;December&amp;nbsp;2&lt;/strong&gt; -&amp;nbsp;Continuing the Path: Applying Meaning and Purpose in Everyday Life&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;As part of the program you will be encouraged to keep a journal and continue to explore the topics of the series by meeting with individuals from your cohort over coffee sponsored by the program.&lt;/p&gt;\n&lt;p&gt;Instructors: Faculty, Staff, and Spiritual leaders from Columbia Community&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This program is sponsored by the Mental Health Initiative Grant in collaboration with the Office of Religious Life and Office of Work/Life.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;strong&gt;Finding Meaning: A Monthly Lunch Series&amp;nbsp;(Faculty &amp;amp; Staff Only)&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Finding meaning in our work can help us feel awakened to our purpose, leading to an enhanced sense of overall well-being and mental health. Throughout many cultures, religions, and generations sharing a meal and conversation has been an integral place for deep connection. Over the fall semester, faculty and staff are invited for monthly in-person sessions where we will gather around the table to explore various religious and spiritual traditions as a lens to find meaning and purpose in the midst of life&amp;rsquo;s challenges. Join us monthly for lunch, connection, and stories as we will provide a space to listen, share, and find meaning.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This program is open to Columbia Factuly and Staff only. Current Columbia Faculty and Staff can register below.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;As space is limited, we ask that you register only if you are able to join all four sessions.&lt;/strong&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Monthly sessions will be held on Tuesdays at 1pm&amp;nbsp;with catered lunch:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;September 16 &lt;/strong&gt;-&amp;nbsp;Living with Purpose: Finding Meaning at Work, Home, and in Academic Life&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;October 14&lt;/strong&gt; - Resilience and Renewal:&amp;nbsp;Practices from Various Spiritual Perspectives&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;November 11 -&lt;/strong&gt;&amp;nbsp;The Power of Connection: The role of relationships and community in meaning making&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;December&amp;nbsp;2&lt;/strong&gt; -&amp;nbsp;Continuing the Path: Applying Meaning and Purpose in Everyday Life&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;As part of the program you will be encouraged to keep a journal and continue to explore the topics of the series by meeting with individuals from your cohort over coffee sponsored by the program.&lt;/p&gt;\n&lt;p&gt;Instructors: Faculty, Staff, and Spiritual leaders from Columbia Community&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This program is sponsored by the Mental Health Initiative Grant in collaboration with the Office of Religious Life and Office of Work/Life.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;",
       "start_date": "2025-09-16T17:00:00+00:00",
       "end_date": "2025-09-16T18:00:00+00:00",
       "category": [
@@ -5152,9 +5179,9 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "HEALTH",
         "EDUCATION",
-        "HEALTH"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefd7b8d-000034c2events%40columbia.edu&recurrenceId=",
@@ -5240,8 +5267,8 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T18:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98c68ae9-0198-c8df7f1b-00005dddevents%40columbia.edu&recurrenceId=",
@@ -5379,8 +5406,8 @@
       "start_date": "2025-09-18T11:00:00+00:00",
       "end_date": "2025-09-18T21:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-981772cf-0198-19b7ca5d-000052ffevents%40columbia.edu&recurrenceId=",
@@ -5460,9 +5487,9 @@
       "start_date": "2025-09-18T15:00:00+00:00",
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
+        "HEALTH",
         "SCIENCE",
-        "SOCIAL",
-        "HEALTH"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985535db-0198-56decc16-00006d8fevents%40columbia.edu&recurrenceId=",
@@ -5478,6 +5505,7 @@
         "additional_info": {
           "department": "World Projects",
           "tags": [
+            "org/ethics",
             "org/nursingCHP",
             "org/WorldProjects",
             "Type",
@@ -5497,6 +5525,7 @@
             "Panel",
             "Social Justice",
             "org/universitylife",
+            "org/columbiaglobal",
             "Postdocs",
             "org/PublicHealth",
             "Government and Public Policy",
@@ -5529,6 +5558,7 @@
             "Panel",
             "Social Justice",
             "org/universitylife",
+            "org/columbiaglobal",
             "Postdocs",
             "org/PublicHealth",
             "Government and Public Policy",
@@ -5559,8 +5589,8 @@
       "start_date": "2025-09-18T16:00:00+00:00",
       "end_date": "2025-09-18T17:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d262deb9-0000530bevents%40columbia.edu&recurrenceId=",
@@ -6163,9 +6193,9 @@
       "start_date": "2025-09-19T12:30:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "SCIENCE",
+        "HEALTH",
         "EDUCATION",
-        "HEALTH"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85deaa42-000034d6events%40columbia.edu&recurrenceId=",
@@ -6314,12 +6344,12 @@
       "type": "Conference",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;On June 7, 2024, the United Nations proclaimed 2025 as the&amp;nbsp;&lt;a href=\"https://quantum2025.org/\" target=\"_blank\"&gt;International Year of Quantum Science and Technology (IYQ)&lt;/a&gt;, marking 100 years since the initial development of quantum mechanics.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Join the &lt;a href=\"https://quantum.columbia.edu/\" target=\"_blank\"&gt;Columbia Quantum Initiative&lt;/a&gt;&amp;nbsp;on Friday, September 19th, to welcome experts from industry and academia who share their insights into recent quantum research and the development of emerging quantum technologies.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h1&gt;&lt;strong&gt;Schedule:&lt;/strong&gt;&lt;/h1&gt;\n&lt;p&gt;10:00 am | Sarah Sheldon, IBM:&amp;nbsp;The Path to Useful Quantum Computing: From Algorithms to Applications&lt;/p&gt;\n&lt;p&gt;10:45 am | Henry Yuen, Columbia: Quantum Cryptography: A Journey from Quantum Money to Quantum Gravity&lt;/p&gt;\n&lt;p&gt;11:15 am | Marissa Giustina, Google DeepMind: The Physicality of Information; the Information of Physicality&lt;/p&gt;\n&lt;p&gt;Noon | Break for Lunch&lt;br /&gt;\n1:00 pm | Chris Monroe, IonQ/Duke: Quantum Computers: Hype and Hope&lt;/p&gt;\n&lt;p&gt;1:45 pm |&amp;nbsp;Sebastian Will, Columbia: Pushing the Frontier of Quantum Control of Atoms and Molecules&lt;/p&gt;\n&lt;p&gt;2:15 pm | Vladan Vuletic, MIT/QuERA: Quantum Computing with Neutral Atoms: From Physical to Logical Qubits&lt;/p&gt;\n&lt;p&gt;3:00 pm | Afternoon Break&lt;br /&gt;\n3:30 pm | Ana Asenjo-Garcia:&amp;nbsp;Emergent Behavior in a Noisy Quantum World&lt;/p&gt;\n&lt;p&gt;4:00 pm | Mihai Vidrighin, PsiQuantum: Linear Optical Quantum Computing with Integrated Photonics&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only. We have a limited number of guest spots available. Interested non-affiliates, please contact&amp;nbsp;&lt;/em&gt;&lt;a href=\"mailto:quantum@columbia.edu\"&gt;&lt;em&gt;quantum@columbia.edu&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&amp;nbsp;to be added to the symposium waitlist.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
+      "description": "&lt;p&gt;On June 7, 2024, the United Nations proclaimed 2025 as the&amp;nbsp;&lt;a href=\"https://quantum2025.org/\" target=\"_blank\"&gt;International Year of Quantum Science and Technology (IYQ)&lt;/a&gt;, marking 100 years since the initial development of quantum mechanics.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Join the &lt;a href=\"https://quantum.columbia.edu/\" target=\"_blank\"&gt;Columbia Quantum Initiative&lt;/a&gt;&amp;nbsp;on Friday, September 19, to welcome experts from industry and academia who will&amp;nbsp;share their insights into recent quantum research and the development of emerging quantum technologies.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h1&gt;&lt;strong&gt;Schedule:&lt;/strong&gt;&lt;/h1&gt;\n&lt;p&gt;10:00 am | Sarah Sheldon, IBM:&amp;nbsp;The Path to Useful Quantum Computing: From Algorithms to Applications&lt;/p&gt;\n&lt;p&gt;10:45 am | Henry Yuen, Columbia: Quantum Cryptography: A Journey from Quantum Money to Quantum Gravity&lt;/p&gt;\n&lt;p&gt;11:15 am | Marissa Giustina, Google DeepMind: The Physicality of Information; the Information of Physicality&lt;/p&gt;\n&lt;p&gt;Noon | Break for Lunch&lt;br /&gt;\n1:00 pm | Chris Monroe, IonQ/Duke: Quantum Computers: Hype and Hope&lt;/p&gt;\n&lt;p&gt;1:45 pm |&amp;nbsp;Sebastian Will, Columbia: Pushing the Frontier of Quantum Control of Atoms and Molecules&lt;/p&gt;\n&lt;p&gt;2:15 pm | Vladan Vuletic, MIT/QuERA: Quantum Computing with Neutral Atoms: From Physical to Logical Qubits&lt;/p&gt;\n&lt;p&gt;3:00 pm | Afternoon Break&lt;br /&gt;\n3:30 pm | Ana Asenjo-Garcia:&amp;nbsp;Emergent Behavior in a Noisy Quantum World&lt;/p&gt;\n&lt;p&gt;4:00 pm | Mihai Vidrighin, PsiQuantum: Linear Optical Quantum Computing with Integrated Photonics&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only. We have a limited number of guest spots available. Interested non-affiliates, please contact&amp;nbsp;&lt;/em&gt;&lt;a href=\"mailto:quantum@columbia.edu\"&gt;&lt;em&gt;quantum@columbia.edu&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&amp;nbsp;to be added to the symposium waitlist.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;",
       "start_date": "2025-09-19T14:00:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e57111-0198-e7a936ab-00007895events%40columbia.edu&recurrenceId=",
@@ -6411,6 +6441,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "Columbia Engineering",
             "Global Programs",
             "org/OGPF",
@@ -6423,6 +6454,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "Columbia Engineering",
             "Global Programs",
             "org/OGPF",
@@ -6925,7 +6957,7 @@
       "type": "Academic",
       "location_id": "loc_columbia_sipa",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Co-hosted by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Fashion, Energy, and Climate Network, Columbia Climate School&lt;/p&gt;\n&lt;p&gt;Center on Global Energy Policy, School of International and Public Affairs, Columbia University&lt;/p&gt;\n&lt;p&gt;Energy, Climate Justice, and Sustainability Lab, New York University&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:00am - 9:30am&lt;/strong&gt; Networking and Coffee&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:30am - 9:40am&lt;/strong&gt; Welcome&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:40am - 10:00am&lt;/strong&gt;&amp;nbsp; Fireside Chat with Indr&amp;eacute; Rockefeller, The Circularity Project&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:00am - 10:20am&lt;/strong&gt; State of Play: Fashion Industry Sustainability with Sarah Kent, Business of Fashion&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:20am - 11:10am&lt;/strong&gt; Panel Discussion I: &lt;em&gt;Materials Innovation for Decarbonization&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;11:10am - 12:00pm&lt;/strong&gt; Panel Discussion II: &lt;em&gt;New Paradigms for Fashion Business&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;Following last year&amp;rsquo;s &lt;a href=\"https://www.climate.columbia.edu/events/renewing-fashion-clean-energy-and-circular-economy\"&gt;&lt;em&gt;Renewing Fashion&lt;/em&gt;&lt;/a&gt; event, this year&amp;rsquo;s &lt;em&gt;Transforming Fashion&amp;#39;s Footprint: Innovation and Business&lt;/em&gt; digs deeper into key challenges and opportunities for climate and energy transition actions in the fashion sector. While various efforts continue to be made to estimate fashion&amp;rsquo;s environmental footprint, major gaps remain in how to decarbonize material production and reshape business practices.&lt;/p&gt;\n&lt;p&gt;Our first session explores cutting-edge materials innovations where the biggest contribution could be made in ameliorating the largest share of the fashion value chain&amp;rsquo;s carbon emissions.&amp;nbsp;The second session turns to business models. How can fashion bridge the gap between academic research and real-world enterprise? What strategies work to scale sustainability while maintaining commercial viability?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;Key Questions:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;What are the most promising materials innovations to cut carbon in fashion?&lt;/li&gt;\n&lt;li&gt;How can regenerative agriculture and bio-based materials reshape supply chains?&lt;/li&gt;\n&lt;li&gt;What does a business model look like when it centers both addressing climate impact and profitability?&lt;/li&gt;\n&lt;li&gt;How can academia and industry collaborate more effectively to accelerate and scale solutions?&lt;/li&gt;\n&lt;li&gt;What roles do brands play in reshaping the fashion ecosystem?&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Confirmed Speakers &lt;/strong&gt;(in alphabetic order of last name; more to be added):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Christina Castle, Senior Manager, Impact &amp;amp; Product Sustainability, D&amp;Ocirc;EN&lt;/li&gt;\n&lt;li&gt;Michelle Gabriel, Lecturer, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Kelley Kizzier, Director of Corporate Action and Markets, Bezos Earth Fund&lt;/li&gt;\n&lt;li&gt;Sandra Goldmark, Associate Dean for Engagement and Impact, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Amy Jaffe, Director, Energy, Climate Justice, and Sustainability Lab, NYU&lt;/li&gt;\n&lt;li&gt;Kevin Karl, Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Sarah Kent, Chief Sustainability Correspondent, Business of Fashion&lt;/li&gt;\n&lt;li&gt;Miguel Modestino , Director, Sustainable Engineering Initiative, NYU Tandon&lt;/li&gt;\n&lt;li&gt;Stewart Pe&amp;ntilde;a Feliz, Co-Founder &amp;amp; CEO, MacroCycle Technologies&lt;/li&gt;\n&lt;li&gt;Sally Qiu , Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Indr&amp;eacute; Rockefeller, Founder of The Circularity Project&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Jon Veldhouse, CEO, Qore&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;For Columbia affiliates, please register using the &amp;#39;Reserve Your Seat&amp;#39; button below. For NYU affiliates, please register on the NYU website. For public audience, please complete the attendance request form by following this link:&amp;nbsp;&lt;a href=\"https://forms.gle/Yj3jshZrNJY1mX9N7\"&gt;https://forms.gle/Yj3jshZrNJY1mX9N7&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;strong&gt;Co-hosted by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Fashion, Energy, and Climate Network, Columbia Climate School&lt;/p&gt;\n&lt;p&gt;Center on Global Energy Policy, School of International and Public Affairs, Columbia University&lt;/p&gt;\n&lt;p&gt;Energy, Climate Justice, and Sustainability Lab, New York University&lt;strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:00am - 9:30am&lt;/strong&gt; Networking and Coffee&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:30am - 9:40am&lt;/strong&gt; Welcome&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;9:40am - 10:00am&lt;/strong&gt;&amp;nbsp; Fireside Chat with Indr&amp;eacute; Rockefeller, The Circularity Project&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:00am - 10:20am&lt;/strong&gt; State of Play: Fashion Industry Sustainability with Sarah Kent, Business of Fashion&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;10:20am - 11:10am&lt;/strong&gt; Panel Discussion I: &lt;em&gt;Materials Innovation for Decarbonization&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;11:10am - 12:00pm&lt;/strong&gt; Panel Discussion II: &lt;em&gt;New Paradigms for Fashion Business&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;Following last year&amp;rsquo;s &lt;a href=\"https://www.climate.columbia.edu/events/renewing-fashion-clean-energy-and-circular-economy\"&gt;&lt;em&gt;Renewing Fashion&lt;/em&gt;&lt;/a&gt; event, this year&amp;rsquo;s &lt;em&gt;Transforming Fashion&amp;#39;s Footprint: Innovation and Business&lt;/em&gt; digs deeper into key challenges and opportunities for climate and energy transition actions in the fashion sector. While various efforts continue to be made to estimate fashion&amp;rsquo;s environmental footprint, major gaps remain in how to decarbonize material production and reshape business practices.&lt;/p&gt;\n&lt;p&gt;Our first session explores cutting-edge materials innovations where the biggest contribution could be made in ameliorating the largest share of the fashion value chain&amp;rsquo;s carbon emissions.&amp;nbsp;The second session turns to business models. How can fashion bridge the gap between academic research and real-world enterprise? What strategies work to scale sustainability while maintaining commercial viability?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&amp;nbsp;Key Questions:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;What are the most promising materials innovations to cut carbon in fashion?&lt;/li&gt;\n&lt;li&gt;How can regenerative agriculture and bio-based materials reshape supply chains?&lt;/li&gt;\n&lt;li&gt;What does a business model look like when it centers both addressing climate impact and profitability?&lt;/li&gt;\n&lt;li&gt;How can academia and industry collaborate more effectively to accelerate and scale solutions?&lt;/li&gt;\n&lt;li&gt;What roles do brands play in reshaping the fashion ecosystem?&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Confirmed Speakers &lt;/strong&gt;(in alphabetic order of last name; more to be added):&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Christina Castle, Senior Manager, Impact &amp;amp; Product Sustainability, D&amp;Ocirc;EN&lt;/li&gt;\n&lt;li&gt;Michelle Gabriel, Lecturer, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Kelley Kizzier, Director of Corporate Action and Markets, Bezos Earth Fund&lt;/li&gt;\n&lt;li&gt;Sandra Goldmark, Associate Dean for Engagement and Impact, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Amy Jaffe, Director, Energy, Climate Justice, and Sustainability Lab, NYU&lt;/li&gt;\n&lt;li&gt;Kevin Karl, Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Sarah Kent, Chief Sustainability Correspondent, Business of Fashion&lt;/li&gt;\n&lt;li&gt;Miguel Modestino , Director, Sustainable Engineering Initiative, NYU Tandon&lt;/li&gt;\n&lt;li&gt;Stewart Pe&amp;ntilde;a Feliz, Co-Founder &amp;amp; CEO, MacroCycle Technologies&lt;/li&gt;\n&lt;li&gt;Sally Qiu , Co-Director, Fashion, Energy, and Climate Network, Columbia Climate School&lt;/li&gt;\n&lt;li&gt;Indr&amp;eacute; Rockefeller, Founder, The Circularity Project&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Jon Veldhouse, CEO, Qore&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;For Columbia affiliates, please register using the &amp;#39;Reserve Your Seat&amp;#39; button below. For NYU affiliates, please register on the NYU website. For public audience, please complete the attendance request form by following this link:&amp;nbsp;&lt;a href=\"https://forms.gle/Yj3jshZrNJY1mX9N7\"&gt;https://forms.gle/Yj3jshZrNJY1mX9N7&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
       "start_date": "2025-09-22T13:00:00+00:00",
       "end_date": "2025-09-22T16:00:00+00:00",
       "category": [
@@ -7070,9 +7102,9 @@
       "start_date": "2025-09-22T16:00:00+00:00",
       "end_date": "2025-09-22T17:00:00+00:00",
       "category": [
+        "SOCIAL",
         "SCIENCE",
-        "ARTS",
-        "SOCIAL"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98a7a05e-0198-a94a71b0-00005102events%40columbia.edu&recurrenceId=",
@@ -7213,8 +7245,8 @@
       "start_date": "2025-09-22T17:00:00+00:00",
       "end_date": "2025-09-22T18:00:00+00:00",
       "category": [
-        "SCIENCE",
-        "HEALTH"
+        "HEALTH",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98ea92e3-0198-ec487b73-00006116events%40columbia.edu&recurrenceId=",
@@ -7231,6 +7263,7 @@
           "department": "Columbia Nursing Center for Health Policy",
           "tags": [
             "org/nursingCHP",
+            "org/nursing",
             "Type",
             "Location",
             "Audience",
@@ -7469,6 +7502,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "First-years",
             "Sophomores",
             "Juniors",
@@ -7484,6 +7518,7 @@
             "Student",
             "Events open to",
             "org/UniversityEvents",
+            "org/columbiaglobal",
             "First-years",
             "Sophomores",
             "Juniors",
@@ -7501,12 +7536,12 @@
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Every sport is played on nature&amp;rsquo;s stage. As climate change and habitat destruction threaten biodiversity, the sports industry must step up as a key player in conservation. This panel will bring together experts to explore how sports organizations, teams, leagues, venues, and athletes are working to restore natural habitats, promote sustainable land use, and reduce their ecological impact.&lt;/p&gt;\n&lt;p&gt;Join us during Climate Week NYC to discover how sports can inspire action and drive lasting change to safeguard the planet&amp;rsquo;s biodiversity.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Welcome remarks:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Brendan Buckley&lt;/strong&gt;&lt;/strong&gt;,&lt;strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/strong&gt;Program Co-Director, Lamont-Doherty Earth Observatory Research Professor, Biology and Paleo Environment, Lecturer in Professional Studies, Sustainability Science.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Moderator:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Chandler Precht&lt;/strong&gt;&lt;/strong&gt;, Lecturer, Sustainability Management Program and Director, External Affairs and Communications, Sustainability Management and Sustainability Science Programs.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Panel:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Lewis Blaustein&lt;/strong&gt;&lt;/strong&gt;, CEO/Founder, Eco Athletes.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Mackenzie Feldman&lt;/strong&gt;&lt;/strong&gt;, founnder and co-director of Re:wild Your Campus.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Lady Merle Liivand&lt;/strong&gt;&lt;/strong&gt;, Modern Life Mermaid and Gold Medalist.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Zach Ruiz&lt;/strong&gt;&lt;/strong&gt;, Sustainability Manager, Kaseya Center, The Heat Group.&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;\nRECEPTION&lt;/p&gt;\n&lt;p&gt;The event will conclude with a reception featuring light refreshments, passed hors d&amp;rsquo;oeuvres, and opportunities to connect.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;em&gt;This event is free and open to the public. Registration is recommended and is open until Thursday, September 18th, 2025.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;RSVP link &lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For more information, please contact the Sustainability Graduate Programs&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;sustainabilitygradprograms@columbia.edu&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To obtain additional information about program offerings at Columbia University&amp;rsquo;s School of Professional Studies, please contact an Admissions Counselor at&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;inquire@sps.columbia.edu&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you require closed captioning, sign-language interpretation, or any other disability accommodations, please contact Disability Services,&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;disability@columbia.edu&lt;/a&gt;, at least 10 days in advance.&lt;/p&gt;\n&lt;p&gt;Please visit Columbia University&amp;rsquo;s Hub for Emergency Preparedness (&lt;a href=\"https://preparedness.columbia.edu/\" target=\"_blank\"&gt;https://preparedness.columbia.edu/&lt;/a&gt;) to stay up to date on the latest campus health and safety policies.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This event is open to individuals irrespective of identity and sex.&lt;/p&gt;",
+      "description": "&lt;p&gt;Every sport is played on nature&amp;rsquo;s stage. As climate change and habitat destruction threaten biodiversity, the sports industry must step up as a key player in conservation. This panel will bring together experts to explore how sports organizations, teams, leagues, venues, and athletes are working to restore natural habitats, promote sustainable land use, and reduce their ecological impact.&lt;/p&gt;\n&lt;p&gt;Join us during Climate Week NYC to discover how sports can inspire action and drive lasting change to safeguard the planet&amp;rsquo;s biodiversity.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Welcome remarks:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Brendan Buckley&lt;/strong&gt;&lt;/strong&gt;,&lt;strong&gt;&lt;strong&gt; &lt;/strong&gt;&lt;/strong&gt;Program Co-Director, Lamont-Doherty Earth Observatory Research Professor, Biology and Paleo Environment, Lecturer in Professional Studies, Sustainability Science.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Moderator:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Chandler Precht&lt;/strong&gt;&lt;/strong&gt;, Lecturer, Sustainability Management Program and Director, External Affairs and Communications, Sustainability Management and Sustainability Science Programs.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Panel:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Lewis Blaustein&lt;/strong&gt;&lt;/strong&gt;, CEO/Founder, Eco Athletes.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Mackenzie Feldman&lt;/strong&gt;&lt;/strong&gt;, Founder and co-director of Re:wild Your Campus.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Lady Merle Liivand&lt;/strong&gt;&lt;/strong&gt;, Modern Life Mermaid and Gold Medalist.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Zach Ruiz&lt;/strong&gt;&lt;/strong&gt;, Sustainability Manager, Kaseya Center, The Heat Group.&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;\nRECEPTION&lt;/p&gt;\n&lt;p&gt;The event will conclude with a reception featuring light refreshments, passed hors d&amp;rsquo;oeuvres, and opportunities to connect.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;em&gt;This event is free and open to the public. Registration is recommended and is open until Thursday, September 18th, 2025.&lt;/em&gt;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;RSVP link &lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For more information, please contact the Sustainability Graduate Programs&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;sustainabilitygradprograms@columbia.edu&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;To obtain additional information about program offerings at Columbia University&amp;rsquo;s School of Professional Studies, please contact an Admissions Counselor at&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;inquire@sps.columbia.edu&lt;/a&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;If you require closed captioning, sign-language interpretation, or any other disability accommodations, please contact Disability Services,&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/playing-for-the-planet-tickets-1438451169169?aff=oddtdtcreator\" target=\"_blank\"&gt;disability@columbia.edu&lt;/a&gt;, at least 10 days in advance.&lt;/p&gt;\n&lt;p&gt;Please visit Columbia University&amp;rsquo;s Hub for Emergency Preparedness (&lt;a href=\"https://preparedness.columbia.edu/\" target=\"_blank\"&gt;https://preparedness.columbia.edu/&lt;/a&gt;) to stay up to date on the latest campus health and safety policies.&lt;br /&gt;\n&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This event is open to individuals irrespective of identity and sex.&lt;/p&gt;",
       "start_date": "2025-09-22T22:00:00+00:00",
       "end_date": "2025-09-23T01:00:00+00:00",
       "category": [
-        "SCIENCE",
         "BUSINESS",
+        "SCIENCE",
         "ARTS"
       ],
       "metadata": {
@@ -7661,8 +7696,8 @@
       "start_date": "2025-09-23T17:00:00+00:00",
       "end_date": "2025-09-23T18:00:00+00:00",
       "category": [
-        "EDUCATION",
-        "HEALTH"
+        "HEALTH",
+        "EDUCATION"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccff4186-000041b8events%40columbia.edu&recurrenceId=",
@@ -7740,8 +7775,8 @@
       "start_date": "2025-09-23T17:15:00+00:00",
       "end_date": "2025-09-23T18:15:00+00:00",
       "category": [
-        "SCIENCE",
-        "HEALTH"
+        "HEALTH",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-989d53e6-0198-9fd8fcd3-000071b7events%40columbia.edu&recurrenceId=",
@@ -7803,6 +7838,208 @@
             "College of Physicians and Surgeons",
             "Trainees",
             "org/cumc_hiccc",
+            "org/cumc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_0dc22c7e",
+      "name": "Creating Rubrics with AI",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;h2&gt;Creating Rubrics with AI&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;A 60-minute session for Columbia Faculty, Postdocs, and Graduate Students.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Rubrics clarify what success looks like for students and make grading more consistent and efficient &amp;ndash; but designing a good one is time-consuming. In this hands-on workshop, you&amp;rsquo;ll explore how AI can act as a starting point to help you draft, revise, adapt a rubric for one of your assignments.&lt;/p&gt;\n&lt;p&gt;You&amp;rsquo;ll experiment with AI suggestions and refine them to match your goals and your students&amp;rsquo; needs. This session will give you a jumpstart on rubric design, while keeping you at the center of the process.&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Unable to join us for this workshop? Looking for more assignment or rubric design support? Email &lt;a href=\"mailto:CTLFaculty@columbia.edu\"&gt;CTLFaculty@columbia.edu&lt;/a&gt; to schedule your 1-1 consultation&lt;strong&gt;. &lt;/strong&gt;Explore CTL on-demand resources on &lt;a href=\"https://ctl.columbia.edu/resources-and-technology/resources/incorporating-rubrics/\"&gt;Incorporating Rubrics Into Your Feedback and Grading Practices&lt;/a&gt;, &lt;a href=\"https://ctl.columbia.edu/resources-and-technology/teaching-with-technology/teaching-online/designing-assignments/\"&gt;Designing Assignments for Learning&lt;/a&gt;; and &lt;a href=\"https://ctl.columbia.edu/resources-and-technology/resources/creative-assignments/\"&gt;Getting Started with Creative Assignments&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact ColumbiaCTL@columbia.edu or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. Note, if this is an online event, CTL staff may take screenshots. For concerns, contact ColumbiaCTL@columbia.edu.&lt;/p&gt;",
+      "start_date": "2025-09-23T18:00:00+00:00",
+      "end_date": "2025-09-23T19:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-983b76bf-0198-3e3edf95-0000147aevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Center for Teaching and Learning",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Teaching and Learning",
+          "tags": [
+            "AI",
+            "Artificial Intelligence",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Online",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Postdocs",
+            "Teaching and Learning",
+            "CTL",
+            "Graduate Students"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Online",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Postdocs",
+            "Teaching and Learning",
+            "CTL",
+            "Graduate Students"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_f3689716",
+      "name": "R 101 for Social Scientists",
+      "type": "Academic",
+      "location_id": "loc_columbia_butler",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;R is the most widely used programming language for statistical computing and graphics. It is free and open source. This introduction to R is designed for participants with no programming experience. The workshop starts with the building blocks of using RStudio to develop and explore the data structures available in R. We will then go over some basic tools for inspecting, extracting, manipulating, summarizing, and visualizing data. Throughout the workshop, we will also discuss how to use R packages as well as strategies for continued learning and experimentation. &lt;strong&gt;Please bring your own laptop. Registration is required.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Learning Goals:&lt;/p&gt;\n&lt;ol&gt;\n&lt;li&gt;Define the following terms as they relate to R: object, assign, call, function, arguments.&lt;/li&gt;\n&lt;li&gt;Load external data from a .csv file into a dataframe, describe what a dataframe is, and summarize content from a dataframe.&lt;/li&gt;\n&lt;li&gt;Understand how the dplyr and tidyr packages can reshape and manipulate datasets.&lt;/li&gt;\n&lt;li&gt;Produce scatter plots, boxplots, and barplots using ggplot.&lt;/li&gt;\n&lt;/ol&gt;",
+      "start_date": "2025-09-23T20:30:00+00:00",
+      "end_date": "2025-09-23T22:30:00+00:00",
+      "category": [
+        "SOCIAL",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d2fb65b7-00007e71events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Butler Library",
+          "address": "535 W 114th St, New York, NY 10027",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Libraries_SocialSciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Libraries_SocialSciences",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Libraries",
+            "Social Sciences",
+            "org/lib_social_sciences",
+            "Postdocs",
+            "org/RCF",
+            "Graduate Students"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Libraries",
+            "Social Sciences",
+            "org/lib_social_sciences",
+            "Postdocs",
+            "org/RCF",
+            "Graduate Students"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_8bb73fbd",
+      "name": "Access for Every Child: Ensuring Multidisciplinary Care",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Non-communicable diseases (NCDs) were identified as a key global health priority during the 78th World Health Assembly. Mobilizing Ministries of Health, NGOs, and other non-state actors to drive this agenda forward is essential-but cannot be achieved without access to comprehensive, multidisciplinary care that includes primary prevention, treatment, nutrition, and mental health services. CDs disproportionately affect children and adolescents, and ensuring access to multidisciplinary care is essential not only for survival but also for long-term health and well-being. This roundtable will examine the unique challenges and promising solutions in both high-and low-income settings, and put forth actionable recommendations for the global community to collectively advance.&lt;/p&gt;",
+      "start_date": "2025-09-23T21:00:00+00:00",
+      "end_date": "2025-09-23T23:00:00+00:00",
+      "category": [
+        "HEALTH",
+        "SCIENCE"
+      ],
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985f81ef-0198-61cb11cf-00001170events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Penn Club of New York, 30 W. 44 St., New York, NY 10036\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "CUMC - Pediatrics",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "CUMC - Pediatrics",
+          "tags": [
+            "Off Campus",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Clinical Health Sciences",
+            "Research",
+            "Postdocs",
+            "org/PublicHealth",
+            "org/pediatrics",
+            "Teaching and Learning",
+            "Healthcare",
+            "Discussion",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Mailman School of Public Health",
+            "Trainees",
+            "org/cumc"
+          ],
+          "audience": [
+            "Category",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Clinical Health Sciences",
+            "Research",
+            "Postdocs",
+            "org/PublicHealth",
+            "org/pediatrics",
+            "Teaching and Learning",
+            "Healthcare",
+            "Discussion",
+            "Graduate Students",
+            "College of Physicians and Surgeons",
+            "Mailman School of Public Health",
+            "Trainees",
             "org/cumc"
           ]
         }
@@ -7877,33 +8114,33 @@
       }
     },
     {
-      "id": "evt_cornell_tech_79341d58",
-      "name": "Innovation & Entrepreneurship Workshop: Startup Tech Sales",
-      "type": "Workshop",
-      "location_id": "loc_virtual",
+      "id": "evt_cornell_tech_d48f7e3d",
+      "name": "Enshittification and Renewal: A Conversation with Cory Doctorow",
+      "type": "Academic",
+      "location_id": "loc_cornell_tech_tata",
       "community_id": "com_cornell_tech",
-      "description": "Workshop, Public",
-      "start_date": "2025-08-28T11:45:00",
-      "end_date": "2025-08-28T13:00:00",
+      "description": "Cornell University, Public",
+      "start_date": "2025-09-19T17:00:00",
+      "end_date": "2025-09-19T19:00:00",
       "category": [
-        "BUSINESS",
         "TECH"
       ],
       "metadata": {
-        "source_url": "https://tech.cornell.edu/events/innovation-entrepreneurship-workshop-startup-tech-sales/",
+        "source_url": "https://tech.cornell.edu/events/enshittification-and-renewal-a-conversation-with-cory-doctorow/",
         "source_name": "Cornell Tech Events",
         "venue": {
-          "name": "Online Event",
-          "type": "virtual"
+          "name": "Tata Innovation Center",
+          "address": "11 E Loop Rd, New York, NY 10044",
+          "type": "venue"
         },
         "organizer": {
           "name": "Cornell Tech",
           "type": "organizer"
         },
         "additional_info": {
-          "image_url": "https://tech.cornell.edu/wp-content/uploads/2025/08/https___cdn.evbuc_.com_images_1044858713_134417915717_1_original.png",
+          "image_url": "https://tech.cornell.edu/wp-content/uploads/2025/09/51041280466_e4ca44600c_k.jpg",
           "tags": [
-            "Workshop",
+            "Cornell University",
             "Public"
           ]
         }
@@ -8135,36 +8372,6 @@
       }
     },
     {
-      "id": "evt_gallatin_f58c7925",
-      "name": "UDL Film Screening: American Agitators",
-      "type": "Academic",
-      "location_id": "loc_gallatin_labowitz",
-      "community_id": "com_gallatin",
-      "description": "RSVP required",
-      "start_date": "2025-09-18T18:00:00",
-      "end_date": "2025-09-18T20:00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators.html",
-        "source_name": "NYU Gallatin Events",
-        "venue": {
-          "type": "venue",
-          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
-          "address": "1 Washington Place, New York, NY 10003"
-        },
-        "organizer": {
-          "name": "NYU Gallatin School of Individualized Study",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "image_url": "https://gallatin.nyu.edu/content/dam/gallatin/carousels/event-default.jpg",
-          "rsvp_required": true
-        }
-      }
-    },
-    {
       "id": "evt_gallatin_71cd8ef1",
       "name": "Gallatin Recent Alumni Happy Hour",
       "type": "Academic",
@@ -8190,6 +8397,36 @@
         },
         "additional_info": {
           "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/gallatin-recent-alumni-happy-hour/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_e5821fe3",
+      "name": "Urban Democracy Lab | Film Screening: American Agitators",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-18T18:00:00",
+      "end_date": "2025-09-18T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators/jcr:content/image.img.480.medium.jpg",
           "rsvp_required": true
         }
       }
@@ -8831,8 +9068,8 @@
       "start_date": "2025-12-04T17:30:00",
       "end_date": "2025-12-04T19:30:00",
       "category": [
-        "SCIENCE",
         "ARTS",
+        "SCIENCE",
         "HISTORY"
       ],
       "metadata": {
@@ -8862,8 +9099,8 @@
       "location_id": "loc_virtual",
       "community_id": "com_jtsa",
       "description": "Join us for a three-part series that celebrates the fortieth anniversary of women in our RA hosted by the Rabbinical Assembly, Women’s League for Conservative Judaism, and JTS.",
-      "start_date": "2025-09-03T12:00:00",
-      "end_date": "2025-09-03T13:00:00",
+      "start_date": "2026-09-03T12:00:00",
+      "end_date": "2026-09-03T13:00:00",
       "category": [
         "ARTS",
         "RELIGION"
@@ -9116,10 +9353,10 @@
       "start_date": "2025-09-12T19:30:00+00:00",
       "end_date": "2025-09-12T21:30:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
         "DANCE",
-        "THEATER"
+        "THEATER",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9156,8 +9393,8 @@
       "start_date": "2025-09-13T10:00:00+00:00",
       "end_date": "2025-09-13T12:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9194,8 +9431,8 @@
       "start_date": "2025-09-13T19:30:00+00:00",
       "end_date": "2025-09-13T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9221,7 +9458,7 @@
       }
     },
     {
-      "id": "evt_juilliard_e076d128",
+      "id": "evt_juilliard_9f37d32c",
       "name": "Juilliard Drama Presents Scenes by Recent Playwriting Alums",
       "type": "Performance",
       "location_id": "loc_juilliard_main",
@@ -9230,13 +9467,13 @@
       "start_date": "2025-09-15T19:30:00+00:00",
       "end_date": "2025-09-15T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "THEATER"
+        "THEATER",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
       "metadata": {
-        "source_url": "https://www.juilliard.edu/event/177916/juilliard-drama-presents-scenes-recent-playwriting-alums",
+        "source_url": "https://www.juilliard.edu/event/177916/juilliard-drama-presents-scenes-recent-playwriting-alums?start_date_from=now&start_date_thru=&division=572&tags=All",
         "source_name": "Juilliard Events Calendar",
         "venue": {
           "name": "DR2 Theatre",
@@ -9265,8 +9502,8 @@
       "start_date": "2025-09-16T17:30:00+00:00",
       "end_date": "2025-09-16T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9300,8 +9537,8 @@
       "start_date": "2025-09-16T19:30:00+00:00",
       "end_date": "2025-09-16T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9342,8 +9579,8 @@
       "start_date": "2025-09-17T13:00:00+00:00",
       "end_date": "2025-09-17T15:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9378,8 +9615,8 @@
       "start_date": "2025-09-17T17:30:00+00:00",
       "end_date": "2025-09-17T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9414,9 +9651,9 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:30:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
-        "THEATER"
+        "THEATER",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9451,8 +9688,8 @@
       "start_date": "2025-09-18T19:30:00+00:00",
       "end_date": "2025-09-18T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9487,8 +9724,8 @@
       "start_date": "2025-09-19T18:00:00+00:00",
       "end_date": "2025-09-19T20:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9523,8 +9760,8 @@
       "start_date": "2025-09-19T19:30:00+00:00",
       "end_date": "2025-09-19T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9559,9 +9796,9 @@
       "start_date": "2025-09-20T11:00:00+00:00",
       "end_date": "2025-09-20T13:00:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
-        "DANCE"
+        "DANCE",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9599,10 +9836,10 @@
       "start_date": "2025-09-20T14:00:00+00:00",
       "end_date": "2025-09-20T16:00:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
         "DANCE",
-        "THEATER"
+        "THEATER",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9639,10 +9876,10 @@
       "start_date": "2025-09-20T19:30:00+00:00",
       "end_date": "2025-09-20T21:30:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
         "DANCE",
-        "THEATER"
+        "THEATER",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9682,8 +9919,8 @@
       "start_date": "2025-09-23T17:30:00+00:00",
       "end_date": "2025-09-23T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9718,8 +9955,8 @@
       "start_date": "2025-09-24T17:30:00+00:00",
       "end_date": "2025-09-24T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9753,8 +9990,8 @@
       "start_date": "2025-09-24T18:00:00+00:00",
       "end_date": "2025-09-24T20:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9790,8 +10027,8 @@
       "start_date": "2025-09-25T17:30:00+00:00",
       "end_date": "2025-09-25T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9826,8 +10063,8 @@
       "start_date": "2025-09-26T18:00:00+00:00",
       "end_date": "2025-09-26T20:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9852,8 +10089,8 @@
       }
     },
     {
-      "id": "evt_newschool_dbcacd11",
-      "name": "Transdiciplinary Design Convening",
+      "id": "evt_newschool_0d44dd9b",
+      "name": "Transdisciplinary Design Convening",
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
@@ -9861,11 +10098,11 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "TECH",
         "ARTS",
-        "POLITICS",
+        "SOCIAL",
+        "TECH",
         "DESIGN",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tdconvening25",
@@ -9912,9 +10149,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
-        "HUMANITIES",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -9956,8 +10193,8 @@
       "start_date": "2025-09-03T15:30:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
@@ -9991,13 +10228,13 @@
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "Join us for a celebration of two new books and a shared life in poetry featuring Elaine Equi and Jerome Sala. Beloved New School poetry professor for many years, Elaine Equi is the author of more than ten books of poems. Equi’s Out of the Blank from Coffee House Press showcases her trademark brevity and finesse. Dream logic and a particular, understated, idiosyncratic wit wash together in these poems with a painterly use of color and texture. According to critic Ben Shields in Artforum, the “generousness of an Equi poem lets you take for granted its offhand grandeur.” Combining pop culture, humor, and irony, Equi’s poems are both direct and nuanced. Jerome Sala, poet, critic, freelance copywriter, and content developer, has cultivated the kind of insider/outsider status that grants access to the parts of the American psyche he most wants to satirize. Sala’s new book of poems from BlazeVOX, Glop, enlivens language that contemporary capitalism has left for dead. He illuminates the fundamental soulfulness of paying attention to what we encounter moment-to-moment, even the “nastyass” honey badgers we see on YouTube while being stalked by targeted advertising. Having established a life together as poets, the pair will also discuss their experience prioritizing creativity and writing. Hosted by Laura Cronk, assistant professor and chair of poetry, MFA in Creative Writing at The New School.  Elaine Equi’s latest book is Out of the Blank from Coffee House Press. Her other books include Voice-Over, which won the San Francisco State Poetry Award; Ripple Effect: New & Selected Poems, which was a finalist for the L.A. Times Book Award and on the short list for the Griffin Poetry Prize; and Sentences and Rain. Widely published and anthologized, her work has appeared in the American Poetry Review, Brooklyn Rail, Big Other, The Nation, The New Yorker, and many other journals. In 2023, she was the guest editor of the annual anthology, Best American Poetry. In 2024, she received a Guggenheim fellowship. She has taught in many creative writing programs, including those at New York University, City College of New York, and The New School. She lives in New York with her husband, the poet Jerome Sala. Jerome Sala’s latest book of poems is Glop, just out from BlazeVOX. Other collectionsinclude cult classics such as I Am Not a Juvenile Delinquent, The Trip, Raw Deal, LookSlimmer Instantly, The Cheapskates, Corporations Are People, Too!, How Much? Newand Selected Poems, Prom Night (a chapbook collaboration with artist TamaraGonzales) and Double Feature (a chapbook collaboration with poet Elaine Equi). Hispoetry and criticism have appeared in The Nation, Evergreen Review, Rolling Stone,Pleiades, Conjunctions, Boundary 2, The Brooklyn Rail, and many others. His work hasalso been anthologized in Pathetic Literature and several editions of The Best AmericanPoetry series. Before moving to New York City in the 80s, Sala and his spouse, poetElaine Equi did numerous readings together in Chicago, helping to create the city’slively performance poetry scene. He has worked as a copywriter and creative directorand has a PhD in American Studies from New York University.",
+      "description": "Join us for a celebration of two new books and a shared life in poetry featuring Elaine Equi and Jerome Sala. A beloved New School poetry professor for many years, Elaine Equi is the author of more than ten books of poems. Equi’s Out of the Blank from Coffee House Press showcases her trademark brevity and finesse. Dream logic and a particular, understated, idiosyncratic wit wash together in these poems with a painterly use of color and texture. According to critic Ben Shields in Artforum, the “generousness of an Equi poem lets you take for granted its offhand grandeur.” Combining pop culture, humor, and irony, Equi’s poems are both direct and nuanced. Jerome Sala, poet, critic, freelance copywriter, and content developer, has cultivated the kind of insider/outsider status that grants access to the parts of the American psyche he most wants to satirize. Sala’s new book of poems from BlazeVOX, Glop, enlivens language that contemporary capitalism has left for dead. He illuminates the fundamental soulfulness of paying attention to what we encounter moment-to-moment, even the “nastyass” honey badgers we see on YouTube while being stalked by targeted advertising. Having established a life together as poets, the pair will also discuss their experience prioritizing creativity and writing. Hosted by Laura Cronk, assistant professor and chair of poetry, MFA in Creative Writing at The New School.  Elaine Equi’s latest book is Out of the Blank from Coffee House Press. Her other books include Voice-Over, which won the San Francisco State Poetry Award; Ripple Effect: New & Selected Poems, which was a finalist for the L.A. Times Book Award and on the short list for the Griffin Poetry Prize; and Sentences and Rain. Widely published and anthologized, her work has appeared in the American Poetry Review, Brooklyn Rail, Big Other, The Nation, The New Yorker, and many other journals. In 2023, she was the guest editor of the annual anthology, Best American Poetry. In 2024, she received a Guggenheim fellowship. She has taught in many creative writing programs, including those at New York University, City College of New York, and The New School. She lives in New York with her husband, the poet Jerome Sala. Jerome Sala’s latest book of poems is Glop, just out from BlazeVOX. Other collectionsinclude cult classics such as I Am Not a Juvenile Delinquent, The Trip, Raw Deal, LookSlimmer Instantly, The Cheapskates, Corporations Are People, Too!, How Much? Newand Selected Poems, Prom Night (a chapbook collaboration with artist TamaraGonzales) and Double Feature (a chapbook collaboration with poet Elaine Equi). Hispoetry and criticism have appeared in The Nation, Evergreen Review, Rolling Stone,Pleiades, Conjunctions, Boundary 2, The Brooklyn Rail, and many others. His work hasalso been anthologized in Pathetic Literature and several editions of The Best AmericanPoetry series. Before moving to New York City in the 80s, Sala and his spouse, poetElaine Equi did numerous readings together in Chicago, helping to create the city’slively performance poetry scene. He has worked as a copywriter and creative directorand has a PhD in American Studies from New York University.",
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -10040,15 +10277,15 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Tishman Auditorium",
+          "name": "The New School University Center",
           "type": "venue"
         },
         "organizer": {
@@ -10070,7 +10307,7 @@
             "design",
             "parsons school of design",
             "lectures and talks",
-            "tishman auditorium",
+            "the new school university center",
             "lectures and panel discussions",
             "art and design"
           ],
@@ -10122,10 +10359,10 @@
       "start_date": "2025-09-04T22:00:00+00:00",
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -10211,8 +10448,8 @@
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "TECH",
-        "ARTS"
+        "ARTS",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tugce-bilgin",
@@ -10244,6 +10481,43 @@
       }
     },
     {
+      "id": "evt_newschool_0dce4e59",
+      "name": "Bill Dixon's Index: Centennial Celebration",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Hosted by The New School as part of the Festival of New Trumpet Music 2025.Taylor Ho Bynum leads a special workshop open to all interested participants (musicians, students, listeners welcome).Together with the Taylor Ho Bynum Brass Class and Dave Douglas's Ensemble, the session explores Index, Bill Dixon's rarely performed orchestral work, through lecture, demonstration, and live performance.Join us.",
+      "start_date": "2025-09-09T18:00:00+00:00",
+      "end_date": "2025-09-09T19:40:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/billdixonsindex",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Theresa Lang Community and Student Center",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "general public",
+            "jazz",
+            "performing arts",
+            "performance",
+            "theresa lang community and student center"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_8a3ca026",
       "name": "Economics Seminar: Jamee Moudud",
       "type": "Seminar",
@@ -10253,9 +10527,9 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "POLITICS",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemjameemoudud",
@@ -10296,8 +10570,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -10343,9 +10617,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -10393,9 +10667,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -10438,8 +10712,8 @@
       "start_date": "2025-09-10T20:00:00+00:00",
       "end_date": "2025-09-10T23:00:00+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nssrfall2025welcomereception",
@@ -10508,6 +10782,54 @@
             "screenings",
             "39 west 13th street",
             "film and media screenings"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_108febb5",
+      "name": "Sustainability Leaders Summit at Parsons",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for the Sustainability Leaders Summit at Parsons, a thought-provoking evening exploring how transparency, innovation, and collaboration can shape a more sustainable future. The event will open with a conversation on the urgent need for accountability in corporate leadership, followed by discussions highlighting groundbreaking solutions that are reimagining materials, products, and business models. Attendees will gain a deeper understanding of how the fashion industry is shifting toward circularity and long-term environmental responsibility. Through two engaging panel discussions, you’ll discover how global companies and startups are implementing strategies that move beyond sustainability as a buzzword to create measurable impact. Expect to learn practical approaches for embedding transparency into supply chains, driving product innovation, and rethinking waste through bold entrepreneurial ideas. Two Q&A sessions after each panel will provide the chance to exchange ideas directly with thought leaders and fellow attendees. The evening will also include refreshments and informal networking at the Event Café in between panels—a perfect opportunity to continue the conversation, share perspectives, and make meaningful connections with others passionate about building a sustainable future. ",
+      "start_date": "2025-09-10T22:30:00+00:00",
+      "end_date": "2025-09-11T01:00:00+00:00",
+      "category": [
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/sustainabilityleaderssummit",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Tishman Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "staff",
+            "students",
+            "fashion",
+            "design",
+            "environment, sustainability, and climate change",
+            "management and entrepreneurship",
+            "parsons school of design",
+            "lectures and talks",
+            "tishman auditorium",
+            "lectures and panel discussions",
+            "art and design"
           ],
           "audience": []
         }
@@ -10612,8 +10934,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/langarts-jerronherman",
@@ -10655,10 +10977,10 @@
       "start_date": "2025-09-15T17:30:00+00:00",
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
-        "HUMANITIES"
+        "DESIGN",
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -10678,6 +11000,8 @@
             "Design Strategies"
           ],
           "tags": [
+            "\"carelab\"",
+            "carelab",
             "faculty",
             "staff",
             "students",
@@ -10750,9 +11074,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -10796,10 +11120,10 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "HUMANITIES",
-        "POLITICS",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "HUMANITIES",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unfamiliarintelligence",
@@ -10841,8 +11165,8 @@
       "start_date": "2025-09-17T22:00:00+00:00",
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
+        "DESIGN",
         "TECH"
       ],
       "metadata": {
@@ -10887,6 +11211,64 @@
       }
     },
     {
+      "id": "evt_newschool_8c3ed49f",
+      "name": "Climate Week Hub 2025 at The New School",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for Climate Week 2025 at The New School with a series of impactful events happening throughout the week on campus, virtually, and across NYC. These events will feature critical climate and enviromental justice discussions, including the Tishman Environment and Design Center's Climate Week 2025 keynote event: Building Local to Global Climate Coalitions Powered by Communities, on Tuesday, September 23rd, from 10 am to 12 pm, moderated by Dr. Ana Isabel Baptista, Associate Professor at TNS and Director of the Tishman Environment & Design Center, this conversation features U.S. Representative Kathy Castor (FL-14). More multi-sectoral speakers will be announced soon. This event is part of the Tishman Center’s year-long celebration honoring two decades of the evolution and impact of the Center’s work, alongside communities. For more information and to register for events, visit the events listed below. Stay tuned for updates as new Climate Week-related events are added to this Hub. We look forward to seeing you and your community throughout Climate Week 2025. #Climateweek2025 #TishmanCenter20",
+      "start_date": "2025-09-22T04:00:00+00:00",
+      "end_date": "2025-09-26T22:00:00+00:00",
+      "category": [
+        "ARTS",
+        "SOCIAL",
+        "TECH",
+        "DESIGN",
+        "POLITICS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/climateweekhub2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Various Locations ",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "eisj",
+            "environmental justice",
+            "online_events_cal",
+            "refresh",
+            "researchworkpage",
+            "sustainability",
+            "eisjweb",
+            "lobbymonitor",
+            "climate week",
+            "general public",
+            "faculty/student/alumni/staff research & work",
+            "cities and urbanism",
+            "environment, sustainability, and climate change",
+            "humanity, society, social justice",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "media, science, and technology",
+            "politics, policy and government",
+            "university",
+            "festivals and fairs",
+            "various locations "
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_84173b08",
       "name": "Climate Week 2025 Keynote Event",
       "type": "Seminar",
@@ -10896,11 +11278,11 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "TECH",
         "ARTS",
-        "POLITICS",
+        "SOCIAL",
+        "TECH",
         "DESIGN",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweek2025keynote",
@@ -10949,27 +11331,124 @@
       }
     },
     {
+      "id": "evt_newschool_c8ea0039",
+      "name": "Book Launch: Fools for Love: Stories by Helen Schulman",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a reading from Helen Schulman's latest short story collection, Fools for Love. Afterward she'll sit down with Assistant Professor of Writing Mira Jacobs to dive deeper into her work and writing career. About Helen SchulmanHELEN SCHULMAN is a novelist, screenwriter, and short story writer. A collection of stories, Fools for Love, was published by Knopf in July 2025. Before publication, the title story was published in The Atlantic. Her newest novel, Lucky Dogs, was one of Oprah Daily’s top ten novels of 2023. She is also the author of the novels Come With Me (San Francisco Chronicle ten best books of 2019) This Beautiful Life (a New York Times and International Best Seller), A Day At The Beach, P.S., (made into a motion picture starring Laura Linney, Gabriel Byrne, Paul Rudd and Marcia Gay Harden, for which Professor Schulman has a screenwriting credit), The Revisionist and Out Of Time (Barnes and Noble Discovery), and the short story collection Not A Free Show. She co-edited the anthology Wanting A Child with Jill Bialosky. Her fiction and non-fiction have appeared in such places as Vanity Fair, Time, Vogue, GQ, The New York Times Book Review, A Public Space, and The Paris Review. She is the Fiction Chair at The Writing Program at The New School, where she is a tenured Professor of Writing. She is also the Executive Director of WriteOnNYC.com. A 2019 Guggenheim Fellow, Professor Schulman has been a NYFA Fellow, Sundance Fellow, Aspen Words Fellow, a Tennessee Williams Fellow (Columbia University), and the recipient of a Pushcart Prize.About Fools for Love A virtuosic, laugh-out-loud collection of stories that explore the fraught and fantastic nature of human connection—featuring women, men, various couples, and one terribly precocious baby enmeshed in tangled romances of all shapes and sizes.The wide-ranging and inventive stories that make up Helen Schulman’s Fools for Love are funny, sexy, sometimes sad, and always surprising. A single American mother and a French Orthodox rabbi fall in love over poetry, as she helps to dismantle a shuttered bookstore in Paris. A rebellious young woman marries a series of men who are all wrong for her and proceeds to cheat on each of them; her widowed mother finds her deceased husband’s sex diaries and decides she needs to make up for lost time. And in the title story, a blossoming East Village playwright realizes that her marriage to a brilliant actor is doomed, after watching his performance in an alternative production of Sam Shepard’s iconic play.Characters wander in and out of one another’s stories—and beds—in these hilarious tales of lust and attachment—a rollicking feast of love and loss that is not unlike the experience of life itself. Fools for Love is a vital addition to Schulman’s acclaimed body of work—a collection that showcases at every turn what Katie Kitamura has referred to as her “sharp observation, buoyant wit, and unfailing empathy.”",
+      "start_date": "2025-09-24T22:00:00+00:00",
+      "end_date": "2025-09-24T23:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS",
+        "HUMANITIES"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/foolsforlovesbooklaunch",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "A-407",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Creative Writing"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "creative writing program",
+            "writing and literature",
+            "the new school for social research",
+            "author readings",
+            "a-407",
+            "author readings and discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_e7edf987",
+      "name": "Mannes Sounds: Solidarity in Dreams: Art of Aspiration, Hope, and Wonder",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Curated by Stephen Brown-Fried and Pavlina Dokovska Directed by Stephen Brown-FriedMusic by: Fryderyk Chopin, Hans Krasa, Paul Moravec, Florence Price, Dorothy Rudd Moore, Dmitri Shostakovich, Valentin Silvestrov and Jazz favorites from past and present Poetry by: Anna Akhmatova, Langston Hughes, Joy Harjo, Percy Bysshe ShelleyActors: Leslie Martinez and Christopher CollierView the full program hereJoin us!",
+      "start_date": "2025-09-24T22:30:00+00:00",
+      "end_date": "2025-09-25T00:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundssolidarityindreams",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "John L. Tishman Auditorium ",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "mannes sounds festival",
+            "msf",
+            "slide_events",
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "drama",
+            "jazz",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "john l. tishman auditorium ",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_38473b0c",
       "name": "India China Day 2025",
       "type": "Seminar",
-      "location_id": "loc_newschool_63fifth",
+      "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
       "description": "Join us for our annual India China Day to celebrate this year’s cohort of student fellows and hear about their research projects. Also meet new and old ICI friends, learn about new ICI fellowships, opportunities, and programs for the new academic year.Five student fellows from the current cohort will present their research findings:Aratrika Debrath: Hungry Tides: Climate Migration and Resettlement Planning in the SundarbansThis project examines climate-induced migration in the Sundarbans region spanning India and Bangladesh. Through fieldwork with displaced communities and analysis of stakeholder perspectives, it aims to produce policy solutions that support resilience and protection for climate migrants.Emily Li: Precarious Labor and Political Identity of South Asian Platform Workers in Hong KongThis project explores how South Asian food delivery workers in Hong Kong organize and resist exploitation, especially in the context of rising precarity and weakened trade unions. It focuses on how ethnic identity shapes labor activism and the possibilities for collective struggle in modern Hong Kong.Parth Patel: Off Grid Assemblies Off Grid Assemblies aims to co-design a low-cost energy kit with the community of Turtuk— a remote village in Leh, India. As an alternative to limited diesel generation, this project aims to build a decentralized, self-sufficient, and resilient off-grid electricity source for rural communities dealing with extreme climates. Nolan Young: E-Commerce as Rural Development Strategy in China — Contours of a Public-Private PartnershipThis project examines the public-private partnership model between the Chinese government and private e-commerce platforms as a rural development strategy. The project seeks to identify tangible forms of state involvement, and to understand the impacts on local communities as well as possible implications for global development.Florian Chi Zhang: Seeking Taohuayuan in a Foreign Land: Chinese New Migrants in Southeast AsiaThis project explores Chinese migration to Chiang Mai, Thailand, and how these migrants build new communities and navigate local society. Through ethnographic research, it connects this migration trend to the history of Chinese immigration in Thailand and shifting ideas of mobility, hope, and China’s global role.",
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
-        "HUMANITIES",
         "ARTS",
-        "POLITICS",
+        "SOCIAL",
+        "HUMANITIES",
         "DESIGN",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
         "source_name": "The New School Events",
         "venue": {
-          "name": "The New School - 63 Fifth Avenue",
-          "address": "63 Fifth Avenue, New York, NY 10003",
+          "name": "UL104  University Center,",
           "type": "venue"
         },
         "organizer": {
@@ -10992,7 +11471,7 @@
             "writing and literature",
             "university",
             "lectures and talks",
-            "starr foundation hall (ul102)  university center (lower level)  63 5th avenue, new york, ny ",
+            "ul104  university center,",
             "lectures and panel discussions"
           ],
           "audience": []
@@ -11009,9 +11488,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
-        "HUMANITIES",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -11091,20 +11570,19 @@
       "type": "Seminar",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "Passive house’s reliable and superior energy performance with its myriad of co-benefits, is the cornerstone of the architectural solutions we require to be able to thrive. It is a firm foundation upon which we can build a regenerative society that repairs ecosystems damage, reverses it, and begins to increase all life.  There is a rising consciousness emerging revealing how comprehensive the field of sustainability is truly required to be if we are to meaningfully move towards regeneration. Only by broadening the lenses of our understanding can we take advantage of synergies of our actions across systems, and exponentially increase positive impacts.For this year’s symposium, we invited you to submit proposals showcasing how passive house design relates to any aspects of regenerative design that are dear to your interests or practice.  We had an enthusiastic response from diverse locations and perspectives, all with inspiring examples of reaching for Regeneration and how Passive House was, or in some cases was not, a cornerstone of the strategy.In the spirit of this symposium’s continual drive to integrate various disciplines through architecture, we also invited a scientist focused on Green Chemistry to close out the day and inspire us with efforts in that movement to address issues upstream.Please join our tireless community for what we believe will be an inspiring, challenging, yet hopeful day!Organized by New York Passive House, Healthy Materials Lab, and The School of Constructed Environments at Parsons School of DesignPlease hold the date for what we aim to be an inspiring, paradigm probing event! Members are strongly encouraged to reach out to us at info@nypassivehouse.org if you are interested in helping plan the program and event.",
+      "description": "Passive House’s reliable and superior energy performance with its myriad of co-benefits, is the cornerstone of the architectural solutions we require to be able to thrive. It is a firm foundation upon which we can build a regenerative society that repairs ecosystems damage, reverses that damage, and begins to increase all life. There is a rising consciousness emerging that reveals how comprehensive the field of sustainability is truly required to be if we are to meaningfully move towards regeneration. Only by broadening the lenses of our understanding can we take advantage of synergies of our actions across systems and exponentially increase positive impacts.For this year’s symposium, we invited you to submit proposals showcasing how Passive House design relates to any aspects of regenerative design that are dear to your interests or practice.  We had an enthusiastic response from diverse locations and perspectives, all with inspiring examples of reaching for Regeneration and how Passive House was, or in some cases was not, a cornerstone of the strategy.In the spirit of this symposium’s continual drive to integrate various disciplines through architecture, we also invited a scientist focused on Green Chemistry to close out the day and inspire us with efforts in that movement to address issues upstream.Please join our tireless community for what we believe will be an inspiring and challenging, yet hopeful day!Organized by New York Passive House, Healthy Materials Lab, and The School of Constructed Environments at Parsons School of Design.Please hold the date for what we aim to be an inspiring, paradigm probing event! Members are strongly encouraged to reach out to us at info@nypassivehouse.org if you are interested in helping plan the program and event.For more information and a complete program of speakers please visit the symposium website. ",
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
         "source_name": "The New School Events",
         "venue": {
-          "name": "The New School",
-          "address": "72 5th Ave, New York, NY 10011",
+          "name": "Starr Foundation Hall",
           "type": "venue"
         },
         "organizer": {
@@ -11118,15 +11596,8 @@
           ],
           "tags": [
             "batec",
-            "online_events_cal",
-            "slide_event",
             "slide_events",
-            "alumni",
-            "faculty",
             "general public",
-            "prospective students",
-            "staff",
-            "students",
             "school of constructed environments",
             "design",
             "cities and urbanism",
@@ -11134,6 +11605,7 @@
             "environment, sustainability, and climate change",
             "parsons school of design",
             "lectures and talks",
+            "starr foundation hall",
             "lectures and panel discussions",
             "art and design"
           ],
@@ -11151,10 +11623,10 @@
       "start_date": "2025-09-26T14:00:00+00:00",
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
-        "HUMANITIES"
+        "DESIGN",
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -11241,10 +11713,10 @@
       "start_date": "2025-09-30T17:30:00+00:00",
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
-        "HUMANITIES"
+        "DESIGN",
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -11295,10 +11767,10 @@
       "start_date": "2025-10-01T17:30:00+00:00",
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
-        "HUMANITIES"
+        "DESIGN",
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -11346,8 +11818,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -11373,6 +11845,48 @@
             "lectures and talks",
             "ernst c. stiefel hall",
             "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_42190623",
+      "name": "The Piano Pod Live in Concert: A Bold New Chapter in Classical Music",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "What began as a mic and a mission in 2020 is now stepping boldly onto the stage. The Piano Pod, the acclaimed podcast and YouTube show that bridges classical music and modern audiences, is bringing its community to life through an afternoon of performance, conversation, and creative exchange.The Piano Pod Live in Concert premieres on October 4, 2025, featuring a collaboration with Mannes Prep. It will be a one-of-a-kind event designed to break down barriers between artist and audience, music and dialogue, tradition and innovation.Curator & HostYukimi Song – Pianist and producerFeatured ArtistsDr. Jee-Hoon Krska – Founder of Keys 2 Success, pianist, and MIT-trained engineer, providing real-world musical opportunities for youth in Newark.Eleonor Bindman – Concert pianist and arranger known for her accessible, elegant Bach transcriptions and global educational impact.Dr. Nnenna Ogwo – Concert pianist and Founder of Juneteenth LP, building concert and education experiences that amplify music of the African Diaspora.Donna Weng Friedman – Award-winning pianist, filmmaker, and educator whose projects blend storytelling, advocacy, and innovation across film, stage, and education. Learn More",
+      "start_date": "2025-10-04T17:00:00+00:00",
+      "end_date": "2025-10-05T03:59:59+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS",
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/thepianopodliveinconcertabold",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Ernst C. Stiefel Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "ernst c. stiefel hall"
           ],
           "audience": []
         }
@@ -11426,8 +11940,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -11467,8 +11981,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -11508,8 +12022,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -11550,10 +12064,10 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
-        "POLITICS",
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -11591,9 +12105,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
-        "TECH",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -11677,11 +12191,11 @@
       "start_date": "2025-10-08T14:00:00+00:00",
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
-        "HUMANITIES",
         "ARTS",
-        "POLITICS",
+        "SOCIAL",
+        "HUMANITIES",
         "DESIGN",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -11722,10 +12236,10 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
-        "POLITICS",
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -11767,11 +12281,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "TECH",
-        "HUMANITIES",
         "ARTS",
+        "SOCIAL",
+        "HUMANITIES",
         "DESIGN",
-        "SOCIAL"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -11820,10 +12334,10 @@
       "start_date": "2025-10-13T17:30:00+00:00",
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
-        "HUMANITIES"
+        "DESIGN",
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -11870,11 +12384,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "TECH",
-        "HUMANITIES",
         "ARTS",
+        "SOCIAL",
+        "HUMANITIES",
         "DESIGN",
-        "SOCIAL"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -11921,9 +12435,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "POLITICS",
         "TECH",
-        "ARTS"
+        "ARTS",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -11966,9 +12480,9 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "POLITICS",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/politicsoftheater",
@@ -12009,10 +12523,10 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
-        "POLITICS",
-        "DESIGN",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "DESIGN",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -12052,8 +12566,8 @@
       "start_date": "2025-10-16T16:30:00+00:00",
       "end_date": "2025-10-16T18:00:00+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/freedomofexpression",
@@ -12094,8 +12608,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://cityvisionaryawards.com",
@@ -12142,8 +12656,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/asyoulikeit",
@@ -12184,9 +12698,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "POLITICS",
+        "SOCIAL",
         "ARTS",
-        "SOCIAL"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemlenorepalladin",
@@ -12271,10 +12785,10 @@
       "start_date": "2025-11-03T18:30:00+00:00",
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
-        "DESIGN",
         "ARTS",
-        "TECH",
-        "HUMANITIES"
+        "DESIGN",
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -12321,8 +12835,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -12366,8 +12880,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -12414,8 +12928,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -12446,6 +12960,52 @@
       }
     },
     {
+      "id": "evt_newschool_bd075465",
+      "name": "Mannes Sounds: Kristallnacht Commemoration",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "A Tribute to the Artists who Perished in the Holocaust, whose music and poetry we keep alive todayThis event is a collaboration with American Society for Jewish Music, YIVO Institute for Jewish Research, Leo Baeck Institute and Center for Jewish HistoryMusic by Hans Krása, Viktor Ullmann, Pavel Haas, James Simon, Gideon Klein, and Erwin Schulhoff.Poetry by Ilse Weber, Gertrud Kolmar, Selma Meerbaum-Eisinger, Itzhak Katzenelson",
+      "start_date": "2025-11-09T20:00:00+00:00",
+      "end_date": "2025-11-09T22:00:00+00:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundskristallnacht",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Center for Jewish History",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "center for jewish history"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_37e45d0b",
       "name": "Print Media and the Authoritarian Turn in India, China, and the United States",
       "type": "Seminar",
@@ -12455,8 +13015,8 @@
       "start_date": "2025-11-13T22:00:00+00:00",
       "end_date": "2025-11-14T04:59:59+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
@@ -12500,8 +13060,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -12542,11 +13102,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "TECH",
-        "HUMANITIES",
         "ARTS",
+        "SOCIAL",
+        "HUMANITIES",
         "DESIGN",
-        "SOCIAL"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -12593,8 +13153,8 @@
       "start_date": "2025-12-07T19:00:00+00:00",
       "end_date": "2025-12-07T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
@@ -12634,8 +13194,8 @@
       "start_date": "2025-12-08T00:00:00+00:00",
       "end_date": "2025-12-08T02:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
@@ -12666,6 +13226,48 @@
       }
     },
     {
+      "id": "evt_newschool_d011b148",
+      "name": "Mannes Sounds: Bohuslav Martinů: His World and Legacy",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Curated and directed by William GustafsonJoin us for a musical celebration of Bohuslav Martinů (1890–1959).  In addition to incredible works by Martinu, this program will explore some of the composers that had the greatest impact on his musical style, such as Smetana, Janáček, Debussy, Roussel and others, as well as those that Martinu influenced himself. Students from the Mannes Opera, Piano, and Chamber Music Programs will perform works ranging from operatic and song selections to chamber ensembles and solo piano music.",
+      "start_date": "2025-12-11T23:00:00+00:00",
+      "end_date": "2025-12-12T01:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundsbohuslavmartinu",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Bohemian National Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "bohemian national hall",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_93ed81fb",
       "name": "Schneider Concerts Presents | Dana Kelley, January Preconcert Talk",
       "type": "Seminar",
@@ -12675,8 +13277,8 @@
       "start_date": "2026-01-11T17:30:00+00:00",
       "end_date": "2026-01-11T18:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-january",
@@ -12717,8 +13319,8 @@
       "start_date": "2026-01-11T19:00:00+00:00",
       "end_date": "2026-01-11T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-ulysses",
@@ -12753,8 +13355,8 @@
       "start_date": "2026-03-22T16:30:00+00:00",
       "end_date": "2026-03-22T17:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelley-talk-march",
@@ -12794,8 +13396,8 @@
       "start_date": "2026-03-22T18:00:00+00:00",
       "end_date": "2026-03-22T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-kern-ulysses",
@@ -12826,6 +13428,90 @@
       }
     },
     {
+      "id": "evt_newschool_3d86e66a",
+      "name": "Mannes Sounds: Pianists at the Opera",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "*Donor Appreciation ConcertCurated by Donald Wagner 19th century grand opera was an art form that captivated audiences like no other. It also inspired new virtuoso piano techniques that brought fame and fortune for some of the greatest virtuoso pianists of the time.  Curated by Don Wagner, a member of the Mannes Board of Governors, this concert will explore a number of the most significant opera transcriptions for piano by masters of the genre: Thalberg, Liszt, Pabst, Moszkowski and Godowsky- as well as some of the original operatic scenes on which they based their brilliant and innovative works. * Mannes and the Mannes Sounds Festival are proudly supported by the generosity of people like you. To give or to learn about giving opportunities, please contact Development & Alumni Engagement by phone or email at (212) 229-5662 or development@newschool.edu. ",
+      "start_date": "2026-04-06T22:00:00+00:00",
+      "end_date": "2026-04-07T00:00:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundspianistsattheopera",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Victor Borge Hall at Scandinavia House ",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "victor borge hall at scandinavia house "
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_f3ea43f1",
+      "name": "Mannes Sounds: Romance is in the Air",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Donor Appreciation Concert*Hosted by Mrs. Grace Noyes Music by: Brahms, Bernstein, Bizet,  Debussy, Elgar, Cole Porter, Frolence Price, Puccini, Liszt, Mozart, Cole Porter, Schumann* Mannes, School of Drama, School of Jazz and Mannes Sounds are proudly supported by the generosity of people like you. To give or to learn about giving opportunities, please contact Development & Alumni Engagement by phone or email at (212) 229-5662 or development@newschool.edu. ",
+      "start_date": "2026-04-09T21:30:00+00:00",
+      "end_date": "2026-04-09T23:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundsromanceisintheair",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Union Club",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannessounds",
+            "msf",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "union club",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_ed85e8ec",
       "name": "Schneider Concerts Presents | Dana Kelley, April Preconcert Talk",
       "type": "Performance",
@@ -12835,8 +13521,8 @@
       "start_date": "2026-04-26T16:30:00+00:00",
       "end_date": "2026-04-26T17:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-kelleytalk-april",
@@ -12876,8 +13562,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-katarina",
@@ -12917,8 +13603,8 @@
       "start_date": "2026-04-26T18:00:00+00:00",
       "end_date": "2026-04-26T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-katarina",
@@ -13714,99 +14400,6 @@
       }
     },
     {
-      "id": "evt_nyu_eng_40bd2a14",
-      "name": "Course Prep and Launch Workshop",
-      "type": "Workshop",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2025-09-02T10:00:00",
-      "end_date": "2025-09-02T11:00:00",
-      "category": [
-        "TECH"
-      ],
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2025/09/02/course-prep-and-launch-workshop",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Workshop / Training",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-11/ti_brightspace_training.png?h=d1cb525d&itok=2GdzQqdi"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_1e7f86bd",
-      "name": "Multimedia Drop-in Sessions",
-      "type": "Workshop",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2025-09-02T10:00:00",
-      "end_date": "2025-09-02T11:00:00",
-      "category": [
-        "TECH"
-      ],
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2025/09/02/multimedia-drop-sessions",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Workshop / Training",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_9e4e800a",
-      "name": "Instructional Tech Drop-in Sessions",
-      "type": "Workshop",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2025-09-02T11:00:00",
-      "end_date": "2025-09-02T12:00:00",
-      "category": [
-        "TECH"
-      ],
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2025/09/02/instructional-tech-drop-sessions",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Workshop / Training",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_eng_47825258",
       "name": "Multimedia Drop-in Sessions",
       "type": "Workshop",
@@ -14052,6 +14645,37 @@
           "department": "Tandon School of Engineering",
           "event_type": "Information Session",
           "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-10/NYO-23-8822_EmergingTech_0.jpg?h=d08f423e&itok=TPlZqZPN"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_84312181",
+      "name": "Course Prep and Launch Workshop",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-08T17:00:00",
+      "end_date": "2025-09-08T18:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/08/course-prep-and-launch-workshop",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-11/ti_brightspace_training.png?h=d1cb525d&itok=2GdzQqdi"
         }
       }
     },
@@ -14345,8 +14969,8 @@
       "start_date": "2025-09-15T11:00:00",
       "end_date": "2025-09-15T12:00:00",
       "category": [
-        "SOCIAL",
-        "TECH"
+        "TECH",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://engineering.nyu.edu/events/2025/09/15/andrea-baronchelli-social-conventions-human-and-llm-populations-emergence",
@@ -14907,8 +15531,8 @@
       "start_date": "2025-09-24T14:00:00",
       "end_date": "2025-09-24T15:00:00",
       "category": [
-        "SOCIAL",
-        "TECH"
+        "TECH",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://engineering.nyu.edu/events/2025/09/24/climate-storytelling-community-engaged-workshop",
@@ -14957,6 +15581,68 @@
           "department": "Tandon School of Engineering",
           "event_type": "Workshop / Training",
           "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/DSC_3371-Enhanced-NR.jpg?h=07dbfcaf&itok=9Jp1kxca"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_b5676440",
+      "name": "NYU Tandon Management of Technology MS Information Session",
+      "type": "Academic",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-25T13:00:00",
+      "end_date": "2025-09-25T14:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/25/nyu-tandon-management-technology-ms-information-session",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Information Session",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-10/management-technology-ms-with-dottedgrid_1.jpg?h=d08f423e&itok=wlYBowVU"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_45084ffe",
+      "name": "Multimedia Drop-in Sessions",
+      "type": "Workshop",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-09-25T14:00:00",
+      "end_date": "2025-09-25T15:00:00",
+      "category": [
+        "TECH"
+      ],
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2025/09/25/multimedia-drop-sessions",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Workshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2023-12/teachinginnovation_multimedia.png?h=d1cb525d&itok=SK_jMjGg"
         }
       }
     },
@@ -15167,23 +15853,6 @@
     {
       "id": "evt_pratt_6d5f5f0644",
       "name": "Exquisite Relations",
-      "description": "",
-      "start_date": "",
-      "end_date": "",
-      "source": "pratt",
-      "source_group": "pratt",
-      "metadata": {
-        "source_url": "https://www.pratt.edu/events/",
-        "source_name": "Pratt Institute",
-        "venue": {
-          "name": "Pratt Institute",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_pratt_6e5fc00cf8",
-      "name": "70 Years [+] Pratt School of Architecture: An Ongoing Story",
       "description": "",
       "start_date": "",
       "end_date": "",

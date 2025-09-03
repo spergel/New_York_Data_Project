@@ -1,33 +1,33 @@
 {
   "events": [
     {
-      "id": "evt_cornell_tech_79341d58",
-      "name": "Innovation & Entrepreneurship Workshop: Startup Tech Sales",
-      "type": "Workshop",
-      "location_id": "loc_virtual",
+      "id": "evt_cornell_tech_d48f7e3d",
+      "name": "Enshittification and Renewal: A Conversation with Cory Doctorow",
+      "type": "Academic",
+      "location_id": "loc_cornell_tech_tata",
       "community_id": "com_cornell_tech",
-      "description": "Workshop, Public",
-      "start_date": "2025-08-28T11:45:00",
-      "end_date": "2025-08-28T13:00:00",
+      "description": "Cornell University, Public",
+      "start_date": "2025-09-19T17:00:00",
+      "end_date": "2025-09-19T19:00:00",
       "category": [
-        "BUSINESS",
         "TECH"
       ],
       "metadata": {
-        "source_url": "https://tech.cornell.edu/events/innovation-entrepreneurship-workshop-startup-tech-sales/",
+        "source_url": "https://tech.cornell.edu/events/enshittification-and-renewal-a-conversation-with-cory-doctorow/",
         "source_name": "Cornell Tech Events",
         "venue": {
-          "name": "Online Event",
-          "type": "virtual"
+          "name": "Tata Innovation Center",
+          "address": "11 E Loop Rd, New York, NY 10044",
+          "type": "venue"
         },
         "organizer": {
           "name": "Cornell Tech",
           "type": "organizer"
         },
         "additional_info": {
-          "image_url": "https://tech.cornell.edu/wp-content/uploads/2025/08/https___cdn.evbuc_.com_images_1044858713_134417915717_1_original.png",
+          "image_url": "https://tech.cornell.edu/wp-content/uploads/2025/09/51041280466_e4ca44600c_k.jpg",
           "tags": [
-            "Workshop",
+            "Cornell University",
             "Public"
           ]
         }

@@ -91,36 +91,6 @@
       }
     },
     {
-      "id": "evt_gallatin_f58c7925",
-      "name": "UDL Film Screening: American Agitators",
-      "type": "Academic",
-      "location_id": "loc_gallatin_labowitz",
-      "community_id": "com_gallatin",
-      "description": "RSVP required",
-      "start_date": "2025-09-18T18:00:00",
-      "end_date": "2025-09-18T20:00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "metadata": {
-        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators.html",
-        "source_name": "NYU Gallatin Events",
-        "venue": {
-          "type": "venue",
-          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
-          "address": "1 Washington Place, New York, NY 10003"
-        },
-        "organizer": {
-          "name": "NYU Gallatin School of Individualized Study",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "image_url": "https://gallatin.nyu.edu/content/dam/gallatin/carousels/event-default.jpg",
-          "rsvp_required": true
-        }
-      }
-    },
-    {
       "id": "evt_gallatin_71cd8ef1",
       "name": "Gallatin Recent Alumni Happy Hour",
       "type": "Academic",
@@ -146,6 +116,36 @@
         },
         "additional_info": {
           "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/gallatin-recent-alumni-happy-hour/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_e5821fe3",
+      "name": "Urban Democracy Lab | Film Screening: American Agitators",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2025-09-18T18:00:00",
+      "end_date": "2025-09-18T20:00:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/09/udl-film-screening--american-agitators/jcr:content/image.img.480.medium.jpg",
           "rsvp_required": true
         }
       }
