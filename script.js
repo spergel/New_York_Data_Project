@@ -5,6 +5,19 @@ const API_BASE_URL = 'https://nyc-academic-events-api.spergel-joshua.workers.dev
 console.log('🚀 Frontend script loaded!');
 console.log('🌐 API Base URL:', API_BASE_URL);
 
+// Helper functions (defined early to avoid reference errors)
+function applyFilters() {
+    filterEvents();
+}
+
+function changePage(page) {
+    goToPage(page);
+}
+
+function clearAllFilters() {
+    clearFilters();
+}
+
 // Global state
 let allEvents = [];
 let filteredEvents = [];
@@ -15,43 +28,80 @@ let currentQuickFilter = 'all';
 let currentSortBy = 'date'; // 'date', 'institution', 'name'
 let currentSortOrder = 'asc'; // 'asc', 'desc'
 
-// DOM Elements
-const elements = {
-    loading: document.getElementById('loading'),
-    eventsContainer: document.getElementById('events-container'),
-    eventsGrid: document.getElementById('events-grid'),
-    noResults: document.getElementById('no-results'),
-    pagination: document.getElementById('pagination'),
-    eventsCount: document.getElementById('events-count'),
-    totalEvents: document.getElementById('total-events'),
-    totalInstitutions: document.getElementById('total-institutions'),
-    lastUpdated: document.getElementById('last-updated'),
-    institutionFilter: document.getElementById('institution-filter'),
-    dateFrom: document.getElementById('date-from'),
-    dateTo: document.getElementById('date-to'),
-    searchInput: document.getElementById('search-input'),
-    clearFilters: document.getElementById('clear-filters'),
-    gridView: document.getElementById('grid-view'),
-    listView: document.getElementById('list-view'),
-    sortBy: document.getElementById('sort-by'),
-    sortOrder: document.getElementById('sort-order'),
-    prevPage: document.getElementById('prev-page'),
-    nextPage: document.getElementById('next-page'),
-    pageInfo: document.getElementById('page-info'),
-    modal: document.getElementById('event-modal'),
-    modalContent: document.getElementById('modal-content'),
-    closeModal: document.querySelector('.close')
-};
+// DOM Elements - will be populated after DOM loads
+let elements = {};
+
+// Function to initialize DOM elements
+function initializeElements() {
+    elements = {
+        loading: document.getElementById('loading'),
+        eventsContainer: document.getElementById('events-container'),
+        eventsGrid: document.getElementById('events-grid'),
+        noResults: document.getElementById('no-results'),
+        pagination: document.getElementById('pagination'),
+        eventsCount: document.getElementById('events-count'),
+        totalEvents: document.getElementById('total-events'),
+        totalInstitutions: document.getElementById('total-institutions'),
+        lastUpdated: document.getElementById('last-updated'),
+        institutionFilter: document.getElementById('institution-filter'),
+        dateFrom: document.getElementById('date-from'),
+        dateTo: document.getElementById('date-to'),
+        searchInput: document.getElementById('search-input'),
+        clearFilters: document.getElementById('clear-filters'),
+        gridView: document.getElementById('grid-view'),
+        listView: document.getElementById('list-view'),
+        sortBy: document.getElementById('sort-by'),
+        sortOrder: document.getElementById('sort-order'),
+        prevPage: document.getElementById('prev-page'),
+        nextPage: document.getElementById('next-page'),
+        pageInfo: document.getElementById('page-info'),
+        modal: document.getElementById('event-modal'),
+        modalContent: document.getElementById('modal-content'),
+        closeModal: document.querySelector('.close')
+    };
+    
+    console.log('🔍 DOM elements initialized:', Object.keys(elements).length, 'elements found');
+    
+    // Check which elements are null
+    Object.entries(elements).forEach(([key, element]) => {
+        if (!element) {
+            console.warn(`⚠️ ${key} is null`);
+        }
+    });
+    
+    // Check critical elements
+    const criticalElements = ['eventsContainer', 'eventsGrid', 'noResults'];
+    criticalElements.forEach(id => {
+        if (!elements[id]) {
+            console.error(`❌ CRITICAL: ${id} is missing!`);
+        }
+    });
+}
 
 // Initialize the application
 async function init() {
     try {
+        console.log('🚀 Initializing application...');
+        
+        // Initialize DOM elements first
+        initializeElements();
+        console.log('🔍 Checking DOM elements...');
+        
+        // Check if key elements exist
+        const keyElements = ['loading', 'eventsContainer', 'eventsGrid', 'noResults'];
+        keyElements.forEach(id => {
+            const element = document.getElementById(id);
+            console.log(`🔍 ${id}: ${element ? '✅ Found' : '❌ Missing'}`);
+        });
+        
         await loadStats();
         await loadEvents();
         setupEventListeners();
         populateInstitutionFilter();
+        
+        console.log('✅ Application initialized successfully');
     } catch (error) {
-        console.error('Failed to initialize:', error);
+        console.error('❌ Failed to initialize:', error);
         showError('Failed to load events. Please try again later.');
     }
 }
@@ -295,40 +345,65 @@ function filterEvents() {
 
 // Render events with pagination
 function renderEvents() {
-    const startIndex = (currentPage - 1) * eventsPerPage;
-    const endIndex = startIndex + eventsPerPage;
-    const pageEvents = filteredEvents.slice(startIndex, endIndex);
+    console.log('🎨 renderEvents called with', filteredEvents.length, 'events');
     
-    if (filteredEvents.length === 0) {
-        elements.eventsContainer.style.display = 'none';
-        elements.noResults.style.display = 'block';
-        elements.pagination.style.display = 'none';
+    // Safety check - make sure elements exist
+    if (!elements.eventsContainer || !elements.eventsGrid || !elements.noResults) {
+        console.error('❌ Required DOM elements not found in renderEvents');
+        console.error('❌ elements.eventsContainer:', elements.eventsContainer);
+        console.error('❌ elements.eventsGrid:', elements.eventsGrid);
+        console.error('❌ elements.noResults:', elements.noResults);
         return;
     }
     
-    elements.eventsContainer.style.display = 'block';
-    elements.noResults.style.display = 'none';
-    
-    // Update events count
-    elements.eventsCount.textContent = `Events (${filteredEvents.length})`;
-    
-    // Remove any existing info messages to prevent duplication
-    const existingInfo = document.querySelector('.events-info');
-    if (existingInfo) {
-        existingInfo.remove();
+    try {
+        const startIndex = (currentPage - 1) * eventsPerPage;
+        const endIndex = startIndex + eventsPerPage;
+        const pageEvents = filteredEvents.slice(startIndex, endIndex);
+        
+        if (filteredEvents.length === 0) {
+            elements.eventsContainer.style.display = 'none';
+            elements.noResults.style.display = 'block';
+            if (elements.pagination) {
+                elements.pagination.style.display = 'none';
+            }
+            return;
+        }
+        
+        elements.eventsContainer.style.display = 'block';
+        elements.noResults.style.display = 'none';
+        
+        // Update events count
+        if (elements.eventsCount) {
+            elements.eventsCount.textContent = `Events (${filteredEvents.length})`;
+        }
+        
+        // Remove any existing info messages to prevent duplication
+        const existingInfo = document.querySelector('.events-info');
+        if (existingInfo) {
+            existingInfo.remove();
+        }
+        
+        // Render event cards
+        console.log('🎨 Rendering events:', pageEvents.length);
+        console.log('🎨 Sample event:', pageEvents[0]);
+        
+        elements.eventsGrid.innerHTML = pageEvents.map(event => createEventCard(event)).join('');
+        
+        // Setup pagination
+        if (elements.pagination) {
+            setupPagination();
+        }
+        
+        // Apply current view
+        if (typeof applyViewMode === 'function') {
+            applyViewMode();
+        }
+        
+        console.log('✅ Events rendered successfully');
+    } catch (error) {
+        console.error('❌ Error in renderEvents:', error);
     }
-    
-    // Render event cards
-    console.log('🎨 Rendering events:', pageEvents.length);
-    console.log('🎨 Sample event:', pageEvents[0]);
-    
-    elements.eventsGrid.innerHTML = pageEvents.map(event => createEventCard(event)).join('');
-    
-    // Setup pagination
-    setupPagination();
-    
-    // Apply current view
-    applyViewMode();
 }
 
 // Create event card HTML
@@ -397,7 +472,9 @@ function setupPagination() {
 
 // Apply current view mode (grid/list)
 function applyViewMode() {
-    elements.eventsGrid.classList.toggle('list-view', currentView === 'list');
+    if (elements.eventsGrid) {
+        elements.eventsGrid.classList.toggle('list-view', currentView === 'list');
+    }
 }
 
 // Update sort order icon
@@ -872,18 +949,14 @@ function populateInstitutionFilter() {
     });
 }
 
-// Add missing functions
-function applyFilters() {
-    filterEvents();
-}
-
-function changePage(page) {
-    goToPage(page);
-}
-
-function clearAllFilters() {
-    clearFilters();
-}
+// These functions are now defined at the top of the file
 
 // Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('📄 DOM Content Loaded event fired');
+    // Add a small delay to ensure all elements are available
+    setTimeout(() => {
+        console.log('⏰ Starting initialization after delay...');
+        init();
+    }, 100);
+});

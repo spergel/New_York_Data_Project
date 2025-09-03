@@ -10,11 +10,11 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "TECH",
         "DESIGN",
         "SOCIAL",
-        "POLITICS",
-        "ARTS"
+        "ARTS",
+        "TECH",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tdconvening25",
@@ -61,9 +61,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -96,45 +96,6 @@
       }
     },
     {
-      "id": "evt_newschool_b399ff9e",
-      "name": "Community Weaving: The Future We Want to Run Toward",
-      "type": "Workshop",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Join us for a Community Weaving Experience that transforms textile scraps and yarn into a collaborative art piece. In partnership with the incredible team at FABSCRAP, this hands-on session invites participants of all skill levels to contribute to a collective tapestry—one that celebrates creativity, sustainability, and community connection. Together, we’ll explore how discarded materials can be reimagined into something beautiful and lasting. - Connect with fellow students, staff, and community members- Learn about creative reuse and the impact of textile waste- Add your own unique thread to a larger shared artworkCome as you are—no experience necessary, just curiosity and a willingness to weave your story into ours. Let’s create something meaningful together. This event is part of a series in partnership with Planetary Guardians. ",
-      "start_date": "2025-09-03T15:30:00+00:00",
-      "end_date": "2025-09-03T17:00:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School Student Hub",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [],
-          "tags": [
-            "faculty",
-            "staff",
-            "students",
-            "environment, sustainability, and climate change",
-            "workshops and training",
-            "the new school student hub",
-            "continuing education"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
       "id": "evt_newschool_3e1a903f",
       "name": "Poetry Reading with Elaine Equi & Jerome Sala",
       "type": "Seminar",
@@ -144,9 +105,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -189,9 +150,9 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -271,10 +232,10 @@
       "start_date": "2025-09-04T22:00:00+00:00",
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "DESIGN",
         "HUMANITIES",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -360,8 +321,8 @@
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "TECH",
-        "ARTS"
+        "ARTS",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tugce-bilgin",
@@ -402,8 +363,8 @@
       "start_date": "2025-09-09T18:00:00+00:00",
       "end_date": "2025-09-09T19:40:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/billdixonsindex",
@@ -442,9 +403,9 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemjameemoudud",
@@ -485,8 +446,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -532,9 +493,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -582,9 +543,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -627,10 +588,10 @@
       "start_date": "2025-09-10T19:00:00+00:00",
       "end_date": "2025-09-10T21:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "DESIGN",
         "HUMANITIES",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/makegoodchoices",
@@ -763,8 +724,8 @@
       "start_date": "2025-09-10T22:30:00+00:00",
       "end_date": "2025-09-11T01:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sustainabilityleaderssummit",
@@ -849,7 +810,7 @@
       "type": "Performance",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": " Join us on September 11 for catered light bites, brief project presentations from affiliated faculty researchers, and information about how to get involved with the institute!We look forward to highlighting the wide array of research occurring within the institute, and opportunities for students, such as the Zolberg Student Fellowship and Zolberg-IRC Fellowship.",
+      "description": " Join us on September 11 for catered hors d'oeuvres, brief project presentations from affiliated faculty researchers, and information about how to get involved with the institute! See below for the tentative event schedule.We look forward to highlighting the wide array of research occurring within the institute, and opportunities for students, such as the Zolberg Student Fellowship and Zolberg-IRC FellowshipCan't make the event? Join our mailing list for more information!",
       "start_date": "2025-09-11T20:30:00+00:00",
       "end_date": "2025-09-11T22:30:00+00:00",
       "category": [
@@ -900,8 +861,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/langarts-jerronherman",
@@ -943,10 +904,10 @@
       "start_date": "2025-09-15T17:30:00+00:00",
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "HUMANITIES",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -1040,9 +1001,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -1086,10 +1047,10 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unfamiliarintelligence",
@@ -1131,9 +1092,9 @@
       "start_date": "2025-09-17T22:00:00+00:00",
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -1186,11 +1147,11 @@
       "start_date": "2025-09-22T04:00:00+00:00",
       "end_date": "2025-09-26T22:00:00+00:00",
       "category": [
-        "TECH",
         "DESIGN",
         "SOCIAL",
-        "POLITICS",
-        "ARTS"
+        "ARTS",
+        "TECH",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweekhub2025",
@@ -1244,11 +1205,11 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "TECH",
         "DESIGN",
         "SOCIAL",
-        "POLITICS",
-        "ARTS"
+        "ARTS",
+        "TECH",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweek2025keynote",
@@ -1306,8 +1267,8 @@
       "start_date": "2025-09-23T15:00:00+00:00",
       "end_date": "2025-09-23T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/organizingtowardsliberationsoc1",
@@ -1353,9 +1314,9 @@
       "start_date": "2025-09-24T22:00:00+00:00",
       "end_date": "2025-09-24T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/foolsforlovesbooklaunch",
@@ -1453,9 +1414,9 @@
       "category": [
         "DESIGN",
         "SOCIAL",
-        "POLITICS",
+        "ARTS",
         "HUMANITIES",
-        "ARTS"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
@@ -1501,9 +1462,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -1587,9 +1548,9 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -1636,10 +1597,10 @@
       "start_date": "2025-09-26T14:00:00+00:00",
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "HUMANITIES",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -1726,10 +1687,10 @@
       "start_date": "2025-09-30T17:30:00+00:00",
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "HUMANITIES",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -1771,6 +1732,46 @@
       }
     },
     {
+      "id": "evt_newschool_d5d6a6fe",
+      "name": "Don't Look Down: Sandbox Percussion Performs Cerrone",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Multi-GRAMMY® nominee and Mannes composition faculty Christopher Cerrone joins Ensemble-in-Residence Sandbox Percussion for an evening centered on Don’t Look Down (2020), a bold and exhilarating work for percussion quartet and piano. Written during the pandemic and premiered by Sandbox with pianist Conor Hanick, the piece blends traditional percussion with found objects and prepared piano. The New York Times described the premiere as “exhilarating,” capturing both the urgency and inventiveness of Cerrone’s sound world.“Over the years, I’ve composed multiple works for percussion quartet, all of which Sandbox has either premiered or performed. What draws me to this formation is its inherent freedom—unlike a string quartet or wind quintet, a “percussion quartet” implies little beyond four trained percussionists. The possibilities are boundless.” – Christopher Cerrone  “This collection is a testament to nearly 20 years of friendship between Christopher Cerrone and the four of us in Sandbox Percussion. Chris and I met in school in 2005, and I was instantly drawn to his music. Chris has a way of expressing emotion in his work that I had never experienced before, and I was struck by the honesty in Chris’s writing”– Ian Rosenbaum, Sandbox PercussionABOUT CHRISTOPHER CERRONEChristopher Cerrone (b. 1984, New York) is internationally acclaimed for his compositions. His work is characterized by a subtle handling of timbre and resonance, a deep literary fluency, and a flair for multimedia collaborations. Cerrone’s music balances lushness and austerity, immersive textures and telling details, dramatic impact and interiority. His three-time GRAMMY®-nominated compositions are utterly compelling and uniquely his own.ABOUT SANDBOX PERCUSSIONDescribed as “exhilarating” by The New York Times and “utterly mesmerizing” by The Guardian, the GRAMMY®-nominated ensemble Sandbox Percussion champions living composers through its unwavering dedication to contemporary chamber music. In 2011, Jonathan Allen, Victor Caccese, Ian Rosenbaum, and Terry Sweeney were brought together by their love of chamber music and the simple joy of playing together; they have since captivated audiences with performances that are both visually and aurally stunning. In 2024, Sandbox Percussion became the first percussion ensemble to be awarded the prestigious Avery Fisher Career Grant.",
+      "start_date": "2025-09-30T23:30:00+00:00",
+      "end_date": "2025-10-01T01:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/sandboxpercussioncerrone",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Tishman Auditorium, The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_5972cc55",
       "name": "Commons Project",
       "type": "Exhibition",
@@ -1780,10 +1781,10 @@
       "start_date": "2025-10-01T17:30:00+00:00",
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "HUMANITIES",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -1831,8 +1832,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -1873,9 +1874,9 @@
       "start_date": "2025-10-04T17:00:00+00:00",
       "end_date": "2025-10-05T03:59:59+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thepianopodliveinconcertabold",
@@ -1953,8 +1954,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -1994,8 +1995,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -2035,8 +2036,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -2077,10 +2078,10 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -2162,9 +2163,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
-        "TECH",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -2250,9 +2251,9 @@
       "category": [
         "DESIGN",
         "SOCIAL",
-        "POLITICS",
+        "ARTS",
         "HUMANITIES",
-        "ARTS"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -2293,10 +2294,10 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -2338,11 +2339,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "TECH",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
         "HUMANITIES",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -2382,6 +2383,46 @@
       }
     },
     {
+      "id": "evt_newschool_4ea55747",
+      "name": "Fall 2025 Fashion Career Fair",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Join top industry employers for an exclusive Fashion Career Fair connecting you with emerging talent from The New School’s acclaimed fashion programs. From designers to marketers, these students and alumni are diverse, driven, and ready to make an impact.As an employer, you'll:- Showcase your brand to a style-forward student/ alumni audience- Recruit creative talent for internships and entry-level roles- Build meaningful connections in a collaborative, in-person settingSpots are limited — tables fill quickly. Register NowWant to explore virtual options? Contact us at careerservices@newschool.edu Student registration is managed via Handshake Questions?  Email careerservices@newschool.edu ",
+      "start_date": "2025-10-09T18:00:00+00:00",
+      "end_date": "2025-10-09T21:00:00+00:00",
+      "category": [
+        "DESIGN"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/fashioncareerfairfall2025",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "University Center ",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "career services",
+            "university",
+            "fairs & festivals",
+            "university center "
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_7fffda8f",
       "name": "Desire Lines",
       "type": "Exhibition",
@@ -2391,10 +2432,10 @@
       "start_date": "2025-10-13T17:30:00+00:00",
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "HUMANITIES",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -2441,11 +2482,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "TECH",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
         "HUMANITIES",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -2492,9 +2533,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "POLITICS",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -2537,9 +2578,9 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/politicsoftheater",
@@ -2580,10 +2621,10 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS",
+        "ARTS",
         "DESIGN",
-        "ARTS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -2623,8 +2664,8 @@
       "start_date": "2025-10-16T16:00:00+00:00",
       "end_date": "2025-10-16T19:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/mannessoundsmasterclassanthony",
@@ -2746,6 +2787,50 @@
       }
     },
     {
+      "id": "evt_newschool_6386920c",
+      "name": "Lang Craft Talks featuring Brooke Palmieri",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "The Fall 2025 Lang Craft Talks series continues with Brooke Palmieri.Brooke Palmieri is a writer and artist working at the intersection of memory, history, and transsexual alternate realities. His writing spans hundreds of years of queer and trans history; the magic, mystery and deep emotion of working in archives; and the past as a supernatural encounter. Brooke has trained as a historian at the University of Pennsylvania and Oxford, and in 2017 completed a PhD in radical 17th century printing historyta University College London. In 2018, Brooke founded CAMP BOOKS to promote access to queer and trans history through rare archival materials, cheap zines, and sculptural installations. Brooke has lectured and given workshops on queer and trans history widely, from institutions like Harvard, Smith, and NYU, to galleries like Kettle’s Yard, Chelsea Space, and Tate Modern, and most importantly, community spaces like Queercircle and the LGBTQ+ Community Center in London. His book Bargain Witch: Essays in Self-Initiation is about witchcraft, heresy, and working in an occult bookstore in London, and comes out on DOPAMINE BOOKS in October 2025. Born and raised in Philadelphia, he spent fourteen years in London and currently lives in the Mojave Desert. Lang hosts a series of weekly dynamic and interactive lessons in the craft of writing. Each week features a different writer including Lang faculty, alumni and special guest writers.  Visit the Lang Craft Talks Hub for the full line-up of writers this semester!",
+      "start_date": "2025-10-21T16:30:00+00:00",
+      "end_date": "2025-10-21T17:30:00+00:00",
+      "category": [
+        "ARTS",
+        "SOCIAL"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/brookepalmieri",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "alumnievents",
+            "eisjweb",
+            "langengage",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_cace31b6",
       "name": "2025 City Visionary Awards",
       "type": "Academic",
@@ -2803,8 +2888,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/asyoulikeit",
@@ -2888,9 +2973,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
-        "ARTS"
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemlenorepalladin",
@@ -3019,10 +3104,10 @@
       "start_date": "2025-11-03T18:30:00+00:00",
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
-        "TECH",
+        "ARTS",
         "DESIGN",
-        "HUMANITIES",
-        "ARTS"
+        "TECH",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -3113,8 +3198,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -3158,8 +3243,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -3206,8 +3291,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -3247,8 +3332,8 @@
       "start_date": "2025-11-09T20:00:00+00:00",
       "end_date": "2025-11-09T22:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/mannessoundskristallnacht",
@@ -3278,6 +3363,49 @@
             "college of performing arts",
             "performance",
             "center for jewish history"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_80ecd25d",
+      "name": "Lang Craft Talks featuring Sara Franklin",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "The Fall 2025 Lang Craft Talks series continues with Sara B. Franklin. Sara Franklin is a writer and professor at New York University's Gallatin School for Individualized Study, where she teaches courses on writing, food, oral history, and embodied culture. Her most recent book is the bestselling The Editor: How Publishing Legend Judith Jones Shaped Culture in America (Atria, 2024). Her work has appeared in The New York Times, The Washington Post, Literary Hub, The Nation, and Travel & Leisure. Her next book, a collection of essays entitled The Relief of Necessary Things: On Food, Cooking, and Care in Times of Collapse, is forthcoming from Atria Books. Sara holds a PhD from NYU's Steinhardt School of Culture, Education, and Human Development. She lives with her twin children in Kingston, NY. Lang hosts a series of weekly dynamic and interactive lessons in the craft of writing. Each week features a different writer including Lang faculty, alumni and special guest writers.  Visit the Lang Craft Talks Hub for the full line-up of writers this semester!",
+      "start_date": "2025-11-11T17:30:00+00:00",
+      "end_date": "2025-11-11T18:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/sarabfranklin",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "alumnievents",
+            "eisjweb",
+            "langengage",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -3338,8 +3466,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -3380,11 +3508,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "TECH",
         "DESIGN",
         "SOCIAL",
+        "ARTS",
         "HUMANITIES",
-        "ARTS"
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -3416,6 +3544,49 @@
             "exhibitions and openings",
             "starr foundation (u l102)",
             "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_9777bd17",
+      "name": "Lang Craft Talks featuring Miranda Mellis",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "The Fall 2025 Lang Craft Talks series continues with Miranda Mellis. Miranda Mellis is the author of the novel Crocosmia (Nightboat Books); three novellas, The Revisionist, The Spokes, and The Quarry; and a short-story collection, None of This Is Real. Her poetry and nonfiction books and chapbooks include The Revolutionary, Demystifications, Unconsciousness Raising, and Materialisms. She is the co-author of two book-length dialogues: The Instead with Emily Abendroth and Passing Through with Rick Moody. With Tisa Bryant and Kate Schatz, she was a founding co-editor at The Encyclopedia Project. She grew up in San Francisco and now lives in the woods of the Pacific Northwest where she is a professor at The Evergreen State College. Lang hosts a series of weekly dynamic and interactive lessons in the craft of writing. Each week features a different writer including Lang faculty, alumni and special guest writers.  Visit the Lang Craft Talks Hub for the full line-up of writers this semester!",
+      "start_date": "2025-11-25T17:30:00+00:00",
+      "end_date": "2025-11-25T18:30:00+00:00",
+      "category": [
+        "ARTS"
+      ],
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mirandamellis",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Eugene Lang College Of Liberal Arts"
+          ],
+          "tags": [
+            "alumnievents",
+            "eisjweb",
+            "langengage",
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "eugene lang college of liberal arts",
+            "lectures and talks",
+            "virtual",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -3461,175 +3632,6 @@
             "lectures and talks",
             "ernst c. stiefel concert hall at arnhold hall",
             "lectures and panel discussions"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_345d0a21",
-      "name": "Schneider Concerts Presents | Trio Eris - New York Debut",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Trio Eris - New York Debut A top-prize winning piano trio, Trio Eris is New England Conservatory's professional trio-in-residence and makes its New York debut with a program of Katherine Balch, Fanny Mendelssohn, and Franz Schubert. Katherine Balch: different gravities (2023)Fanny Mendelssohn Hensel: Piano Trio (1847)Franz Schubert: Piano Trio No. 2, Op. 100 (1828).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - purchase here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register here for the livestream. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
-      "start_date": "2025-12-07T19:00:00+00:00",
-      "end_date": "2025-12-07T21:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_b8ad6846",
-      "name": "Mannes Sounds Piano Cantabile: Voyage to Italy",
-      "type": "Seminar",
-      "location_id": "loc_newschool_arnhold",
-      "community_id": "com_newschool",
-      "description": "Curated by John NovacekWorks by: Scarlatti, Marcello-Bach, Bellini-Liszt, Liszt, Poulenc, Casella, Respighi, Berio, Rossini-Czerni, TchaikovskyThe Piano Cantabile Series is part of the Mannes Sounds Festival which was founded in 1999 by Pavlina Dokovska, chair of the Mannes Piano department. The festival presents more than 20 concerts annually performed by young artists from Mannes, the School of Jazz and Contemporary Music and the School of Drama as well as master classes and lectures by distinguished faculty members and renowned guest artists and is one of the outstanding components of Mannes' performance program. The events are held at various prestigious New York City concert venues and cultural institutions. ",
-      "start_date": "2025-12-07T23:30:00+00:00",
-      "end_date": "2025-12-08T01:30:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/mannessoundspianocantabilevoya",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Arnhold Hall",
-          "address": "55 West 13th Street, New York, NY 10011",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Mannes",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "mannes sounds festival",
-            "msf",
-            "sparkperformance25",
-            "general public",
-            "mannes school of music",
-            "performing arts",
-            "college of performing arts",
-            "lectures and talks",
-            "ernst c. stiefel concert hall at arnhold hall",
-            "lectures and panel discussions"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_c945d9fd",
-      "name": "Online | Schneider Concerts Presents Trio Eris - Livestream",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School for those who can't join us in person.Trio Eris - New York Debut A top-prize winning piano trio, Trio Eris is New England Conservatory's professional trio-in-residence and makes its New York debut with a program of Katherine Balch, Fanny Mendelssohn, and Franz Schubert. Katherine Balch: different gravities (2023)Fanny Mendelssohn Hensel: Piano Trio (1847)Franz Schubert: Piano Trio No. 2, Op. 100 (1828).This concert will be approximately 1 hour and 40 minutes, including intermission Livestreams are offered with pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's up to you! No judgement - we want as many people as possible to enjoy the music. Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 5 minutes before the live concert begins. This event is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here.",
-      "start_date": "2025-12-08T00:00:00+00:00",
-      "end_date": "2025-12-08T02:30:00+00:00",
-      "category": [
-        "SOCIAL",
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "University Level",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "performing arts",
-            "college of performing arts",
-            "university",
-            "performance",
-            "the new school"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_d011b148",
-      "name": "Mannes Sounds: Bohuslav Martinů: His World and Legacy",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Curated and directed by William GustafsonJoin us for a musical celebration of Bohuslav Martinů (1890–1959).  In addition to incredible works by Martinu, this program will explore some of the composers that had the greatest impact on his musical style, such as Smetana, Janáček, Debussy, Roussel and others, as well as those that Martinu influenced himself. Students from the Mannes Opera, Piano, and Chamber Music Programs will perform works ranging from operatic and song selections to chamber ensembles and solo piano music.",
-      "start_date": "2025-12-11T23:00:00+00:00",
-      "end_date": "2025-12-12T01:00:00+00:00",
-      "category": [
-        "ARTS"
-      ],
-      "metadata": {
-        "source_url": "https://event.newschool.edu/mannessoundsbohuslavmartinu",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Bohemian National Hall",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Mannes",
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "mannes school of music",
-            "performing arts",
-            "college of performing arts",
-            "performances",
-            "bohemian national hall",
-            "music performances",
-            "theater performances"
           ],
           "audience": []
         }
