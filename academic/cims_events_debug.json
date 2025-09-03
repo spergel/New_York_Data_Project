@@ -2,7 +2,7 @@
   "events": [
     {
       "id": "evt_nyu_cims_15bb52f6",
-      "name": "On polynomial solutions to the minimal surface equation",
+      "name": "Yifan Guo, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -10,9 +10,11 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
         "source_name": "NYU Courant Institute",
@@ -38,7 +40,7 @@
     },
     {
       "id": "evt_nyu_cims_ec1f7418",
-      "name": "TBA",
+      "name": "Junsheng Zhang, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -46,9 +48,11 @@
       "start_date": "2025-09-12T14:00:00",
       "end_date": "2025-09-12T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
         "source_name": "NYU Courant Institute",
@@ -74,7 +78,7 @@
     },
     {
       "id": "evt_nyu_cims_06683e05",
-      "name": "A necessary and sufficient condition for k-transversals",
+      "name": "Daniel McGinnis, Princeton U",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -82,9 +86,11 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
         "source_name": "NYU Courant Institute",
@@ -110,7 +116,7 @@
     },
     {
       "id": "evt_nyu_cims_5f82f30a",
-      "name": "Atmospheric gravity waves: new observations, high-resolution simulations, and data-informed methods",
+      "name": "Aditi Sheshadri, Stanford",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -118,9 +124,11 @@
       "start_date": "2025-09-17T14:00:00",
       "end_date": "2025-09-17T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4263",
         "source_name": "NYU Courant Institute",
@@ -146,7 +154,7 @@
     },
     {
       "id": "evt_nyu_cims_bdba07d2",
-      "name": "TBA",
+      "name": "Tristan Buckmaster, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -154,9 +162,11 @@
       "start_date": "2025-09-18T14:00:00",
       "end_date": "2025-09-18T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4257",
         "source_name": "NYU Courant Institute",
@@ -182,7 +192,7 @@
     },
     {
       "id": "evt_nyu_cims_fc6403f7",
-      "name": "Probability and the City seminar",
+      "name": "Volodymyr Riabov (ISTA), Pawel Duch (EPFL)",
       "type": "Seminar",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -190,9 +200,11 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4253",
         "source_name": "NYU Courant Institute",
@@ -218,7 +230,7 @@
     },
     {
       "id": "evt_nyu_cims_a1d069dc",
-      "name": "TBA",
+      "name": "Renaud Falga, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -226,9 +238,11 @@
       "start_date": "2025-09-24T14:00:00",
       "end_date": "2025-09-24T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4264",
         "source_name": "NYU Courant Institute",
@@ -254,7 +268,7 @@
     },
     {
       "id": "evt_nyu_cims_2bb24732",
-      "name": "TBA",
+      "name": "Yuxin Zhou, University of Chicago",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -262,9 +276,11 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4254",
         "source_name": "NYU Courant Institute",
@@ -290,7 +306,7 @@
     },
     {
       "id": "evt_nyu_cims_395535d1",
-      "name": "TBA",
+      "name": "Wangying Kang, MIT",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -298,9 +314,11 @@
       "start_date": "2025-10-01T14:00:00",
       "end_date": "2025-10-01T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4265",
         "source_name": "NYU Courant Institute",
@@ -326,7 +344,7 @@
     },
     {
       "id": "evt_nyu_cims_5c597d98",
-      "name": "TBD",
+      "name": "Anil Zenginoglu, U Maryland",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -334,9 +352,11 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
         "source_name": "NYU Courant Institute",
@@ -362,7 +382,7 @@
     },
     {
       "id": "evt_nyu_cims_5ab9da75",
-      "name": "TBA",
+      "name": "Zheng Wu, Albany",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -370,9 +390,11 @@
       "start_date": "2025-10-08T14:00:00",
       "end_date": "2025-10-08T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4266",
         "source_name": "NYU Courant Institute",
@@ -398,7 +420,7 @@
     },
     {
       "id": "evt_nyu_cims_d0840fc4",
-      "name": "TBA",
+      "name": "Sahana Vasudevan, IAS",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -406,9 +428,11 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
         "source_name": "NYU Courant Institute",
@@ -434,7 +458,7 @@
     },
     {
       "id": "evt_nyu_cims_da610556",
-      "name": "On concentration of vorticity in 2D ideal incompressible fluid flow",
+      "name": "Helena Nussenzveig Lopes, Universidade Federal do Rio de Janeiro",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -442,9 +466,11 @@
       "start_date": "2025-10-14T14:00:00",
       "end_date": "2025-10-14T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4259",
         "source_name": "NYU Courant Institute",
@@ -470,7 +496,7 @@
     },
     {
       "id": "evt_nyu_cims_142a8f91",
-      "name": "TBA",
+      "name": "Peter Constantin, Princeton University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -478,9 +504,11 @@
       "start_date": "2025-10-16T14:00:00",
       "end_date": "2025-10-16T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4258",
         "source_name": "NYU Courant Institute",
@@ -506,7 +534,7 @@
     },
     {
       "id": "evt_nyu_cims_db05d835",
-      "name": "TBA",
+      "name": "Camillo Brena, IAS",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -514,9 +542,11 @@
       "start_date": "2025-10-17T14:00:00",
       "end_date": "2025-10-17T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
         "source_name": "NYU Courant Institute",
@@ -542,7 +572,7 @@
     },
     {
       "id": "evt_nyu_cims_acaa7816",
-      "name": "TBA",
+      "name": "Sylvia Serfaty, Sorbonne Université, LJLL",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -550,9 +580,11 @@
       "start_date": "2025-10-23T14:00:00",
       "end_date": "2025-10-23T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
         "source_name": "NYU Courant Institute",
@@ -578,7 +610,7 @@
     },
     {
       "id": "evt_nyu_cims_f7e86841",
-      "name": "TBA",
+      "name": "Corey Bregman, Tufts University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -586,9 +618,11 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
         "source_name": "NYU Courant Institute",
@@ -614,7 +648,7 @@
     },
     {
       "id": "evt_nyu_cims_b472e75e",
-      "name": "TBA",
+      "name": "Ben Raichel, UT Dallas",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_nyu_courant",
@@ -622,9 +656,11 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
         "source_name": "NYU Courant Institute",
@@ -649,7 +685,7 @@
     },
     {
       "id": "evt_nyu_cims_213ac9b7",
-      "name": "TBA",
+      "name": "Scott Armstrong, CNRS at Sorbonne Université, LJLL",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -657,9 +693,11 @@
       "start_date": "2025-10-30T14:00:00",
       "end_date": "2025-10-30T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
         "source_name": "NYU Courant Institute",
@@ -685,7 +723,7 @@
     },
     {
       "id": "evt_nyu_cims_5c1fa6e1",
-      "name": "TBA",
+      "name": "Mikhail Ostrovskii, St. John's University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -693,9 +731,11 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
         "source_name": "NYU Courant Institute",
@@ -721,7 +761,7 @@
     },
     {
       "id": "evt_nyu_cims_c267637b",
-      "name": "TBA",
+      "name": "Jiarong Wu, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -729,9 +769,11 @@
       "start_date": "2025-11-05T14:00:00",
       "end_date": "2025-11-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4267",
         "source_name": "NYU Courant Institute",
@@ -757,7 +799,7 @@
     },
     {
       "id": "evt_nyu_cims_d3f3787f",
-      "name": "TBA",
+      "name": "Bill Cooperman, ETH Zurich",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -765,9 +807,11 @@
       "start_date": "2025-11-06T14:00:00",
       "end_date": "2025-11-06T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4261",
         "source_name": "NYU Courant Institute",
@@ -793,7 +837,7 @@
     },
     {
       "id": "evt_nyu_cims_9b06d383",
-      "name": "TBA",
+      "name": "Cristina Rea, MIT",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -801,9 +845,11 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
         "source_name": "NYU Courant Institute",
@@ -829,7 +875,7 @@
     },
     {
       "id": "evt_nyu_cims_d1b53e84",
-      "name": "TBA",
+      "name": "Jonathan Tidor, Princeton U",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -837,9 +883,11 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
         "source_name": "NYU Courant Institute",
@@ -865,7 +913,7 @@
     },
     {
       "id": "evt_nyu_cims_2e6e5620",
-      "name": "TBD",
+      "name": "Hanwen Zhang, Yale",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -873,9 +921,11 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
         "source_name": "NYU Courant Institute",
@@ -901,7 +951,7 @@
     },
     {
       "id": "evt_nyu_cims_27a27d19",
-      "name": "TBA",
+      "name": "Sharath Raghvendra, North Carolina State",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_nyu_courant",
@@ -909,9 +959,11 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
         "source_name": "NYU Courant Institute",
@@ -936,7 +988,7 @@
     },
     {
       "id": "evt_nyu_cims_5df544c1",
-      "name": "TBA",
+      "name": "Alex Cohen, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -944,9 +996,11 @@
       "start_date": "2025-11-20T14:00:00",
       "end_date": "2025-11-20T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4256",
         "source_name": "NYU Courant Institute",
@@ -972,7 +1026,7 @@
     },
     {
       "id": "evt_nyu_cims_0d09c627",
-      "name": "TBA",
+      "name": "Mingyang Li, Stony Brook University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -980,9 +1034,11 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
         "source_name": "NYU Courant Institute",
@@ -1008,7 +1064,7 @@
     },
     {
       "id": "evt_nyu_cims_600062c5",
-      "name": "TBD",
+      "name": "Jason Kaye, Flatiron Institute",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1016,9 +1072,11 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
         "source_name": "NYU Courant Institute",
@@ -1044,7 +1102,7 @@
     },
     {
       "id": "evt_nyu_cims_15bb52f6",
-      "name": "On polynomial solutions to the minimal surface equation",
+      "name": "Yifan Guo, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1052,9 +1110,11 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
         "source_name": "NYU Courant Institute",
@@ -1080,7 +1140,7 @@
     },
     {
       "id": "evt_nyu_cims_ec1f7418",
-      "name": "TBA",
+      "name": "Junsheng Zhang, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1088,9 +1148,11 @@
       "start_date": "2025-09-12T14:00:00",
       "end_date": "2025-09-12T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
         "source_name": "NYU Courant Institute",
@@ -1116,7 +1178,7 @@
     },
     {
       "id": "evt_nyu_cims_06683e05",
-      "name": "A necessary and sufficient condition for k-transversals",
+      "name": "Daniel McGinnis, Princeton U",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1124,9 +1186,11 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
         "source_name": "NYU Courant Institute",
@@ -1152,7 +1216,7 @@
     },
     {
       "id": "evt_nyu_cims_5f82f30a",
-      "name": "Atmospheric gravity waves: new observations, high-resolution simulations, and data-informed methods",
+      "name": "Aditi Sheshadri, Stanford",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1160,9 +1224,11 @@
       "start_date": "2025-09-17T14:00:00",
       "end_date": "2025-09-17T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4263",
         "source_name": "NYU Courant Institute",
@@ -1188,7 +1254,7 @@
     },
     {
       "id": "evt_nyu_cims_bdba07d2",
-      "name": "TBA",
+      "name": "Tristan Buckmaster, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1196,9 +1262,11 @@
       "start_date": "2025-09-18T14:00:00",
       "end_date": "2025-09-18T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4257",
         "source_name": "NYU Courant Institute",
@@ -1224,7 +1292,7 @@
     },
     {
       "id": "evt_nyu_cims_fc6403f7",
-      "name": "Probability and the City seminar",
+      "name": "Volodymyr Riabov (ISTA), Pawel Duch (EPFL)",
       "type": "Seminar",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1232,9 +1300,11 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4253",
         "source_name": "NYU Courant Institute",
@@ -1260,7 +1330,7 @@
     },
     {
       "id": "evt_nyu_cims_a1d069dc",
-      "name": "TBA",
+      "name": "Renaud Falga, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1268,9 +1338,11 @@
       "start_date": "2025-09-24T14:00:00",
       "end_date": "2025-09-24T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4264",
         "source_name": "NYU Courant Institute",
@@ -1296,7 +1368,7 @@
     },
     {
       "id": "evt_nyu_cims_2bb24732",
-      "name": "TBA",
+      "name": "Yuxin Zhou, University of Chicago",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1304,9 +1376,11 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4254",
         "source_name": "NYU Courant Institute",
@@ -1332,7 +1406,7 @@
     },
     {
       "id": "evt_nyu_cims_395535d1",
-      "name": "TBA",
+      "name": "Wangying Kang, MIT",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1340,9 +1414,11 @@
       "start_date": "2025-10-01T14:00:00",
       "end_date": "2025-10-01T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4265",
         "source_name": "NYU Courant Institute",
@@ -1368,7 +1444,7 @@
     },
     {
       "id": "evt_nyu_cims_5c597d98",
-      "name": "TBD",
+      "name": "Anil Zenginoglu, U Maryland",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1376,9 +1452,11 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
         "source_name": "NYU Courant Institute",
@@ -1404,7 +1482,7 @@
     },
     {
       "id": "evt_nyu_cims_5ab9da75",
-      "name": "TBA",
+      "name": "Zheng Wu, Albany",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1412,9 +1490,11 @@
       "start_date": "2025-10-08T14:00:00",
       "end_date": "2025-10-08T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4266",
         "source_name": "NYU Courant Institute",
@@ -1440,7 +1520,7 @@
     },
     {
       "id": "evt_nyu_cims_d0840fc4",
-      "name": "TBA",
+      "name": "Sahana Vasudevan, IAS",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1448,9 +1528,11 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
         "source_name": "NYU Courant Institute",
@@ -1476,7 +1558,7 @@
     },
     {
       "id": "evt_nyu_cims_da610556",
-      "name": "On concentration of vorticity in 2D ideal incompressible fluid flow",
+      "name": "Helena Nussenzveig Lopes, Universidade Federal do Rio de Janeiro",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1484,9 +1566,11 @@
       "start_date": "2025-10-14T14:00:00",
       "end_date": "2025-10-14T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4259",
         "source_name": "NYU Courant Institute",
@@ -1512,7 +1596,7 @@
     },
     {
       "id": "evt_nyu_cims_142a8f91",
-      "name": "TBA",
+      "name": "Peter Constantin, Princeton University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1520,9 +1604,11 @@
       "start_date": "2025-10-16T14:00:00",
       "end_date": "2025-10-16T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4258",
         "source_name": "NYU Courant Institute",
@@ -1548,7 +1634,7 @@
     },
     {
       "id": "evt_nyu_cims_db05d835",
-      "name": "TBA",
+      "name": "Camillo Brena, IAS",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1556,9 +1642,11 @@
       "start_date": "2025-10-17T14:00:00",
       "end_date": "2025-10-17T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
         "source_name": "NYU Courant Institute",
@@ -1584,7 +1672,7 @@
     },
     {
       "id": "evt_nyu_cims_acaa7816",
-      "name": "TBA",
+      "name": "Sylvia Serfaty, Sorbonne Université, LJLL",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1592,9 +1680,11 @@
       "start_date": "2025-10-23T14:00:00",
       "end_date": "2025-10-23T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
         "source_name": "NYU Courant Institute",
@@ -1620,7 +1710,7 @@
     },
     {
       "id": "evt_nyu_cims_f7e86841",
-      "name": "TBA",
+      "name": "Corey Bregman, Tufts University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1628,9 +1718,11 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
         "source_name": "NYU Courant Institute",
@@ -1656,7 +1748,7 @@
     },
     {
       "id": "evt_nyu_cims_b472e75e",
-      "name": "TBA",
+      "name": "Ben Raichel, UT Dallas",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_nyu_courant",
@@ -1664,9 +1756,11 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
         "source_name": "NYU Courant Institute",
@@ -1691,7 +1785,7 @@
     },
     {
       "id": "evt_nyu_cims_213ac9b7",
-      "name": "TBA",
+      "name": "Scott Armstrong, CNRS at Sorbonne Université, LJLL",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1699,9 +1793,11 @@
       "start_date": "2025-10-30T14:00:00",
       "end_date": "2025-10-30T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
         "source_name": "NYU Courant Institute",
@@ -1727,7 +1823,7 @@
     },
     {
       "id": "evt_nyu_cims_5c1fa6e1",
-      "name": "TBA",
+      "name": "Mikhail Ostrovskii, St. John's University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1735,9 +1831,11 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
         "source_name": "NYU Courant Institute",
@@ -1763,7 +1861,7 @@
     },
     {
       "id": "evt_nyu_cims_c267637b",
-      "name": "TBA",
+      "name": "Jiarong Wu, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1771,9 +1869,11 @@
       "start_date": "2025-11-05T14:00:00",
       "end_date": "2025-11-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4267",
         "source_name": "NYU Courant Institute",
@@ -1799,7 +1899,7 @@
     },
     {
       "id": "evt_nyu_cims_d3f3787f",
-      "name": "TBA",
+      "name": "Bill Cooperman, ETH Zurich",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1807,9 +1907,11 @@
       "start_date": "2025-11-06T14:00:00",
       "end_date": "2025-11-06T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4261",
         "source_name": "NYU Courant Institute",
@@ -1835,7 +1937,7 @@
     },
     {
       "id": "evt_nyu_cims_9b06d383",
-      "name": "TBA",
+      "name": "Cristina Rea, MIT",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1843,9 +1945,11 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
         "source_name": "NYU Courant Institute",
@@ -1871,7 +1975,7 @@
     },
     {
       "id": "evt_nyu_cims_d1b53e84",
-      "name": "TBA",
+      "name": "Jonathan Tidor, Princeton U",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1879,9 +1983,11 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
         "source_name": "NYU Courant Institute",
@@ -1907,7 +2013,7 @@
     },
     {
       "id": "evt_nyu_cims_2e6e5620",
-      "name": "TBD",
+      "name": "Hanwen Zhang, Yale",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1915,9 +2021,11 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
         "source_name": "NYU Courant Institute",
@@ -1943,7 +2051,7 @@
     },
     {
       "id": "evt_nyu_cims_27a27d19",
-      "name": "TBA",
+      "name": "Sharath Raghvendra, North Carolina State",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_nyu_courant",
@@ -1951,9 +2059,11 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
         "source_name": "NYU Courant Institute",
@@ -1978,7 +2088,7 @@
     },
     {
       "id": "evt_nyu_cims_5df544c1",
-      "name": "TBA",
+      "name": "Alex Cohen, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1986,9 +2096,11 @@
       "start_date": "2025-11-20T14:00:00",
       "end_date": "2025-11-20T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4256",
         "source_name": "NYU Courant Institute",
@@ -2014,7 +2126,7 @@
     },
     {
       "id": "evt_nyu_cims_0d09c627",
-      "name": "TBA",
+      "name": "Mingyang Li, Stony Brook University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -2022,9 +2134,11 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
         "source_name": "NYU Courant Institute",
@@ -2050,7 +2164,7 @@
     },
     {
       "id": "evt_nyu_cims_600062c5",
-      "name": "TBD",
+      "name": "Jason Kaye, Flatiron Institute",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -2058,9 +2172,11 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
         "source_name": "NYU Courant Institute",

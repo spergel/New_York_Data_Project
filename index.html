@@ -122,6 +122,32 @@
                         <i class="fas fa-times"></i> Clear Filters
                     </button>
                 </div>
+                
+                <!-- View and Sort Controls -->
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label>View:</label>
+                        <div class="view-toggle">
+                            <button id="grid-view" class="view-btn active" data-view="grid">
+                                <i class="fas fa-th"></i> Grid
+                            </button>
+                            <button id="list-view" class="view-btn" data-view="list">
+                                <i class="fas fa-list"></i> List
+                            </button>
+                        </div>
+                    </div>
+                    <div class="filter-group">
+                        <label>Sort by:</label>
+                        <select id="sort-by">
+                            <option value="date">Date</option>
+                            <option value="institution">Institution</option>
+                            <option value="name">Name</option>
+                        </select>
+                        <button id="sort-order" class="sort-btn" title="Sort ascending (click to reverse)">
+                            <i class="fas fa-sort-amount-down"></i>
+                        </button>
+                    </div>
+                </div>
             </section>
 
             <!-- Events Container - Coffeehouse Bulletin Board -->
@@ -131,6 +157,8 @@
                 </div>
                 
                 <div id="events-container" style="display: none;">
+                    <div id="events-count" class="events-count">Events (0)</div>
+                    
                     <div id="events-grid" class="events-grid">
                         <!-- Event cards will be populated here -->
                     </div>
@@ -183,6 +211,38 @@
             <div class="institutions-container">
                 <h2><i class="fas fa-university"></i> NYC Academic Institutions</h2>
                 <p>Coming soon... Browse events by institution</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Event Modal -->
+    <div id="event-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content">
+                <!-- Modal content will be populated here -->
+            </div>
+            
+            <!-- Calendar Integration -->
+            <div class="calendar-actions">
+                <h4>Add to Calendar</h4>
+                <div class="calendar-buttons">
+                    <button id="add-to-google" class="calendar-btn google">
+                        <i class="fab fa-google"></i> Google Calendar
+                    </button>
+                    <button id="download-ics" class="calendar-btn ics">
+                        <i class="fas fa-download"></i> Download ICS
+                    </button>
+                    <button id="add-to-outlook" class="calendar-btn outlook">
+                        <i class="fab fa-microsoft"></i> Outlook
+                    </button>
+                    <button id="add-to-apple" class="calendar-btn apple">
+                        <i class="fab fa-apple"></i> Apple Calendar
+                    </button>
+                    <button id="share-event" class="calendar-btn share">
+                        <i class="fas fa-share"></i> Share
+                    </button>
+                </div>
             </div>
         </div>
     </div>

@@ -787,6 +787,12 @@ function debounce(func, wait) {
     };
 }
 
+// Apply quick filter (Today, This Week, This Month)
+function applyQuickFilter(filter) {
+    currentQuickFilter = filter;
+    filterEvents();
+}
+
 // Setup event listeners for filters and pagination
 function setupEventListeners() {
     // Quick filter tabs
@@ -820,10 +826,24 @@ function setupEventListeners() {
     
     // Pagination
     if (elements.prevPage) {
-        elements.prevPage.addEventListener('click', () => changePage(currentPage - 1));
+        elements.prevPage.addEventListener('click', () => goToPage(currentPage - 1));
     }
     if (elements.nextPage) {
-        elements.nextPage.addEventListener('click', () => changePage(currentPage + 1));
+        elements.nextPage.addEventListener('click', () => goToPage(currentPage + 1));
+    }
+    
+    // Modal close button
+    if (elements.closeModal) {
+        elements.closeModal.addEventListener('click', closeEventModal);
+    }
+    
+    // Close modal when clicking outside
+    if (elements.modal) {
+        elements.modal.addEventListener('click', (e) => {
+            if (e.target === elements.modal) {
+                closeEventModal();
+            }
+        });
     }
 }
 
@@ -850,6 +870,19 @@ function populateInstitutionFilter() {
         option.textContent = inst.charAt(0).toUpperCase() + inst.slice(1).replace('_', ' ');
         elements.institutionFilter.appendChild(option);
     });
+}
+
+// Add missing functions
+function applyFilters() {
+    filterEvents();
+}
+
+function changePage(page) {
+    goToPage(page);
+}
+
+function clearAllFilters() {
+    clearFilters();
 }
 
 // Initialize when DOM is loaded

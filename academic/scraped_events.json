@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-09-03T10:54:39.195354",
+  "scraped_at": "2025-09-03T11:03:08.458311",
   "total_events": 399,
   "event_sources": {
     "cims_events_debug": 58,
@@ -25,7 +25,7 @@
   "events": [
     {
       "id": "evt_nyu_cims_15bb52f6",
-      "name": "On polynomial solutions to the minimal surface equation",
+      "name": "Yifan Guo, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -33,9 +33,11 @@
       "start_date": "2025-09-05T14:00:00",
       "end_date": "2025-09-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4232",
         "source_name": "NYU Courant Institute",
@@ -61,7 +63,7 @@
     },
     {
       "id": "evt_nyu_cims_ec1f7418",
-      "name": "TBA",
+      "name": "Junsheng Zhang, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -69,9 +71,11 @@
       "start_date": "2025-09-12T14:00:00",
       "end_date": "2025-09-12T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4252",
         "source_name": "NYU Courant Institute",
@@ -97,7 +101,7 @@
     },
     {
       "id": "evt_nyu_cims_06683e05",
-      "name": "A necessary and sufficient condition for k-transversals",
+      "name": "Daniel McGinnis, Princeton U",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -105,9 +109,11 @@
       "start_date": "2025-09-16T14:00:00",
       "end_date": "2025-09-16T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4243",
         "source_name": "NYU Courant Institute",
@@ -133,7 +139,7 @@
     },
     {
       "id": "evt_nyu_cims_5f82f30a",
-      "name": "Atmospheric gravity waves: new observations, high-resolution simulations, and data-informed methods",
+      "name": "Aditi Sheshadri, Stanford",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -141,9 +147,11 @@
       "start_date": "2025-09-17T14:00:00",
       "end_date": "2025-09-17T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4263",
         "source_name": "NYU Courant Institute",
@@ -169,7 +177,7 @@
     },
     {
       "id": "evt_nyu_cims_bdba07d2",
-      "name": "TBA",
+      "name": "Tristan Buckmaster, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -177,9 +185,11 @@
       "start_date": "2025-09-18T14:00:00",
       "end_date": "2025-09-18T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4257",
         "source_name": "NYU Courant Institute",
@@ -205,7 +215,7 @@
     },
     {
       "id": "evt_nyu_cims_fc6403f7",
-      "name": "Probability and the City seminar",
+      "name": "Volodymyr Riabov (ISTA), Pawel Duch (EPFL)",
       "type": "Seminar",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -213,9 +223,11 @@
       "start_date": "2025-09-19T14:00:00",
       "end_date": "2025-09-19T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4253",
         "source_name": "NYU Courant Institute",
@@ -241,7 +253,7 @@
     },
     {
       "id": "evt_nyu_cims_a1d069dc",
-      "name": "TBA",
+      "name": "Renaud Falga, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -249,9 +261,11 @@
       "start_date": "2025-09-24T14:00:00",
       "end_date": "2025-09-24T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4264",
         "source_name": "NYU Courant Institute",
@@ -277,7 +291,7 @@
     },
     {
       "id": "evt_nyu_cims_2bb24732",
-      "name": "TBA",
+      "name": "Yuxin Zhou, University of Chicago",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -285,9 +299,11 @@
       "start_date": "2025-09-26T14:00:00",
       "end_date": "2025-09-26T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/probability-and-mathematical-physics-seminar/4254",
         "source_name": "NYU Courant Institute",
@@ -313,7 +329,7 @@
     },
     {
       "id": "evt_nyu_cims_395535d1",
-      "name": "TBA",
+      "name": "Wangying Kang, MIT",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -321,9 +337,11 @@
       "start_date": "2025-10-01T14:00:00",
       "end_date": "2025-10-01T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4265",
         "source_name": "NYU Courant Institute",
@@ -349,7 +367,7 @@
     },
     {
       "id": "evt_nyu_cims_5c597d98",
-      "name": "TBD",
+      "name": "Anil Zenginoglu, U Maryland",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -357,9 +375,11 @@
       "start_date": "2025-10-03T14:00:00",
       "end_date": "2025-10-03T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4231",
         "source_name": "NYU Courant Institute",
@@ -385,7 +405,7 @@
     },
     {
       "id": "evt_nyu_cims_5ab9da75",
-      "name": "TBA",
+      "name": "Zheng Wu, Albany",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -393,9 +413,11 @@
       "start_date": "2025-10-08T14:00:00",
       "end_date": "2025-10-08T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4266",
         "source_name": "NYU Courant Institute",
@@ -421,7 +443,7 @@
     },
     {
       "id": "evt_nyu_cims_d0840fc4",
-      "name": "TBA",
+      "name": "Sahana Vasudevan, IAS",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -429,9 +451,11 @@
       "start_date": "2025-10-10T14:00:00",
       "end_date": "2025-10-10T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4236",
         "source_name": "NYU Courant Institute",
@@ -457,7 +481,7 @@
     },
     {
       "id": "evt_nyu_cims_da610556",
-      "name": "On concentration of vorticity in 2D ideal incompressible fluid flow",
+      "name": "Helena Nussenzveig Lopes, Universidade Federal do Rio de Janeiro",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -465,9 +489,11 @@
       "start_date": "2025-10-14T14:00:00",
       "end_date": "2025-10-14T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4259",
         "source_name": "NYU Courant Institute",
@@ -493,7 +519,7 @@
     },
     {
       "id": "evt_nyu_cims_142a8f91",
-      "name": "TBA",
+      "name": "Peter Constantin, Princeton University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -501,9 +527,11 @@
       "start_date": "2025-10-16T14:00:00",
       "end_date": "2025-10-16T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4258",
         "source_name": "NYU Courant Institute",
@@ -529,7 +557,7 @@
     },
     {
       "id": "evt_nyu_cims_db05d835",
-      "name": "TBA",
+      "name": "Camillo Brena, IAS",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -537,9 +565,11 @@
       "start_date": "2025-10-17T14:00:00",
       "end_date": "2025-10-17T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4250",
         "source_name": "NYU Courant Institute",
@@ -565,7 +595,7 @@
     },
     {
       "id": "evt_nyu_cims_acaa7816",
-      "name": "TBA",
+      "name": "Sylvia Serfaty, Sorbonne Université, LJLL",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -573,9 +603,11 @@
       "start_date": "2025-10-23T14:00:00",
       "end_date": "2025-10-23T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4248",
         "source_name": "NYU Courant Institute",
@@ -601,7 +633,7 @@
     },
     {
       "id": "evt_nyu_cims_f7e86841",
-      "name": "TBA",
+      "name": "Corey Bregman, Tufts University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -609,9 +641,11 @@
       "start_date": "2025-10-24T14:00:00",
       "end_date": "2025-10-24T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4238",
         "source_name": "NYU Courant Institute",
@@ -637,7 +671,7 @@
     },
     {
       "id": "evt_nyu_cims_b472e75e",
-      "name": "TBA",
+      "name": "Ben Raichel, UT Dallas",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_nyu_courant",
@@ -645,9 +679,11 @@
       "start_date": "2025-10-28T14:00:00",
       "end_date": "2025-10-28T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4246",
         "source_name": "NYU Courant Institute",
@@ -672,7 +708,7 @@
     },
     {
       "id": "evt_nyu_cims_213ac9b7",
-      "name": "TBA",
+      "name": "Scott Armstrong, CNRS at Sorbonne Université, LJLL",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -680,9 +716,11 @@
       "start_date": "2025-10-30T14:00:00",
       "end_date": "2025-10-30T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4247",
         "source_name": "NYU Courant Institute",
@@ -708,7 +746,7 @@
     },
     {
       "id": "evt_nyu_cims_5c1fa6e1",
-      "name": "TBA",
+      "name": "Mikhail Ostrovskii, St. John's University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -716,9 +754,11 @@
       "start_date": "2025-10-31T14:00:00",
       "end_date": "2025-10-31T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4239",
         "source_name": "NYU Courant Institute",
@@ -744,7 +784,7 @@
     },
     {
       "id": "evt_nyu_cims_c267637b",
-      "name": "TBA",
+      "name": "Jiarong Wu, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -752,9 +792,11 @@
       "start_date": "2025-11-05T14:00:00",
       "end_date": "2025-11-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/atmosphere-ocean-science-colloquium/4267",
         "source_name": "NYU Courant Institute",
@@ -780,7 +822,7 @@
     },
     {
       "id": "evt_nyu_cims_d3f3787f",
-      "name": "TBA",
+      "name": "Bill Cooperman, ETH Zurich",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -788,9 +830,11 @@
       "start_date": "2025-11-06T14:00:00",
       "end_date": "2025-11-06T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4261",
         "source_name": "NYU Courant Institute",
@@ -816,7 +860,7 @@
     },
     {
       "id": "evt_nyu_cims_9b06d383",
-      "name": "TBA",
+      "name": "Cristina Rea, MIT",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -824,9 +868,11 @@
       "start_date": "2025-11-07T14:00:00",
       "end_date": "2025-11-07T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4237",
         "source_name": "NYU Courant Institute",
@@ -852,7 +898,7 @@
     },
     {
       "id": "evt_nyu_cims_d1b53e84",
-      "name": "TBA",
+      "name": "Jonathan Tidor, Princeton U",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -860,9 +906,11 @@
       "start_date": "2025-11-11T14:00:00",
       "end_date": "2025-11-11T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4244",
         "source_name": "NYU Courant Institute",
@@ -888,7 +936,7 @@
     },
     {
       "id": "evt_nyu_cims_2e6e5620",
-      "name": "TBD",
+      "name": "Hanwen Zhang, Yale",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -896,9 +944,11 @@
       "start_date": "2025-11-14T14:00:00",
       "end_date": "2025-11-14T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4242",
         "source_name": "NYU Courant Institute",
@@ -924,7 +974,7 @@
     },
     {
       "id": "evt_nyu_cims_27a27d19",
-      "name": "TBA",
+      "name": "Sharath Raghvendra, North Carolina State",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_nyu_courant",
@@ -932,9 +982,11 @@
       "start_date": "2025-11-18T14:00:00",
       "end_date": "2025-11-18T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometry-seminar/4245",
         "source_name": "NYU Courant Institute",
@@ -959,7 +1011,7 @@
     },
     {
       "id": "evt_nyu_cims_5df544c1",
-      "name": "TBA",
+      "name": "Alex Cohen, NYU",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -967,9 +1019,11 @@
       "start_date": "2025-11-20T14:00:00",
       "end_date": "2025-11-20T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/analysis-seminar/4256",
         "source_name": "NYU Courant Institute",
@@ -995,7 +1049,7 @@
     },
     {
       "id": "evt_nyu_cims_0d09c627",
-      "name": "TBA",
+      "name": "Mingyang Li, Stony Brook University",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1003,9 +1057,11 @@
       "start_date": "2025-11-21T14:00:00",
       "end_date": "2025-11-21T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4241",
         "source_name": "NYU Courant Institute",
@@ -1031,7 +1087,7 @@
     },
     {
       "id": "evt_nyu_cims_600062c5",
-      "name": "TBD",
+      "name": "Jason Kaye, Flatiron Institute",
       "type": "Academic",
       "location_id": "loc_nyu_wwh",
       "community_id": "com_nyu_courant",
@@ -1039,9 +1095,11 @@
       "start_date": "2025-12-05T14:00:00",
       "end_date": "2025-12-05T15:00:00",
       "category": [
-        "EDUCATION",
-        "SCIENCE"
+        "SCIENCE",
+        "EDUCATION"
       ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
       "metadata": {
         "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/ams/4240",
         "source_name": "NYU Courant Institute",
@@ -1580,9 +1638,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aef89382-0000347cevents%40columbia.edu&recurrenceId=",
@@ -1668,9 +1726,9 @@
       "start_date": "2025-09-03T16:00:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-97e91514-0197-ebb50e34-00006fabevents%40columbia.edu&recurrenceId=",
@@ -2094,8 +2152,8 @@
       "start_date": "2025-09-04T17:00:00+00:00",
       "end_date": "2025-09-04T19:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
+        "HEALTH",
         "ARTS",
         "SOCIAL"
       ],
@@ -2561,8 +2619,8 @@
       "start_date": "2025-09-08T15:00:00+00:00",
       "end_date": "2025-09-08T16:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccfa7d45-0000403devents%40columbia.edu&recurrenceId=",
@@ -3090,8 +3148,8 @@
       "start_date": "2025-09-09T19:00:00+00:00",
       "end_date": "2025-09-09T20:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
+        "HEALTH",
         "ARTS"
       ],
       "metadata": {
@@ -3334,9 +3392,9 @@
       "start_date": "2025-09-10T16:00:00+00:00",
       "end_date": "2025-09-10T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefa93ee-000034acevents%40columbia.edu&recurrenceId=",
@@ -3952,9 +4010,9 @@
       "start_date": "2025-09-12T12:30:00+00:00",
       "end_date": "2025-09-13T21:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
         "EDUCATION",
+        "HEALTH",
         "SOCIAL"
       ],
       "metadata": {
@@ -4264,8 +4322,8 @@
       "start_date": "2025-09-12T16:00:00+00:00",
       "end_date": "2025-09-12T20:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27f9626-00005d86events%40columbia.edu&recurrenceId=",
@@ -4553,8 +4611,8 @@
       "start_date": "2025-09-15T16:00:00+00:00",
       "end_date": "2025-09-15T17:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d27436d0-00005962events%40columbia.edu&recurrenceId=",
@@ -4614,8 +4672,8 @@
       "start_date": "2025-09-15T20:30:00+00:00",
       "end_date": "2025-09-15T21:30:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-985a658d-0198-5c86d68d-00001356events%40columbia.edu&recurrenceId=",
@@ -4774,8 +4832,8 @@
       "start_date": "2025-09-16T14:00:00+00:00",
       "end_date": "2025-09-16T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-96a9c614-0196-ac6ec2e9-00005fdaevents%40columbia.edu&recurrenceId=",
@@ -4851,8 +4909,8 @@
       "start_date": "2025-09-16T15:00:00+00:00",
       "end_date": "2025-09-16T16:00:00+00:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-97e9198f-0197-ebac3d76-00006fe5events%40columbia.edu&recurrenceId=",
@@ -5359,9 +5417,9 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T17:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-95ad72f1-0195-aefd7b8d-000034c2events%40columbia.edu&recurrenceId=",
@@ -5447,8 +5505,8 @@
       "start_date": "2025-09-17T16:00:00+00:00",
       "end_date": "2025-09-17T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98c68ae9-0198-c8df7f1b-00005dddevents%40columbia.edu&recurrenceId=",
@@ -5667,8 +5725,8 @@
       "start_date": "2025-09-18T15:00:00+00:00",
       "end_date": "2025-09-18T16:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
+        "HEALTH",
         "SOCIAL"
       ],
       "metadata": {
@@ -5769,8 +5827,8 @@
       "start_date": "2025-09-18T16:00:00+00:00",
       "end_date": "2025-09-18T17:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d262deb9-0000530bevents%40columbia.edu&recurrenceId=",
@@ -6373,9 +6431,9 @@
       "start_date": "2025-09-19T12:30:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "HEALTH",
         "SCIENCE",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-95843b9a-0195-85deaa42-000034d6events%40columbia.edu&recurrenceId=",
@@ -6528,8 +6586,8 @@
       "start_date": "2025-09-19T14:00:00+00:00",
       "end_date": "2025-09-19T21:00:00+00:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e57111-0198-e7a936ab-00007895events%40columbia.edu&recurrenceId=",
@@ -7425,8 +7483,8 @@
       "start_date": "2025-09-22T17:00:00+00:00",
       "end_date": "2025-09-22T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98ea92e3-0198-ec487b73-00006116events%40columbia.edu&recurrenceId=",
@@ -7876,8 +7934,8 @@
       "start_date": "2025-09-23T17:00:00+00:00",
       "end_date": "2025-09-23T18:00:00+00:00",
       "category": [
-        "HEALTH",
-        "EDUCATION"
+        "EDUCATION",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98cbace2-0198-ccff4186-000041b8events%40columbia.edu&recurrenceId=",
@@ -7955,8 +8013,8 @@
       "start_date": "2025-09-23T17:15:00+00:00",
       "end_date": "2025-09-23T18:15:00+00:00",
       "category": [
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-989d53e6-0198-9fd8fcd3-000071b7events%40columbia.edu&recurrenceId=",
@@ -8156,8 +8214,8 @@
       "start_date": "2025-09-23T21:00:00+00:00",
       "end_date": "2025-09-23T23:00:00+00:00",
       "category": [
-        "HEALTH",
-        "SCIENCE"
+        "SCIENCE",
+        "HEALTH"
       ],
       "metadata": {
         "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-985f81ef-0198-61cb11cf-00001170events%40columbia.edu&recurrenceId=",
@@ -9150,8 +9208,8 @@
       "start_date": "2025-10-07T17:30:00",
       "end_date": "2025-10-07T19:30:00",
       "category": [
-        "SCIENCE",
-        "HISTORY"
+        "HISTORY",
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/moss-invisible-hands",
@@ -9183,8 +9241,8 @@
       "start_date": "2025-10-14T17:30:00",
       "end_date": "2025-10-14T19:30:00",
       "category": [
-        "HISTORY",
-        "ARTS"
+        "ARTS",
+        "HISTORY"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/china-yangtze-delta",
@@ -9216,8 +9274,8 @@
       "start_date": "2025-11-05T10:00:00",
       "end_date": "2025-11-05T12:00:00",
       "category": [
-        "ARCHAEOLOGY",
-        "ARTS"
+        "ARTS",
+        "ARCHAEOLOGY"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/open-house-2025",
@@ -9248,9 +9306,9 @@
       "start_date": "2025-12-04T17:30:00",
       "end_date": "2025-12-04T19:30:00",
       "category": [
-        "SCIENCE",
+        "ARTS",
         "HISTORY",
-        "ARTS"
+        "SCIENCE"
       ],
       "metadata": {
         "source_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success",
@@ -9533,8 +9591,8 @@
       "start_date": "2025-09-12T19:30:00+00:00",
       "end_date": "2025-09-12T21:30:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
+        "ARTS",
         "DANCE",
         "THEATER"
       ],
@@ -9573,8 +9631,8 @@
       "start_date": "2025-09-13T10:00:00+00:00",
       "end_date": "2025-09-13T12:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9611,8 +9669,8 @@
       "start_date": "2025-09-13T19:30:00+00:00",
       "end_date": "2025-09-13T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9682,8 +9740,8 @@
       "start_date": "2025-09-16T17:30:00+00:00",
       "end_date": "2025-09-16T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9717,8 +9775,8 @@
       "start_date": "2025-09-16T19:30:00+00:00",
       "end_date": "2025-09-16T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9759,8 +9817,8 @@
       "start_date": "2025-09-17T13:00:00+00:00",
       "end_date": "2025-09-17T15:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9795,8 +9853,8 @@
       "start_date": "2025-09-17T17:30:00+00:00",
       "end_date": "2025-09-17T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9831,8 +9889,8 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:30:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
+        "ARTS",
         "THEATER"
       ],
       "source": "juilliard",
@@ -9868,8 +9926,8 @@
       "start_date": "2025-09-18T19:30:00+00:00",
       "end_date": "2025-09-18T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9904,8 +9962,8 @@
       "start_date": "2025-09-19T18:00:00+00:00",
       "end_date": "2025-09-19T20:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9940,8 +9998,8 @@
       "start_date": "2025-09-19T19:30:00+00:00",
       "end_date": "2025-09-19T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -9976,8 +10034,8 @@
       "start_date": "2025-09-20T11:00:00+00:00",
       "end_date": "2025-09-20T13:00:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
+        "ARTS",
         "DANCE"
       ],
       "source": "juilliard",
@@ -10016,8 +10074,8 @@
       "start_date": "2025-09-20T14:00:00+00:00",
       "end_date": "2025-09-20T16:00:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
+        "ARTS",
         "DANCE",
         "THEATER"
       ],
@@ -10056,8 +10114,8 @@
       "start_date": "2025-09-20T19:30:00+00:00",
       "end_date": "2025-09-20T21:30:00+00:00",
       "category": [
-        "ARTS",
         "MUSIC",
+        "ARTS",
         "DANCE",
         "THEATER"
       ],
@@ -10099,8 +10157,8 @@
       "start_date": "2025-09-23T17:30:00+00:00",
       "end_date": "2025-09-23T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -10135,8 +10193,8 @@
       "start_date": "2025-09-24T17:30:00+00:00",
       "end_date": "2025-09-24T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -10170,8 +10228,8 @@
       "start_date": "2025-09-24T18:00:00+00:00",
       "end_date": "2025-09-24T20:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -10207,8 +10265,8 @@
       "start_date": "2025-09-25T17:30:00+00:00",
       "end_date": "2025-09-25T19:30:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -10243,8 +10301,8 @@
       "start_date": "2025-09-26T18:00:00+00:00",
       "end_date": "2025-09-26T20:00:00+00:00",
       "category": [
-        "ARTS",
-        "MUSIC"
+        "MUSIC",
+        "ARTS"
       ],
       "source": "juilliard",
       "source_group": "juilliard",
@@ -10278,11 +10336,11 @@
       "start_date": "2025-09-02T17:00:00+00:00",
       "end_date": "2025-09-04T16:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
+        "TECH",
         "DESIGN",
+        "SOCIAL",
         "POLITICS",
-        "TECH"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tdconvening25",
@@ -10329,9 +10387,9 @@
       "start_date": "2025-09-02T20:00:00+00:00",
       "end_date": "2025-09-05T22:00:00+00:00",
       "category": [
+        "SOCIAL",
         "ARTS",
-        "HUMANITIES",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ipnh2025",
@@ -10373,8 +10431,8 @@
       "start_date": "2025-09-03T15:30:00+00:00",
       "end_date": "2025-09-03T17:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/weavingthefuturewewanttoruntow",
@@ -10412,9 +10470,9 @@
       "start_date": "2025-09-03T22:00:00+00:00",
       "end_date": "2025-09-03T23:00:00+00:00",
       "category": [
+        "SOCIAL",
         "ARTS",
-        "HUMANITIES",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/elaineequiandjeromesala",
@@ -10457,9 +10515,9 @@
       "start_date": "2025-09-03T22:30:00+00:00",
       "end_date": "2025-09-03T23:30:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ccca",
@@ -10539,10 +10597,10 @@
       "start_date": "2025-09-04T22:00:00+00:00",
       "end_date": "2025-09-05T00:00:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
         "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumdeniseferr",
@@ -10628,8 +10686,8 @@
       "start_date": "2025-09-05T16:00:00+00:00",
       "end_date": "2025-09-05T17:00:00+00:00",
       "category": [
-        "ARTS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/tugce-bilgin",
@@ -10670,8 +10728,8 @@
       "start_date": "2025-09-09T18:00:00+00:00",
       "end_date": "2025-09-09T19:40:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/billdixonsindex",
@@ -10710,9 +10768,9 @@
       "start_date": "2025-09-09T20:00:00+00:00",
       "end_date": "2025-09-09T22:00:00+00:00",
       "category": [
-        "ARTS",
+        "SOCIAL",
         "POLITICS",
-        "SOCIAL"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemjameemoudud",
@@ -10753,8 +10811,8 @@
       "start_date": "2025-09-09T21:30:00+00:00",
       "end_date": "2025-09-10T01:30:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/hml10",
@@ -10800,9 +10858,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-10T00:30:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thejewelrybook",
@@ -10850,9 +10908,9 @@
       "start_date": "2025-09-09T22:00:00+00:00",
       "end_date": "2025-09-09T23:00:00+00:00",
       "category": [
+        "SOCIAL",
         "ARTS",
-        "HUMANITIES",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconversationadamross",
@@ -10895,10 +10953,10 @@
       "start_date": "2025-09-10T19:00:00+00:00",
       "end_date": "2025-09-10T21:00:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
         "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/makegoodchoices",
@@ -10946,8 +11004,8 @@
       "start_date": "2025-09-10T20:00:00+00:00",
       "end_date": "2025-09-10T23:00:00+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nssrfall2025welcomereception",
@@ -11031,8 +11089,8 @@
       "start_date": "2025-09-10T22:30:00+00:00",
       "end_date": "2025-09-11T01:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sustainabilityleaderssummit",
@@ -11168,8 +11226,8 @@
       "start_date": "2025-09-11T22:00:00+00:00",
       "end_date": "2025-09-12T00:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/langarts-jerronherman",
@@ -11212,9 +11270,9 @@
       "end_date": "2025-09-15T19:00:00+00:00",
       "category": [
         "TECH",
-        "ARTS",
+        "DESIGN",
         "HUMANITIES",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
@@ -11308,9 +11366,9 @@
       "start_date": "2025-09-16T22:00:00+00:00",
       "end_date": "2025-09-16T23:00:00+00:00",
       "category": [
+        "SOCIAL",
         "ARTS",
-        "HUMANITIES",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/readingandconvoscottalexhess",
@@ -11354,10 +11412,10 @@
       "start_date": "2025-09-17T21:30:00+00:00",
       "end_date": "2025-09-17T23:00:00+00:00",
       "category": [
-        "ARTS",
+        "SOCIAL",
         "POLITICS",
-        "HUMANITIES",
-        "SOCIAL"
+        "ARTS",
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unfamiliarintelligence",
@@ -11400,8 +11458,8 @@
       "end_date": "2025-09-18T03:59:59+00:00",
       "category": [
         "TECH",
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/gromekinstitutemickeydrexler",
@@ -11454,11 +11512,11 @@
       "start_date": "2025-09-22T04:00:00+00:00",
       "end_date": "2025-09-26T22:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
+        "TECH",
         "DESIGN",
+        "SOCIAL",
         "POLITICS",
-        "TECH"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweekhub2025",
@@ -11512,11 +11570,11 @@
       "start_date": "2025-09-23T14:00:00+00:00",
       "end_date": "2025-09-23T15:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL",
+        "TECH",
         "DESIGN",
+        "SOCIAL",
         "POLITICS",
-        "TECH"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/climateweek2025keynote",
@@ -11574,8 +11632,8 @@
       "start_date": "2025-09-23T15:00:00+00:00",
       "end_date": "2025-09-23T17:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/organizingtowardsliberationsoc1",
@@ -11621,9 +11679,9 @@
       "start_date": "2025-09-24T22:00:00+00:00",
       "end_date": "2025-09-24T23:00:00+00:00",
       "category": [
+        "SOCIAL",
         "ARTS",
-        "HUMANITIES",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/foolsforlovesbooklaunch",
@@ -11719,11 +11777,11 @@
       "start_date": "2025-09-25T21:00:00+00:00",
       "end_date": "2025-09-25T22:30:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/indiachinaday2025",
@@ -11769,9 +11827,9 @@
       "start_date": "2025-09-25T22:00:00+00:00",
       "end_date": "2025-09-26T00:00:00+00:00",
       "category": [
+        "SOCIAL",
         "ARTS",
-        "HUMANITIES",
-        "SOCIAL"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/philosophycolloquiumolay",
@@ -11855,9 +11913,9 @@
       "start_date": "2025-09-26T13:00:00+00:00",
       "end_date": "2025-09-26T23:00:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/regenerativemetropolis25passiv",
@@ -11905,9 +11963,9 @@
       "end_date": "2025-09-26T21:00:00+00:00",
       "category": [
         "TECH",
-        "ARTS",
+        "DESIGN",
         "HUMANITIES",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/everydaythings",
@@ -11995,9 +12053,9 @@
       "end_date": "2025-09-30T19:30:00+00:00",
       "category": [
         "TECH",
-        "ARTS",
+        "DESIGN",
         "HUMANITIES",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/ritualsofcare",
@@ -12049,9 +12107,9 @@
       "end_date": "2025-10-01T19:30:00+00:00",
       "category": [
         "TECH",
-        "ARTS",
+        "DESIGN",
         "HUMANITIES",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/commonsproject",
@@ -12099,8 +12157,8 @@
       "start_date": "2025-10-03T20:00:00+00:00",
       "end_date": "2025-10-03T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/techniquesofmusicmargulis",
@@ -12141,9 +12199,9 @@
       "start_date": "2025-10-04T17:00:00+00:00",
       "end_date": "2025-10-05T03:59:59+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thepianopodliveinconcertabold",
@@ -12221,8 +12279,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/onlineschneider-dolphins-livestream",
@@ -12262,8 +12320,8 @@
       "start_date": "2025-10-05T18:00:00+00:00",
       "end_date": "2025-10-05T20:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcertspresentsdolphins",
@@ -12303,8 +12361,8 @@
       "start_date": "2025-10-06T23:00:00+00:00",
       "end_date": "2025-10-07T01:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/nakedangels1stmondayscopycopycopy",
@@ -12345,10 +12403,10 @@
       "start_date": "2025-10-07T14:00:00+00:00",
       "end_date": "2025-10-07T15:30:00+00:00",
       "category": [
-        "ARTS",
-        "POLITICS",
         "SOCIAL",
-        "DESIGN"
+        "POLITICS",
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/genderbasedviolence",
@@ -12430,9 +12488,9 @@
       "start_date": "2025-10-07T16:30:00+00:00",
       "end_date": "2025-10-07T17:30:00+00:00",
       "category": [
+        "TECH",
         "ARTS",
-        "HUMANITIES",
-        "TECH"
+        "HUMANITIES"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/daniellepafunda",
@@ -12516,11 +12574,11 @@
       "start_date": "2025-10-08T14:00:00+00:00",
       "end_date": "2025-10-08T15:30:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
-        "SOCIAL",
         "DESIGN",
-        "POLITICS"
+        "SOCIAL",
+        "POLITICS",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/seminarlamenting",
@@ -12561,10 +12619,10 @@
       "start_date": "2025-10-08T16:00:00+00:00",
       "end_date": "2025-10-08T17:30:00+00:00",
       "category": [
-        "ARTS",
-        "POLITICS",
         "SOCIAL",
-        "DESIGN"
+        "POLITICS",
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/sembodiesandspaces",
@@ -12606,11 +12664,11 @@
       "start_date": "2025-10-09T16:30:00+00:00",
       "end_date": "2025-10-09T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
-        "SOCIAL",
+        "TECH",
         "DESIGN",
-        "TECH"
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/multispecies",
@@ -12660,9 +12718,9 @@
       "end_date": "2025-10-13T19:30:00+00:00",
       "category": [
         "TECH",
-        "ARTS",
+        "DESIGN",
         "HUMANITIES",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/desirelines",
@@ -12709,11 +12767,11 @@
       "start_date": "2025-10-14T16:00:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
-        "SOCIAL",
+        "TECH",
         "DESIGN",
-        "TECH"
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/thenewschoolstudenthealthsurve",
@@ -12760,9 +12818,9 @@
       "start_date": "2025-10-14T16:30:00+00:00",
       "end_date": "2025-10-14T17:30:00+00:00",
       "category": [
-        "ARTS",
         "POLITICS",
-        "TECH"
+        "TECH",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/zebablay",
@@ -12805,9 +12863,9 @@
       "start_date": "2025-10-14T22:00:00+00:00",
       "end_date": "2025-10-15T00:00:00+00:00",
       "category": [
-        "ARTS",
+        "SOCIAL",
         "POLITICS",
-        "SOCIAL"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/politicsoftheater",
@@ -12848,10 +12906,10 @@
       "start_date": "2025-10-16T15:00:00+00:00",
       "end_date": "2025-10-16T16:30:00+00:00",
       "category": [
-        "ARTS",
-        "POLITICS",
         "SOCIAL",
-        "DESIGN"
+        "POLITICS",
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/intersectiontheorymeth",
@@ -12891,8 +12949,8 @@
       "start_date": "2025-10-16T16:00:00+00:00",
       "end_date": "2025-10-16T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/mannessoundsmasterclassanthony",
@@ -12936,8 +12994,8 @@
       "start_date": "2025-10-16T16:30:00+00:00",
       "end_date": "2025-10-16T18:00:00+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/freedomofexpression",
@@ -13023,8 +13081,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://cityvisionaryawards.com",
@@ -13071,8 +13129,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "ARTS",
-        "DESIGN"
+        "DESIGN",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/asyoulikeit",
@@ -13156,9 +13214,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "ARTS",
+        "SOCIAL",
         "POLITICS",
-        "SOCIAL"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemlenorepalladin",
@@ -13288,9 +13346,9 @@
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
         "TECH",
-        "ARTS",
+        "DESIGN",
         "HUMANITIES",
-        "DESIGN"
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/visualizingcare",
@@ -13381,8 +13439,8 @@
       "start_date": "2025-11-06T18:00:00+00:00",
       "end_date": "2025-11-06T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/immigrationdetentioninc",
@@ -13426,8 +13484,8 @@
       "start_date": "2025-11-08T23:00:00+00:00",
       "end_date": "2025-12-08T03:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/bfacreativestudiofall2025",
@@ -13474,8 +13532,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-abeoquartet",
@@ -13515,8 +13573,8 @@
       "start_date": "2025-11-09T20:00:00+00:00",
       "end_date": "2025-11-09T22:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/mannessoundskristallnacht",
@@ -13561,8 +13619,8 @@
       "start_date": "2025-11-13T22:00:00+00:00",
       "end_date": "2025-11-14T04:59:59+00:00",
       "category": [
-        "POLITICS",
-        "SOCIAL"
+        "SOCIAL",
+        "POLITICS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/printmediaandtheauthoritarian",
@@ -13606,8 +13664,8 @@
       "start_date": "2025-11-18T21:00:00+00:00",
       "end_date": "2025-11-18T23:00:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/econsemgeraldepstein",
@@ -13648,11 +13706,11 @@
       "start_date": "2025-11-21T17:00:00+00:00",
       "end_date": "2025-11-21T19:00:00+00:00",
       "category": [
-        "ARTS",
-        "HUMANITIES",
-        "SOCIAL",
+        "TECH",
         "DESIGN",
-        "TECH"
+        "SOCIAL",
+        "HUMANITIES",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/unsentletterssalon",
@@ -13744,8 +13802,8 @@
       "start_date": "2025-12-07T19:00:00+00:00",
       "end_date": "2025-12-07T21:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneiderconcerts-trioeris",
@@ -13830,8 +13888,8 @@
       "start_date": "2025-12-08T00:00:00+00:00",
       "end_date": "2025-12-08T02:30:00+00:00",
       "category": [
-        "ARTS",
-        "SOCIAL"
+        "SOCIAL",
+        "ARTS"
       ],
       "metadata": {
         "source_url": "https://event.newschool.edu/schneider-livestream-trioeris",
