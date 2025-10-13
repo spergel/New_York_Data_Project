@@ -35,15 +35,16 @@ jobs:
         CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       run: |
         cd academic
-        npx wrangler deploy --env=""
+        npx wrangler deploy
         
-    - name: Commit and push updates
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git commit -m "🤖 Automated weekly scraping - $(date +'%Y-%m-%d')" || echo "No changes to commit"
-        git push
+    # Disabled GitHub commit/push - data stored locally only
+    # - name: Commit and push updates
+    #   run: |
+    #     git config --local user.email "action@github.com"
+    #     git config --local user.name "GitHub Action"
+    #     git add .
+    #     git commit -m "🤖 Automated weekly scraping - $(date +'%Y-%m-%d')" || echo "No changes to commit"
+    #     git push
         
     - name: Create summary
       run: |
@@ -51,4 +52,7 @@ jobs:
         echo "- **Date:** $(date)" >> $GITHUB_STEP_SUMMARY
         echo "- **Status:** ✅ Success" >> $GITHUB_STEP_SUMMARY
         echo "- **Next run:** Next Sunday at 2 AM UTC" >> $GITHUB_STEP_SUMMARY
+
+
+
 

@@ -2,3 +2,10 @@
 *.log
 .env.local
 /__pycache__
+
+# Academic scraper debug files (generated weekly, don't commit)
+academic/*_events_debug.json
+academic/__pycache__/
+academic/scraped_events.json
+academic/worker_events.json
+academic/worker_events_code.js

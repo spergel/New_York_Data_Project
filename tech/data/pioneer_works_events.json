@@ -1,14 +1,14 @@
 {
   "events": [
     {
-      "id": "evt_pioneer_5b4fcda1",
-      "name": "Warpmode: Afropocalypse ",
+      "id": "evt_pioneer_17b91722",
+      "name": "Second Sundays: October 2025",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Black Beyond’s Warpmode is a conceptual card game and social experience created by artist Jazsalyn to stimulate conversations grounded in Black Metatheo...",
-      "startDate": "2025-03-23T20:00:00+00:00",
-      "endDate": "2025-03-24T03:00:00+00:00",
+      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
+      "startDate": "2025-10-12T23:00:00+00:00",
+      "endDate": "2025-10-13T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -18,11 +18,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/8de4382391a4c2ac48e5d2e9b62bc431bbc58adc-3000x2003.jpg?w=800"
+        null
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/black-beyond-warpmode-jazsalyn-american-artist",
+        "source_url": "https://pioneerworks.org/programs/second-sundays-october-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -37,14 +37,14 @@
       }
     },
     {
-      "id": "evt_pioneer_83057435",
-      "name": "Astrid Sonne, Tarta Relena, Jules Reidy",
+      "id": "evt_pioneer_e4a02d96",
+      "name": "Julian Brave NoiseCat: We Survived the Night",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to present a lineup of ecstatic new music that explores forms of pop, experimentalism and minimalism, featuring Astrid Sonne, T...",
-      "startDate": "2025-03-25T23:30:00+00:00",
-      "endDate": "2025-03-26T03:00:00+00:00",
+      "description": "Join Pioneer Works and Greenlight Bookstore for the official launch of Julian Brave NoiseCat’s We Survived the Night—a stunning debut that interweaves o...",
+      "startDate": "2025-10-14T23:30:00+00:00",
+      "endDate": "2025-10-15T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -54,11 +54,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/f7477670ec7c241d7eda89e060e046632c3cfe39-1600x2002.png?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/e43022f96595fae096db2c339fa482beec0aab13-1673x1071.png?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/astrid-sonne-tarta-relena-jules-reidy",
+        "source_url": "https://pioneerworks.org/programs/julian-brave-noisecat-we-survived-the-night",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -73,14 +73,14 @@
       }
     },
     {
-      "id": "evt_pioneer_9eb4de28",
-      "name": "Black Eyes, Dreamcrusher",
+      "id": "evt_pioneer_0118af5d",
+      "name": "YOB with Windhand",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to welcome back DC post-punk luminaries Black Eyes with an opening performance from NYC noise artist Dreamcrusher.Black EyesFol...",
-      "startDate": "2025-03-30T00:00:00+00:00",
-      "endDate": "2025-03-30T03:00:00+00:00",
+      "description": "LPR Presents and Pioneer Works invite you to an evening of immersive metal and rock transcendence in the Pioneer Works Main Hall with a rare stateside a...",
+      "startDate": "2025-10-15T23:30:00+00:00",
+      "endDate": "2025-10-16T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -90,11 +90,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/6bf5ca114c27eebf3024ba8de5eb63c3597db600-3414x2203.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/38c32d220dc6c06a3f3ebb4982fbc0e42f7c20a4-2400x3600.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/black-eyes-dreamcrusher",
+        "source_url": "https://pioneerworks.org/programs/yob-with-windhand",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -109,14 +109,14 @@
       }
     },
     {
-      "id": "evt_pioneer_bbae254c",
-      "name": "Science vs Fiction: N.K. Jemisin",
+      "id": "evt_pioneer_663fca45",
+      "name": "Ragas Live Festival 2025",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Few authors have reshaped the landscape of speculative fiction like N.K. Jemisin. In the spirit of the visionary Octavia E. Butler, Jemisin crafts world...",
-      "startDate": "2025-04-01T23:30:00+00:00",
-      "endDate": "2025-04-02T03:00:00+00:00",
+      "description": "“24 hours of uninterrupted, absolutely incredible music performances\" —The New York Times \nPioneer Works is excited to present the 14th annual Ragas Liv...",
+      "startDate": "2025-10-18T23:00:00+00:00",
+      "endDate": "2025-10-20T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -126,11 +126,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/d4ca96f6f1491d6b0cca06e5c444f9e25f04b679-16000x9000.png?w=800"
+        null
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/science-vs-fiction-n-k-jemisin",
+        "source_url": "https://pioneerworks.org/programs/ragas-live-festival-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -145,14 +145,14 @@
       }
     },
     {
-      "id": "evt_pioneer_75013be1",
-      "name": "YATTA & HxH: Joint Record Release Show",
+      "id": "evt_pioneer_663fca45",
+      "name": "Ragas Live Festival 2025",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to present a joint record release show by alumni music residents YATTA and HxH. YATTA will be celebrating the release of their ...",
-      "startDate": "2025-04-03T00:00:00+00:00",
-      "endDate": "2025-04-03T03:00:00+00:00",
+      "description": "“24 hours of uninterrupted, absolutely incredible music performances\" —The New York Times \nPioneer Works is excited to present the 14th annual Ragas Liv...",
+      "startDate": "2025-10-18T23:00:00+00:00",
+      "endDate": "2025-10-20T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -162,11 +162,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/3e2692d712ed5d2fad46afb505a203ffd5598636-2880x1905.jpg?w=800"
+        null
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/yatta-and-hxh",
+        "source_url": "https://pioneerworks.org/programs/ragas-live-festival-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -181,14 +181,14 @@
       }
     },
     {
-      "id": "evt_pioneer_84304e86",
-      "name": "False Harmonics #23: Brìghde Chaimbeul, Cleek Schrey & Nora Brown, Laura Ortman",
+      "id": "evt_pioneer_10a49ee1",
+      "name": "Sci Con: Expansion of the Universe",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "False Harmonics #23: Brìghde Chaimbeul, Cleek Schrey & Nora Brown, Laura OrtmanFor the 23rd iteration, False Harmonics welcomes Scottish piper Brìghde C...",
-      "startDate": "2025-04-09T00:00:00+00:00",
-      "endDate": "2025-04-09T03:00:00+00:00",
+      "description": "Adam Reiss shared the Nobel Prize in Physics for observations of galaxy motions that shocked even him. Yes, the Universe was expanding as Hubble showed ...",
+      "startDate": "2025-10-24T00:00:00+00:00",
+      "endDate": "2025-10-24T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -198,11 +198,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/61b608b57389a511c6bcf68afd0dd03ced92abe6-4780x3187.jpg?w=800"
+        null
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/false-harmonics-23",
+        "source_url": "https://pioneerworks.org/programs/scientific-controversies-expansion-of-the-universe",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -217,14 +217,14 @@
       }
     },
     {
-      "id": "evt_pioneer_344a8351",
-      "name": "Ende Tymes 15: Aaron Dilloway, The Rita, Spiteful Womb, Charmaine Lee, Valise",
+      "id": "evt_pioneer_b057e13c",
+      "name": "Members Night with Pioneer Works Artists-In-Residence",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to present the opening night of the 15th Annual Ende Tymes Festival of Noise and Sonic Liberation, featuring performances by Aa...",
-      "startDate": "2025-04-11T00:00:00+00:00",
-      "endDate": "2025-04-11T03:00:00+00:00",
+      "description": "The Pioneer Works Residency Program provides emerging artists and musicians with a space to work, tools to create, and a platform to exchange ideas. Dur...",
+      "startDate": "2025-10-28T23:00:00+00:00",
+      "endDate": "2025-10-29T03:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -234,11 +234,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/c5609ded57ba869b3c5909e564135f4d4dc24954-3600x3600.png?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/0116312c658fe99c60a75461ee8adc0d8d288059-1478x986.png?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/ende-tymes-15-aaron-dilloway-the-rita-spiteful-womb-charmaine-lee-valise",
+        "source_url": "https://pioneerworks.org/programs/members-night-with-pioneer-works-artists-in-residence",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -253,14 +253,14 @@
       }
     },
     {
-      "id": "evt_pioneer_0e7e4df9",
-      "name": "Why We Die ",
+      "id": "evt_pioneer_8e6d61d2",
+      "name": "Andy Stott, Carrier ",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Join us to celebrate Venki Ramakrishnan, Nobel Prize-winning biologist and author of Why We Die: The New Science of Aging and the Quest for Immortality....",
-      "startDate": "2025-04-29T23:30:00+00:00",
-      "endDate": "2025-04-30T03:00:00+00:00",
+      "description": "Presented by Public Records in collaboration with Pioneer Works, Durations is a festival exploring the limits of sound across electronic, experimental p...",
+      "startDate": "2025-11-07T01:00:00+00:00",
+      "endDate": "2025-11-07T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -270,11 +270,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/03cda9c81901e1e62e3d61fd1e97b3c037ecf50f-1590x2400.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/0ae17b06db6572be2b653be6b31f5c5b0f35ef31-5976x3984.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/why-we-die",
+        "source_url": "https://pioneerworks.org/programs/andy-stott-carrier",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -289,14 +289,14 @@
       }
     },
     {
-      "id": "evt_pioneer_f09297e3",
-      "name": "Kim Gordon",
+      "id": "evt_pioneer_6fdffbb7",
+      "name": "Second Sundays: November 2025",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to team up with Bang on a Can to present the opening night of Long Play 2025 with a performance from the iconic Kim Gordon with...",
-      "startDate": "2025-05-03T00:00:00+00:00",
-      "endDate": "2025-05-03T03:00:00+00:00",
+      "description": "Since 2013, Pioneer Works has hosted Second Sundays, a free monthly open house. Highlighting our programs, artists-in-residence, and Red Hook community ...",
+      "startDate": "2025-11-10T00:00:00+00:00",
+      "endDate": "2025-11-10T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -306,11 +306,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/1e14d34b856deb2e3b5b4218b1057575a56bb1a9-500x500.jpg?w=800"
+        null
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/kim-gordon",
+        "source_url": "https://pioneerworks.org/programs/second-sundays-november-2025",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -325,14 +325,14 @@
       }
     },
     {
-      "id": "evt_pioneer_04475b4a",
-      "name": "Terry Riley 90th Birthday Tribute with Pete Townshend, Bang on a Can All-Stars, Gyan Riley & Special Guests",
+      "id": "evt_pioneer_2b8f918f",
+      "name": "Chokehole ",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "PLEASE NOTE: As part of Long Play Festival, there are no individual tickets available to this show. Access to the Terry Riley 90th Birthday Tribute is c...",
-      "startDate": "2025-05-05T00:00:00+00:00",
-      "endDate": "2025-05-05T03:00:00+00:00",
+      "description": "With economies crashing, techno fascism uploading, and the nuclear war boiling, what better way to celebrate the end of the world than drag queen wrestl...",
+      "startDate": "2025-11-12T01:00:00+00:00",
+      "endDate": "2025-11-13T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -342,11 +342,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/e53bef0dd9b2ceb54fa8dc39681646cb481e65ef-3000x3595.png?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/cfa481d03aa89d8086c805859fcd7ef233699dc6-3543x2362.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/terry-riley-90th-birthday-tribute-with-pete-townshend-bang-on-a-can-all-stars-gyan-riley-and",
+        "source_url": "https://pioneerworks.org/programs/chokehole",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -361,14 +361,14 @@
       }
     },
     {
-      "id": "evt_pioneer_79044948",
-      "name": "Village Fête 2025",
+      "id": "evt_pioneer_2b8f918f",
+      "name": "Chokehole ",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works and our Board of Directors invite you to join us on Tuesday, May 6 in celebration of the semi-centennial of our Founder, Dustin Yellin. Ra...",
-      "startDate": "2025-05-06T23:00:00+00:00",
-      "endDate": "2025-05-07T03:00:00+00:00",
+      "description": "With economies crashing, techno fascism uploading, and the nuclear war boiling, what better way to celebrate the end of the world than drag queen wrestl...",
+      "startDate": "2025-11-12T01:00:00+00:00",
+      "endDate": "2025-11-13T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -378,11 +378,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/8b406d24c53c48b45db4fdd102e5a8f0f3d26fd6-2000x2284.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/cfa481d03aa89d8086c805859fcd7ef233699dc6-3543x2362.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/village-fete-2025",
+        "source_url": "https://pioneerworks.org/programs/chokehole",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -397,14 +397,14 @@
       }
     },
     {
-      "id": "evt_pioneer_ede65939",
-      "name": "Godspeed You! Black Emperor (2 Shows)",
+      "id": "evt_pioneer_415cc96f",
+      "name": "The American Analog Set perform “Magic Hour” (2 Nights)",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "LPR Presents & Pioneer Works welcome legendary Canadian post-rock band Godspeed You! Black Emperor to the Pioneer Works' Main Hall on Wednesday, June 25...",
-      "startDate": "2025-06-25T23:00:00+00:00",
-      "endDate": "2025-06-27T03:00:00+00:00",
+      "description": "Pioneer Works is proud to present the American Analog Set for the Brooklyn debut of Magic Hour, a special seated performance in our Main Hall. An intima...",
+      "startDate": "2025-11-20T01:00:00+00:00",
+      "endDate": "2025-11-21T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -414,11 +414,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/afb5058db4c37e4e26f86f9bf103f051f7134b18-1920x1080.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/2bb44f5c74bc424a30ee99793e7b01aa2315651f-2200x1700.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/godspeed-you-black-emperor",
+        "source_url": "https://pioneerworks.org/programs/the-american-analog-set-magic-hour",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -433,14 +433,14 @@
       }
     },
     {
-      "id": "evt_pioneer_ede65939",
-      "name": "Godspeed You! Black Emperor (2 Shows)",
+      "id": "evt_pioneer_415cc96f",
+      "name": "The American Analog Set perform “Magic Hour” (2 Nights)",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "LPR Presents & Pioneer Works welcome legendary Canadian post-rock band Godspeed You! Black Emperor to the Pioneer Works' Main Hall on Wednesday, June 25...",
-      "startDate": "2025-06-25T23:00:00+00:00",
-      "endDate": "2025-06-27T03:00:00+00:00",
+      "description": "Pioneer Works is proud to present the American Analog Set for the Brooklyn debut of Magic Hour, a special seated performance in our Main Hall. An intima...",
+      "startDate": "2025-11-20T01:00:00+00:00",
+      "endDate": "2025-11-21T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -450,11 +450,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/afb5058db4c37e4e26f86f9bf103f051f7134b18-1920x1080.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/2bb44f5c74bc424a30ee99793e7b01aa2315651f-2200x1700.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/godspeed-you-black-emperor",
+        "source_url": "https://pioneerworks.org/programs/the-american-analog-set-magic-hour",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -469,14 +469,14 @@
       }
     },
     {
-      "id": "evt_pioneer_e6e0d4fe",
-      "name": "Deerhoof",
+      "id": "evt_pioneer_c57c635f",
+      "name": "Pioneer Works on The Lot Radio ",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to bring Deerhoof to our Main Hall on June 28, 2025 as they embark on their \"31 Flavours Tour\" to celebrate their 31st year. Th...",
-      "startDate": "2025-06-28T23:30:00+00:00",
-      "endDate": "2025-06-29T03:00:00+00:00",
+      "description": "Tune into Pioneer Works' monthly residency on The Lot Radio featuring current and past artists-in-residence. The Lot Radio streams live online from an o...",
+      "startDate": "2025-11-25T00:00:00+00:00",
+      "endDate": "2025-11-25T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -486,11 +486,11 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/7e273e47de3b2fea94e6463d9f71e109e21c9d8e-6720x4480.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/a42fcf50389690227688f39598793ef12a6046c3-1072x576.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/deerhoof",
+        "source_url": "https://pioneerworks.org/programs/pioneer-works-on-the-lot-radio-2",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",
@@ -505,14 +505,14 @@
       }
     },
     {
-      "id": "evt_pioneer_132487e2",
-      "name": "Bonnie \"Prince\" Billy",
+      "id": "evt_pioneer_38436e0f",
+      "name": "Press Play",
       "type": "Cultural Event",
       "locationId": "loc_pioneer_works",
       "communityId": "com_pioneer_works",
-      "description": "Pioneer Works is excited to team up with Bowery Presents to bring the legendary Kentuckian songwriter Bonnie \"Prince\" Billy to our Main Hall stage this ...",
-      "startDate": "2025-08-09T00:00:00+00:00",
-      "endDate": "2025-08-09T03:00:00+00:00",
+      "description": "Calling all book lovers, small presses, labels, complainers, and noise-makers: Press Play is back for its sixth edition! A two-day fair of books, record...",
+      "startDate": "2025-12-14T00:00:00+00:00",
+      "endDate": "2025-12-15T04:00:00+00:00",
       "category": [
         "Arts",
         "Music",
@@ -522,11 +522,119 @@
       "registrationRequired": true,
       "tags": [],
       "image": [
-        "https://cdn.sanity.io/images/vgvol637/production/e1f4aee39dde4dde06205184495fd9a967708de0-3000x3000.jpg?w=800"
+        "https://cdn.sanity.io/images/vgvol637/production/a46286798eed427c9e8503cac1ea0ed12b80eab0-7986x5327.jpg?w=800"
       ],
       "status": "upcoming",
       "metadata": {
-        "source_url": "https://pioneerworks.org/programs/bonnie-prince-billy",
+        "source_url": "https://pioneerworks.org/programs/press-play",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_38436e0f",
+      "name": "Press Play",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Calling all book lovers, small presses, labels, complainers, and noise-makers: Press Play is back for its sixth edition! A two-day fair of books, record...",
+      "startDate": "2025-12-14T00:00:00+00:00",
+      "endDate": "2025-12-15T04:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/a46286798eed427c9e8503cac1ea0ed12b80eab0-7986x5327.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/press-play",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_fec6247e",
+      "name": "Meshell Ndegeocello, Cory Henry, Annie & The Caldwells",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "Pioneer Works and Winter Jazzfest join forces with the city’s most adventurous jazz festival to host an unforgettable evening featuring three singular v...",
+      "startDate": "2026-01-12T01:00:00+00:00",
+      "endDate": "2026-01-12T04:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/df5e7c7e5df225d08ab733d0040c422226eb4816-1080x1350.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/meshell-ndegeocello-cory-henry-annie-and-the-caldwells",
+        "organizer": {
+          "name": "Pioneer Works",
+          "instagram": "@pioneerworks",
+          "email": "info@pioneerworks.org"
+        },
+        "venue": {
+          "name": "Pioneer Works",
+          "address": "159 Pioneer Street",
+          "type": "Cultural Institution"
+        },
+        "featured": false
+      }
+    },
+    {
+      "id": "evt_pioneer_94c2f6ed",
+      "name": "DakhaBrakha",
+      "type": "Cultural Event",
+      "locationId": "loc_pioneer_works",
+      "communityId": "com_pioneer_works",
+      "description": "In partnership with World Music Institute, Pioneer Works is proud to present the renowned Ukrainian quartet DakhaBrakha in the Main Hall on March 1, 202...",
+      "startDate": "2026-03-02T01:00:00+00:00",
+      "endDate": "2026-03-02T04:00:00+00:00",
+      "category": [
+        "Arts",
+        "Music",
+        "Science"
+      ],
+      "price": null,
+      "registrationRequired": true,
+      "tags": [],
+      "image": [
+        "https://cdn.sanity.io/images/vgvol637/production/2ae684e9c9a18c05e3f1741e38ab164aef66dd97-2048x1403.jpg?w=800"
+      ],
+      "status": "upcoming",
+      "metadata": {
+        "source_url": "https://pioneerworks.org/programs/DakhaBrakha",
         "organizer": {
           "name": "Pioneer Works",
           "instagram": "@pioneerworks",

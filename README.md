@@ -97,6 +97,37 @@ A cozy, nostalgic academic events platform with the warm vibes of a 90s coffeeho
 3. **Open `index.html` in your browser**
 4. **Or run a local server**: `python -m http.server 8000`
 
+## 🧪 Testing Scrapers
+
+We have comprehensive testing tools for all event scrapers:
+
+### Quick Test
+```bash
+# Test all scrapers with existing output
+python test_scrapers.py
+
+# Test with detailed output
+python test_scrapers.py -v
+
+# Test specific category
+python test_scrapers.py -c academic
+```
+
+### Windows Users
+Double-click these batch files:
+- `test_all_scrapers.bat` - Quick test of all scrapers
+- `test_all_verbose.bat` - Detailed test with JSON report
+- `test_academic_only.bat` - Test only academic scrapers
+
+### Documentation
+- See **[TESTING.md](TESTING.md)** for comprehensive testing guide
+- See **[TEST_EXAMPLES.md](TEST_EXAMPLES.md)** for practical examples
+
+### Category-Specific Runners
+- **Academic**: `cd academic && python weekly_scraper.py`
+- **Tech**: `cd tech && python run_all_scrapers.py`
+- **Exercise**: `cd exercise && python run_all_scrapers.py`
+
 ## 🌟 Inspiration
 
 This design draws inspiration from:
