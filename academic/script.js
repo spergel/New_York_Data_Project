@@ -23,13 +23,13 @@ class AcademicEventsApp {
     }
 
     async loadEvents() {
-        const response = await fetch('scraped_events.json');
+        const response = await fetch('https://nyc-academic-events-api.spergel-joshua.workers.dev/');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
 
         const data = await response.json();
-        this.allEvents = data.events || [];
+        this.allEvents = data || [];
 
         // Extract unique sources and categories
         this.allEvents.forEach(event => {

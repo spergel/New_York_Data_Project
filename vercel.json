@@ -2,8 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "*.html",
+      "src": "academic/index.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "academic/styles.css",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "academic/script.js",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/academic/index.html"
     }
   ]
 }
