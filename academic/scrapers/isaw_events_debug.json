@@ -1,0 +1,339 @@
+{
+  "events": [
+    {
+      "id": "evt_isaw_9b2aaf3a",
+      "name": "How China’s Early Empires Conquered and Transformed the Yangtze Delta",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Brian Lander\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This talk will analyze how the Chu, Qin and Han empires conquered and colonized this region, gradually transforming it from a culturally alien frontier into a regular, if remote, part of the Han empire. The paucity of texts on this region’s early history reflects the disdain early China’s literate elites held towards it and makes archaeological evidence particularly important.",
+      "start_date": "2025-10-14T17:30:00",
+      "end_date": "2025-10-14T19:30:00",
+      "category": [
+        "ARTS",
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/china-yangtze-delta",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/china-yangtze-delta/leadImage_mini",
+          "speaker": "Brian Lander",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_155055cb",
+      "name": "Mapungubwe Beyond the Golden Rhino: Inferring Local Dynamics for Southern Africa’s First State through the Provenance of Copper and Bronze",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Jay Stephens\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. For nearly 100 years, the South African site of Mapungubwe has been central to our understanding of the Iron Age in southern Africa. Its burials, first excavated in the 1930’s, were laden with gold, thousands of glass beads, and clear expressions of social hierarchy.",
+      "start_date": "2025-10-21T17:30:00",
+      "end_date": "2025-10-21T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/Mapungubwe-golden-rhino",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/Mapungubwe-golden-rhino/leadImage_mini",
+          "speaker": "Jay Stephens",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_13af9af2",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Kimiko Adler\n\nForeign Cults in Imperial Rome: Long Since Has the Syrian Orontes Flowed into the Tiber\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. As the Roman Empire expanded into the Eastern Mediterranean, the city of Rome became a crossroads of new products, peoples, and religions. Much to the dismay of some Roman authors, the capital transformed into a multi-religious city, home to cults and communities from Egypt, Syria, Anatolia, Judaea-Palestina, and beyond. Within this diverse landscape, religious groups both preserved their traditions and adapted to life in Rome.",
+      "start_date": "2025-10-22T17:30:00",
+      "end_date": "2025-10-22T19:30:00",
+      "category": [
+        "ARTS",
+        "HISTORY",
+        "RELIGION"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-cults-imperial-rome",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-cults-imperial-rome/leadImage_mini",
+          "speaker": "Kimiko Adler",
+          "subtitle": "Foreign Cults in Imperial Rome: Long Since Has the Syrian Orontes Flowed into the Tiber",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_1cb7f875",
+      "name": "Crossing the Yellow Sea: The Exchange of Metalworking Knowledge and Technologies in the Interconnected Ancient East Asian World",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Chris Kim\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. The first regions in East Asia to develop sophisticated metalworking traditions from the second millennium BCE onward were the various cultural and political centers of Inner China, including the historical Shang and Zhou dynasties based in the Yellow River valley.",
+      "start_date": "2025-10-28T17:30:00",
+      "end_date": "2025-10-28T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/crossing-the-yellow-sea",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/crossing-the-yellow-sea/leadImage_mini",
+          "speaker": "Chris Kim",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_25dc6564",
+      "name": "Craftsmen’s Marks on Glazed Bricks and Ivories from the 1st Millenium BCE in the Ancient Near East and What They can Tell us About Their Makers",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: May-Sarah Zeßin\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This lecture investigates the functions of craftsmen's marks found on various surfaces of glazed bricks from the 1st millennium BCE. It will be shown at which stages of the production and construction process these marks were applied.",
+      "start_date": "2025-11-04T17:30:00",
+      "end_date": "2025-11-04T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/craftsmens-mark-glazed-bricks-ivories",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/craftsmens-mark-glazed-bricks-ivories/leadImage_mini",
+          "speaker": "May-Sarah Zeßin",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_d8ad989a",
+      "name": "Beyond the Silk Road",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Sitta von Reden\n\nOr, Why One Rhinoceros Fewer from India Would Not Have Hurt the Ancient Economy\n\nThis lecture will take place in person at ISAW. Prof. von Reden will offer alternative ways of thinking about why we find Chinese silk in Palmyra, Egyptian glass vessels in Afghanistan, and Roman coins in Thailand and Vietnam.",
+      "start_date": "2025-11-06T17:30:00",
+      "end_date": "2025-11-06T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/vonreden-beyond-silk-road",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/vonreden-beyond-silk-road/leadImage_mini",
+          "speaker": "Sitta von Reden",
+          "subtitle": "Or, Why One Rhinoceros Fewer from India Would Not Have Hurt the Ancient Economy",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_56d7d460",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Ricarda Meisl\n\nBetween the Temple and the Gymnasium: Forging the Body in Greco-Roman Antiquity\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. Belief systems around the body have a great influence on how societies conceptualize themselves, others, and their divinities. For the ancient world, the idealized bodies of gods and heroes, immortalized in flawless marble, have long defined our vision of Greece and Rome, but beyond these perfect forms lies a more complex story. This workshop delves into the lived reality of the body in antiquity, exploring how beliefs surrounding beauty, fitness, medicine, and disability shaped societies.",
+      "start_date": "2025-11-12T17:30:00",
+      "end_date": "2025-11-12T19:30:00",
+      "category": [
+        "ARTS",
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-temple-and-gymnasium",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-temple-and-gymnasium/leadImage_mini",
+          "speaker": "Ricarda Meisl",
+          "subtitle": "Between the Temple and the Gymnasium: Forging the Body in Greco-Roman Antiquity",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_d34dded0",
+      "name": "19th Annual Leon Levy Lecture",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Karen Radner\n\nFraming Conquest as Deliverance: Lessons from Assyria in the 10th-9th Centuries BCE\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. In the 10th century BCE, the formerly grand kingdom of Assyria consisted only of what is today northern Iraq and centered on the three cities Assur, Nineveh (modern Mosul) and Arbela (modern Erbil).",
+      "start_date": "2025-12-01T17:30:00",
+      "end_date": "2025-12-01T19:30:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/19th-annual-leon-levy-lecture",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/19th-annual-leon-levy-lecture/leadImage_mini",
+          "speaker": "Karen Radner",
+          "subtitle": "Framing Conquest as Deliverance: Lessons from Assyria in the 10th-9th Centuries BCE",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_1cb3a533",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Isabel Grossman-Sartain\n\nState Religion in the Ancient Mediterranean and Mesopotamia: Egypt, the Neo-Assyrians, and Rome\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers.",
+      "start_date": "2025-12-03T17:30:00",
+      "end_date": "2025-12-03T19:30:00",
+      "category": [
+        "ARTS",
+        "HISTORY",
+        "RELIGION"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-state-religion-mediterranean-mesopotamia",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-state-religion-mediterranean-mesopotamia/leadImage_mini",
+          "speaker": "Isabel Grossman-Sartain",
+          "subtitle": "State Religion in the Ancient Mediterranean and Mesopotamia: Egypt, the Neo-Assyrians, and Rome",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_c4d14012",
+      "name": "Nature’s Greatest Success",
+      "type": "Academic",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Robert N. Spengler\n\nHow Plants Evolved to Exploit Humanity\n\nThe domestication of plants in prehistory allowed humanity to demographically expand, form dense population congregations (urbanism and social hierarchies), and advance the arts and sciences. For millennia, humans drove the evolution of domestication traits in crops and animals. Archaeologists, ecologists, and geneticists are all working to develop new theories about how domestication in antiquity occurred; one of these theories  – the ecological release hypothesis – suggests that crops and animals evolved traits of domestication as a response to humans simply removing predators and herbivores. Dr. Spengler will briefly explore a few key themes in this theory and the rich history of domestication and culture, which he traces in his recent book, Nature's Greatest Success: How Plants evolved to Exploit Humanity.",
+      "start_date": "2025-12-04T17:30:00",
+      "end_date": "2025-12-04T19:30:00",
+      "category": [
+        "ARTS",
+        "HISTORY",
+        "SCIENCE"
+      ],
+      "source": "isaw",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/spengler-natures-greatest-success/leadImage_mini",
+          "speaker": "Robert N. Spengler",
+          "subtitle": "How Plants Evolved to Exploit Humanity",
+          "rsvp_required": true
+        }
+      }
+    }
+  ]
+}

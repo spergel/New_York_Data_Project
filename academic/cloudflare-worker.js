@@ -88,6 +88,12 @@ async function handleRequest(request) {
         end_date
       });
       
+      // Sort events by start date in ascending order (earliest first)
+      filteredEvents.sort((a, b) => {
+        if (!a.start_date || !b.start_date) return 0;
+        return a.start_date.localeCompare(b.start_date);
+      });
+      
       // Apply pagination
       const total = filteredEvents.length;
       const paginatedEvents = filteredEvents.slice(offset, offset + limit);

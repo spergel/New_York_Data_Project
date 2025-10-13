@@ -1,824 +1,414 @@
-// API Configuration
-const API_BASE_URL = 'https://nyc-academic-events-api.spergel-joshua.workers.dev';
+// NYC Academic Events Website JavaScript
+class AcademicEventsApp {
+    constructor() {
+        this.allEvents = [];
+        this.filteredEvents = [];
+        this.sources = new Set();
+        this.categories = new Set();
+        this.sortColumn = 'date'; // Default sort by date
+        this.sortDirection = 'asc'; // Default ascending
 
-// Global state
-let allEvents = [];
-let filteredEvents = [];
-let currentPage = 1;
-let eventsPerPage = 12;
-let currentView = 'grid';
-let currentQuickFilter = 'all';
-let currentSortBy = 'date'; // 'date', 'institution', 'name'
-let currentSortOrder = 'asc'; // 'asc', 'desc'
-
-// DOM Elements
-const elements = {
-    loading: document.getElementById('loading'),
-    eventsContainer: document.getElementById('events-container'),
-    eventsGrid: document.getElementById('events-grid'),
-    noResults: document.getElementById('no-results'),
-    pagination: document.getElementById('pagination'),
-    eventsCount: document.getElementById('events-count'),
-    totalEvents: document.getElementById('total-events'),
-    totalInstitutions: document.getElementById('total-institutions'),
-    lastUpdated: document.getElementById('last-updated'),
-    institutionFilter: document.getElementById('institution-filter'),
-    dateFrom: document.getElementById('date-from'),
-    dateTo: document.getElementById('date-to'),
-    searchInput: document.getElementById('search-input'),
-    clearFilters: document.getElementById('clear-filters'),
-    gridView: document.getElementById('grid-view'),
-    listView: document.getElementById('list-view'),
-    sortBy: document.getElementById('sort-by'),
-    sortOrder: document.getElementById('sort-order'),
-    prevPage: document.getElementById('prev-page'),
-    nextPage: document.getElementById('next-page'),
-    pageInfo: document.getElementById('page-info'),
-    modal: document.getElementById('event-modal'),
-    modalContent: document.getElementById('modal-content'),
-    closeModal: document.querySelector('.close')
-};
-
-// Initialize the application
-async function init() {
-    try {
-        await loadStats();
-        await loadEvents();
-        setupEventListeners();
-        populateInstitutionFilter();
-    } catch (error) {
-        console.error('Failed to initialize:', error);
-        showError('Failed to load events. Please try again later.');
+        this.init();
     }
-}
 
-// Load API statistics and update hero section
-async function loadStats() {
-    try {
-        const response = await fetch(`${API_BASE_URL}/api/stats`);
-        const stats = await response.json();
-        
-        // Update hero stats
-        const todayCount = getTodayEventsCount();
-        const weekCount = getWeekEventsCount();
-        
-        document.getElementById('today-events').textContent = todayCount;
-        document.getElementById('week-events').textContent = weekCount;
-        document.getElementById('total-institutions').textContent = stats.data.sources || '0';
-        
-        // Update hero title based on today's events
-        const heroTitle = document.getElementById('hero-title');
-        const heroSubtitle = document.getElementById('hero-subtitle');
-        
-        if (todayCount > 0) {
-            heroTitle.textContent = `What's Happening Today?`;
-            heroSubtitle.textContent = `Discover ${todayCount} academic events across NYC's top institutions`;
-        } else {
-            heroTitle.textContent = `Discover Academic Events`;
-            heroSubtitle.textContent = `Explore upcoming lectures, seminars, and conferences across NYC's universities`;
+    async init() {
+        try {
+            await this.loadEvents();
+            this.setupEventListeners();
+            this.updateStats();
+        } catch (error) {
+            console.error('Error initializing app:', error);
+            this.showError('Failed to load events data');
         }
-    } catch (error) {
-        console.error('Failed to load stats:', error);
     }
-}
 
-// Helper functions for date filtering
-function getTodayEventsCount() {
-    const today = new Date().toISOString().split('T')[0];
-    return allEvents.filter(event => {
-        if (!event.start_date) return false;
-        // Only count events with valid YYYY-MM-DD format
-        if (!/^\d{4}-\d{2}-\d{2}$/.test(event.start_date)) return false;
-        return event.start_date >= today;
-    }).length;
-}
+    async loadEvents() {
+        const response = await fetch('scraped_events.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
 
-function getWeekEventsCount() {
-    const today = new Date();
-    const weekFromNow = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
-    const todayStr = today.toISOString().split('T')[0];
-    const weekStr = weekFromNow.toISOString().split('T')[0];
-    
-    return allEvents.filter(event => {
-        if (!event.start_date) return false;
-        // Only count events with valid YYYY-MM-DD format
-        if (!/^\d{4}-\d{2}-\d{2}$/.test(event.start_date)) return false;
-        const eventDate = event.start_date;
-        return eventDate >= todayStr && eventDate <= weekStr;
-    }).length;
-}
-
-// Load all events from API
-async function loadEvents() {
-    try {
-        elements.loading.style.display = 'block';
-        elements.eventsContainer.style.display = 'none';
-        elements.noResults.style.display = 'none';
-        
-        // Load all events using the pagination API
-        const response = await fetch(`${API_BASE_URL}/api/events?limit=1000`);
         const data = await response.json();
-        
-        allEvents = data.data.events || [];
-        filteredEvents = [...allEvents];
-        
-        console.log(`Loaded ${allEvents.length} events from API (Total: ${data.data.pagination.total})`);
-        
-        elements.loading.style.display = 'none';
-        renderEvents();
-    } catch (error) {
-        console.error('Failed to load events:', error);
-        elements.loading.style.display = 'none';
-        showError('Failed to load events. Please try again later.');
-    }
-}
+        this.allEvents = data.events || [];
 
-// Populate institution filter dropdown
-function populateInstitutionFilter() {
-    const institutions = [...new Set(allEvents.map(event => event.source_group).filter(Boolean))];
-    institutions.sort();
-    
-    elements.institutionFilter.innerHTML = '<option value="">All Institutions</option>';
-    institutions.forEach(institution => {
-        const option = document.createElement('option');
-        option.value = institution;
-        option.textContent = institution.charAt(0).toUpperCase() + institution.slice(1);
-        elements.institutionFilter.appendChild(option);
-    });
-}
+        // Extract unique sources and categories
+        this.allEvents.forEach(event => {
+            if (event.source && event.source !== 'unknown') {
+                this.sources.add(this.formatSourceName(event.source));
+            } else {
+                // Try to infer source for display
+                const name = (event.name || event.title || '').toLowerCase();
+                const url = event.metadata?.source_url || event.url || '';
 
-// Filter events based on current filters
-function filterEvents() {
-    let filtered = [...allEvents];
-    
-    // Filter out past events (events that have already happened)
-    const today = new Date();
-    const todayStr = today.toISOString().split('T')[0];
-    filtered = filtered.filter(event => {
-        if (!event.start_date) return false; // Skip events without dates
-        
-        // Validate date format and filter out past events
-        const eventDate = event.start_date;
-        
-        // Check if it's a valid YYYY-MM-DD format
-        if (!/^\d{4}-\d{2}-\d{2}$/.test(eventDate)) {
-            return false; // Skip events with invalid date format
-        }
-        
-        // Check if the date is in the future or today
-        return eventDate >= todayStr;
-    });
-    
-    // Quick filter (Today, This Week, This Month)
-    if (currentQuickFilter !== 'all') {
-        switch (currentQuickFilter) {
-            case 'today':
-                filtered = filtered.filter(event => event.start_date === todayStr);
-                break;
-            case 'week':
-                const weekFromNow = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
-                const weekStr = weekFromNow.toISOString().split('T')[0];
-                filtered = filtered.filter(event => {
-                    const eventDate = event.start_date;
-                    return eventDate >= todayStr && eventDate <= weekStr;
-                });
-                break;
-            case 'month':
-                const monthFromNow = new Date(today.getFullYear(), today.getMonth() + 1, today.getDate());
-                const monthStr = monthFromNow.toISOString().split('T')[0];
-                filtered = filtered.filter(event => {
-                    const eventDate = event.start_date;
-                    return eventDate >= todayStr && eventDate <= monthStr;
-                });
-                break;
-        }
-    }
-    
-    // Institution filter
-    const institution = elements.institutionFilter.value;
-    if (institution) {
-        filtered = filtered.filter(event => 
-            event.source_group === institution || 
-            (event.source_group && event.source_group.toLowerCase().includes(institution.toLowerCase()))
-        );
-    }
-    
-    // Event type filter
-    const eventType = document.getElementById('event-type-filter')?.value;
-    if (eventType) {
-        filtered = filtered.filter(event => {
-            const eventText = event.name.toLowerCase() + ' ' + (event.description || '').toLowerCase();
-            return eventText.includes(eventType.toLowerCase());
-        });
-    }
-    
-    // Date range filter
-    const dateFrom = elements.dateFrom.value;
-    const dateTo = elements.dateTo.value;
-    
-    if (dateFrom) {
-        filtered = filtered.filter(event => event.start_date >= dateFrom);
-    }
-    if (dateTo) {
-        filtered = filtered.filter(event => event.start_date <= dateTo);
-    }
-    
-    // Search filter
-    const searchTerm = elements.searchInput.value.toLowerCase();
-    if (searchTerm) {
-        filtered = filtered.filter(event => 
-            event.name.toLowerCase().includes(searchTerm) ||
-            (event.description && event.description.toLowerCase().includes(searchTerm)) ||
-            (event.source_group && event.source_group.toLowerCase().includes(searchTerm))
-        );
-    }
-    
-    // Sort events based on current sort settings
-    filtered.sort((a, b) => {
-        let comparison = 0;
-        
-        switch (currentSortBy) {
-            case 'date':
-                if (!a.start_date || !b.start_date) return 0;
-                comparison = a.start_date.localeCompare(b.start_date);
-                break;
-            case 'institution':
-                const instA = (a.source_name || a.source || '').toLowerCase();
-                const instB = (b.source_name || b.source || '').toLowerCase();
-                comparison = instA.localeCompare(instB);
-                break;
-            case 'name':
-                const nameA = (a.name || '').toLowerCase();
-                const nameB = (b.name || '').toLowerCase();
-                comparison = nameA.localeCompare(nameB);
-                break;
-            default:
-                comparison = 0;
-        }
-        
-        // Apply sort order
-        return currentSortOrder === 'asc' ? comparison : -comparison;
-    });
-    
-    filteredEvents = filtered;
-    currentPage = 1;
-    renderEvents();
-}
-
-// Render events with pagination
-function renderEvents() {
-    const startIndex = (currentPage - 1) * eventsPerPage;
-    const endIndex = startIndex + eventsPerPage;
-    const pageEvents = filteredEvents.slice(startIndex, endIndex);
-    
-    if (filteredEvents.length === 0) {
-        elements.eventsContainer.style.display = 'none';
-        elements.noResults.style.display = 'block';
-        elements.pagination.style.display = 'none';
-        return;
-    }
-    
-    elements.eventsContainer.style.display = 'block';
-    elements.noResults.style.display = 'none';
-    
-    // Update events count
-    elements.eventsCount.textContent = `Events (${filteredEvents.length})`;
-    
-    // Remove any existing info messages to prevent duplication
-    const existingInfo = document.querySelector('.events-info');
-    if (existingInfo) {
-        existingInfo.remove();
-    }
-    
-    // Render event cards
-    elements.eventsGrid.innerHTML = pageEvents.map(event => createEventCard(event)).join('');
-    
-    // Setup pagination
-    setupPagination();
-    
-    // Apply current view
-    applyViewMode();
-}
-
-// Create event card HTML
-function createEventCard(event) {
-    // Use same date formatting as modal for consistency
-    const formatDate = (dateStr) => {
-        if (!dateStr) return 'TBD';
-        
-        // Try to parse the date string - handle various formats
-        let parsedDate;
-        
-        // First try: YYYY-MM-DD format
-        if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-            const [year, month, day] = dateStr.split('-').map(Number);
-            parsedDate = new Date(year, month - 1, day);
-        } else {
-            // Try to parse other date formats
-            parsedDate = new Date(dateStr);
-        }
-        
-        // Validate the parsed date
-        if (isNaN(parsedDate.getTime()) || parsedDate.getFullYear() < 1900 || parsedDate.getFullYear() > 2100) {
-            return 'TBD';
-        }
-        
-        return parsedDate.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: '2-digit',
-            day: '2-digit'
-        });
-    };
-    
-    const date = formatDate(event.start_date);
-            const institution = event.source_group || event.source || 'Unknown';
-    
-    return `
-        <div class="event-card" onclick="openEventModal('${event.event_id}')">
-            <div class="event-title">${escapeHtml(event.name)}</div>
-            <div class="event-description">${renderSafeHtml(event.description || 'No description available')}</div>
-            <div class="event-meta">
-                <span class="event-date">
-                    <i class="fas fa-calendar-day"></i>
-                    ${date}
-                </span>
-                <span class="event-institution">${escapeHtml(institution)}</span>
-            </div>
-        </div>
-    `;
-}
-
-// Setup pagination controls
-function setupPagination() {
-    const totalPages = Math.ceil(filteredEvents.length / eventsPerPage);
-    
-    if (totalPages <= 1) {
-        elements.pagination.style.display = 'none';
-        return;
-    }
-    
-    elements.pagination.style.display = 'flex';
-    elements.pageInfo.textContent = `Page ${currentPage} of ${totalPages}`;
-    
-    elements.prevPage.disabled = currentPage === 1;
-    elements.nextPage.disabled = currentPage === totalPages;
-}
-
-// Apply current view mode (grid/list)
-function applyViewMode() {
-    elements.eventsGrid.classList.toggle('list-view', currentView === 'list');
-}
-
-// Update sort order icon
-function updateSortOrderIcon() {
-    const icon = elements.sortOrder.querySelector('i');
-    if (currentSortOrder === 'asc') {
-        icon.className = 'fas fa-sort-amount-down';
-        elements.sortOrder.title = 'Sort ascending (click to reverse)';
-    } else {
-        icon.className = 'fas fa-sort-amount-up';
-        elements.sortOrder.title = 'Sort descending (click to reverse)';
-    }
-}
-
-// Open event modal
-async function openEventModal(eventId) {
-    try {
-        const response = await fetch(`${API_BASE_URL}/api/events/${eventId}`);
-        const event = await response.json();
-        
-        if (response.ok) {
-            showEventModal(event);
-        } else {
-            showError('Event not found');
-        }
-    } catch (error) {
-        console.error('Failed to load event details:', error);
-        showError('Failed to load event details');
-    }
-}
-
-// Show event modal with details and calendar integration
-function showEventModal(event) {
-    // Fix date formatting to avoid timezone issues
-    const formatDate = (dateStr) => {
-        if (!dateStr) return 'TBD';
-        
-        // Try to parse the date string - handle various formats
-        let parsedDate;
-        
-        // First try: YYYY-MM-DD format
-        if (/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
-            const [year, month, day] = dateStr.split('-').map(Number);
-            parsedDate = new Date(year, month - 1, day);
-        } else {
-            // Try to parse other date formats
-            parsedDate = new Date(dateStr);
-        }
-        
-        // Validate the parsed date
-        if (isNaN(parsedDate.getTime()) || parsedDate.getFullYear() < 1900 || parsedDate.getFullYear() > 2100) {
-            return 'TBD';
-        }
-        
-        return parsedDate.toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: '2-digit',
-            day: '2-digit'
-        });
-    };
-    
-    const date = formatDate(event.start_date);
-    const endDate = formatDate(event.end_date);
-    
-    // Clean up institution name
-    const formatInstitution = (name) => {
-        if (!name) return 'Unknown';
-        // Capitalize first letter and clean up formatting
-        return name.charAt(0).toUpperCase() + name.slice(1).toLowerCase();
-    };
-    
-    elements.modalContent.innerHTML = `
-        <div class="modal-event-title">${escapeHtml(event.name)}</div>
-        <div class="modal-event-description">${renderSafeHtml(event.description || 'No description available')}</div>
-        <div class="modal-event-details">
-            <div class="modal-detail">
-                <div class="modal-detail-label">Date</div>
-                <div class="modal-detail-value">${date}${endDate && endDate !== 'TBD' ? ` - ${endDate}` : ''}</div>
-            </div>
-            <div class="modal-detail">
-                <div class="modal-detail-label">Institution</div>
-                <div class="modal-detail-value">${escapeHtml(formatInstitution(event.source_group || event.source))}</div>
-            </div>
-            <div class="modal-detail">
-                <div class="modal-detail-label">Venue</div>
-                <div class="modal-detail-value">${escapeHtml(event.venue_name || 'TBD')}</div>
-            </div>
-            <div class="modal-detail">
-                <div class="modal-detail-label">Type</div>
-                <div class="modal-detail-value">${escapeHtml(event.venue_type || 'Not specified')}</div>
-            </div>
-        </div>
-        ${event.source_url ? `<a href="${event.source_url}" target="_blank" class="modal-source-link">View Original Event</a>` : ''}
-    `;
-    
-    // Store current event for calendar actions
-    elements.modal.dataset.currentEvent = JSON.stringify(event);
-    
-    elements.modal.style.display = 'block';
-    
-    // Setup calendar action listeners
-    setupCalendarActions(event);
-}
-
-// Calendar integration functions
-function setupCalendarActions(event) {
-    // Google Calendar
-    document.getElementById('add-to-google').onclick = () => addToGoogleCalendar(event);
-    
-    // ICS Download
-    document.getElementById('download-ics').onclick = () => downloadICSFile(event);
-    
-    // Outlook
-    document.getElementById('add-to-outlook').onclick = () => addToOutlook(event);
-    
-    // Apple Calendar
-    document.getElementById('add-to-apple').onclick = () => addToAppleCalendar(event);
-    
-    // Share
-    document.getElementById('share-event').onclick = () => shareEvent(event);
-}
-
-function addToGoogleCalendar(event) {
-    // Validate and parse dates
-    let startDate, endDate;
-    
-    if (event.start_date && /^\d{4}-\d{2}-\d{2}$/.test(event.start_date)) {
-        const [year, month, day] = event.start_date.split('-').map(Number);
-        startDate = new Date(year, month - 1, day);
-    } else {
-        startDate = new Date();
-    }
-    
-    if (event.end_date && /^\d{4}-\d{2}-\d{2}$/.test(event.end_date)) {
-        const [year, month, day] = event.end_date.split('-').map(Number);
-        endDate = new Date(year, month - 1, day);
-    } else {
-        endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
-    }
-    
-    // Validate parsed dates
-    if (isNaN(startDate.getTime()) || startDate.getFullYear() < 1900 || startDate.getFullYear() > 2100) {
-        startDate = new Date();
-        endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
-    }
-    
-    const googleUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(event.name)}&dates=${startDate.toISOString().replace(/[-:]/g, '').split('.')[0]}Z/${endDate.toISOString().replace(/[-:]/g, '').split('.')[0]}Z&details=${encodeURIComponent(event.description || '')}&location=${encodeURIComponent(event.venue_name || '')}`;
-    
-    window.open(googleUrl, '_blank');
-}
-
-function downloadICSFile(event) {
-    // Validate and parse dates
-    let startDate, endDate;
-    
-    if (event.start_date && /^\d{4}-\d{2}-\d{2}$/.test(event.start_date)) {
-        const [year, month, day] = event.start_date.split('-').map(Number);
-        startDate = new Date(year, month - 1, day);
-    } else {
-        startDate = new Date();
-    }
-    
-    if (event.end_date && /^\d{4}-\d{2}-\d{2}$/.test(event.end_date)) {
-        const [year, month, day] = event.end_date.split('-').map(Number);
-        endDate = new Date(year, month - 1, day);
-    } else {
-        endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
-    }
-    
-    // Validate parsed dates
-    if (isNaN(startDate.getTime()) || startDate.getFullYear() < 1900 || startDate.getFullYear() > 2100) {
-        startDate = new Date();
-        endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
-    }
-    
-    const icsContent = [
-        'BEGIN:VCALENDAR',
-        'VERSION:2.0',
-        'PRODID:-//NYC Academic Events//Calendar Event//EN',
-        'BEGIN:VEVENT',
-        `UID:${event.event_id}@academics.somethingtodo.nyc`,
-        `DTSTART:${startDate.toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,
-        `DTEND:${endDate.toISOString().replace(/[-:]/g, '').split('.')[0]}Z`,
-        `SUMMARY:${event.name}`,
-        `DESCRIPTION:${event.description || ''}`,
-        `LOCATION:${event.venue_name || ''}`,
-        `URL:${event.source_url || ''}`,
-        'END:VEVENT',
-        'END:VCALENDAR'
-    ].join('\r\n');
-    
-    const blob = new Blob([icsContent], { type: 'text/calendar' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `${event.name.replace(/[^a-z0-9]/gi, '_').toLowerCase()}.ics`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-}
-
-function addToOutlook(event) {
-    // Validate and parse dates
-    let startDate, endDate;
-    
-    if (event.start_date && /^\d{4}-\d{2}-\d{2}$/.test(event.start_date)) {
-        const [year, month, day] = event.start_date.split('-').map(Number);
-        startDate = new Date(year, month - 1, day);
-    } else {
-        startDate = new Date();
-    }
-    
-    if (event.end_date && /^\d{4}-\d{2}-\d{2}$/.test(event.end_date)) {
-        const [year, month, day] = event.end_date.split('-').map(Number);
-        endDate = new Date(year, month - 1, day);
-    } else {
-        endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
-    }
-    
-    // Validate parsed dates
-    if (isNaN(startDate.getTime()) || startDate.getFullYear() < 1900 || startDate.getFullYear() > 2100) {
-        startDate = new Date();
-        endDate = new Date(startDate.getTime() + 2 * 60 * 60 * 1000);
-    }
-    
-    const outlookUrl = `https://outlook.live.com/calendar/0/deeplink/compose?subject=${encodeURIComponent(event.name)}&startdt=${startDate.toISOString()}&enddt=${endDate.toISOString()}&body=${encodeURIComponent(event.description || '')}&location=${encodeURIComponent(event.venue_name || '')}`;
-    
-    window.open(outlookUrl, '_blank');
-}
-
-function addToAppleCalendar(event) {
-    // Apple Calendar uses ICS files, so we'll download the ICS file
-    downloadICSFile(event);
-}
-
-function shareEvent(event) {
-    const shareData = {
-        title: event.name,
-        text: event.description || '',
-        url: window.location.href
-    };
-    
-    if (navigator.share) {
-        navigator.share(shareData);
-    } else {
-        // Fallback: copy to clipboard
-        const shareText = `${event.name}\n\n${event.description || ''}\n\nView more events: ${window.location.href}`;
-        navigator.clipboard.writeText(shareText).then(() => {
-            alert('Event details copied to clipboard!');
-        });
-    }
-}
-
-// Close event modal
-function closeEventModal() {
-    elements.modal.style.display = 'none';
-}
-
-// Show error message
-function showError(message) {
-    elements.loading.innerHTML = `
-        <div style="color: #ff4757; font-size: 1.2rem; margin-bottom: 10px;">
-            <i class="fas fa-exclamation-triangle"></i>
-        </div>
-        <p>${message}</p>
-    `;
-    elements.loading.style.display = 'block';
-}
-
-// Clear all filters
-function clearFilters() {
-    // Reset quick filters
-    currentQuickFilter = 'all';
-    document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-    document.querySelector('.filter-tab[data-filter="all"]').classList.add('active');
-    
-    // Reset advanced filters
-    elements.institutionFilter.value = '';
-    document.getElementById('event-type-filter').value = '';
-    elements.dateFrom.value = '';
-    elements.dateTo.value = '';
-    elements.searchInput.value = '';
-    filterEvents();
-}
-
-// Change view mode
-function changeView(mode) {
-    currentView = mode;
-    elements.gridView.classList.toggle('active', mode === 'grid');
-    elements.listView.classList.toggle('active', mode === 'list');
-    applyViewMode();
-}
-
-// Navigate to page
-function goToPage(page) {
-    currentPage = page;
-    renderEvents();
-    window.scrollTo({ top: elements.eventsContainer.offsetTop - 100, behavior: 'smooth' });
-}
-
-// Utility function to escape HTML
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
-
-// Utility function to render safe HTML (allows basic formatting)
-function renderSafeHtml(text) {
-    if (!text) return '';
-    
-    // Clean up common unwanted text patterns first
-    let cleanedText = text
-        .replace(/Google Calendar ICS View Event →/gi, '')
-        .replace(/Add to Google Calendar/gi, '')
-        .replace(/Download ICS/gi, '')
-        .replace(/View Event/gi, '')
-        .replace(/→/g, '')
-        .replace(/\s+/g, ' ') // Replace multiple spaces with single space
-        .trim();
-    
-    // Only allow safe HTML tags
-    const allowedTags = ['b', 'strong', 'i', 'em', 'u', 'br', 'p', 'div', 'span', 'ul', 'ol', 'li'];
-    const allowedAttributes = ['class', 'style'];
-    
-    // Create a temporary div to parse the HTML
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = cleanedText;
-    
-    // Recursively clean the HTML
-    function cleanNode(node) {
-        if (node.nodeType === Node.TEXT_NODE) {
-            return node.textContent;
-        }
-        
-        if (node.nodeType === Node.ELEMENT_NODE) {
-            const tagName = node.tagName.toLowerCase();
-            
-            // If tag is not allowed, just return the text content
-            if (!allowedTags.includes(tagName)) {
-                return node.textContent;
-            }
-            
-            // Clean attributes
-            const cleanAttrs = {};
-            for (let attr of node.attributes) {
-                if (allowedAttributes.includes(attr.name)) {
-                    cleanAttrs[attr.name] = attr.value;
+                if (name.includes('new school') || name.includes('parsons') || name.includes('eugene lang') || url.includes('newschool.edu')) {
+                    this.sources.add('The New School');
+                } else if (name.includes('engineering') && (name.includes('nyu') || url.includes('nyu.edu'))) {
+                    this.sources.add('NYU Engineering');
                 }
             }
-            
-            // Build clean HTML
-            let cleanHtml = `<${tagName}`;
-            for (let [name, value] of Object.entries(cleanAttrs)) {
-                cleanHtml += ` ${name}="${escapeHtml(value)}"`;
-            }
-            cleanHtml += '>';
-            
-            // Process child nodes
-            for (let child of node.childNodes) {
-                cleanHtml += cleanNode(child);
-            }
-            
-            cleanHtml += `</${tagName}>`;
-            return cleanHtml;
-        }
-        
-        return '';
-    }
-    
-    // Clean the HTML and return
-    return cleanNode(tempDiv);
-}
 
-// Utility function for debouncing
-function debounce(func, wait) {
-    let timeout;
-    return function executedFunction(...args) {
-        const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-    };
-}
-
-// Setup event listeners for filters and pagination
-function setupEventListeners() {
-    // Quick filter tabs
-    const filterTabs = document.querySelectorAll('.filter-tab');
-    filterTabs.forEach(tab => {
-        tab.addEventListener('click', () => {
-            filterTabs.forEach(t => t.classList.remove('active'));
-            tab.classList.add('active');
-            
-            const filter = tab.getAttribute('data-filter');
-            applyQuickFilter(filter);
+            // Handle both string and array categories
+            if (event.category) {
+                if (Array.isArray(event.category)) {
+                    event.category.forEach(cat => this.categories.add(cat));
+                } else if (typeof event.category === 'string') {
+                    this.categories.add(event.category);
+                }
+            }
         });
-    });
-    
-    // Advanced filters
-    if (elements.institutionFilter) {
-        elements.institutionFilter.addEventListener('change', applyFilters);
+
+        this.populateFilters();
+        this.filterEvents();
+        this.displayEvents();
+        this.updateSortIndicators(); // Show initial sort indicator
+        this.updateLastUpdated(data.scraped_at);
     }
-    if (elements.dateFrom) {
-        elements.dateFrom.addEventListener('change', applyFilters);
+
+    populateFilters() {
+        const sourceFilter = document.getElementById('source-filter');
+        const categoryFilter = document.getElementById('category-filter');
+
+        // Populate source filter
+        Array.from(this.sources).sort().forEach(source => {
+            const option = document.createElement('option');
+            option.value = source;
+            option.textContent = this.formatSourceName(source);
+            sourceFilter.appendChild(option);
+        });
+
+        // Populate category filter
+        Array.from(this.categories).sort().forEach(category => {
+            const option = document.createElement('option');
+            option.value = category;
+            option.textContent = category.charAt(0) + category.slice(1).toLowerCase();
+            categoryFilter.appendChild(option);
+        });
     }
-    if (elements.dateTo) {
-        elements.dateTo.addEventListener('change', applyFilters);
+
+    setupEventListeners() {
+        document.getElementById('source-filter').addEventListener('change', () => this.filterEvents());
+        document.getElementById('category-filter').addEventListener('change', () => this.filterEvents());
+        document.getElementById('date-filter').addEventListener('change', () => this.filterEvents());
+        document.getElementById('reset-filters').addEventListener('click', () => this.resetFilters());
     }
-    if (elements.searchInput) {
-        elements.searchInput.addEventListener('input', debounce(applyFilters, 300));
+
+    filterEvents() {
+        const sourceFilter = document.getElementById('source-filter').value;
+        const categoryFilter = document.getElementById('category-filter').value;
+        const dateFilter = document.getElementById('date-filter').value;
+
+        this.filteredEvents = this.allEvents.filter(event => {
+            // TEMPORARILY show events with unknown/missing data so we can see what's missing
+            // TODO: Re-enable this filtering after fixing Columbia scrapers
+
+            // Try to parse the date - if it fails, hide the event
+            try {
+                const eventDate = new Date(event.start_date);
+                const now = new Date();
+
+                // Hide events that have already happened (past events)
+                // Keep today's events and future events
+                const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+                if (eventDate < today) {
+                    return false;
+                }
+            } catch (e) {
+                return false;
+            }
+
+            // For filtering, we need to use the display name, not the source field
+            // Get the display name for this event
+            let displaySource;
+            if (event.source && event.source !== 'unknown') {
+                displaySource = this.formatSourceName(event.source);
+            } else {
+                // Try to infer source from name or URL
+                const name = (event.name || event.title || '').toLowerCase();
+                const url = event.metadata?.source_url || event.url || '';
+
+                if (name.includes('new school') || name.includes('parsons') || name.includes('eugene lang') || url.includes('newschool.edu')) {
+                    displaySource = 'The New School';
+                } else if (name.includes('engineering') && (name.includes('nyu') || url.includes('nyu.edu'))) {
+                    displaySource = 'NYU Engineering';
+                }
+            }
+
+            // Source filter - use display name for filtering
+            if (sourceFilter && displaySource !== sourceFilter) {
+                return false;
+            }
+
+            // Category filter - handle both string and array categories
+            if (categoryFilter) {
+                let eventCategories = [];
+                if (Array.isArray(event.category)) {
+                    eventCategories = event.category;
+                } else if (typeof event.category === 'string') {
+                    eventCategories = [event.category];
+                }
+
+                if (!eventCategories.includes(categoryFilter)) {
+                    return false;
+                }
+            }
+
+            // Date filter (applied after hiding past events)
+            if (dateFilter !== 'all') {
+                const eventDate = new Date(event.start_date);
+                const now = new Date();
+                const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+                const eventDay = new Date(eventDate.getFullYear(), eventDate.getMonth(), eventDate.getDate());
+
+                switch (dateFilter) {
+                    case 'today':
+                        if (eventDay.getTime() !== today.getTime()) return false;
+                        break;
+                    case 'week':
+                        const weekFromNow = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+                        if (eventDay < today || eventDay > weekFromNow) return false;
+                        break;
+                    case 'month':
+                        const monthFromNow = new Date(today.getTime() + 30 * 24 * 60 * 60 * 1000);
+                        if (eventDay < today || eventDay > monthFromNow) return false;
+                        break;
+                }
+            }
+
+            return true;
+        });
+
+        this.displayEvents();
+        this.updateStats();
     }
-    if (elements.clearFilters) {
-        elements.clearFilters.addEventListener('click', clearAllFilters);
+
+    displayEvents() {
+        const tbody = document.getElementById('events-body');
+
+        if (this.filteredEvents.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="5">No events match the current filters.</td></tr>';
+            return;
+        }
+
+        // Sort events
+        const sortedEvents = this.sortEvents(this.filteredEvents);
+
+        tbody.innerHTML = sortedEvents.map(event => this.createEventRow(event)).join('');
+
+        // Update sort indicators in headers
+        this.updateSortIndicators();
     }
-    
-    // Pagination
-    if (elements.prevPage) {
-        elements.prevPage.addEventListener('click', () => changePage(currentPage - 1));
+
+    sortEvents(events) {
+        return events.sort((a, b) => {
+            let aVal, bVal;
+
+            switch (this.sortColumn) {
+                case 'date':
+                    aVal = new Date(a.start_date);
+                    bVal = new Date(b.start_date);
+                    break;
+                case 'event':
+                    aVal = (a.name || a.title || '').toLowerCase();
+                    bVal = (b.name || b.title || '').toLowerCase();
+                    break;
+                case 'institution':
+                    aVal = this.formatSourceName(a.source).toLowerCase();
+                    bVal = this.formatSourceName(b.source).toLowerCase();
+                    break;
+                case 'location':
+                    const aLoc = a.metadata?.venue?.name || a.venue?.name || '';
+                    const bLoc = b.metadata?.venue?.name || b.venue?.name || '';
+                    aVal = aLoc.toLowerCase();
+                    bVal = bLoc.toLowerCase();
+                    break;
+                default:
+                    return 0;
+            }
+
+            if (this.sortDirection === 'asc') {
+                return aVal < bVal ? -1 : aVal > bVal ? 1 : 0;
+            } else {
+                return aVal > bVal ? -1 : aVal < bVal ? 1 : 0;
+            }
+        });
     }
-    if (elements.nextPage) {
-        elements.nextPage.addEventListener('click', () => changePage(currentPage + 1));
+
+    sortBy(column) {
+        if (this.sortColumn === column) {
+            // Toggle direction if same column
+            this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
+        } else {
+            // New column, default to ascending
+            this.sortColumn = column;
+            this.sortDirection = 'asc';
+        }
+
+        this.displayEvents();
     }
+
+    updateSortIndicators() {
+        // Remove all sort indicators
+        document.querySelectorAll('.sort-indicator').forEach(indicator => {
+            indicator.remove();
+        });
+
+        // Add sort indicator to current sort column
+        const headers = document.querySelectorAll('th');
+        headers.forEach((header, index) => {
+            const column = ['date', 'event', 'institution', 'location'][index];
+            if (column === this.sortColumn) {
+                const indicator = document.createElement('span');
+                indicator.className = 'sort-indicator';
+                indicator.textContent = this.sortDirection === 'asc' ? ' ▲' : ' ▼';
+                header.appendChild(indicator);
+            }
+        });
+    }
+
+    createEventRow(event) {
+        const startDate = new Date(event.start_date);
+
+        const formatDate = (date) => {
+            return date.toLocaleDateString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric'
+            });
+        };
+
+        const formatTime = (date) => {
+            return date.toLocaleTimeString('en-US', {
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+            });
+        };
+
+        const dateStr = formatDate(startDate);
+        const timeStr = formatTime(startDate);
+
+        const location = event.metadata?.venue?.name || event.venue?.name || (event.location || 'Location TBD');
+        const eventUrl = event.metadata?.source_url || event.url;
+
+        // Handle category - it can be a string, array, or missing
+        let categories = [];
+        if (event.category) {
+            if (Array.isArray(event.category)) {
+                categories = event.category;
+            } else if (typeof event.category === 'string') {
+                categories = [event.category];
+            }
+        }
+
+        // Show missing data indicators and try to infer source from other fields
+        let sourceDisplay;
+        if (event.source && event.source !== 'unknown') {
+            sourceDisplay = this.formatSourceName(event.source);
+        } else {
+            // Try to infer source from name or URL
+            const name = (event.name || event.title || '').toLowerCase();
+            const url = event.metadata?.source_url || event.url || '';
+
+            if (name.includes('new school') || name.includes('parsons') || name.includes('eugene lang') || url.includes('newschool.edu')) {
+                sourceDisplay = '<span class="inferred-source">The New School</span>';
+            } else if (name.includes('engineering') && (name.includes('nyu') || url.includes('nyu.edu'))) {
+                sourceDisplay = '<span class="inferred-source">NYU Engineering</span>';
+            } else {
+                sourceDisplay = `<span style="color: #e74c3c; font-weight: bold;">UNKNOWN INSTITUTION</span>`;
+            }
+        }
+
+        const locationDisplay = location && location !== 'Location TBD' ?
+            this.escapeHtml(location) :
+            `<span style="color: #e74c3c;">No location</span>`;
+
+        const titleHtml = eventUrl ?
+            `<a href="${this.escapeHtml(eventUrl)}" target="_blank" rel="noopener noreferrer">${this.escapeHtml(event.name || event.title || 'Untitled Event')}</a>` :
+            this.escapeHtml(event.name || event.title || 'Untitled Event');
+
+        return `
+            <tr>
+                <td>${dateStr}<br><small>${timeStr}</small></td>
+                <td>${titleHtml}</td>
+                <td>${sourceDisplay}</td>
+                <td>${locationDisplay}</td>
+                <td>${categories.length > 0 ? categories.map(cat => `<span class="event-category">${this.escapeHtml(cat)}</span>`).join(' ') : '<span style="color: #999;">No category</span>'}</td>
+            </tr>
+        `;
+    }
+
+    updateStats() {
+        document.getElementById('total-events').textContent = this.allEvents.length;
+        document.getElementById('filtered-events').textContent = this.filteredEvents.length;
+        document.getElementById('unique-sources').textContent = this.sources.size;
+    }
+
+    updateLastUpdated(scrapedAt) {
+        if (scrapedAt) {
+            const date = new Date(scrapedAt);
+            document.getElementById('last-updated').textContent = date.toLocaleString();
+        }
+    }
+
+    resetFilters() {
+        document.getElementById('source-filter').value = '';
+        document.getElementById('category-filter').value = '';
+        document.getElementById('date-filter').value = 'all';
+        this.filterEvents();
+    }
+
+    formatSourceName(source) {
+        if (!source || source === 'unknown') return 'Unknown';
+
+        // Format source names for display
+        const formatted = source.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+        // Special formatting for known institutions
+        const specialCases = {
+            'nyu_cims': 'NYU Courant',
+            'columbia': 'Columbia University',
+            'nyu_api': 'NYU',
+            'new_school': 'The New School',
+            'nyu_engineering': 'NYU Engineering',
+            'cornell_tech': 'Cornell Tech',
+            'cooper_union': 'Cooper Union',
+            'fordham': 'Fordham University',
+            'gallatin': 'NYU Gallatin',
+            'isaw': 'ISAW NYU',
+            'jtsa': 'Jewish Theological Seminary',
+            'juilliard': 'The Juilliard School',
+            'pratt': 'Pratt Institute',
+            'simons_foundation': 'Simons Foundation'
+        };
+
+        return specialCases[source] || formatted;
+    }
+
+    escapeHtml(text) {
+        if (!text) return '';
+        const div = document.createElement('div');
+        div.textContent = text;
+        return div.innerHTML;
+    }
+
+    decodeHtml(html) {
+        if (!html) return '';
+        const txt = document.createElement('textarea');
+        txt.innerHTML = html;
+        return txt.value;
+    }
+
+    showError(message) {
+        const tbody = document.getElementById('events-body');
+        tbody.innerHTML = `<tr><td colspan="5" style="color: #e74c3c;">Error: ${message}</td></tr>`;
+    }
+
 }
 
-// Populate institution filter dropdown
-function populateInstitutionFilter() {
-    if (!elements.institutionFilter) return;
-    
-    // You could fetch this from the API or use a predefined list
-    const institutions = [
-        'columbia',
-        'nyu',
-        'cuny',
-        'gallatin',
-        'isaw',
-        'jtsa',
-        'cims',
-        'cornell_tech',
-        'simons_foundation'
-    ];
-    
-    institutions.forEach(inst => {
-        const option = document.createElement('option');
-        option.value = inst;
-        option.textContent = inst.charAt(0).toUpperCase() + inst.slice(1).replace('_', ' ');
-        elements.institutionFilter.appendChild(option);
-    });
-}
+// Global reference for onclick handlers
+let app;
 
-// Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', init);
+// Initialize the app when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    app = new AcademicEventsApp();
+});

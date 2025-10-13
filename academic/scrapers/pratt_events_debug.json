@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "id": "evt_pratt_738f76f5c9",
+      "name": "“Process in Practice”",
+      "description": "",
+      "start_date": "",
+      "end_date": "",
+      "source": "pratt",
+      "source_group": "pratt",
+      "metadata": {
+        "source_url": "https://www.pratt.edu/events/",
+        "source_name": "Pratt Institute",
+        "venue": {
+          "name": "Pratt Institute",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_pratt_5ec65626d4",
+      "name": "Digital Dovetailing Exhibition",
+      "description": "",
+      "start_date": "",
+      "end_date": "",
+      "source": "pratt",
+      "source_group": "pratt",
+      "metadata": {
+        "source_url": "https://www.pratt.edu/events/",
+        "source_name": "Pratt Institute",
+        "venue": {
+          "name": "Pratt Institute",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_pratt_6d5f5f0644",
+      "name": "Exquisite Relations",
+      "description": "",
+      "start_date": "",
+      "end_date": "",
+      "source": "pratt",
+      "source_group": "pratt",
+      "metadata": {
+        "source_url": "https://www.pratt.edu/events/",
+        "source_name": "Pratt Institute",
+        "venue": {
+          "name": "Pratt Institute",
+          "type": "Offline"
+        }
+      }
+    }
+  ]
+}

@@ -44,8 +44,7 @@ def run_scrapers():
         'nyu_steinhardt_music_events.py',       # [PASS] 17 events (NEW)
         'nyu_stern_events.py',                  # [PASS] 8 events
         'pratt_events.py',                      # [PASS] 4 events
-        'simons_foundation_events.py',          # [PASS] 2 events
-        'sof_heyman_events.py'                  # [WARN] Needs fixing
+        'simons_foundation_events.py'          # [PASS] 2 events
     ]
     
     # TODO: Fix these remaining broken scrapers to get even more events:
@@ -53,7 +52,6 @@ def run_scrapers():
     # - columbia_history_events.py (no_output)
     # - columbia_social_difference_events.py (no_output)
     # - juilliard_events.py (no_output)
-    # - sof_heyman_events.py (no_output)
     # - stjohns_events.py (no_output)
     
     # TODO: Fix these scrapers that are getting crap data (missing dates, descriptions, past events):
