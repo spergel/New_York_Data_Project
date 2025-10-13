@@ -1,8 +1,1434 @@
-// Auto-generated events data - 0 events
-// Generated at: 2025-08-31T19:13:43.687285
+// Auto-generated events data - 75 events
+// Generated at: 2025-10-13T17:16:46.315217
 // This file is automatically updated weekly by the scraping process
 
-const academicEvents = [];
+const academicEvents = [
+  {
+    "id": "evt_columbia_classics_3511b7c2ea",
+    "name": "University Seminar in Classical Civilization - Tim Whitmarsh (Oxford)",
+    "description": "Thursday, October 16, 2025 7:30 PM 9:00 PM 19:30 21:00 Faculty House (map) Google Calendar ICS View Event →",
+    "start_date": "2025-10-16",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.302966",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_a668c37f85",
+    "name": "Department of Classics Lecture Series: \"Adventures in Verse Translation: An American Poet & Classicist in Greece\" A.E. Stallings (Athens)",
+    "description": "Friday, October 17, 2025 4:10 PM 6:00 PM 16:10 18:00 Hamilton 603, Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2025-10-17",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303022",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_16ae6111b0",
+    "name": "Classics Departmental Lecture Series: Cat Lambert (Cornell University)",
+    "description": "Tuesday, October 21, 2025 4:10 PM 6:00 PM 16:10 18:00 Hamilton 516, Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2025-10-21",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303058",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_c00710e4f1",
+    "name": "Classics Departmental Lecture Series: Nathaniel Jones (Washington University)",
+    "description": "Friday, November 14, 2025 4:10 PM 6:00 PM 16:10 18:00 Hamilton 703, Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2025-11-14",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303089",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_56548327b5",
+    "name": "University Seminar in Classical Civilization - Pierre Destrée (Louvain)",
+    "description": "Thursday, November 20, 2025 7:30 PM 9:00 PM 19:30 21:00 Faculty House (map) Google Calendar ICS View Event →",
+    "start_date": "2025-11-20",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303140",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_e929d96306",
+    "name": "Classics Departmental Lecture Series: Jose Antonio Cancino Alfaro (Columbia University)",
+    "description": "Friday, December 5, 2025 4:10 PM 6:00 PM 16:10 18:00 Hamilton 603, Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2025-12-05",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303175",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_4d8bb12b6b",
+    "name": "University Seminar in Classical Civilization - Mirjam Kotwick (Princeton)",
+    "description": "Thursday, January 22, 2026 7:30 PM 9:00 PM 19:30 21:00 Faculty House (map) Google Calendar ICS View Event →",
+    "start_date": "2026-01-22",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303198",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_25230c685d",
+    "name": "Classics Departmental Lecture Series: Jeremiah Coogan (Santa Clara University)",
+    "description": "Friday, February 13, 2026 4:10 PM 6:00 PM 16:10 18:00 Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2026-02-13",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303228",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_f9c2270fe8",
+    "name": "University Seminar in Classical Civilization - Reviel Netz (Stanford)",
+    "description": "Thursday, February 26, 2026 7:30 PM 9:00 PM 19:30 21:00 Faculty House (map) Google Calendar ICS View Event →",
+    "start_date": "2026-02-26",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303251",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_304269407d",
+    "name": "Classics Departmental Lecture Series: Tom Keeline (Washington University)",
+    "description": "Friday, March 6, 2026 4:10 PM 6:00 PM 16:10 18:00 Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2026-03-06",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303279",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_feb743e3ff",
+    "name": "University Seminar in Classical Civilization - Greg Woolf (NYU/ISAW)",
+    "description": "Thursday, March 26, 2026 7:30 PM 9:00 PM 19:30 21:00 Faculty House (map) Google Calendar ICS View Event →",
+    "start_date": "2026-03-26",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303301",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_41b0e3adc4",
+    "name": "University Seminar in Classical Civilization - Erica Valdivieso (Yale)",
+    "description": "Thursday, April 16, 2026 7:30 PM 9:00 PM 19:30 21:00 Faculty House (map) Google Calendar ICS View Event →",
+    "start_date": "2026-04-16",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303327",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_e316fa7d03",
+    "name": "Classics Departmental Lecture Series: Ian Moyer (University of Michigan)",
+    "description": "Tuesday, April 28, 2026 4:10 PM 6:00 PM 16:10 18:00 Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "2026-04-28",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303354",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_4c7ab101e6",
+    "name": "Classics Departmental Lecture Series: Melody Wauke (Columbia University)",
+    "description": "Friday, May 8, 2026 12:30 PM 1:30 PM 12:30 13:30 Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS View Event →",
+    "start_date": "",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303382",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_classics_e0a099c4b9",
+    "name": "Classics Lectures Series Presents: Jake Haagenson (Columbia University)",
+    "description": "Friday, May 9, 2025 4:10 PM 6:00 PM 16:10 18:00 Department of Classics at Columbia University in the City of New York (map) Google Calendar ICS Hello everyone,We are excited to invite you to the fourth and last talk of the Spring 2025 Semester!Jake Haagenson (Columbia University) will give his talk entitled:Socratic Ignorance in the First Alcibiades and Implications for AuthenticityThe talk will occur on Friday, May 9th, at 4:10 p.m. EDT in Hamilton 603, in person and on Zoom. A reception will follow. If you would like to receive a Zoom link, please email Holly Axford (ha2694@columbia.edu). The Zoom link will be circulated the day before the talk. Socratic Ignorance in the First Alcibiades and Implications for AuthenticityAbstract:There is academic controversy over whether the First Alcibiades is a genuine work of Plato. Yuji Kurihara (2012) argues that one piece of evidence against authenticity is that, in the dialogue in question, Socrates expresses so-called “Socratic ignorance” ...",
+    "start_date": "",
+    "end_date": "",
+    "source": "columbia",
+    "source_group": "columbia_classics",
+    "source_name": "columbiadepartmentofclassics",
+    "source_url": "https://classics.columbia.edu/events",
+    "venue": {
+      "name": "Columbia University",
+      "type": "Offline"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.303700",
+      "original_source": "Columbia University Department of Classics"
+    }
+  },
+  {
+    "id": "evt_columbia_eb1c7c61",
+    "name": "Revolutionary Yugoslavia: Partisan Art, Archives and Film",
+    "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on October 9, 2025 in order to attend this event.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;This symposium explores the cultural and political legacies of the revolutionary Socialist Federal Republic of Yugoslavia through the lenses of art, archives, and film. On the occasion of the 80th anniversary of the end of WWII and the defeat of fascism in 1945, the symposium examines how creative practices that fused art and activism, both official and grassroots, shaped partisan antifascist struggle, socialist revolution and reconstruction, as well as their contested afterlives.&lt;/p&gt; &lt;p&gt;Participants will consider how everyday objects and improvised archives preserve forms of memory often overlooked by official institutions; how art functions simultaneously as political expression and as labor; and how monuments and memorials (tangible and intangible) continue to generate new meanings in the present. Additionally, a series of papers on Y...",
+    "start_date": "2025-10-11T15:00:00+00:00",
+    "end_date": "2025-10-11T23:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9932a77c-0199-3418b0c5-000028e7events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tMarshall D. Shulman Seminar Room, 1219",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.304137",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_4d3b0a85",
+    "name": "Northern Manhattan Neighbors Appreciation Day",
+    "description": "&lt;p&gt;To all Northern Manhattan Neighbors!&amp;nbsp;&lt;/p&gt; &lt;p&gt;All community members who live in Inwood, Washington Heights, and Harlem can receive a complimentary ticket for the Columbia vs Lehigh football game.&amp;nbsp;&lt;/p&gt; &lt;p&gt;Redeem your&amp;nbsp;&lt;a href=\"https://gocolumbialions.evenue.net/promotions/event/FB26/FB02/CUA\" target=\"_blank\"&gt;tickets&lt;/a&gt; today.&amp;nbsp;&lt;/p&gt;",
+    "start_date": "2025-10-11T16:00:00+00:00",
+    "end_date": "2025-10-11T18:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9937d6d1-0199-3a9b460c-000071e0events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Baker Athletics Complex, 533 W. 218 St., New York, NY 10034",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.304235",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_df2e5bf6",
+    "name": "25 Years of Bridging Educational Cooperation Across the Pacific",
+    "description": "&lt;p&gt;This year marks the 25th anniversary of the Center on Chinese Education (CoCE) at Teachers College, Columbia University. Over the past quarter century, CoCE has hosted numerous delegations, visiting scholars, and exchange students from leading Chinese universities. Through its effort in academic research, training, and exchange, CoCE has strengthened the historic ties between Teachers College and China. During the week of October 13 &amp;ndash; 18, 2025, CoCE will celebrate this important milestone with partners, alumni, and supporters through a series of academic events at Teachers College, Columbia University, including keynote speeches, lectures, symposia, book talks, and panel discussions.&lt;br /&gt; &lt;br /&gt; &lt;em&gt;&lt;strong&gt;Monday, October 13, Milbank Chapel&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;Morning Session (10:00 AM&amp;ndash;12:00 PM)&lt;/strong&gt;:&lt;/p&gt; &lt;p&gt;Opening Ceremony&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Inaug...",
+    "start_date": "2025-10-13T14:00:00+00:00",
+    "end_date": "2025-10-13T19:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99a3f366-0199-a6866131-00005b49events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Teachers College Columbia University, 525 W. 120 St., New York, NY 10027\tMilbank Chapel",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.304449",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_968dfae2",
+    "name": "Blood Drive &amp; Health Screenings",
+    "description": "&lt;p&gt;In partnership with the New York Blook Center and Columbia University&amp;rsquo;s Center for Community Health, the Bollinger Forum is hosting a Blood Drive in support of CU&amp;#39;s Breast Cancer Awareness Campaign as well as Blood Pressure, A1C, and Cholesterol Health Screenings.&lt;/p&gt;",
+    "start_date": "2025-10-13T15:00:00+00:00",
+    "end_date": "2025-10-13T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-998511ac-0199-87724905-00005009events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.304512",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_77cdcde6",
+    "name": "Donate Blood in Support of Breast Cancer Warriors",
+    "description": "&lt;p&gt;October reminds us of the strength, courage, and resilience of those affected by breast cancer. During this National &lt;strong&gt;Breast Cancer Awareness&lt;/strong&gt; Month, Columbia University&amp;rsquo;s Fall 2025 Blood Drive Campaign is dedicated to increasing awareness of this disease and supporting cancer patients and others needing donated blood&lt;/p&gt;",
+    "start_date": "2025-10-13T15:00:00+00:00",
+    "end_date": "2025-10-13T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99c808de-0199-c9a6a96d-000036e5events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tLobby",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.304578",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_b697674d",
+    "name": "Bridging the Gap: Co-producing Climate Research",
+    "description": "&lt;p&gt;Efforts to support climate adaptation often fall short because they fail to understand and engage with the lived realities &amp;ndash; e.g. priorities, practices, and knowledge systems &amp;ndash; of the communities most impacted. This presentation brings together a suite of emerging papers and methods developed through long-term, collaborative research with local community members in Madagascar. Speakers reflect on what it means to co-produce climate research in line with community priorities&amp;mdash;not just in principle, but in methods and everyday practice.&lt;/p&gt; &lt;p&gt;Speakers will present a three-part framework for rethinking collaborative research. First, they explore how researchers can engage in critical self-reflection on positionality, motivations, and entanglements, acknowledging that collaboration is shaped by power and history, and that centering community priorities requires ongoing reflexivity. Second, they identify key barriers to supporting socio-...",
+    "start_date": "2025-10-13T16:00:00+00:00",
+    "end_date": "2025-10-13T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98a2753e-0198-a441322a-0000626eevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Fayerweather Hall, 1180 Amsterdam Ave., New York, NY 10027\tRoom 513",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.304938",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_75826869",
+    "name": "Geodynamics Seminar - Mike Kaplan and Andrew Lloyd",
+    "description": "&lt;p&gt;Presentations by Drs. Mike Kaplan and Andrew Lloyd.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Possible linkages between glaciation, geodynamics, and volcanism: A Case Study of Pali Aike, southern Patagonia&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Abstract:&lt;/p&gt; &lt;p&gt;In a soon to be submitted NSF proposal, we seek to understand better the source of basaltic-alkaline volcanism at Pali Aike in southern Patagonia and the mechanisms that modulate it. Pliocene to near present (?) fissure volcanism in the extra-Andean Pali Aike area is to some extent enigmatic because of its great distance from the youngest portion of the Patagonia slab window (~750 km to the northwest) and other regions of contemporaneous back-arc volcanism (e.g., ~600 km to the north) that have well imaged slow mantle anomalies linked to the slab window. Pali AIke is &amp;gt;150 km east of the Cordillera and ~300 km east of the active Pacific rim. In contrast, regional seismic images suggest less prominent (i.e., faste...",
+    "start_date": "2025-10-13T18:00:00+00:00",
+    "end_date": "2025-10-13T19:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9956b85b-0199-580d4d69-00002874events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Seismology Building, 61 Route 9W, Palisades, NY 10964\tSeminar Room",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305241",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_89b88eea",
+    "name": "CUNP-SRP Webinar: Arsenic Cycling: Shifting Risks to Human Health",
+    "description": "&lt;p&gt;Please join the Columbia Superfund Research Program for our October seminar with Dr. Athena Nghiem, Assistant Professor at University of Wisconsin-Madison&amp;#39;s Department of Geochemstry.&lt;/p&gt; &lt;p&gt;Dr. Nghiem will be presenting,&amp;nbsp;&lt;em&gt;Arsenic biogeochemical cycling in the environment: redistribution of threats to human health&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Registration available here:&amp;nbsp;&lt;/em&gt;https://columbiacuimc.zoom.us/meeting/register/p6--vUc4TEWhur7u0M-5cg&lt;/p&gt;",
+    "start_date": "2025-10-13T19:00:00+00:00",
+    "end_date": "2025-10-13T20:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-994c6749-0199-4ded30a2-000030eaevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Gary C. Comer Geochemistry Building, 61 Route 9W, Palisades, NY 10964\tSeminar Room",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305312",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_0c8f8b6f",
+    "name": "New Humanities Faculty Salon",
+    "description": "&lt;p&gt;Please join Division of Humanities Dean Bruno Bosteels in welcoming our newest colleagues from across the division.&amp;nbsp;&amp;nbsp;&lt;/p&gt; &lt;p&gt;Hosted by the&amp;nbsp;&lt;strong&gt;Division of Humanities in the Arts and Sciences&lt;/strong&gt;&amp;nbsp;and co-sponsored by the&amp;nbsp;&lt;strong&gt;&lt;a href=\"http://heymancenter.org/\" target=\"_blank\"&gt;Society of Fellows and Heyman Center for the Humanities&lt;/a&gt;&lt;/strong&gt;, the New Humanities Faculty Salons are an opportunity to meet&amp;nbsp;new faculty members as they join the Columbia Humanities community.&amp;nbsp;&amp;nbsp;Learn about their current work while you enjoy conversation, drinks, and snacks with faculty and graduate students.&amp;nbsp; By bringing together scholars from across the Division, we hope to open conversations across the wider Humanities community.&amp;nbsp;&amp;nbsp;&lt;/p&gt; &lt;p&gt;This October, we welcome:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=\"https://arthistory.col...",
+    "start_date": "2025-10-13T21:30:00+00:00",
+    "end_date": "2025-10-13T23:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98e57111-0198-e7bcd45f-00007e45events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Heyman Center for the Humanities, 74 Morningside Dr., New York, NY 10027\t2nd Floor",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305502",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_0b85cd09",
+    "name": "Donate Blood in Support of Breast Cancer Warriors",
+    "description": "&lt;p&gt;October reminds us of the strength, courage, and resilience of those affected by breast cancer. During this National &lt;strong&gt;Breast Cancer Awareness&lt;/strong&gt; Month, Columbia University&amp;rsquo;s Fall 2025 Blood Drive Campaign is dedicated to increasing awareness of this disease and supporting cancer patients and others needing donated blood.&lt;/p&gt;",
+    "start_date": "2025-10-14T13:00:00+00:00",
+    "end_date": "2025-10-14T17:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99c808de-0199-c9aae574-000037f6events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Jerome Greene Annex, 410 W. 117 St., New York, NY 10027\tJG Annex",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305549",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_a4dde76e",
+    "name": "25 Years of Bridging Educational Cooperation Across the Pacific",
+    "description": "&lt;p&gt;This year marks the 25th anniversary of the Center on Chinese Education (CoCE) at Teachers College, Columbia University. Over the past quarter century, CoCE has hosted numerous delegations, visiting scholars, and exchange students from leading Chinese universities. Through its effort in academic research, training, and exchange, CoCE has strengthened the historic ties between Teachers College and China. During the week of October 13 &amp;ndash; 18, 2025, CoCE will celebrate this important milestone with partners, alumni, and supporters through a series of academic events at Teachers College, Columbia University, including keynote speeches, lectures, symposia, book talks, and panel discussions.&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;&lt;em&gt;Tuesday, October 14, Russell Hall 306&lt;/em&gt;&lt;br /&gt; &lt;br /&gt; Morning Session (9:30 AM - 12:30 PM)&lt;/strong&gt;:&lt;/p&gt; &lt;p&gt;Book talk: &lt;em&gt;&lt;strong&gt;Gu Mingyuan&amp;rsquo;s Educational Thought&lt;/strong&...",
+    "start_date": "2025-10-14T13:30:00+00:00",
+    "end_date": "2025-10-14T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99a3f366-0199-a67b049f-00005950events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Teachers College Columbia University, 525 W. 120 St., New York, NY 10027\tRussell Hall 306",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305651",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_f6e754d0",
+    "name": "Columbia Radiology at Haven Plaza: Breast Cancer Awareness Month",
+    "description": "&lt;p&gt;Join us at the Haven Plaza Farmers Market for Breast Cancer Awareness Month and learn about breast cancer prevention, early detection, self-exam tutorials, mammogram resources, new breast imaging techniques offered at Columbia, and more! All Tuesdays in October, weather permitting. 10 AM to 2 PM.&amp;nbsp;&lt;/p&gt;",
+    "start_date": "2025-10-14T14:00:00+00:00",
+    "end_date": "2025-10-14T18:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-994c7073-0199-4d3a28d5-00001711events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Haven Plaza, Haven Avenue between Fort Washington Avenue and 169th Street",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305682",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_1c99ec67",
+    "name": "Connecting with Nature | Virtual Well-being Workshop",
+    "description": "&lt;h4&gt;Join Alice! Health Promotion for a virtual Well-being Workshop.&amp;nbsp;&lt;a href=\"https://columbiahealth.zoom.us/meeting/register/HvheMoi3QQmo4PQhIOMjVQ\" target=\"_blank\"&gt;Register here to attend!&lt;/a&gt;&lt;/h4&gt; &lt;p&gt;This workshop discusses our connection with the Earth and environment around us. In this workshop, we will talk about how to:&lt;br /&gt; &amp;bull;&amp;nbsp;&amp;nbsp; &amp;nbsp;Understand the ways which&amp;nbsp;nature impacts us from the societal level to the individual level&lt;br /&gt; &amp;bull;&amp;nbsp;&amp;nbsp; &amp;nbsp;Understand&amp;nbsp;how different contexts shape the way we interact with nature&lt;br /&gt; &amp;bull;&amp;nbsp;&amp;nbsp; &amp;nbsp;Learn ways&amp;nbsp;to interact with and bring nature into a more regular part of our lives&lt;/p&gt; &lt;p&gt;Session open to all Columbia University students, regardless of school affiliation. &lt;strong&gt;Note:&lt;/strong&gt; This session will not be recorded, and slides are not share...",
+    "start_date": "2025-10-14T16:00:00+00:00",
+    "end_date": "2025-10-14T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d279a58d-00005babevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305741",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_fa4ba640",
+    "name": "Lightning-Sword and Blazing Steed under the Hammer and Sickle",
+    "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on October 13, 2025 in order to attend this event.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Please join the Harriman Institute for a lecture by &lt;strong&gt;Diego Benning Wang&lt;/strong&gt;. Moderated by &lt;a href=\"https://harriman.columbia.edu/person/elise-giuliano/\"&gt;&lt;strong&gt;Elise Giuliano&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;In the late nineteenth century, the orally transmitted Armenian legend about the folk hero David of Sassoun seemed doomed to oblivion when Ottoman Armenian clergyman Karekin Srvandzdiants published a tiny booklet containing the story that he had learned by chance. Srvandzdiants noted that he would be happy if the story could reach twenty people. Decades later, this hitherto little-known folk legend would be read, and its main heroes celebrated by tens of millions of citizens of the Soviet Union. Scores of variants of the epic were collected from all over the newly established Soviet Armenia; some...",
+    "start_date": "2025-10-14T16:15:00+00:00",
+    "end_date": "2025-10-14T17:45:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9913ca49-0199-1641c0eb-0000051eevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tMarshall D. Shulman Seminar Room, 1219",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305843",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_f3239e09",
+    "name": "Hematological Malignancies Seminar Series: Faye Feller, MD",
+    "description": "&lt;p&gt;&lt;strong&gt;Speaker:&amp;nbsp;&lt;a href=\"https://www.geron.com/leadership/faye-feller/\" target=\"_blank\"&gt;Faye Feller, MD&lt;/a&gt;,&amp;nbsp;Executive Vice President, Chief Medical Officer,&amp;nbsp;Geron Pharmaceuticals&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Hosted by Aaron Viny, MD, Assistant Professor of Medicine at CUIMC.&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;: &amp;quot;Imetelstat: Telomerase Inhibition in Hematologic Malignancies&amp;rdquo;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&amp;nbsp;Dr. Feller will review the history of the development of imetelstat, a first in class telomerase inhibitor that was recently approved for the treatment of lower risk myelodysplastic syndrome (MDS). This will include the relevance of telomerase as a target for cancer treatment, with a focus on the preclinical and clinical data that supports treatment of MDS, myelofibrosis and other myeloid malignancies with a telomerase inhibito...",
+    "start_date": "2025-10-14T17:30:00+00:00",
+    "end_date": "2025-10-14T18:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-94926c43-0194-94280bfe-00003977events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.305923",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_1a7bed8b",
+    "name": "Why We Die: The New Science of Aging and the Quest for Immortality",
+    "description": "&lt;p&gt;&lt;strong&gt;THIS EVENT IS AT CAPACITY.&lt;/strong&gt;&amp;nbsp;To join the waitlist, please email Caitlin Hawke at columbiaagingcenter@cumc.columbia.edu.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;TUESDAY, OCTOBER 14, 2025, 4:00-5:30 PM ET &amp;ndash; DISTINGUISHED LECTURE CO-PRESENTED BY VIBRE &amp;amp; THE COLUMBIA AGING CENTER&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;&lt;strong&gt;Why We Die: The New Science of Aging and the Quest for Immortality&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Venki Ramakrishnan&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Nobel Laureate in Chemistry (2009); Former President of the Royal Society; Group Leader, Medical Research Council Laboratory of Molecular Biology, Cambridge, England&lt;/p&gt; &lt;p&gt;This lecture, by Nobel laureate in Chemistry &lt;a href=\"https://www2.mrc-lmb.cam.ac.uk/group-leaders/n-to-s/venki-ramakrishnan/\" target=\"_blank\"&gt;&lt;strong&gt;Venki Ramakrishnan&lt;/strong&gt;&lt;/a&gt;, PhD, is co-sponsored by The Vagelo...",
+    "start_date": "2025-10-14T20:00:00+00:00",
+    "end_date": "2025-10-14T21:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9970783f-0199-726605b2-00004d52events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Allan Rosenfield Building, 722 W. 168 St., New York, NY 10032\t8th Floor Auditorium",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306054",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_f008e76c",
+    "name": "Filming Without Borders: The International Cinema of Isabel Coixet",
+    "description": "&lt;p&gt;Join us for an evening with Spanish filmmaker&amp;nbsp;&lt;strong&gt;Isabel Coixet&lt;/strong&gt;, one of the most acclaimed and innovative voices in contemporary cinema. Known for her emotionally resonant storytelling and striking visual style, Coixet has crafted a remarkable body of work that crosses linguistic, cultural, and geographical borders. From&amp;nbsp;&lt;em&gt;The Secret Life of Words&amp;nbsp;&lt;/em&gt;to&amp;nbsp;&lt;em&gt;Elegy&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;The Bookshop&lt;/em&gt;, Coixet&amp;rsquo;s internationally celebrated films, both intimate and expansive, resonate across cultures and languages, establishing her as a truly global cinematic voice.&lt;/p&gt; &lt;p&gt;This is a rare opportunity to hear directly from the visionary &amp;nbsp;filmmaker in a live conversation about her creative process, international career, and the themes that continue to inspire her work.&lt;/p&gt; &lt;p&gt;This event is sponsored by the Hispanic Institute at ...",
+    "start_date": "2025-10-14T22:00:00+00:00",
+    "end_date": "2025-10-15T00:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-999ed179-0199-a053ee8e-00002be5events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Casa Hispanica, 612 W. 116 St., New York, NY 10027\t201",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306126",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_d6e51c83",
+    "name": "Climate Treaties: Time for a New Approach",
+    "description": "&lt;p&gt;Please join the Center for Political Economy&amp;#39;s&amp;nbsp;&lt;strong&gt;&lt;a href=\"https://politicaleconomy.columbia.edu/political-economy-climate-idea-lab\" target=\"_blank\"&gt;Political Economy of Climate Lab&lt;/a&gt; &lt;/strong&gt;on Tuesday, October 14 from 6:00-8:00 PM EST for a public lecture, &lt;strong&gt;Climate Treaties: Time for a New Approach.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;For 35 years, climate negotiators have focused on an approach that has failed to achieve the objectives they say must be met. In this lecture, &lt;a href=\"https://www.sipa.columbia.edu/communities-connections/faculty/scott-barrett\" target=\"_blank\"&gt;&lt;strong&gt;Scott Barrett&lt;/strong&gt;&lt;/a&gt; (Lenfest-Earth Institute Professor of Natural Resource Economics, SIPA &amp;amp; Earth Institute) will explain why this approach has failed, and why an alternative approach would succeed better.&amp;nbsp;&lt;strong&gt;&lt;a href=\"https://business.columbia.edu/faculty/people/geoffrey-h...",
+    "start_date": "2025-10-14T22:00:00+00:00",
+    "end_date": "2025-10-15T00:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99759b49-0199-778dd3e3-000041c8events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tThe Foyer, 2nd Floor",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306233",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_e97e68cc",
+    "name": "Time Management | Virtual Well-being Workshop",
+    "description": "&lt;h4&gt;Join Alice! Health Promotion for a virtual Well-being Workshop.&amp;nbsp;&lt;a href=\"https://columbiahealth.zoom.us/meeting/register/o-qP95WGSSmbB45JphNANQ\" target=\"_blank\"&gt;Register here to attend!&lt;/a&gt;&lt;/h4&gt; &lt;p&gt;Making informed choices about how to use your time can set the stage for academic success. Participants will discuss factors that impact how they choose to spend their time, managing time effectively, building a balanced schedule, and learn about tools for overcoming procrastination.&amp;nbsp;&lt;/p&gt; &lt;p&gt;Session open to all Columbia University students, regardless of school affiliation. &lt;strong&gt;Note:&lt;/strong&gt; This session will not be recorded, and slides are not shared.&amp;nbsp;&lt;/p&gt;",
+    "start_date": "2025-10-15T16:00:00+00:00",
+    "end_date": "2025-10-15T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98d0d7a0-0198-d264c185-00005431events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306279",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_afa842d9",
+    "name": "Crafts on The Corner: Sketch Sessions",
+    "description": "&lt;p&gt;Welcome to &lt;em&gt;&lt;em&gt;Crafts &lt;/em&gt;&lt;/em&gt;&lt;em&gt;&lt;em&gt;on the Corner&lt;/em&gt;&lt;/em&gt;, an exciting new event series at the &lt;a href=\"https://theforum.columbia.edu/\" target=\"_blank\"&gt;Lee C. Bollinger&amp;nbsp;Forum&lt;/a&gt;. This initiative aims to provide accessible and free opportunities for individuals within the community to explore their artistic potential, enhance their crafting skills, and cultivate a sense of community through shared creative experiences. It&amp;#39;s a celebration of creativity and an opportunity to connect with neighbors in a fun and enriching environment. Open to all ages!&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;strong&gt;Wallach Art Gallery: Sketch Sessions&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Take a break in your day to tap into your creativity and explore different observational drawing techniques.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;10/15:&amp;nbsp;The View from the Street&lt;/strong&gt;&lt;/p...",
+    "start_date": "2025-10-15T16:00:00+00:00",
+    "end_date": "2025-10-15T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99610528-0199-6376491d-00005e02events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306394",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_6108e12e",
+    "name": "Best Practices for Building AI Agents",
+    "description": "&lt;p&gt;AI agents are more than just chatbots powered by large language models (LLMs). AI agents can be custom-built to support teaching and learning in specific ways. This hands-on workshop introduces educators&amp;nbsp;to the principles and practices of designing AI agents that meaningfully support teaching and learning. Through guided activities, participants will draft their own AI agents and explore tools to build and train their agents.&lt;/p&gt; &lt;p&gt;In this workshop participants will explore:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;The fundamentals of AI agents and how they differ from general AI tools.&lt;/li&gt; &lt;li&gt;Discuss opportunities and challenges of using AI agents in education.&lt;/li&gt; &lt;li&gt;Key design considerations, including transparency, bias, ethics, and learner agency.&lt;/li&gt; &lt;li&gt;Practical methods for creating, training and validating AI agents.&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Whether you are curious about integrating AI into your teaching o...",
+    "start_date": "2025-10-15T16:00:00+00:00",
+    "end_date": "2025-10-15T17:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99b89146-0199-b9df8fef-0000215bevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306492",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_909312e6",
+    "name": "Landmark Climate and Human Rights Rulings: Reflections on ICJ &amp; IACH",
+    "description": "&lt;p&gt;Join Columbia Law School&amp;rsquo;s Human Rights Institute for a timely conversation on the recent landmark advisory opinions from the International Court of Justice (ICJ) and the Inter-American Court of Human Rights (IACHR). Featuring leading scholars&amp;nbsp;&lt;strong&gt;Dr. Mar&amp;iacute;a Antonia Tigre (&lt;/strong&gt;Director, Global Climate Litigation, Sabin Center for Climate Change Law, Columbia Law School&lt;strong&gt;) and&amp;nbsp;Kelsey Jost-Creegan(&lt;/strong&gt;Supervising Staff Attorney, Human Rights Clinic, Columbia Law School), the panel will unpack the key findings, implications for climate justice and human rights, and the broader impact on global legal and advocacy strategies. This discussion will offer students and practitioners alike the chance to engage with cutting-edge analysis at the intersection of international law, climate change, and human rights.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;When:&lt;/strong&gt;&amp;nbsp; Wednesday, October 15, 2025&a...",
+    "start_date": "2025-10-15T16:10:00+00:00",
+    "end_date": "2025-10-15T17:10:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9999a678-0199-9ad30320-0000217eevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Jerome Greene Hall, 435 W. 116 St., New York, NY 10027\t107",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306563",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_29405bd6",
+    "name": "Care Disruptions: Systemic Barriers (for Graduate Students)",
+    "description": "&lt;p&gt;What gets in the way of practicing care in your teaching? How do institutional norms (around productivity, grading, deadlines, authority, surveillance, or risk) reproduce harm or hinder access? What carceral or capitalist logics have you internalized, and how might you unlearn them? This session highlights the systemic barriers to care and fosters collective language for identifying and resisting those forces, with space for processing personal complicity and institutional constraints.&lt;/p&gt; &lt;h3&gt;&lt;strong&gt;About the Pedagogies of Care series&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;This is the &lt;strong&gt;second of three sessions&lt;/strong&gt; in a &lt;strong&gt;Pedagogies of Care series&lt;/strong&gt;. This three-part series of discussion-based sessions offers a supportive space for graduate student instructors to process and explore the tensions, barriers, and possibilities of practicing pedagogical care in university classrooms. Participants will engage in tech...",
+    "start_date": "2025-10-15T17:10:00+00:00",
+    "end_date": "2025-10-15T18:25:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-985a60f7-0198-5c2cddc2-00007dd3events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Butler Library",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306733",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_34977a0b",
+    "name": "HICCC Seminar Series: Interdisciplinary Research",
+    "description": "&lt;p&gt;&lt;strong&gt;Benjamin Herzberg, MD&lt;/strong&gt;&lt;br /&gt; Assistant Professor of Medicine&amp;nbsp;&lt;br /&gt; Department of Medicine, Hematology &amp;amp; Oncology&lt;br /&gt; Program: Precision Oncology and Systems Biology (POSB)&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;Carla Concepcion-Crisol, PhD&lt;/strong&gt;&lt;br /&gt; Assistant Professor of Molecular Pharmacology and Therapeutics&lt;br /&gt; Department of Molecular Pharmacology &amp;amp; Therapeutics&lt;br /&gt; Program: &amp;nbsp;Cancer Genomics and Epigenomics (CGE)&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;Title:&amp;nbsp;&lt;em&gt;&lt;strong&gt;Deconstructing SWI/SNF alterations in non-small cell lung cancer&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&amp;nbsp;Alterations in genes encoding for subunits of SWI/SNF chromatin remodeling complexes occur in ~30% of non-small cell lung cancers, largely lung adenocarcinomas. These alterations are often associated w...",
+    "start_date": "2025-10-15T20:00:00+00:00",
+    "end_date": "2025-10-15T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-95cc5dc3-0195-ce0af198-0000411eevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306833",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_60347c64",
+    "name": "Empowering Community And Climate: Latinx Leaders On The Frontlines",
+    "description": "&lt;p&gt;Presented by the Columbia Climate School Office of Inclusive Excellence, this panel will feature Latinx leaders from the South Bronx and beyond who are addressing urgent climate justice challenges such as toxic site cleanups, food access, and community resilience. The conversation will highlight the importance of grassroots leadership and cross-sector collaboration. The Columbia Climate School community is invited to explore how they can work alongside surrounding communities to advance equity and climate justice.&lt;/p&gt; &lt;p&gt;Panelists:&amp;nbsp;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Angel Garcia, Melrose Environmental Awareness Committee (MEAC), Community Leader&lt;/li&gt; &lt;li&gt;Lorean Valentin, Rainbow Community Garden Community Leader&lt;/li&gt; &lt;li&gt;Matthew Shore, South Bronx Unite-Director of Planning &amp;amp; Development&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Moderators:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Dr. Isatis Cintron-Rodriguez, Climate Scientist&lt;/li&gt; &lt;l...",
+    "start_date": "2025-10-15T20:00:00+00:00",
+    "end_date": "2025-10-15T22:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99a922bc-0199-aa8b10bd-00002c8devents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tThe Foyer, 2nd Floor",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306907",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_194cc1d6",
+    "name": "Empowering Community and Climate: Latinx Leaders on the Frontlines",
+    "description": "&lt;p&gt;Presented by the Columbia Climate School Office of Inclusive Excellence, this panel will feature Latinx leaders from the South Bronx and beyond who are addressing urgent climate justice challenges such as toxic site cleanups, food access, and community resilience. The conversation will highlight the importance of grassroots leadership and cross-sector collaboration. The Columbia Climate School community is invited to explore how they can work alongside surrounding communities to advance equity and climate justice.&lt;/p&gt; &lt;p&gt;Panelists:&amp;nbsp;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Angel Garcia, Melrose Environmental Awareness Committee (MEAC), Community Leader&lt;/li&gt; &lt;li&gt;Lorean Valentin, Rainbow Community Garden Community Leader&lt;/li&gt; &lt;li&gt;Matthew Shore, South Bronx Unite-Director of Planning &amp;amp; Development&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Moderators:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Dr. Isatis Cintron-Rodriguez, Climate Scientist&lt;/li&gt; &lt;l...",
+    "start_date": "2025-10-15T20:00:00+00:00",
+    "end_date": "2025-10-15T22:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-997ac97b-0199-7be4ece6-00001ee6events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tFoyer",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.306973",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_67b2f6b0",
+    "name": "How Putin Turned Foreign Policy Success into Strategic Defeat",
+    "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on October 14, 2025 in order to attend this event.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Please join the Program on U.S.-Russia Relations for a lecture by&amp;nbsp;&lt;strong&gt;Peter Clement&lt;/strong&gt;. Moderated by&amp;nbsp;&lt;a href=\"https://harriman.columbia.edu/person/elise-giuliano/\"&gt;&lt;strong&gt;Elise Giuliano&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;This talk revolves around two questions: Were there clear turning points in the hardening of Putin&amp;#39;s policy toward the US and the West more broadly since he became Russia&amp;#39;s president in 2000? What factors led Putin to eschew largely successful foreign policy pragmatism in favor of his fateful decision to reinvade Ukraine?&lt;/p&gt;",
+    "start_date": "2025-10-15T22:30:00+00:00",
+    "end_date": "2025-10-16T00:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99518d75-0199-530bb9b1-0000330aevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tMarshall D. Shulman Seminar Room, 1219",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307019",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_2f26f617",
+    "name": "2025 Columbia University Sports Management Conference",
+    "description": "&lt;p&gt;The&amp;nbsp;&lt;a href=\"https://sps.columbia.edu/academics/masters/sports-management\" target=\"_blank\"&gt;Columbia University Master of Science in Sports Management Program&lt;/a&gt;&amp;nbsp;presents the 2025 Sports Management Conference.&lt;br /&gt; &lt;br /&gt; Join sports industry leaders, thought-makers, and disruptors along with Columbia University Sports Management Master&amp;#39;s Program faculty as they discuss critical topics in the business of sports today and in the future.&lt;br /&gt; &lt;br /&gt; Please visit the Conference Website&amp;nbsp;&lt;a href=\"https://sps.columbia.edu/academics/masters/sports-management/events/columbia-university-sports-management-conference\" target=\"_blank\"&gt;HERE&lt;/a&gt;.&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;&lt;strong&gt;Please reach out to Danny Hagenlocher at&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;&lt;a href=\"https://www.eventbrite.com/e/2025-columbia-university-sports-management-conference-registration-1405717170899?aff=odd...",
+    "start_date": "2025-10-16T13:00:00+00:00",
+    "end_date": "2025-10-16T20:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-983132a8-0198-32f93a9f-00004873events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Lerner Hall, 2920 Broadway, New York, NY 10027\tAuditorium",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307130",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_fa56f841",
+    "name": "CSCI Work-in-Progress Talk",
+    "description": "&lt;p&gt;Presenter 1:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Kristjan Gretarrson, &lt;/strong&gt;Lu Lab&lt;/p&gt; &lt;p&gt;&lt;em&gt;&amp;quot;The Role of H3K36 Methylation in Epigenetic Crosstalk at the Centromere&amp;rdquo;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;Presenter 2:&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Alice Reis, &lt;/strong&gt;Simunovic Lab&lt;strong&gt; &lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;em&gt;&amp;ldquo;From pluripotency to periodicity: modeling the human endometrium&amp;rdquo;&lt;/em&gt;&lt;/p&gt;",
+    "start_date": "2025-10-16T15:30:00+00:00",
+    "end_date": "2025-10-16T16:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99c2e287-0199-c4613cc2-00003597events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Hammer Health Sciences Center, 701 W. 168 St., New York, NY 10032\tRoom 401",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307159",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_e8979a0a",
+    "name": "Biostats Lecture: Methodological Considerations in Applying Brain...",
+    "description": "&lt;h1&gt;Thursday, October 16th&lt;/h1&gt; &lt;p&gt;&lt;strong&gt;11:45am - 1:00pm, ARB Hess Commons&lt;/strong&gt;&lt;/p&gt; &lt;h2&gt;Andrew An Chen, PhD&lt;/h2&gt; &lt;h4&gt;&lt;strong&gt;Assistant Professor, Department of Public Health Sciences&lt;/strong&gt;&lt;br /&gt; &lt;strong&gt;Medical University of South Carolina&lt;/strong&gt;&lt;/h4&gt; &lt;h3&gt;Methodological Considerations in Applying Brain Charts to New Samples&lt;/h3&gt; &lt;p&gt;Multi-site national and international imaging consortia have formed with the goal of precisely characterizing the human brain across the lifespan. These consortia have succeeded in collecting large samples of brain magnetic resonance imaging (MRI) scans to estimate sex-specific trajectories of brain phenotypes across age, often called brain charts. The promise of brain charts is that future researchers and clinicians will be able to assess a new scan for deviations from this healthy trajectory. However, the implementation of these charts...",
+    "start_date": "2025-10-16T15:45:00+00:00",
+    "end_date": "2025-10-16T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98efbdf8-0198-f2011b7c-00006a51events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Allan Rosenfield Building, 722 W. 168 St., New York, NY 10032\tHess Commons",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307289",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_dbcd626c",
+    "name": "Detect It, Treat It",
+    "description": "&lt;p&gt;Join us to learn more about breast cancer awareness and prevention!&lt;/p&gt; &lt;p&gt;&amp;nbsp;In recognition of&amp;nbsp;Breast Cancer Awareness Month, this Women&amp;rsquo;s Health Corner Talk will cover important information on risk factors, early detection, screening guidelines, and treatment options. Participants will also gain practical tips on how to support themselves and loved ones through awareness and proactive care.&lt;/p&gt; &lt;p&gt;This program is part of a&amp;nbsp;monthly hybrid interactive series for CUIMC/NYP employees, featuring expert doctors discussing key topics in women&amp;rsquo;s health. The series is led by&amp;nbsp;Women in Medicine at Columbia, and&amp;nbsp;all are welcome&amp;nbsp;to attend.&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;em&gt;Women&amp;#39;s Corner Talk Series led by Women in Medicine&lt;/em&gt;&lt;/p&gt;",
+    "start_date": "2025-10-16T16:00:00+00:00",
+    "end_date": "2025-10-16T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-98b70edc-0198-ba16bedc-00000a54events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "College of Physicians and Surgeons, 630 W. 168 St., New York, NY 10032\tAmphitheater 1",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307341",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_e74b089f",
+    "name": "Using Design &amp; Technology to Combat the Suppression of Dissent",
+    "description": "&lt;p&gt;Join us for a unique interdisciplinary talk by leading architect and human rights investigator Brad Samuels, who will share how technology is used to investigate abuse and produce digital evidence for justice. He will share case studies from his own investigations into government abuse.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Speaker&lt;/strong&gt;: Brad Samuels, Founding Partner at SITU Research&lt;br /&gt; &lt;strong&gt;Date &amp;amp; Time&lt;/strong&gt;: Thursday, October 16, 2025 at 12:10 PM - 1:10 PM&lt;br /&gt; &lt;strong&gt;Location&lt;/strong&gt;: JLG 107&lt;/p&gt; &lt;p&gt;Lunch will be served&amp;nbsp;&lt;/p&gt; &lt;p&gt;Please register below:&lt;/p&gt;",
+    "start_date": "2025-10-16T16:10:00+00:00",
+    "end_date": "2025-10-16T17:10:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9937d6d1-0199-39789441-00003acfevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Columbia Law School, 435 W. 116 St., New York, NY 10027\tJerome Greene Hall 107",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307384",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_4679e1e8",
+    "name": "25 Years of Bridging Educational Cooperation Across the Pacific",
+    "description": "&lt;p&gt;This year marks the 25th anniversary of the Center on Chinese Education (CoCE) at Teachers College, Columbia University. Over the past quarter century, CoCE has hosted numerous delegations, visiting scholars, and exchange students from leading Chinese universities. Through its effort in academic research, training, and exchange, CoCE has strengthened the historic ties between Teachers College and China. During the week of October 13 &amp;ndash; 18, 2025, CoCE will celebrate this important milestone with partners, alumni, and supporters through a series of academic events at Teachers College, Columbia University, including keynote speeches, lectures, symposia, book talks, and panel discussions.&lt;br /&gt; &lt;br /&gt; &lt;em&gt;&lt;strong&gt;Thursday, October 16, Russell Hall 306&lt;/strong&gt;&lt;/em&gt;&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;Afternoon Session (2:30 - 4:30 PM)&lt;/strong&gt;:&lt;/p&gt; &lt;p&gt;Seminar: &lt;strong&gt;Philosophy, Chinese Medicine, and Way o...",
+    "start_date": "2025-10-16T18:30:00+00:00",
+    "end_date": "2025-10-16T20:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99a3f366-0199-a68b1d78-00005c70events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Teachers College Columbia University, 525 W. 120 St., New York, NY 10027\tRussell Hall 306",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307467",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_6d87c375",
+    "name": "Letters to Sage",
+    "description": "&lt;p&gt;Honor those who paved the way this &lt;strong&gt;LGBTQIA+ History Month&lt;/strong&gt; with a meaningful opportunity to support LGBTQIA+ elders in our community. In partnership with &lt;a href=\"https://sageserves.org/\"&gt;&lt;strong&gt;SAGE&lt;/strong&gt;&lt;/a&gt;, an organization that advocates for and provides services to LGBTQIA+ elders in the Bronx and Brooklyn, we invite you to write letters of appreciation to these community members.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;During the event, you&amp;rsquo;ll have the chance to:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Learn about the history of LGBTQ+ activism in New York City&amp;nbsp;&lt;/li&gt; &lt;li&gt;Reflect on the impact of advocacy and resilience in shaping today&amp;rsquo;s LGBTQIA+ communities&amp;nbsp;&lt;/li&gt; &lt;li&gt;Write a personal letter of thanks to celebrate the contributions of these community members&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This is a meaningful way to connect with history, reco...",
+    "start_date": "2025-10-16T19:00:00+00:00",
+    "end_date": "2025-10-16T20:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-997ac97b-0199-7c79ff34-000039d3events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Kent Hall, 1140 Amsterdam Ave., New York, NY 10027\t201",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307597",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_50fcd5f1",
+    "name": "LC 1: Into the Unknown: Teaching Futures and Uncertainty (for grads)",
+    "description": "&lt;p&gt;&lt;strong&gt;&lt;em&gt;CTLgrads Learning Community - Into the Unknown: Teaching Futures and Uncertainty&amp;nbsp;(Session 1) -&amp;nbsp;for graduate students&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;As teachers, we can sometimes feel pressure to present the world as certain, conclusive, and neatly structured. But global challenges like climate change, political divisiveness, and technological disruption remind us that the future is inherently uncertain&amp;mdash;and that normative debates about what &lt;em&gt;should&lt;/em&gt; be done are unavoidable. This two-part Learning Community explores how we can recognize and harness uncertainty in ways that are productive rather than paralyzing. In the first session, we will focus on classroom strategies for engaging students with contested values and visions for the future&amp;nbsp;without losing trust or motivation. In the second session, held at a museum, we will consider how material artifacts, exhibits, and learning space...",
+    "start_date": "2025-10-16T19:30:00+00:00",
+    "end_date": "2025-10-16T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9932a77c-0199-33f62eb1-00002155events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Butler Library",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307745",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_0a7ce3b4",
+    "name": "Bioethics Webinar: Meeting Patients Where They Are",
+    "description": "&lt;p&gt;Frank T Walsh Jr., Acting Medicaid Inspector General of the State of New York, and David N. Hoffman, health-care attorney and bioethics professor, will explore the role of hospital compliance programs in ensuring that all patients receive quality care that is responsive to their particular needs.&lt;/p&gt; &lt;p&gt;Their discussion will delve into the newest changes to the New York State Social Services law (521.1), which redefine the scope of hospitals&amp;rsquo; responsibility to ensure that patients get the care they need, and only the care they need, in a way that acknowledges the unique medical circumstances of all New Yorkers.&lt;/p&gt; &lt;p&gt;They will probe the interactions between provider organizations&amp;rsquo; duty to assess medical necessity and care quality, and the obligation of all clinicians to provide culturally sensitive care to all patient populations consistent with the clinicians&amp;rsquo; standard-of-care obligations.&lt;/p&gt; &lt;p&gt;&amp;nbsp;...",
+    "start_date": "2025-10-16T22:00:00+00:00",
+    "end_date": "2025-10-16T23:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9970783f-0199-7300836a-00006a1devents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307929",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_22ffe15d",
+    "name": "Speak Now: Celine Song",
+    "description": "&lt;p&gt;Thursday, October 16, 6:30 PM&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Celine Song&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;&amp;#39;14,&amp;nbsp;&lt;/strong&gt;the celebrated Writer and Director of films such as&amp;nbsp;&lt;em&gt;Materialists&lt;/em&gt;&amp;nbsp;and&amp;nbsp;&lt;em&gt;Past Lives&lt;/em&gt;, returns to the School of the Arts for a conversation about her creative practice with her teacher, Theatre Professor&amp;nbsp;&lt;strong&gt;Anne Bogart&lt;/strong&gt;, as part of Dean&amp;nbsp;&lt;strong&gt;Sarah Cole&lt;/strong&gt;&amp;rsquo;s signature series,&amp;nbsp;&lt;em&gt;Speak Now.&lt;/em&gt;&lt;/p&gt;",
+    "start_date": "2025-10-16T22:30:00+00:00",
+    "end_date": "2025-10-17T00:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9937d26a-0199-3af86781-00006cf1events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Lenfest Center for the Arts, 615 W. 129 St., New York, NY 10027\tKatharina Otto-Bernstein Screening Room (Second Floor)",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.307965",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_ba086678",
+    "name": "Coffee, Conversation, and Spirituality",
+    "description": "&lt;p&gt;Earl Hall is the place to be on Fridays&amp;nbsp;at 10 am for coffee, breakfast, and exploration of big questions about life, meaning, and purpose.&amp;nbsp; No prior knowledge or belief system required.&amp;nbsp; This is not about beliefs or answers.&amp;nbsp; It is a time for connection and integration of the massive learning that is happening all around us and within us.&amp;nbsp; It is about your spiritual development as you define it.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt; &lt;p&gt;Each session includes a thought provoking theme, guided conversation prompts, and opportunities to meet new people in small groups.&amp;nbsp; Email Karissa Thacker at kt2894@columbia.edu for more information.&lt;/p&gt;",
+    "start_date": "2025-10-17T14:00:00+00:00",
+    "end_date": "2025-10-17T15:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-983b7ad6-0198-3ce347dd-00003ed5events%40columbia.edu&recurrenceId=20251017T140000Z",
+    "venue": {
+      "name": "Earl Hall, 2980 Broadway, New York, NY 10027\tSchiff Room",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308014",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_9f852249",
+    "name": "Breast Cancer Awareness Month: Employee Lunch and Learn",
+    "description": "&lt;h3&gt;&lt;strong&gt;Breast Cancer Screening: Your Questions Answered!&lt;/strong&gt;&lt;/h3&gt; &lt;p&gt;The Department of Radiology invites all Columbia and NewYork-Presbyterian employees to a free lunch and short presentation on breast cancer screening and diagnosis, from Columbia&amp;#39;s breast imaging experts. Join us for lunch and short presentation from Columbia&amp;#39;s breast imaging experts. Learn all about breast cancer screening, options for women with dense breasts, and new screening techniques at Columbia. Q&amp;amp;A to follow. Registration required.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Presenters:&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Katja Pinker-Domenig, MD, PhD, Chief of Breast Imaging&lt;/li&gt; &lt;li&gt;Janice Sung, MD, Associate Chief of Breast Imaging&lt;/li&gt; &lt;li&gt;Delia Keating, MD, Director, Avon Foundation Breast Imaging Center&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;This event is open to all employees of Columbia, Cornell, and NewYork-Presbyteria...",
+    "start_date": "2025-10-17T16:00:00+00:00",
+    "end_date": "2025-10-17T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9932abea-0199-3570f51d-00006841events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "College of Physicians and Surgeons, 630 W. 168 St., New York, NY 10032\tAmphitheater 1",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308072",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_45e57b24",
+    "name": "What Was Pious Attention?",
+    "description": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://www.ircpl.columbia.edu/\" target=\"_blank\"&gt;Institute for Religion, Culture and Public Life&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;a href=\"https://www.ircpl.columbia.edu/calendar/event-what-was-pious-attention\" target=\"_blank\"&gt;&lt;strong&gt;What Was Pious Attention? &lt;/strong&gt;&lt;/a&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Date: &lt;/strong&gt;Friday, October 17th, 2025, from 12:15-1:45PM &amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Casa Hisp&amp;aacute;nica (612 West 116th Street)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Series:&lt;/strong&gt; Devotion and Distraction&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Jamie Kreiner (University of California, Los Angeles)&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Respondent:&lt;/strong&gt; Seth Kimmel (Columbia University)&lt;/p&gt; &lt;p&gt;We tend to think of the problem of paying attention while being bombarded with an overwhelming quantity and variety...",
+    "start_date": "2025-10-17T16:15:00+00:00",
+    "end_date": "2025-10-17T17:45:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99759e9b-0199-770fd703-000031b4events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Casa Hispanica, 612 W. 116 St., New York, NY 10027\tRoom 201",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308173",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_68f815e9",
+    "name": "Improve your privacy mindset in 15 minutes! Malware Defense",
+    "description": "&lt;h2&gt;Ready to level‑up your digital life and personal information security habits?&amp;nbsp;&lt;/h2&gt; &lt;h3&gt;Join these bite‑sized, hands-on privacy workshops&amp;mdash;each 15‑20 minutes, packed with eye‑opening examples and hands‑on tips. Walk-through real advice you can use immediately! Register for as many sessions as you feel will enhance your data‑security skills.&lt;/h3&gt; &lt;h3&gt;&lt;a href=\"https://columbiasecure.zoom.us/meeting/register/RvSGOGzlR0S2YrENYkk3jA\" target=\"_blank\"&gt;Register here for the Zoom link!&lt;/a&gt;&lt;/h3&gt; &lt;hr /&gt; &lt;h3&gt;&lt;strong&gt;Malware Defense for the Busy Student: &lt;/strong&gt;A rogue download can wipe out that semester‑long novel or your final essay&amp;mdash;in minutes.&lt;/h3&gt; &lt;h3&gt;&lt;strong&gt;Gain knowledge about:&lt;/strong&gt;&lt;/h3&gt; &lt;ul&gt; &lt;li&gt; &lt;h3&gt;How pop‑up blockers and built‑in tracker shields act as first‑line defense.&lt;/h3&gt; &lt;/li&gt; &lt;li&gt; &lt;h3&gt;Quick scans an...",
+    "start_date": "2025-10-17T16:30:00+00:00",
+    "end_date": "2025-10-17T16:45:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-98cbb171-0198-cdcfb047-000074d7events%40columbia.edu&recurrenceId=20251017T163000Z",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308251",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_0a739c31",
+    "name": "25 Years of Bridging Educational Cooperation Across the Pacific",
+    "description": "&lt;p&gt;This year marks the 25th anniversary of the Center on Chinese Education (CoCE) at Teachers College, Columbia University. Over the past quarter century, CoCE has hosted numerous delegations, visiting scholars, and exchange students from leading Chinese universities. Through its effort in academic research, training, and exchange, CoCE has strengthened the historic ties between Teachers College and China. During the week of October 13 &amp;ndash; 18, 2025, CoCE will celebrate this important milestone with partners, alumni, and supporters through a series of academic events at Teachers College, Columbia University, including keynote speeches, lectures, symposia, book talks, and panel discussions.&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;&lt;em&gt;Friday, October 17, Russell Hall 306&lt;/em&gt;&lt;br /&gt; &lt;br /&gt; Afternoon Session (2:00 &amp;ndash; 5:00 PM)&lt;/strong&gt;:&lt;/p&gt; &lt;p&gt;Symposium: &lt;strong&gt;Inspiration across Generations: Hawai&amp;rsquo;i at the C...",
+    "start_date": "2025-10-17T18:00:00+00:00",
+    "end_date": "2025-10-17T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99a3f366-0199-a68d9058-00005ce9events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Teachers College Columbia University, 525 W. 120 St., New York, NY 10027\tRussell Hall 306",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308344",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_f72a1680",
+    "name": "25 Years of Bridging Educational Cooperation Across the Pacific",
+    "description": "&lt;p&gt;This year marks the 25th anniversary of the Center on Chinese Education (CoCE) at Teachers College, Columbia University. Over the past quarter century, CoCE has hosted numerous delegations, visiting scholars, and exchange students from leading Chinese universities. Through its effort in academic research, training, and exchange, CoCE has strengthened the historic ties between Teachers College and China. During the week of October 13 &amp;ndash; 18, 2025, CoCE will celebrate this important milestone with partners, alumni, and supporters through a series of academic events at Teachers College, Columbia University, including keynote speeches, lectures, symposia, book talks, and panel discussions.&lt;br /&gt; &lt;br /&gt; &lt;strong&gt;&lt;em&gt;Saturday, October 18, Russell Hall 306&lt;/em&gt;&lt;br /&gt; &lt;br /&gt; Afternoon Session (3:00&amp;ndash;5:30 PM)&lt;/strong&gt;:&lt;/p&gt; &lt;p&gt;Symposium commemorating Tao Xingzhi&amp;rsquo;s 134th birthday: &lt;strong&gt;Tao X...",
+    "start_date": "2025-10-18T19:00:00+00:00",
+    "end_date": "2025-10-18T21:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99a3f366-0199-a68fa294-00005d46events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Teachers College Columbia University, 525 W. 120 St., New York, NY 10027\tRussell Hall 306",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308423",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_83fa68a3",
+    "name": "The Gesualdo Six: Motets and Madrigals of Palestrina and Gesualdo",
+    "description": "&lt;p&gt;The acclaimed Gesualdo Six returns with a program highlighting two of the Renaissance&amp;rsquo;s most famous composers: Palestrina, revered for his clarity and elegance, and the notorious Carlo Gesualdo, with his bold chromaticism and emotional intensity. Experience a captivating tapestry of litanies, madrigals, and Lamentations, showcasing the extraordinary writing and contrasting approaches of these two luminaries.&lt;/p&gt;",
+    "start_date": "2025-10-18T23:30:00+00:00",
+    "end_date": "2025-10-18T23:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-980d217a-0198-0fd08eea-0000798bevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Church of St. Mary the Virgin, 145 W. 46 St., New York, NY 10036",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308459",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_3cd13c50",
+    "name": "AI for Educators Summit",
+    "description": "&lt;p&gt;Join us on Monday, October 20th at Teachers College, Columbia University for the AI for Educators Summit, a one-day, hands-on, accredited experience created only for educators. This is not just about what&amp;rsquo;s new; K&amp;ndash;20 educators will come away with the skills, and tools to navigate the impact AI has on education.&lt;br /&gt; &lt;br /&gt; You&amp;rsquo;ll gain practical training, expert insights, and you can earn NYC DOE CTLES issued by Teachers College.&lt;br /&gt; &lt;br /&gt; Free to attend.&amp;nbsp;&lt;br /&gt; (Only for educators)&lt;br /&gt; &lt;br /&gt; Note: You must register and meet the criteria to be eligible to attend. Attendees will only have access to the AI Summit programming.&amp;nbsp;&lt;/p&gt;",
+    "start_date": "2025-10-20T13:00:00+00:00",
+    "end_date": "2025-10-20T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-997fe6ad-0199-816422a8-000033c5events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Teachers College Columbia University, 525 W. 120 St., New York, NY 10027",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308510",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_cccf37c4",
+    "name": "Zionism After October 7th: Changes, Continuities &amp; New Opportunities",
+    "description": "&lt;h2&gt;&lt;strong&gt;Dr. Prof. Johannes Becke&lt;/strong&gt; joins IIJS to discuss Zionism in the wake of October 7th. This lecture will be held virtually &lt;strong&gt;via Zoom&lt;/strong&gt; on &lt;strong&gt;Monday, October 20, at 11:15 a.m. ET&lt;/strong&gt;, and is open to all.&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Johannes Becke&lt;/strong&gt; serves as Ben Gurion Professor for Israel and Middle East Studies at the Heidelberg University for Jewish Studies, where he specializes in exploring Israel in a Middle Eastern context. His latest publications include &amp;quot;The Land Beyond the Border: State Formation and Territorial Expansion in Syria, Morocco, and Israel&amp;quot; (SUNY 2021) and &amp;quot;It ain&amp;#39;t Europe here: How Israel became a Middle Eastern society&amp;quot; (Wallstein 2025, in German).&lt;/p&gt;",
+    "start_date": "2025-10-20T15:15:00+00:00",
+    "end_date": "2025-10-20T16:15:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99a3f7d6-0199-a6074982-00004b02events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308564",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_a2364c16",
+    "name": "Injury Epidemiology Unit Seminar: Using Syndromic Surveillance",
+    "description": "&lt;p&gt;Injury Epidemiology Unit Seminar&lt;/p&gt; &lt;p&gt;October 20, 2025, 1-2pm&lt;/p&gt; &lt;h3&gt;Talk Title:&lt;/h3&gt; &lt;h3&gt;&lt;em&gt;&lt;strong&gt;Using Syndromic Surveillance for Unintentional and Undetermined Intent Drowning Surveillance in a Large&amp;nbsp;&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;&lt;strong&gt;Metropolitan Area&lt;/strong&gt;&lt;/em&gt;&lt;/h3&gt; &lt;h3&gt;Speaker: &lt;strong&gt;Rohit Shenoi, MD,&lt;/strong&gt; Professor of Pediatrics, Baylor College of Medicine, Attending Physician, Emergency Center, Texas Children&amp;#39;s Hospital, Houston, TX&lt;/h3&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;Room: ARB, Room: Hess Commons (722 West 168th St)&lt;/p&gt;",
+    "start_date": "2025-10-20T17:00:00+00:00",
+    "end_date": "2025-10-20T18:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99519213-0199-5310c8ad-000034b3events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Allan Rosenfield Building, 722 W. 168 St., New York, NY 10032\tHess Commons",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308601",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_8ab5bd9a",
+    "name": "Giving Day 2025",
+    "description": "&lt;p&gt;Join us this Giving Day as we come together to support the talented student artists at the School of the Arts! As we commemorate the 60th anniversary of our school, we have the opportunity to look back at our astonishing history, celebrate past and current students and faculty, and do everything we can to build an even stronger future for the next generation of artists. Consider a gift to a general fund or select a specific discipline to help launch the writers, filmmakers, theatre practitioners, and visual artists of tomorrow.&lt;/p&gt;",
+    "start_date": "2025-10-21T04:00:00+00:00",
+    "end_date": "2025-10-21T04:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-999eccd7-0199-a16daf22-00005c7devents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308643",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_4c419b1b",
+    "name": "Columbia Radiology at Haven Plaza: Breast Cancer Awareness Month",
+    "description": "&lt;p&gt;Join us at the Haven Plaza Farmers Market for Breast Cancer Awareness Month and learn about breast cancer prevention, early detection, self-exam tutorials, mammogram resources, new breast imaging techniques offered at Columbia, and more! All Tuesdays in October, weather permitting. 10 AM to 2 PM.&amp;nbsp;&lt;/p&gt;",
+    "start_date": "2025-10-21T14:00:00+00:00",
+    "end_date": "2025-10-21T18:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-994c7073-0199-4d3ab2ef-00001769events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Haven Plaza, Haven Avenue between Fort Washington Avenue and 169th Street",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308670",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_f7591d4d",
+    "name": "Donate Blood in Support of Breast Cancer Warriors",
+    "description": "&lt;p&gt;October reminds us of the strength, courage, and resilience of those affected by breast cancer. During this National &lt;strong&gt;Breast Cancer Awareness&lt;/strong&gt; Month, Columbia University&amp;rsquo;s Fall 2025 Blood Drive Campaign is dedicated to increasing awareness of this disease and supporting cancer patients and others needing donated blood&lt;/p&gt;",
+    "start_date": "2025-10-21T14:00:00+00:00",
+    "end_date": "2025-10-21T20:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99c808de-0199-c9af5423-00003851events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Columbia Business School, Kravis Hall, 665 W. 130th St., New York, NY 10027\tKravitz 470",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308701",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_94b7f4b4",
+    "name": "Wealth Management Speaker Series: M&amp;A in Wealth Management",
+    "description": "&lt;p&gt;You are invited to participate in a virtual conversation with experts in the wealth management industry. Join&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Jessica Polito,&lt;/strong&gt;&lt;/strong&gt;&amp;nbsp;Principal of Turkey Hill Management, and&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Mike LaMena&lt;/strong&gt;&lt;/strong&gt;, Chief Executive Officer of Wealthspire Advisors as they explore current M&amp;amp;A dynamics in wealth management from the buyer, seller, and advisor perspectives.&lt;/p&gt; &lt;p&gt;Following the conversation, the event will be open for a question and answer period, where attendees can ask questions directly.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;&lt;strong&gt;Topics of Discussion Include:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Industry trends around M&amp;amp;A, with a particular focus on the RIA segment&lt;/li&gt; &lt;li&gt;How sellers of wealth management firms can best prepare their exit&lt;/li&gt; &lt;li&gt;What buyers of wealth manag...",
+    "start_date": "2025-10-21T17:00:00+00:00",
+    "end_date": "2025-10-21T18:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99851633-0199-871b85dd-00005872events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308813",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_4c49edef",
+    "name": "Remembering Gorbachev&rsquo;s Perestroika (1985-1991)",
+    "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on October 20, 2025 in order to attend this event.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Please join the Harriman Institute for a panel discussion featuring &lt;strong&gt;Nadezhda Azhgikhina &lt;/strong&gt;(Journalist and widow of Yuri Shchekochikhin), &lt;strong&gt;John Kohan &lt;/strong&gt;(Time Magazine&amp;rsquo;s Moscow Bureau Chief, 1988-1996), &lt;strong&gt;Carol Ueland &lt;/strong&gt;(Professor of Russian Emerita at Drew University), and &lt;strong&gt;Katrina vanden Heuvel &lt;/strong&gt;(Publisher, The Nation). Moderated by &lt;a href=\"https://harriman.columbia.edu/person/ann-cooper/\"&gt;&lt;strong&gt;Ann Cooper&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; (Columbia University)&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;This roundtable discussion is focused on an important aspect of Gorbachev&amp;rsquo;s perestroika: the role of journalists and scholars in overcoming both the images and realities of the Cold War during this period of U.S.-R...",
+    "start_date": "2025-10-21T20:00:00+00:00",
+    "end_date": "2025-10-21T21:45:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99b89146-0199-baabcfc6-000046edevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tMarshall D. Shulman Seminar Room, 1219",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.308953",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_93bc2f66",
+    "name": "CPRC Seminar Series with Professor Dalton Conley",
+    "description": "&lt;p&gt;&lt;strong&gt;How Children Affect Their Parents&amp;#39; Health and Behavior: Causal Evidence from Molecular and Survey Data&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;The typical model of human development is unidirectional: From parent to child. However, growing evidence suggests that children exhibit causal changes in their parents&amp;#39; political views, health, and behavior. This talk will show how we can use molecular (i.e. genomic and epigenetic) data combined with survey responses to identify causal effects of children on their parents. I will focus on three aspects of children that impact their parents: the number of offspring, sex, and genotype. I show that children, from a very young age (~18 months), guide their parents in how to raise and invest in them. Meanwhile, combining instrumental variable estimation of the impact of fertility on epigenetic aging clocks and other health measures provides causal estimates of the developmental toll children evince on their parent...",
+    "start_date": "2025-10-21T20:00:00+00:00",
+    "end_date": "2025-10-21T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9909749b-0199-0b926b51-0000779devents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "School of Social Work, 1255 Amsterdam Ave., New York, NY 10027\t1109",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309057",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_beb767cc",
+    "name": "Italian Academy Fellows' Seminars &mdash; #3",
+    "description": "&lt;p&gt;&lt;strong&gt;Columbia&amp;#39;s scholarly community is now welcome to our Fellows&amp;#39; seminars.&lt;/strong&gt;&lt;br /&gt; &lt;strong&gt;(Registration required.)&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Looking Afresh: Photocopies &amp;amp; Other Image Reproductions that Permit New Methodologies&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Judith Delfiner&lt;/strong&gt;,&amp;nbsp;&lt;em&gt;Against the grain: women artists and office technologies&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Claudia Wedepohl&lt;/strong&gt;,&amp;nbsp;&lt;em&gt;The story of Aby Warburg&amp;rsquo;s Bilderatlas Mnemosyne&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Moderator:&lt;/strong&gt;&amp;nbsp;Alexander Alberro, Virginia Bloedel Wright &amp;#39;51 Professor of Art History, Barnard College&lt;/p&gt; &lt;p&gt;Click &lt;a href=\"https://italianacademy.columbia.edu/node/582\" target=\"_blank\"&gt;here&lt;/a&gt; to register.&lt;/p&gt;",
+    "start_date": "2025-10-21T20:30:00+00:00",
+    "end_date": "2025-10-21T22:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-994c6749-0199-4ded40a9-000030fdevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Italian Academy, 1161 Amsterdam Ave., New York, NY 10027\tThe Library",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309102",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_0337a6c2",
+    "name": "Covering Politics: Journalism Through the Lens of Local Elections",
+    "description": "&lt;p&gt;With Election Day just around the corner, please&amp;nbsp;join the&amp;nbsp;&lt;a href=\"https://holder.college.columbia.edu/\"&gt;&lt;strong&gt;Eric H. Holder Jr. Initiative&lt;/strong&gt;&amp;nbsp;&lt;strong&gt;for Civil and Political Rights&lt;/strong&gt;&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;strong&gt;&lt;a href=\"https://columbiavotes.squarespace.com/?utm_source=newsletter&amp;amp;utm_medium=email&amp;amp;utm_campaign=spotlight091624\" target=\"_blank\"&gt;Columbia Votes&lt;/a&gt;&amp;nbsp;&lt;/strong&gt;for a discussion panel on the important role of journalism in New&amp;nbsp;York City politics.&amp;nbsp;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Discussion and Q&amp;amp;A:&lt;/strong&gt;&amp;nbsp;6:00-7:30&amp;nbsp;p.m. (Doors open at 5:30 p.m.)&lt;br /&gt; &lt;strong&gt;Reception:&lt;/strong&gt;&amp;nbsp;7:30-8:00 p.m. (Food will be served)&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Speakers:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;&lt;a href=\"https://hellgateny...",
+    "start_date": "2025-10-21T22:00:00+00:00",
+    "end_date": "2025-10-22T00:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99a9198e-0199-aa915f14-0000276fevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "On Campus\tWorld Room, School of Journalism",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309210",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_470b92ab",
+    "name": "Fighting Authoritarianism in History",
+    "description": "&lt;p&gt;Fighting Authoritarianism in History:&amp;nbsp;&amp;nbsp;The Case of Soviet Union Dissidents&lt;/p&gt; &lt;p&gt;Dr. Benjamin Nathans, University of Pennsylvania, Alan Kors Professor of History (Pulitzer Prize Winner 2025)&lt;/p&gt; &lt;p&gt;Threats to protesters. Clamp-downs on academic speech.&amp;nbsp; Throwing critics in prison.&amp;nbsp; It happened before, and so did a movement opposing it.&amp;nbsp; Beginning in the 1960s, Soviet dissidents organized an improbable movement that involved everything from public demonstrations to the circulation of underground texts.&lt;/p&gt; &lt;p&gt;Pulitzer Prize-winning historian Benjamin Nathans, a leading authority on the history of Russia and the former Soviet Union, joins us to discuss his new book and its implications for the present.&lt;/p&gt; &lt;p&gt;Free Lunch&lt;/p&gt; &lt;p&gt;History Now:&amp;nbsp; A New Lecture Series Bringing History to Public Health Audiences&lt;/p&gt; &lt;p&gt;The Alex &amp;amp; Sophie Rosner Seminar...",
+    "start_date": "2025-10-22T15:45:00+00:00",
+    "end_date": "2025-10-22T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-99b88ca1-0199-ba5b5aeb-00003bd9events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Allan Rosenfield Building, 722 W. 168 St., New York, NY 10032\t532AB",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309275",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_18c1f91a",
+    "name": "IIJS Book Talk: \"Songs for the Brokenhearted\" with Ayelet Tsabari",
+    "description": "&lt;h2&gt;Join IIJS in welcoming &lt;strong&gt;Ayelet Tsabari&lt;/strong&gt; on &lt;strong&gt;Wednesday, October 22, at noon ET&lt;/strong&gt;. Her book talk on &lt;em&gt;Songs for the Brokenhearted&lt;/em&gt; will take place in person at &lt;strong&gt;617 Kent Hall&lt;/strong&gt;.&lt;/h2&gt; &lt;p&gt;Author of the award-winning &lt;em&gt;Songs for the Brokenhearted,&lt;/em&gt; Ayelet Tsabari will speak of growing up Yemeni in Israel, about re-finding and reclaiming that identity through writing and through extensive research into Yemeni culture and traditions. Tsabari will share audio and images from her research into the Yemeni women&amp;#39;s songs, and speak of some of the unique challenges she has faced writing about Israel in English, her second language. This lecture will explore the many ways in which a writer&amp;#39;s cultural background, mother tongue, and origins influence and inform her writing, in terms of both content and style.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Ayelet...",
+    "start_date": "2025-10-22T16:00:00+00:00",
+    "end_date": "2025-10-22T17:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-99a3f7d6-0199-a65e666d-000058b0events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Kent Hall, 1140 Amsterdam Ave., New York, NY 10027\t617",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309429",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_efdc5d9d",
+    "name": "HICCC Seminar Series: Research in Progress",
+    "description": "&lt;p&gt;&lt;strong&gt;Jing Fu, PhD&lt;/strong&gt;&lt;br /&gt; Assistant Professor of Medical Sciences (in Medicine)&lt;br /&gt; Department of Medicine, Hematology &amp;amp; Oncology&lt;br /&gt; Program: Tumor Biology and Microenvironment (TBM)&lt;/p&gt; &lt;p&gt;Title:&amp;nbsp;&lt;em&gt;&lt;strong&gt;Development of Novel Anti-AL Amyloidosis Immunotherapies&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&amp;nbsp;AL amyloidosis is a rare disease closely related to multiple myeloma and remains incurable. In this condition, clonal plasma cells produce excess misfolded light chains, which aggregate into insoluble fibrils that deposit in organs, leading to progressive damage and eventual death. Current anti-plasma cell therapies target the clonal plasma cells to halt the production of new amyloidogenic light chains; however, pre-existing fibrils are unaffected and continue to drive organ damage. Our group has been focusing on developing and optimi...",
+    "start_date": "2025-10-22T20:00:00+00:00",
+    "end_date": "2025-10-22T21:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-995be353-0199-5ebd063b-000078b1events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Online Event",
+      "type": "virtual"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309612",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_b882b872",
+    "name": "Matisse: an Artist for All Seasons",
+    "description": "&lt;p&gt;&lt;strong&gt;A Talk by Antoine Compagnon&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;An exhibition on Matisse&amp;rsquo;s last years, 1941-1954, will be presented at the Grand Palais in Paris this coming Spring 2026. Antoine Compagnon draws on this talk for an article he wrote for the exhibition catalog on the artist&amp;rsquo;s &amp;ldquo;late style&amp;rdquo; and &amp;ldquo;senile sublime,&amp;rdquo; discernible in the drawings, the chapel in Vence, and the visionary cut-outs. As a sequel, Compagnon is now developing a podcast, &amp;ldquo;A Winter with Matisse,&amp;rdquo; on the model of his Summers with Montaigne, Pascal, Baudelaire, Colette, for France Inter.&lt;/p&gt; &lt;p&gt;Register &lt;a href=\"https://www.eventbrite.com/e/matisse-an-artist-for-all-seasons-tickets-1734123152029?aff=oddtdtcreator\" target=\"_blank\"&gt;here&lt;/a&gt;&lt;/p&gt;",
+    "start_date": "2025-10-22T22:00:00+00:00",
+    "end_date": "2025-10-22T23:00:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-997ac97b-0199-7cfcca7e-00004ed8events%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Buell Hall, 515 W. 116 St., New York, NY 10027\tEast Gallery",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309671",
+      "original_source": "Columbia University"
+    }
+  },
+  {
+    "id": "evt_columbia_56f8eb39",
+    "name": "Double Discovery Center's 60th Anniversary Gala",
+    "description": "&lt;p&gt;Celebrate the Roger Lehecka Double Discovery Center&amp;#39;s 60 years of success on Wednesday, October 22, 2025. This event will honor DDC champions with the James P. Shenton Award for Excellence, an award for outstanding accomplishments and contributions to improving the education of college-bound, first-generation students.&amp;nbsp;&lt;/p&gt; &lt;p&gt;The late James P. Shenton CC&amp;rsquo;49, GSAS&amp;rsquo;54, was a remarkable Columbia history professor who helped guide the creation of Project Double Discovery, later renamed the Roger Lehecka Double Discovery Center (DDC). This award is the highest honor bestowed by DDC.&lt;/p&gt;",
+    "start_date": "2025-10-22T22:30:00+00:00",
+    "end_date": "2025-10-23T01:30:00+00:00",
+    "source": "unknown",
+    "source_group": "unknown",
+    "source_name": "columbia",
+    "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9812435f-0198-141e3785-00004a7eevents%40columbia.edu&recurrenceId=",
+    "venue": {
+      "name": "Low Library, 535 W. 116 St., New York, NY 10027\tRotunda",
+      "type": "venue"
+    },
+    "metadata": {
+      "scraped_at": "2025-10-13T17:16:46.309716",
+      "original_source": "Columbia University"
+    }
+  }
+];
 
 // Export for use in main worker
 export { academicEvents };
