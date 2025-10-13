@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timedelta
 import hashlib
 import re
+from event_filter import filter_events, get_filter_stats
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -356,6 +357,8 @@ def scrape_gallatin_events():
                 "start_date": start_datetime.isoformat(),
                 "end_date": end_datetime.isoformat(),
                 "category": determine_categories(event_data),
+                "source": "gallatin",
+                "source_group": "NYU",
                 "metadata": metadata
             }
 
@@ -365,7 +368,14 @@ def scrape_gallatin_events():
             print(f"Error processing event: {title if 'title' in locals() else 'Unknown'}. Error: {str(e)}")
             continue
 
-    return {"events": standardized_events}
+        # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return {"events": filtered_events}
 
 def main():
     events = scrape_gallatin_events()

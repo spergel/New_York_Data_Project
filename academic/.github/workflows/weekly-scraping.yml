@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r academic/requirements.txt
         
     - name: Run weekly scraping
       run: |
@@ -35,7 +35,7 @@ jobs:
         CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       run: |
         cd academic
-        npx wrangler deploy --env=""
+        npx wrangler deploy --env=production
         
     - name: Create deployment summary
       run: |

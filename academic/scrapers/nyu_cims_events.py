@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import re
 import time
 import hashlib
+from event_filter import filter_events, get_filter_stats
 
 # Add a custom header that mimics a real browser
 headers = {
@@ -318,7 +319,14 @@ def scrape_cims_events(num_pages=2):
         return {"events": []}
     
     standardized_events = parse_cims_events(raw_events)
-    return {"events": standardized_events}
+        # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return {"events": filtered_events}
 
 def main():
     events = scrape_cims_events()

@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timedelta
 import re
 import hashlib
+from event_filter import filter_events, get_filter_stats
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -232,6 +233,8 @@ def parse_sofheyman_events(events):
                 "start_date": start_date.isoformat(),
                 "end_date": end_date.isoformat(),
                 "category": determine_categories(event),
+                "source": "sof_heyman",
+                "source_group": "Independent",
                 "metadata": metadata
             }
 
@@ -242,7 +245,14 @@ def parse_sofheyman_events(events):
         except ValueError as e:
             print(f"Error parsing event: {event.get('title', 'Unknown')}. Error: {str(e)}")
 
-    return {"events": standardized_events}
+        # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return {"events": filtered_events}
 
 def scrape_sofheyman_events():
     raw_events = fetch_sofheyman_events()

@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timedelta
 import hashlib
+from event_filter import filter_events, get_filter_stats
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -214,7 +215,14 @@ def scrape_nyu_engineering_events(num_pages=4):
         return {"events": []}
     
     standardized_events = parse_nyu_engineering_events(raw_events)
-    return {"events": standardized_events}
+        # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return {"events": filtered_events}
 
 def main():
     events = scrape_nyu_engineering_events()

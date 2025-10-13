@@ -31,10 +31,3 @@ jobs:
         cd academic
         python scraper_service.py
         
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git diff --quiet && git diff --staged --quiet || git commit -m "Weekly academic events update - $(date)"
-        git push

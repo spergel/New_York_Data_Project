@@ -3,6 +3,7 @@ import json
 from datetime import datetime, timezone
 import re
 import hashlib
+from event_filter import filter_events, get_filter_stats
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -197,6 +198,8 @@ def parse_columbia_events(input_data):
                 "start_date": start_date.isoformat(),
                 "end_date": end_date.isoformat(),
                 "category": determine_categories(event),
+                "source": "columbia",
+                "source_group": "Columbia",
                 "metadata": metadata
             }
 
@@ -206,7 +209,14 @@ def parse_columbia_events(input_data):
             print(f"Error processing event: {event.get('summary', 'Unknown event')}. Error: {str(e)}")
             continue
 
-    return standardized_events
+    # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return filtered_events
 
 def scrape_columbia_events():
     data = fetch_columbia_events()

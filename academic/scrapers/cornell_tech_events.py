@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import json
 import pytz
 import hashlib
+from event_filter import filter_events, get_filter_stats
 
 # Add a custom header
 headers = {
@@ -216,6 +217,8 @@ def scrape_cornell_tech_events(num_pages=5):
                     "start_date": start_datetime.isoformat(),
                     "end_date": end_datetime.isoformat(),
                     "category": determine_categories(event_data),
+                    "source": "cornell_tech",
+                    "source_group": "Cornell",
                     "metadata": metadata
                 }
 
@@ -225,7 +228,14 @@ def scrape_cornell_tech_events(num_pages=5):
                 print(f"Error processing event: {title if 'title' in locals() else 'Unknown'}. Error: {str(e)}")
                 continue
 
-    return {"events": standardized_events}
+        # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return {"events": filtered_events}
 
 def main():
     events = scrape_cornell_tech_events()

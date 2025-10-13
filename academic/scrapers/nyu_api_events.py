@@ -4,6 +4,7 @@ import hashlib
 from datetime import datetime
 from typing import List, Dict, Optional
 import json
+from event_filter import filter_events, get_filter_stats
 
 ACADEMIC_KEYWORDS = [
     "lecture",
@@ -264,7 +265,14 @@ def scrape_nyu_api_events() -> Dict[str, List[Dict]]:
             seen.add(key)
             deduped.append(e)
         
-        return {"events": deduped}
+        # Apply event filtering
+        print(f"Before filtering: {len(deduped)} events")
+        filtered_events = filter_events(deduped)
+        stats = get_filter_stats(deduped, filtered_events)
+        print(f"After filtering: {len(filtered_events)} events")
+        print(f"Filtering stats: {stats}")
+        
+        return {"events": filtered_events}
         
     except Exception as e:
         print(f"❌ Error scraping NYU API: {e}")

@@ -4,6 +4,12 @@ import hashlib
 from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import List, Dict, Optional
+import sys
+import os
+
+# Add the scrapers directory to the path to import event_filter
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from event_filter import filter_events
 
 ACADEMIC_KEYWORDS = [
 	"lecture",
@@ -115,7 +121,10 @@ def scrape_columbia_classics_events() -> Dict[str, List[Dict]]:
 		seen.add(key)
 		deduped.append(e)
 
-	return {"events": deduped}
+	# Apply filtering to remove past events and unwanted content
+	filtered_events = filter_events(deduped)
+
+	return {"events": filtered_events}
 
 
 def main():

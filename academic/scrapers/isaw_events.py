@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timedelta
 import hashlib
+from event_filter import filter_events, get_filter_stats
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -241,6 +242,8 @@ def parse_isaw_events(events):
                 "start_date": date_time.isoformat(),
                 "end_date": end_time.isoformat(),
                 "category": determine_categories(event_data),
+                "source": "isaw",
+                "source_group": "NYU",
                 "metadata": metadata
             }
 
@@ -250,7 +253,14 @@ def parse_isaw_events(events):
             print(f"Error processing event: {event.get('title', 'Unknown')}. Error: {str(e)}")
             continue
 
-    return {"events": standardized_events}
+        # Apply event filtering
+    print(f"Before filtering: {len(standardized_events)} events")
+    filtered_events = filter_events(standardized_events)
+    stats = get_filter_stats(standardized_events, filtered_events)
+    print(f"After filtering: {len(filtered_events)} events")
+    print(f"Filtering stats: {stats}")
+
+    return {"events": filtered_events}
 
 def scrape_isaw_events():
     raw_events = fetch_isaw_events()
