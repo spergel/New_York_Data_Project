@@ -1,0 +1,118 @@
+/* Event Card - Clean, Typographic Design */
+
+.eventCard {
+  border: var(--border-width) var(--border-style) var(--ink-black);
+  background-color: var(--parchment);
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  position: relative;
+}
+
+.eventCard:last-child {
+  margin-bottom: 0;
+}
+
+/* Event header */
+.eventHeader {
+  margin-bottom: var(--spacing-sm);
+}
+
+.eventTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.eventLink {
+  color: var(--ink-black);
+  text-decoration: none;
+}
+
+.eventLink:hover {
+  color: var(--leather-dark);
+  text-decoration: underline;
+}
+
+.eventLink:visited {
+  color: var(--ink-gray);
+}
+
+/* Event metadata */
+.eventMeta {
+  margin-bottom: var(--spacing-sm);
+}
+
+.eventDateTime {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--font-size-caption);
+  color: var(--ink-gray);
+}
+
+.date {
+  font-weight: bold;
+}
+
+.time {
+  font-style: italic;
+}
+
+.eventInstitution {
+  font-size: var(--font-size-body);
+  font-weight: bold;
+  color: var(--leather-dark);
+  margin-bottom: var(--spacing-xs);
+}
+
+.eventLocation {
+  font-size: var(--font-size-caption);
+  color: var(--ink-gray);
+  font-style: italic;
+}
+
+/* Event description */
+.eventDescription {
+  margin-bottom: var(--spacing-sm);
+}
+
+.descriptionText {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  margin: 0;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Event actions */
+.eventActions {
+  border-top: 1px solid var(--ink-gray);
+  padding-top: var(--spacing-sm);
+  text-align: right;
+}
+
+.readMoreButton {
+  display: inline-block;
+  background-color: var(--parchment);
+  color: var(--ink-black);
+  border: var(--border-width) var(--border-style) var(--ink-black);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-caption);
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: none; /* No transitions */
+}
+
+.readMoreButton:hover {
+  background-color: var(--leather-light);
+  color: var(--ink-black);
+}
+
+.readMoreButton:active {
+  background-color: var(--leather-medium);
+  color: var(--parchment);
+}

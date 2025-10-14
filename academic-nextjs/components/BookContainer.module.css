@@ -1,0 +1,48 @@
+/* Book Container - Antique Book Styling */
+
+.book {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--leather-dark);
+  position: relative;
+  padding: var(--spacing-lg);
+  box-sizing: border-box;
+}
+
+/* Book spine decoration */
+.spine {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: linear-gradient(to right,
+    var(--leather-dark),
+    var(--leather-medium),
+    var(--leather-light),
+    var(--leather-medium),
+    var(--leather-dark)
+  );
+  border-right: var(--border-width) var(--border-style) var(--ink-black);
+}
+
+/* Main content area */
+.content {
+  background-color: var(--parchment);
+  border: 2px solid var(--ink-black);
+  min-height: calc(100vh - 2 * var(--spacing-lg));
+  position: relative;
+  overflow: hidden;
+}
+
+/* Inner shadow to create depth */
+.content::before {
+  content: '';
+  position: absolute;
+  top: var(--spacing-md);
+  left: var(--spacing-md);
+  right: var(--spacing-md);
+  bottom: var(--spacing-md);
+  border: 1px solid var(--ink-gray);
+  pointer-events: none;
+}
