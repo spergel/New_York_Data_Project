@@ -288,8 +288,8 @@ class AcademicEventsApp {
         const dateStr = formatDate(startDate);
         const timeStr = formatTime(startDate);
 
-        const location = event.metadata?.venue?.name || event.venue?.name || (event.location || 'Location TBD');
-        const eventUrl = event.metadata?.source_url || event.url;
+        const location = event.venue?.name || event.metadata?.venue?.name || event.location || 'Location TBD';
+        const eventUrl = event.source_url || event.metadata?.source_url || event.url;
 
         // Handle category - it can be a string, array, or missing
         let categories = [];
