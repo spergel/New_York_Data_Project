@@ -197,6 +197,9 @@ def parse_nyu_engineering_events(events):
                 "start_date": date_time.isoformat(),
                 "end_date": end_time.isoformat(),
                 "category": determine_categories(event),
+                "source": "nyu_engineering",
+                "source_group": "NYU Engineering",
+                "source_name": "NYU Tandon School of Engineering",
                 "metadata": metadata
             }
 
