@@ -1,0 +1,796 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page Flip Book Styles - Using their exact CSS */
+.book-container {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+
+.page {
+  padding: 30px 20px 20px 20px;
+  background-color: hsl(35, 55, 98);
+  color: hsl(35, 35, 35);
+  border: solid 1px hsl(35, 20, 70);
+  overflow: hidden;
+}
+
+.page-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.page-header {
+  height: 40px;
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.page-text {
+  height: 100%;
+  flex-grow: 1;
+  font-size: 80%;
+  text-align: justify;
+  margin-top: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  border-top: solid 1px hsl(35, 55, 90);
+}
+
+.page-footer {
+  height: 30px;
+  border-top: solid 1px hsl(35, 55, 90);
+  font-size: 80%;
+  color: hsl(35, 20, 50);
+}
+
+.page.--left {
+  border-right: 0;
+  box-shadow: inset -7px 0 30px -7px rgba(0, 0, 0, 0.4);
+}
+
+.page.--right {
+  border-left: 0;
+  box-shadow: inset 7px 0 30px -7px rgba(0, 0, 0, 0.4);
+}
+
+.page.--right .page-footer {
+  text-align: right;
+}
+
+.page.hard {
+  background-color: hsl(35, 50, 90);
+  border: solid 1px hsl(35, 20, 50);
+}
+
+.page.page-cover {
+  background-color: hsl(35, 45, 80);
+  color: hsl(35, 35, 35);
+  border: solid 1px hsl(35, 20, 50);
+}
+
+.page.page-cover h2 {
+  text-align: center;
+  padding-top: 50%;
+  font-size: 210%;
+}
+
+.page.page-cover-top {
+  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), -2px 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.page.page-cover-bottom {
+  box-shadow: inset 0px 0 30px 0px rgba(36, 10, 3, 0.5), 10px 0 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.book-container::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(45deg, #f0f9ff, #e0f2fe, #f0f9ff);
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.dark .book-container::before {
+  background: linear-gradient(45deg, #1e293b, #334155, #1e293b);
+}
+
+/* Page Styles */
+.page {
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.dark .page {
+  background: #1f2937;
+}
+
+.page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.3), transparent);
+}
+
+/* Title Page Special Styling */
+.title-page {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #bae6fd 100%);
+  color: #1e40af;
+  font-family: var(--font-serif);
+}
+
+.dark .title-page {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+  color: #e0f2fe;
+}
+
+.title-page h1 {
+  font-family: var(--font-serif);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dark .title-page h1 {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Back Cover Styling */
+.back-cover {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+  color: #475569;
+  font-family: var(--font-serif);
+}
+
+.dark .back-cover {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  color: #cbd5e1;
+}
+
+/* Event Page Styling */
+.event-page {
+  background: white;
+  color: #374151;
+}
+
+.dark .event-page {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+/* Multi-event page styling */
+.event-item {
+  margin-bottom: 20px;
+}
+
+.event-separator {
+  border-top: 1px solid hsl(35, 55, 90);
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.event-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: hsl(35, 35, 25);
+  line-height: 1.3;
+}
+
+.dark .event-title {
+  color: hsl(35, 65, 75);
+}
+
+.event-meta {
+  font-size: 11px;
+  margin-bottom: 8px;
+  color: hsl(35, 20, 40);
+}
+
+.dark .event-meta {
+  color: hsl(35, 80, 60);
+}
+
+.event-meta p {
+  margin: 2px 0;
+}
+
+.event-description {
+  font-size: 10px;
+  line-height: 1.4;
+  color: hsl(35, 35, 35);
+  margin: 0;
+}
+
+.dark .event-description {
+  color: hsl(35, 65, 85);
+}
+
+/* Book-Integrated Bookmark Ribbons - Vertical on inner side of left page */
+.book-bookmarks-container {
+  position: absolute;
+  top: 0;
+  right: 0; /* Inner fold position - flush with page edge */
+  width: 120px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  z-index: 10;
+  pointer-events: auto;
+  transition: all 0.3s ease;
+  justify-content: flex-start; /* Start from top */
+}
+
+/* Stacking animation - bookmarks stack by default */
+.book-bookmarks-container:hover {
+  gap: 8px; /* Spread out on hover */
+}
+
+.book-bookmarks-container:hover .book-bookmark {
+  transform: translateX(0) !important;
+}
+
+.book-bookmark {
+  background: linear-gradient(135deg, var(--university-color, #dc2626), color-mix(in srgb, var(--university-color, #dc2626) 80%, black));
+  color: white;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  font-size: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  position: relative;
+  border-left: 3px solid color-mix(in srgb, var(--university-color, #dc2626) 60%, black);
+  transform: translateX(0); /* Straight vertical */
+  z-index: 1;
+  width: 100%;
+  text-align: left;
+}
+
+/* Stacking effect - each bookmark overlaps the previous */
+.book-bookmark:nth-child(2) { z-index: 2; }
+.book-bookmark:nth-child(3) { z-index: 3; }
+.book-bookmark:nth-child(4) { z-index: 4; }
+.book-bookmark:nth-child(5) { z-index: 5; }
+.book-bookmark:nth-child(6) { z-index: 6; }
+.book-bookmark:nth-child(7) { z-index: 7; }
+.book-bookmark:nth-child(8) { z-index: 8; }
+.book-bookmark:nth-child(9) { z-index: 9; }
+.book-bookmark:nth-child(10) { z-index: 10; }
+
+.book-bookmark:hover {
+  background: linear-gradient(135deg, color-mix(in srgb, var(--university-color, #dc2626) 90%, white), var(--university-color, #dc2626));
+  transform: translateX(2px);
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.4);
+  z-index: 20; /* Bring hovered bookmark to front */
+}
+
+.book-bookmark:active {
+  transform: translateX(1px);
+}
+
+.book-bookmark::before {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: color-mix(in srgb, var(--university-color, #dc2626) 60%, black);
+  border-radius: 0 1px 1px 0;
+}
+
+.book-bookmark::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid var(--university-color, #dc2626);
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+}
+
+.bookmark-label {
+  display: block;
+  font-size: 8px;
+  line-height: 1.1;
+  margin-bottom: 1px;
+}
+
+.bookmark-number {
+  display: block;
+  font-size: 7px;
+  opacity: 0.9;
+  font-weight: 400;
+}
+
+.page-main-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-main-content.has-bookmarks {
+  padding-right: 160px; /* Make room for bookmarks only on pages that have them */
+}
+
+/* Paint thing decorative graphic */
+.paint-thing-graphic {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  height: 60px;
+}
+
+.paint-flame {
+  width: 100px;
+  height: 60px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+.paint-flame path {
+  transition: all 0.3s ease;
+}
+
+.paint-flame:hover path {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Chapter Intro Page Styling */
+.chapter-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.university-info h3 {
+  font-size: 24px;
+  color: hsl(35, 35, 25);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.dark .university-info h3 {
+  color: hsl(35, 65, 75);
+}
+
+.university-info p {
+  font-size: 16px;
+  color: hsl(35, 20, 40);
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.dark .university-info p {
+  color: hsl(35, 80, 60);
+}
+
+.chapter-stats {
+  margin-bottom: 32px;
+}
+
+.event-count {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chapter-actions {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.chapter-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.chapter-btn.primary {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+}
+
+.chapter-btn.primary:hover {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+.chapter-btn.secondary {
+  background: transparent;
+  color: hsl(35, 35, 25);
+  border: 2px solid hsl(35, 20, 70);
+}
+
+.dark .chapter-btn.secondary {
+  color: hsl(35, 65, 75);
+  border-color: hsl(35, 20, 70);
+}
+
+.chapter-btn.secondary:hover {
+  background: hsl(35, 20, 70);
+  color: white;
+}
+
+.dark .chapter-btn.secondary:hover {
+  background: hsl(35, 20, 70);
+  color: white;
+}
+
+/* Clickable Event Titles */
+.clickable-event {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.clickable-event:hover {
+  color: #3b82f6;
+  transform: translateX(4px);
+}
+
+.clickable-event::after {
+  content: '→';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.3s ease;
+  color: #3b82f6;
+  font-weight: bold;
+}
+
+.clickable-event:hover::after {
+  opacity: 1;
+  right: -25px;
+}
+
+.dark .clickable-event:hover {
+  color: #60a5fa;
+}
+
+.dark .clickable-event::after {
+  color: #60a5fa;
+}
+
+/* Clickable Institution Names */
+.clickable-institution {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 2px;
+}
+
+.clickable-institution:hover {
+  color: #1d4ed8;
+  text-decoration-color: #1d4ed8;
+  transform: translateX(2px);
+}
+
+.dark .clickable-institution:hover {
+  color: #60a5fa;
+  text-decoration-color: #60a5fa;
+}
+
+
+
+/* Book-style Table of Contents */
+.book-toc {
+  font-family: 'Times New Roman', serif;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 2px 0;
+}
+
+.toc-entry:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding-left: 4px;
+  border-radius: 2px;
+}
+
+.dark .toc-entry:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.toc-title {
+  font-size: 14px;
+  color: hsl(35, 35, 25);
+  font-weight: 400;
+  flex-shrink: 0;
+}
+
+.dark .toc-title {
+  color: hsl(35, 65, 75);
+}
+
+.toc-dots {
+  flex-grow: 1;
+  margin: 0 8px;
+  color: hsl(35, 20, 60);
+  font-size: 12px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-bottom: 1px dotted hsl(35, 20, 60);
+  height: 1px;
+  margin-top: 8px;
+}
+
+.dark .toc-dots {
+  color: hsl(35, 20, 60);
+}
+
+.toc-page {
+  font-size: 12px;
+  color: hsl(35, 20, 50);
+  font-weight: 500;
+  flex-shrink: 0;
+  min-width: 30px;
+  text-align: right;
+}
+
+.dark .toc-page {
+  color: hsl(35, 20, 60);
+}
+
+/* Responsive adjustments for book bookmarks */
+@media (max-width: 1200px) {
+  .book-bookmarks-container {
+    width: 120px;
+    right: -12px;
+  }
+
+  .book-bookmark {
+    padding: 3px 6px 3px 10px;
+    font-size: 8px;
+  }
+
+  .bookmark-label {
+    font-size: 7px;
+  }
+
+  .bookmark-number {
+    font-size: 6px;
+  }
+
+  .page-main-content.has-bookmarks {
+    padding-right: 140px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .book-bookmarks-container {
+    width: 100px;
+    right: -10px;
+  }
+
+  .book-bookmark {
+    padding: 2px 4px 2px 8px;
+    font-size: 7px;
+  }
+
+  .bookmark-label {
+    font-size: 6px;
+  }
+
+  .bookmark-number {
+    font-size: 5px;
+  }
+
+  .page-main-content.has-bookmarks {
+    padding-right: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-bookmarks-container {
+    position: static;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(220, 38, 38, 0.1);
+    border-radius: 6px;
+  }
+
+  .book-bookmark {
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 8px;
+    flex: 0 0 auto;
+    min-width: 80px;
+  }
+
+  .book-bookmark::after {
+    display: none;
+  }
+
+  .page-main-content.has-bookmarks {
+    padding-right: 0;
+  }
+}
+
+/* Smooth transitions for buttons */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Page header with back button */
+.page-header-with-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.back-to-all-btn {
+  background: linear-gradient(135deg, #6b7280, #4b5563);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.back-to-all-btn:hover {
+  background: linear-gradient(135deg, #4b5563, #374151);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-all-btn:active {
+  transform: translateY(0);
+}
+
+/* Page flip click areas */
+.book-container .stf__parent {
+  position: relative;
+}
+
+.book-container .stf__parent::before,
+.book-container .stf__parent::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.book-container .stf__parent::before {
+  left: 0;
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.1), transparent);
+}
+
+.book-container .stf__parent::after {
+  right: 0;
+  background: linear-gradient(270deg, rgba(59, 130, 246, 0.1), transparent);
+}
+
+.book-container .stf__parent::before:hover,
+.book-container .stf__parent::after:hover {
+  background: linear-gradient(90deg, rgba(59, 130, 246, 0.2), transparent);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .book-container {
+    width: 900px !important;
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .book-container {
+    width: 700px !important;
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .book-container {
+    width: 550px !important;
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .book-container {
+    width: 320px !important;
+    height: 240px !important;
+  }
+}

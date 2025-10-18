@@ -1,0 +1,264 @@
+{
+  "scraped_at": "2025-10-17T12:00:00.000000",
+  "total_events": 12,
+  "event_sources": {
+    "sample_data": 12
+  },
+  "events": [
+    {
+      "id": "evt_columbia_quantum_001",
+      "name": "Quantum Computing Symposium: Latest Advances in Quantum Algorithms",
+      "type": "Academic",
+      "location_id": "loc_columbia_davis",
+      "community_id": "com_columbia_cs",
+      "description": "Join leading researchers from Columbia's Quantum Computing Lab for presentations on the latest breakthroughs in quantum algorithms, hardware development, and practical applications. Topics include Shor's algorithm implementations, quantum error correction, and industrial applications in cryptography and materials science.",
+      "start_date": "2025-10-25T14:00:00",
+      "end_date": "2025-10-25T17:00:00",
+      "category": [
+        "SCIENCE",
+        "TECHNOLOGY"
+      ],
+      "source": "columbia_cs",
+      "source_group": "columbia_cs",
+      "metadata": {
+        "source_url": "https://www.cs.columbia.edu/research/quantum-computing/",
+        "source_name": "Columbia University Computer Science",
+        "venue": {
+          "name": "Davis Auditorium",
+          "address": "530 W 120th St, New York, NY 10027",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_literature_002",
+      "name": "Medieval Literature in the Digital Age: New Critical Approaches",
+      "type": "Academic",
+      "location_id": "loc_nyu_bobst",
+      "community_id": "com_nyu_gallatin",
+      "description": "An interdisciplinary conference exploring medieval texts through modern critical lenses. Featuring presentations from scholars across multiple disciplines including digital humanities, comparative literature, and medieval studies. Topics range from digital manuscript analysis to contemporary interpretations of medieval narratives.",
+      "start_date": "2025-11-02T09:00:00",
+      "end_date": "2025-11-02T17:00:00",
+      "category": [
+        "EDUCATION",
+        "HUMANITIES"
+      ],
+      "source": "nyu_gallatin",
+      "source_group": "nyu_gallatin",
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/academics/conferences.html",
+        "source_name": "NYU Gallatin School",
+        "venue": {
+          "name": "Bobst Library, Room 119",
+          "address": "70 Washington Square S, New York, NY 10012",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_policy_003",
+      "name": "Climate Change Policy in the Urban Context: New York Case Studies",
+      "type": "Academic",
+      "location_id": "loc_columbia_sipa",
+      "community_id": "com_columbia_sipa",
+      "description": "Panel discussion on international climate policy frameworks and their implementation at the local level, with a focus on New York City's sustainability initiatives. Featuring policymakers, environmental experts, and urban planners discussing carbon reduction strategies, green infrastructure, and climate adaptation policies.",
+      "start_date": "2025-10-30T13:00:00",
+      "end_date": "2025-10-30T16:00:00",
+      "category": [
+        "SCIENCE",
+        "PUBLIC_POLICY"
+      ],
+      "source": "columbia_sipa",
+      "source_group": "columbia_sipa",
+      "metadata": {
+        "source_url": "https://sipa.columbia.edu/events",
+        "source_name": "Columbia SIPA",
+        "venue": {
+          "name": "International Affairs Building, Room 1501",
+          "address": "420 W 118th St, New York, NY 10027",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_medicine_004",
+      "name": "Neuroscience Discovery Series: Brain-Computer Interfaces",
+      "type": "Academic",
+      "location_id": "loc_nyu_medicine",
+      "community_id": "com_nyu_medicine",
+      "description": "Monthly lecture series highlighting cutting-edge research in brain function, neurological disorders, and cognitive neuroscience. This month's focus: emerging technologies in brain-computer interfaces, neural prosthetics, and the ethical implications of neurotechnology advancements.",
+      "start_date": "2025-11-05T16:00:00",
+      "end_date": "2025-11-05T18:00:00",
+      "category": [
+        "SCIENCE",
+        "MEDICINE"
+      ],
+      "source": "nyu_medicine",
+      "source_group": "nyu_medicine",
+      "metadata": {
+        "source_url": "https://medicine.nyu.edu/research/centers/",
+        "source_name": "NYU Grossman School of Medicine",
+        "venue": {
+          "name": "Smilow Research Center, Amphitheater",
+          "address": "522 First Ave, New York, NY 10016",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_pratt_art_005",
+      "name": "Contemporary Art Exhibition: Digital Identity in the Metaverse",
+      "type": "Academic",
+      "location_id": "loc_pratt_manhattan",
+      "community_id": "com_pratt_fine_arts",
+      "description": "Opening reception for the annual MFA thesis exhibition featuring work from emerging artists exploring themes of identity, technology, and digital consciousness. The exhibition showcases multimedia installations, virtual reality experiences, and traditional media reimagined through digital perspectives.",
+      "start_date": "2025-10-28T18:00:00",
+      "end_date": "2025-10-28T21:00:00",
+      "category": [
+        "ARTS",
+        "TECHNOLOGY"
+      ],
+      "source": "pratt_fine_arts",
+      "source_group": "pratt_fine_arts",
+      "metadata": {
+        "source_url": "https://www.pratt.edu/academics/art-design/",
+        "source_name": "Pratt Institute Fine Arts",
+        "venue": {
+          "name": "Pratt Manhattan Gallery",
+          "address": "144 W 14th St, New York, NY 10011",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_law_006",
+      "name": "Legal Ethics in the Digital Age: AI and Legal Practice",
+      "type": "Academic",
+      "location_id": "loc_nyu_law",
+      "community_id": "com_nyu_law",
+      "description": "Panel discussion examining ethical challenges posed by emerging technologies in legal practice. Topics include artificial intelligence in legal research and decision-making, blockchain applications in contract law, data privacy regulations, and the evolving role of attorneys in digital society.",
+      "start_date": "2025-11-08T14:00:00",
+      "end_date": "2025-11-08T17:00:00",
+      "category": [
+        "LAW",
+        "TECHNOLOGY"
+      ],
+      "source": "nyu_law",
+      "source_group": "nyu_law",
+      "metadata": {
+        "source_url": "https://www.law.nyu.edu/centers/innovation-law-practice/",
+        "source_name": "NYU School of Law",
+        "venue": {
+          "name": "Vanderbilt Hall, Room 204",
+          "address": "40 Washington Square S, New York, NY 10012",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_cornell_tech_007",
+      "name": "Human-Computer Interaction: Designing for Accessibility",
+      "type": "Academic",
+      "location_id": "loc_cornell_tech",
+      "community_id": "com_cornell_tech",
+      "description": "Workshop and panel discussion on designing technology interfaces that are accessible to users with diverse abilities and needs. Topics include universal design principles, assistive technologies, inclusive user research methods, and the business case for accessibility in tech development.",
+      "start_date": "2025-11-12T10:00:00",
+      "end_date": "2025-11-12T16:00:00",
+      "category": [
+        "TECHNOLOGY",
+        "DESIGN"
+      ],
+      "source": "cornell_tech",
+      "source_group": "cornell_tech",
+      "metadata": {
+        "source_url": "https://tech.cornell.edu/research/hci/",
+        "source_name": "Cornell Tech",
+        "venue": {
+          "name": "Bloomberg Center, Amphitheater",
+          "address": "125 W 18th St, New York, NY 10011",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_new_school_008",
+      "name": "Urban Anthropology: City as Cultural Text",
+      "type": "Academic",
+      "location_id": "loc_new_school",
+      "community_id": "com_new_school",
+      "description": "Lecture series exploring urban spaces as cultural artifacts and social texts. Drawing from anthropology, sociology, and cultural studies, this series examines how cities encode social relationships, power dynamics, and cultural identities through their physical and social landscapes.",
+      "start_date": "2025-11-15T15:00:00",
+      "end_date": "2025-11-15T17:00:00",
+      "category": [
+        "SOCIAL_SCIENCES",
+        "HUMANITIES"
+      ],
+      "source": "new_school",
+      "source_group": "new_school",
+      "metadata": {
+        "source_url": "https://www.newschool.edu/nssr/anthropology/",
+        "source_name": "The New School",
+        "venue": {
+          "name": "Wolff Conference Room",
+          "address": "6 E 16th St, New York, NY 10003",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_juilliard_009",
+      "name": "Contemporary Music Performance: Experimental Techniques",
+      "type": "Academic",
+      "location_id": "loc_juilliard",
+      "community_id": "com_juilliard",
+      "description": "Student recital featuring experimental music compositions and performance techniques. The program includes works that explore extended techniques, electronic integration, interdisciplinary collaboration, and new approaches to musical expression in the 21st century.",
+      "start_date": "2025-11-18T19:00:00",
+      "end_date": "2025-11-18T21:00:00",
+      "category": [
+        "ARTS",
+        "PERFORMANCE"
+      ],
+      "source": "juilliard",
+      "source_group": "juilliard",
+      "metadata": {
+        "source_url": "https://www.juilliard.edu/academics/music",
+        "source_name": "The Juilliard School",
+        "venue": {
+          "name": "Paul Recital Hall",
+          "address": "60 Lincoln Center Plaza, New York, NY 10023",
+          "type": "venue"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_physics_010",
+      "name": "Astrophysics Seminar: Dark Matter and Galaxy Formation",
+      "type": "Academic",
+      "location_id": "loc_columbia_physics",
+      "community_id": "com_columbia_physics",
+      "description": "Weekly seminar series featuring research presentations on astrophysical phenomena. This week's topic explores recent discoveries in dark matter distribution, galaxy formation theories, and the implications for our understanding of the universe's large-scale structure.",
+      "start_date": "2025-11-20T14:00:00",
+      "end_date": "2025-11-20T15:30:00",
+      "category": [
+        "SCIENCE",
+        "PHYSICS"
+      ],
+      "source": "columbia_physics",
+      "source_group": "columbia_physics",
+      "metadata": {
+        "source_url": "https://physics.columbia.edu/research/astrophysics",
+        "source_name": "Columbia Physics Department",
+        "venue": {
+          "name": "Pupin Physics Laboratories, Room 329",
+          "address": "550 W 120th St, New York, NY 10027",
+          "type": "venue"
+        }
+      }
+    }
+  ]
+}
+
+
+
+
+
