@@ -6,6 +6,7 @@ import json
 import time
 import random
 from event_filter import filter_events, get_filter_stats
+from category_utils import determine_categories
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -98,28 +99,16 @@ def determine_event_type(event_data):
     
     return "Performance"  # Default for Juilliard is Performance
 
-def determine_categories(event_data):
-    """Map Juilliard categories to standard EventCategory enum values."""
-    categories = set()
-    title = event_data.get('title', '').lower()
-    tags = [tag.lower() for tag in event_data.get('tags', [])]
-    
-    # Default category
-    categories.add('ARTS')
-    
-    # Add categories based on content
-    if any(term in title + ' '.join(tags) for term in ['music', 'concert', 'recital', 'orchestra']):
-        categories.add('MUSIC')
-    if any(term in title + ' '.join(tags) for term in ['dance', 'ballet', 'choreography']):
-        categories.add('DANCE')
-    if any(term in title + ' '.join(tags) for term in ['drama', 'theater', 'theatre', 'acting']):
-        categories.add('THEATER')
-    if any(term in title + ' '.join(tags) for term in ['opera', 'vocal', 'voice']):
-        categories.add('MUSIC')
-    if any(term in title + ' '.join(tags) for term in ['jazz', 'historical']):
-        categories.add('MUSIC')
-    
-    return list(categories)
+def determine_categories_juilliard(event_data):
+    """Determine categories for Juilliard events using centralized logic."""
+    # Use hybrid approach: tag mapping + keyword analysis
+    categories = determine_categories(event_data, method='hybrid')
+
+    # Ensure Juilliard events get ARTS category (they're performing arts focused)
+    if 'ARTS' not in categories:
+        categories.append('ARTS')
+
+    return categories
 
 def fetch_juilliard_events():
     """Try multiple approaches to fetch Juilliard events"""
@@ -359,7 +348,7 @@ def parse_juilliard_events(data):
                     "description": ", ".join(tags),
                     "start_date": date.isoformat(),
                     "end_date": end_date.isoformat(),
-                    "category": determine_categories(event_info),
+                    "category": determine_categories_juilliard(event_info),
                     "source": "juilliard",
                     "source_group": "juilliard",
                     "metadata": metadata
@@ -428,7 +417,7 @@ def parse_juilliard_events(data):
                             "description": ", ".join(tags),
                             "start_date": date.isoformat(),
                             "end_date": end_date.isoformat(),
-                            "category": determine_categories(event_data),
+                            "category": determine_categories_juilliard(event_data),
                             "source": "juilliard",
                             "source_group": "juilliard",
                             "metadata": metadata

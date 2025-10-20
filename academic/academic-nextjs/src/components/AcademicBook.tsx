@@ -1,13 +1,20 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-// @ts-ignore
+// @ts-expect-error page-flip might not ship types here
 import { PageFlip } from 'page-flip';
 import { EventData, NavigationState } from '../types/events';
-import TableOfContents from './TableOfContents';
-import PageContent from './PageContent';
 import NavigationControls from './NavigationControls';
-import { sanitizeHtml, sanitizeTitle, sanitizeText, escapeForJS } from '../utils/htmlSanitizer';
+import { sanitizeHtml, sanitizeTitle, escapeForJS } from '../utils/htmlSanitizer';
+
+declare global {
+  interface Window {
+    goToPage: (pageNum: number) => void;
+    institutionClick: (institution: string) => void;
+    categoryClick: (category: string) => void;
+    goBack: () => void;
+  }
+}
 
 interface AcademicBookProps {
   events: EventData[];
@@ -101,19 +108,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
     }
   };
 
-  const handleGoToFirstPage = () => {
-    handleGoToPage(0, true);
-    setNavigationState(prev => ({
-      ...prev,
-      currentSection: 'all',
-      currentInstitution: undefined,
-      currentCategory: undefined
-    }));
-  };
-
-  const handleGoToTableOfContents = () => {
-    handleGoToPage(0, true);
-  };
+  // Reserved for future navigation helpers if needed
 
 
   const handleInstitutionClick = (institution: string) => {
@@ -132,14 +127,11 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         const instEvents = sortedEvents.filter(e => cleanInstitutions(e.institution) === inst);
         return Math.ceil(instEvents.length / eventsPerPage);
       });
-      
-      const institutionIndex = institutions.indexOf(cleanInstitution);
       const institutionStartPage = tocPages + allEventsPages + 
-        institutionPageCounts.slice(0, institutionIndex).reduce((sum, count) => sum + count, 0) + 1; // +1 for publisher's page
+        institutionPageCounts.slice(0, institutions.indexOf(cleanInstitution)).reduce((sum, count) => sum + count, 0) + 1; // +1 for publisher's page
       
       console.log('Navigating to institution:', cleanInstitution, 'at page:', institutionStartPage);
       console.log('Page structure:', { tocPages, allEventsPages, institutionStartPage });
-      console.log('Institution index:', institutionIndex, 'Page counts:', institutionPageCounts);
       console.log('TOC would show page:', institutionStartPage + 1);
       
       setNavigationState(prev => ({
@@ -178,14 +170,11 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         const catEvents = sortedEvents.filter(e => e.category && e.category.includes(cat));
         return Math.ceil(catEvents.length / eventsPerPage);
       });
-
-      const categoryIndex = categories.indexOf(category);
       const categoryStartPage = tocPages + allEventsPages + totalInstitutionPages +
-        categoryPageCounts.slice(0, categoryIndex).reduce((sum, count) => sum + count, 0) + 1; // +1 for publisher's page
+        categoryPageCounts.slice(0, categories.indexOf(category)).reduce((sum, count) => sum + count, 0) + 1; // +1 for publisher's page
 
       console.log('Navigating to category:', category, 'at page:', categoryStartPage);
       console.log('Page structure:', { tocPages, allEventsPages, totalInstitutionPages, categoryStartPage });
-      console.log('Category index:', categoryIndex, 'Page counts:', categoryPageCounts);
 
       setNavigationState(prev => ({
         ...prev,
@@ -249,19 +238,19 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       console.log('Setting up dynamic book with', events.length, 'events...');
 
       // Set up global handlers BEFORE generating HTML
-      (window as any).goToPage = (pageNum: number) => {
+      window.goToPage = (pageNum: number) => {
         console.log('Global goToPage called with:', pageNum);
         handleGoToPage(pageNum, true); // TOC entries are big jumps
       };
-      (window as any).institutionClick = (institution: string) => {
+      window.institutionClick = (institution: string) => {
         console.log('Global institutionClick called with:', institution);
         handleInstitutionClick(institution);
       };
-      (window as any).categoryClick = (category: string) => {
+      window.categoryClick = (category: string) => {
         console.log('Global categoryClick called with:', category);
         handleCategoryClick(category);
       };
-      (window as any).goBack = () => {
+      window.goBack = () => {
         console.log('Global goBack called');
         handleGoBack();
       };
@@ -269,7 +258,6 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       // Generate pages dynamically for events (3-4 events per page) with integrated bookmarks
       const generatePagesHTML = () => {
         let pagesHTML = '';
-        let currentPageIndex = 0;
 
         // No internal bookmarks - moved to external sidebar
 
@@ -443,14 +431,12 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               </div>
             </div>
           `;
-          currentPageIndex++;
         }
 
         // Add main events section (all events sorted by date)
         for (let pageIndex = 0; pageIndex < sortedEvents.length; pageIndex += eventsPerPage) {
           const pageEvents = sortedEvents.slice(pageIndex, pageIndex + eventsPerPage);
           const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
-          const isEvenPage = pageNumber % 2 === 0;
           const isLeftPage = pageNumber % 2 === 0; // Even page numbers are left pages
 
           pagesHTML += `
@@ -506,13 +492,12 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         }
 
         // Add institution-specific sections
-        institutions.forEach((institution, institutionIndex) => {
+        institutions.forEach((institution) => {
           const institutionEvents = sortedEvents.filter(event => cleanInstitutions(event.institution) === institution);
 
           for (let pageIndex = 0; pageIndex < institutionEvents.length; pageIndex += eventsPerPage) {
             const pageEvents = institutionEvents.slice(pageIndex, pageIndex + eventsPerPage);
             const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
-            const isEvenPage = pageNumber % 2 === 0;
             const isLeftPage = pageNumber % 2 === 0; // Even page numbers are left pages
 
             pagesHTML += `
@@ -569,7 +554,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         });
 
         // Add category-specific sections
-        categories.forEach((category, categoryIndex) => {
+        categories.forEach((category) => {
           const categoryEvents = sortedEvents.filter(event =>
             event.category && event.category.includes(category)
           );
@@ -577,7 +562,6 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           for (let pageIndex = 0; pageIndex < categoryEvents.length; pageIndex += eventsPerPage) {
             const pageEvents = categoryEvents.slice(pageIndex, pageIndex + eventsPerPage);
             const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
-            const isEvenPage = pageNumber % 2 === 0;
             const isLeftPage = pageNumber % 2 === 0; // Even page numbers are left pages
 
             pagesHTML += `
@@ -670,7 +654,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               console.log('PageFlip initialized successfully!');
 
               // Add event listeners
-              pageFlipRef.current.on('flip', (e: any) => {
+              pageFlipRef.current.on('flip', (e: { data: number }) => {
                 console.log('Page flipped to:', e.data);
                 setNavigationState(prev => ({
                   ...prev,
@@ -678,7 +662,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                 }));
               });
 
-              pageFlipRef.current.on('changeState', (e: any) => {
+              pageFlipRef.current.on('changeState', (e: { data: unknown }) => {
                 console.log('Book state changed to:', e.data);
               });
 

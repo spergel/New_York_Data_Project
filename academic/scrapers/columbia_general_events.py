@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import re
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from category_utils import determine_categories
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -95,38 +96,10 @@ def determine_event_type(event_data):
     
     return "Academic"
 
-def determine_categories(event_data):
-    """Map Columbia categories to standard EventCategory enum values."""
-    categories = set()
-    all_tags = event_data.get('categories', [])
-    
-    category_mapping = {
-        'science': 'SCIENCE',
-        'technology': 'TECH',
-        'engineering': 'TECH',
-        'business': 'BUSINESS',
-        'art': 'ARTS',
-        'arts': 'ARTS',
-        'culture': 'CULTURE',
-        'education': 'EDUCATION',
-        'health': 'HEALTH',
-        'exercise': 'EXERCISE',
-        'social': 'SOCIAL',
-        'networking': 'NETWORKING'
-    }
-    
-    # Add mapped categories
-    for tag in all_tags:
-        tag_lower = tag.lower()
-        for key, value in category_mapping.items():
-            if key in tag_lower:
-                categories.add(value)
-    
-    # Ensure at least one category
-    if not categories:
-        categories.add('EDUCATION')
-    
-    return list(categories)
+def determine_categories_columbia(event_data):
+    """Determine categories for Columbia events using centralized logic."""
+    # Use hybrid approach: tag mapping + keyword analysis
+    return determine_categories(event_data, method='hybrid')
 
 def fetch_columbia_events():
     url = "https://events.columbia.edu/feeder/main/eventsFeed.do?f=y&sort=dtstart.utc:asc&fexpr=(categories.href!=%22/public/.bedework/categories/sys/Ongoing%22)%20and%20(categories.href=%22/public/.bedework/categories/org/UniversityEvents%22)%20and%20(entity_type=%22event%22%7Centity_type=%22todo%22)&skinName=list-json&count=200"
@@ -197,7 +170,7 @@ def parse_columbia_events(input_data):
                 "description": event.get('description', ''),
                 "start_date": start_date.isoformat(),
                 "end_date": end_date.isoformat(),
-                "category": determine_categories(event),
+                "category": determine_categories_columbia(event),
                 "source": "columbia",
                 "source_group": "Columbia",
                 "metadata": metadata

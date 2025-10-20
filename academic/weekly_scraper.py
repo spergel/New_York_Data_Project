@@ -44,7 +44,8 @@ def run_scrapers():
         'nyu_steinhardt_music_events.py',       # [PASS] 17 events (NEW)
         'nyu_stern_events.py',                  # [PASS] 8 events
         'pratt_events.py',                      # [PASS] 4 events
-        'simons_foundation_events.py'          # [PASS] 2 events
+        'simons_foundation_events.py',         # [PASS] 2 events
+        'luma_events.py'                        # [PASS] DeSciNYC events
     ]
     
     # TODO: Fix these remaining broken scrapers to get even more events:

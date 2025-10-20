@@ -6,7 +6,7 @@ interface BookmarkRibbonProps {
 }
 
 export default function BookmarkRibbon({ bookmarks, onBookmarkClick }: BookmarkRibbonProps) {
-  const sortedBookmarks = bookmarks.sort(([a], [b]) => a.localeCompare(b));
+  const sortedBookmarks = [...bookmarks].sort((a, b) => a.institution.localeCompare(b.institution));
 
   return (
     <div className="book-bookmarks-container">

@@ -6,6 +6,7 @@ import re
 import time
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from category_utils import determine_categories
 
 # Add a custom header that mimics a real browser
 headers = {
@@ -124,25 +125,16 @@ def determine_event_type(event_data):
     
     return "Academic"
 
-def determine_categories(event_data):
-    """Map CIMS categories to standard EventCategory enum values."""
-    categories = set()
-    title = event_data.get('title', '').lower()
-    description = event_data.get('description', '').lower()
-    
-    # Default categories for CIMS events
-    categories.add('EDUCATION')
-    categories.add('SCIENCE')
-    
-    # Add additional categories based on content
-    if any(term in title + description for term in ['math', 'mathematics', 'theorem', 'algebra', 'geometry']):
-        categories.add('MATH')
-    if any(term in title + description for term in ['computer', 'programming', 'software', 'algorithm']):
-        categories.add('TECH')
-    if any(term in title + description for term in ['physics', 'quantum', 'mechanics']):
-        categories.add('SCIENCE')
-    
-    return list(categories)
+def determine_categories_cims(event_data):
+    """Determine categories for CIMS events using centralized logic."""
+    # Use the centralized categorization with keyword analysis
+    categories = determine_categories(event_data, method='auto')
+
+    # Ensure CIMS events get SCIENCE category (they're math/computation focused)
+    if 'SCIENCE' not in categories:
+        categories.append('SCIENCE')
+
+    return categories
 
 def fetch_cims_events(num_pages=2):
     """Fetch events from the CIMS website."""
@@ -297,7 +289,7 @@ def parse_cims_events(events):
                 "description": event.get('description', ''),
                 "start_date": start_date.isoformat(),
                 "end_date": end_date.isoformat(),
-                "category": determine_categories(event),
+                "category": determine_categories_cims(event),
                 "source": "nyu_cims",
                 "source_group": "nyu_cims",
                 "metadata": metadata

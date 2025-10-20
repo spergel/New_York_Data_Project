@@ -37,13 +37,13 @@ interface ProcessedEvent {
 export async function GET() {
   try {
     // Try to use the main academic scraped events first
-    let filePath = path.join(process.cwd(), '..', 'scraped_events.json');
+    const filePath = path.join(process.cwd(), '..', 'scraped_events.json');
     let data;
 
     try {
       const fileContents = fs.readFileSync(filePath, 'utf8');
       data = JSON.parse(fileContents);
-    } catch (error) {
+    } catch (_unused) {
       // Fallback to sample data
       const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
       const fileContents = fs.readFileSync(samplePath, 'utf8');
@@ -60,7 +60,7 @@ export async function GET() {
           const isFuture = eventDate >= now;
           const hasDescription = event.description && event.description.length > 10;
           return isFuture && hasDescription;
-        } catch (error) {
+        } catch (_unused) {
           // Skip events with invalid data
           return false;
         }
@@ -136,7 +136,7 @@ export async function GET() {
           return null;
         }
       })
-      .filter(event => event !== null);
+      .filter((event: ProcessedEvent | null): event is ProcessedEvent => event !== null);
 
     return NextResponse.json({
       events: processedEvents,
