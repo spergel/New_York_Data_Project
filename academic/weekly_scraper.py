@@ -158,73 +158,7 @@ def combine_events():
     print(f"Saved combined events to scraped_events.json and academic-nextjs/public/scraped_events.json")
     return combined_events
 
-def convert_for_worker(events):
-    """Convert events to worker format"""
-    print("Converting events for Cloudflare worker...")
-    
-    # Import the conversion function
-    from convert_events_for_worker import convert_event
-    
-    converted_events = []
-    for i, event in enumerate(events):
-        if i % 100 == 0:
-            print(f"Converting event {i+1}/{len(events)}...")
-        
-        converted_event = convert_event(event)
-        converted_events.append(converted_event)
-    
-    print(f"[SUCCESS] Converted {len(converted_events)} events for worker")
-    
-    # Save worker-ready events
-    worker_data = {
-        "generated_at": datetime.now().isoformat(),
-        "total_events": len(converted_events),
-        "events": converted_events
-    }
-    
-    with open('worker_events.json', 'w', encoding='utf-8') as f:
-        json.dump(worker_data, f, indent=2, ensure_ascii=False)
-    
-    print(f"Saved worker events to worker_events.json")
-    return converted_events
-
-def update_worker_code(events):
-    """Generate updated worker code with new events"""
-    print("Generating updated worker code...")
-    
-    # Create the worker code snippet
-    worker_code = f"""// Auto-generated events data - {len(events)} events
-// Generated at: {datetime.now().isoformat()}
-// This file is automatically updated weekly by the scraping process
-
-const academicEvents = {json.dumps(events, indent=2, ensure_ascii=False)};
-
-// Export for use in main worker
-export {{ academicEvents }};
-"""
-    
-    # Save worker code
-    with open('worker_events_code.js', 'w', encoding='utf-8') as f:
-        f.write(worker_code)
-    
-    print(f"Generated updated worker code in worker_events_code.js")
-
-def deploy_worker():
-    """Deploy the updated worker to Cloudflare"""
-    print("Deploying updated worker to Cloudflare...")
-    
-    try:
-        result = subprocess.run(['npx', 'wrangler', 'deploy'],
-                              capture_output=True, text=True, timeout=120)
-        
-        if result.returncode == 0:
-            print("[PASS] Worker deployed successfully!")
-            print("[INFO] API available at: https://nyc-academic-events-api.spergel-joshua.workers.dev")
-        else:
-            print(f"[FAIL] Worker deployment failed: {result.stderr}")
-
-    except Exception as e:
-        print(f"[ERROR] Error deploying worker: {e}")
+# Cloudflare worker functions removed - using Vercel Next.js app instead
 
 def main():
     """Main weekly scraping process"""
@@ -236,17 +170,8 @@ def main():
         # Step 1: Run all scrapers
         successful_scrapers, failed_scrapers = run_scrapers()
         
-        # Step 2: Combine events
+        # Step 2: Combine events and save to Next.js app
         combined_events = combine_events()
-        
-        # Step 3: Convert for worker
-        worker_events = convert_for_worker(combined_events)
-        
-        # Step 4: Update worker code
-        update_worker_code(worker_events)
-        
-        # Step 5: Deploy worker
-        deploy_worker()
         
         # Summary
         end_time = datetime.now()
@@ -257,8 +182,8 @@ def main():
         print(f"[INFO] Total duration: {duration}")
         print(f"[PASS] Successful scrapers: {len(successful_scrapers)}")
         print(f"[FAIL] Failed scrapers: {len(failed_scrapers)}")
-        print(f"[INFO] Total events: {len(worker_events)}")
-        print(f"[INFO] API updated and deployed")
+        print(f"[INFO] Total events: {len(combined_events)}")
+        print(f"[INFO] Next.js app updated with fresh data")
 
         if failed_scrapers:
             print(f"\n[WARN] Failed scrapers: {', '.join(failed_scrapers)}")
