@@ -4,15 +4,16 @@ export interface EventData {
   date: string;
   description: string;
   location?: string;
-  category?: string;
+  category?: string[];
   source_url?: string;
 }
 
 export interface NavigationState {
   currentPage: number;
   history: number[];
-  currentSection: 'all' | 'institution';
+  currentSection: 'all' | 'institution' | 'category';
   currentInstitution?: string;
+  currentCategory?: string;
 }
 
 export interface BookmarkData {

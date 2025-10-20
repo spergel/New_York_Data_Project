@@ -2,15 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import AcademicBook from '@/components/AcademicBook';
-
-interface EventData {
-  title: string;
-  institution: string;
-  date: string;
-  location?: string;
-  category?: string;
-  description: string;
-}
+import { EventData } from '@/types/events';
 
 interface ApiResponse {
   events: EventData[];
@@ -45,7 +37,7 @@ export default function Home() {
             institution: "Columbia University",
             date: "October 25, 2025",
             location: "Davis Auditorium",
-            category: "Computer Science",
+            category: ["SCIENCE", "TECH"],
             description: "Join leading researchers in quantum computing for presentations on the latest breakthroughs in quantum algorithms, hardware development, and practical applications."
           },
           {
@@ -53,7 +45,7 @@ export default function Home() {
             institution: "New York University",
             date: "November 2, 2025",
             location: "Bobst Library",
-            category: "Literature",
+            category: ["ARTS", "CULTURE"],
             description: "An interdisciplinary conference exploring medieval texts through modern critical lenses, featuring presentations from scholars across multiple disciplines."
           }
         ]);
@@ -89,29 +81,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-2">
-      <div className="container mx-auto px-4">
-        {/* Back Button */}
-        <div className="mb-4">
-          <button 
-            onClick={() => window.history.back()}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 rounded-lg transition-colors"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-            </svg>
-            Back
-          </button>
-        </div>
-
-        {/* Header */}
-        <div className="text-center mb-6">
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
-            NYC Academic Events
-          </h1>
-          <p className="text-gray-600 dark:text-gray-400">
-            Upcoming events from NYC universities and institutions
-          </p>
-        </div>
+    <div className="container mx-auto px-4">
+      
 
         <AcademicBook events={events} />
 
@@ -127,10 +98,9 @@ export default function Home() {
               StPageFlip
             </a>
           </p>
-          <p className="text-xs">
-            Academic event data sourced from various NYC institutions • Updated regularly
-          </p>
+
         </footer>
+
       </div>
     </div>
   );

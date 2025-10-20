@@ -27,8 +27,14 @@ body {
 
 /* Page Flip Book Styles - Using their exact CSS */
 .book-container {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  box-shadow:
+    0 0 20px 0 rgba(0, 0, 0, 0.5),
+    0 0 40px 0 rgba(185, 28, 28, 0.3),
+    inset 0 0 0 2px rgba(185, 28, 28, 0.8);
   background-size: cover;
+  border: 3px solid #dc2626;
+  border-radius: 12px;
+  position: relative;
 }
 
 .page {
@@ -116,18 +122,297 @@ body {
 .book-container::before {
   content: '';
   position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(45deg, #f0f9ff, #e0f2fe, #f0f9ff);
-  border-radius: 10px;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  background: linear-gradient(135deg, #b91c1c, #dc2626, #ef4444, #dc2626, #b91c1c);
+  border-radius: 16px;
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.9;
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.3),
+    0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.book-container::after {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  background: linear-gradient(45deg, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+  border-radius: 14px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Corner wear effects for book realism */
+.book-container {
+  position: relative;
+}
+
+.book-container::before {
+  background: linear-gradient(135deg, #b91c1c, #dc2626, #ef4444, #dc2626, #b91c1c);
 }
 
 .dark .book-container::before {
-  background: linear-gradient(45deg, #1e293b, #334155, #1e293b);
+  background: linear-gradient(135deg, #7f1d1d, #b91c1c, #dc2626, #b91c1c, #7f1d1d);
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.5),
+    0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Book Spine Texture */
+.book-spine {
+  background: linear-gradient(90deg,
+    #8b0000 0%,
+    #b22222 20%,
+    #dc143c 40%,
+    #b22222 60%,
+    #8b0000 80%,
+    #654321 100%);
+  box-shadow:
+    inset 1px 0 2px rgba(0, 0, 0, 0.4),
+    2px 0 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Publisher's Page Styling */
+.publisher-content {
+  max-width: 100%;
+  text-align: left;
+}
+
+.publisher-logo {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.publisher-description p {
+  font-size: 0.95rem;
+  color: hsl(35, 35, 35);
+}
+
+.publisher-links a:hover {
+  opacity: 0.8;
+}
+
+.publisher-contact {
+  border-top: 1px solid hsl(35, 20, 70);
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+}
+
+.book-spine::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  right: 20%;
+  height: 80%;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0px,
+    transparent 3px,
+    rgba(255, 255, 255, 0.1) 3px,
+    rgba(255, 255, 255, 0.1) 6px
+  );
+}
+
+/* Page Bookmark - appears only on left pages */
+.page-bookmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #dc2626;
+  border: 1px solid #7f1d1d;
+  border-left: none;
+  border-right: 2px solid #450a0a;
+  box-shadow:
+    1px 1px 3px rgba(0, 0, 0, 0.3),
+    inset 1px 0 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+  border-radius: 4px 0 0 4px;
+  transform: rotate(0.5deg);
+  transition: all 0.3s ease;
+  height: 75%;
+  max-height: 550px;
+  min-height: 400px;
+  width: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8px;
+  background-image: 
+    linear-gradient(45deg, #dc2626 25%, #b91c1c 25%, #b91c1c 50%, #dc2626 50%, #dc2626 75%, #b91c1c 75%),
+    linear-gradient(-45deg, #dc2626 25%, #b91c1c 25%, #b91c1c 50%, #dc2626 50%, #dc2626 75%, #b91c1c 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+  z-index: 10;
+}
+
+.page-bookmark:hover {
+  transform: rotate(0deg) translateX(2px);
+  box-shadow:
+    3px 3px 8px rgba(0, 0, 0, 0.5),
+    inset 1px 0 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  background-image: 
+    linear-gradient(45deg, #ef4444 25%, #dc2626 25%, #dc2626 50%, #ef4444 50%, #ef4444 75%, #dc2626 75%),
+    linear-gradient(-45deg, #ef4444 25%, #dc2626 25%, #dc2626 50%, #ef4444 50%, #ef4444 75%, #dc2626 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+  width: 28px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+}
+
+.page-bookmark-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  white-space: nowrap;
+  padding-top: 8px;
+}
+
+.page-bookmark-text {
+  color: #fef2f2;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.7),
+    1px 1px 0 rgba(139, 0, 0, 0.9);
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+/* Bible-style Cloth Bookmark Ribbon */
+.toc-bookmark {
+  background: #dc2626;
+  border: 1px solid #7f1d1d;
+  border-left: none;
+  border-right: 2px solid #450a0a;
+  box-shadow:
+    1px 1px 3px rgba(0, 0, 0, 0.3),
+    inset 1px 0 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  padding: 8px 12px;
+  border-radius: 4px 0 0 4px;
+  transform: rotate(0.5deg);
+  transition: all 0.3s ease, opacity 0.3s ease;
+  height: 75%; /* Most of the way down the book */
+  max-height: 550px;
+  min-height: 400px;
+  width: 24px; /* Narrow ribbon width */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 8px;
+  /* Red checkered pattern like book spine */
+  background-image: 
+    linear-gradient(45deg, #dc2626 25%, #b91c1c 25%, #b91c1c 50%, #dc2626 50%, #dc2626 75%, #b91c1c 75%),
+    linear-gradient(-45deg, #dc2626 25%, #b91c1c 25%, #b91c1c 50%, #dc2626 50%, #dc2626 75%, #b91c1c 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+  /* V-shaped bottom like V */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+  /* Smooth fade in/out for page turns */
+  opacity: 1;
+  animation: bookmarkFadeIn 0.3s ease-in-out;
+}
+
+@keyframes bookmarkFadeIn {
+  from {
+    opacity: 0;
+    transform: rotate(0.5deg) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0.5deg) translateY(0);
+  }
+}
+
+.toc-bookmark:hover {
+  transform: rotate(0deg) translateX(2px);
+  box-shadow:
+    3px 3px 8px rgba(0, 0, 0, 0.5),
+    inset 1px 0 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2);
+  /* Enhanced checkered pattern on hover */
+  background-image: 
+    linear-gradient(45deg, #ef4444 25%, #dc2626 25%, #dc2626 50%, #ef4444 50%, #ef4444 75%, #dc2626 75%),
+    linear-gradient(-45deg, #ef4444 25%, #dc2626 25%, #dc2626 50%, #ef4444 50%, #ef4444 75%, #dc2626 75%);
+  background-size: 8px 8px;
+  background-position: 0 0, 4px 4px;
+  width: 28px;
+  /* Maintain V-shaped bottom on hover */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+}
+
+.toc-bookmark:active {
+  transform: rotate(0.2deg) translateX(1px);
+  box-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.4),
+    inset 1px 0 0 rgba(255, 255, 255, 0.2),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  width: 26px;
+  /* Maintain V-shaped bottom on active */
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+}
+
+.toc-bookmark-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  white-space: nowrap;
+  padding-top: 8px;
+}
+
+.toc-bookmark-text {
+  color: #fef2f2;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.7),
+    1px 1px 0 rgba(139, 0, 0, 0.9);
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
+
+/* Responsive adjustments for bookmark ribbon */
+@media (max-width: 1200px) {
+  .toc-bookmark {
+    height: 70%;
+    min-height: 350px;
+    width: 22px;
+    padding: 6px 10px;
+  }
+
+  .toc-bookmark-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .toc-bookmark {
+    height: 65%;
+    min-height: 300px;
+    width: 20px;
+    padding: 4px 8px;
+  }
+
+  .toc-bookmark-text {
+    font-size: 0.65rem;
+  }
 }
 
 /* Page Styles */
@@ -244,119 +529,10 @@ body {
   color: hsl(35, 65, 85);
 }
 
-/* Book-Integrated Bookmark Ribbons - Vertical on inner side of left page */
-.book-bookmarks-container {
-  position: absolute;
-  top: 0;
-  right: 0; /* Inner fold position - flush with page edge */
-  width: 120px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  z-index: 10;
-  pointer-events: auto;
-  transition: all 0.3s ease;
-  justify-content: flex-start; /* Start from top */
-}
-
-/* Stacking animation - bookmarks stack by default */
-.book-bookmarks-container:hover {
-  gap: 8px; /* Spread out on hover */
-}
-
-.book-bookmarks-container:hover .book-bookmark {
-  transform: translateX(0) !important;
-}
-
-.book-bookmark {
-  background: linear-gradient(135deg, var(--university-color, #dc2626), color-mix(in srgb, var(--university-color, #dc2626) 80%, black));
-  color: white;
-  padding: 6px 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius: 0 4px 4px 0;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  font-size: 8px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.2px;
-  position: relative;
-  border-left: 3px solid color-mix(in srgb, var(--university-color, #dc2626) 60%, black);
-  transform: translateX(0); /* Straight vertical */
-  z-index: 1;
-  width: 100%;
-  text-align: left;
-}
-
-/* Stacking effect - each bookmark overlaps the previous */
-.book-bookmark:nth-child(2) { z-index: 2; }
-.book-bookmark:nth-child(3) { z-index: 3; }
-.book-bookmark:nth-child(4) { z-index: 4; }
-.book-bookmark:nth-child(5) { z-index: 5; }
-.book-bookmark:nth-child(6) { z-index: 6; }
-.book-bookmark:nth-child(7) { z-index: 7; }
-.book-bookmark:nth-child(8) { z-index: 8; }
-.book-bookmark:nth-child(9) { z-index: 9; }
-.book-bookmark:nth-child(10) { z-index: 10; }
-
-.book-bookmark:hover {
-  background: linear-gradient(135deg, color-mix(in srgb, var(--university-color, #dc2626) 90%, white), var(--university-color, #dc2626));
-  transform: translateX(2px);
-  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.4);
-  z-index: 20; /* Bring hovered bookmark to front */
-}
-
-.book-bookmark:active {
-  transform: translateX(1px);
-}
-
-.book-bookmark::before {
-  content: '';
-  position: absolute;
-  left: -2px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: color-mix(in srgb, var(--university-color, #dc2626) 60%, black);
-  border-radius: 0 1px 1px 0;
-}
-
-.book-bookmark::after {
-  content: '';
-  position: absolute;
-  right: -6px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 0;
-  height: 0;
-  border-left: 6px solid var(--university-color, #dc2626);
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
-}
-
-.bookmark-label {
-  display: block;
-  font-size: 8px;
-  line-height: 1.1;
-  margin-bottom: 1px;
-}
-
-.bookmark-number {
-  display: block;
-  font-size: 7px;
-  opacity: 0.9;
-  font-weight: 400;
-}
-
 .page-main-content {
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.page-main-content.has-bookmarks {
-  padding-right: 160px; /* Make room for bookmarks only on pages that have them */
 }
 
 /* Paint thing decorative graphic */
@@ -540,6 +716,65 @@ body {
   text-decoration-color: #60a5fa;
 }
 
+/* Dynamic Back Button */
+.dynamic-back-button {
+  position: absolute;
+  top: 20px;
+  z-index: 15;
+}
+
+.dynamic-back-button.left {
+  left: 20px;
+}
+
+.dynamic-back-button.right {
+  right: 20px;
+}
+
+.back-btn {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.back-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.back-btn:hover::before {
+  left: 100%;
+}
+
+.back-btn:hover {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
+
+.back-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(59, 130, 246, 0.3);
+}
+
+
 
 
 /* Book-style Table of Contents */
@@ -609,85 +844,6 @@ body {
   color: hsl(35, 20, 60);
 }
 
-/* Responsive adjustments for book bookmarks */
-@media (max-width: 1200px) {
-  .book-bookmarks-container {
-    width: 120px;
-    right: -12px;
-  }
-
-  .book-bookmark {
-    padding: 3px 6px 3px 10px;
-    font-size: 8px;
-  }
-
-  .bookmark-label {
-    font-size: 7px;
-  }
-
-  .bookmark-number {
-    font-size: 6px;
-  }
-
-  .page-main-content.has-bookmarks {
-    padding-right: 140px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .book-bookmarks-container {
-    width: 100px;
-    right: -10px;
-  }
-
-  .book-bookmark {
-    padding: 2px 4px 2px 8px;
-    font-size: 7px;
-  }
-
-  .bookmark-label {
-    font-size: 6px;
-  }
-
-  .bookmark-number {
-    font-size: 5px;
-  }
-
-  .page-main-content.has-bookmarks {
-    padding-right: 120px;
-  }
-}
-
-@media (max-width: 768px) {
-  .book-bookmarks-container {
-    position: static;
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4px;
-    margin-bottom: 15px;
-    padding: 10px;
-    background: rgba(220, 38, 38, 0.1);
-    border-radius: 6px;
-  }
-
-  .book-bookmark {
-    border-radius: 4px;
-    padding: 4px 8px;
-    font-size: 8px;
-    flex: 0 0 auto;
-    min-width: 80px;
-  }
-
-  .book-bookmark::after {
-    display: none;
-  }
-
-  .page-main-content.has-bookmarks {
-    padding-right: 0;
-  }
-}
 
 /* Smooth transitions for buttons */
 button {

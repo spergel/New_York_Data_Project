@@ -11,7 +11,7 @@ interface RawEvent {
   description: string;
   start_date: string;
   end_date: string;
-  category?: string[];
+  category?: string | string[];
   source: string;
   metadata?: {
     source_url?: string;
@@ -29,87 +29,114 @@ interface ProcessedEvent {
   institution: string;
   date: string;
   location?: string;
-  category?: string;
+  category?: string[];
   description: string;
   source_url?: string;
 }
 
 export async function GET() {
   try {
-    // Use the main academic scraped events
-    // From academic-nextjs directory, go up one level to academic, then to scraped_events.json
+    // Try to use the main academic scraped events first
     let filePath = path.join(process.cwd(), '..', 'scraped_events.json');
+    let data;
 
-    console.log('API: Looking for file at:', filePath);
-    console.log('API: Current working directory:', process.cwd());
-
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    const data = JSON.parse(fileContents);
+    try {
+      const fileContents = fs.readFileSync(filePath, 'utf8');
+      data = JSON.parse(fileContents);
+    } catch (error) {
+      // Fallback to sample data
+      const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
+      const fileContents = fs.readFileSync(samplePath, 'utf8');
+      data = JSON.parse(fileContents);
+    }
 
     // Transform the data to match our component's expected format
     const processedEvents: ProcessedEvent[] = data.events
       .filter((event: RawEvent) => {
-        // Filter for future events and events with meaningful descriptions
-        const eventDate = new Date(event.start_date);
-        const now = new Date();
-        return eventDate >= now && event.description && event.description.length > 10;
+        try {
+          // Filter for future events and events with meaningful descriptions
+          const eventDate = new Date(event.start_date);
+          const now = new Date();
+          const isFuture = eventDate >= now;
+          const hasDescription = event.description && event.description.length > 10;
+          return isFuture && hasDescription;
+        } catch (error) {
+          // Skip events with invalid data
+          return false;
+        }
       })
       // Remove limit to show all available events
       .map((event: RawEvent) => {
-        // Format the date
-        const startDate = new Date(event.start_date);
-        const endDate = new Date(event.end_date);
-        let dateString = startDate.toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        });
-
-        if (startDate.toDateString() === endDate.toDateString()) {
-          dateString += ` - ${endDate.toLocaleTimeString('en-US', {
-            hour: '2-digit',
-            minute: '2-digit'
-          })}`;
-        } else {
-          dateString += ` to ${endDate.toLocaleDateString('en-US', {
+        try {
+          // Format the date
+          const startDate = new Date(event.start_date);
+          const endDate = new Date(event.end_date);
+          let dateString = startDate.toLocaleDateString('en-US', {
             year: 'numeric',
             month: 'long',
             day: 'numeric',
             hour: '2-digit',
             minute: '2-digit'
-          })}`;
+          });
+
+          if (startDate.toDateString() === endDate.toDateString()) {
+            dateString += ` - ${endDate.toLocaleTimeString('en-US', {
+              hour: '2-digit',
+              minute: '2-digit'
+            })}`;
+          } else {
+            dateString += ` to ${endDate.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit'
+            })}`;
+          }
+
+          // Get institution name
+          let institution = event.metadata?.source_name || event.source;
+          institution = institution.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+          // Get location
+          const location = event.metadata?.venue?.name || event.metadata?.venue?.address || 'Location TBD';
+
+          // Get category (handle both string and array formats)
+          let category: string[] = [];
+          if (event.category) {
+            if (Array.isArray(event.category)) {
+              // It's an array
+              category = event.category.map(cat => cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase());
+            } else if (typeof event.category === 'string') {
+              // It's a string, convert to array
+              category = [event.category.charAt(0).toUpperCase() + event.category.slice(1).toLowerCase()];
+            }
+          }
+          if (category.length === 0) {
+            category = ['Academic Event'];
+          }
+
+          // Clean up description
+          let description = event.description;
+          if (description.length > 500) {
+            description = description.substring(0, 500) + '...';
+          }
+
+          return {
+            title: event.name,
+            institution,
+            date: dateString,
+            location,
+            category,
+            description,
+            source_url: event.metadata?.source_url
+          };
+        } catch (error) {
+          console.error('API: Error processing event:', event.id, error);
+          return null;
         }
-
-        // Get institution name
-        let institution = event.metadata?.source_name || event.source;
-        institution = institution.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-
-        // Get location
-        const location = event.metadata?.venue?.name || event.metadata?.venue?.address || 'Location TBD';
-
-        // Get category
-        const category = event.category && event.category.length > 0
-          ? event.category[0].charAt(0).toUpperCase() + event.category[0].slice(1).toLowerCase()
-          : 'Academic Event';
-
-        // Clean up description
-        let description = event.description;
-        if (description.length > 500) {
-          description = description.substring(0, 500) + '...';
-        }
-
-        return {
-          title: event.name,
-          institution,
-          date: dateString,
-          location,
-          category,
-          description,
-          source_url: event.metadata?.source_url
-        };
-      });
+      })
+      .filter(event => event !== null);
 
     return NextResponse.json({
       events: processedEvents,
