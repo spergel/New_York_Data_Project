@@ -36,15 +36,22 @@ interface ProcessedEvent {
 
 export async function GET() {
   try {
-    // Try to use the main academic scraped events first
-    const filePath = path.join(process.cwd(), '..', 'scraped_events.json');
     let data;
 
-    try {
-      const fileContents = fs.readFileSync(filePath, 'utf8');
-      data = JSON.parse(fileContents);
-    } catch (_unused) {
-      // Fallback to sample data
+    // Try to use the main academic scraped events first (only in development)
+    if (process.env.NODE_ENV === 'development') {
+      try {
+        const filePath = path.join(process.cwd(), '..', 'scraped_events.json');
+        const fileContents = fs.readFileSync(filePath, 'utf8');
+        data = JSON.parse(fileContents);
+      } catch (_unused) {
+        // Fallback to sample data
+        const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
+        const fileContents = fs.readFileSync(samplePath, 'utf8');
+        data = JSON.parse(fileContents);
+      }
+    } else {
+      // In production, always use sample data
       const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
       const fileContents = fs.readFileSync(samplePath, 'utf8');
       data = JSON.parse(fileContents);
@@ -138,6 +145,8 @@ export async function GET() {
       })
       .filter((event: ProcessedEvent | null): event is ProcessedEvent => event !== null);
 
+    console.log(`API: Returning ${processedEvents.length} events`);
+    
     return NextResponse.json({
       events: processedEvents,
       total: processedEvents.length,
