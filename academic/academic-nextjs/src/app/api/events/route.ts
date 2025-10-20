@@ -38,32 +38,15 @@ export async function GET() {
   try {
     let data;
 
-    // Try multiple paths for the scraped events file
-    const possiblePaths = [
-      path.join(process.cwd(), 'public', 'scraped_events.json'),
-      path.join(process.cwd(), 'scraped_events.json'),
-      path.join(process.cwd(), '..', 'scraped_events.json'),
-      path.join(process.cwd(), 'src', 'data', 'scraped_events.json')
-    ];
-
-    let foundRealData = false;
-    for (const filePath of possiblePaths) {
-      try {
-        console.log(`API: Trying to read from ${filePath}`);
-        const fileContents = fs.readFileSync(filePath, 'utf8');
-        data = JSON.parse(fileContents);
-        console.log(`API: Successfully loaded real scraped data with ${data.total_events} events from ${filePath}`);
-        foundRealData = true;
-        break;
-      } catch (error) {
-        console.log(`API: Failed to read from ${filePath}: ${error}`);
-        continue;
-      }
-    }
-
-    if (!foundRealData) {
+    // Try to read real scraped events from public directory
+    try {
+      const realDataPath = path.join(process.cwd(), 'public', 'scraped_events.json');
+      const fileContents = fs.readFileSync(realDataPath, 'utf8');
+      data = JSON.parse(fileContents);
+      console.log(`API: Using real scraped data with ${data.total_events} events`);
+    } catch (error) {
       // Fallback to sample data if real data not available
-      console.log('API: Real scraped data not found in any location, using sample data');
+      console.log('API: Real scraped data not found, using sample data');
       const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
       const fileContents = fs.readFileSync(samplePath, 'utf8');
       data = JSON.parse(fileContents);

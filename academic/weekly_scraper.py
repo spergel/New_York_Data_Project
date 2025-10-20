@@ -145,10 +145,17 @@ def combine_events():
         "events": combined_events
     }
     
+    # Save to main location
     with open('scraped_events.json', 'w', encoding='utf-8') as f:
         json.dump(combined_data, f, indent=2, ensure_ascii=False)
     
-    print(f"Saved combined events to scraped_events.json")
+    # Also save to Next.js app public directory
+    nextjs_path = Path('academic-nextjs/public/scraped_events.json')
+    nextjs_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(nextjs_path, 'w', encoding='utf-8') as f:
+        json.dump(combined_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Saved combined events to scraped_events.json and academic-nextjs/public/scraped_events.json")
     return combined_events
 
 def convert_for_worker(events):
