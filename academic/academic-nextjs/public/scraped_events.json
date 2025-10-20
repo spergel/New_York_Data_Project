@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2025-10-20T12:01:57.648283",
-  "total_events": 417,
+  "scraped_at": "2025-10-20T12:17:09.347818",
+  "total_events": 416,
   "event_sources": {
     "cims_events_debug": 52,
     "columbia_classics_events_debug": 13,
-    "columbia_events_debug": 61,
+    "columbia_events_debug": 60,
     "columbia_math_events_debug": 2,
     "cooper_union_events_debug": 2,
     "cornell_tech_events_debug": 3,
@@ -1230,61 +1230,6 @@
         "venue": {
           "name": "Columbia University",
           "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_dec35585",
-      "name": "Knowing, Being, and Doing: Understanding Yourself as a Leader",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The &lt;strong&gt;Knowing, Being, and Doing&lt;/strong&gt; workshop is designed to help you discover your leadership style and how to lead with purpose. You&amp;rsquo;ll explore your personal strengths, leadership approach, and the ways your experiences shape how you engage with others in the world. Through guided reflection and interactive activities, you&amp;rsquo;ll begin to define what it means to lead authentically, inclusively and intentionally.&lt;/p&gt;\n&lt;p&gt;In this workshop, you will:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Reflect on your personal strengths and leadership style&lt;/li&gt;\n&lt;li&gt;Examine how your lived experiences influence the way you lead and collaborate&lt;/li&gt;\n&lt;li&gt;Explore strategies for leading with authenticity, intention, and impact&lt;/li&gt;\n&lt;li&gt;Connect with peers and share insights in a supportive learning environment&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;This session is a part of the &lt;a href=\"https://universitylife.columbia.edu/CCI\"&gt;Community Citizenship Initiative&lt;/a&gt; (CCI) and is designed for first semester students who want to develop leadership skills grounded in self-awareness and inclusivity. Students attending this workshop will receive credit for CCI and will have their requirement considered complete.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Registration needed, CUID required.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;What if I need accommodations?&lt;/em&gt;&lt;/strong&gt;&lt;em&gt; Columbia University makes every effort to accommodate individuals with disabilities. If you require accommodations to attend an event at Columbia University, please contact Disability Services (disability@columbia.edu or 212-854-2388) at least 10 days in advance of the event.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;*&lt;strong&gt;Will my photo be taken?&lt;/strong&gt; Photographs and video may be taken at this event. ***&lt;em&gt;By taking part in this event, you grant the organizers full rights to use the resulting images and to maintain in perpetuity copies of such recording in the collections of Columbia University. If you do not wish to be photographed, please inform an event organizer.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;By registering and attending this event, you agree to abide by the&lt;/em&gt;&lt;a href=\"https://universitypolicies.columbia.edu/content/rules-university-conduct\"&gt;&lt;em&gt; &lt;/em&gt;&lt;em&gt;Rules of University Conduct&lt;/em&gt;&lt;/a&gt;&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;",
-      "start_date": "2025-10-20T16:00:00+00:00",
-      "end_date": "2025-10-20T17:30:00+00:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-997ac97b-0199-7c727072-0000387fevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Hamilton Hall, 1130 Amsterdam Ave., New York, NY 10027\t603",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "UniversityLife",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "UniversityLife",
-          "tags": [
-            "CCI",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Workshop",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universitylife",
-            "Graduate Students",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Workshop",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universitylife",
-            "Graduate Students",
-            "Other"
-          ]
         }
       }
     },
@@ -5683,9 +5628,9 @@
       "start_date": "2025-10-29T12:00:00",
       "end_date": "2025-10-29T13:00:00",
       "category": [
-        "DESIGN",
         "SCIENCE",
-        "TECH"
+        "TECH",
+        "DESIGN"
       ],
       "source": "cornell_tech",
       "source_group": "Cornell",
@@ -5719,8 +5664,8 @@
       "start_date": "2025-10-29T17:30:00",
       "end_date": "2025-10-29T19:30:00",
       "category": [
-        "DESIGN",
-        "TECH"
+        "TECH",
+        "DESIGN"
       ],
       "source": "cornell_tech",
       "source_group": "Cornell",
@@ -6429,8 +6374,8 @@
       "end_date": "2025-10-22T19:30:00",
       "category": [
         "ARTS",
-        "HISTORY",
-        "RELIGION"
+        "RELIGION",
+        "HISTORY"
       ],
       "source": "isaw",
       "source_group": "NYU",
@@ -6668,8 +6613,8 @@
       "end_date": "2025-12-03T19:30:00",
       "category": [
         "ARTS",
-        "HISTORY",
-        "RELIGION"
+        "RELIGION",
+        "HISTORY"
       ],
       "source": "isaw",
       "source_group": "NYU",
@@ -8893,62 +8838,6 @@
       }
     },
     {
-      "id": "evt_newschool_89e018bd",
-      "name": "Visibilize-ing Care Festival: Unsent Letters Mailbox",
-      "type": "Exhibition",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Do you have messages you never sent to a parent, loved one, friend, partner, or perhaps even to your pet? We are bringing The Unsent Letter Mailbox to share your unsaid thoughts on four days throughout this fall 2025.The Unsent Letter Mailbox is an urban pop-up series where participants are invited to write an unsent letter and, in return, read one written by someone else anonymously.We’re creating a safe, judgment-free space for irreverent, wild, and beautiful stories to be written, expressed, and shared.Stop by the Unsent Letters Mailbox tables:Monday, September 15th from 1:30 pm – 3:00 pmin the University Center Lobby at 63 Fifth AvenueMonday, September 22nd from 1:30pm - 3:00 pmin the Parsons Lobby at 2 West 13th Street Monday, October 6th from 1:30 pm – 3:00 pmin the Parsons Lobby at 2 West 13th StreetMonday, October 20th from 12 pm – 2:00 pmin the Vera List Courtyard at 66 W 12th StreetIf you miss the tabling events, look out for the Unsent Letters Mailbox which will be placed around campus this Fall semester.The Parsons CareLab is a research and educational initiative that centers care in the design of economies, organizations, communities, and our human and non-human relationships.  The Visibilize-ing Care Festival, a project of CareLab, will take place during the 2025-2026 academic year. The Festival will include workshops, panels, and performances that showcase the work of students, faculty and staff that explores the importance of care in everything we do.",
-      "start_date": "2025-10-20T16:00:00+00:00",
-      "end_date": "2025-10-20T18:00:00+00:00",
-      "category": [
-        "DESIGN",
-        "TECH",
-        "ARTS",
-        "HUMANITIES"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/unsentlettersmailbox1",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Vera List Courtyard",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Parsons School of Design",
-            "Design Strategies"
-          ],
-          "tags": [
-            "\"carelab\"",
-            "carelab",
-            "faculty",
-            "staff",
-            "students",
-            "school of design strategies",
-            "faculty/student/alumni/staff research & work",
-            "arts",
-            "design",
-            "cities and urbanism",
-            "education and pedagogy",
-            "media, science, and technology",
-            "writing and literature",
-            "parsons school of design",
-            "exhibitions and openings",
-            "vera list courtyard",
-            "art and design"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
       "id": "evt_newschool_8c99d676",
       "name": "Book Talk: Coca-Cola, Black Panthers, and Phantom Jets",
       "type": "Conference",
@@ -8958,10 +8847,10 @@
       "start_date": "2025-10-20T22:00:00+00:00",
       "end_date": "2025-10-20T23:30:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
         "TECH",
-        "ARTS"
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9005,10 +8894,10 @@
       "start_date": "2025-10-20T22:30:00+00:00",
       "end_date": "2025-10-21T00:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "SOCIAL",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9099,8 +8988,8 @@
       "start_date": "2025-10-21T16:30:00+00:00",
       "end_date": "2025-10-21T17:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9145,9 +9034,9 @@
       "start_date": "2025-10-21T22:00:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9192,10 +9081,10 @@
       "start_date": "2025-10-21T22:00:00+00:00",
       "end_date": "2025-10-22T00:00:00+00:00",
       "category": [
-        "DESIGN",
-        "TECH",
         "ARTS",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9249,8 +9138,8 @@
       "start_date": "2025-10-21T22:30:00+00:00",
       "end_date": "2025-10-22T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9299,9 +9188,9 @@
       "start_date": "2025-10-22T16:00:00+00:00",
       "end_date": "2025-10-22T17:30:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9391,8 +9280,8 @@
       "start_date": "2025-10-22T20:30:00+00:00",
       "end_date": "2025-10-23T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9439,8 +9328,8 @@
       "start_date": "2025-10-22T21:00:00+00:00",
       "end_date": "2025-10-22T22:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9485,8 +9374,8 @@
       "start_date": "2025-10-22T21:00:00+00:00",
       "end_date": "2025-10-22T22:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9536,11 +9425,11 @@
       "start_date": "2025-10-23T13:00:00+00:00",
       "end_date": "2025-10-23T14:30:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
         "DESIGN",
-        "TECH",
-        "POLITICS"
+        "ARTS",
+        "POLITICS",
+        "TECH"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9641,8 +9530,8 @@
       "start_date": "2025-10-23T22:00:00+00:00",
       "end_date": "2025-10-24T01:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9691,9 +9580,9 @@
       "start_date": "2025-10-23T22:00:00+00:00",
       "end_date": "2025-10-23T23:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9740,8 +9629,8 @@
       "start_date": "2025-10-23T23:00:00+00:00",
       "end_date": "2025-11-04T21:00:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9831,8 +9720,8 @@
       "start_date": "2025-10-24T20:00:00+00:00",
       "end_date": "2025-10-24T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9876,9 +9765,9 @@
       "start_date": "2025-10-27T15:00:00+00:00",
       "end_date": "2025-10-28T03:59:59+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9918,9 +9807,9 @@
       "start_date": "2025-10-27T21:00:00+00:00",
       "end_date": "2030-01-11T00:00:00+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -9965,10 +9854,10 @@
       "start_date": "2025-10-27T22:00:00+00:00",
       "end_date": "2025-10-28T00:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "SOCIAL",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10010,10 +9899,10 @@
       "start_date": "2025-10-27T22:30:00+00:00",
       "end_date": "2025-10-27T23:30:00+00:00",
       "category": [
-        "DESIGN",
-        "TECH",
         "ARTS",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10062,10 +9951,10 @@
       "start_date": "2025-10-27T22:30:00+00:00",
       "end_date": "2025-10-27T23:30:00+00:00",
       "category": [
-        "DESIGN",
-        "TECH",
         "ARTS",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10114,9 +10003,9 @@
       "start_date": "2025-10-28T16:30:00+00:00",
       "end_date": "2025-10-28T17:45:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10201,11 +10090,11 @@
       "start_date": "2025-10-28T19:30:00+00:00",
       "end_date": "2025-10-28T23:00:00+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
         "DESIGN",
-        "TECH",
-        "POLITICS"
+        "ARTS",
+        "POLITICS",
+        "TECH"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10265,9 +10154,9 @@
       "start_date": "2025-10-28T20:00:00+00:00",
       "end_date": "2025-10-28T22:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
-        "ARTS"
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10312,11 +10201,11 @@
       "start_date": "2025-10-28T22:30:00+00:00",
       "end_date": "2025-10-29T03:59:59+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
         "DESIGN",
-        "TECH",
-        "POLITICS"
+        "ARTS",
+        "POLITICS",
+        "TECH"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10408,10 +10297,10 @@
       "start_date": "2025-10-29T22:00:00+00:00",
       "end_date": "2025-10-30T03:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
         "ARTS",
-        "POLITICS"
+        "POLITICS",
+        "SOCIAL",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10463,9 +10352,9 @@
       "start_date": "2025-10-29T23:00:00+00:00",
       "end_date": "2025-10-30T00:00:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10509,9 +10398,9 @@
       "start_date": "2025-10-30T13:00:00+00:00",
       "end_date": "2025-10-30T14:30:00+00:00",
       "category": [
-        "SOCIAL",
         "POLITICS",
-        "TECH"
+        "TECH",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10597,9 +10486,9 @@
       "start_date": "2025-10-30T20:00:00+00:00",
       "end_date": "2025-10-31T01:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
-        "ARTS"
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10647,8 +10536,8 @@
       "start_date": "2025-10-30T20:00:00+00:00",
       "end_date": "2025-10-30T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10697,9 +10586,9 @@
       "start_date": "2025-10-30T23:30:00+00:00",
       "end_date": "2025-10-31T01:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "POLITICS",
-        "ARTS"
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10746,9 +10635,9 @@
       "start_date": "2025-10-31T20:30:00+00:00",
       "end_date": "2025-10-31T22:30:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10794,8 +10683,8 @@
       "start_date": "2025-11-02T19:00:00+00:00",
       "end_date": "2025-11-03T04:59:59+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -10888,10 +10777,10 @@
       "start_date": "2025-11-03T18:30:00+00:00",
       "end_date": "2025-11-03T20:30:00+00:00",
       "category": [
-        "DESIGN",
-        "TECH",
         "ARTS",
-        "HUMANITIES"
+        "TECH",
+        "HUMANITIES",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11077,9 +10966,9 @@
       "start_date": "2025-11-04T21:00:00+00:00",
       "end_date": "2025-11-04T23:00:00+00:00",
       "category": [
-        "SOCIAL",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11124,9 +11013,9 @@
       "start_date": "2025-11-04T23:30:00+00:00",
       "end_date": "2025-11-05T04:59:59+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11169,8 +11058,8 @@
       "start_date": "2025-11-05T16:00:00+00:00",
       "end_date": "2025-11-05T17:30:00+00:00",
       "category": [
-        "DESIGN",
-        "ARTS"
+        "ARTS",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11218,8 +11107,8 @@
       "start_date": "2025-11-05T23:00:00+00:00",
       "end_date": "2025-11-06T00:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11264,9 +11153,9 @@
       "start_date": "2025-11-06T00:00:00+00:00",
       "end_date": "2025-11-06T04:59:59+00:00",
       "category": [
+        "ARTS",
         "SOCIAL",
-        "DESIGN",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11310,10 +11199,10 @@
       "start_date": "2025-11-06T00:00:00+00:00",
       "end_date": "2025-11-06T01:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "SOCIAL",
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11361,9 +11250,9 @@
       "start_date": "2025-11-07T00:00:00+00:00",
       "end_date": "2025-11-14T03:00:00+00:00",
       "category": [
-        "DESIGN",
+        "ARTS",
         "TECH",
-        "ARTS"
+        "DESIGN"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11408,9 +11297,9 @@
       "start_date": "2025-11-07T00:00:00+00:00",
       "end_date": "2025-11-07T02:00:00+00:00",
       "category": [
-        "SOCIAL",
         "ARTS",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11455,8 +11344,8 @@
       "start_date": "2025-11-07T20:00:00+00:00",
       "end_date": "2025-11-08T00:00:00+00:00",
       "category": [
-        "SOCIAL",
-        "HUMANITIES"
+        "HUMANITIES",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11505,11 +11394,11 @@
       "start_date": "2025-11-07T21:00:00+00:00",
       "end_date": "2025-11-07T23:00:00+00:00",
       "category": [
-        "ARTS",
+        "HUMANITIES",
         "SOCIAL",
         "DESIGN",
-        "TECH",
-        "HUMANITIES"
+        "ARTS",
+        "TECH"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11560,11 +11449,11 @@
       "start_date": "2025-11-07T23:00:00+00:00",
       "end_date": "2025-11-08T04:59:59+00:00",
       "category": [
-        "ARTS",
         "SOCIAL",
         "DESIGN",
-        "TECH",
-        "POLITICS"
+        "ARTS",
+        "POLITICS",
+        "TECH"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11619,8 +11508,8 @@
       "start_date": "2025-11-09T19:00:00+00:00",
       "end_date": "2025-11-09T21:30:00+00:00",
       "category": [
-        "SOCIAL",
-        "ARTS"
+        "ARTS",
+        "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
@@ -11647,6 +11536,54 @@
             "university",
             "performance",
             "the new school's auditorium at 66 w. 12th street ny ny"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_bd075465",
+      "name": "Mannes Sounds: Kristallnacht Commemoration",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "A Tribute to the Artists who Perished in the Holocaust, whose music and poetry we keep alive todayThis event is a collaboration with American Society for Jewish Music, YIVO Institute for Jewish Research, Leo Baeck Institute and Center for Jewish HistoryMusic by Hans Krása, Viktor Ullmann, Pavel Haas, James Simon, Gideon Klein, and Erwin Schulhoff.Poetry by Ilse Weber, Gertrud Kolmar, Selma Meerbaum-Eisinger, Itzhak Katzenelson",
+      "start_date": "2025-11-09T20:00:00+00:00",
+      "end_date": "2025-11-09T22:00:00+00:00",
+      "category": [
+        "ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundskristallnacht",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Center for Jewish History",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "center for jewish history"
           ],
           "audience": []
         }
@@ -12175,8 +12112,8 @@
       "start_date": "2025-11-05T13:00:00",
       "end_date": "2025-11-05T14:00:00",
       "category": [
-        "CAREER",
-        "TECH"
+        "TECH",
+        "CAREER"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -12210,8 +12147,8 @@
       "start_date": "2025-11-06T10:30:00",
       "end_date": "2025-11-06T11:30:00",
       "category": [
-        "CAREER",
-        "TECH"
+        "TECH",
+        "CAREER"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -12544,7 +12481,7 @@
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0538bd7f",
+      "id": "evt_nyu_neuroscience_01c32c51",
       "name": "Neuroscience Weekly Group Meeting - Dasen Lab",
       "description": "Wednesday, October 22, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><em>Establishing flexible spinal circuits for locomotor and postural control</em> <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Alex <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Postdoctoral Fellow",
       "start_date": "2025-10-22T12:00:00+00:00",
@@ -12562,14 +12499,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.093891+00:00",
+        "scraped_at": "2025-10-20T12:16:44.875030+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Alex",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01e77ddb",
+      "id": "evt_nyu_neuroscience_02f3b411",
       "name": "Neuroscience Weekly Group Meeting - Laboratory of Dr. Anna Roe",
       "description": "Wednesday, October 29, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Meizhen Qian <br/><b>Speaker #1 Degree</b>:&nbsp;PhD",
       "start_date": "2025-10-29T12:00:00+00:00",
@@ -12587,14 +12524,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.094430+00:00",
+        "scraped_at": "2025-10-20T12:16:44.875419+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Meizhen Qian",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0267a4c2",
+      "id": "evt_nyu_neuroscience_019ea77d",
       "name": "Neuroscience Weekly Group Meeting - Rinberg Lab",
       "description": "Wednesday, November 5, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2025-11-05T12:00:00+00:00",
@@ -12612,14 +12549,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.094852+00:00",
+        "scraped_at": "2025-10-20T12:16:44.875712+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04b835af",
+      "id": "evt_nyu_neuroscience_0437e26e",
       "name": "Neuroscience Colloquium - Anne Schaefer, MD, PhD (MSSM)",
       "description": "Monday, December 1, 2025, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Anne Schaefer <br/><b>Speaker #1 Degree</b>:&nbsp;MD, PhD <br/><b>Speaker #1 Position</b>:&nbsp;Assistant Professor of Neuroscience and Psychiatry",
       "start_date": "2025-12-01T13:30:00+00:00",
@@ -12637,14 +12574,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.095289+00:00",
+        "scraped_at": "2025-10-20T12:16:44.875986+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Anne Schaefer",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03b9468a",
+      "id": "evt_nyu_neuroscience_0586966d",
       "name": "Neuroscience Colloquium - Ilya Monosov, PhD (WashU/Hopkins)",
       "description": "Monday, December 8, 2025, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Ilya Monosov <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience",
       "start_date": "2025-12-08T13:30:00+00:00",
@@ -12662,14 +12599,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.095778+00:00",
+        "scraped_at": "2025-10-20T12:16:44.876254+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Ilya Monosov",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04e4ba25",
+      "id": "evt_nyu_neuroscience_04011890",
       "name": "Neuroscience Weekly Group Meeting - Mar Lab",
       "description": "Wednesday, December 10, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Online Event Link</b>:&nbsp;<a href=\"https://nyulangone.zoom.us/j/95317840859?pwd=phVnbqBy509UfPnMvDJ927hPn2YAnz.1\" target=\"_blank\" rel=\"noopener\" title=\"https://nyulangone.zoom.us/j/95317840859?pwd=phVnbqBy509UfPnMvDJ927hPn2YAnz.1\">nyulangone.zoom.us&#8230;</a>",
       "start_date": "2025-12-10T12:00:00+00:00",
@@ -12687,14 +12624,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.096116+00:00",
+        "scraped_at": "2025-10-20T12:16:44.876530+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0112ace9",
+      "id": "evt_nyu_neuroscience_040e109c",
       "name": "Neuroscience Colloquium - Dwight Bergles, PhD (Hopkins)",
       "description": "Monday, January 12, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Dwight Bergles <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience",
       "start_date": "2026-01-12T13:30:00+00:00",
@@ -12712,14 +12649,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.097054+00:00",
+        "scraped_at": "2025-10-20T12:16:44.876783+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Dwight Bergles",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02ac3cef",
+      "id": "evt_nyu_neuroscience_01f00a15",
       "name": "Neuroscience Colloquium - Zachary Knight, PhD (UCSF)",
       "description": "Monday, February 2, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Zachary Knight <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Physiology <br/><b>Speaker #1 Institution</b>:&nbsp;UCSF",
       "start_date": "2026-02-02T13:30:00+00:00",
@@ -12737,14 +12674,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.097484+00:00",
+        "scraped_at": "2025-10-20T12:16:44.877054+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Zachary Knight",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01723fbf",
+      "id": "evt_nyu_neuroscience_05b18ef2",
       "name": "Neuroscience Colloquium - Kimberly Stachenfeld, PhD (Columbia)",
       "description": "Monday, February 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Kimberly Stachenfeld <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Research Scientist, Adjunct Professor, Columbia University",
       "start_date": "2026-02-09T13:30:00+00:00",
@@ -12762,14 +12699,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.097940+00:00",
+        "scraped_at": "2025-10-20T12:16:44.877304+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Kimberly Stachenfeld",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0266635c",
+      "id": "evt_nyu_neuroscience_05591ffd",
       "name": "Neuroscience Colloquium - Jonathan Pillow, PhD (Princeton)",
       "description": "Monday, February 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Jonathan Pillow <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Princeton University",
       "start_date": "2026-02-23T13:30:00+00:00",
@@ -12787,14 +12724,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.098377+00:00",
+        "scraped_at": "2025-10-20T12:16:44.877546+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Jonathan Pillow",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03a2a8f6",
+      "id": "evt_nyu_neuroscience_000d15f7",
       "name": "Neuroscience Colloquium - Hillel Adensnik, PhD (UC Berkeley)",
       "description": "Monday, March 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Hillel Adensnik <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Associate Professor, Departments of Molecular &amp; Cell Biology; Neuroscience",
       "start_date": "2026-03-09T13:30:00+00:00",
@@ -12812,14 +12749,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.098780+00:00",
+        "scraped_at": "2025-10-20T12:16:44.877794+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Hillel Adensnik",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_038c5181",
+      "id": "evt_nyu_neuroscience_0004e2a4",
       "name": "Neuroscience Colloquium - Rich Mooney, PhD (Duke)",
       "description": "Monday, March 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Rich Mooney <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neurobiology <br/><b>Speaker #1 Institution</b>:&nbsp;Duke University School of Medicine",
       "start_date": "2026-03-23T13:30:00+00:00",
@@ -12837,14 +12774,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.099201+00:00",
+        "scraped_at": "2025-10-20T12:16:44.878041+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Rich Mooney",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0315586c",
+      "id": "evt_nyu_neuroscience_014fea93",
       "name": "Neuroscience Colloquium - Mehrdad Jazayeri, PhD (MIT)",
       "description": "Monday, March 30, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Mehrdad Jazayeri <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor and Director of Education, Brain and Cognitive Sciences, Investigator, Howard Hughes Medical Institute <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-03-30T13:30:00+00:00",
@@ -12862,14 +12799,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.099657+00:00",
+        "scraped_at": "2025-10-20T12:16:44.878281+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Mehrdad Jazayeri",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0115b461",
+      "id": "evt_nyu_neuroscience_0229f709",
       "name": "Neuroscience Colloquium - Fang Wang, PhD (MIT)",
       "description": "Monday, April 6, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Fang Wang <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor, Brain and Cognitive Sciences <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-04-06T13:30:00+00:00",
@@ -12887,7 +12824,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:16.100210+00:00",
+        "scraped_at": "2025-10-20T12:16:44.878550+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Fang Wang",
         "extraction_method": "rss_feed"
@@ -12912,7 +12849,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.703915+00:00",
+        "scraped_at": "2025-10-20T12:16:46.373548+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "October 22, 2025 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Elizabeth HimwichPrincetonw(1+infinity) Symmetry in 4D Gravitational Scattering and Celestial HolographyIn four-dimensional asymptotically flat spacetimes, an infinite tower of soft graviton modes generates the symmetry algebra of w(1+infinity) at tree level.  This algebra is a universal feature of tree-level gravitational scattering with minimally-coupled gravitational interactions.  In this talk, I will begin with a review of the w(1+infinity) symmetry algebra and its role in celestial holography, a proposed duality between QFT in four-dimensional asymptotically flat space and a two-dimensional conformal field theory at its boundary.  I will then discuss recent results that clarify several questions about this symmetry, and comment on future directions.",
@@ -12939,7 +12876,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.704354+00:00",
+        "scraped_at": "2025-10-20T12:16:46.373977+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Information Physics Seminars",
         "institution": "October 23, 2025 Thursday 11:00 AM+726Broadway, Room 1067(cqip)Amir KaramlouGoogleObservation of constructive interference at the edge of quantum ergodicity.Quantum observables in the form of few-point correlators are the key to characterizing the dynamics of quantum many-body systems. In dynamics with fast entanglement generation, quantum observables generally become insensitive to the details of the underlying dynamics at long times due to the effects of scrambling. In experimental systems, repeated time-reversal protocols have been successfully implemented to restore sensitivities of quantum observables. Using a 103-qubit superconducting quantum processor, we characterize ergodic dynamics using the second-order out-of-time-order correlators, OTOC(2). In contrast to dynamics without time reversal, OTOC(2) are observed to remain sensitive to the underlying dynamics at long time scales. Furthermore, by inserting Pauli operators during quantum evolution and randomizing the phases of Pauli strings in the Heisenberg picture, we observe substantial changes in OTOC(2) values. This indicates that OTOC(2) is dominated by constructive interference between Pauli strings that form large loops in configuration space. The observed interference mechanism endows OTOC(2) with a high degree of classical simulation complexity, which culminates in a set of large-scale OTOC(2) measurements exceeding the simulation capacity of known classical algorithms. Further supported by an example of Hamiltonian learning through OTOC(2), our results indicate a viable path to practical quantum advantage.",
@@ -12966,7 +12903,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.704916+00:00",
+        "scraped_at": "2025-10-20T12:16:46.374480+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "October 23, 2025 Thursday 4:00 PM+726Broadway, Room 940(colloquia)Priyamvada NatarajanYale UniversityNew Insights Into the Formation of the First Black HolesA revolution is underway in our understanding of the origins of supermassive black holes (SMBHs), reshaping our view of how the very first black holes formed and grew in the early universe. New breakthroughs have provided critical insights into their seeding channels, mass assembly histories, and coupling to their host galaxies. In particular, evidence for direct collapse as a viable pathway to forming massive black hole seeds has been illuminated by the combined capabilities of JWST, Chandra, and Hubble. At the same time, observations of gravitational wave backgrounds and advances in computational modeling are revealing complementary channels for SMBH growth through accretion and mergers. In this talk, I will highlight our growing understanding of black hole formation, explore the relative roles of competing seeding mechanisms—including \r\nlight seeds from the remnants of the first stars and heavy seeds from direct collapse—and discuss how current and upcoming observations are beginning to discriminate between them. I will conclude by outlining the key open questions in black hole formation physics and the exciting prospects ahead, including constraints from the LISA mission.",
@@ -12993,7 +12930,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.706707+00:00",
+        "scraped_at": "2025-10-20T12:16:46.376208+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "October 29, 2025 Wednesday 12:00 PM+726Broadway, 1067, CQP Special Seminar(cqp)Tsung-Cheng Peter LuUniversity of MarylandExploring Quantum Dynamics via Spacetime and Holographic DualitiesRecent advancements in near-term quantum devices have opened new avenues for exploring quantum phenomena in controllable settings. These developments, in turn, motivate new theoretical perspectives on the dynamics of many-body systems. In the first part of the talk, I will discuss our recent progress on quantum state preparation. I will show that two primary classes of low-overhead circuits for preparing long-range entangled states—sequential unitary circuits and measurement-feedback circuits—can be unified through a simple spacetime rotation, revealing an unexpected connection between the two seemingly distinct protocols. In the second part, motivated by the inevitability of decoherence in realistic quantum systems, I will turn to many-body mixed states and discuss a novel phenomenon: strong-to-weak spontaneous symmetry breaking. I will show how these symmetry-breaking patterns naturally emerge on the spatial boundary of bulk topological orders in one higher dimension, thereby uncovering an intriguing holographic duality.",
@@ -13020,7 +12957,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.707143+00:00",
+        "scraped_at": "2025-10-20T12:16:46.376627+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "October 29, 2025 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Saniya HeebaMcGill University/Carleton UniversityDark Matter @ Finite TemperatureThe microphysical properties of Dark Matter (DM), such as its mass and coupling strength, are typically assumed to retain their vacuum values when considering DM behaviour at a range of scales. However, DM interactions in different astrophysical and cosmological environments may be impacted by the properties of the background which in turn can substantially affect both DM production and the detection prospects for any given model. In the recent years, this has generated a lot of interest in calculating DM observables at finite temperature and density. \r\n\r\nIn this talk, I will provide an overview of what these effects are, and how they may give rise to new DM production mechanisms as well as impact observables. In particular, I will describe a new formalism that can be used to calculate these effects.",
@@ -13047,7 +12984,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.708117+00:00",
+        "scraped_at": "2025-10-20T12:16:46.377436+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "October 31, 2025 Friday 12:30 PM+726Broadway, 940, CCPP Seminar(ccpp)Special SeminarChrysoula MarkouScuola Normale Superiore, PisaBuilding string spectraString spectra comprise infinitely many physical states of arbitrarily high mass and spin, the presence of all of which is crucial to the good UV behaviour of string scattering amplitudes. Yet what do all these states look like? In this seminar, we will discuss a new, covariant and efficient technology of constructing entire string trajectories deeper in the open string spectrum, as well as work to appear on the closed string and possibly other work in progress on string amplitudes and the modelling of Hawking radiation in string theory. The aim of this direction is to attempt to shed light on aspects of the underlying nature of string theory per se.",
@@ -13074,7 +13011,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.708613+00:00",
+        "scraped_at": "2025-10-20T12:16:46.377865+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "November 3, 2025 Monday 12:30 PM+726Broadway, 940, CCPP Seminar(ccpp)CCPP Brown BagMagdalena SiwekNew York UniversityMassive Black Hole Binary Demographics",
@@ -13101,7 +13038,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.709471+00:00",
+        "scraped_at": "2025-10-20T12:16:46.378714+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "November 4, 2025 Tuesday 4:00 PM+726Broadway, Room 940(colloquia)George EfstathiouUniversity of CambridgeChallenges to the Lambda CDM CosmologyObservations of the cosmic microwave background (CMB) anisotropies provide strong evidence in support of the ΛCDM cosmology. Nevertheless, a number of 'tensions' have emerged. I will review: (a) recent results from the CMB that have strengthened the evidence in favour of ΛCDM; (b) why it is difficult to explain the discrepancy between the ΛCDM value of the Hubble constant, H0,  and the value derived from the Cepheid distance scale; (c) do the results from DESI show evidence for evolving dark enegy; (d) why inflation, a cornerstone of the ΛCDM model, has introduced a new hierarchy problem in cosmology.",
@@ -13128,7 +13065,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.713958+00:00",
+        "scraped_at": "2025-10-20T12:16:46.381952+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "November 13, 2025 Thursday 4:00 PM+726 Bdwy, 940(colloquia)Alexander RobelGeorgia TechThe Statistical Physics of Ice Sheets and Sea Level RiseMelting of the Antarctic and Greenland ice sheets will contribute to an increasing rate of sea level rise over coming decades and centuries. Predicting such ice sheet changes far into the future requires looking beyond current deterministic approaches to modeling ice sheet flow and fracture. In this talk, I will discuss how we can use ideas from statistical physics to understand and model ice sheet changes. In the first part, I use stochastic perturbation theory to transform a simple dynamical model of marine ice sheet collapse into the Fokker-Planck equation, providing predictions for the evolution of leading order moments of the uncertain future distribution of ice sheet states and corresponding sea level rise predictions. In the second part, I describe how models for melt pond behavior on ice are mathematically related to the non-Abelian sandpile (a relative of the classical Ising model) and produce a continuous phase transition. I argue that the nature of this behavior places firm constraints on the speed at which the floating parts of ice sheets can collapse with warming. I then discuss a separate effort to predict the maximum size of melt ponds at on correlated random surfaces, extending existing theory of cluster size in percolation through random media. This theory is of direct use in predicting how dark we expect ice sheet surfaces to become under future warming and the role of melt in driving ice fracture. Throughout I will argue for the exciting overlap between glaciology and statistical physics, and how both can be combined to answer consequential questions about future sea level rise.",
@@ -13155,7 +13092,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.714496+00:00",
+        "scraped_at": "2025-10-20T12:16:46.382376+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "November 17, 2025 Monday 12:30 PM+726Broadway, 940, CCPP Seminar(ccpp)CCPP Brown BagDavid W. HoggNew York UniversityThe distance ladder",
@@ -13182,7 +13119,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.715562+00:00",
+        "scraped_at": "2025-10-20T12:16:46.383182+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "December 1, 2025 Monday 12:30 PM+726Broadway, 940, CCPP Seminar(ccpp)CCPP Brown BagDavid DunskyNew York UniversityObserving Dark Matter Decays to Gravitons via Graviton-Photon Conversion",
@@ -13209,7 +13146,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.718342+00:00",
+        "scraped_at": "2025-10-20T12:16:46.385255+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "December 4, 2025 Thursday 4:00 PM+726 Bdwy, 940(colloquia)Morgan O'NeillUniversity of TorontoMegavolcanoes, Pyrotornadoes, and Hurricanes: How Extreme Storms Can Influence ClimateThe presence of water vapor in the upper atmosphere is enormously consequential for the climate. Strong thunderstorms are known to be an important secondary source of water vapor to the lower stratosphere, and how they may feedback to large scales in a warming climate is unknown. Extreme storms of very diverse type---supercell thunderstorms, hurricanes, pyrocumulonimbus, and volcanic plumes---are all able to pierce the lower boundary of the stratosphere and dump vast amounts of ice, water vapor and trace gases into the upper atmosphere. Many of these storms exhibit an Above-Anvil Cirrus Plume (AACP), which is a wake of ice and water vapor downstream of overshooting deep convection. The AACP is uniquely capable of lofting water high above the tropopause. Using high-resolution large eddy simulations, we show that the AACP is formed by the development of a new type of hydraulic jump at the tropopause, accompanied by windspeeds that exceed 110 m/s. The presence of a threshold past which some storms become effective hydrators of the lower stratosphere suggests a blind spot in large-scale climate models unable to resolve this behavior. The storm feedback on climate due to a humidified lower stratosphere is an exciting area of future research, which requires understanding the small-scale dynamics of severe weather.",
@@ -13236,7 +13173,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.719005+00:00",
+        "scraped_at": "2025-10-20T12:16:46.385844+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "December 9, 2025 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Alexander  PottsColumbia UniversityFinite Momentum Cooper Plasmons in a Superconducting THz Micro-cavity",
@@ -13263,7 +13200,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:19.727415+00:00",
+        "scraped_at": "2025-10-20T12:16:46.391989+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "April 7, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lee LiuPurdue UniversityShining New Light on Highly Symmetric Molecules",
@@ -13272,7 +13209,7 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_039d0d13",
+      "id": "evt_nyu_steinhardt_053aaf2d",
       "name": "NYU Contemporary Music Ensemble",
       "description": "Featuring soprano Amber Evans, the program highlights four masterworks that helped define the sound of post-war modernism.",
       "start_date": "2025-10-20T20:00:00+00:00",
@@ -13290,14 +13227,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.762680+00:00",
+        "scraped_at": "2025-10-20T12:16:47.987514+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_04ea65b1",
+      "id": "evt_nyu_steinhardt_055409e2",
       "name": "Identifying and Reducing Administrative Burden Using Design and Data",
       "description": "Join PRIISM and Dr. Jae Yeon Kim to learn how human-centered design and experimentation can be used to identify and reduce administrative burdens in government support programs.",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13315,14 +13252,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.765104+00:00",
+        "scraped_at": "2025-10-20T12:16:47.990128+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_00d93e78",
+      "id": "evt_nyu_steinhardt_05b6136d",
       "name": "Brooklyn Bridge Walk",
       "description": "Did you know the Brooklyn Bridge was the first steel cable suspension bridge ever constructed?",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13340,14 +13277,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.765948+00:00",
+        "scraped_at": "2025-10-20T12:16:47.990762+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_037406af",
+      "id": "evt_nyu_steinhardt_0332ec8a",
       "name": "Networking for Introverts",
       "description": "Does small talk make you anxious? Do you need a series reset after professional and social events?",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13365,14 +13302,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.766564+00:00",
+        "scraped_at": "2025-10-20T12:16:47.991367+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_00da9029",
+      "id": "evt_nyu_steinhardt_0020c841",
       "name": "Protecting Scholar-Activists: Risks in Venezuela and Beyond",
       "description": "Please join the New York University International Education Program and Scholars at Risk for a conversation and presentation on the role of scholars and advocates - and the risks they face for the…",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13390,14 +13327,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.767166+00:00",
+        "scraped_at": "2025-10-20T12:16:47.991987+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_032ee0fe",
+      "id": "evt_nyu_steinhardt_01bd87df",
       "name": "The Academic Edge: Sharpen Your Student Skills: Check-in",
       "description": "Let's talk about what's working, what's not, and how we can adapt to make the rest of your semester a success.",
       "start_date": "2025-10-23T09:00:00+00:00",
@@ -13415,14 +13352,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.768387+00:00",
+        "scraped_at": "2025-10-20T12:16:47.993183+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_04e75bc0",
+      "id": "evt_nyu_steinhardt_04f62508",
       "name": "Visiting Artist Lecture: Aaron King",
       "description": "Aaron King (b. 1983, Lakeland, FL) lives and works in Brooklyn, NY. He received his BFA from The Cooper Union for the Advancement of Science and Art in 2005, and an Emerging Artist Fellowship at…",
       "start_date": "2025-10-23T09:00:00+00:00",
@@ -13440,14 +13377,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.769024+00:00",
+        "scraped_at": "2025-10-20T12:16:47.993781+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_055f8665",
+      "id": "evt_nyu_steinhardt_04376bde",
       "name": "Guest Masterclass: Emanuele Arciuli",
       "description": "Renowned Italian pianist and author, Emanuele Arciuli performs and discusses music of Frederic Rzewski, George Crumb, John Luther Adams, Martin Bresnick, Peter Garland, William Duckworth, and Kyle…",
       "start_date": "2025-10-23T09:00:00+00:00",
@@ -13465,14 +13402,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.770833+00:00",
+        "scraped_at": "2025-10-20T12:16:47.995559+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_02e73146",
+      "id": "evt_nyu_steinhardt_043eed2f",
       "name": "Sonder: The Dreams We Carry",
       "description": "What do our dreams say about our lives? What provokes and fuels our nightmares? What sparks and revitalizes our hopes? The Program in Educational Theatre presents a work exploring isolation and…",
       "start_date": "2025-10-23T19:00:00+00:00",
@@ -13490,14 +13427,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.771483+00:00",
+        "scraped_at": "2025-10-20T12:16:47.996239+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_02dd11a3",
+      "id": "evt_nyu_steinhardt_0305f55b",
       "name": "NYU Occupational Therapy Workshop: Filmmaking in School-Based OT",
       "description": "Join NYU's Department of Occupational Therapy at an upcoming \"Filmmaking in School-Based Occupational Therapy\" workshop hosted by Dr. Lisa Raymond-Tolan.",
       "start_date": "2025-10-24T09:00:00+00:00",
@@ -13515,14 +13452,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:28.772102+00:00",
+        "scraped_at": "2025-10-20T12:16:47.996839+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "Health",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0082c4ef",
+      "id": "evt_nyu_steinhardt_music_042f00b6",
       "name": "NYU Contemporary Music Ensemble",
       "description": "Featuring soprano Amber Evans, the program highlights four masterworks that helped define the sound of post-war modernism.",
       "start_date": "2025-10-20T20:00:00+00:00",
@@ -13540,14 +13477,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.689530+00:00",
+        "scraped_at": "2025-10-20T12:16:51.643165+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_01d1bfe3",
+      "id": "evt_nyu_steinhardt_music_056926ac",
       "name": "Guest Masterclass: Emanuele Arciuli",
       "description": "Renowned Italian pianist and author, Emanuele Arciuli performs and discusses music of Frederic Rzewski, George Crumb, John Luther Adams, Martin Bresnick, Peter Garland, William Duckworth, and Kyle…",
       "start_date": "2025-10-23T09:00:00+00:00",
@@ -13565,14 +13502,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.691445+00:00",
+        "scraped_at": "2025-10-20T12:16:51.644893+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_03a4abc9",
+      "id": "evt_nyu_steinhardt_music_014980ec",
       "name": "Sonder: The Dreams We Carry",
       "description": "What do our dreams say about our lives? What provokes and fuels our nightmares? What sparks and revitalizes our hopes? The Program in Educational Theatre presents a work exploring isolation and…",
       "start_date": "2025-10-23T19:00:00+00:00",
@@ -13590,14 +13527,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.692173+00:00",
+        "scraped_at": "2025-10-20T12:16:51.645569+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_046b50d3",
+      "id": "evt_nyu_steinhardt_music_022b0f64",
       "name": "Noel Paul Stookey: In Conversation with Phil Galdston",
       "description": "The Program in Songwriting and NYU Arts & Impact present The Inaugural NYU Arts & Impact Artist-In_Residence - award-winning songwriter and recording artist Noel Paul Stookey of the legendary trio…",
       "start_date": "2025-10-27T09:00:00+00:00",
@@ -13615,14 +13552,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.693686+00:00",
+        "scraped_at": "2025-10-20T12:16:51.646816+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_032620b2",
+      "id": "evt_nyu_steinhardt_music_05d89042",
       "name": "NYU Percussion Ensemble",
       "description": "The NYU Percussion Ensemble, directed by Jonathan Haas, showcases three student soloists - Shun Lopez, Grace Sprecher, and Zhaoxuan Song - in an evening of works for percussion ensemble.",
       "start_date": "2025-10-27T20:00:00+00:00",
@@ -13640,14 +13577,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.694559+00:00",
+        "scraped_at": "2025-10-20T12:16:51.647443+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_03da87a0",
+      "id": "evt_nyu_steinhardt_music_034abc48",
       "name": "History Rhymes: Paul Stookey and Music to Life Artists",
       "description": "Hosted by the NYU Steinhardt Program in Songwriting and NYU Arts & Impact, History Rhymes is part of the inaugural NYU Arts & Impact Artist-in-Residence. During his three-day residency - October 27-29…",
       "start_date": "2025-10-29T09:00:00+00:00",
@@ -13665,14 +13602,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.695210+00:00",
+        "scraped_at": "2025-10-20T12:16:51.648044+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_02eef822",
+      "id": "evt_nyu_steinhardt_music_05386588",
       "name": "NYU Wind Symphony",
       "description": "The NYU Wind Symphony performs both staples of the wind repertoire and exciting new works for wind band. The ensemble is comprised of students ranging from first-year undergraduates to doctoral…",
       "start_date": "2025-10-30T20:00:00+00:00",
@@ -13690,14 +13627,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.696512+00:00",
+        "scraped_at": "2025-10-20T12:16:51.649367+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0135ed58",
+      "id": "evt_nyu_steinhardt_music_0241cbcb",
       "name": "Michael Rodriguez Ensemble Performs at the Blue Note",
       "description": "This ensemble performs a mix of jazz standards and students' original compositions.",
       "start_date": "2025-11-15T09:00:00+00:00",
@@ -13715,14 +13652,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.699968+00:00",
+        "scraped_at": "2025-10-20T12:16:51.652450+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_02b19b9b",
+      "id": "evt_nyu_steinhardt_music_04997511",
       "name": "Berliner Kirschblüten: Helmut Lachenmann at 90",
       "description": "Artist faculty member Manuel Laufer and the pianists of NYU Steinhardt Piano Studies traverse the piano works of groundbreaking German composer Helmut Lachenmann, in celebration of his 90th birthday.",
       "start_date": "2025-11-16T15:00:00+00:00",
@@ -13740,14 +13677,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.700628+00:00",
+        "scraped_at": "2025-10-20T12:16:51.653067+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0305f981",
+      "id": "evt_nyu_steinhardt_music_0485f962",
       "name": "Beyond Bolero: The Spellbinding Works of Maurice Ravel",
       "description": "NYU Program in Piano Studies premieres works in honor of Maurice Ravel's 150th birthday.",
       "start_date": "2025-11-18T19:00:00+00:00",
@@ -13765,14 +13702,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.701277+00:00",
+        "scraped_at": "2025-10-20T12:16:51.653718+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_01918660",
+      "id": "evt_nyu_steinhardt_music_012c7911",
       "name": "NYU Chamber Orchestra",
       "description": "Bill Xiong plays Beethoven's Violin Concerto in D Major after winning the 2025 Strings Concerto Competition. Diego Garcia will conduct this chamber orchestra playing Mozart, Reyes, Meyer, and Giraudo.",
       "start_date": "2025-11-19T20:00:00+00:00",
@@ -13790,14 +13727,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:37.702008+00:00",
+        "scraped_at": "2025-10-20T12:16:51.654443+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_02abe5fc",
+      "id": "evt_nyu_steinhardt_music_0193048d",
       "name": "Identifying and Reducing Administrative Burden Using Design and Data",
       "description": "Join PRIISM and Dr. Jae Yeon Kim to learn how human-centered design and experimentation can be used to identify and reduce administrative burdens in government support programs.",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13815,14 +13752,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.573294+00:00",
+        "scraped_at": "2025-10-20T12:16:57.771419+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_04f415ad",
+      "id": "evt_nyu_steinhardt_music_021c711a",
       "name": "Brooklyn Bridge Walk",
       "description": "Did you know the Brooklyn Bridge was the first steel cable suspension bridge ever constructed?",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13840,14 +13777,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.573951+00:00",
+        "scraped_at": "2025-10-20T12:16:57.772022+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0404b4c1",
+      "id": "evt_nyu_steinhardt_music_03bcfcaa",
       "name": "Networking for Introverts",
       "description": "Does small talk make you anxious? Do you need a series reset after professional and social events?",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13865,14 +13802,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.574548+00:00",
+        "scraped_at": "2025-10-20T12:16:57.772614+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_00bbc070",
+      "id": "evt_nyu_steinhardt_music_0586c895",
       "name": "Protecting Scholar-Activists: Risks in Venezuela and Beyond",
       "description": "Please join the New York University International Education Program and Scholars at Risk for a conversation and presentation on the role of scholars and advocates - and the risks they face for the…",
       "start_date": "2025-10-22T09:00:00+00:00",
@@ -13890,14 +13827,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.575923+00:00",
+        "scraped_at": "2025-10-20T12:16:57.773216+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_03c40113",
+      "id": "evt_nyu_steinhardt_music_00d61d46",
       "name": "The Academic Edge: Sharpen Your Student Skills: Check-in",
       "description": "Let's talk about what's working, what's not, and how we can adapt to make the rest of your semester a success.",
       "start_date": "2025-10-23T09:00:00+00:00",
@@ -13915,14 +13852,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.579143+00:00",
+        "scraped_at": "2025-10-20T12:16:57.774440+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_004ee476",
+      "id": "evt_nyu_steinhardt_music_0144c959",
       "name": "Visiting Artist Lecture: Aaron King",
       "description": "Aaron King (b. 1983, Lakeland, FL) lives and works in Brooklyn, NY. He received his BFA from The Cooper Union for the Advancement of Science and Art in 2005, and an Emerging Artist Fellowship at…",
       "start_date": "2025-10-23T09:00:00+00:00",
@@ -13940,14 +13877,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.579904+00:00",
+        "scraped_at": "2025-10-20T12:16:57.775079+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0345b319",
+      "id": "evt_nyu_steinhardt_music_01938057",
       "name": "NYU Occupational Therapy Workshop: Filmmaking in School-Based OT",
       "description": "Join NYU's Department of Occupational Therapy at an upcoming \"Filmmaking in School-Based Occupational Therapy\" workshop hosted by Dr. Lisa Raymond-Tolan.",
       "start_date": "2025-10-24T09:00:00+00:00",
@@ -13965,7 +13902,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-10-20T12:01:46.581748+00:00",
+        "scraped_at": "2025-10-20T12:16:57.776536+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "Health",
         "extraction_method": "html_parsing"
@@ -14103,7 +14040,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.230458+00:00",
+        "scraped_at": "2025-10-20T12:17:05.836720+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14120,7 +14057,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.230927+00:00",
+        "scraped_at": "2025-10-20T12:17:05.837171+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14137,7 +14074,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.231300+00:00",
+        "scraped_at": "2025-10-20T12:17:05.837555+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14154,7 +14091,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.231638+00:00",
+        "scraped_at": "2025-10-20T12:17:05.837996+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14171,7 +14108,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.233898+00:00",
+        "scraped_at": "2025-10-20T12:17:05.840562+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14188,7 +14125,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.234310+00:00",
+        "scraped_at": "2025-10-20T12:17:05.841465+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14205,7 +14142,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.235036+00:00",
+        "scraped_at": "2025-10-20T12:17:05.842654+00:00",
         "extraction_method": "header"
       }
     },
@@ -14222,7 +14159,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.235151+00:00",
+        "scraped_at": "2025-10-20T12:17:05.842859+00:00",
         "extraction_method": "header"
       }
     },
@@ -14239,7 +14176,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.235384+00:00",
+        "scraped_at": "2025-10-20T12:17:05.843300+00:00",
         "extraction_method": "header"
       }
     },
@@ -14256,7 +14193,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.235423+00:00",
+        "scraped_at": "2025-10-20T12:17:05.843376+00:00",
         "extraction_method": "header"
       }
     },
@@ -14273,7 +14210,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.235456+00:00",
+        "scraped_at": "2025-10-20T12:17:05.843440+00:00",
         "extraction_method": "header"
       }
     },
@@ -14290,7 +14227,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.235487+00:00",
+        "scraped_at": "2025-10-20T12:17:05.843494+00:00",
         "extraction_method": "header"
       }
     },
@@ -14307,7 +14244,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-10-20T12:01:54.238115+00:00",
+        "scraped_at": "2025-10-20T12:17:05.848353+00:00",
         "extraction_method": "container"
       }
     },

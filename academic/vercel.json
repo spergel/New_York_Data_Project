@@ -2,34 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "styles.css",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "script.js",
-      "use": "@vercel/static"
+      "src": "academic-nextjs/package.json",
+      "use": "@vercel/next"
     }
   ],
   "routes": [
     {
-      "src": "/script.js",
-      "headers": {
-        "Content-Type": "application/javascript"
-      }
-    },
-    {
-      "src": "/styles.css",
-      "headers": {
-        "Content-Type": "text/css"
-      }
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "academic-nextjs/$1"
     }
   ]
 }
