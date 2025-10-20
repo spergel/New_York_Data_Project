@@ -37,19 +37,81 @@ interface ProcessedEvent {
 export async function GET() {
   try {
     let data;
+    let dataSource = 'unknown';
 
     // Try to read real scraped events from public directory
     try {
       const realDataPath = path.join(process.cwd(), 'public', 'scraped_events.json');
+      console.log(`API: Attempting to read from: ${realDataPath}`);
+      console.log(`API: Current working directory: ${process.cwd()}`);
+      
       const fileContents = fs.readFileSync(realDataPath, 'utf8');
       data = JSON.parse(fileContents);
-      console.log(`API: Using real scraped data with ${data.total_events} events`);
+      dataSource = 'real_scraped_data';
+      console.log(`API: Successfully loaded real scraped data with ${data.total_events} events`);
     } catch (error) {
+      console.log(`API: Failed to read real data: ${error}`);
+      
       // Fallback to sample data if real data not available
-      console.log('API: Real scraped data not found, using sample data');
-      const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
-      const fileContents = fs.readFileSync(samplePath, 'utf8');
-      data = JSON.parse(fileContents);
+      try {
+        console.log('API: Falling back to sample data');
+        const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
+        console.log(`API: Attempting to read sample data from: ${samplePath}`);
+        
+        const fileContents = fs.readFileSync(samplePath, 'utf8');
+        data = JSON.parse(fileContents);
+        dataSource = 'sample_data';
+        console.log(`API: Successfully loaded sample data with ${data.events?.length || 0} events`);
+      } catch (sampleError) {
+        console.error(`API: Failed to read sample data: ${sampleError}`);
+        
+        // Final fallback - return hardcoded sample data
+        console.log('API: Using hardcoded fallback data');
+        data = {
+          events: [
+            {
+              id: "fallback_1",
+              name: "Quantum Computing Symposium",
+              type: "Academic",
+              description: "Join leading researchers in quantum computing for presentations on the latest breakthroughs in quantum algorithms, hardware development, and practical applications.",
+              start_date: "2025-10-25T14:00:00",
+              end_date: "2025-10-25T17:00:00",
+              category: ["SCIENCE", "TECHNOLOGY"],
+              source: "columbia_cs",
+              metadata: {
+                source_url: "https://www.cs.columbia.edu/research/quantum-computing/",
+                source_name: "Columbia University Computer Science",
+                venue: {
+                  name: "Davis Auditorium",
+                  address: "530 W 120th St, New York, NY 10027",
+                  type: "venue"
+                }
+              }
+            },
+            {
+              id: "fallback_2", 
+              name: "Medieval Literature Conference",
+              type: "Academic",
+              description: "An interdisciplinary conference exploring medieval texts through modern critical lenses, featuring presentations from scholars across multiple disciplines.",
+              start_date: "2025-11-02T09:00:00",
+              end_date: "2025-11-02T17:00:00",
+              category: ["EDUCATION", "HUMANITIES"],
+              source: "nyu_gallatin",
+              metadata: {
+                source_url: "https://gallatin.nyu.edu/academics/conferences.html",
+                source_name: "NYU Gallatin School",
+                venue: {
+                  name: "Bobst Library, Room 119",
+                  address: "70 Washington Square S, New York, NY 10012",
+                  type: "venue"
+                }
+              }
+            }
+          ]
+        };
+        dataSource = 'hardcoded_fallback';
+        console.log(`API: Using hardcoded fallback with ${data.events.length} events`);
+      }
     }
 
     // Transform the data to match our component's expected format
@@ -140,12 +202,13 @@ export async function GET() {
       })
       .filter((event: ProcessedEvent | null): event is ProcessedEvent => event !== null);
 
-    console.log(`API: Returning ${processedEvents.length} events`);
+    console.log(`API: Returning ${processedEvents.length} events from ${dataSource}`);
     
     return NextResponse.json({
       events: processedEvents,
       total: processedEvents.length,
-      source: 'NYC Academic Events'
+      source: 'NYC Academic Events',
+      dataSource: dataSource
     });
 
   } catch (error) {
