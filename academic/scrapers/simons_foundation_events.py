@@ -10,6 +10,7 @@ import json
 from datetime import datetime, timedelta
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from category_utils import determine_categories
 import re
 
 def fetch_simons_events():
@@ -40,10 +41,14 @@ def fetch_simons_events():
                 if not title or len(title) < 10:
                     continue
                 
-                # Extract date from time element
+                # Extract date and time information
+                event_date = None
+                start_time = None
+                end_time = None
+                
+                # First try to get date from time element with datetime attribute
                 time_elem = article.find('time')
                 if time_elem:
-                    # Get the datetime attribute for Unix timestamp
                     datetime_attr = time_elem.get('datetime')
                     if datetime_attr:
                         try:
@@ -51,29 +56,87 @@ def fetch_simons_events():
                             event_date = datetime.fromtimestamp(int(datetime_attr))
                         except (ValueError, TypeError):
                             event_date = None
-                    else:
-                        # Fallback: parse the text content
-                        date_text = time_elem.get_text(strip=True)
-                        event_date = parse_date_text(date_text)
-                else:
-                    event_date = None
                 
-                # Extract location from calendar data or location section
-                location = "Simons Foundation"
+                # Extract detailed time and location from calendar data
                 calendar_div = article.find('div', attrs={'data-behavior': 'calendar_list add_to_calendar'})
                 if calendar_div:
+                    # Get start and end dates
+                    start_date_str = calendar_div.get('data-start', '')
+                    end_date_str = calendar_div.get('data-end', '')
+                    start_time_str = calendar_div.get('data-start-time', '')
+                    end_time_str = calendar_div.get('data-end-time', '')
+                    
+                    if start_date_str and start_time_str:
+                        try:
+                            # Parse date in format "05/11/2025" (DD/MM/YYYY)
+                            day, month, year = start_date_str.split('/')
+                            hour, minute = start_time_str.split(':')
+                            
+                            event_date = datetime(int(year), int(month), int(day), int(hour), int(minute))
+                            
+                            # Set end time if available
+                            if end_time_str:
+                                end_hour, end_minute = end_time_str.split(':')
+                                end_date = datetime(int(year), int(month), int(day), int(end_hour), int(end_minute))
+                            else:
+                                end_date = event_date + timedelta(hours=1)
+                                
+                        except (ValueError, TypeError) as e:
+                            print(f"Error parsing calendar data: {e}")
+                            # Fallback to Unix timestamp if available
+                            if time_elem and time_elem.get('datetime'):
+                                try:
+                                    event_date = datetime.fromtimestamp(int(time_elem.get('datetime')))
+                                    end_date = event_date + timedelta(hours=1)
+                                except:
+                                    event_date = None
+                                    end_date = None
+                
+                # If we still don't have a date, try parsing from time element text
+                if not event_date and time_elem:
+                    date_text = time_elem.get_text(strip=True)
+                    event_date = parse_date_text(date_text)
+                    if event_date:
+                        end_date = event_date + timedelta(hours=1)
+                
+                # Extract location from calendar data or location section
+                location = "Gerald D. Fischbach Auditorium"  # Default location
+                if calendar_div:
                     location = calendar_div.get('data-location', location)
+                else:
+                    # Try to find location in the categories section
+                    location_elem = article.find('li', class_='m-post__location')
+                    if location_elem:
+                        location_link = location_elem.find('a')
+                        if location_link:
+                            location = location_link.get_text(strip=True)
                 
                 # Extract speaker info
                 speaker_elem = article.find('div', class_='m-person')
                 speaker_info = ""
+                speaker_title = ""
                 if speaker_elem:
-                    speaker_title = speaker_elem.find('span', class_='m-person__title')
-                    if speaker_title:
-                        speaker_info = speaker_title.get_text(strip=True)
+                    speaker_title_elem = speaker_elem.find('span', class_='m-person__title')
+                    if speaker_title_elem:
+                        speaker_title = speaker_title_elem.get_text(strip=True)
+                    
+                    # Get the full speaker info (title + description)
+                    speaker_text = speaker_elem.get_text(strip=True)
+                    if speaker_text:
+                        speaker_info = speaker_text
+                
+                # Extract event type from categories
+                event_type = "Presidential Lecture"
+                categories_ul = article.find('div', class_='m-post__cats')
+                if categories_ul:
+                    category_items = categories_ul.find_all('li')
+                    for item in category_items:
+                        if item.get_text(strip=True) == "Lecture":
+                            event_type = "Presidential Lecture"
+                            break
                 
                 # Create description from available info
-                description = f"Simons Foundation Presidential Lecture"
+                description = f"Simons Foundation {event_type}"
                 if speaker_info:
                     description += f" featuring {speaker_info}"
                 
@@ -82,12 +145,23 @@ def fetch_simons_events():
                     # Create event ID
                     event_id = f"evt_simons_{hashlib.md5((title + str(event_date)).encode()).hexdigest()[:8]}"
                     
+                    # Prepare event data for categorization
+                    event_data = {
+                        "name": title,
+                        "description": description,
+                        "title": title  # Some categorization functions expect 'title' field
+                    }
+                    
+                    # Determine categories
+                    categories = determine_categories_simons(event_data)
+                    
                     event = {
                         "id": event_id,
                         "name": title,
                         "description": description,
                         "start_date": event_date.isoformat(),
-                        "end_date": (event_date + timedelta(hours=1)).isoformat(),
+                        "end_date": end_date.isoformat() if end_date else (event_date + timedelta(hours=1)).isoformat(),
+                        "category": categories,
                         "source": "simons_foundation",
                         "source_group": "Independent",
                         "metadata": {
@@ -99,7 +173,8 @@ def fetch_simons_events():
                                 "type": "venue"
                             },
                             "speaker": speaker_info,
-                            "event_type": "Presidential Lecture"
+                            "speaker_title": speaker_title,
+                            "event_type": event_type
                         }
                     }
                     
@@ -145,6 +220,36 @@ def parse_date_text(date_text):
         print(f"Error parsing date text '{date_text}': {e}")
     
     return None
+
+def determine_categories_simons(event_data):
+    """Determine categories for Simons Foundation events using centralized logic."""
+    # Use the centralized categorization with keyword analysis
+    categories = determine_categories(event_data, method='auto')
+    
+    # Simons Foundation events are typically science-focused
+    if 'SCIENCE' not in categories:
+        categories.append('SCIENCE')
+    
+    # Presidential Lectures are educational events
+    if 'EDUCATION' not in categories:
+        categories.append('EDUCATION')
+    
+    # Check for specific science disciplines
+    title = event_data.get('title', '').lower()
+    description = event_data.get('description', '').lower()
+    text_content = f"{title} {description}"
+    
+    # Check for neuroscience/health content
+    if any(term in text_content for term in ['neural', 'brain', 'neuroscience', 'cognitive', 'psychology']):
+        if 'HEALTH' not in categories:
+            categories.append('HEALTH')
+    
+    # Check for technology content
+    if any(term in text_content for term in ['computation', 'algorithm', 'machine learning', 'ai', 'artificial intelligence']):
+        if 'TECH' not in categories:
+            categories.append('TECH')
+    
+    return categories
 
 def main():
     """Main function"""

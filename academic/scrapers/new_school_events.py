@@ -3,6 +3,7 @@ import json
 from datetime import datetime, timezone, timedelta
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from category_utils import determine_categories
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -95,32 +96,58 @@ def determine_event_type(event_data):
     
     return "Academic"
 
-def determine_categories(event_data):
-    """Map New School categories to standard EventCategory enum values."""
-    categories = set()
+def determine_categories_newschool(event_data):
+    """Determine categories for New School events using centralized logic."""
+    # Use the centralized categorization with keyword analysis
+    categories = determine_categories(event_data, method='auto')
+    
+    # New School-specific categorization
     title = event_data.get('title', '').lower()
-    tags = [tag.lower() for tag in event_data.get('tags', [])]
     description = event_data.get('description', '').lower()
+    tags = event_data.get('tags', [])
+    text_content = f"{title} {description} {' '.join(tags)}"
     
-    # Add categories based on content
-    if any(term in title + ' '.join(tags) + description for term in ['design', 'fashion', 'architecture']):
-        categories.add('DESIGN')
-    if any(term in title + ' '.join(tags) + description for term in ['art', 'music', 'performance']):
-        categories.add('ARTS')
-    if any(term in title + ' '.join(tags) + description for term in ['social', 'society', 'community']):
-        categories.add('SOCIAL')
-    if any(term in title + ' '.join(tags) + description for term in ['politics', 'policy', 'government']):
-        categories.add('POLITICS')
-    if any(term in title + ' '.join(tags) + description for term in ['technology', 'digital', 'computing']):
-        categories.add('TECH')
-    if any(term in title + ' '.join(tags) + description for term in ['humanities', 'philosophy', 'literature']):
-        categories.add('HUMANITIES')
+    # Check for music events and distinguish performance vs discussion
+    # Only apply music categories if the event is actually about music
+    if any(term in text_content for term in ['music', 'concert', 'recital', 'orchestra', 'chamber', 'piano', 'violin', 'symphony']):
+        # Check if it's a lecture/seminar vs performance
+        if any(term in text_content for term in ['lecture', 'seminar', 'masterclass', 'workshop', 'discussion']):
+            if 'MUSIC_DISCUSSION' not in categories:
+                categories.append('MUSIC_DISCUSSION')
+        else:
+            if 'MUSIC_PERFORMANCE' not in categories:
+                categories.append('MUSIC_PERFORMANCE')
     
-    # If no specific category found, use EDUCATION as default
-    if not categories:
-        categories.add('EDUCATION')
+    # Check for visual arts events
+    if any(term in text_content for term in ['art', 'exhibition', 'gallery', 'visual', 'design', 'fashion', 'architecture']):
+        if 'VISUAL_ARTS' not in categories:
+            categories.append('VISUAL_ARTS')
     
-    return list(categories)
+    # Check for performing arts (theater, dance)
+    if any(term in text_content for term in ['theater', 'theatre', 'dance', 'acting', 'drama', 'performance']):
+        if 'PERFORMING_ARTS' not in categories:
+            categories.append('PERFORMING_ARTS')
+    
+    # Check for humanities content
+    if any(term in text_content for term in ['history', 'literature', 'philosophy', 'classics', 'language', 'anthropology']):
+        if 'HUMANITIES' not in categories:
+            categories.append('HUMANITIES')
+    
+    # Check for business/economics content
+    if any(term in text_content for term in ['economics', 'business', 'finance', 'capitalism', 'market', 'economy']):
+        if 'BUSINESS' not in categories:
+            categories.append('BUSINESS')
+    
+    # Check for social/political content
+    if any(term in text_content for term in ['social', 'society', 'community', 'politics', 'policy', 'government', 'exile', 'activism']):
+        if 'SOCIAL' not in categories:
+            categories.append('SOCIAL')
+    
+    # Ensure New School events get EDUCATION category
+    if 'EDUCATION' not in categories:
+        categories.append('EDUCATION')
+    
+    return categories
 
 def setup_session():
     # Set up the session and headers
@@ -154,13 +181,20 @@ def get_page(session, url, params, today_ms, page_number):
     return response.json() if response.status_code == 200 else None
 
 def fetch_new_school_events():
-    # Fetch the first 3 pages
+    # Fetch more pages to get November events
     session, url, params, today_ms = setup_session()
     all_events = []
-    for page in range(4):
+    for page in range(10):  # Increased from 4 to 10 pages
         page_data = get_page(session, url, params, today_ms, page)
         if page_data and 'hits' in page_data:
-            all_events.extend(page_data['hits'])
+            events_on_page = page_data['hits']
+            all_events.extend(events_on_page)
+            print(f"Page {page + 1}: {len(events_on_page)} events")
+            
+            # Stop if we get an empty page
+            if len(events_on_page) == 0:
+                print(f"No more events on page {page + 1}, stopping")
+                break
         else:
             print(f"Failed to fetch page {page + 1}")
             break
@@ -189,8 +223,21 @@ def standardize_new_school_events(events):
             if not (start_date and end_date):
                 continue
 
-            start_datetime = datetime.fromtimestamp(start_date / 1000, tz=timezone.utc)
-            end_datetime = datetime.fromtimestamp(end_date / 1000, tz=timezone.utc)
+            # Convert Unix timestamps to datetime objects
+            # The New School API timestamps are already in EST timezone
+            # We need to treat them as EST and convert to UTC for storage
+            
+            from datetime import timezone, timedelta
+            est = timezone(timedelta(hours=-5))  # EST is UTC-5
+            
+            # Convert timestamps assuming they are in EST
+            start_datetime = datetime.fromtimestamp(start_date / 1000, tz=est)
+            end_datetime = datetime.fromtimestamp(end_date / 1000, tz=est)
+            
+            # Convert to UTC for consistent storage
+            start_datetime = start_datetime.astimezone(timezone.utc)
+            end_datetime = end_datetime.astimezone(timezone.utc)
+            
 
             # Create event data for type and category determination
             event_data = {
@@ -224,7 +271,7 @@ def standardize_new_school_events(events):
                 "description": event.get('description', ''),
                 "start_date": start_datetime.isoformat(),
                 "end_date": end_datetime.isoformat(),
-                "category": determine_categories(event_data),
+                "category": determine_categories_newschool(event_data),
                 "source": "new_school",
                 "source_group": "Independent",
                 "metadata": metadata
@@ -238,6 +285,8 @@ def standardize_new_school_events(events):
 
         # Apply event filtering
     print(f"Before filtering: {len(standardized_events)} events")
+    
+    
     filtered_events = filter_events(standardized_events)
     stats = get_filter_stats(standardized_events, filtered_events)
     print(f"After filtering: {len(filtered_events)} events")

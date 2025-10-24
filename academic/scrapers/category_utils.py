@@ -3,14 +3,14 @@ Centralized category utilities for academic event scrapers.
 Provides standardized categorization logic and category definitions.
 """
 
-# Standard category definitions
+# Standard category definitions - Updated for better specificity
 STANDARD_CATEGORIES = {
     'EDUCATION': {
         'name': 'Education',
         'keywords': [
-            'education', 'academic', 'university', 'college', 'school', 'learning',
-            'teaching', 'course', 'seminar', 'lecture', 'workshop', 'conference',
-            'symposium', 'colloquium', 'presentation', 'talk', 'discussion'
+            'seminar', 'lecture', 'workshop', 'conference', 'symposium', 'colloquium',
+            'presentation', 'talk', 'discussion', 'masterclass', 'course', 'training',
+            'academic', 'scholarly', 'research', 'study', 'pedagogy', 'teaching'
         ]
     },
     'SCIENCE': {
@@ -18,17 +18,55 @@ STANDARD_CATEGORIES = {
         'keywords': [
             'science', 'research', 'physics', 'chemistry', 'biology', 'mathematics',
             'math', 'statistics', 'data', 'computation', 'computational', 'neuroscience',
-            'engineering', 'technology', 'quantum', 'mechanics', 'theorem', 'proof',
-            'algorithm', 'model', 'theory', 'experiment', 'laboratory', 'analysis'
+            'engineering', 'quantum', 'mechanics', 'theorem', 'proof', 'algorithm',
+            'model', 'theory', 'experiment', 'laboratory', 'analysis', 'stem'
         ]
     },
-    'ARTS': {
-        'name': 'Arts',
+    'HUMANITIES': {
+        'name': 'Humanities',
         'keywords': [
-            'art', 'arts', 'music', 'theater', 'theatre', 'dance', 'performance',
-            'exhibition', 'gallery', 'museum', 'concert', 'recital', 'opera',
-            'ballet', 'choreography', 'film', 'cinema', 'visual', 'creative',
-            'design', 'architecture', 'photography', 'sculpture', 'painting'
+            'history', 'literature', 'philosophy', 'classics', 'language', 'linguistics',
+            'anthropology', 'archaeology', 'cultural studies', 'humanities', 'classical',
+            'ancient', 'medieval', 'renaissance', 'modern', 'contemporary', 'criticism',
+            'theory', 'text', 'manuscript', 'document', 'archive', 'heritage', 'writing'
+        ]
+    },
+    'MUSIC_PERFORMANCE': {
+        'name': 'Music Performance',
+        'keywords': [
+            'concert', 'recital', 'performance', 'symphony', 'orchestra', 'chamber',
+            'solo', 'ensemble', 'opera', 'ballet', 'musical', 'jazz', 'classical',
+            'contemporary', 'world music', 'folk', 'choral', 'vocal', 'instrumental',
+            'piano', 'violin', 'cello', 'flute', 'guitar', 'percussion', 'brass',
+            'woodwind', 'strings', 'keyboard', 'organ', 'harpsichord', 'music'
+        ]
+    },
+    'MUSIC_DISCUSSION': {
+        'name': 'Music Discussion',
+        'keywords': [
+            'musicology', 'music theory', 'composition', 'analysis', 'criticism',
+            'history of music', 'ethnomusicology', 'music education', 'pedagogy',
+            'masterclass', 'workshop', 'lecture', 'seminar', 'research', 'study',
+            'academic', 'scholarly', 'conference', 'symposium', 'colloquium'
+        ]
+    },
+    'VISUAL_ARTS': {
+        'name': 'Visual Arts',
+        'keywords': [
+            'art', 'painting', 'sculpture', 'photography', 'drawing', 'printmaking',
+            'exhibition', 'gallery', 'museum', 'installation', 'mixed media',
+            'digital art', 'video art', 'conceptual art', 'contemporary art',
+            'modern art', 'classical art', 'fine arts', 'studio', 'atelier',
+            'design', 'fashion', 'architecture', 'visual', 'collage'
+        ]
+    },
+    'PERFORMING_ARTS': {
+        'name': 'Performing Arts',
+        'keywords': [
+            'theater', 'theatre', 'dance', 'ballet', 'choreography', 'acting',
+            'drama', 'comedy', 'tragedy', 'musical theater', 'performance art',
+            'improvisation', 'directing', 'stage', 'production', 'rehearsal',
+            'audition', 'casting', 'costume', 'set design', 'lighting'
         ]
     },
     'HEALTH': {
@@ -37,7 +75,7 @@ STANDARD_CATEGORIES = {
             'health', 'medical', 'medicine', 'clinical', 'patient', 'treatment',
             'therapy', 'diagnosis', 'disease', 'wellness', 'public health',
             'biomedical', 'pharmaceutical', 'nursing', 'doctor', 'hospital',
-            'clinic', 'mental health', 'psychology', 'neuroscience'
+            'clinic', 'mental health', 'psychology', 'neuroscience', 'cancer'
         ]
     },
     'TECH': {
@@ -46,7 +84,8 @@ STANDARD_CATEGORIES = {
             'technology', 'computer', 'software', 'programming', 'coding',
             'development', 'engineering', 'ai', 'artificial intelligence',
             'machine learning', 'data science', 'cybersecurity', 'blockchain',
-            'internet', 'digital', 'automation', 'robotics', 'hardware'
+            'internet', 'digital', 'automation', 'robotics', 'hardware',
+            'algorithm', 'computation', 'computational'
         ]
     },
     'SOCIAL': {
@@ -54,7 +93,17 @@ STANDARD_CATEGORIES = {
         'keywords': [
             'social', 'community', 'networking', 'meetup', 'club', 'society',
             'organization', 'volunteer', 'activism', 'diversity', 'inclusion',
-            'equity', 'justice', 'policy', 'governance', 'sustainability'
+            'equity', 'justice', 'policy', 'governance', 'sustainability',
+            'spirituality', 'conversation', 'belonging', 'inclusion'
+        ]
+    },
+    'POLITICS': {
+        'name': 'Politics & Policy',
+        'keywords': [
+            'politics', 'political', 'policy', 'government', 'democracy',
+            'capitalism', 'economy', 'economic', 'finance', 'business',
+            'activism', 'social justice', 'civil rights', 'immigration',
+            'international', 'global', 'war', 'peace', 'conflict'
         ]
     },
     'BUSINESS': {
@@ -62,15 +111,17 @@ STANDARD_CATEGORIES = {
         'keywords': [
             'business', 'finance', 'economics', 'marketing', 'management',
             'entrepreneurship', 'startup', 'venture', 'investment', 'corporate',
-            'industry', 'commerce', 'trade', 'leadership', 'strategy'
+            'industry', 'commerce', 'trade', 'leadership', 'strategy',
+            'economic', 'financial', 'market', 'economy'
         ]
     },
-    'CULTURE': {
-        'name': 'Culture & Society',
+    'RELIGION': {
+        'name': 'Religion & Spirituality',
         'keywords': [
-            'culture', 'cultural', 'society', 'history', 'heritage', 'tradition',
-            'language', 'literature', 'philosophy', 'ethics', 'religion',
-            'anthropology', 'sociology', 'politics', 'international'
+            'religion', 'religious', 'spiritual', 'spirituality', 'faith',
+            'prayer', 'worship', 'theology', 'biblical', 'christian',
+            'jewish', 'muslim', 'hindu', 'buddhist', 'meditation',
+            'contemplation', 'sacred', 'divine', 'god', 'church'
         ]
     }
 }

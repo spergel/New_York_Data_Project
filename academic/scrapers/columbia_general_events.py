@@ -99,7 +99,30 @@ def determine_event_type(event_data):
 def determine_categories_columbia(event_data):
     """Determine categories for Columbia events using centralized logic."""
     # Use hybrid approach: tag mapping + keyword analysis
-    return determine_categories(event_data, method='hybrid')
+    categories = determine_categories(event_data, method='hybrid')
+    
+    # Columbia is strong in humanities, so prioritize humanities categories
+    title = event_data.get('title', '').lower()
+    description = event_data.get('description', '').lower()
+    text_content = f"{title} {description}"
+    
+    # Check for humanities-specific content
+    humanities_keywords = [
+        'history', 'literature', 'philosophy', 'classics', 'language', 'linguistics',
+        'anthropology', 'archaeology', 'cultural studies', 'humanities', 'classical',
+        'ancient', 'medieval', 'renaissance', 'modern', 'contemporary', 'criticism',
+        'theory', 'text', 'manuscript', 'document', 'archive', 'heritage'
+    ]
+    
+    if any(keyword in text_content for keyword in humanities_keywords):
+        if 'HUMANITIES' not in categories:
+            categories.append('HUMANITIES')
+    
+    # Ensure Columbia events get EDUCATION category
+    if 'EDUCATION' not in categories:
+        categories.append('EDUCATION')
+    
+    return categories
 
 def fetch_columbia_events():
     url = "https://events.columbia.edu/feeder/main/eventsFeed.do?f=y&sort=dtstart.utc:asc&fexpr=(categories.href!=%22/public/.bedework/categories/sys/Ongoing%22)%20and%20(categories.href=%22/public/.bedework/categories/org/UniversityEvents%22)%20and%20(entity_type=%22event%22%7Centity_type=%22todo%22)&skinName=list-json&count=200"

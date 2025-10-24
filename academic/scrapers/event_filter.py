@@ -26,8 +26,6 @@ def should_filter_event(event):
     # Combine name and description for comprehensive filtering
     event_text = f"{name} {description}"
     
-    # Debug output removed for production
-    
     # Filter out events with these terms in the title or description
     filter_terms = [
         # Virtual/Online training and basic courses
@@ -185,10 +183,9 @@ def should_filter_event(event):
         r'\b(learning\s+management|lms|system\s+training|software\s+training)\b',  # Technical training
     ]
     
+    
     for pattern in filter_patterns:
         if re.search(pattern, event_text, re.IGNORECASE):
-            if 'neuroscience' in name or 'neuroscience' in description:
-                print(f"DEBUG: Filtered out by regex pattern '{pattern}' in event: {name[:50]}...")
             return True
     
     # Filter out events that are too short (likely incomplete or spam)

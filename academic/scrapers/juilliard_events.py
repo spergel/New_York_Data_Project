@@ -104,9 +104,45 @@ def determine_categories_juilliard(event_data):
     # Use hybrid approach: tag mapping + keyword analysis
     categories = determine_categories(event_data, method='hybrid')
 
-    # Ensure Juilliard events get ARTS category (they're performing arts focused)
-    if 'ARTS' not in categories:
-        categories.append('ARTS')
+    # Juilliard-specific categorization
+    title = event_data.get('title', '').lower()
+    description = event_data.get('description', '').lower()
+    tags = event_data.get('tags', [])
+    text_content = f"{title} {description} {' '.join(tags)}"
+    
+    # Check if it's a performance vs discussion/educational event
+    performance_keywords = [
+        'concert', 'recital', 'performance', 'symphony', 'orchestra', 'chamber',
+        'solo', 'ensemble', 'opera', 'ballet', 'musical', 'jazz', 'classical',
+        'contemporary', 'world music', 'folk', 'choral', 'vocal', 'instrumental'
+    ]
+    
+    discussion_keywords = [
+        'masterclass', 'workshop', 'lecture', 'seminar', 'research', 'study',
+        'academic', 'scholarly', 'conference', 'symposium', 'colloquium',
+        'musicology', 'music theory', 'composition', 'analysis', 'criticism',
+        'history of music', 'ethnomusicology', 'music education', 'pedagogy'
+    ]
+    
+    # Determine if it's performance or discussion
+    is_performance = any(keyword in text_content for keyword in performance_keywords)
+    is_discussion = any(keyword in text_content for keyword in discussion_keywords)
+    
+    if is_performance and not is_discussion:
+        if 'MUSIC_PERFORMANCE' not in categories:
+            categories.append('MUSIC_PERFORMANCE')
+    elif is_discussion or not is_performance:
+        if 'MUSIC_DISCUSSION' not in categories:
+            categories.append('MUSIC_DISCUSSION')
+    
+    # Check for other performing arts
+    if any(term in text_content for term in ['dance', 'ballet', 'choreography', 'theater', 'theatre', 'acting']):
+        if 'PERFORMING_ARTS' not in categories:
+            categories.append('PERFORMING_ARTS')
+    
+    # Ensure Juilliard events get EDUCATION category
+    if 'EDUCATION' not in categories:
+        categories.append('EDUCATION')
 
     return categories
 
