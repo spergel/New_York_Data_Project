@@ -76,11 +76,6 @@ export default function AcademicBook({ events }: AcademicBookProps) {
     return dateA.getTime() - dateB.getTime();
   });
 
-  // Debug: Log first few events to see sorting
-  console.log('First 5 events after sorting:');
-  sortedEvents.slice(0, 5).forEach((event, index) => {
-    console.log(`${index + 1}. ${sanitizeTitle(event.title)} - ${event.date} (${event.institution})`);
-  });
 
   // Get unique institutions
   const institutions = [...new Set(events.map(e => cleanInstitutions(e.institution)))].sort();
@@ -94,11 +89,10 @@ export default function AcademicBook({ events }: AcademicBookProps) {
   // Navigation handlers
   const handleGoToPage = (pageNumber: number, isBigJump: boolean = false) => {
     if (pageFlipRef.current) {
-      // Store current page in history if it's a big jump
-      if (isBigJump && navigationState.currentPage !== pageNumber) {
-        navigationHistoryRef.current.push(navigationState.currentPage);
-        console.log('Stored page in history:', navigationState.currentPage, 'History:', navigationHistoryRef.current);
-      }
+    // Store current page in history if it's a big jump
+    if (isBigJump && navigationState.currentPage !== pageNumber) {
+      navigationHistoryRef.current.push(navigationState.currentPage);
+    }
       
       pageFlipRef.current.flip(pageNumber);
       setNavigationState(prev => ({
@@ -120,6 +114,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       const tocItemsPerPage = 8;
       const totalTocItems = 1 + institutions.length + categories.length;
       const tocPages = Math.ceil(totalTocItems / tocItemsPerPage);
+      const actualTocPages = tocPages + (tocPages % 2 === 1 ? 1 : 0);
       const allEventsPages = Math.ceil(sortedEvents.length / eventsPerPage);
       
       // Calculate institution pages
@@ -127,12 +122,9 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         const instEvents = sortedEvents.filter(e => cleanInstitutions(e.institution) === inst);
         return Math.ceil(instEvents.length / eventsPerPage);
       });
-      const institutionStartPage = tocPages + allEventsPages + 
+      const institutionStartPage = actualTocPages + allEventsPages + 
         institutionPageCounts.slice(0, institutions.indexOf(cleanInstitution)).reduce((sum, count) => sum + count, 0) + 1; // +1 for publisher's page
       
-      console.log('Navigating to institution:', cleanInstitution, 'at page:', institutionStartPage);
-      console.log('Page structure:', { tocPages, allEventsPages, institutionStartPage });
-      console.log('TOC would show page:', institutionStartPage + 1);
       
       setNavigationState(prev => ({
         ...prev,
@@ -156,6 +148,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       const tocItemsPerPage = 8;
       const totalTocItems = 1 + institutions.length + categories.length;
       const tocPages = Math.ceil(totalTocItems / tocItemsPerPage);
+      const actualTocPages = tocPages + (tocPages % 2 === 1 ? 1 : 0);
       const allEventsPages = Math.ceil(sortedEvents.length / eventsPerPage);
 
       // Calculate institution pages
@@ -170,11 +163,9 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         const catEvents = sortedEvents.filter(e => e.category && e.category.includes(cat));
         return Math.ceil(catEvents.length / eventsPerPage);
       });
-      const categoryStartPage = tocPages + allEventsPages + totalInstitutionPages +
+      const categoryStartPage = actualTocPages + allEventsPages + totalInstitutionPages +
         categoryPageCounts.slice(0, categories.indexOf(category)).reduce((sum, count) => sum + count, 0) + 1; // +1 for publisher's page
 
-      console.log('Navigating to category:', category, 'at page:', categoryStartPage);
-      console.log('Page structure:', { tocPages, allEventsPages, totalInstitutionPages, categoryStartPage });
 
       setNavigationState(prev => ({
         ...prev,
@@ -190,10 +181,8 @@ export default function AcademicBook({ events }: AcademicBookProps) {
 
 
   const handleGoBack = () => {
-    console.log('Go back called, history:', navigationHistoryRef.current);
     if (navigationHistoryRef.current.length > 0) {
       const previousPage = navigationHistoryRef.current.pop();
-      console.log('Going back to page:', previousPage);
       
       if (pageFlipRef.current && previousPage !== undefined) {
         pageFlipRef.current.flip(previousPage);
@@ -205,8 +194,6 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           currentCategory: undefined
         }));
       }
-    } else {
-      console.log('No history to go back to');
     }
   };
 
@@ -235,25 +222,30 @@ export default function AcademicBook({ events }: AcademicBookProps) {
 
   useEffect(() => {
     if (bookRef.current && events.length > 0) {
-      console.log('Setting up dynamic book with', events.length, 'events...');
 
       // Set up global handlers BEFORE generating HTML
       window.goToPage = (pageNum: number) => {
-        console.log('Global goToPage called with:', pageNum);
         handleGoToPage(pageNum, true); // TOC entries are big jumps
       };
       window.institutionClick = (institution: string) => {
-        console.log('Global institutionClick called with:', institution);
         handleInstitutionClick(institution);
       };
       window.categoryClick = (category: string) => {
-        console.log('Global categoryClick called with:', category);
         handleCategoryClick(category);
       };
       window.goBack = () => {
-        console.log('Global goBack called');
         handleGoBack();
       };
+
+      // Show loading state while generating pages
+      if (bookRef.current) {
+        bookRef.current.innerHTML = `
+          <div style="display: flex; align-items: center; justify-content: center; height: 100%; flex-direction: column;">
+            <div class="spinner" style="width: 40px; height: 40px; border: 4px solid #374151; border-top: 4px solid #3b82f6; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 1rem;"></div>
+            <p style="color: #6b7280; font-size: 14px;">Generating book pages...</p>
+          </div>
+        `;
+      }
 
       // Generate pages dynamically for events (3-4 events per page) with integrated bookmarks
       const generatePagesHTML = () => {
@@ -282,23 +274,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         const totalInstitutionPages = institutionPageCounts.reduce((sum, count) => sum + count, 0);
         const totalCategoryPages = categoryPageCounts.reduce((sum, count) => sum + count, 0);
         
-        console.log('Page structure:', {
-          tocPages,
-          allEventsPages,
-          totalInstitutionPages,
-          totalCategoryPages,
-          totalPages: tocPages + allEventsPages + totalInstitutionPages + totalCategoryPages,
-          institutions: institutions.length,
-          categories: categories.length,
-          events: sortedEvents.length
-        });
+        // Calculate actual TOC pages (including blank page if needed)
+        const actualTocPages = tocPages + (tocPages % 2 === 1 ? 1 : 0);
+        
         
         // Create table of contents items with correct page numbers
         // +1 to account for the publisher's page
         const allTocItems = [
-          { type: 'all', name: 'All Events', count: events.length, color: '#3b82f6', page: tocPages + 1 + 1 },
+          { type: 'all', name: 'All Events', count: events.length, color: '#3b82f6', page: actualTocPages + 1 + 1 },
           ...institutions.map((inst, index) => {
-            const institutionStartPage = tocPages + allEventsPages + 
+            const institutionStartPage = actualTocPages + allEventsPages + 
               institutionPageCounts.slice(0, index).reduce((sum, count) => sum + count, 0);
             return {
               type: 'institution', 
@@ -309,7 +294,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
             };
           }),
           ...categories.map((cat, index) => {
-            const categoryStartPage = tocPages + allEventsPages + totalInstitutionPages +
+            const categoryStartPage = actualTocPages + allEventsPages + totalInstitutionPages +
               categoryPageCounts.slice(0, index).reduce((sum, count) => sum + count, 0);
             return {
               type: 'category',
@@ -321,10 +306,6 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           })
         ];
         
-        console.log('TOC items with page numbers:', allTocItems.map(item => ({
-          name: item.name,
-          page: item.page
-        })));
 
         // Add publisher's page
         pagesHTML += `
@@ -433,11 +414,43 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           `;
         }
 
+        // Ensure TOC has even number of pages by adding blank page if needed
+        if (tocPages % 2 === 1) {
+          pagesHTML += `
+            <div class="page">
+              <div class="page-content">
+                <div class="page-main-content">
+                  <h2 class="page-header">TABLE OF CONTENTS</h2>
+                  <div class="paint-thing-graphic">
+                    <svg viewBox="0 0 100 60" class="paint-flame">
+                      <path d="M20 50 Q30 20 40 45 Q50 10 60 40 Q70 15 80 35 L85 50 Z" fill="#dc2626" opacity="0.8"/>
+                      <path d="M25 50 Q35 25 45 50 Q55 20 65 45 Q75 25 80 50 L85 50 Z" fill="#f59e0b" opacity="0.7"/>
+                    </svg>
+                  </div>
+                  <div class="page-text">
+                    <div class="book-toc">
+                      <div class="toc-entry" style="text-align: center; padding: 2rem;">
+                        <span class="toc-title" style="color: #6b7280; font-style: italic;">(Continued on next page)</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page-footer">${tocPages + 1}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+
         // Add main events section (all events sorted by date)
+        let globalPageNumber = actualTocPages + 1; // Start after TOC pages
         for (let pageIndex = 0; pageIndex < sortedEvents.length; pageIndex += eventsPerPage) {
           const pageEvents = sortedEvents.slice(pageIndex, pageIndex + eventsPerPage);
           const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
-          const isLeftPage = pageNumber % 2 === 0; // Even page numbers are left pages
+          const isLeftPage = globalPageNumber % 2 === 0; // Even page numbers are left pages
+          
+          
+          // Try different logic: ribbon on even pages (2, 4, 6, 8...)
+          const shouldShowRibbon = globalPageNumber % 2 === 0;
 
           pagesHTML += `
             <div class="page">
@@ -458,7 +471,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                     </button>
                   </div>
                   ` : ''}
-                  ${isLeftPage ? `
+                  ${shouldShowRibbon ? `
                   <div class="page-bookmark" onclick="window.goToPage(0)" title="Go to Table of Contents" style="cursor: pointer;">
                     <div class="page-bookmark-inner">
                       <span class="page-bookmark-text">Table of Contents</span>
@@ -480,15 +493,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                           ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
                           ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="clickable-category" onclick="window.categoryClick('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
                         </div>
-                        <p class="event-description">${sanitizeHtml(event.description)}</p>
+                        <div class="event-description">${sanitizeHtml(event.description)}</div>
                       </div>
                     `).join('')}
                   </div>
-                  <div class="page-footer">${pageNumber}</div>
+                  <div class="page-footer">${globalPageNumber}</div>
                 </div>
               </div>
             </div>
           `;
+          globalPageNumber++; // Increment global page number
         }
 
         // Add institution-specific sections
@@ -498,7 +512,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           for (let pageIndex = 0; pageIndex < institutionEvents.length; pageIndex += eventsPerPage) {
             const pageEvents = institutionEvents.slice(pageIndex, pageIndex + eventsPerPage);
             const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
-            const isLeftPage = pageNumber % 2 === 0; // Even page numbers are left pages
+            const shouldShowRibbon = globalPageNumber % 2 === 0;
 
             pagesHTML += `
               <div class="page">
@@ -519,7 +533,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                       </button>
                     </div>
                     ` : ''}
-                    ${isLeftPage ? `
+                    ${shouldShowRibbon ? `
                     <div class="page-bookmark" onclick="window.goToPage(0)" title="Go to Table of Contents" style="cursor: pointer;">
                       <div class="page-bookmark-inner">
                         <span class="page-bookmark-text">Table of Contents</span>
@@ -541,15 +555,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                             ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
                             ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="clickable-category" onclick="window.categoryClick('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
                           </div>
-                          <p class="event-description">${sanitizeHtml(event.description)}</p>
+                          <div class="event-description">${sanitizeHtml(event.description)}</div>
                         </div>
                       `).join('')}
                     </div>
-                    <div class="page-footer">${pageNumber}</div>
+                    <div class="page-footer">${globalPageNumber}</div>
                   </div>
                 </div>
               </div>
             `;
+            globalPageNumber++; // Increment global page number
           }
         });
 
@@ -562,7 +577,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           for (let pageIndex = 0; pageIndex < categoryEvents.length; pageIndex += eventsPerPage) {
             const pageEvents = categoryEvents.slice(pageIndex, pageIndex + eventsPerPage);
             const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
-            const isLeftPage = pageNumber % 2 === 0; // Even page numbers are left pages
+            const shouldShowRibbon = globalPageNumber % 2 === 0;
 
             pagesHTML += `
               <div class="page">
@@ -583,7 +598,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                       </button>
                     </div>
                     ` : ''}
-                    ${isLeftPage ? `
+                    ${shouldShowRibbon ? `
                     <div class="page-bookmark" onclick="window.goToPage(0)" title="Go to Table of Contents" style="cursor: pointer;">
                       <div class="page-bookmark-inner">
                         <span class="page-bookmark-text">Table of Contents</span>
@@ -605,15 +620,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                             ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
                             ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="clickable-category" onclick="window.categoryClick('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
                           </div>
-                          <p class="event-description">${sanitizeHtml(event.description)}</p>
+                          <div class="event-description">${sanitizeHtml(event.description)}</div>
                         </div>
                       `).join('')}
                     </div>
-                    <div class="page-footer">${pageNumber}</div>
+                    <div class="page-footer">${globalPageNumber}</div>
                   </div>
                 </div>
               </div>
             `;
+            globalPageNumber++; // Increment global page number
           }
         });
 
@@ -625,7 +641,6 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       // Initialize PageFlip
       setTimeout(() => {
         if (bookRef.current) {
-          console.log('Attempting to initialize PageFlip...');
 
           try {
             pageFlipRef.current = new PageFlip(bookRef.current, {
@@ -641,45 +656,79 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               maxShadowOpacity: 0.5,
               mobileScrollSupport: false,
               flippingTime: 600,
+              // Disable automatic click handling
+              disableFlipByClick: true,
               // Add click areas for proper page flipping
               clickAreaWidth: 50,  // Width of clickable area on each side
               clickAreaHeight: 100  // Height of clickable area
             });
 
             const pages = bookRef.current.querySelectorAll('.page');
-            console.log('Found pages for PageFlip:', pages.length);
 
             if (pages.length > 0) {
               pageFlipRef.current.loadFromHTML(pages);
-              console.log('PageFlip initialized successfully!');
 
               // Add event listeners
               pageFlipRef.current.on('flip', (e: { data: number }) => {
-                console.log('Page flipped to:', e.data);
                 setNavigationState(prev => ({
                   ...prev,
                   currentPage: e.data
                 }));
               });
-
-              pageFlipRef.current.on('changeState', (e: { data: unknown }) => {
-                console.log('Book state changed to:', e.data);
-              });
-
-              // Debug info
-              console.log('Total pages:', pageFlipRef.current.getPageCount());
-              console.log('Current page:', pageFlipRef.current.getCurrentPageIndex());
+              
+              // Add custom click handling to prevent page flips on event content
+              const handlePageClick = (event: MouseEvent) => {
+                const target = event.target as HTMLElement;
+                
+                // Check if click is on event content
+                if (target.closest('.event-item') || 
+                    target.closest('.event-title') || 
+                    target.closest('.event-meta') || 
+                    target.closest('.event-description') ||
+                    target.closest('.clickable-institution') ||
+                    target.closest('.clickable-category') ||
+                    target.closest('.clickable-event') ||
+                    target.closest('a') ||
+                    target.closest('button')) {
+                  return; // Don't flip page if clicking on interactive content
+                }
+                
+                // Only flip if clicking on page borders (left/right edges)
+                const pageElement = target.closest('.page');
+                if (pageElement) {
+                  const rect = pageElement.getBoundingClientRect();
+                  const clickX = event.clientX - rect.left;
+                  const pageWidth = rect.width;
+                  
+                  // Define clickable areas (left 50px and right 50px)
+                  const leftClickArea = clickX < 50;
+                  const rightClickArea = clickX > pageWidth - 50;
+                  
+                  if (leftClickArea && pageFlipRef.current) {
+                    pageFlipRef.current.flipPrev();
+                  } else if (rightClickArea && pageFlipRef.current) {
+                    pageFlipRef.current.flipNext();
+                  }
+                }
+              };
+              
+              // Add click listener to the book container
+              if (bookRef.current) {
+                bookRef.current.addEventListener('click', handlePageClick);
+              }
             }
           } catch (error) {
             console.error('PageFlip failed:', error);
             // Fallback to static display
-            bookRef.current.innerHTML = `
-              <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; border-radius: 8px;">
-                <h1 style="font-size: 2rem; font-weight: bold; margin-bottom: 1rem;">Academic Events Book</h1>
-                <p style="font-size: 1.2rem; text-align: center;">${events.length} events loaded</p>
-                <p style="font-size: 1rem; text-align: center; margin-top: 1rem;">PageFlip initialization failed</p>
-              </div>
-            `;
+            if (bookRef.current) {
+              bookRef.current.innerHTML = `
+                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; border-radius: 8px;">
+                  <h1 style="font-size: 2rem; font-weight: bold; margin-bottom: 1rem;">Academic Events Book</h1>
+                  <p style="font-size: 1.2rem; text-align: center;">${events.length} events loaded</p>
+                  <p style="font-size: 1rem; text-align: center; margin-top: 1rem;">PageFlip initialization failed</p>
+                </div>
+              `;
+            }
           }
         }
       }, 100);

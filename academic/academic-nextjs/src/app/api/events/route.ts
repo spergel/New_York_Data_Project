@@ -34,39 +34,79 @@ interface ProcessedEvent {
   source_url?: string;
 }
 
-export async function GET() {
+// Cache for processed events
+let cachedEvents: ProcessedEvent[] | null = null;
+let cacheTimestamp: number = 0;
+const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
+
+// Helper function to filter events
+function getFilteredEvents(events: ProcessedEvent[], filters: {
+  search: string;
+  category: string;
+  institution: string;
+}) {
+  let filtered = events;
+
+  // Apply filters
+  if (filters.search) {
+    const searchLower = filters.search.toLowerCase();
+    filtered = filtered.filter(event => 
+      event.title.toLowerCase().includes(searchLower) ||
+      event.description.toLowerCase().includes(searchLower) ||
+      event.institution.toLowerCase().includes(searchLower)
+    );
+  }
+
+  if (filters.category) {
+    filtered = filtered.filter(event => 
+      event.category && event.category.some(cat => cat.toLowerCase().includes(filters.category.toLowerCase()))
+    );
+  }
+
+  if (filters.institution) {
+    filtered = filtered.filter(event => 
+      event.institution.toLowerCase().includes(filters.institution.toLowerCase())
+    );
+  }
+
+  return NextResponse.json({
+    events: filtered,
+    total: filtered.length
+  });
+}
+
+export async function GET(request: Request) {
   try {
+    const url = new URL(request.url);
+    const search = url.searchParams.get('search') || '';
+    const category = url.searchParams.get('category') || '';
+    const institution = url.searchParams.get('institution') || '';
+
+    // Check cache first
+    const now = Date.now();
+    if (cachedEvents && (now - cacheTimestamp) < CACHE_DURATION) {
+      return getFilteredEvents(cachedEvents, { search, category, institution });
+    }
+
     let data;
     let dataSource = 'unknown';
 
     // Try to read real scraped events from public directory
     try {
       const realDataPath = path.join(process.cwd(), 'public', 'scraped_events.json');
-      console.log(`API: Attempting to read from: ${realDataPath}`);
-      console.log(`API: Current working directory: ${process.cwd()}`);
-      
       const fileContents = fs.readFileSync(realDataPath, 'utf8');
       data = JSON.parse(fileContents);
       dataSource = 'real_scraped_data';
-      console.log(`API: Successfully loaded real scraped data with ${data.total_events} events`);
     } catch (error) {
-      console.log(`API: Failed to read real data: ${error}`);
-      
       // Fallback to sample data if real data not available
       try {
-        console.log('API: Falling back to sample data');
         const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
-        console.log(`API: Attempting to read sample data from: ${samplePath}`);
-        
         const fileContents = fs.readFileSync(samplePath, 'utf8');
         data = JSON.parse(fileContents);
         dataSource = 'sample_data';
-        console.log(`API: Successfully loaded sample data with ${data.events?.length || 0} events`);
       } catch (sampleError) {
-        console.error(`API: Failed to read sample data: ${sampleError}`);
         
         // Final fallback - return hardcoded sample data
-        console.log('API: Using hardcoded fallback data');
         data = {
           events: [
             {
@@ -202,14 +242,12 @@ export async function GET() {
       })
       .filter((event: ProcessedEvent | null): event is ProcessedEvent => event !== null);
 
-    console.log(`API: Returning ${processedEvents.length} events from ${dataSource}`);
     
-    return NextResponse.json({
-      events: processedEvents,
-      total: processedEvents.length,
-      source: 'NYC Academic Events',
-      dataSource: dataSource
-    });
+    // Cache the processed events
+    cachedEvents = processedEvents;
+    cacheTimestamp = Date.now();
+    
+    return getFilteredEvents(processedEvents, { search, category, institution });
 
   } catch (error) {
     console.error('Error reading events data:', error);

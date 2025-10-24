@@ -1,24 +1,40 @@
+// Decode HTML entities
+export function decodeHtmlEntities(html: string): string {
+  if (!html) return '';
+  
+  const tempDiv = document.createElement('div');
+  tempDiv.innerHTML = html;
+  return tempDiv.textContent || tempDiv.innerText || html;
+}
+
 // Simple HTML sanitizer for safe rendering
 export function sanitizeHtml(html: string): string {
   if (!html) return '';
 
-  // Remove potentially dangerous tags and attributes
-  const allowedTags = ['strong', 'em', 'b', 'i', 'u', 'br', 'p', 'a', 'span'];
-  const allowedAttributes = ['href', 'target', 'title'];
+  // First decode HTML entities (like &lt; to <, &gt; to >, etc.)
+  const decodedHtml = decodeHtmlEntities(html);
 
-  // Create a temporary div to parse HTML
-  const tempDiv = document.createElement('div');
-  tempDiv.innerHTML = html;
+  // Allow more HTML tags for rich content in event descriptions
+  const allowedTags = [
+    'strong', 'em', 'b', 'i', 'u', 'br', 'p', 'a', 'span', 
+    'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'div', 'ul', 'ol', 'li',
+    'blockquote', 'code', 'pre'
+  ];
+  const allowedAttributes = ['href', 'target', 'title', 'class', 'id'];
+
+  // Create a new temporary div to parse the decoded HTML
+  const sanitizeDiv = document.createElement('div');
+  sanitizeDiv.innerHTML = decodedHtml;
 
   // Remove dangerous tags
-  const dangerousTags = ['script', 'object', 'embed', 'iframe', 'form', 'input', 'button'];
+  const dangerousTags = ['script', 'object', 'embed', 'iframe', 'form', 'input', 'button', 'style'];
   dangerousTags.forEach(tag => {
-    const elements = tempDiv.querySelectorAll(tag);
+    const elements = sanitizeDiv.querySelectorAll(tag);
     elements.forEach(el => el.remove());
   });
 
   // Remove dangerous attributes
-  const allElements = tempDiv.querySelectorAll('*');
+  const allElements = sanitizeDiv.querySelectorAll('*');
   allElements.forEach(el => {
     const attributes = Array.from(el.attributes);
     attributes.forEach(attr => {
@@ -28,8 +44,8 @@ export function sanitizeHtml(html: string): string {
     });
   });
 
-  // Clean up href attributes to only allow http/https
-  const links = tempDiv.querySelectorAll('a[href]');
+  // Clean up href attributes to only allow http/https and mailto
+  const links = sanitizeDiv.querySelectorAll('a[href]');
   links.forEach(link => {
     const href = link.getAttribute('href');
     if (href && !href.startsWith('http://') && !href.startsWith('https://') && !href.startsWith('mailto:')) {
@@ -37,7 +53,7 @@ export function sanitizeHtml(html: string): string {
     }
   });
 
-  return tempDiv.innerHTML;
+  return sanitizeDiv.innerHTML;
 }
 
 // Safe text rendering for different content types

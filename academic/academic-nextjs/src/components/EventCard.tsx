@@ -1,4 +1,5 @@
 import { EventData } from '../types/events';
+import { sanitizeHtml } from '../utils/htmlSanitizer';
 
 interface EventCardProps {
   event: EventData;
@@ -10,6 +11,28 @@ export default function EventCard({ event, onInstitutionClick }: EventCardProps)
     e.stopPropagation();
     if (onInstitutionClick) {
       onInstitutionClick(event.institution);
+    }
+  };
+
+  // Safely render HTML content in the description
+  const renderDescription = () => {
+    if (!event.description) return null;
+    
+    // Check if the description contains HTML tags
+    const hasHtmlTags = /<[^>]+>/.test(event.description);
+    
+    if (hasHtmlTags) {
+      // Sanitize and render HTML
+      const sanitizedHtml = sanitizeHtml(event.description);
+      return (
+        <div 
+          className="event-description" 
+          dangerouslySetInnerHTML={{ __html: sanitizedHtml }}
+        />
+      );
+    } else {
+      // Render as plain text
+      return <p className="event-description">{event.description}</p>;
     }
   };
 
@@ -38,7 +61,7 @@ export default function EventCard({ event, onInstitutionClick }: EventCardProps)
           <p><strong>Category:</strong> {event.category}</p>
         )}
       </div>
-      <p className="event-description">{event.description}</p>
+      {renderDescription()}
     </div>
   );
 }
