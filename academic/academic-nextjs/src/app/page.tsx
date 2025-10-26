@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import AcademicBook from '@/components/AcademicBook';
+import ResponsiveAcademicBook from '@/components/ResponsiveAcademicBook';
 import ProgressiveLoader from '@/components/ProgressiveLoader';
 import { EventData } from '@/types/events';
 
@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 py-2">
       <div className="container mx-auto px-4">
-        {showBook && <AcademicBook events={events} />}
+        {showBook && <ResponsiveAcademicBook events={events} />}
 
         <footer className="text-center mt-12 text-sm text-gray-500 dark:text-gray-400 space-y-2">
           <p>

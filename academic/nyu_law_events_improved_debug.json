@@ -18,91 +18,6 @@
       }
     },
     {
-      "id": "evt_nyu_law_44a1940880",
-      "name": "Energy Law 101",
-      "description": "Are you interested in clean energy and the energy tranistion, but have no idea how energy intersects with the law? Curious about what types of regulation impact the decisions that States and the Federal Government make regarding energy?Join ELS for our Energy Law 101 event. We will hear from Elizabeth Stein, the Institute for Policy Integrity's State Policy Director, and Jennifer Danis, the Institute for Policy Integrity's Federal Energy Policy Director. This event will provide an overview of what Energy Law is, and the basic concepts that law students interested in clean energy should know.",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/energy-law-101",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_6aad0e0138",
-      "name": "Foreign Law in US Courts",
-      "description": "Join the NYU Federalist Society for a speech from Judge William J. Nardini of the US Court of Appeals for the Second Circuit. Food will be provided.",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/foreign-law-us-courts",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_6956dbed2a",
-      "name": "1L Law Firm Evening Reception",
-      "description": "This evening reception is for 1Ls only. For more information about this event, 1Ls should log-in to CSM and click on the Events tab followed by Employer Events. An RSVP is required for all events.",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/1l-law-firm-evening-reception-4",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_3ebac8ce98",
-      "name": "PILC: Public Interest Law Firms Panel",
-      "description": "Have you ever wondered what it’s like to work at a public interest law firm? What are these law firms, and how do they differ from other firms and non-profit organizations? Come meet attorneys practicing at public interest firms in the areas of workers’ rights, civil rights, and more.RSVP here",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/pilc-public-interest-law-firms-panel",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_db4f60dbc1",
-      "name": "Art x Criminal Law",
-      "description": "Please join the Art Law Society for a panel event about the intersection of Art and Criminal Law. Our panel will discuss a wide array of art crimes, including fraud, theft and looting, and the trafficking of art, and explore how identifying, investigating, and litigating these issues is uniquely difficult in the art world.We are thrilled to be joined by three experts with distinct practices at the intersection of Art and Criminal law: Rebecca Noonan, Deputy General Counsel at The Metropolitan Museum of Art, Georges Lederman, Senior Counsel in the Art & Cultural Property group at Loeb & Loeb LLP, and Noah Solowiejczyk, the former co-chief of SDNY’s Illicit Finance & Money Laundering Unit. Please RSVP to attend: https://forms.gle/2W1mSNTrg5J36Nhj8",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/art-x-criminal-law",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_law_0831878386",
       "name": "Defending Protestors in Federal Court",
       "description": "Join the Mass Defense Committee of NYC National Lawyers Guild and NYU NLG for a panel on Defending Protestors in Federal Court. This event will be free for all NLG-NYC members and NYU Law students.",
@@ -231,6 +146,23 @@
       "source_group": "nyu_law",
       "metadata": {
         "source_url": "https://law.nyu.edu/events/public-policy-careers-era-trump",
+        "source_name": "NYU School of Law",
+        "venue": {
+          "name": "NYU Law",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_law_6956dbed2a",
+      "name": "1L Law Firm Evening Reception",
+      "description": "This evening reception is for 1Ls only. For more information about this event, 1Ls should log-in to CSM and click on the Events tab followed by Employer Events. An RSVP is required for all events.",
+      "start_date": "",
+      "end_date": "",
+      "source": "nyu",
+      "source_group": "nyu_law",
+      "metadata": {
+        "source_url": "https://law.nyu.edu/events/1l-law-firm-evening-reception-7",
         "source_name": "NYU School of Law",
         "venue": {
           "name": "NYU Law",

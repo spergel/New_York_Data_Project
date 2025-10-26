@@ -118,8 +118,8 @@ def determine_categories_newschool(event_data):
             if 'MUSIC_PERFORMANCE' not in categories:
                 categories.append('MUSIC_PERFORMANCE')
     
-    # Check for visual arts events
-    if any(term in text_content for term in ['art', 'exhibition', 'gallery', 'visual', 'design', 'fashion', 'architecture']):
+    # Check for visual arts events (more specific keywords)
+    if any(term in text_content for term in ['exhibition', 'gallery', 'visual', 'design', 'fashion', 'architecture', 'painting', 'sculpture', 'photography']):
         if 'VISUAL_ARTS' not in categories:
             categories.append('VISUAL_ARTS')
     

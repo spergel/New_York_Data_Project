@@ -53,11 +53,13 @@ STANDARD_CATEGORIES = {
     'VISUAL_ARTS': {
         'name': 'Visual Arts',
         'keywords': [
-            'art', 'painting', 'sculpture', 'photography', 'drawing', 'printmaking',
+            'painting', 'sculpture', 'photography', 'drawing', 'printmaking',
             'exhibition', 'gallery', 'museum', 'installation', 'mixed media',
             'digital art', 'video art', 'conceptual art', 'contemporary art',
             'modern art', 'classical art', 'fine arts', 'studio', 'atelier',
-            'design', 'fashion', 'architecture', 'visual', 'collage'
+            'design', 'fashion', 'architecture', 'visual', 'collage', 'artist',
+            'artistic', 'artwork', 'visual arts', 'art exhibition', 'art gallery',
+            'painting', 'sculpture', 'photography', 'drawing', 'printmaking'
         ]
     },
     'PERFORMING_ARTS': {
@@ -85,7 +87,8 @@ STANDARD_CATEGORIES = {
             'development', 'engineering', 'ai', 'artificial intelligence',
             'machine learning', 'data science', 'cybersecurity', 'blockchain',
             'internet', 'digital', 'automation', 'robotics', 'hardware',
-            'algorithm', 'computation', 'computational'
+            'algorithm', 'computation', 'computational', 'tech', 'tech seminar',
+            'computer science', 'software engineering', 'tech talk'
         ]
     },
     'SOCIAL': {
@@ -121,7 +124,25 @@ STANDARD_CATEGORIES = {
             'religion', 'religious', 'spiritual', 'spirituality', 'faith',
             'prayer', 'worship', 'theology', 'biblical', 'christian',
             'jewish', 'muslim', 'hindu', 'buddhist', 'meditation',
-            'contemplation', 'sacred', 'divine', 'god', 'church'
+            'contemplation', 'sacred', 'divine', 'god', 'church',
+            'conversation', 'meaning', 'purpose', 'life', 'development'
+        ]
+    },
+    'CLASSICS': {
+        'name': 'Classics',
+        'keywords': [
+            'classics', 'classical', 'ancient', 'greek', 'latin', 'roman',
+            'civilization', 'antiquity', 'archaeology', 'mythology',
+            'homer', 'virgil', 'plato', 'aristotle', 'cicero', 'ovid',
+            'departmental lecture', 'university seminar', 'classical civilization'
+        ]
+    },
+    'BOOK_TALK': {
+        'name': 'Book Talk',
+        'keywords': [
+            'book talk', 'book launch', 'book discussion', 'author talk',
+            'book reading', 'book signing', 'book event', 'publication',
+            'book presentation', 'book release', 'book tour'
         ]
     }
 }
