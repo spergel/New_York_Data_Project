@@ -21,11 +21,17 @@ export default function ResponsiveAcademicBook({ events }: ResponsiveAcademicBoo
       setIsLoading(false);
     };
 
+    const initStart = Date.now();
+    console.log('🔄 [ResponsiveAcademicBook] Initializing...');
+    
     // Check initial screen size
     checkScreenSize();
 
     // Add resize listener
     window.addEventListener('resize', checkScreenSize);
+
+    const initTime = Date.now() - initStart;
+    console.log(`✅ [ResponsiveAcademicBook] Initialization complete in ${initTime}ms (isMobile: ${isMobile})`);
 
     return () => {
       window.removeEventListener('resize', checkScreenSize);
@@ -46,9 +52,12 @@ export default function ResponsiveAcademicBook({ events }: ResponsiveAcademicBoo
 
   // Render mobile scrolling view for small screens
   if (isMobile) {
+    console.log('📱 [ResponsiveAcademicBook] Rendering mobile view');
     return <MobileAcademicBook events={events} />;
   }
 
   // Render flipbook view for desktop
+  console.log('🖥️ [ResponsiveAcademicBook] Rendering desktop flipbook view');
   return <AcademicBook events={events} />;
 }
+

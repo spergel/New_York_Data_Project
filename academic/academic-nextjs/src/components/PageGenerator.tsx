@@ -72,11 +72,15 @@ export class PageGenerator {
   };
 
   generatePagesHTML = (): string => {
+    const generationStart = Date.now();
+    console.log('📄 [PageGenerator] Starting page HTML generation...');
+    
     const sortedEvents = this.getSortedEvents();
     const eventsPerPage = 3;
     let pagesHTML = '';
 
     // Calculate page structure first
+    const calcStart = Date.now();
     const tocItemsPerPage = 8;
     const totalTocItems = 1 + this.institutions.length + this.categories.length; // All Events + institutions + categories
     const tocPages = Math.ceil(totalTocItems / tocItemsPerPage);
@@ -99,6 +103,8 @@ export class PageGenerator {
     
     // Calculate actual TOC pages (including blank page if needed)
     const actualTocPages = tocPages + (tocPages % 2 === 1 ? 1 : 0);
+    const calcTime = Date.now() - calcStart;
+    console.log(`✅ [PageGenerator] Page calculations complete in ${calcTime}ms (${actualTocPages} TOC pages, ${allEventsPages} event pages)`);
     
     // Create table of contents items with correct page numbers
     // +1 to account for the publisher's page
@@ -142,6 +148,10 @@ export class PageGenerator {
 
     // Add category-specific sections
     pagesHTML += this.generateCategoryPages(sortedEvents, eventsPerPage, actualTocPages, allEventsPages, totalInstitutionPages, categoryPageCounts);
+
+    const totalTime = Date.now() - generationStart;
+    const htmlSize = new Blob([pagesHTML]).size;
+    console.log(`🏁 [PageGenerator] HTML generation complete: ${(htmlSize / 1024).toFixed(2)} KB in ${totalTime}ms`);
 
     return pagesHTML;
   };

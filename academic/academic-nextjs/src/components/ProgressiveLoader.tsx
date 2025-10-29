@@ -13,15 +13,28 @@ export default function ProgressiveLoader({ onEventsLoaded, onLoadingComplete }:
 
   useEffect(() => {
     const loadEvents = async () => {
+      const fetchStart = Date.now();
+      console.log('📡 [ProgressiveLoader] Starting API fetch...');
+      
       try {
         const response = await fetch('/api/events');
+        const fetchTime = Date.now() - fetchStart;
+        console.log(`✅ [ProgressiveLoader] API fetch complete in ${fetchTime}ms`);
+        
+        const parseStart = Date.now();
         const data = await response.json();
+        const parseTime = Date.now() - parseStart;
+        console.log(`✅ [ProgressiveLoader] JSON parsed (${data.events?.length || 0} events) in ${parseTime}ms`);
+        
+        const totalTime = Date.now() - fetchStart;
+        console.log(`🏁 [ProgressiveLoader] Total load time: ${totalTime}ms`);
         
         onEventsLoaded(data.events);
         onLoadingComplete();
         setLoading(false);
       } catch (error) {
-        console.error('Error loading events:', error);
+        const errorTime = Date.now() - fetchStart;
+        console.error(`❌ [ProgressiveLoader] Error loading events after ${errorTime}ms:`, error);
         setLoading(false);
       }
     };

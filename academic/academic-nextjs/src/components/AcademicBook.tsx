@@ -221,7 +221,13 @@ export default function AcademicBook({ events }: AcademicBookProps) {
   }, []);
 
   useEffect(() => {
+    // Cleanup flag to prevent double initialization in React Strict Mode
+    let isMounted = true;
+    let timeoutId: NodeJS.Timeout | null = null;
+    
     if (bookRef.current && events.length > 0) {
+      const componentStart = Date.now();
+      console.log(`📚 [AcademicBook] Starting initialization with ${events.length} events`);
 
       // Set up global handlers BEFORE generating HTML
       window.goToPage = (pageNum: number) => {
@@ -249,6 +255,8 @@ export default function AcademicBook({ events }: AcademicBookProps) {
 
       // Generate pages dynamically for events (3-4 events per page) with integrated bookmarks
       const generatePagesHTML = () => {
+        const htmlStart = Date.now();
+        console.log('📄 [AcademicBook] Starting HTML generation...');
         let pagesHTML = '';
 
         // No internal bookmarks - moved to external sidebar
@@ -636,13 +644,27 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         return pagesHTML;
       };
 
+      const htmlGenStart = Date.now();
       bookRef.current.innerHTML = generatePagesHTML();
+      const htmlGenTime = Date.now() - htmlGenStart;
+      const htmlSize = new Blob([bookRef.current.innerHTML]).size;
+      console.log(`✅ [AcademicBook] HTML generation complete: ${(htmlSize / 1024).toFixed(2)} KB in ${htmlGenTime}ms`);
 
       // Initialize PageFlip
-      setTimeout(() => {
+      timeoutId = setTimeout(() => {
+        // Skip if component unmounted (React Strict Mode cleanup)
+        if (!isMounted || !bookRef.current) {
+          console.log('⚠️ [AcademicBook] Skipping initialization - component unmounted');
+          return;
+        }
+        
+        const pageFlipStart = Date.now();
+        console.log('🔄 [AcademicBook] Starting PageFlip initialization...');
+        
         if (bookRef.current) {
 
           try {
+            const initStart = Date.now();
             pageFlipRef.current = new PageFlip(bookRef.current, {
               width: 550,  // Base page width
               height: 733,  // Base page height
@@ -662,11 +684,20 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               clickAreaWidth: 50,  // Width of clickable area on each side
               clickAreaHeight: 100  // Height of clickable area
             });
+            const initTime = Date.now() - initStart;
+            console.log(`✅ [AcademicBook] PageFlip instance created in ${initTime}ms`);
 
             const pages = bookRef.current.querySelectorAll('.page');
+            console.log(`📄 [AcademicBook] Found ${pages.length} pages`);
 
             if (pages.length > 0) {
+              const loadStart = Date.now();
               pageFlipRef.current.loadFromHTML(pages);
+              const loadTime = Date.now() - loadStart;
+              console.log(`✅ [AcademicBook] PageFlip loaded from HTML in ${loadTime}ms`);
+              
+              const totalPageFlipTime = Date.now() - pageFlipStart;
+              console.log(`🏁 [AcademicBook] PageFlip initialization complete in ${totalPageFlipTime}ms`);
 
               // Add event listeners
               pageFlipRef.current.on('flip', (e: { data: number }) => {
@@ -718,7 +749,8 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               }
             }
           } catch (error) {
-            console.error('PageFlip failed:', error);
+            const errorTime = Date.now() - pageFlipStart;
+            console.error(`❌ [AcademicBook] PageFlip initialization failed after ${errorTime}ms:`, error);
             // Fallback to static display
             if (bookRef.current) {
               bookRef.current.innerHTML = `
@@ -732,11 +764,20 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           }
         }
       }, 100);
+      
+      const totalComponentTime = Date.now() - componentStart;
+      console.log(`🏁 [AcademicBook] Component initialization complete in ${totalComponentTime}ms`);
     }
 
+    // Cleanup function for both cases
     return () => {
+      isMounted = false;
+      if (timeoutId) {
+        clearTimeout(timeoutId);
+      }
       if (pageFlipRef.current) {
         pageFlipRef.current.destroy();
+        pageFlipRef.current = null;
       }
     };
   }, [events]);
