@@ -57,3 +57,4 @@ The academic-nextjs application now switches between two different viewing modes
 - Table of contents navigation
 - Dark mode support
 
+

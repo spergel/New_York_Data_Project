@@ -39,3 +39,4 @@ export class PerformanceLogger {
     console.warn(`⚠️ [${label}] ${message}`);
   }
 }
+

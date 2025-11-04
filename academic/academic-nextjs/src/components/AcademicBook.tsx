@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 // @ts-expect-error page-flip might not ship types here
 import { PageFlip } from 'page-flip';
 import { EventData, NavigationState } from '../types/events';
@@ -49,45 +49,51 @@ export default function AcademicBook({ events }: AcademicBookProps) {
 
 
   // Sort events by date only (chronological order)
-  const sortedEvents = events.sort((a, b) => {
-    // Parse dates more robustly
-    const parseDate = (dateStr: string) => {
-      if (!dateStr) return new Date(0); // Default to epoch for invalid dates
-      
-      // Try to parse the date string
-      const parsed = new Date(dateStr);
-      if (isNaN(parsed.getTime())) {
-        // If parsing fails, try to extract date parts manually
-        const match = dateStr.match(/(\w+)\s+(\d+),\s+(\d+)/);
-        if (match) {
-          const [, month, day, year] = match;
-          const monthIndex = new Date(`${month} 1, 2000`).getMonth();
-          return new Date(parseInt(year), monthIndex, parseInt(day));
+  const sortedEvents = useMemo(() => {
+    return [...events].sort((a, b) => {
+      // Parse dates more robustly
+      const parseDate = (dateStr: string) => {
+        if (!dateStr) return new Date(0); // Default to epoch for invalid dates
+        
+        // Try to parse the date string
+        const parsed = new Date(dateStr);
+        if (isNaN(parsed.getTime())) {
+          // If parsing fails, try to extract date parts manually
+          const match = dateStr.match(/(\w+)\s+(\d+),\s+(\d+)/);
+          if (match) {
+            const [, month, day, year] = match;
+            const monthIndex = new Date(`${month} 1, 2000`).getMonth();
+            return new Date(parseInt(year), monthIndex, parseInt(day));
+          }
+          return new Date(0);
         }
-        return new Date(0);
-      }
-      return parsed;
-    };
-    
-    const dateA = parseDate(a.date);
-    const dateB = parseDate(b.date);
-    
-    // Sort by date (earliest first)
-    return dateA.getTime() - dateB.getTime();
-  });
+        return parsed;
+      };
+      
+      const dateA = parseDate(a.date);
+      const dateB = parseDate(b.date);
+      
+      // Sort by date (earliest first)
+      return dateA.getTime() - dateB.getTime();
+    });
+  }, [events]);
 
 
   // Get unique institutions
-  const institutions = [...new Set(events.map(e => cleanInstitutions(e.institution)))].sort();
+  const institutions = useMemo(() => {
+    return [...new Set(events.map(e => cleanInstitutions(e.institution)))].sort();
+  }, [events]);
 
   // Get unique categories
-  const categories = [...new Set(events.flatMap(e => e.category || []))].sort();
+  const categories = useMemo(() => {
+    return [...new Set(events.flatMap(e => e.category || []))].sort();
+  }, [events]);
 
   // Group events by institution
   const eventsPerPage = 3;
 
   // Navigation handlers
-  const handleGoToPage = (pageNumber: number, isBigJump: boolean = false) => {
+  const handleGoToPage = useCallback((pageNumber: number, isBigJump: boolean = false) => {
     if (pageFlipRef.current) {
     // Store current page in history if it's a big jump
     if (isBigJump && navigationState.currentPage !== pageNumber) {
@@ -100,12 +106,12 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         currentPage: pageNumber
       }));
     }
-  };
+  }, [navigationState.currentPage]);
 
   // Reserved for future navigation helpers if needed
 
 
-  const handleInstitutionClick = (institution: string) => {
+  const handleInstitutionClick = useCallback((institution: string) => {
     const cleanInstitution = cleanInstitutions(institution);
     const institutionEvents = sortedEvents.filter(event => cleanInstitutions(event.institution) === cleanInstitution);
     
@@ -136,9 +142,9 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       // Navigate to the correct page (institutionStartPage is 0-based, same as PageFlip)
       handleGoToPage(institutionStartPage, true);
     }
-  };
+  }, [sortedEvents, institutions, categories, handleGoToPage]);
 
-  const handleCategoryClick = (category: string) => {
+  const handleCategoryClick = useCallback((category: string) => {
     const categoryEvents = sortedEvents.filter(event =>
       event.category && event.category.includes(category)
     );
@@ -177,10 +183,10 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       // Navigate to the correct page (categoryStartPage is 0-based, same as PageFlip)
       handleGoToPage(categoryStartPage, true);
     }
-  };
+  }, [sortedEvents, institutions, categories, handleGoToPage]);
 
 
-  const handleGoBack = () => {
+  const handleGoBack = useCallback(() => {
     if (navigationHistoryRef.current.length > 0) {
       const previousPage = navigationHistoryRef.current.pop();
       
@@ -195,12 +201,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         }));
       }
     }
-  };
-
-  // Determine if back button should be shown and on which side
-  const shouldShowBackButton = navigationHistoryRef.current.length > 0;
-  const isCurrentPageEven = navigationState.currentPage % 2 === 0;
-  const backButtonSide = isCurrentPageEven ? 'right' : 'left';
+  }, []);
 
   // Arrow key navigation
   useEffect(() => {
@@ -229,7 +230,15 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       const componentStart = Date.now();
       console.log(`📚 [AcademicBook] Starting initialization with ${events.length} events`);
 
+      // Determine if back button should be shown and on which side
+      // Computed inside effect since they're only used for initial HTML generation
+      const shouldShowBackButton = navigationHistoryRef.current.length > 0;
+      const isCurrentPageEven = navigationState.currentPage % 2 === 0;
+      const backButtonSide = isCurrentPageEven ? 'right' : 'left';
+
       // Set up global handlers BEFORE generating HTML
+      // These handlers are intentionally not in dependencies as they're window functions
+      // that need to access current state/refs dynamically
       window.goToPage = (pageNum: number) => {
         handleGoToPage(pageNum, true); // TOC entries are big jumps
       };
@@ -780,7 +789,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         pageFlipRef.current = null;
       }
     };
-  }, [events]);
+  }, [events, sortedEvents, institutions, categories, handleGoToPage, handleInstitutionClick, handleCategoryClick, handleGoBack]);
 
   return (
     <div className="flex flex-col items-center space-y-4 p-4">

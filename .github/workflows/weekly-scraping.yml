@@ -7,7 +7,7 @@ on:
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
-  scrape-and-deploy:
+  scrape:
     runs-on: ubuntu-latest
     
     steps:
@@ -29,16 +29,6 @@ jobs:
         cd academic
         python weekly_scraper.py
         
-    - name: Deploy to Vercel
-      env:
-        VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-        VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
-      run: |
-        cd academic/academic-nextjs
-        npm install
-        npx vercel --prod --token $VERCEL_TOKEN
-        
     # Disabled GitHub commit/push - data stored locally only
     # - name: Commit and push updates
     #   run: |
@@ -53,7 +43,6 @@ jobs:
         echo "## 🤖 Weekly Scraping Complete" >> $GITHUB_STEP_SUMMARY
         echo "- **Date:** $(date)" >> $GITHUB_STEP_SUMMARY
         echo "- **Status:** ✅ Success" >> $GITHUB_STEP_SUMMARY
-        echo "- **Deployment:** Vercel" >> $GITHUB_STEP_SUMMARY
         echo "- **Next run:** Next Sunday at 2 AM UTC" >> $GITHUB_STEP_SUMMARY
 
 

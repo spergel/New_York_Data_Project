@@ -31,7 +31,8 @@ export default function ResponsiveAcademicBook({ events }: ResponsiveAcademicBoo
     window.addEventListener('resize', checkScreenSize);
 
     const initTime = Date.now() - initStart;
-    console.log(`✅ [ResponsiveAcademicBook] Initialization complete in ${initTime}ms (isMobile: ${isMobile})`);
+    const currentMobile = window.innerWidth < 768;
+    console.log(`✅ [ResponsiveAcademicBook] Initialization complete in ${initTime}ms (isMobile: ${currentMobile})`);
 
     return () => {
       window.removeEventListener('resize', checkScreenSize);

@@ -225,7 +225,7 @@ export async function GET(request: Request) {
 
         // Get institution name (optimized string operations)
         let institution = event.metadata?.source_name || event.source;
-        institution = institution.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        institution = institution.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
 
         // Get location
         const location = event.metadata?.venue?.name || event.metadata?.venue?.address || 'Location TBD';
