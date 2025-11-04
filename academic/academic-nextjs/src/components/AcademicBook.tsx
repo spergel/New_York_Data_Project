@@ -231,10 +231,9 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       console.log(`📚 [AcademicBook] Starting initialization with ${events.length} events`);
 
       // Determine if back button should be shown and on which side
-      // Computed inside effect since they're only used for initial HTML generation
       const shouldShowBackButton = navigationHistoryRef.current.length > 0;
       const isCurrentPageEven = navigationState.currentPage % 2 === 0;
-      const backButtonSide = isCurrentPageEven ? 'right' : 'left';
+      const backButtonSide: 'left' | 'right' = isCurrentPageEven ? 'right' : 'left';
 
       // Set up global handlers BEFORE generating HTML
       // These handlers are intentionally not in dependencies as they're window functions
@@ -789,7 +788,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
         pageFlipRef.current = null;
       }
     };
-  }, [events, sortedEvents, institutions, categories, handleGoToPage, handleInstitutionClick, handleCategoryClick, handleGoBack]);
+  }, [events, sortedEvents, institutions, categories, handleGoToPage, handleInstitutionClick, handleCategoryClick, handleGoBack, navigationState.currentPage]);
 
   return (
     <div className="flex flex-col items-center space-y-4 p-4">

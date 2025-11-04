@@ -234,7 +234,7 @@ export async function GET(request: Request) {
         let category: string[] = [];
         if (event.category) {
           if (Array.isArray(event.category)) {
-            category = event.category.map(cat => {
+            category = event.category.map((cat: string) => {
               const first = cat.charAt(0).toUpperCase();
               const rest = cat.slice(1).toLowerCase();
               return first + rest;
