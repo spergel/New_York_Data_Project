@@ -1,10 +1,10 @@
 {
-  "scraped_at": "2025-11-04T08:07:13.138489",
-  "total_events": 478,
+  "scraped_at": "2025-11-04T10:04:51.370913",
+  "total_events": 477,
   "event_sources": {
-    "cims_events_debug": 40,
+    "cims_events_debug": 42,
     "columbia_classics_events_debug": 13,
-    "columbia_events_debug": 62,
+    "columbia_events_debug": 61,
     "columbia_math_events_debug": 2,
     "cooper_union_events_debug": 4,
     "cornell_tech_events_debug": 5,
@@ -19,7 +19,7 @@
     "nyu_engineering_events_debug": 21,
     "nyu_medicine_events_debug": 2,
     "nyu_neuroscience_events_debug": 36,
-    "nyu_physics_events_debug": 9,
+    "nyu_physics_events_debug": 8,
     "nyu_steinhardt_events_debug": 7,
     "nyu_steinhardt_music_events_debug": 22,
     "nyu_stern_events_debug": 7,
@@ -784,6 +784,43 @@
       }
     },
     {
+      "id": "evt_nyu_cims_87d289cf",
+      "name": "Urs Lang, ETH Zurich",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyu_courant",
+      "description": "",
+      "start_date": "2025-02-27T14:00:00",
+      "end_date": "2025-02-27T15:00:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyu_cims",
+      "source_group": "nyu_cims",
+      "metadata": {
+        "source_url": "https://math.nyu.edu/dynamic/calendars/seminars/geometric-analysis-and-topology-seminar/4251",
+        "source_name": "NYU Courant Institute",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "NYU Courant Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "speaker": "Urs Lang, ETH Zurich",
+          "department": "Courant Institute of Mathematical Sciences",
+          "tags": [
+            "mathematics",
+            "computer science",
+            "research"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_classics_c00710e4f1",
       "name": "Classics Departmental Lecture Series: Nathaniel Jones (Washington University)",
       "description": "Friday, November 14, 2025\n\n\n\n4:10 PM\n\n6:00 PM\n\n\n16:10\n\n18:00\n\n\n\n                \n                  Hamilton 703, Department of Classics at Columbia University in the City of New York\n                \n                (map)\n\n\nGoogle Calendar\n\nICS\n\nThe Columbia Classics Lecture Series committee is excited to announce the following talk in our series:Nathaniel Jones (Washington University in St. Louis) will give a talk entitled \"Time, Space, and Experientiality on Roman Sarcophagi.\" Professor Jones has kindly agreed to pre-circulate an abstract, pasted below:The body presents the principal problematic of the ancient Roman sarcophagus. A sarcophagus is sized to the body which it protects and encloses. It planarizes and stabilizes that body, hiding the inevitable metamorphosis of post-mortem decay behind an ordered and unchanging surface. Many Roman sarcophagi are also decorated with figural sculpture, meaning that their planar surfaces are themselves dissolved into compositions filled with represented bodies, some heroic, some tragic. In this way, the sarcophagus is also a site where the represented and real body come into contact, and in so doing creates a unique form of narrative experientiality. This paper seeks to examine how narrative experientiality functions on sarcophagi, in often surprising ways, to create a reciprocal relationship between viewer and deceased. It examines some well-known phenomena, including biographical and battle sarcophagi, and some lesser-known ones, such as the depiction of mile markers, across a wide range of sarcophagus types, and suggests that the evocation of experientiality may drive formal considerations as much as questions of narrative plot or the apposition of canonical Roman virtues.The talk will take place on Friday, November 14th, at 4:10 pm in Hamilton 703.Please note: In order to enter the Columbia campus, you will need either a valid CUID or a guest access QR code. To receive guest access, please email Jazmín Novoa Lara (jan2",
@@ -1001,94 +1038,6 @@
         "venue": {
           "name": "Columbia University",
           "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_ced5e61e",
-      "name": "Local to Global: Chile&rsquo;s Road to COP30",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h1&gt;Local to Global: Chile&amp;rsquo;s Road to COP30&lt;/h1&gt;\n&lt;p&gt;Date &amp;amp; Time&lt;/p&gt;\n&lt;p&gt;Nov 4, 2025 09:00 AM&amp;nbsp;in&amp;nbsp;Eastern Time (US and Canada)&lt;/p&gt;\n&lt;p&gt;Description&lt;/p&gt;\n&lt;p&gt;Leading environmental experts from Chile will discuss the country&amp;#39;s most pressing climate challenges and how they connect to global negotiations in the lead up to COP30.&lt;/p&gt;\n&lt;p&gt;Speakers:&lt;/p&gt;\n&lt;p&gt;&amp;bull; Maisa Rojas, Enviornment Minister&lt;/p&gt;\n&lt;p&gt;&amp;bull; Joerg Shaefer, Columbia Lamont-Doherty Earth Observatory Research Professor&lt;/p&gt;\n&lt;p&gt;&amp;bull; Robert Currie, Director of Environmental Strategy at Azerta, lawyer who led the effort in writing Chile&amp;rsquo;s Climate Change Law&lt;/p&gt;\n&lt;p&gt;&amp;bull; Francisca Quevedo, Youth Focal Point&lt;/p&gt;\n&lt;p&gt;Moderator: &amp;bull; Andrea Obaid, journalist specialized in climate and science&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This event is part of a global series, Road to COP30: Local Voices, Global Pathways, hosted by the Columbia Global Centers. Each week, one of the Columbia Global Centers convenes an online event that looks at the big questions shaping local climate conversations and how they connect to global climate negotiations. Explore the full series and sign up for other events here: https://globalcenters.columbia.edu/content/join-columbia-global-centers-road-cop30&lt;/p&gt;",
-      "start_date": "2025-11-04T14:00:00+00:00",
-      "end_date": "2025-11-04T15:00:00+00:00",
-      "category": [
-        "ARTS",
-        "SCIENCE",
-        "SOCIAL",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9909749b-0199-0c2f6a04-00002116events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Columbia Global",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Columbia Global",
-          "tags": [
-            "org/CCS",
-            "org/EJCJC",
-            "org/WorldProjects",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Online",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Earth Institute",
-            "Panel",
-            "org/americanstudies",
-            "org/columbiaglobal",
-            "Postdocs",
-            "Global Programs",
-            "Government and Public Policy",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Political Science",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Online",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Earth Institute",
-            "Panel",
-            "org/americanstudies",
-            "org/columbiaglobal",
-            "Postdocs",
-            "Global Programs",
-            "Government and Public Policy",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Political Science",
-            "Other"
-          ]
         }
       }
     },
@@ -5855,9 +5804,9 @@
       "start_date": "2025-11-18T10:10:00",
       "end_date": "2025-11-18T11:25:00",
       "category": [
-        "SCIENCE",
         "DESIGN",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "source": "cornell_tech",
       "source_group": "Cornell",
@@ -5954,8 +5903,8 @@
       }
     },
     {
-      "id": "evt_gallatin_5a768e95",
-      "name": "First-Year Event: How I Made Gallatin Work",
+      "id": "evt_gallatin_78832672",
+      "name": "How I Made Gallatin Work",
       "type": "Academic",
       "location_id": "loc_gallatin_labowitz",
       "community_id": "com_gallatin",
@@ -6779,8 +6728,8 @@
       "start_date": "2025-11-24T12:00:00",
       "end_date": "2025-11-24T13:00:00",
       "category": [
-        "RELIGION",
-        "SOCIAL"
+        "SOCIAL",
+        "RELIGION"
       ],
       "source": "jtsa",
       "source_group": "Independent",
@@ -14482,8 +14431,8 @@
       "start_date": "2025-11-05T13:00:00",
       "end_date": "2025-11-05T14:00:00",
       "category": [
-        "TECH",
-        "CAREER"
+        "CAREER",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -14517,8 +14466,8 @@
       "start_date": "2025-11-06T10:30:00",
       "end_date": "2025-11-06T11:30:00",
       "category": [
-        "TECH",
-        "CAREER"
+        "CAREER",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -14552,8 +14501,8 @@
       "start_date": "2025-11-06T16:00:00",
       "end_date": "2025-11-06T17:00:00",
       "category": [
-        "SCIENCE",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -14690,8 +14639,8 @@
       "start_date": "2025-11-12T15:00:00",
       "end_date": "2025-11-12T16:00:00",
       "category": [
-        "SCIENCE",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -14963,8 +14912,8 @@
       "start_date": "2025-12-04T15:00:00",
       "end_date": "2025-12-04T16:00:00",
       "category": [
-        "SCIENCE",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -15159,7 +15108,7 @@
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0492e272",
+      "id": "evt_nyu_neuroscience_01c6c2d6",
       "name": "Neuroscience Weekly Group Meeting - Rinberg Lab",
       "description": "Wednesday, November 5, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><em>Odor mixture geometry and behavioral relevance of neural features</em> <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Saeed Karimimehr",
       "start_date": "2025-11-05T12:00:00+00:00",
@@ -15177,14 +15126,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.357123+00:00",
+        "scraped_at": "2025-11-04T10:04:29.059056+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Saeed Karimimehr",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_012ba9ed",
+      "id": "evt_nyu_neuroscience_008b20e8",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Minhyeok Chang, PhD (Hopkins)",
       "description": "Thursday, November 6, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><em>Nanotubular Network in the Brain: A New Dimension of Neuronal Connectivity beyond Synapses</em> <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Minhyeok Chang <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Johns Hopkins University <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Hyungbae Kwon <br/><b>Seminar Host(s)</b>:&nbsp;Department of Neuroscience",
       "start_date": "2025-11-06T12:00:00+00:00",
@@ -15202,14 +15151,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.357750+00:00",
+        "scraped_at": "2025-11-04T10:04:29.059575+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Minhyeok Chang",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00b54d64",
+      "id": "evt_nyu_neuroscience_001a0392",
       "name": "Aaron Lanz Thesis Defense",
       "description": "Friday, November 7, 2025, 2&nbsp;&ndash;&nbsp;3:30pm <br/><br/>Abstract:<br />Recurrent attractor networks are widely thought to form the basis of working memory, but how stable attractor activity can be rapidly switched on and off is unclear. Here we investigate how stability and rapid switching can be combined in a discrete recurrent circuit of the fly navigation center. h&#916;K and PFG neurons are recurrently connected in a ring structure. Using in vivo imaging, we find that these two populations exhibit shared persistent bump activity that turns on with odor and terminates at the end of a goal-directed upwind run. These signals are likely persistent goal representations as activating h&#916;K neurons promotes goal-directed walking, while silencing of this population reduces persistent responses to odors. Using whole-cell recordings, we show that persistence in h&#916;K depends on recurrent signaling, and that h&#916;K receives slow recurrent excitation and fast inhibition from its synaptic partners. Computational modeling reveals that this combination of slow excitation with fast inhibition yields stable and tuneable persistent attractor dynamics. Next we examine the mechanisms that allow this activity bump to be rapidly turned on and off. We find that while the PFG bump tracks heading continuously, the h&#916;K bump is suppressed during turns, and only becomes active during straight goal-directed runs. We can reproduce these dynamics in our model by using inhibition to dynamically uncouple activity in h&#916;K from PFG. When h&#916;K is inhibited, PFG neurons follow their inputs from the compass system; when h&#916;K is disinhibited, recurrent interactions lock this input into place, forming a heading memory. Consistent with this model, we find that inhibitory inputs onto h&#916;K increase during turns and are suppressed during odor input and goal-directed upwind runs. Our work reveals how disinhibition can serve as a gate to rapidly write an ongoing measurement to a recurrent memory circuit. <br/><br/><b>NYU Location</b>:&nbsp;Science Building, Rm 103 <br/><b>Event Type</b>:&nbsp;Open to Public, Training <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Desiree Oliveras <br/><b>Contact Phone</b>:&nbsp;2122630514 <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:desiree.oliveras@nyulangone.org\" target=\"_blank\" rel=\"noopener\">desiree.oliveras@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Aaron Lanz <br/><b>Speaker #1 Degree</b>:&nbsp;PhD Candidate <br/><b>Speaker #1 Additional Information</b>:&nbsp;Thesis Advisor: Katherine Nagel, PhD, Training Program: Neuroscience &amp; Physiology <br/><b>Refreshments</b>:&nbsp;No <br/><b>Fee Required</b>:&nbsp;No <br/><b>Medical Center Wide</b>:&nbsp;Yes <br/><b>Online Event Link</b>:&nbsp;<a href=\"https://nyu.zoom.us/j/4206116914?pwd=2p3ppUEsPOkvNFGv9amO3NmkBz0C7T.1&omn=95696757159\" target=\"_blank\" rel=\"noopener\" title=\"https://nyu.zoom.us/j/4206116914?pwd=2p3ppUEsPOkvNFGv9amO3NmkBz0C7T.1&omn=95696757159\">nyu.zoom.us&#8230;</a>",
       "start_date": "2025-11-07T15:30:00+00:00",
@@ -15227,14 +15176,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.358529+00:00",
+        "scraped_at": "2025-11-04T10:04:29.060265+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Aaron Lanz",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03135798",
+      "id": "evt_nyu_neuroscience_05da5c83",
       "name": "Neuroscience Weekly Group Meeting - Zhang Lab",
       "description": "Wednesday, November 12, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Stephen Zhang <br/><b>Speaker #1 Degree</b>:&nbsp;PhD",
       "start_date": "2025-11-12T12:00:00+00:00",
@@ -15252,14 +15201,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.358855+00:00",
+        "scraped_at": "2025-11-04T10:04:29.060616+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Stephen Zhang",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_056a9aff",
+      "id": "evt_nyu_neuroscience_04fdf05d",
       "name": "Neuroscience Colloquium - Anne Schaefer, MD, PhD (MSSM)",
       "description": "Monday, December 1, 2025, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Anne Schaefer <br/><b>Speaker #1 Degree</b>:&nbsp;MD, PhD <br/><b>Speaker #1 Position</b>:&nbsp;Assistant Professor of Neuroscience and Psychiatry",
       "start_date": "2025-12-01T13:30:00+00:00",
@@ -15277,14 +15226,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.359129+00:00",
+        "scraped_at": "2025-11-04T10:04:29.060887+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Anne Schaefer",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04f2d341",
+      "id": "evt_nyu_neuroscience_0148d72d",
       "name": "Neuroscience Colloquium - Ilya Monosov, PhD (WashU/Hopkins)",
       "description": "Monday, December 8, 2025, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Ilya Monosov <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience",
       "start_date": "2025-12-08T13:30:00+00:00",
@@ -15302,14 +15251,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.359412+00:00",
+        "scraped_at": "2025-11-04T10:04:29.061148+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Ilya Monosov",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00fbe53c",
+      "id": "evt_nyu_neuroscience_01462955",
       "name": "Neuroscience Weekly Group Meeting - Mar Lab",
       "description": "Wednesday, December 10, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Online Event Link</b>:&nbsp;<a href=\"https://nyulangone.zoom.us/j/95317840859?pwd=phVnbqBy509UfPnMvDJ927hPn2YAnz.1\" target=\"_blank\" rel=\"noopener\" title=\"https://nyulangone.zoom.us/j/95317840859?pwd=phVnbqBy509UfPnMvDJ927hPn2YAnz.1\">nyulangone.zoom.us&#8230;</a>",
       "start_date": "2025-12-10T12:00:00+00:00",
@@ -15327,14 +15276,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.359744+00:00",
+        "scraped_at": "2025-11-04T10:04:29.061429+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05bac908",
+      "id": "evt_nyu_neuroscience_05c4b939",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Kristyn Lizbinski, PhD (Yale)",
       "description": "Thursday, December 11, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Kristyn Lizbinski <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;Yale University <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of James Jeanne",
       "start_date": "2025-12-11T12:00:00+00:00",
@@ -15352,14 +15301,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.360013+00:00",
+        "scraped_at": "2025-11-04T10:04:29.061715+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Kristyn Lizbinski",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_033125c6",
+      "id": "evt_nyu_neuroscience_01d6b63d",
       "name": "Neuroscience Weekly Group Meeting - Glimcher Lab",
       "description": "Wednesday, January 7, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-07T12:00:00+00:00",
@@ -15377,14 +15326,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.360426+00:00",
+        "scraped_at": "2025-11-04T10:04:29.061962+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03685572",
+      "id": "evt_nyu_neuroscience_01635d98",
       "name": "Neuroscience Colloquium - Dwight Bergles, PhD (Hopkins)",
       "description": "Monday, January 12, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Dwight Bergles <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience",
       "start_date": "2026-01-12T13:30:00+00:00",
@@ -15402,14 +15351,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.360728+00:00",
+        "scraped_at": "2025-11-04T10:04:29.062203+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Dwight Bergles",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_006eb762",
+      "id": "evt_nyu_neuroscience_04364917",
       "name": "Neuroscience Weekly Group Meeting - Chao Lab",
       "description": "Wednesday, January 14, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-14T12:00:00+00:00",
@@ -15427,14 +15376,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.361056+00:00",
+        "scraped_at": "2025-11-04T10:04:29.062446+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02effccc",
+      "id": "evt_nyu_neuroscience_01517934",
       "name": "Neuroscience Weekly Group Meeting - Rudy Lab",
       "description": "Wednesday, January 21, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-21T12:00:00+00:00",
@@ -15452,14 +15401,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.361463+00:00",
+        "scraped_at": "2025-11-04T10:04:29.062874+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04dca6e6",
+      "id": "evt_nyu_neuroscience_055a1a12",
       "name": "Neuroscience Weekly Group Meeting - Liddelow Lab",
       "description": "Wednesday, January 28, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-28T12:00:00+00:00",
@@ -15477,14 +15426,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.361860+00:00",
+        "scraped_at": "2025-11-04T10:04:29.063298+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01663b86",
+      "id": "evt_nyu_neuroscience_0590ea93",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Andrew Matheson, PhD (Columbia)",
       "description": "Thursday, January 29, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Andrew Matheson <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;Columbia University <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Maria Antonietta Tosches",
       "start_date": "2026-01-29T12:00:00+00:00",
@@ -15502,14 +15451,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.362261+00:00",
+        "scraped_at": "2025-11-04T10:04:29.063651+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Andrew Matheson",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_002fab37",
+      "id": "evt_nyu_neuroscience_0158a700",
       "name": "Neuroscience Colloquium - Zachary Knight, PhD (UCSF)",
       "description": "Monday, February 2, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Zachary Knight <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Physiology <br/><b>Speaker #1 Institution</b>:&nbsp;UCSF",
       "start_date": "2026-02-02T13:30:00+00:00",
@@ -15527,14 +15476,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.362534+00:00",
+        "scraped_at": "2025-11-04T10:04:29.063986+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Zachary Knight",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04faaaa7",
+      "id": "evt_nyu_neuroscience_0115b1fe",
       "name": "Neuroscience Weekly Group Meeting - Kang Lab",
       "description": "Wednesday, February 4, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-04T12:00:00+00:00",
@@ -15552,14 +15501,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.362781+00:00",
+        "scraped_at": "2025-11-04T10:04:29.064242+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01512c0b",
+      "id": "evt_nyu_neuroscience_02ce94ab",
       "name": "Neuroscience Colloquium - Kimberly Stachenfeld, PhD (Columbia)",
       "description": "Monday, February 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Kimberly Stachenfeld <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Research Scientist, Adjunct Professor, Columbia University",
       "start_date": "2026-02-09T13:30:00+00:00",
@@ -15577,14 +15526,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.363211+00:00",
+        "scraped_at": "2025-11-04T10:04:29.064490+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Kimberly Stachenfeld",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03027e0b",
+      "id": "evt_nyu_neuroscience_0449d7fd",
       "name": "Neuroscience Weekly Group Meeting - Long Lab",
       "description": "Wednesday, February 11, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-11T12:00:00+00:00",
@@ -15602,14 +15551,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.363734+00:00",
+        "scraped_at": "2025-11-04T10:04:29.064901+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_048692a3",
+      "id": "evt_nyu_neuroscience_05a2463d",
       "name": "Neuroscience Weekly Group Meeting - Buzsaki Lab",
       "description": "Wednesday, February 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-18T12:00:00+00:00",
@@ -15627,14 +15576,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.364241+00:00",
+        "scraped_at": "2025-11-04T10:04:29.065451+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01afb58f",
+      "id": "evt_nyu_neuroscience_04e15966",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES)- Neta Gazit Shimoni, PhD",
       "description": "Thursday, February 19, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Neta Gazit Shimoni <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;University of California, Berkeley <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Stephan Lammel",
       "start_date": "2026-02-19T12:00:00+00:00",
@@ -15652,14 +15601,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.364725+00:00",
+        "scraped_at": "2025-11-04T10:04:29.066035+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Neta Gazit Shimoni",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0268ba23",
+      "id": "evt_nyu_neuroscience_01d59233",
       "name": "Neuroscience Colloquium - Jonathan Pillow, PhD (Princeton)",
       "description": "Monday, February 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Jonathan Pillow <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Princeton University",
       "start_date": "2026-02-23T13:30:00+00:00",
@@ -15677,14 +15626,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.365001+00:00",
+        "scraped_at": "2025-11-04T10:04:29.066453+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Jonathan Pillow",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00c3ad1d",
+      "id": "evt_nyu_neuroscience_00ec0cfb",
       "name": "Neuroscience Weekly Group Meeting - Shoham Lab",
       "description": "Wednesday, February 25, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-25T12:00:00+00:00",
@@ -15702,14 +15651,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.365281+00:00",
+        "scraped_at": "2025-11-04T10:04:29.066719+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00adfd3a",
+      "id": "evt_nyu_neuroscience_039e179e",
       "name": "Neuroscience Weekly Group Meeting - Nagel Lab",
       "description": "Wednesday, March 4, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-04T12:00:00+00:00",
@@ -15727,14 +15676,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.365527+00:00",
+        "scraped_at": "2025-11-04T10:04:29.066972+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03d6cdab",
+      "id": "evt_nyu_neuroscience_013cf85a",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Lucas Tian, PhD",
       "description": "Thursday, March 5, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Lucas Tian <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Rockefeller University <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Winrich Freiwald",
       "start_date": "2026-03-05T12:00:00+00:00",
@@ -15752,14 +15701,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.365816+00:00",
+        "scraped_at": "2025-11-04T10:04:29.067331+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Lucas Tian",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_041087b3",
+      "id": "evt_nyu_neuroscience_02f9a5eb",
       "name": "Neuroscience Colloquium - Hillel Adensnik, PhD (UC Berkeley)",
       "description": "Monday, March 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Hillel Adensnik <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Associate Professor, Departments of Molecular &amp; Cell Biology; Neuroscience",
       "start_date": "2026-03-09T13:30:00+00:00",
@@ -15777,14 +15726,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.366064+00:00",
+        "scraped_at": "2025-11-04T10:04:29.067582+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Hillel Adensnik",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03874407",
+      "id": "evt_nyu_neuroscience_013bf5e9",
       "name": "Neuroscience Weekly Group Meeting - Schoppik Lab",
       "description": "Wednesday, March 11, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-11T12:00:00+00:00",
@@ -15802,14 +15751,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.366304+00:00",
+        "scraped_at": "2025-11-04T10:04:29.067831+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_033735e4",
+      "id": "evt_nyu_neuroscience_0205978d",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Nicholas Card, PhD",
       "description": "Thursday, March 12, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Nicholas Card <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;University of California, Davis <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Sergey Stavisky and David Brandman",
       "start_date": "2026-03-12T12:00:00+00:00",
@@ -15827,14 +15776,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.366581+00:00",
+        "scraped_at": "2025-11-04T10:04:29.068127+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Nicholas Card",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0082e066",
+      "id": "evt_nyu_neuroscience_03782ff7",
       "name": "Neuroscience Weekly Group Meeting - Froemke Lab",
       "description": "Wednesday, March 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-18T12:00:00+00:00",
@@ -15852,14 +15801,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.366820+00:00",
+        "scraped_at": "2025-11-04T10:04:29.068373+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0189f3fb",
+      "id": "evt_nyu_neuroscience_026d2e4a",
       "name": "Neuroscience Colloquium - Rich Mooney, PhD (Duke)",
       "description": "Monday, March 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Rich Mooney <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neurobiology <br/><b>Speaker #1 Institution</b>:&nbsp;Duke University School of Medicine",
       "start_date": "2026-03-23T13:30:00+00:00",
@@ -15877,14 +15826,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.367062+00:00",
+        "scraped_at": "2025-11-04T10:04:29.068620+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Rich Mooney",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04a2c6c4",
+      "id": "evt_nyu_neuroscience_056092d6",
       "name": "Neuroscience Weekly Group Meeting - Flinker Lab",
       "description": "Wednesday, March 25, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-25T12:00:00+00:00",
@@ -15902,14 +15851,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.367304+00:00",
+        "scraped_at": "2025-11-04T10:04:29.068863+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02638691",
+      "id": "evt_nyu_neuroscience_051ee0fc",
       "name": "Neuroscience Colloquium - Mehrdad Jazayeri, PhD (MIT)",
       "description": "Monday, March 30, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Mehrdad Jazayeri <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor and Director of Education, Brain and Cognitive Sciences, Investigator, Howard Hughes Medical Institute <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-03-30T13:30:00+00:00",
@@ -15927,14 +15876,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.367549+00:00",
+        "scraped_at": "2025-11-04T10:04:29.069276+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Mehrdad Jazayeri",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00e43613",
+      "id": "evt_nyu_neuroscience_02311128",
       "name": "Neuroscience Weekly Group Meeting - Mosberger Lab",
       "description": "Wednesday, April 1, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-04-01T12:00:00+00:00",
@@ -15952,14 +15901,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.367817+00:00",
+        "scraped_at": "2025-11-04T10:04:29.069626+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0251c4b0",
+      "id": "evt_nyu_neuroscience_0493ba2f",
       "name": "Neuroscience Colloquium - Fang Wang, PhD (MIT)",
       "description": "Monday, April 6, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Fang Wang <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor, Brain and Cognitive Sciences <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-04-06T13:30:00+00:00",
@@ -15977,14 +15926,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.368058+00:00",
+        "scraped_at": "2025-11-04T10:04:29.069887+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Fang Wang",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02aa6f1f",
+      "id": "evt_nyu_neuroscience_0324ffb3",
       "name": "Neuroscience Weekly Group Meeting - Salzer Lab",
       "description": "Wednesday, April 8, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-04-08T12:00:00+00:00",
@@ -16002,14 +15951,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.368340+00:00",
+        "scraped_at": "2025-11-04T10:04:29.070162+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_043415da",
+      "id": "evt_nyu_neuroscience_04cc322e",
       "name": "Neuroscience Colloquium - Theresa Desrochers, PhD (Brown)",
       "description": "Monday, April 20, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Theresa Desrochers <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Rosenberg Family Associate Professor of Brain Science, Department of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Brown University",
       "start_date": "2026-04-20T13:30:00+00:00",
@@ -16027,14 +15976,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.368576+00:00",
+        "scraped_at": "2025-11-04T10:04:29.070409+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Theresa Desrochers",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00fa8eba",
+      "id": "evt_nyu_neuroscience_0162c70f",
       "name": "Neuroscience Weekly Group Meeting - Raven Lab",
       "description": "Wednesday, April 22, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Erika Raven <br/><b>Speaker #1 Degree</b>:&nbsp;PhD",
       "start_date": "2026-04-22T12:00:00+00:00",
@@ -16052,37 +16001,10 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:51.368818+00:00",
+        "scraped_at": "2025-11-04T10:04:29.070663+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Erika Raven",
         "extraction_method": "rss_feed"
-      }
-    },
-    {
-      "id": "evt_nyu_physics_event7546",
-      "name": "Searching for Supermassive Black Hole Binaries: Gas, Gravity, and Gravitational Waves",
-      "description": "At the center of nearly every galaxy in the Universe resides a supermassive black hole. When galaxies collide, their supermassive black holes sink to the center of the newly forming galaxy. There in this nascent galactic nucleus a supermassive black hole binary is formed. Supermassive binaries are the subject of a long-standing mystery in astrophysics: will these monstrous black holes merge and what can that tell us about the extreme environments that shape them? Their mutual evolution with galaxies? And the low-frequency gravitational wave sky? I will discuss progress in modeling accretion onto supermassive black hole binaries with focus on implications for binary orbital evolution and the prospects for finding them with upcoming time-domain surveys and gravitational wave observatories.",
-      "start_date": "2025-11-04T14:00:00+00:00",
-      "end_date": "2025-11-04T15:00:00+00:00",
-      "location_id": null,
-      "community_id": null,
-      "category": "physics",
-      "url": "http://physics.nyu.edu/events.html#event7546",
-      "source": "nyu_physics",
-      "source_group": "nyu_physics",
-      "source_name": "nyuphysics",
-      "source_url": "http://physics.nyu.edu/events.html",
-      "venue": {
-        "name": "NYU Physics",
-        "type": "venue"
-      },
-      "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.350613+00:00",
-        "original_source": "NYU Physics",
-        "speaker": "Astrophysics and Relativity Seminars",
-        "institution": "November 4, 2025 Tuesday 2:00 PM+726Broadway, 940, CCPP Seminar(astro)Danial D'OrazioSpace Telescope Science InstituteSearching for Supermassive Black Hole Binaries: Gas, Gravity, and Gravitational WavesAt the center of nearly every galaxy in the Universe resides a supermassive black hole. When galaxies collide, their supermassive black holes sink to the center of the newly forming galaxy. There in this nascent galactic nucleus a supermassive black hole binary is formed. Supermassive binaries are the subject of a long-standing mystery in astrophysics: will these monstrous black holes merge and what can that tell us about the extreme environments that shape them? Their mutual evolution with galaxies? And the low-frequency gravitational wave sky? I will discuss progress in modeling accretion onto supermassive black hole binaries with focus on implications for binary orbital evolution and the prospects for finding them with upcoming time-domain surveys and gravitational wave observatories.",
-        "event_type": "astro",
-        "extraction_method": "html_parsing"
       }
     },
     {
@@ -16104,7 +16026,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.351220+00:00",
+        "scraped_at": "2025-11-04T10:04:31.807058+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "November 4, 2025 Tuesday 4:00 PM+726Broadway, Room 940(colloquia)George EfstathiouUniversity of CambridgeChallenges to the Lambda CDM CosmologyObservations of the cosmic microwave background (CMB) anisotropies provide strong evidence in support of the ΛCDM cosmology. Nevertheless, a number of 'tensions' have emerged. I will review: (a) recent results from the CMB that have strengthened the evidence in favour of ΛCDM; (b) why it is difficult to explain the discrepancy between the ΛCDM value of the Hubble constant, H0,  and the value derived from the Cepheid distance scale; (c) do the results from DESI show evidence for evolving dark enegy; (d) why inflation, a cornerstone of the ΛCDM model, has introduced a new hierarchy problem in cosmology.",
@@ -16131,7 +16053,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.351738+00:00",
+        "scraped_at": "2025-11-04T10:04:31.807955+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "November 5, 2025 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Peter DentonBrookhaven National LaboratoryCP-Violation with Neutrino Disappearance and NuFastThe best way to probe CP violation in the lepton sector is with long-baseline accelerator neutrino experiments in the appearance mode. I will show that it is possible to discover CP violation with disappearance experiments only, by combining JUNO for electron neutrinos and DUNE or Hyper-Kamiokande for muon neutrinos. While the maximum sensitivity to discover CP is quite modest, some values of delta may be disfavored by >3sigma depending on the true value of delta.\r\n\r\nNeutrino oscillation experiments will be entering the precision era in the next decade. Correctly estimating the confidence intervals from data for the oscillation parameters requires very large Monte Carlo data sets involving calculating the oscillation probabilities in matter many, many times. In this talk, I will leverage past work to present a new, fast, precise technique for calculating neutrino oscillation probabilities in matter optimized for long-baseline neutrino oscillations called NuFast. I will also present some preliminary results for atmospheric and solar neutrinos.",
@@ -16158,7 +16080,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.354890+00:00",
+        "scraped_at": "2025-11-04T10:04:31.814898+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "November 13, 2025 Thursday 4:00 PM+726 Bdwy, 940(colloquia)Alexander RobelGeorgia TechThe Statistical Physics of Ice Sheets and Sea Level RiseMelting of the Antarctic and Greenland ice sheets will contribute to an increasing rate of sea level rise over coming decades and centuries. Predicting such ice sheet changes far into the future requires looking beyond current deterministic approaches to modeling ice sheet flow and fracture. In this talk, I will discuss how we can use ideas from statistical physics to understand and model ice sheet changes. In the first part, I use stochastic perturbation theory to transform a simple dynamical model of marine ice sheet collapse into the Fokker-Planck equation, providing predictions for the evolution of leading order moments of the uncertain future distribution of ice sheet states and corresponding sea level rise predictions. In the second part, I describe how models for melt pond behavior on ice are mathematically related to the non-Abelian sandpile (a relative of the classical Ising model) and produce a continuous phase transition. I argue that the nature of this behavior places firm constraints on the speed at which the floating parts of ice sheets can collapse with warming. I then discuss a separate effort to predict the maximum size of melt ponds at on correlated random surfaces, extending existing theory of cluster size in percolation through random media. This theory is of direct use in predicting how dark we expect ice sheet surfaces to become under future warming and the role of melt in driving ice fracture. Throughout I will argue for the exciting overlap between glaciology and statistical physics, and how both can be combined to answer consequential questions about future sea level rise.",
@@ -16185,7 +16107,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.355900+00:00",
+        "scraped_at": "2025-11-04T10:04:31.816916+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "November 17, 2025 Monday 12:30 PM+726Broadway, 940, CCPP Seminar(ccpp)CCPP Brown BagDavid W. HoggNew York UniversityThe distance ladder",
@@ -16212,7 +16134,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.356751+00:00",
+        "scraped_at": "2025-11-04T10:04:31.818550+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "December 1, 2025 Monday 12:30 PM+726Broadway, 940, CCPP Seminar(ccpp)CCPP Brown BagDavid DunskyNew York UniversityObserving Dark Matter Decays to Gravitons via Graviton-Photon Conversion",
@@ -16239,7 +16161,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.358589+00:00",
+        "scraped_at": "2025-11-04T10:04:31.821340+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "December 4, 2025 Thursday 4:00 PM+726 Bdwy, 940(colloquia)Morgan O'NeillUniversity of TorontoMegavolcanoes, Pyrotornadoes, and Hurricanes: How Extreme Storms Can Influence ClimateThe presence of water vapor in the upper atmosphere is enormously consequential for the climate. Strong thunderstorms are known to be an important secondary source of water vapor to the lower stratosphere, and how they may feedback to large scales in a warming climate is unknown. Extreme storms of very diverse type---supercell thunderstorms, hurricanes, pyrocumulonimbus, and volcanic plumes---are all able to pierce the lower boundary of the stratosphere and dump vast amounts of ice, water vapor and trace gases into the upper atmosphere. Many of these storms exhibit an Above-Anvil Cirrus Plume (AACP), which is a wake of ice and water vapor downstream of overshooting deep convection. The AACP is uniquely capable of lofting water high above the tropopause. Using high-resolution large eddy simulations, we show that the AACP is formed by the development of a new type of hydraulic jump at the tropopause, accompanied by windspeeds that exceed 110 m/s. The presence of a threshold past which some storms become effective hydrators of the lower stratosphere suggests a blind spot in large-scale climate models unable to resolve this behavior. The storm feedback on climate due to a humidified lower stratosphere is an exciting area of future research, which requires understanding the small-scale dynamics of severe weather.",
@@ -16266,7 +16188,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.359258+00:00",
+        "scraped_at": "2025-11-04T10:04:31.822035+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "December 9, 2025 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Alexander  PottsColumbia UniversityFinite Momentum Cooper Plasmons in a Superconducting THz Micro-cavityThe superconducting phase mode is a collective mode that is gapped in three-dimensional superconductors, but gapless in two-dimensional superconductors. This mode is not infrared active in the far-field, but can be probed with near-field optical measurements. We develop theory showing that the near-field nature of on-chip time domain THz spectroscopy can access this mode via superconducting microcavity resonances - which we call `Cooper plasmons'. We experimentally show spectroscopic signatures of two Cooper plasmons in a superconducting NbN film and use these Cooper plasmons to report the real and imaginary parts of the self-energy across a thermal metal-to-superconductor transition. We discuss applications of Cooper plasmons in other superconducting systems, as well as ways to avoid parasitic Cooper plasmons in superconducting circuit engineering.",
@@ -16293,7 +16215,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:53.369812+00:00",
+        "scraped_at": "2025-11-04T10:04:31.836746+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "April 7, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lee LiuPurdue UniversityShining New Light on Highly Symmetric Molecules",
@@ -16302,7 +16224,7 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_00a20358",
+      "id": "evt_nyu_steinhardt_056b8e44",
       "name": "Revisiting the Outlook 2030: Directions Ahead",
       "description": "Join Dr. Allan E. Goodman, President Emeritus of the Institute of International Education (IIE), for a forward-looking conversation on the future of international education. Reflecting on IIE’s…",
       "start_date": "2025-11-05T09:00:00+00:00",
@@ -16320,14 +16242,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.915516+00:00",
+        "scraped_at": "2025-11-04T10:04:33.758017+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_035a450b",
+      "id": "evt_nyu_steinhardt_016261ac",
       "name": "NYU OT Anti-Racism Task Force Session with Valerie Aziegbe",
       "description": "The NYU OT Anti-Racism Task Force is proud to present Building a Stronger Profession: Promoting Racial Diversity and Clinician Resilience in Hand Therapy with Valerie Aziegbe",
       "start_date": "2025-11-05T09:00:00+00:00",
@@ -16345,14 +16267,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.916185+00:00",
+        "scraped_at": "2025-11-04T10:04:33.758928+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_05eb864f",
+      "id": "evt_nyu_steinhardt_028611f8",
       "name": "Steinhardt Cultural Connections",
       "description": "Join us for Steinhardt Cultural Connections to make connections within and across culture at Steinhardt's Cultural Connections series this year!",
       "start_date": "2025-11-06T09:00:00+00:00",
@@ -16370,14 +16292,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.918322+00:00",
+        "scraped_at": "2025-11-04T10:04:33.760881+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_0368d2d1",
+      "id": "evt_nyu_steinhardt_01b2d1e4",
       "name": "Decolonizing Afghanistan: Countering Imperial Knowledge and Power",
       "description": "Join us for the launch of the first comprehensive volume to explore the impact of empire on Afghanistan’s past and present.",
       "start_date": "2025-11-06T17:00:00+00:00",
@@ -16395,14 +16317,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.918956+00:00",
+        "scraped_at": "2025-11-04T10:04:33.761508+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "Education",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_02526832",
+      "id": "evt_nyu_steinhardt_030c5735",
       "name": "Global Leadership in Education Between Principle and Pragmatism",
       "description": "Global Leadership in Education Between Principle and Pragmatism, Andrew D. Hamilton, Ph.D President Emeritus and Professor of Chemistry, New York University.",
       "start_date": "2025-11-06T09:00:00+00:00",
@@ -16420,14 +16342,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.919581+00:00",
+        "scraped_at": "2025-11-04T10:04:33.762322+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_01275ff6",
+      "id": "evt_nyu_steinhardt_05dd3b22",
       "name": "Visiting Artist Lecture: Adraint Bereal",
       "description": "Adraint Khadafhi Bereal (b. 1998) is an artist from Waco, Texas, based in New York. A graduate of the University of Texas at Austin’s School of Design and Creative Technologies, Bereal’s work…",
       "start_date": "2025-11-06T09:00:00+00:00",
@@ -16445,14 +16367,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.920223+00:00",
+        "scraped_at": "2025-11-04T10:04:33.763383+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_00597c50",
+      "id": "evt_nyu_steinhardt_02845d43",
       "name": "CSD Immersions Hearing Screenings",
       "description": "If you are an NYU student, faculty member, or staff and are interested in receiving a hearing screening, please visit our CSD department! We look forward to seeing you!",
       "start_date": "2025-11-07T09:00:00+00:00",
@@ -16470,14 +16392,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:54.920816+00:00",
+        "scraped_at": "2025-11-04T10:04:33.764358+00:00",
         "original_source": "NYU Steinhardt",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_03e8b401",
+      "id": "evt_nyu_steinhardt_music_024e2241",
       "name": "Michael Rodriguez Ensemble Performs at the Blue Note",
       "description": "This ensemble performs a mix of jazz standards and students' original compositions.",
       "start_date": "2025-11-15T09:00:00+00:00",
@@ -16495,14 +16417,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.586861+00:00",
+        "scraped_at": "2025-11-04T10:04:37.256302+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0472357c",
+      "id": "evt_nyu_steinhardt_music_01ca808e",
       "name": "Berliner Kirschblüten: Helmut Lachenmann at 90",
       "description": "Artist faculty member Manuel Laufer and the pianists of the Program in Piano Studies explore the works of German composer Helmut Lachenmann, in celebration of his 90th birthday.",
       "start_date": "2025-11-16T15:00:00+00:00",
@@ -16520,14 +16442,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.587613+00:00",
+        "scraped_at": "2025-11-04T10:04:37.257058+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_00ff7066",
+      "id": "evt_nyu_steinhardt_music_03cd7270",
       "name": "Beyond Bolero: The Spellbinding Works of Maurice Ravel",
       "description": "NYU Program in Piano Studies premieres works in honor of Maurice Ravel's 150th birthday.",
       "start_date": "2025-11-18T19:00:00+00:00",
@@ -16545,14 +16467,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.588359+00:00",
+        "scraped_at": "2025-11-04T10:04:37.257814+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_01d28421",
+      "id": "evt_nyu_steinhardt_music_00554bf2",
       "name": "NYU Chamber Orchestra",
       "description": "Jinyu Xiong plays Beethoven's Violin Concerto in D Major after winning the 2025 Strings Concerto Competition. Diego Garcia will conduct this chamber orchestra playing Mozart, Reyes, Meyer, and Giraudo…",
       "start_date": "2025-11-19T20:00:00+00:00",
@@ -16570,14 +16492,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.589604+00:00",
+        "scraped_at": "2025-11-04T10:04:37.259100+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_028e08fc",
+      "id": "evt_nyu_steinhardt_music_03fc61f5",
       "name": "Distinguished Faculty Dance Concert",
       "description": "(FREDERICK LOEWE THEATRE) NYU Steinhardt Program in Dance Education Presents the 2025 Distinguished Faculty Dance Concert.",
       "start_date": "2025-11-21T19:00:00+00:00",
@@ -16595,14 +16517,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.591592+00:00",
+        "scraped_at": "2025-11-04T10:04:37.262997+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_02ae0d68",
+      "id": "evt_nyu_steinhardt_music_01d38c69",
       "name": "Nevermind the Noise: Fall Concert",
       "description": "(PAULSON CENTER, ROOM 570) Nevermind the Noise, a collective of graduate composers, is committed to the composition and performance of new experimental concert music.",
       "start_date": "2025-11-23T15:00:00+00:00",
@@ -16620,14 +16542,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.592227+00:00",
+        "scraped_at": "2025-11-04T10:04:37.263858+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_02451a6a",
+      "id": "evt_nyu_steinhardt_music_02459013",
       "name": "Composers Collective: Fall Concert",
       "description": "(PAULSON CENTER) The Fall Concert is an open call to all composers in the department and showcases the diverse compositional voices within our program. Listen to an evening of chamber music, solo…",
       "start_date": "2025-11-23T20:00:00+00:00",
@@ -16645,39 +16567,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.592833+00:00",
+        "scraped_at": "2025-11-04T10:04:37.264750+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_05e698fe",
-      "name": "NYU Jazz Concert Series: Martin Wind Ensemble",
-      "description": "The NYU Jazz Studies program begins its 2025 Winter Concert Series with a night of performances by the Martin Wind Ensemble, the Marta Sanchez Ensemble, and the Ron McClure Ensemble.",
-      "start_date": "2025-12-01T09:00:00+00:00",
-      "end_date": "2025-12-01T10:30:00+00:00",
-      "location_id": null,
-      "community_id": null,
-      "category": "music",
-      "url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-martin-wind-ensemble",
-      "source": "nyu_steinhardt_music",
-      "source_group": "nyu_steinhardt_music",
-      "source_name": "nyusteinhardtmusic",
-      "source_url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-martin-wind-ensemble",
-      "venue": {
-        "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
-        "type": "venue"
-      },
-      "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.593437+00:00",
-        "original_source": "NYU Steinhardt Music",
-        "areas_of_study": "",
-        "extraction_method": "html_parsing"
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_027ced84",
+      "id": "evt_nyu_steinhardt_music_05e4ad04",
       "name": "NYU Percussion Ensemble",
       "description": "For more than a decade, the NYU Percussion Ensemble has worked with Julia Wolfe and the Program in Music Composition to present an evening of world premieres written for the ensemble by NYU student…",
       "start_date": "2025-12-01T20:00:00+00:00",
@@ -16695,14 +16592,39 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.594695+00:00",
+        "scraped_at": "2025-11-04T10:04:37.265976+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_05d3ece5",
+      "id": "evt_nyu_steinhardt_music_04334a36",
+      "name": "NYU Jazz Concert Series: Martin Wind Ensemble",
+      "description": "The NYU Jazz Studies program begins its 2025 Winter Concert Series with a night of performances by the Martin Wind Ensemble, the Marta Sanchez Ensemble, and the Ron McClure Ensemble.",
+      "start_date": "2025-12-01T09:00:00+00:00",
+      "end_date": "2025-12-01T10:30:00+00:00",
+      "location_id": null,
+      "community_id": null,
+      "category": "music",
+      "url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-martin-wind-ensemble",
+      "source": "nyu_steinhardt_music",
+      "source_group": "nyu_steinhardt_music",
+      "source_name": "nyusteinhardtmusic",
+      "source_url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-martin-wind-ensemble",
+      "venue": {
+        "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
+        "type": "venue"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T10:04:37.266856+00:00",
+        "original_source": "NYU Steinhardt Music",
+        "areas_of_study": "",
+        "extraction_method": "html_parsing"
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_004d8144",
       "name": "NYU Jazz Concert Series: All University Big Band and Dion Tucker Ensemble",
       "description": "The NYU Jazz Studies program continues its 2025 Winter Concert Series with a night featuring the All-University Big Band as well as the Dion Tucker Ensemble.",
       "start_date": "2025-12-02T09:00:00+00:00",
@@ -16720,39 +16642,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.595711+00:00",
+        "scraped_at": "2025-11-04T10:04:37.267653+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0300b080",
-      "name": "NYU Jazz Concert Series: Brazilian and Latin Ensembles and NYU Nonet",
-      "description": "The NYU Jazz Studies program continues its 2025 Winter Concert Series with a night of performances by the Brazilian Music Ensemble, the Latin Music Ensemble, and the NYU Nonet.",
-      "start_date": "2025-12-03T09:00:00+00:00",
-      "end_date": "2025-12-03T10:30:00+00:00",
-      "location_id": null,
-      "community_id": null,
-      "category": "music",
-      "url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-brazilian-and-latin-ensembles-and-nyu-nonet",
-      "source": "nyu_steinhardt_music",
-      "source_group": "nyu_steinhardt_music",
-      "source_name": "nyusteinhardtmusic",
-      "source_url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-brazilian-and-latin-ensembles-and-nyu-nonet",
-      "venue": {
-        "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
-        "type": "venue"
-      },
-      "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.597009+00:00",
-        "original_source": "NYU Steinhardt Music",
-        "areas_of_study": "The Arts",
-        "extraction_method": "html_parsing"
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_00b87476",
+      "id": "evt_nyu_steinhardt_music_05e3840d",
       "name": "NYU Composers Ensemble",
       "description": "(PAULSON CENTER, ROOM 570) The NYU Composers Ensemble presents an evening of new compositions written for and performed by members of the NYU Ensemble. Listen to the culmination of a semester-long…",
       "start_date": "2025-12-03T20:00:00+00:00",
@@ -16770,14 +16667,39 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.598059+00:00",
+        "scraped_at": "2025-11-04T10:04:37.268476+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_05a012d0",
+      "id": "evt_nyu_steinhardt_music_02bb0d70",
+      "name": "NYU Jazz Concert Series: Brazilian and Latin Ensembles and NYU Nonet",
+      "description": "The NYU Jazz Studies program continues its 2025 Winter Concert Series with a night of performances by the Brazilian Music Ensemble, the Latin Music Ensemble, and the NYU Nonet.",
+      "start_date": "2025-12-03T09:00:00+00:00",
+      "end_date": "2025-12-03T10:30:00+00:00",
+      "location_id": null,
+      "community_id": null,
+      "category": "music",
+      "url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-brazilian-and-latin-ensembles-and-nyu-nonet",
+      "source": "nyu_steinhardt_music",
+      "source_group": "nyu_steinhardt_music",
+      "source_name": "nyusteinhardtmusic",
+      "source_url": "https://steinhardt.nyu.edu/events/nyu-jazz-concert-series-brazilian-and-latin-ensembles-and-nyu-nonet",
+      "venue": {
+        "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
+        "type": "venue"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T10:04:37.269144+00:00",
+        "original_source": "NYU Steinhardt Music",
+        "areas_of_study": "The Arts",
+        "extraction_method": "html_parsing"
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_041b472d",
       "name": "A Poem for Deep Thinkers",
       "description": "In collaboration with the Guggenheim Museum, students from the Program in Jazz Studies will become part of artist Rashid Johnson's A Poem for Deep Thinkers — a site-specific installation that…",
       "start_date": "2025-12-05T19:00:00+00:00",
@@ -16795,39 +16717,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.598835+00:00",
+        "scraped_at": "2025-11-04T10:04:37.269813+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0183c132",
-      "name": "NYU Orchestra",
-      "description": "The NYU Symphony presents Brahms’ Symphony No. 3 in F major, alongside a collaboration with the NYU Steinhardt Screen Scoring Program, featuring original film scores performed live.",
-      "start_date": "2025-12-05T20:00:00+00:00",
-      "end_date": "2025-12-05T21:30:00+00:00",
-      "location_id": null,
-      "community_id": null,
-      "category": "music",
-      "url": "https://steinhardt.nyu.edu/events/nyu-orchestra-0",
-      "source": "nyu_steinhardt_music",
-      "source_group": "nyu_steinhardt_music",
-      "source_name": "nyusteinhardtmusic",
-      "source_url": "https://steinhardt.nyu.edu/events/nyu-orchestra-0",
-      "venue": {
-        "name": "Iris Cantor Theatre38 W Houston Street (at Greene Street) NYC",
-        "type": "venue"
-      },
-      "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.599476+00:00",
-        "original_source": "NYU Steinhardt Music",
-        "areas_of_study": "The Arts",
-        "extraction_method": "html_parsing"
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_03334549",
+      "id": "evt_nyu_steinhardt_music_01607ac0",
       "name": "Chamber Music with Piano",
       "description": "The pianists of NYU Steinhardt perform a varied program featuring chamber works with strings and woodwinds, as well as pieces for two pianos and piano four hands.",
       "start_date": "2025-12-05T20:00:00+00:00",
@@ -16845,14 +16742,39 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:06:56.600129+00:00",
+        "scraped_at": "2025-11-04T10:04:37.270429+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_05aebb3e",
+      "id": "evt_nyu_steinhardt_music_029aee74",
+      "name": "NYU Orchestra",
+      "description": "The NYU Symphony presents Brahms’ Symphony No. 3 in F major, alongside a collaboration with the NYU Steinhardt Screen Scoring Program, featuring original film scores performed live.",
+      "start_date": "2025-12-05T20:00:00+00:00",
+      "end_date": "2025-12-05T21:30:00+00:00",
+      "location_id": null,
+      "community_id": null,
+      "category": "music",
+      "url": "https://steinhardt.nyu.edu/events/nyu-orchestra-0",
+      "source": "nyu_steinhardt_music",
+      "source_group": "nyu_steinhardt_music",
+      "source_name": "nyusteinhardtmusic",
+      "source_url": "https://steinhardt.nyu.edu/events/nyu-orchestra-0",
+      "venue": {
+        "name": "Iris Cantor Theatre38 W Houston Street (at Greene Street) NYC",
+        "type": "venue"
+      },
+      "metadata": {
+        "scraped_at": "2025-11-04T10:04:37.271148+00:00",
+        "original_source": "NYU Steinhardt Music",
+        "areas_of_study": "The Arts",
+        "extraction_method": "html_parsing"
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_00bf32d0",
       "name": "Revisiting the Outlook 2030: Directions Ahead",
       "description": "Join Dr. Allan E. Goodman, President Emeritus of the Institute of International Education (IIE), for a forward-looking conversation on the future of international education. Reflecting on IIE’s…",
       "start_date": "2025-11-05T09:00:00+00:00",
@@ -16870,14 +16792,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.819941+00:00",
+        "scraped_at": "2025-11-04T10:04:41.320830+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_05741530",
+      "id": "evt_nyu_steinhardt_music_045c24ad",
       "name": "NYU OT Anti-Racism Task Force Session with Valerie Aziegbe",
       "description": "The NYU OT Anti-Racism Task Force is proud to present Building a Stronger Profession: Promoting Racial Diversity and Clinician Resilience in Hand Therapy with Valerie Aziegbe",
       "start_date": "2025-11-05T09:00:00+00:00",
@@ -16895,14 +16817,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.820538+00:00",
+        "scraped_at": "2025-11-04T10:04:41.321408+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_04c7c670",
+      "id": "evt_nyu_steinhardt_music_019ecabd",
       "name": "Steinhardt Cultural Connections",
       "description": "Join us for Steinhardt Cultural Connections to make connections within and across culture at Steinhardt's Cultural Connections series this year!",
       "start_date": "2025-11-06T09:00:00+00:00",
@@ -16920,14 +16842,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.822395+00:00",
+        "scraped_at": "2025-11-04T10:04:41.323303+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_05e8382c",
+      "id": "evt_nyu_steinhardt_music_01577cb3",
       "name": "Decolonizing Afghanistan: Countering Imperial Knowledge and Power",
       "description": "Join us for the launch of the first comprehensive volume to explore the impact of empire on Afghanistan’s past and present.",
       "start_date": "2025-11-06T17:00:00+00:00",
@@ -16945,14 +16867,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.823019+00:00",
+        "scraped_at": "2025-11-04T10:04:41.324128+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "Education",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0568cbe3",
+      "id": "evt_nyu_steinhardt_music_02467f8a",
       "name": "Global Leadership in Education Between Principle and Pragmatism",
       "description": "Global Leadership in Education Between Principle and Pragmatism, Andrew D. Hamilton, Ph.D President Emeritus and Professor of Chemistry, New York University.",
       "start_date": "2025-11-06T09:00:00+00:00",
@@ -16970,14 +16892,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.823631+00:00",
+        "scraped_at": "2025-11-04T10:04:41.324769+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_047c1318",
+      "id": "evt_nyu_steinhardt_music_03a5cb13",
       "name": "Visiting Artist Lecture: Adraint Bereal",
       "description": "Adraint Khadafhi Bereal (b. 1998) is an artist from Waco, Texas, based in New York. A graduate of the University of Texas at Austin’s School of Design and Creative Technologies, Bereal’s work…",
       "start_date": "2025-11-06T09:00:00+00:00",
@@ -16995,14 +16917,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.824284+00:00",
+        "scraped_at": "2025-11-04T10:04:41.325405+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "The Arts",
         "extraction_method": "html_parsing"
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_02322bfd",
+      "id": "evt_nyu_steinhardt_music_032b29eb",
       "name": "CSD Immersions Hearing Screenings",
       "description": "If you are an NYU student, faculty member, or staff and are interested in receiving a hearing screening, please visit our CSD department! We look forward to seeing you!",
       "start_date": "2025-11-07T09:00:00+00:00",
@@ -17020,7 +16942,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-11-04T08:07:03.824902+00:00",
+        "scraped_at": "2025-11-04T10:04:41.326033+00:00",
         "original_source": "NYU Steinhardt Music",
         "areas_of_study": "",
         "extraction_method": "html_parsing"
@@ -17158,7 +17080,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.270849+00:00",
+        "scraped_at": "2025-11-04T10:04:47.485306+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -17175,7 +17097,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.272269+00:00",
+        "scraped_at": "2025-11-04T10:04:47.486396+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -17192,7 +17114,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.273048+00:00",
+        "scraped_at": "2025-11-04T10:04:47.486887+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -17209,7 +17131,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.273592+00:00",
+        "scraped_at": "2025-11-04T10:04:47.487404+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -17226,7 +17148,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.274022+00:00",
+        "scraped_at": "2025-11-04T10:04:47.488062+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -17243,7 +17165,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.276921+00:00",
+        "scraped_at": "2025-11-04T10:04:47.491034+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -17260,7 +17182,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.278008+00:00",
+        "scraped_at": "2025-11-04T10:04:47.492312+00:00",
         "extraction_method": "header"
       }
     },
@@ -17277,7 +17199,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.278185+00:00",
+        "scraped_at": "2025-11-04T10:04:47.492501+00:00",
         "extraction_method": "header"
       }
     },
@@ -17294,7 +17216,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.278625+00:00",
+        "scraped_at": "2025-11-04T10:04:47.492886+00:00",
         "extraction_method": "header"
       }
     },
@@ -17311,7 +17233,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.278671+00:00",
+        "scraped_at": "2025-11-04T10:04:47.492950+00:00",
         "extraction_method": "header"
       }
     },
@@ -17328,7 +17250,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.278706+00:00",
+        "scraped_at": "2025-11-04T10:04:47.493009+00:00",
         "extraction_method": "header"
       }
     },
@@ -17345,7 +17267,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.278740+00:00",
+        "scraped_at": "2025-11-04T10:04:47.493064+00:00",
         "extraction_method": "header"
       }
     },
@@ -17362,7 +17284,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-11-04T08:07:09.281466+00:00",
+        "scraped_at": "2025-11-04T10:04:47.499644+00:00",
         "extraction_method": "container"
       }
     },

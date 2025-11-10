@@ -225,15 +225,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
     // Cleanup flag to prevent double initialization in React Strict Mode
     let isMounted = true;
     let timeoutId: NodeJS.Timeout | null = null;
+    let initialized = false; // Track if PageFlip has been initialized
     
-    if (bookRef.current && events.length > 0) {
+    if (bookRef.current && events.length > 0 && !pageFlipRef.current) {
       const componentStart = Date.now();
       console.log(`📚 [AcademicBook] Starting initialization with ${events.length} events`);
 
       // Determine if back button should be shown and on which side
-      const shouldShowBackButton = navigationHistoryRef.current.length > 0;
-      const isCurrentPageEven = navigationState.currentPage % 2 === 0;
-      const backButtonSide: 'left' | 'right' = isCurrentPageEven ? 'right' : 'left';
+      // For initial render, back button won't be shown (no history yet)
+      // The back button position will be computed dynamically per page in the HTML generation
+      const shouldShowBackButton = false; // Initial render has no history
 
       // Set up global handlers BEFORE generating HTML
       // These handlers are intentionally not in dependencies as they're window functions
@@ -467,12 +468,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           
           // Try different logic: ribbon on even pages (2, 4, 6, 8...)
           const shouldShowRibbon = globalPageNumber % 2 === 0;
+          
+          // Compute back button side per page (even pages = right, odd pages = left)
+          const isPageEven = globalPageNumber % 2 === 0;
+          const pageBackButtonSide: 'left' | 'right' = isPageEven ? 'right' : 'left';
 
           pagesHTML += `
             <div class="page">
               <div class="page-content">
                 <div class="page-main-content">
-                  ${shouldShowBackButton && backButtonSide === 'left' ? `
+                  ${shouldShowBackButton && pageBackButtonSide === 'left' ? `
                   <div class="dynamic-back-button left">
                     <button class="back-btn" onclick="window.goBack()" title="Go back to previous page">
                       ← Back
@@ -480,7 +485,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                   </div>
                   ` : ''}
                   <h2 class="page-header">ALL EVENTS</h2>
-                  ${shouldShowBackButton && backButtonSide === 'right' ? `
+                  ${shouldShowBackButton && pageBackButtonSide === 'right' ? `
                   <div class="dynamic-back-button right">
                     <button class="back-btn" onclick="window.goBack()" title="Go back to previous page">
                       Back →
@@ -529,12 +534,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
             const pageEvents = institutionEvents.slice(pageIndex, pageIndex + eventsPerPage);
             const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
             const shouldShowRibbon = globalPageNumber % 2 === 0;
+            
+            // Compute back button side per page (even pages = right, odd pages = left)
+            const isPageEven = globalPageNumber % 2 === 0;
+            const pageBackButtonSide: 'left' | 'right' = isPageEven ? 'right' : 'left';
 
             pagesHTML += `
               <div class="page">
                 <div class="page-content">
                   <div class="page-main-content">
-                    ${shouldShowBackButton && backButtonSide === 'left' ? `
+                    ${shouldShowBackButton && pageBackButtonSide === 'left' ? `
                     <div class="dynamic-back-button left">
                       <button class="back-btn" onclick="window.goBack()" title="Go back to previous page">
                         ← Back
@@ -542,7 +551,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                     </div>
                     ` : ''}
                     <h2 class="page-header">${institution.toUpperCase()}</h2>
-                    ${shouldShowBackButton && backButtonSide === 'right' ? `
+                    ${shouldShowBackButton && pageBackButtonSide === 'right' ? `
                     <div class="dynamic-back-button right">
                       <button class="back-btn" onclick="window.goBack()" title="Go back to previous page">
                         Back →
@@ -594,12 +603,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
             const pageEvents = categoryEvents.slice(pageIndex, pageIndex + eventsPerPage);
             const pageNumber = Math.floor(pageIndex / eventsPerPage) + 1;
             const shouldShowRibbon = globalPageNumber % 2 === 0;
+            
+            // Compute back button side per page (even pages = right, odd pages = left)
+            const isPageEven = globalPageNumber % 2 === 0;
+            const pageBackButtonSide: 'left' | 'right' = isPageEven ? 'right' : 'left';
 
             pagesHTML += `
               <div class="page">
                 <div class="page-content">
                   <div class="page-main-content">
-                    ${shouldShowBackButton && backButtonSide === 'left' ? `
+                    ${shouldShowBackButton && pageBackButtonSide === 'left' ? `
                     <div class="dynamic-back-button left">
                       <button class="back-btn" onclick="window.goBack()" title="Go back to previous page">
                         ← Back
@@ -607,7 +620,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
                     </div>
                     ` : ''}
                     <h2 class="page-header" style="color: #f59e0b;">${category.toUpperCase()}</h2>
-                    ${shouldShowBackButton && backButtonSide === 'right' ? `
+                    ${shouldShowBackButton && pageBackButtonSide === 'right' ? `
                     <div class="dynamic-back-button right">
                       <button class="back-btn" onclick="window.goBack()" title="Go back to previous page">
                         Back →
@@ -658,22 +671,77 @@ export default function AcademicBook({ events }: AcademicBookProps) {
       const htmlSize = new Blob([bookRef.current.innerHTML]).size;
       console.log(`✅ [AcademicBook] HTML generation complete: ${(htmlSize / 1024).toFixed(2)} KB in ${htmlGenTime}ms`);
 
-      // Initialize PageFlip
-      timeoutId = setTimeout(() => {
-        // Skip if component unmounted (React Strict Mode cleanup)
-        if (!isMounted || !bookRef.current) {
-          console.log('⚠️ [AcademicBook] Skipping initialization - component unmounted');
+      // Initialize PageFlip - wait for browser to layout the content
+      let retryCount = 0;
+      const maxRetries = 30; // Max 3 seconds (30 * 100ms)
+      
+      const initPageFlip = () => {
+        // Skip if component unmounted (React Strict Mode cleanup) or already initialized
+        if (!isMounted || !bookRef.current || initialized || pageFlipRef.current) {
+          console.log('⚠️ [AcademicBook] Skipping initialization - already initialized or unmounted');
           return;
+        }
+        
+        // Check if container is in DOM and has content
+        const hasContent = bookRef.current.innerHTML.trim().length > 0;
+        const isInDOM = bookRef.current.offsetParent !== null || 
+                       bookRef.current.getBoundingClientRect().width !== 0 ||
+                       window.getComputedStyle(bookRef.current).display !== 'none';
+        
+        // Verify container is visible and has dimensions
+        const rect = bookRef.current.getBoundingClientRect();
+        const hasDimensions = rect.width > 0 && rect.height > 0;
+        const inlineWidth = bookRef.current.style.width;
+        const inlineHeight = bookRef.current.style.height;
+        
+        // Log diagnostic info
+        if (retryCount === 0 || retryCount % 5 === 0) {
+          console.log(`🔍 [AcademicBook] Container check: hasContent=${hasContent}, isInDOM=${isInDOM}, hasDimensions=${hasDimensions}, dimensions=${rect.width}x${rect.height}, inlineStyles=${inlineWidth}x${inlineHeight}`);
+        }
+        
+        if (!hasContent) {
+          // No content yet - wait for HTML to be inserted
+          if (retryCount < maxRetries) {
+            retryCount++;
+            timeoutId = setTimeout(initPageFlip, 50);
+            return;
+          } else {
+            console.error('❌ [AcademicBook] Container has no content after max retries');
+            return;
+          }
+        } else if (!hasDimensions && isInDOM) {
+          // Container has content but no dimensions - might need a layout pass
+          if (retryCount < maxRetries) {
+            retryCount++;
+            // Use requestAnimationFrame for better timing
+            requestAnimationFrame(() => {
+              if (timeoutId) clearTimeout(timeoutId);
+              timeoutId = setTimeout(initPageFlip, 100);
+            });
+            return;
+          } else {
+            console.warn('⚠️ [AcademicBook] Container has no dimensions after max retries, proceeding anyway (PageFlip may handle this)...');
+            // Continue anyway - PageFlip might still work with fixed size
+          }
+        } else if (!isInDOM) {
+          // Container not in DOM yet
+          if (retryCount < maxRetries) {
+            retryCount++;
+            timeoutId = setTimeout(initPageFlip, 50);
+            return;
+          } else {
+            console.error('❌ [AcademicBook] Container not in DOM after max retries');
+            return;
+          }
         }
         
         const pageFlipStart = Date.now();
         console.log('🔄 [AcademicBook] Starting PageFlip initialization...');
         
-        if (bookRef.current) {
-
-          try {
-            const initStart = Date.now();
-            pageFlipRef.current = new PageFlip(bookRef.current, {
+        try {
+          initialized = true; // Mark as initialized before creating instance
+          const initStart = Date.now();
+          pageFlipRef.current = new PageFlip(bookRef.current, {
               width: 550,  // Base page width
               height: 733,  // Base page height
               size: 'fixed',  // Use fixed size for consistent layout
@@ -706,6 +774,14 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               
               const totalPageFlipTime = Date.now() - pageFlipStart;
               console.log(`🏁 [AcademicBook] PageFlip initialization complete in ${totalPageFlipTime}ms`);
+              
+              // Verify PageFlip is rendering
+              console.log('📖 [AcademicBook] PageFlip state:', {
+                currentPage: pageFlipRef.current.getCurrentPageIndex(),
+                totalPages: pageFlipRef.current.getPageCount(),
+                containerVisible: bookRef.current.offsetWidth > 0 && bookRef.current.offsetHeight > 0,
+                containerDimensions: `${bookRef.current.offsetWidth}x${bookRef.current.offsetHeight}`
+              });
 
               // Add event listeners
               pageFlipRef.current.on('flip', (e: { data: number }) => {
@@ -759,6 +835,7 @@ export default function AcademicBook({ events }: AcademicBookProps) {
           } catch (error) {
             const errorTime = Date.now() - pageFlipStart;
             console.error(`❌ [AcademicBook] PageFlip initialization failed after ${errorTime}ms:`, error);
+            initialized = false; // Reset on error
             // Fallback to static display
             if (bookRef.current) {
               bookRef.current.innerHTML = `
@@ -770,8 +847,16 @@ export default function AcademicBook({ events }: AcademicBookProps) {
               `;
             }
           }
-        }
-      }, 100);
+        };
+      
+      // Wait for browser to layout the content before initializing PageFlip
+      // Use requestAnimationFrame to ensure DOM is ready
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          // Double RAF ensures layout is complete
+          timeoutId = setTimeout(initPageFlip, 50);
+        });
+      });
       
       const totalComponentTime = Date.now() - componentStart;
       console.log(`🏁 [AcademicBook] Component initialization complete in ${totalComponentTime}ms`);
@@ -780,15 +865,22 @@ export default function AcademicBook({ events }: AcademicBookProps) {
     // Cleanup function for both cases
     return () => {
       isMounted = false;
+      initialized = false;
       if (timeoutId) {
         clearTimeout(timeoutId);
+        timeoutId = null;
       }
+      // Only destroy if we actually initialized
       if (pageFlipRef.current) {
-        pageFlipRef.current.destroy();
+        try {
+          pageFlipRef.current.destroy();
+        } catch (error) {
+          console.warn('⚠️ [AcademicBook] Error destroying PageFlip:', error);
+        }
         pageFlipRef.current = null;
       }
     };
-  }, [events, sortedEvents, institutions, categories, handleGoToPage, handleInstitutionClick, handleCategoryClick, handleGoBack, navigationState.currentPage]);
+  }, [events, sortedEvents, institutions, categories, handleGoToPage, handleInstitutionClick, handleCategoryClick, handleGoBack]);
 
   return (
     <div className="flex flex-col items-center space-y-4 p-4">
