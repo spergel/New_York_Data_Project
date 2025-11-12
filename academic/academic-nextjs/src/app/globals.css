@@ -1283,7 +1283,6 @@ button:active {
 }
 
 .mobile-toc-entry:hover {
-  transform: translateX(8px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -1337,68 +1336,6 @@ button:active {
   border-left: 4px solid #3b82f6;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.mobile-event-card-expanded {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-}
-
-.mobile-event-header {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-  width: 100%;
-}
-
-.mobile-event-header-content {
-  flex: 1;
-  min-width: 0;
-}
-
-.mobile-event-expand-btn {
-  background: none;
-  border: none;
-  padding: 0.5rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  color: #6b7280;
-  transition: all 0.3s ease;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-}
-
-.mobile-event-expand-btn:hover {
-  background: rgba(0, 0, 0, 0.05);
-  color: #3b82f6;
-}
-
-.dark .mobile-event-expand-btn {
-  color: #9ca3af;
-}
-
-.dark .mobile-event-expand-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
-  color: #60a5fa;
-}
-
-.mobile-event-expand-icon {
-  font-size: 1.5rem;
-  font-weight: bold;
-  line-height: 1;
-  transition: transform 0.3s ease;
-  display: inline-block;
-  transform: rotate(0deg);
-}
-
-.mobile-event-card-expanded .mobile-event-expand-icon {
-  transform: rotate(90deg);
 }
 
 .dark .mobile-event-card {
@@ -1407,16 +1344,11 @@ button:active {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.mobile-event-header:hover {
-  opacity: 0.9;
-}
-
-.mobile-event-card:not(.mobile-event-card-expanded):hover {
-  transform: translateY(-2px);
+.mobile-event-card:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
-.dark .mobile-event-card:not(.mobile-event-card-expanded):hover {
+.dark .mobile-event-card:hover {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
@@ -1450,7 +1382,6 @@ button:active {
 
 .mobile-clickable-event:hover {
   color: #1d4ed8;
-  transform: translateX(4px);
 }
 
 .dark .mobile-clickable-event {
@@ -1464,7 +1395,7 @@ button:active {
 .mobile-event-meta {
   font-size: 0.9rem;
   color: #6b7280;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 
 .dark .mobile-event-meta {
@@ -1519,35 +1450,10 @@ button:active {
   font-size: 1rem;
   line-height: 1.6;
   color: #374151;
-  overflow: hidden;
-  transition: max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease, opacity 0.3s ease;
-  max-height: 0;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-}
-
-.mobile-event-description-collapsed {
-  max-height: 0;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-}
-
-.mobile-event-description-expanded {
-  max-height: 2000px;
-  padding-top: 1rem;
-  margin-top: 1rem;
-  border-top: 1px solid #e5e7eb;
-  opacity: 1;
 }
 
 .dark .mobile-event-description {
   color: #d1d5db;
-}
-
-.dark .mobile-event-description-expanded {
-  border-top-color: #374151;
 }
 
 /* Institution Section Mobile Styles */
@@ -1596,7 +1502,6 @@ button:active {
 
 .mobile-back-to-top:hover {
   background: linear-gradient(135deg, #2563eb, #1e40af);
-  transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
 }
 
@@ -1612,13 +1517,7 @@ button:active {
   }
   
   body {
-    scroll-snap-type: y mandatory;
     overflow-x: hidden;
-  }
-  
-  .mobile-section {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
   }
 }
 

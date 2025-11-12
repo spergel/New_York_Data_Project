@@ -18,125 +18,6 @@
       }
     },
     {
-      "id": "evt_nyu_law_6956dbed2a",
-      "name": "1L Law Firm Evening Reception",
-      "description": "This evening reception is for 1Ls only. For more information about this event, 1Ls should log-in to CSM and click on the Events tab followed by Employer Events. An RSVP is required for all events.",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/1l-law-firm-evening-reception-8",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_9f499202c6",
-      "name": "Latham & Watkins Forum—Defamation Lawfare: Reputation, Retribution, and Press Freedom",
-      "description": "PLEASE RSVP HEREGuardians of press freedom have pointed to troubling trends in recent years. Defamation lawsuits are not only growing in number but are also increasingly employing forum shopping, naming individual reporters as defendants, and seeking to impose crippling costs on political rivals: defamation lawfare. At the same time, influential voices (including some Supreme Court justices) have called for reassessing constitutional protections for the press dating back to New York Times v. Sullivan. The media landscape has completely transformed since that ruling, especially with the rise of social media platforms, which are mostly insulated from defamation claims by statute. In this new environment, how should the law secure press freedom while protecting against reputational harm? Are concerns that the Court grappled with in Sullivan different today in degree or in kind? What would be the consequences of holding social media companies more accountable? At this Forum, a group of experts with a range of experiences and perspectives will address these issues.Elissa Cohen, Vice President and Associate General Counsel, Vox MediaDavid McCraw, Senior Vice President and Deputy General Counsel, New York TimesMegan Meier, Founding Partner, Meier Watkins Phillips PuschBurt Neuborne, Norman Dorsen Professor of Civil Liberties Emeritus, NYU LawModeratorJud Campbell, Visiting Professor of Law, NYU Law; Professor of Law, Stanford Law School",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/latham-watkins-forum-defamation-lawfare-reputation-retribution-and-press-freedom",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_723ece84c5",
-      "name": "Fashion Law Presents: A Conversation with the LVMH Legal Team",
-      "description": "Join FLS for a panel discussion with Ava Farshidi, Global In-House Counsel at Marc Jacobs (LVMH), Jana Checa Chong, Senior Intellectual Property Counsel at Louis Vuitton, and John Maltbie, Director of Civil Enforcement, Intellectual Property at Louis Vuitton North America, Inc.. Please RSVP here as space is limited. Lunch will be provided.",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/fashion-law-presents-conversation-lvmh-legal-team",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_25b9bb72e4",
-      "name": "Skills Workshop - Resumes, Cover Letters, & Interviews",
-      "description": "Whether you're public interest or private sector leaning, join MENALSA & MLSA boards for feedback on your resume, cover letters, mock interviews, and answers to your internship application questions. Haven't started prepping your application materials yet? No worries. Use this event as a way to get started!Cookies & chai will be provided!! :-)",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/skills-workshop-resumes-cover-letters-interviews",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_e6c33a729c",
-      "name": "DALSA Big Law Informational Panel + Networking Event",
-      "description": "Join the Disability Allied Law Students Association (DALSA) for our Big Law Panel & Networking Event on Thursday, November 6th at 5:30 PM. Hear from esteemed legal professionals from diverse practice areas at Davis Polk, Gibson Dunn, Milbank, and Morgan Lewis as they discuss how their unique backgrounds and experiences have enabled them to thrive in Big Law, as well as their perspectives on disability inclusion in the legal profession. After the panel, enjoy food and networking with our speakers and fellow students. This is a great opportunity to gain insight into life at Big Law firms and to network in an intimate, welcoming environment. All students are welcome to attend — you don’t need to be a DALSA member to join. Please RSVP through the link below by 10/31 at 5pm so we can plan accordingly for food and seating. In the event of capacity issues, priority will be given to those who have RSVP'ed and to active DALSA members.  https://docs.google.com/forms/d/e/1FAIpQLSfxlBxmai5r8Nmk3lCyYRt6nvox7Ylgou6mjwrGLR61SA4dbA/viewform?usp=header",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/dalsa-big-law-informational-panel-networking-event",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_16d09b199b",
-      "name": "30th Annual Derrick Bell Lecture",
-      "description": "NYU School of Law and the Center on Race, Inequality, and the Law invite you to the 30th annual Derrick Bell Lecture on Race in American Society. James Forman Jr., J. Skelly Wright Professor of Law, Yale Law School will present his lecture, \"Changing the Law by Changing the Lawyers: Can Pipeline Programs Survive the Current Moment?\" The lecture will be held in Vanderbilt Hall, located at 40 Washington Square South. A reception will immediately follow the lecture. REGISTER",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/30th-annual-derrick-bell-lecture",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_law_3473012efc",
-      "name": "Taiwan Legal: What Do Trade Agreements Say About Taiwan? With Prof. Pasha Hsieh",
-      "description": "RegisterAbout the event:The contested polity of Taiwan is poor in official diplomatic relationships but rich in economic ones. Although the Republic of China, the official name of Taiwan’s government, has diplomatic relations with only twelve states, it has investment agreements with thirty-three states and free trade agreements with nine. It’s also a member of the WTO and several multilateral economic rule-setting bodies. In this installment of our occasional speaker series, “Taiwan Legal,” Professor Pasha Hsieh of Singapore Management University will discuss whether trade and investment agreements convey “implied recognition,” and whether Taiwan’s strong economic ties make its legal identity more robust.This event is co-sponsored by the APEC Study Center at Columbia University.RegisterAbout the speakerPasha Hsieh is the Lee Kong Chian Professor of Law at the Singapore Management University Yong Pung How School of Law, where he also holds the Jean Monnet Chair in EU-ASEAN Law and Relations. His teaching and research focus on international economic law, public international law, EU-ASEAN law, and Asian legal studies. In addition to numerous scholarly articles, he is the author of New Asian Regionalism in International Economic Law (Cambridge University Press, 2022) and co-editor of ASEAN Law in the New Regional Economic Order: Global Trends and Shifting Paradigms (Cambridge University Press 2019). Professor Hsieh holds an LL.B from National Chengchi University in Taiwan and LL.M and J.D. from the University of Pennsylvania. His Ph.D. in political science is from the Free University of Brussels. He began his career as an attorney in a New York law firm and has served as a legal affairs officer at the WTO Appellate Body Secretariat.",
-      "start_date": "",
-      "end_date": "",
-      "source": "nyu",
-      "source_group": "nyu_law",
-      "metadata": {
-        "source_url": "https://law.nyu.edu/events/taiwan-legal-what-do-trade-agreements-say-about-taiwan-prof-pasha-hsieh",
-        "source_name": "NYU School of Law",
-        "venue": {
-          "name": "NYU Law",
-          "type": "Offline"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_law_b4ad4bf888",
       "name": "Asia Law Society Language Hour",
       "description": "Asia Law Society is hosting a language hour inviting JDs/LLMs to come mingle and find a partner to practice their language with! Food will be provided.",
@@ -197,6 +78,40 @@
       "source_group": "nyu_law",
       "metadata": {
         "source_url": "https://law.nyu.edu/events/plaintiffs-law-association-career-panel",
+        "source_name": "NYU School of Law",
+        "venue": {
+          "name": "NYU Law",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_law_6956dbed2a",
+      "name": "1L Law Firm Evening Reception",
+      "description": "This evening reception is for 1Ls only. For more information about this event, 1Ls should log-in to CSM and click on the Events tab followed by Employer Events. An RSVP is required for all events.",
+      "start_date": "",
+      "end_date": "",
+      "source": "nyu",
+      "source_group": "nyu_law",
+      "metadata": {
+        "source_url": "https://law.nyu.edu/events/1l-law-firm-evening-reception-18",
+        "source_name": "NYU School of Law",
+        "venue": {
+          "name": "NYU Law",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_law_6f9622bacc",
+      "name": "NYU Furman Center Book Talk: Maria Foscarinis",
+      "description": "Please join the NYU Furman Center and Elysium Between Two Continents for a book talk event: And Housing for All:The Fight to End Homelessness in AmericawithMaria FoscarinisAuthorFounder and Former Executive Director National Homelessness Law Centerin conversation with Steve BanksAttorneyFormer Head of The Legal Aid SocietyFormer NYC Social Services Commissioner NYU Robert F. Wagner Graduate School for Public Service105 East 17th Street New York, NY 10012 Date: Wednesday, November 12, 2025Time: 12:30 to 2:00 p.m. E.T. A light lunch will be provided, and books will be available for purchase. Seating is limited.RSVP TO ATTEND IN-PERSON.About the Book:A groundbreaking legal advocate argues that only by recognizing housing as a fundamental human right can we hope to solve America’s homelessness crisis.In And Housing for All: The Fight to End Homelessness in America, Maria Foscarinis reveals the human impact of this crisis, sharing personal stories and examining the flawed policies that have perpetuated it. As millions face rising housing costs and encampments spread nationwide, she uncovers why past efforts have failed and what must change to achieve lasting solutions.Drawing from over 35 years of national advocacy, Foscarinis shares compelling stories of individuals and families impacted by homelessness, highlighting their resilience and growing leadership. Blending personal narratives with policy analysis, she reveals how deliberate decisions have fueled the crisis and how public narratives have sustained it. Foscarinis' book is available for purchase at the talk or at online retailers.   Virtual attendees should register via Zoom.",
+      "start_date": "",
+      "end_date": "",
+      "source": "nyu",
+      "source_group": "nyu_law",
+      "metadata": {
+        "source_url": "https://law.nyu.edu/events/nyu-furman-center-book-talk-maria-foscarinis",
         "source_name": "NYU School of Law",
         "venue": {
           "name": "NYU Law",
@@ -273,15 +188,15 @@
       }
     },
     {
-      "id": "evt_nyu_law_02a346bc45",
-      "name": "A Conference in Honor of Frank Upham: Gender, Property, and Development in Affluent Democracies",
-      "description": "Equal Opportunity and Non-Discrimination at NYU - New York University is committed to maintaining an environment that encourages and fosters respect for individual values and appropriate conduct among all persons. In all University spaces—physical and digital—programming, activities, and events are carried out in accordance with applicable law as well as University policy, which includes but is not limited to its Non-Discrimination and Anti-Harassment Policy.",
+      "id": "evt_nyu_law_d113bdd589",
+      "name": "A Conference To Honor Frank Upham: Comparative Law, Property, and Gender",
+      "description": "Scholars from around the world will present papers engaging with the themes of Frank’s scholarship: comparative law (with a particular focus on China and Japan,) gender, and property law.  Register here: https://forms.gle/8V7nKmNMaE5nBH2A6",
       "start_date": "",
       "end_date": "",
       "source": "nyu",
       "source_group": "nyu_law",
       "metadata": {
-        "source_url": "https://law.nyu.edu/events/conference-honor-frank-upham-gender-property-and-development-affluent-democracies",
+        "source_url": "https://law.nyu.edu/events/conference-honor-frank-upham-comparative-law-property-and-gender-0",
         "source_name": "NYU School of Law",
         "venue": {
           "name": "NYU Law",

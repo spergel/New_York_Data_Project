@@ -72,15 +72,11 @@ export class PageGenerator {
   };
 
   generatePagesHTML = (): string => {
-    const generationStart = Date.now();
-    console.log('📄 [PageGenerator] Starting page HTML generation...');
-    
     const sortedEvents = this.getSortedEvents();
     const eventsPerPage = 3;
     let pagesHTML = '';
 
     // Calculate page structure first
-    const calcStart = Date.now();
     const tocItemsPerPage = 8;
     const totalTocItems = 1 + this.institutions.length + this.categories.length; // All Events + institutions + categories
     const tocPages = Math.ceil(totalTocItems / tocItemsPerPage);
@@ -103,8 +99,6 @@ export class PageGenerator {
     
     // Calculate actual TOC pages (including blank page if needed)
     const actualTocPages = tocPages + (tocPages % 2 === 1 ? 1 : 0);
-    const calcTime = Date.now() - calcStart;
-    console.log(`✅ [PageGenerator] Page calculations complete in ${calcTime}ms (${actualTocPages} TOC pages, ${allEventsPages} event pages)`);
     
     // Create table of contents items with correct page numbers
     // +1 to account for the publisher's page
@@ -149,10 +143,6 @@ export class PageGenerator {
     // Add category-specific sections
     pagesHTML += this.generateCategoryPages(sortedEvents, eventsPerPage, actualTocPages, allEventsPages, totalInstitutionPages, categoryPageCounts);
 
-    const totalTime = Date.now() - generationStart;
-    const htmlSize = new Blob([pagesHTML]).size;
-    console.log(`🏁 [PageGenerator] HTML generation complete: ${(htmlSize / 1024).toFixed(2)} KB in ${totalTime}ms`);
-
     return pagesHTML;
   };
 
@@ -174,12 +164,6 @@ export class PageGenerator {
                   <h3 style="color: #dc2626; margin-bottom: 1rem; font-size: 1.5rem;">SomethingToDo</h3>
                 </div>
                 <div class="publisher-description">
-                  <p style="margin-bottom: 1.5rem; line-height: 1.6;">
-                    <strong>Joshua Spergel</strong> is a New York-based developer and data enthusiast passionate about discovering and sharing events across the city. With a keen interest in web scraping and data collection, Joshua creates tools to help people find interesting academic, tech, and cultural events happening in NYC.
-                  </p>
-                  <p style="margin-bottom: 1.5rem; line-height: 1.6;">
-                    Through his work, Joshua aims to connect the academic and tech communities by making event discovery more accessible and enjoyable.
-                  </p>
                   <div class="publisher-links" style="margin-bottom: 1.5rem;">
                     <p><strong>Visit our sites:</strong></p>
                     <ul style="list-style: none; padding: 0;">
@@ -189,11 +173,21 @@ export class PageGenerator {
                         </a>
                         <span style="color: #6b7280; margin-left: 0.5rem;">- Academic & Cultural Events</span>
                       </li>
-                      <li>
+                      <li style="margin-bottom: 0.5rem;">
                         <a href="https://tech.somethingtodo.nyc" target="_blank" style="color: #10b981; text-decoration: none; border-bottom: 1px solid #10b981;">
                           tech.somethingtodo.nyc
                         </a>
                         <span style="color: #6b7280; margin-left: 0.5rem;">- Tech & Startup Events</span>
+                      </li>
+                      <li style="margin-bottom: 0.5rem;">
+                        <a href="https://legal.somethingtodo.nyc" target="_blank" style="color: #8b5cf6; text-decoration: none; border-bottom: 1px solid #8b5cf6;">
+                          legal.somethingtodo.nyc
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://spergel.github.io" target="_blank" style="color: #ec4899; text-decoration: none; border-bottom: 1px solid #ec4899;">
+                          spergel.github.io
+                        </a>
                       </li>
                     </ul>
                   </div>

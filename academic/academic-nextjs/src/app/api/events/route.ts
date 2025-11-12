@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs/promises';
+import fs from 'fs';
 import path from 'path';
 
 interface RawEvent {
@@ -76,9 +76,6 @@ function getFilteredEvents(events: ProcessedEvent[], filters: {
 }
 
 export async function GET(request: Request) {
-  const apiStartTime = Date.now();
-  console.log('🚀 [API] Starting GET /api/events');
-  
   try {
     const url = new URL(request.url);
     const search = url.searchParams.get('search') || '';
@@ -88,35 +85,23 @@ export async function GET(request: Request) {
     // Check cache first
     const now = Date.now();
     if (cachedEvents && (now - cacheTimestamp) < CACHE_DURATION) {
-      const cacheTime = Date.now() - apiStartTime;
-      console.log(`⚡ [API] Cache hit! Returning cached events (${cachedEvents.length} events) in ${cacheTime}ms`);
       return getFilteredEvents(cachedEvents, { search, category, institution });
     }
-    
-    console.log('📂 [API] Cache miss - loading from file');
 
     let data;
     let dataSource = 'unknown';
 
-    // Try to read real scraped events from public directory (async for better performance)
-    const fileReadStart = Date.now();
+    // Try to read real scraped events from public directory
     try {
       const realDataPath = path.join(process.cwd(), 'public', 'scraped_events.json');
-      console.log(`📖 [API] Reading file: ${realDataPath}`);
-      const fileContents = await fs.readFile(realDataPath, 'utf8');
-      const fileReadTime = Date.now() - fileReadStart;
-      console.log(`✅ [API] File read complete: ${fileContents.length} bytes in ${fileReadTime}ms`);
-      
-      const parseStart = Date.now();
+      const fileContents = fs.readFileSync(realDataPath, 'utf8');
       data = JSON.parse(fileContents);
-      const parseTime = Date.now() - parseStart;
-      console.log(`✅ [API] JSON parsed: ${data.events?.length || 0} events in ${parseTime}ms`);
       dataSource = 'real_scraped_data';
     } catch (error) {
       // Fallback to sample data if real data not available
       try {
         const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
-        const fileContents = await fs.readFile(samplePath, 'utf8');
+        const fileContents = fs.readFileSync(samplePath, 'utf8');
         data = JSON.parse(fileContents);
         dataSource = 'sample_data';
       } catch (sampleError) {
@@ -170,114 +155,97 @@ export async function GET(request: Request) {
     }
 
     // Transform the data to match our component's expected format
-    const processingStart = Date.now();
-    console.log(`🔄 [API] Processing ${data.events.length} events...`);
-    
-    // Optimized: Pre-compute current time once (for event filtering)
-    const currentTime = Date.now();
-    
-    // Faster date formatting function (avoiding locale-dependent methods)
-    const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 
-                       'July', 'August', 'September', 'October', 'November', 'December'];
-    const formatDate = (date: Date): string => {
-      const month = monthNames[date.getMonth()];
-      const day = date.getDate();
-      const year = date.getFullYear();
-      const hours = date.getHours();
-      const minutes = date.getMinutes();
-      const ampm = hours >= 12 ? 'PM' : 'AM';
-      const displayHours = hours % 12 || 12;
-      const displayMinutes = minutes.toString().padStart(2, '0');
-      
-      return `${month} ${day}, ${year} ${displayHours}:${displayMinutes} ${ampm}`;
-    };
-    
-    // Optimized: Single pass filter + map
-    const processedEvents: ProcessedEvent[] = [];
-    const eventCount = data.events.length;
-    
-    for (let i = 0; i < eventCount; i++) {
-      const event = data.events[i];
-      
-      try {
-        // Quick filter check first
-        if (!event.description || event.description.length <= 10) continue;
-        
-        const eventDate = new Date(event.start_date);
-        if (isNaN(eventDate.getTime()) || eventDate.getTime() < currentTime) continue;
-        
-        // Process the event
-        const startDate = new Date(event.start_date);
-        const endDate = new Date(event.end_date);
-        
-        let dateString = formatDate(startDate);
-        
-        if (startDate.toDateString() === endDate.toDateString()) {
-          const endHours = endDate.getHours();
-          const endMinutes = endDate.getMinutes();
-          const endAmpm = endHours >= 12 ? 'PM' : 'AM';
-          const endDisplayHours = endHours % 12 || 12;
-          const endDisplayMinutes = endMinutes.toString().padStart(2, '0');
-          dateString += ` - ${endDisplayHours}:${endDisplayMinutes} ${endAmpm}`;
-        } else {
-          dateString += ` to ${formatDate(endDate)}`;
+    const processedEvents: ProcessedEvent[] = data.events
+      .filter((event: RawEvent) => {
+        try {
+          // Filter for future events and events with meaningful descriptions
+          const eventDate = new Date(event.start_date);
+          const now = new Date();
+          const isFuture = eventDate >= now;
+          const hasDescription = event.description && event.description.length > 10;
+          return isFuture && hasDescription;
+        } catch (_unused) {
+          // Skip events with invalid data
+          return false;
         }
+      })
+      // Remove limit to show all available events
+      .map((event: RawEvent) => {
+        try {
+          // Format the date
+          const startDate = new Date(event.start_date);
+          const endDate = new Date(event.end_date);
+          let dateString = startDate.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          });
 
-        // Get institution name (optimized string operations)
-        let institution = event.metadata?.source_name || event.source;
-        institution = institution.replace(/_/g, ' ').replace(/\b\w/g, (l: string) => l.toUpperCase());
-
-        // Get location
-        const location = event.metadata?.venue?.name || event.metadata?.venue?.address || 'Location TBD';
-
-        // Get category (optimized)
-        let category: string[] = [];
-        if (event.category) {
-          if (Array.isArray(event.category)) {
-            category = event.category.map((cat: string) => {
-              const first = cat.charAt(0).toUpperCase();
-              const rest = cat.slice(1).toLowerCase();
-              return first + rest;
-            });
-          } else if (typeof event.category === 'string') {
-            const first = event.category.charAt(0).toUpperCase();
-            const rest = event.category.slice(1).toLowerCase();
-            category = [first + rest];
+          if (startDate.toDateString() === endDate.toDateString()) {
+            dateString += ` - ${endDate.toLocaleTimeString('en-US', {
+              hour: '2-digit',
+              minute: '2-digit'
+            })}`;
+          } else {
+            dateString += ` to ${endDate.toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit'
+            })}`;
           }
+
+          // Get institution name
+          let institution = event.metadata?.source_name || event.source;
+          institution = institution.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+          // Get location
+          const location = event.metadata?.venue?.name || event.metadata?.venue?.address || 'Location TBD';
+
+          // Get category (handle both string and array formats)
+          let category: string[] = [];
+          if (event.category) {
+            if (Array.isArray(event.category)) {
+              // It's an array
+              category = event.category.map(cat => cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase());
+            } else if (typeof event.category === 'string') {
+              // It's a string, convert to array
+              category = [event.category.charAt(0).toUpperCase() + event.category.slice(1).toLowerCase()];
+            }
+          }
+          if (category.length === 0) {
+            category = ['Academic Event'];
+          }
+
+          // Clean up description
+          let description = event.description;
+          if (description.length > 500) {
+            description = description.substring(0, 500) + '...';
+          }
+
+          return {
+            title: event.name,
+            institution,
+            date: dateString,
+            location,
+            category,
+            description,
+            source_url: event.metadata?.source_url
+          };
+        } catch (error) {
+          console.error('API: Error processing event:', event.id, error);
+          return null;
         }
-        if (category.length === 0) {
-          category = ['Academic Event'];
-        }
+      })
+      .filter((event: ProcessedEvent | null): event is ProcessedEvent => event !== null);
 
-        // Clean up description (optimized)
-        const description = event.description.length > 500 
-          ? event.description.substring(0, 500) + '...'
-          : event.description;
-
-        processedEvents.push({
-          title: event.name,
-          institution,
-          date: dateString,
-          location,
-          category,
-          description,
-          source_url: event.metadata?.source_url
-        });
-      } catch (error) {
-        // Skip invalid events silently
-        continue;
-      }
-    }
-
-    const processingTime = Date.now() - processingStart;
-    console.log(`✅ [API] Processing complete: ${processedEvents.length} events processed in ${processingTime}ms`);
     
     // Cache the processed events
     cachedEvents = processedEvents;
     cacheTimestamp = Date.now();
-    
-    const totalTime = Date.now() - apiStartTime;
-    console.log(`🏁 [API] Total API request time: ${totalTime}ms`);
     
     return getFilteredEvents(processedEvents, { search, category, institution });
 

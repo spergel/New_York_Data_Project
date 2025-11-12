@@ -106,12 +106,6 @@ export class MobilePageGenerator {
                 <h2 style="color: #dc2626; margin-bottom: 1.5rem; font-size: 2rem;">SomethingToDo</h2>
               </div>
               <div class="mobile-publisher-description">
-                <p style="margin-bottom: 1.5rem; line-height: 1.6; font-size: 1.1rem;">
-                  <strong>Joshua Spergel</strong> is a New York-based developer and data enthusiast passionate about discovering and sharing events across the city. With a keen interest in web scraping and data collection, Joshua creates tools to help people find interesting academic, tech, and cultural events happening in NYC.
-                </p>
-                <p style="margin-bottom: 1.5rem; line-height: 1.6; font-size: 1.1rem;">
-                  Through his work, Joshua aims to connect the academic and tech communities by making event discovery more accessible and enjoyable.
-                </p>
                 <div class="mobile-publisher-links" style="margin-bottom: 1.5rem;">
                   <p><strong>Visit our sites:</strong></p>
                   <ul style="list-style: none; padding: 0;">
@@ -121,11 +115,21 @@ export class MobilePageGenerator {
                       </a>
                       <span style="color: #6b7280; margin-left: 0.5rem;">- Academic & Cultural Events</span>
                     </li>
-                    <li>
+                    <li style="margin-bottom: 0.5rem;">
                       <a href="https://tech.somethingtodo.nyc" target="_blank" style="color: #10b981; text-decoration: none; border-bottom: 1px solid #10b981;">
                         tech.somethingtodo.nyc
                       </a>
                       <span style="color: #6b7280; margin-left: 0.5rem;">- Tech & Startup Events</span>
+                    </li>
+                    <li style="margin-bottom: 0.5rem;">
+                      <a href="https://legal.somethingtodo.nyc" target="_blank" style="color: #8b5cf6; text-decoration: none; border-bottom: 1px solid #8b5cf6;">
+                        legal.somethingtodo.nyc
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://spergel.github.io" target="_blank" style="color: #ec4899; text-decoration: none; border-bottom: 1px solid #ec4899;">
+                        spergel.github.io
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -214,38 +218,25 @@ export class MobilePageGenerator {
           </div>
           <div class="mobile-section-body">
             <div class="mobile-events-grid">
-              ${sortedEvents.map((event, index) => {
-                const eventId = `event-${index}-${event.title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`;
-                return `
-                <div class="mobile-event-card ${index > 0 ? 'mobile-event-separator' : ''}" data-event-id="${eventId}">
-                  <div class="mobile-event-header" onclick="window.toggleEventDescription('${eventId}')" style="cursor: pointer;">
-                    <div class="mobile-event-header-content">
-                      <h3 class="mobile-event-title ${event.source_url ? 'mobile-clickable-event' : ''}"
-                          ${event.source_url ? `onclick="event.stopPropagation(); window.open('${event.source_url}', '_blank')"` : 'onclick="event.stopPropagation(); window.toggleEventDescription(\'' + eventId + '\')"'}>
-                        ${sanitizeTitle(event.title)}
-                      </h3>
-                      <div class="mobile-event-meta" onclick="event.stopPropagation();">
-                        <p>
-                          <strong class="mobile-clickable-institution"
-                                 onclick="window.scrollToInstitution('${escapeForJS(event.institution)}')"
-                                 style="cursor: pointer; color: #3b82f6;">
-                            ${event.institution}
-                          </strong> • <em>${event.date}</em>
-                        </p>
-                        ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
-                        ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="mobile-clickable-category" onclick="window.scrollToCategory('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
-                      </div>
-                    </div>
-                    <button class="mobile-event-expand-btn" aria-label="Toggle description" onclick="event.stopPropagation(); window.toggleEventDescription('${eventId}');">
-                      <span class="mobile-event-expand-icon">></span>
-                    </button>
-                  </div>
-                  <div class="mobile-event-description mobile-event-description-collapsed" id="${eventId}-description">
-                    ${sanitizeHtml(event.description)}
+              ${sortedEvents.map((event, index) => `
+                <div class="mobile-event-card ${index > 0 ? 'mobile-event-separator' : ''}">
+                  <h3 class="mobile-event-title ${event.source_url ? 'mobile-clickable-event' : ''}"
+                      ${event.source_url ? `onclick="window.open('${event.source_url}', '_blank')"` : ''}>
+                    ${sanitizeTitle(event.title)}
+                  </h3>
+                  <div class="mobile-event-meta">
+                    <p>
+                      <strong class="mobile-clickable-institution"
+                             onclick="window.scrollToInstitution('${escapeForJS(this.cleanInstitutions(event.institution))}')"
+                             style="cursor: pointer; color: #3b82f6;">
+                        ${event.institution}
+                      </strong> • <em>${event.date}</em>
+                    </p>
+                    ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
+                    ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="mobile-clickable-category" onclick="window.scrollToCategory('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
                   </div>
                 </div>
-              `;
-              }).join('')}
+              `).join('')}
             </div>
           </div>
         </div>
@@ -272,38 +263,26 @@ export class MobilePageGenerator {
             </div>
             <div class="mobile-section-body">
               <div class="mobile-events-grid">
-                ${institutionEvents.map((event, index) => {
-                  const eventId = `inst-${institution.toLowerCase().replace(/\s+/g, '-')}-${index}-${event.title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`;
-                  return `
-                  <div class="mobile-event-card ${index > 0 ? 'mobile-event-separator' : ''}" data-event-id="${eventId}">
-                    <div class="mobile-event-header" onclick="window.toggleEventDescription('${eventId}')" style="cursor: pointer;">
-                      <div class="mobile-event-header-content">
-                        <h3 class="mobile-event-title ${event.source_url ? 'mobile-clickable-event' : ''}"
-                            ${event.source_url ? `onclick="event.stopPropagation(); window.open('${event.source_url}', '_blank')"` : 'onclick="event.stopPropagation(); window.toggleEventDescription(\'' + eventId + '\')"'}>
-                          ${sanitizeTitle(event.title)}
-                        </h3>
-                        <div class="mobile-event-meta" onclick="event.stopPropagation();">
-                          <p>
-                            <strong class="mobile-clickable-institution"
-                                   onclick="window.scrollToInstitution('${escapeForJS(event.institution)}')"
-                                   style="cursor: pointer; color: #10b981;">
-                              ${event.institution}
-                            </strong> • <em>${event.date}</em>
-                          </p>
-                          ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
-                          ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="mobile-clickable-category" onclick="window.scrollToCategory('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
-                        </div>
-                      </div>
-                      <button class="mobile-event-expand-btn" aria-label="Toggle description" onclick="event.stopPropagation(); window.toggleEventDescription('${eventId}');">
-                        <span class="mobile-event-expand-icon">›</span>
-                      </button>
+                ${institutionEvents.map((event, index) => `
+                  <div class="mobile-event-card ${index > 0 ? 'mobile-event-separator' : ''}">
+                    <h3 class="mobile-event-title ${event.source_url ? 'mobile-clickable-event' : ''}"
+                        ${event.source_url ? `onclick="window.open('${event.source_url}', '_blank')"` : ''}>
+                      ${sanitizeTitle(event.title)}
+                    </h3>
+                    <div class="mobile-event-meta">
+                      <p>
+                        <strong class="mobile-clickable-institution"
+                               onclick="window.scrollToInstitution('${escapeForJS(event.institution)}')"
+                               style="cursor: pointer; color: #10b981;">
+                          ${event.institution}
+                        </strong> • <em>${event.date}</em>
+                      </p>
+                      ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
+                      ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="mobile-clickable-category" onclick="window.scrollToCategory('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
                     </div>
-                    <div class="mobile-event-description mobile-event-description-collapsed" id="${eventId}-description">
-                      ${sanitizeHtml(event.description)}
-                    </div>
+                    <div class="mobile-event-description">${sanitizeHtml(event.description)}</div>
                   </div>
-                `;
-                }).join('')}
+                `).join('')}
               </div>
             </div>
           </div>
@@ -333,38 +312,26 @@ export class MobilePageGenerator {
             </div>
             <div class="mobile-section-body">
               <div class="mobile-events-grid">
-                ${categoryEvents.map((event, index) => {
-                  const eventId = `cat-${category.toLowerCase().replace(/\s+/g, '-')}-${index}-${event.title.toLowerCase().replace(/\s+/g, '-').substring(0, 20)}`;
-                  return `
-                  <div class="mobile-event-card ${index > 0 ? 'mobile-event-separator' : ''}" data-event-id="${eventId}">
-                    <div class="mobile-event-header" onclick="window.toggleEventDescription('${eventId}')" style="cursor: pointer;">
-                      <div class="mobile-event-header-content">
-                        <h3 class="mobile-event-title ${event.source_url ? 'mobile-clickable-event' : ''}"
-                            ${event.source_url ? `onclick="event.stopPropagation(); window.open('${event.source_url}', '_blank')"` : 'onclick="event.stopPropagation(); window.toggleEventDescription(\'' + eventId + '\')"'}>
-                          ${sanitizeTitle(event.title)}
-                        </h3>
-                        <div class="mobile-event-meta" onclick="event.stopPropagation();">
-                          <p>
-                            <strong class="mobile-clickable-institution"
-                                   onclick="window.scrollToInstitution('${escapeForJS(event.institution)}')"
-                                   style="cursor: pointer; color: #10b981;">
-                              ${event.institution}
-                            </strong> • <em>${event.date}</em>
-                          </p>
-                          ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
-                          ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="mobile-clickable-category" onclick="window.scrollToCategory('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
-                        </div>
-                      </div>
-                      <button class="mobile-event-expand-btn" aria-label="Toggle description" onclick="event.stopPropagation(); window.toggleEventDescription('${eventId}');">
-                        <span class="mobile-event-expand-icon">›</span>
-                      </button>
+                ${categoryEvents.map((event, index) => `
+                  <div class="mobile-event-card ${index > 0 ? 'mobile-event-separator' : ''}">
+                    <h3 class="mobile-event-title ${event.source_url ? 'mobile-clickable-event' : ''}"
+                        ${event.source_url ? `onclick="window.open('${event.source_url}', '_blank')"` : ''}>
+                      ${sanitizeTitle(event.title)}
+                    </h3>
+                    <div class="mobile-event-meta">
+                      <p>
+                        <strong class="mobile-clickable-institution"
+                               onclick="window.scrollToInstitution('${escapeForJS(event.institution)}')"
+                               style="cursor: pointer; color: #10b981;">
+                          ${event.institution}
+                        </strong> • <em>${event.date}</em>
+                      </p>
+                      ${event.location && event.location !== 'Location TBD' ? `<p><strong>Location:</strong> ${event.location}</p>` : ''}
+                      ${event.category && event.category.length > 0 ? `<p><strong>Categories:</strong> ${event.category.map(cat => `<span class="mobile-clickable-category" onclick="window.scrollToCategory('${escapeForJS(cat)}')" style="cursor: pointer; color: #f59e0b;">${cat}</span>`).join(', ')}</p>` : ''}
                     </div>
-                    <div class="mobile-event-description mobile-event-description-collapsed" id="${eventId}-description">
-                      ${sanitizeHtml(event.description)}
-                    </div>
+                    <div class="mobile-event-description">${sanitizeHtml(event.description)}</div>
                   </div>
-                `;
-                }).join('')}
+                `).join('')}
               </div>
             </div>
           </div>
@@ -373,4 +340,3 @@ export class MobilePageGenerator {
     }).join('');
   };
 }
-
