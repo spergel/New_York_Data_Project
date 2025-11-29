@@ -224,19 +224,10 @@ def standardize_new_school_events(events):
                 continue
 
             # Convert Unix timestamps to datetime objects
-            # The New School API timestamps are already in EST timezone
-            # We need to treat them as EST and convert to UTC for storage
-            
-            from datetime import timezone, timedelta
-            est = timezone(timedelta(hours=-5))  # EST is UTC-5
-            
-            # Convert timestamps assuming they are in EST
-            start_datetime = datetime.fromtimestamp(start_date / 1000, tz=est)
-            end_datetime = datetime.fromtimestamp(end_date / 1000, tz=est)
-            
-            # Convert to UTC for consistent storage
-            start_datetime = start_datetime.astimezone(timezone.utc)
-            end_datetime = end_datetime.astimezone(timezone.utc)
+            # The New School API timestamps are in milliseconds and represent UTC time
+            # Convert directly from UTC timestamp
+            start_datetime = datetime.fromtimestamp(start_date / 1000, tz=timezone.utc)
+            end_datetime = datetime.fromtimestamp(end_date / 1000, tz=timezone.utc)
             
 
             # Create event data for type and category determination

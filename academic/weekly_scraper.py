@@ -29,9 +29,10 @@ def run_scrapers():
         'gallatin_events.py',                   # [PASS] 21 events
         'isaw_events.py',                       # [PASS] 5 events
         'jtsa_events.py',                       # [PASS] 10 events
-        'juilliard_events.py',                  # [WARN] Cloudflare blocked
+        'juilliard_events.py',                  # [PASS] 20 events (improved with retry logic)
         'miller_events.py',                     # [PASS] 57 events
-        'new_school_events.py',                 # [PASS] 70 events
+        'new_school_events.py',                 # [PASS] 70 events (fixed timezone)
+        'nyas_events.py',                       # [PASS] 16 events (NEW)
         'nyu_api_events.py',                    # [PASS] 43 events (NEW API)
         'nyu_cims_events.py',                   # [PASS] 38 events
         'nyu_education_events.py',              # [PASS] 2 events
