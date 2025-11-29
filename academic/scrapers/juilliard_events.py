@@ -5,6 +5,7 @@ import hashlib
 import json
 import time
 import random
+import sys
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
 
@@ -147,102 +148,134 @@ def determine_categories_juilliard(event_data):
     return categories
 
 def fetch_juilliard_events():
-    """Try multiple approaches to fetch Juilliard events"""
+    """Try multiple approaches to fetch Juilliard events with retries"""
     
-    # Approach 1: Try the main events page directly
-    try:
-        print("Trying direct approach to Juilliard events page...")
-        scraper = cloudscraper.create_scraper(
-            browser={
-                'browser': 'chrome',
-                'platform': 'windows',
-                'mobile': False
-            },
-            delay=10
-        )
-        
-        # Add random delay to avoid rate limiting
-        time.sleep(random.uniform(1, 3))
-        
-        url = "https://www.juilliard.edu/events"
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Connection": "keep-alive",
-            "Upgrade-Insecure-Requests": "1",
-        }
-        
-        response = scraper.get(url, headers=headers, timeout=30)
-        
-        if response.status_code == 200 and "Just a moment" not in response.text:
-            print("Successfully accessed Juilliard events page")
-            return parse_juilliard_html(response.text)
-        else:
-            print(f"Direct approach failed, status: {response.status_code}")
+    max_retries = 3
+    retry_delay = 5
+    
+    # Approach 1: Try the main events page directly (with retries)
+    for attempt in range(max_retries):
+        try:
+            if attempt > 0:
+                print(f"Retry attempt {attempt + 1}/{max_retries} for direct approach...")
+                time.sleep(retry_delay * attempt)
             
-    except Exception as e:
-        print(f"Direct approach error: {e}")
+            print("Trying direct approach to Juilliard events page...")
+            scraper = cloudscraper.create_scraper(
+                browser={
+                    'browser': 'chrome',
+                    'platform': 'windows',
+                    'mobile': False
+                },
+                delay=10
+            )
+            
+            # Add random delay to avoid rate limiting
+            time.sleep(random.uniform(1, 3))
+            
+            url = "https://www.juilliard.edu/events"
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.5",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Connection": "keep-alive",
+                "Upgrade-Insecure-Requests": "1",
+            }
+            
+            response = scraper.get(url, headers=headers, timeout=30)
+            
+            if response.status_code == 200:
+                if "Just a moment" in response.text or "checking your browser" in response.text.lower():
+                    print(f"Cloudflare challenge detected (attempt {attempt + 1}), retrying...")
+                    if attempt < max_retries - 1:
+                        continue
+                else:
+                    print("Successfully accessed Juilliard events page")
+                    parsed = parse_juilliard_html(response.text)
+                    if parsed:
+                        return parsed
+            else:
+                print(f"Direct approach failed, status: {response.status_code}")
+                if attempt < max_retries - 1:
+                    continue
+                    
+        except Exception as e:
+            print(f"Direct approach error (attempt {attempt + 1}): {e}")
+            if attempt < max_retries - 1:
+                continue
     
-    # Approach 2: Try the AJAX endpoint with better headers
-    try:
-        print("Trying AJAX approach with improved headers...")
-        scraper = cloudscraper.create_scraper(
-            browser={
-                'browser': 'chrome',
-                'platform': 'windows',
-                'mobile': False
-            },
-            delay=10
-        )
-        
-        time.sleep(random.uniform(2, 4))
-        
-        url = "https://www.juilliard.edu/views/ajax"
-        
-        querystring = {
-            "_wrapper_format": "drupal_ajax",
-            "view_name": "performance_calendar",
-            "view_display_id": "block_1",
-            "view_args": "",
-            "view_path": "/node/4747",
-            "view_base_path": "",
-            "view_dom_id": "21d160607ab8a63f7868e5e2553121efd4689eaecd9825f235b27b3e83dc6df3",
-            "pager_element": "0",
-            "page": "0",
-            "_drupal_ajax": "1",
-            "ajax_page_state[theme]": "juilliard",
-            "ajax_page_state[theme_token]": "",
-            "ajax_page_state[libraries]": "eJx1kl1u4zAMhC_kxE97HoGWmJgJJQokldZ7-sr56SrY9sWQZwbQ8KMgJRco2wzPw_GkUnzCT2cq1zlpq8DH5-90acEqXl3pcx7OIUquUrB4YIGE-mvwA5fvrPUUMRNomiFGNKOFmHwLWRKOZspUgovwAjrosTe930nmVM6j01R3J8E2qCeJzYK0fRa0N0McNTBs3Rz0M8sCfLiM2dUz_7GVboNGGc4YIlQnKWN4p9GnUQz3uwcnQx-pwC0ktKtL_cnK0nmMIHYuWujvCKGinkQzlLg3YCzpjZFFFeYOL_TEKm8WdoA9vf3Sw3zjN0zdDn0DP0R3xxA0rgGay75iRh-r98XvNf_j8NKtLZl8qqBwVqirvZ7eP-XYSm1LX_aKabLNHPO8gOF0I_yw-f49dkSNn1KgcqJCjuFB4RE5vNTDQ_0C-V0zLg"
-        }
-        
-        headers = {
-            "accept": "application/json, text/javascript, */*; q=0.01",
-            "accept-language": "en-US,en;q=0.9",
-            "referer": "https://www.juilliard.edu/",
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "x-requested-with": "XMLHttpRequest",
-            "sec-fetch-site": "same-origin",
-            "sec-fetch-mode": "cors",
-            "sec-fetch-dest": "empty"
-        }
-        
-        response = scraper.get(url, headers=headers, params=querystring, timeout=30)
-        
-        if response.status_code == 200 and response.text.strip():
-            try:
-                data = response.json()
-                if data:
-                    print("Successfully fetched AJAX data")
-                    return data
-            except json.JSONDecodeError:
-                print("AJAX response is not valid JSON")
-                
-    except Exception as e:
-        print(f"AJAX approach error: {e}")
+    # Approach 2: Try the AJAX endpoint with better headers (with retries)
+    for attempt in range(max_retries):
+        try:
+            if attempt > 0:
+                print(f"Retry attempt {attempt + 1}/{max_retries} for AJAX approach...")
+                time.sleep(retry_delay * attempt)
+            
+            print("Trying AJAX approach with improved headers...")
+            scraper = cloudscraper.create_scraper(
+                browser={
+                    'browser': 'chrome',
+                    'platform': 'windows',
+                    'mobile': False
+                },
+                delay=10
+            )
+            
+            time.sleep(random.uniform(2, 4))
+            
+            url = "https://www.juilliard.edu/views/ajax"
+            
+            querystring = {
+                "_wrapper_format": "drupal_ajax",
+                "view_name": "performance_calendar",
+                "view_display_id": "block_1",
+                "view_args": "",
+                "view_path": "/node/4747",
+                "view_base_path": "",
+                "view_dom_id": "21d160607ab8a63f7868e5e2553121efd4689eaecd9825f235b27b3e83dc6df3",
+                "pager_element": "0",
+                "page": "0",
+                "_drupal_ajax": "1",
+                "ajax_page_state[theme]": "juilliard",
+                "ajax_page_state[theme_token]": "",
+                "ajax_page_state[libraries]": "eJx1kl1u4zAMhC_kxE97HoGWmJgJJQokldZ7-sr56SrY9sWQZwbQ8KMgJRco2wzPw_GkUnzCT2cq1zlpq8DH5-90acEqXl3pcx7OIUquUrB4YIGE-mvwA5fvrPUUMRNomiFGNKOFmHwLWRKOZspUgovwAjrosTe930nmVM6j01R3J8E2qCeJzYK0fRa0N0McNTBs3Rz0M8sCfLiM2dUz_7GVboNGGc4YIlQnKWN4p9GnUQz3uwcnQx-pwC0ktKtL_cnK0nmMIHYuWujvCKGinkQzlLg3YCzpjZFFFeYOL_TEKm8WdoA9vf3Sw3zjN0zdDn0DP0R3xxA0rgGay75iRh-r98XvNf_j8NKtLZl8qqBwVqirvZ7eP-XYSm1LX_aKabLNHPO8gOF0I_yw-f49dkSNn1KgcqJCjuFB4RE5vNTDQ_0C-V0zLg"
+            }
+            
+            headers = {
+                "accept": "application/json, text/javascript, */*; q=0.01",
+                "accept-language": "en-US,en;q=0.9",
+                "referer": "https://www.juilliard.edu/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "x-requested-with": "XMLHttpRequest",
+                "sec-fetch-site": "same-origin",
+                "sec-fetch-mode": "cors",
+                "sec-fetch-dest": "empty"
+            }
+            
+            response = scraper.get(url, headers=headers, params=querystring, timeout=30)
+            
+            if response.status_code == 200 and response.text.strip():
+                try:
+                    data = response.json()
+                    if data:
+                        print("Successfully fetched AJAX data")
+                        return data
+                except json.JSONDecodeError:
+                    print("AJAX response is not valid JSON")
+                    if attempt < max_retries - 1:
+                        continue
+            else:
+                print(f"AJAX approach failed, status: {response.status_code}")
+                if attempt < max_retries - 1:
+                    continue
+                    
+        except Exception as e:
+            print(f"AJAX approach error (attempt {attempt + 1}): {e}")
+            if attempt < max_retries - 1:
+                continue
     
-    print("All approaches failed")
+    print("ERROR: All approaches failed after retries. Juilliard events may be blocked by Cloudflare.")
     return []
 
 def parse_juilliard_html(html_content):
@@ -479,16 +512,32 @@ def scrape_juilliard_events():
     return parse_juilliard_events(data)
 
 def main():
-    events = scrape_juilliard_events()
-    print(f"Successfully processed {len(events['events'])} Juilliard events.")
-    
-    # Save to file for debugging
-    if events['events']:
+    try:
+        events = scrape_juilliard_events()
+        event_count = len(events.get('events', []))
+        print(f"Successfully processed {event_count} Juilliard events.")
+        
+        # Always save to file, even if empty (so weekly scraper knows it ran)
         with open('juilliard_events_debug.json', 'w', encoding='utf-8') as f:
             json.dump(events, f, indent=2, ensure_ascii=False)
-        print("Events saved to juilliard_events_debug.json")
-    else:
-        print("No events were found to save.")
+        
+        if event_count > 0:
+            print(f"Events saved to juilliard_events_debug.json")
+        else:
+            print("WARNING: No events found. File saved with empty events array.")
+            return 1  # Return error code to indicate failure
+            
+    except Exception as e:
+        print(f"ERROR: Juilliard scraper crashed: {e}")
+        import traceback
+        traceback.print_exc()
+        # Save empty result so weekly scraper knows it ran
+        with open('juilliard_events_debug.json', 'w', encoding='utf-8') as f:
+            json.dump({"events": []}, f, indent=2, ensure_ascii=False)
+        return 1
+    
+    return 0
 
 if __name__ == "__main__":
-    main()
+    exit_code = main()
+    sys.exit(exit_code)
