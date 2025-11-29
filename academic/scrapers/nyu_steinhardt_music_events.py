@@ -7,7 +7,8 @@ Scrapes music-specific events from NYU Steinhardt music pages
 import requests
 import json
 import re
-from datetime import datetime, timedelta
+import hashlib
+from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 from event_filter import filter_events, get_filter_stats
 from date_utils import standardize_datetime, create_event_dates
@@ -100,45 +101,96 @@ def scrape_nyu_steinhardt_music_events():
                                 month = month_map.get(month_text.lower())
                                 
                                 if month:
-                                    # Assume current year for now (could be improved)
+                                    # Try to determine the year - check if date is in the past
                                     current_year = datetime.now().year
-                                    event_date = datetime(current_year, month, int(day_text))
+                                    test_date = datetime(current_year, month, int(day_text))
+                                    # If the date is more than 6 months in the past, it's probably next year
+                                    if test_date < datetime.now() - timedelta(days=180):
+                                        event_date = datetime(current_year + 1, month, int(day_text))
+                                    else:
+                                        event_date = test_date
                         
                         # Extract time information
                         time_elem = teaser.find('span', class_='startend__dates')
+                        time_text = ""
+                        parsed_start_time = None
+                        parsed_end_time = None
+                        
                         if time_elem:
                             time_text = time_elem.get_text(strip=True)
-                            # Parse time like "8 pm - 9:30 pm"
-                            time_match = re.search(r'(\d{1,2})\s*(am|pm|AM|PM)\s*-\s*(\d{1,2}):(\d{2})\s*(am|pm|AM|PM)', time_text)
+                            # Parse time like "8 pm - 9:30 pm" or "8:00 pm - 9:30 pm"
+                            time_match = re.search(r'(\d{1,2})(?::(\d{2}))?\s*(am|pm|AM|PM)\s*-\s*(\d{1,2})(?::(\d{2}))?\s*(am|pm|AM|PM)', time_text)
                             if time_match:
-                                start_hour, start_period, end_hour, end_minute, end_period = time_match.groups()
-                                # Convert to 24-hour format for start time
+                                start_hour, start_min, start_period, end_hour, end_min, end_period = time_match.groups()
+                                start_min = int(start_min) if start_min else 0
+                                end_min = int(end_min) if end_min else 0
+                                
+                                # Convert start time to 24-hour format
                                 start_hour = int(start_hour)
                                 if start_period.upper() == 'PM' and start_hour != 12:
                                     start_hour += 12
                                 elif start_period.upper() == 'AM' and start_hour == 12:
                                     start_hour = 0
-                                time_text = f"{start_hour:02d}:00"
+                                parsed_start_time = f"{start_hour:02d}:{start_min:02d}"
+                                
+                                # Convert end time to 24-hour format
+                                end_hour = int(end_hour)
+                                if end_period.upper() == 'PM' and end_hour != 12:
+                                    end_hour += 12
+                                elif end_period.upper() == 'AM' and end_hour == 12:
+                                    end_hour = 0
+                                parsed_end_time = f"{end_hour:02d}:{end_min:02d}"
+                                
+                                # Use the full time range for create_event_dates
+                                time_text = f"{parsed_start_time} - {parsed_end_time}"
+                            else:
+                                # Try simpler format like "8 pm" or "8:00 pm"
+                                simple_match = re.search(r'(\d{1,2})(?::(\d{2}))?\s*(am|pm|AM|PM)', time_text)
+                                if simple_match:
+                                    hour, minute, period = simple_match.groups()
+                                    minute = int(minute) if minute else 0
+                                    hour = int(hour)
+                                    if period.upper() == 'PM' and hour != 12:
+                                        hour += 12
+                                    elif period.upper() == 'AM' and hour == 12:
+                                        hour = 0
+                                    time_text = f"{hour:02d}:{minute:02d}"
                         
                         # If we have a date, create the event
                         if event_date:
-                            # Generate unique ID
-                            event_id = f"evt_nyu_steinhardt_music_{hash(title + str(event_date)) % 100000000:08x}"
+                            # Generate unique ID using hash
+                            event_id = f"evt_nyu_steinhardt_music_{hashlib.md5((title + event_url + str(event_date)).encode()).hexdigest()[:8]}"
                             
-                            # Create standardized dates
+                            # Create standardized dates with proper timezone handling
                             if time_text:
-                                start_date, end_date = create_event_dates(
-                                    event_date.strftime('%Y-%m-%d'), 
-                                    time_text, 
-                                    duration_hours=1.5  # Default 1.5 hours for events
-                                )
+                                # Parse the time range if we have it
+                                if parsed_start_time and parsed_end_time:
+                                    # Create datetime objects with timezone
+                                    start_dt = datetime.combine(event_date.date(), datetime.strptime(parsed_start_time, "%H:%M").time())
+                                    end_dt = datetime.combine(event_date.date(), datetime.strptime(parsed_end_time, "%H:%M").time())
+                                    
+                                    # Assume Eastern Time (EST/EDT)
+                                    est = timezone(timedelta(hours=-5))
+                                    start_dt = start_dt.replace(tzinfo=est)
+                                    end_dt = end_dt.replace(tzinfo=est)
+                                    
+                                    # Convert to UTC
+                                    start_date = start_dt.astimezone(timezone.utc).isoformat()
+                                    end_date = end_dt.astimezone(timezone.utc).isoformat()
+                                else:
+                                    # Use create_event_dates for single time
+                                    start_date, end_date = create_event_dates(
+                                        event_date.strftime('%Y-%m-%d'), 
+                                        time_text, 
+                                        duration_hours=1.5
+                                    )
                             else:
-                                # Default to 7:00 PM if no time specified
-                                start_date, end_date = create_event_dates(
-                                    event_date.strftime('%Y-%m-%d'), 
-                                    "19:00", 
-                                    duration_hours=1.5
-                                )
+                                # Default to 7:00 PM EST if no time specified
+                                default_time = datetime.combine(event_date.date(), datetime.strptime("19:00", "%H:%M").time())
+                                est = timezone(timedelta(hours=-5))
+                                default_time = default_time.replace(tzinfo=est)
+                                start_date = default_time.astimezone(timezone.utc).isoformat()
+                                end_date = (default_time + timedelta(hours=1.5)).astimezone(timezone.utc).isoformat()
                             
                             # Extract areas of study
                             areas_elem = teaser.find('span', class_='fields-inline__content--inline')
@@ -146,30 +198,34 @@ def scrape_nyu_steinhardt_music_events():
                             if areas_elem:
                                 areas = areas_elem.get_text(strip=True)
                             
-                            # Create event object
+                            # Create event object in standard format
                             event = {
                                 "id": event_id,
                                 "name": title,
+                                "type": "Performance",  # Music events are typically performances
+                                "location_id": "loc_nyu_steinhardt",
+                                "community_id": "com_nyu",
                                 "description": description,
                                 "start_date": start_date,
                                 "end_date": end_date,
-                                "location_id": None,
-                                "community_id": None,
-                                "category": "music",
-                                "url": event_url,
+                                "category": ["MUSIC_PERFORMANCE", "EDUCATION", "ARTS"],
                                 "source": "nyu_steinhardt_music",
-                                "source_group": "nyu_steinhardt_music",
-                                "source_name": "nyusteinhardtmusic",
-                                "source_url": event_url,
-                                "venue": {
-                                    "name": location,
-                                    "type": "venue"
-                                },
+                                "source_group": "NYU",
                                 "metadata": {
-                                    "scraped_at": standardize_datetime(datetime.now()),
-                                    "original_source": "NYU Steinhardt Music",
-                                    "areas_of_study": areas,
-                                    "extraction_method": "html_parsing"
+                                    "source_url": event_url,  # Put source_url in metadata for API
+                                    "source_name": "NYU Steinhardt Music Events",
+                                    "venue": {
+                                        "name": location,
+                                        "type": "venue"
+                                    },
+                                    "organizer": {
+                                        "name": "NYU Steinhardt",
+                                        "type": "organizer"
+                                    },
+                                    "additional_info": {
+                                        "areas_of_study": areas,
+                                        "scraped_at": standardize_datetime(datetime.now())
+                                    }
                                 }
                             }
                             
