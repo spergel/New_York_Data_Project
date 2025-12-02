@@ -5,8 +5,11 @@ Ensures consistent date formatting across all scrapers
 """
 
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 import re
 from typing import Optional, Tuple, Union
+
+NY_TZ = ZoneInfo("America/New_York")
 
 def standardize_datetime(dt: Optional[Union[datetime, str]]) -> Optional[str]:
     """
@@ -294,8 +297,13 @@ def format_display_date(iso_date: str) -> str:
         dt = datetime.fromisoformat(iso_date)
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
-        
-        # Format: "September 3, 2025 at 2:00 PM"
+        else:
+            dt = dt.astimezone(timezone.utc)
+
+        # Convert all displays to New York time
+        dt = dt.astimezone(NY_TZ)
+
+        # Format: "September 3, 2025 at 2:00 PM" (NYC local time)
         return dt.strftime("%B %-d, %Y at %-I:%M %p")
         
     except (ValueError, TypeError):

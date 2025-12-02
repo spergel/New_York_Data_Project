@@ -6,8 +6,11 @@ import json
 import time
 import random
 import sys
+from zoneinfo import ZoneInfo
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
+
+NY_TZ = ZoneInfo("America/New_York")
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -324,16 +327,22 @@ def parse_juilliard_html(html_content):
                 if date_str.endswith('Z'):
                     date_str = date_str[:-1] + '+00:00'
                 date = datetime.fromisoformat(date_str)
+                # Normalize to New York time for display on site
+                if date.tzinfo is None:
+                    date = date.replace(tzinfo=NY_TZ)
+                else:
+                    date = date.astimezone(NY_TZ)
                 end_date = date + timedelta(hours=2)
             else:
                 # Try to parse text date
                 date_text = date_elem.get_text(strip=True) if date_elem else ''
                 if date_text:
-                    # Simple date parsing - you might need to adjust this
+                    # Simple date parsing - assume local New York time
                     try:
                         date = datetime.strptime(date_text, "%B %d, %Y")
+                        date = date.replace(tzinfo=NY_TZ)
                         end_date = date + timedelta(hours=2)
-                    except:
+                    except Exception:
                         continue
                 else:
                     continue
@@ -450,6 +459,11 @@ def parse_juilliard_events(data):
                             continue
                             
                         date = datetime.fromisoformat(date_time['datetime'].replace('Z', '+00:00'))
+                        # Normalize to New York time for display on site
+                        if date.tzinfo is None:
+                            date = date.replace(tzinfo=NY_TZ)
+                        else:
+                            date = date.astimezone(NY_TZ)
                         end_date = date + timedelta(hours=2)  # Assume 2-hour duration
                         
                         tags = [tag.text for tag in event.find_all('div', class_='field__item') if tag.parent.get('class') == ['field--name-field-event-tags', 'field__items']]

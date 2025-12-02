@@ -2,8 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 import hashlib
 from event_filter import filter_events, get_filter_stats
+
+NY_TZ = ZoneInfo("America/New_York")
 
 # Add a custom header
 headers = {
@@ -161,7 +164,7 @@ def fetch_jtsa_events(num_pages=2):
 
 def parse_jtsa_events(events):
     standardized_events = []
-    current_year = datetime.now().year
+    current_year = datetime.now(tz=NY_TZ).year
     month_abbr = {
         'Jan': 'January', 'Feb': 'February', 'Mar': 'March', 'Apr': 'April',
         'May': 'May', 'Jun': 'June', 'Jul': 'July', 'Aug': 'August',
@@ -177,14 +180,46 @@ def parse_jtsa_events(events):
             date_str = f"{month} {day}, {current_year}"
             
             date = datetime.strptime(date_str, "%B %d, %Y")
+            # Attach New York timezone
+            date = date.replace(tzinfo=NY_TZ)
             
             # If the parsed date is in the past, assume it's for next year
-            if date < datetime.now():
+            if date < datetime.now(tz=NY_TZ):
                 date = date.replace(year=current_year + 1)
             
-            # Default to noon if no time provided
-            start_datetime = date.replace(hour=12)
+            # Default to noon NY time; may be overridden if we can parse a time range
+            start_datetime = date.replace(hour=12, minute=0)
             end_datetime = start_datetime + timedelta(hours=1)
+
+            # Try to infer a more accurate time range from the description if present, e.g. "7:00–8:30 p.m. ET"
+            description_text = event.get('description', '') or ''
+            try:
+                import re
+                # Match patterns like "7:00–8:30 p.m." or "7:00 - 8:30 p.m."
+                time_range_match = re.search(
+                    r'(\d{1,2}:\d{2})\s*[–-]\s*(\d{1,2}:\d{2})\s*(a\.m\.|p\.m\.)?',
+                    description_text,
+                    flags=re.IGNORECASE
+                )
+                if time_range_match:
+                    start_time_str, end_time_str, meridiem = time_range_match.groups()
+
+                    def parse_hm(hm_str: str, mer: str | None) -> datetime:
+                        hour, minute = map(int, hm_str.split(':'))
+                        # If meridiem specified once at the end, apply to both
+                        if mer:
+                            mer = mer.lower()
+                            if 'p.m' in mer and hour < 12:
+                                hour += 12
+                            if 'a.m' in mer and hour == 12:
+                                hour = 0
+                        return date.replace(hour=hour, minute=minute)
+
+                    start_datetime = parse_hm(start_time_str, meridiem)
+                    end_datetime = parse_hm(end_time_str, meridiem)
+            except Exception:
+                # If anything goes wrong, keep the default noon–1pm window
+                pass
 
             # Get location details
             location_str = event.get('location', '')
