@@ -150,8 +150,8 @@ def determine_categories_juilliard(event_data):
 def fetch_juilliard_events():
     """Try multiple approaches to fetch Juilliard events with retries"""
     
-    max_retries = 3
-    retry_delay = 5
+    max_retries = 2
+    retry_delay = 3
     
     # Approach 1: Try the main events page directly (with retries)
     for attempt in range(max_retries):
@@ -167,7 +167,7 @@ def fetch_juilliard_events():
                     'platform': 'windows',
                     'mobile': False
                 },
-                delay=10
+                delay=2
             )
             
             # Add random delay to avoid rate limiting
@@ -183,17 +183,21 @@ def fetch_juilliard_events():
                 "Upgrade-Insecure-Requests": "1",
             }
             
-            response = scraper.get(url, headers=headers, timeout=30)
+            response = scraper.get(url, headers=headers, timeout=15)
             
             if response.status_code == 200:
                 if "Just a moment" in response.text or "checking your browser" in response.text.lower():
-                    print(f"Cloudflare challenge detected (attempt {attempt + 1}), retrying...")
+                    print(f"Cloudflare challenge detected (attempt {attempt + 1})")
                     if attempt < max_retries - 1:
                         continue
+                    else:
+                        print("Cloudflare blocking persists after all retries, skipping direct approach")
+                        break
                 else:
                     print("Successfully accessed Juilliard events page")
                     parsed = parse_juilliard_html(response.text)
-                    if parsed:
+                    # parse_juilliard_html returns a list of event dicts, not a dict with 'events'
+                    if isinstance(parsed, list) and len(parsed) > 0:
                         return parsed
             else:
                 print(f"Direct approach failed, status: {response.status_code}")
@@ -219,7 +223,7 @@ def fetch_juilliard_events():
                     'platform': 'windows',
                     'mobile': False
                 },
-                delay=10
+                delay=2
             )
             
             time.sleep(random.uniform(2, 4))
@@ -253,7 +257,7 @@ def fetch_juilliard_events():
                 "sec-fetch-dest": "empty"
             }
             
-            response = scraper.get(url, headers=headers, params=querystring, timeout=30)
+            response = scraper.get(url, headers=headers, params=querystring, timeout=15)
             
             if response.status_code == 200 and response.text.strip():
                 try:

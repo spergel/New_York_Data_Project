@@ -5,6 +5,12 @@ import re
 import hashlib
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
+try:
+    from dateutil import tz
+    HAS_DATEUTIL = True
+except ImportError:
+    HAS_DATEUTIL = False
+    from datetime import timedelta
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -155,8 +161,23 @@ def parse_columbia_events(input_data):
             venue = standardize_venue(location_str)
 
             # Process start and end dates
-            start_date = datetime.strptime(event['start']['utcdate'], "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc)
-            end_date = datetime.strptime(event['end']['utcdate'], "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc)
+            # Columbia API returns times in UTC format (ending with Z)
+            # However, these times appear to be in Eastern Time incorrectly labeled as UTC
+            # We need to treat them as Eastern Time and convert to UTC for proper storage
+            if HAS_DATEUTIL:
+                # Use dateutil to handle EST/EDT automatically
+                eastern = tz.gettz('America/New_York')
+            else:
+                # Fallback: assume EST (UTC-5) - not perfect but better than nothing
+                eastern = timezone(timedelta(hours=-5))
+            
+            # Parse the date string (it's labeled UTC but is actually Eastern Time)
+            naive_datetime = datetime.strptime(event['start']['utcdate'], "%Y%m%dT%H%M%SZ")
+            # Treat as Eastern Time, then convert to UTC
+            start_date = naive_datetime.replace(tzinfo=eastern).astimezone(timezone.utc)
+            
+            naive_datetime_end = datetime.strptime(event['end']['utcdate'], "%Y%m%dT%H%M%SZ")
+            end_date = naive_datetime_end.replace(tzinfo=eastern).astimezone(timezone.utc)
 
             # Extract department/organizer
             department = None
