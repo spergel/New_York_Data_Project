@@ -13,20 +13,23 @@ NY_TZ = ZoneInfo("America/New_York")
 
 def standardize_datetime(dt: Optional[Union[datetime, str]]) -> Optional[str]:
     """
-    Convert any datetime object or string to standardized ISO format.
+    Convert any datetime object or string to standardized ISO format in NYC timezone.
+    
+    ALL EVENT TIMES ARE STORED IN NYC TIMEZONE (America/New_York).
+    This ensures consistent display and prevents timezone confusion.
     
     Args:
         dt: datetime object, ISO string, or None
         
     Returns:
-        ISO 8601 formatted string (UTC) or None if invalid
+        ISO 8601 formatted string in NYC timezone (America/New_York) or None if invalid
         
     Examples:
         >>> standardize_datetime(datetime(2025, 9, 3, 14, 0))
-        '2025-09-03T14:00:00+00:00'
+        '2025-09-03T14:00:00-04:00'  # or -05:00 depending on DST
         
         >>> standardize_datetime('2025-09-03T14:00:00')
-        '2025-09-03T14:00:00+00:00'
+        '2025-09-03T14:00:00-04:00'
         
         >>> standardize_datetime(None)
         None
@@ -47,18 +50,18 @@ def standardize_datetime(dt: Optional[Union[datetime, str]]) -> Optional[str]:
     
     # Make timezone-aware if it isn't already
     if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
+        # Assume naive datetimes are in NYC time
+        dt = dt.replace(tzinfo=NY_TZ)
+    else:
+        # Convert to NYC timezone if it has a different timezone
+        dt = dt.astimezone(NY_TZ)
     
-    # Convert to UTC if it has a different timezone
-    if dt.tzinfo != timezone.utc:
-        dt = dt.astimezone(timezone.utc)
-    
-    # Return ISO format with UTC timezone
+    # Return ISO format with NYC timezone
     return dt.isoformat()
 
 def parse_flexible_date(date_str: str, time_str: str = "", default_hour: int = 9) -> Optional[datetime]:
     """
-    Parse various date formats into a datetime object.
+    Parse various date formats into a datetime object in NYC timezone.
     
     Args:
         date_str: Date string in various formats
@@ -66,7 +69,7 @@ def parse_flexible_date(date_str: str, time_str: str = "", default_hour: int = 9
         default_hour: Default hour if no time specified
         
     Returns:
-        datetime object or None if parsing fails
+        datetime object in NYC timezone (America/New_York) or None if parsing fails
         
     Supported date formats:
         - "September 3, 2025"
@@ -79,46 +82,51 @@ def parse_flexible_date(date_str: str, time_str: str = "", default_hour: int = 9
         return None
     
     date_str = date_str.strip()
-    current_year = datetime.now().year
+    current_year = datetime.now(NY_TZ).year
     
     try:
+        dt = None
         # Format 1: "September 3, 2025"
         if re.match(r'^[A-Z][a-z]+ \d{1,2}, \d{4}$', date_str):
-            return datetime.strptime(date_str, "%B %d, %Y")
+            dt = datetime.strptime(date_str, "%B %d, %Y")
         
         # Format 2: "Sep 3, 2025" 
         elif re.match(r'^[A-Z][a-z]{2,3}\.?\s+\d{1,2}, \d{4}$', date_str):
             # Handle abbreviated months
             date_str = date_str.replace('.', '')
-            return datetime.strptime(date_str, "%b %d, %Y")
+            dt = datetime.strptime(date_str, "%b %d, %Y")
         
         # Format 3: "9/3/2025"
         elif re.match(r'^\d{1,2}/\d{1,2}/\d{4}$', date_str):
-            return datetime.strptime(date_str, "%m/%d/%Y")
+            dt = datetime.strptime(date_str, "%m/%d/%Y")
         
         # Format 4: "2025-09-03"
         elif re.match(r'^\d{4}-\d{2}-\d{2}$', date_str):
-            return datetime.strptime(date_str, "%Y-%m-%d")
+            dt = datetime.strptime(date_str, "%Y-%m-%d")
         
         # Format 5: "September 3" (assume current year)
         elif re.match(r'^[A-Z][a-z]+ \d{1,2}$', date_str):
             date_str = f"{date_str}, {current_year}"
-            return datetime.strptime(date_str, "%B %d, %Y")
+            dt = datetime.strptime(date_str, "%B %d, %Y")
         
         # Format 6: "Sep 3" (assume current year)
         elif re.match(r'^[A-Z][a-z]{2,3}\.?\s+\d{1,2}$', date_str):
             date_str = f"{date_str}, {current_year}"
             date_str = date_str.replace('.', '')
-            return datetime.strptime(date_str, "%b %d, %Y")
+            dt = datetime.strptime(date_str, "%b %d, %Y")
         
         # Format 7: "3 September 2025" (European format)
         elif re.match(r'^\d{1,2} [A-Z][a-z]+ \d{4}$', date_str):
-            return datetime.strptime(date_str, "%d %B %Y")
+            dt = datetime.strptime(date_str, "%d %B %Y")
         
         # Format 8: "3 Sep 2025" (European abbreviated)
         elif re.match(r'^\d{1,2} [A-Z][a-z]{2,3}\.?\s+\d{4}$', date_str):
             date_str = date_str.replace('.', '')
-            return datetime.strptime(date_str, "%d %b %Y")
+            dt = datetime.strptime(date_str, "%d %b %Y")
+        
+        # Attach NYC timezone to all parsed dates
+        if dt is not None:
+            return dt.replace(tzinfo=NY_TZ)
         
     except ValueError:
         pass
@@ -170,7 +178,7 @@ def parse_flexible_time(time_str: str) -> Optional[datetime.time]:
 
 def create_event_dates(date_str: str, time_str: str = "", duration_hours: int = 2) -> Tuple[Optional[str], Optional[str]]:
     """
-    Create standardized start and end dates for an event.
+    Create standardized start and end dates for an event in NYC timezone.
     
     Args:
         date_str: Date string
@@ -178,9 +186,9 @@ def create_event_dates(date_str: str, time_str: str = "", duration_hours: int = 
         duration_hours: Default duration if no end time specified
         
     Returns:
-        Tuple of (start_date_iso, end_date_iso) strings
+        Tuple of (start_date_iso, end_date_iso) strings in NYC timezone
     """
-    # Parse the date
+    # Parse the date (already in NYC timezone)
     date_obj = parse_flexible_date(date_str)
     if not date_obj:
         return None, None
@@ -188,21 +196,21 @@ def create_event_dates(date_str: str, time_str: str = "", duration_hours: int = 
     # Parse the time if provided
     time_obj = parse_flexible_time(time_str)
     
-    # Create start datetime
+    # Create start datetime in NYC timezone
     if time_obj:
-        start_datetime = datetime.combine(date_obj.date(), time_obj)
+        start_datetime = datetime.combine(date_obj.date(), time_obj, tzinfo=NY_TZ)
     else:
         # Default to 9 AM if no time specified
-        start_datetime = datetime.combine(date_obj.date(), datetime.min.time().replace(hour=9))
+        start_datetime = datetime.combine(date_obj.date(), datetime.min.time().replace(hour=9), tzinfo=NY_TZ)
     
     # Create end datetime
-    if time_str and "–" in time_str or "-" in time_str:
+    if time_str and ("–" in time_str or "-" in time_str):
         # Parse end time from range like "2:00 PM – 5:00 PM"
         time_parts = re.split(r'[–\-]', time_str)
         if len(time_parts) == 2:
             end_time = parse_flexible_time(time_parts[1].strip())
             if end_time:
-                end_datetime = datetime.combine(date_obj.date(), end_time)
+                end_datetime = datetime.combine(date_obj.date(), end_time, tzinfo=NY_TZ)
             else:
                 end_datetime = start_datetime + timedelta(hours=duration_hours)
         else:
@@ -211,7 +219,7 @@ def create_event_dates(date_str: str, time_str: str = "", duration_hours: int = 
         # Use default duration
         end_datetime = start_datetime + timedelta(hours=duration_hours)
     
-    # Standardize both dates
+    # Standardize both dates (already in NYC timezone, just format)
     start_iso = standardize_datetime(start_datetime)
     end_iso = standardize_datetime(end_datetime)
     
@@ -219,7 +227,7 @@ def create_event_dates(date_str: str, time_str: str = "", duration_hours: int = 
 
 def create_multi_day_event_dates(start_date_str: str, end_date_str: str, time_str: str = "") -> Tuple[Optional[str], Optional[str]]:
     """
-    Create standardized start and end dates for multi-day events.
+    Create standardized start and end dates for multi-day events in NYC timezone.
     
     Args:
         start_date_str: Start date string
@@ -227,14 +235,14 @@ def create_multi_day_event_dates(start_date_str: str, end_date_str: str, time_st
         time_str: Time string (optional)
         
     Returns:
-        Tuple of (start_date_iso, end_date_iso) strings
+        Tuple of (start_date_iso, end_date_iso) strings in NYC timezone
     """
-    # Parse start date
+    # Parse start date (already in NYC timezone)
     start_date_obj = parse_flexible_date(start_date_str)
     if not start_date_obj:
         return None, None
     
-    # Parse end date
+    # Parse end date (already in NYC timezone)
     end_date_obj = parse_flexible_date(end_date_str)
     if not end_date_obj:
         return None, None
@@ -242,19 +250,19 @@ def create_multi_day_event_dates(start_date_str: str, end_date_str: str, time_st
     # Parse time if provided
     time_obj = parse_flexible_time(time_str)
     
-    # Create start datetime
+    # Create start datetime in NYC timezone
     if time_obj:
-        start_datetime = datetime.combine(start_date_obj.date(), time_obj)
+        start_datetime = datetime.combine(start_date_obj.date(), time_obj, tzinfo=NY_TZ)
     else:
-        start_datetime = datetime.combine(start_date_obj.date(), datetime.min.time().replace(hour=9))
+        start_datetime = datetime.combine(start_date_obj.date(), datetime.min.time().replace(hour=9), tzinfo=NY_TZ)
     
     # Create end datetime (end of day if no specific time)
     if time_obj:
-        end_datetime = datetime.combine(end_date_obj.date(), time_obj)
+        end_datetime = datetime.combine(end_date_obj.date(), time_obj, tzinfo=NY_TZ)
     else:
-        end_datetime = datetime.combine(end_date_obj.date(), datetime.min.time().replace(hour=23, minute=59))
+        end_datetime = datetime.combine(end_date_obj.date(), datetime.min.time().replace(hour=23, minute=59), tzinfo=NY_TZ)
     
-    # Standardize both dates
+    # Standardize both dates (already in NYC timezone, just format)
     start_iso = standardize_datetime(start_datetime)
     end_iso = standardize_datetime(end_datetime)
     
@@ -285,38 +293,91 @@ def is_future_event(start_date: str) -> bool:
 
 def format_display_date(iso_date: str) -> str:
     """
-    Convert ISO date to human-readable format for display.
+    Convert ISO date to human-readable format for display in NYC time.
     
     Args:
-        iso_date: ISO formatted date string
+        iso_date: ISO formatted date string (should already be in NYC timezone)
         
     Returns:
-        Human-readable date string like "September 3, 2025 at 2:00 PM"
+        Human-readable date string like "September 3, 2025 at 2:00 PM" (NYC time)
     """
     try:
         dt = datetime.fromisoformat(iso_date)
+        
+        # Ensure it's in NYC timezone
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            # If naive, assume it's NYC time
+            dt = dt.replace(tzinfo=NY_TZ)
         else:
-            dt = dt.astimezone(timezone.utc)
-
-        # Convert all displays to New York time
-        dt = dt.astimezone(NY_TZ)
+            # Convert to NYC timezone if it's in a different timezone
+            dt = dt.astimezone(NY_TZ)
 
         # Format: "September 3, 2025 at 2:00 PM" (NYC local time)
-        return dt.strftime("%B %-d, %Y at %-I:%M %p")
+        # Use platform-specific format codes
+        try:
+            # Unix-style (works on Linux/Mac)
+            return dt.strftime("%B %-d, %Y at %-I:%M %p")
+        except ValueError:
+            # Windows-style fallback
+            return dt.strftime("%B %d, %Y at %I:%M %p").replace(" 0", " ")
         
     except (ValueError, TypeError):
         return iso_date
 
+def create_nyc_datetime(year: int, month: int, day: int, hour: int = 0, minute: int = 0, second: int = 0) -> datetime:
+    """
+    Create a datetime object in NYC timezone.
+    
+    This is the recommended way for scrapers to create datetime objects.
+    All event times should be in NYC timezone.
+    
+    Args:
+        year, month, day: Date components
+        hour, minute, second: Time components (default to midnight)
+        
+    Returns:
+        datetime object in NYC timezone (America/New_York)
+        
+    Example:
+        >>> create_nyc_datetime(2025, 12, 3, 19, 0)
+        datetime.datetime(2025, 12, 3, 19, 0, tzinfo=ZoneInfo('America/New_York'))
+    """
+    return datetime(year, month, day, hour, minute, second, tzinfo=NY_TZ)
+
+def to_nyc_datetime(dt: Union[datetime, str]) -> Optional[datetime]:
+    """
+    Convert any datetime or ISO string to NYC timezone.
+    
+    Args:
+        dt: datetime object or ISO string
+        
+    Returns:
+        datetime object in NYC timezone, or None if invalid
+    """
+    if isinstance(dt, str):
+        try:
+            dt = datetime.fromisoformat(dt)
+        except ValueError:
+            return None
+    
+    if not isinstance(dt, datetime):
+        return None
+    
+    if dt.tzinfo is None:
+        # Assume naive datetimes are in NYC time
+        return dt.replace(tzinfo=NY_TZ)
+    else:
+        # Convert to NYC timezone
+        return dt.astimezone(NY_TZ)
+
 # Convenience functions for common use cases
 def quick_date(date_str: str, time_str: str = "") -> Optional[str]:
-    """Quick way to get a standardized date string."""
+    """Quick way to get a standardized date string in NYC timezone."""
     start_date, _ = create_event_dates(date_str, time_str)
     return start_date
 
 def quick_datetime_range(start_date_str: str, end_date_str: str, time_str: str = "") -> Tuple[Optional[str], Optional[str]]:
-    """Quick way to get standardized start and end dates for multi-day events."""
+    """Quick way to get standardized start and end dates for multi-day events in NYC timezone."""
     return create_multi_day_event_dates(start_date_str, end_date_str, time_str)
 
 

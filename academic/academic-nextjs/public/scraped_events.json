@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-12-02T08:50:49.570109",
+  "scraped_at": "2025-12-02T08:54:26.710704",
   "total_events": 419,
   "event_sources": {
     "cims_events_debug": 32,
@@ -5367,8 +5367,8 @@
       "start_date": "2025-12-02T17:30:00",
       "end_date": "2025-12-02T20:30:00",
       "category": [
-        "TECH",
-        "DESIGN"
+        "DESIGN",
+        "TECH"
       ],
       "source": "cornell_tech",
       "source_group": "Cornell",
@@ -5402,8 +5402,8 @@
       "start_date": "2025-12-02T19:00:00",
       "end_date": "2025-12-02T21:00:00",
       "category": [
-        "TECH",
-        "DESIGN"
+        "DESIGN",
+        "TECH"
       ],
       "source": "cornell_tech",
       "source_group": "Cornell",
@@ -5665,8 +5665,8 @@
       "start_date": "2025-12-03T17:30:00",
       "end_date": "2025-12-03T19:30:00",
       "category": [
-        "RELIGION",
         "ARTS",
+        "RELIGION",
         "HISTORY"
       ],
       "source": "isaw",
@@ -5915,8 +5915,8 @@
       "end_date": "2025-12-15T13:00:00-05:00",
       "category": [
         "SOCIAL",
-        "EDUCATION",
-        "RELIGION"
+        "RELIGION",
+        "EDUCATION"
       ],
       "source": "jtsa",
       "source_group": "Independent",
@@ -5944,8 +5944,8 @@
       "end_date": "2026-01-12T13:00:00-05:00",
       "category": [
         "SOCIAL",
-        "EDUCATION",
-        "RELIGION"
+        "RELIGION",
+        "EDUCATION"
       ],
       "source": "jtsa",
       "source_group": "Independent",
@@ -11567,8 +11567,8 @@
       "start_date": "2025-12-04T15:00:00",
       "end_date": "2025-12-04T16:00:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -11602,8 +11602,8 @@
       "start_date": "2025-12-04T16:00:00",
       "end_date": "2025-12-04T17:00:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -11705,8 +11705,8 @@
       "start_date": "2025-12-05T15:30:00",
       "end_date": "2025-12-05T16:30:00",
       "category": [
-        "CAREER",
-        "TECH"
+        "TECH",
+        "CAREER"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -11978,8 +11978,8 @@
       "start_date": "2025-01-29T16:00:00",
       "end_date": "2025-01-29T17:00:00",
       "category": [
-        "EDUCATION",
-        "TECH"
+        "TECH",
+        "EDUCATION"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -12038,7 +12038,7 @@
       }
     },
     {
-      "id": "evt_nyu_neuroscience_018c6e95",
+      "id": "evt_nyu_neuroscience_056c694f",
       "name": "First Year Talks: Session 1",
       "description": "Thursday, December 4, 2025, 3:30&nbsp;&ndash;&nbsp;5:30pm <br/><br/>Second-year Neuro PhD students will give 10-min presentations on select first-year rotation projects<br />with a couple minutes of Q&amp;A to follow. All interested community members are encouraged to attend these mini symposia!<br /><br />Speakers: Violet Bupp-Chickering, Olivia DeGulis,<br />Mercer Kriese, Chloe Mengden,<br />Shujun Xiong, Audrey Chang,<br />Sydney Maeker &amp; Candace Tong-Li <br/><br/><b>NYU Location</b>:&nbsp;Science Building, Rm 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series, Training <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Desiree Oliveras <br/><b>Contact Phone</b>:&nbsp;2122630517 <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:desiree.oliveras@nyulangone.org\" target=\"_blank\" rel=\"noopener\">desiree.oliveras@nyulangone.org</a> <br/><b>Refreshments Offered</b>:&nbsp;Yes <br/><b>Fee Required</b>:&nbsp;No <br/><b>Medical Center Wide</b>:&nbsp;Yes <br/><b>Online Event Link</b>:&nbsp;<a href=\"https://nyulangone.zoom.us/j/97122842188?pwd=7aa05jbJdtrXvQUkneSE9AHjmK9YiM.1\" target=\"_blank\" rel=\"noopener\" title=\"https://nyulangone.zoom.us/j/97122842188?pwd=7aa05jbJdtrXvQUkneSE9AHjmK9YiM.1\">nyulangone.zoom.us&#8230;</a>",
       "start_date": "2025-12-04T17:30:00+00:00",
@@ -12056,14 +12056,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.890668+00:00",
+        "scraped_at": "2025-12-02T08:54:13.785262+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "Violet Bupp-Chickering, Olivia DeGulis,",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03098571",
+      "id": "evt_nyu_neuroscience_054d4674",
       "name": "Neuroscience Colloquium - Ilya Monosov, PhD (WashU/Hopkins)",
       "description": "Monday, December 8, 2025, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Ilya Monosov <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience",
       "start_date": "2025-12-08T13:30:00+00:00",
@@ -12081,14 +12081,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.891327+00:00",
+        "scraped_at": "2025-12-02T08:54:13.785626+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Ilya Monosov",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_002453a8",
+      "id": "evt_nyu_neuroscience_001697ac",
       "name": "First Year Talks: Session 2",
       "description": "Tuesday, December 9, 2025, 3:30&nbsp;&ndash;&nbsp;5:30pm <br/><br/>Second-year Neuro PhD students will give 10-min presentations on select first-year rotation projects<br />with a couple minutes of Q&amp;A to follow. All interested community members are encouraged to attend these mini symposia!<br /><br />Speakers: Tyrique Richardson, Mariami Beriashvili,<br />Catherine Leckie, James Chen,<br />Myra Granato, Beatriz de la Rea,<br />Lia Collins, Argha Bandyopadhyay<br />&amp; Stanley Park <br/><br/><b>NYU Location</b>:&nbsp;Smilow Building, Seminar Room 104 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series, Training <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Desiree Oliveras <br/><b>Contact Phone</b>:&nbsp;2122630517 <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:desiree.oliveras@nyulangone.org\" target=\"_blank\" rel=\"noopener\">desiree.oliveras@nyulangone.org</a> <br/><b>Refreshments Offered</b>:&nbsp;Yes <br/><b>Fee Required</b>:&nbsp;No <br/><b>Medical Center Wide</b>:&nbsp;Yes <br/><b>Online Event Link</b>:&nbsp;<a href=\"https://nyulangone.zoom.us/j/92783947399?pwd=4WcjxgftajLZDvshyrFsTjx5E5LPmZ.1\" target=\"_blank\" rel=\"noopener\" title=\"https://nyulangone.zoom.us/j/92783947399?pwd=4WcjxgftajLZDvshyrFsTjx5E5LPmZ.1\">nyulangone.zoom.us&#8230;</a>",
       "start_date": "2025-12-09T17:30:00+00:00",
@@ -12106,14 +12106,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.892001+00:00",
+        "scraped_at": "2025-12-02T08:54:13.786012+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "Tyrique Richardson, Mariami Beriashvili,",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_006935d3",
+      "id": "evt_nyu_neuroscience_01e4fab7",
       "name": "Neuroscience Weekly Group Meeting - Mar Lab",
       "description": "Wednesday, December 10, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Online Event Link</b>:&nbsp;<a href=\"https://nyulangone.zoom.us/j/95317840859?pwd=phVnbqBy509UfPnMvDJ927hPn2YAnz.1\" target=\"_blank\" rel=\"noopener\" title=\"https://nyulangone.zoom.us/j/95317840859?pwd=phVnbqBy509UfPnMvDJ927hPn2YAnz.1\">nyulangone.zoom.us&#8230;</a>",
       "start_date": "2025-12-10T12:00:00+00:00",
@@ -12131,14 +12131,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.892546+00:00",
+        "scraped_at": "2025-12-02T08:54:13.786455+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01c97499",
+      "id": "evt_nyu_neuroscience_00f72a9d",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Kristyn Lizbinski, PhD (Yale)",
       "description": "Thursday, December 11, 2025, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><strong>Title:&#160;</strong><em>Sensory processing reformats odor coding around valence and dynamics</em><br /><br /><strong>Abstract:&#160;</strong><br />Extracting relevant features of a complex sensory signal typically involves sequential processing through multiple brain regions. However, identifying the logic and mechanisms of these transformations has been difficult, due to the challenges of measuring both activity within and long-range connectivity between multiple neural populations. Here, we investigate the reformatting of odor information across two stages of the Drosophila olfactory system. We measure the odor tuning of 20 types of anatomically-defined third order lateral horn neuron (LHN) and compare to predictions based on the odor tuning of second-order projection neurons (PNs) and PN-LHN connectivity. We find that LHNs reformat PN activity in two distinct ways. First, LHNs selectively discard information about odor identities with similar valence (i.e., attractiveness or aversiveness). This emerges from a precise alignment of PN odor tuning and PN-LHN connectivity, as well as odor-specific inhibition and boosting of LHN activity. This creates a population code for valence that is more explicit than in PNs. Second, a subset of LHNs selectively discard information about continuing odor presence, by responding only transiently to odor onset. This creates a population code for odor dynamics that is more explicit than in PNs. Across LHNs, valence and dynamics are independent of each other. Thus, feedforward connectivity and local inhibition combine to extract two orthogonal dimensions of olfactory information. Broadly, this work provides a framework for investigating computation by linking neural coding with connectivity. <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Kristyn Lizbinski <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Postdoctoral Research Fellow <br/><b>Speaker #1 Institution</b>:&nbsp;Yale School of Medicine <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of James Jeanne <br/><b>Seminar Host(s)</b>:&nbsp;Eleni Samara, PhD (Nagel Lab) <br/><b>Pri. Seminar Sponsor</b>:&nbsp;Department of Neuroscience",
       "start_date": "2025-12-11T12:00:00+00:00",
@@ -12156,14 +12156,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.893448+00:00",
+        "scraped_at": "2025-12-02T08:54:13.787519+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Kristyn Lizbinski",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03b1a804",
+      "id": "evt_nyu_neuroscience_05c1f701",
       "name": "Neuroscience Weekly Group Meeting - Glimcher Lab",
       "description": "Wednesday, January 7, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-07T12:00:00+00:00",
@@ -12181,14 +12181,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.893860+00:00",
+        "scraped_at": "2025-12-02T08:54:13.788144+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01346cde",
+      "id": "evt_nyu_neuroscience_0199d7c4",
       "name": "Neuroscience Colloquium - Dwight Bergles, PhD (Hopkins)",
       "description": "Monday, January 12, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Dwight Bergles <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience",
       "start_date": "2026-01-12T13:30:00+00:00",
@@ -12206,14 +12206,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.894281+00:00",
+        "scraped_at": "2025-12-02T08:54:13.788700+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Dwight Bergles",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03da6cae",
+      "id": "evt_nyu_neuroscience_05420fd0",
       "name": "Neuroscience Weekly Group Meeting - Chao Lab",
       "description": "Wednesday, January 14, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-14T12:00:00+00:00",
@@ -12231,14 +12231,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.894673+00:00",
+        "scraped_at": "2025-12-02T08:54:13.789086+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02cb1209",
+      "id": "evt_nyu_neuroscience_00c473a9",
       "name": "Neuroscience Weekly Group Meeting - Rudy Lab",
       "description": "Wednesday, January 21, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-21T12:00:00+00:00",
@@ -12256,14 +12256,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.895087+00:00",
+        "scraped_at": "2025-12-02T08:54:13.789487+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0462879e",
+      "id": "evt_nyu_neuroscience_00db4ec2",
       "name": "Neuroscience Weekly Group Meeting - Liddelow Lab",
       "description": "Wednesday, January 28, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-01-28T12:00:00+00:00",
@@ -12281,14 +12281,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.895598+00:00",
+        "scraped_at": "2025-12-02T08:54:13.789954+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05612ca6",
+      "id": "evt_nyu_neuroscience_04402155",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Andrew Matheson, PhD (Columbia)",
       "description": "Thursday, January 29, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Andrew Matheson <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;Columbia University <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Maria Antonietta Tosches",
       "start_date": "2026-01-29T12:00:00+00:00",
@@ -12306,14 +12306,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.896034+00:00",
+        "scraped_at": "2025-12-02T08:54:13.790393+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Andrew Matheson",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04698487",
+      "id": "evt_nyu_neuroscience_01c6adb2",
       "name": "Neuroscience Colloquium - Zachary Knight, PhD (UCSF)",
       "description": "Monday, February 2, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Zachary Knight <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Physiology <br/><b>Speaker #1 Institution</b>:&nbsp;UCSF",
       "start_date": "2026-02-02T13:30:00+00:00",
@@ -12331,14 +12331,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.896443+00:00",
+        "scraped_at": "2025-12-02T08:54:13.790653+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Zachary Knight",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0327ec93",
+      "id": "evt_nyu_neuroscience_039b00ff",
       "name": "Neuroscience Weekly Group Meeting - Kang Lab",
       "description": "Wednesday, February 4, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-04T12:00:00+00:00",
@@ -12356,14 +12356,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.896885+00:00",
+        "scraped_at": "2025-12-02T08:54:13.790920+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00fe38b7",
+      "id": "evt_nyu_neuroscience_0562117c",
       "name": "Neuroscience Colloquium - Kimberly Stachenfeld, PhD (Columbia)",
       "description": "Monday, February 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Kimberly Stachenfeld <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Research Scientist, Adjunct Professor, Columbia University",
       "start_date": "2026-02-09T13:30:00+00:00",
@@ -12381,14 +12381,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.897325+00:00",
+        "scraped_at": "2025-12-02T08:54:13.791172+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Kimberly Stachenfeld",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_024e48f4",
+      "id": "evt_nyu_neuroscience_03770ceb",
       "name": "Neuroscience Weekly Group Meeting - Long Lab",
       "description": "Wednesday, February 11, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-11T12:00:00+00:00",
@@ -12406,14 +12406,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.897713+00:00",
+        "scraped_at": "2025-12-02T08:54:13.791419+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_007179a5",
+      "id": "evt_nyu_neuroscience_008b80eb",
       "name": "Neuroscience Weekly Group Meeting - Buzsaki Lab",
       "description": "Wednesday, February 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-18T12:00:00+00:00",
@@ -12431,14 +12431,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.898115+00:00",
+        "scraped_at": "2025-12-02T08:54:13.791667+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04961004",
+      "id": "evt_nyu_neuroscience_038a56e1",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES)- Neta Gazit Shimoni, PhD",
       "description": "Thursday, February 19, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Neta Gazit Shimoni <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;University of California, Berkeley <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Stephan Lammel",
       "start_date": "2026-02-19T12:00:00+00:00",
@@ -12456,14 +12456,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.898517+00:00",
+        "scraped_at": "2025-12-02T08:54:13.791928+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Neta Gazit Shimoni",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_039ac242",
+      "id": "evt_nyu_neuroscience_05e20711",
       "name": "Neuroscience Colloquium - Jonathan Pillow, PhD (Princeton)",
       "description": "Monday, February 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Jonathan Pillow <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Princeton University",
       "start_date": "2026-02-23T13:30:00+00:00",
@@ -12481,14 +12481,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.898882+00:00",
+        "scraped_at": "2025-12-02T08:54:13.792164+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Jonathan Pillow",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05e3d374",
+      "id": "evt_nyu_neuroscience_00283687",
       "name": "Neuroscience Weekly Group Meeting - Shoham Lab",
       "description": "Wednesday, February 25, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-25T12:00:00+00:00",
@@ -12506,14 +12506,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.899322+00:00",
+        "scraped_at": "2025-12-02T08:54:13.792399+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05aa5545",
+      "id": "evt_nyu_neuroscience_0492d31e",
       "name": "Neuroscience Weekly Group Meeting - Nagel Lab",
       "description": "Wednesday, March 4, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-04T12:00:00+00:00",
@@ -12531,14 +12531,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.899725+00:00",
+        "scraped_at": "2025-12-02T08:54:13.792663+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02644d7d",
+      "id": "evt_nyu_neuroscience_0236049f",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Lucas Tian, PhD",
       "description": "Thursday, March 5, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Lucas Tian <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Rockefeller University <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Winrich Freiwald",
       "start_date": "2026-03-05T12:00:00+00:00",
@@ -12556,14 +12556,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.900150+00:00",
+        "scraped_at": "2025-12-02T08:54:13.792942+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Lucas Tian",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02eebe52",
+      "id": "evt_nyu_neuroscience_0414973e",
       "name": "Neuroscience Colloquium - Hillel Adensnik, PhD (UC Berkeley)",
       "description": "Monday, March 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Hillel Adensnik <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Associate Professor, Departments of Molecular &amp; Cell Biology; Neuroscience",
       "start_date": "2026-03-09T13:30:00+00:00",
@@ -12581,14 +12581,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.900541+00:00",
+        "scraped_at": "2025-12-02T08:54:13.793183+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Hillel Adensnik",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03e3342c",
+      "id": "evt_nyu_neuroscience_0136fea4",
       "name": "Neuroscience Weekly Group Meeting - Schoppik Lab",
       "description": "Wednesday, March 11, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-11T12:00:00+00:00",
@@ -12606,14 +12606,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.900932+00:00",
+        "scraped_at": "2025-12-02T08:54:13.793422+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04449bda",
+      "id": "evt_nyu_neuroscience_019bc808",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Nicholas Card, PhD",
       "description": "Thursday, March 12, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Nicholas Card <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;University of California, Davis <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Sergey Stavisky and David Brandman",
       "start_date": "2026-03-12T12:00:00+00:00",
@@ -12631,14 +12631,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.901388+00:00",
+        "scraped_at": "2025-12-02T08:54:13.793682+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Nicholas Card",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_001a273c",
+      "id": "evt_nyu_neuroscience_0303bc96",
       "name": "Neuroscience Weekly Group Meeting - Froemke Lab",
       "description": "Wednesday, March 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-18T12:00:00+00:00",
@@ -12656,14 +12656,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.901783+00:00",
+        "scraped_at": "2025-12-02T08:54:13.793923+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00e3372b",
+      "id": "evt_nyu_neuroscience_00d19cab",
       "name": "Neuroscience Colloquium - Rich Mooney, PhD (Duke)",
       "description": "Monday, March 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Rich Mooney <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neurobiology <br/><b>Speaker #1 Institution</b>:&nbsp;Duke University School of Medicine",
       "start_date": "2026-03-23T13:30:00+00:00",
@@ -12681,14 +12681,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.902180+00:00",
+        "scraped_at": "2025-12-02T08:54:13.794160+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Rich Mooney",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05ae3e0a",
+      "id": "evt_nyu_neuroscience_0234408b",
       "name": "Neuroscience Weekly Group Meeting - Flinker Lab",
       "description": "Wednesday, March 25, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-25T12:00:00+00:00",
@@ -12706,14 +12706,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.902567+00:00",
+        "scraped_at": "2025-12-02T08:54:13.794401+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0182cb62",
+      "id": "evt_nyu_neuroscience_05b7124a",
       "name": "Neuroscience Colloquium - Mehrdad Jazayeri, PhD (MIT)",
       "description": "Monday, March 30, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Mehrdad Jazayeri <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor and Director of Education, Brain and Cognitive Sciences, Investigator, Howard Hughes Medical Institute <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-03-30T13:30:00+00:00",
@@ -12731,14 +12731,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.902979+00:00",
+        "scraped_at": "2025-12-02T08:54:13.794642+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Mehrdad Jazayeri",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02854eba",
+      "id": "evt_nyu_neuroscience_04cc30fa",
       "name": "Neuroscience Weekly Group Meeting - Mosberger Lab",
       "description": "Wednesday, April 1, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-04-01T12:00:00+00:00",
@@ -12756,14 +12756,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.903429+00:00",
+        "scraped_at": "2025-12-02T08:54:13.794878+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00d8a0b8",
+      "id": "evt_nyu_neuroscience_039337ff",
       "name": "Neuroscience Colloquium - Fang Wang, PhD (MIT)",
       "description": "Monday, April 6, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Fang Wang <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor, Brain and Cognitive Sciences <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-04-06T13:30:00+00:00",
@@ -12781,14 +12781,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.903860+00:00",
+        "scraped_at": "2025-12-02T08:54:13.795144+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Fang Wang",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05d38768",
+      "id": "evt_nyu_neuroscience_00073da6",
       "name": "Neuroscience Weekly Group Meeting - Salzer Lab",
       "description": "Wednesday, April 8, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-04-08T12:00:00+00:00",
@@ -12806,14 +12806,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.904452+00:00",
+        "scraped_at": "2025-12-02T08:54:13.795383+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05185c28",
+      "id": "evt_nyu_neuroscience_01ccb652",
       "name": "Neuroscience Colloquium - Theresa Desrochers, PhD (Brown)",
       "description": "Monday, April 20, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Theresa Desrochers <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Rosenberg Family Associate Professor of Brain Science, Department of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Brown University",
       "start_date": "2026-04-20T13:30:00+00:00",
@@ -12831,14 +12831,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.905132+00:00",
+        "scraped_at": "2025-12-02T08:54:13.795620+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Theresa Desrochers",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05c86af7",
+      "id": "evt_nyu_neuroscience_034a6a4e",
       "name": "Neuroscience Weekly Group Meeting - Raven Lab",
       "description": "Wednesday, April 22, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Erika Raven <br/><b>Speaker #1 Degree</b>:&nbsp;PhD",
       "start_date": "2026-04-22T12:00:00+00:00",
@@ -12856,14 +12856,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.905673+00:00",
+        "scraped_at": "2025-12-02T08:54:13.795864+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Erika Raven",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01c032b4",
+      "id": "evt_nyu_neuroscience_021ae9e6",
       "name": "Neuroscience Weekly Group Meeting - Rice Lab",
       "description": "Wednesday, May 6, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-06T12:00:00+00:00",
@@ -12881,14 +12881,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.906187+00:00",
+        "scraped_at": "2025-12-02T08:54:13.796103+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03837975",
+      "id": "evt_nyu_neuroscience_00caf7a0",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Austin Ferro, PhD",
       "description": "Thursday, May 7, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Austin Ferro <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;Cold Spring Harbor Laboratory <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Lucas Cheadle",
       "start_date": "2026-05-07T12:00:00+00:00",
@@ -12906,14 +12906,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.906670+00:00",
+        "scraped_at": "2025-12-02T08:54:13.796354+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Austin Ferro",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0387919a",
+      "id": "evt_nyu_neuroscience_023433d2",
       "name": "Neuroscience Colloquium - Eugenia Chaippe, PhD (Champalimaud Centre for the Unknown)",
       "description": "Monday, May 11, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Eugenia Chaippe <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Principal Investigator <br/><b>Speaker #1 Institution</b>:&nbsp;Champalimaud Centre for the Unknown",
       "start_date": "2026-05-11T13:30:00+00:00",
@@ -12931,14 +12931,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.907127+00:00",
+        "scraped_at": "2025-12-02T08:54:13.796589+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Eugenia Chaippe",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_002d2906",
+      "id": "evt_nyu_neuroscience_0564b0b8",
       "name": "Neuroscience Weekly Group Meeting - Ringstad Lab",
       "description": "Wednesday, May 13, 2026, 3&nbsp;&ndash;&nbsp;4pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-13T12:00:00+00:00",
@@ -12956,14 +12956,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.907578+00:00",
+        "scraped_at": "2025-12-02T08:54:13.796825+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00861513",
+      "id": "evt_nyu_neuroscience_05308974",
       "name": "Neuroscience Colloquium - Tor Wager, PhD (Dartmouth)",
       "description": "Monday, May 18, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Tor Wager <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Diana L. Taylor Distinguished Professor in Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Dartmouth College",
       "start_date": "2026-05-18T13:30:00+00:00",
@@ -12981,14 +12981,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.907910+00:00",
+        "scraped_at": "2025-12-02T08:54:13.797131+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Tor Wager",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03190019",
+      "id": "evt_nyu_neuroscience_00081626",
       "name": "Neuroscience Weekly Group Meeting - Sigurdsson Lab",
       "description": "Wednesday, May 20, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-20T12:00:00+00:00",
@@ -13006,14 +13006,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.908166+00:00",
+        "scraped_at": "2025-12-02T08:54:13.797390+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04b69bb7",
+      "id": "evt_nyu_neuroscience_04803b0a",
       "name": "Neuroscience Weekly Group Meeting - Evrony Lab",
       "description": "Wednesday, May 27, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-27T12:00:00+00:00",
@@ -13031,7 +13031,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:34.908440+00:00",
+        "scraped_at": "2025-12-02T08:54:13.797619+00:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
@@ -13056,7 +13056,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.918079+00:00",
+        "scraped_at": "2025-12-02T08:54:15.403473+00:00",
         "original_source": "NYU Physics",
         "speaker": "Astrophysics and Relativity Seminars",
         "institution": "December 2, 2025 Tuesday 2:00 PM+726Broadway, 940, CCPP Seminar(astro)Chris FragileCollege of CharlestonWhat Are We Learning About Super-Eddington Accretion Disks From Simulations?Accretion of gas onto gravitationally compact objects (black holes specifically) is one of the most important processes acting to shape our Universe. At extremely high rates of accretion (dubbed `super-Eddington'), the huge amount of liberated energy in the form of radiation, results in the accretion disk becoming geometrically thick, with mass lost via winds. Understanding this super-Eddington regime of accretion is vital to explaining the challenging observation that supermassive black holes (SMBHs) are fully formed at redshifts >7. It is also important to understanding astrophysical events and objects such as tidal disruption events (TDEs) and ultra-luminous X-ray sources (ULXs). While we are able to perform observations of super-Eddington accreting systems, to understand them theoretically and make any progress, we must turn to numerical studies, as the interplay between strong radiation fields and the dynamics of magnetized fluids cannot be solved analytically, except under very restrictive assumptions. In this talk, I will present the results of some recent super-Eddington disk simulations and discuss some of the interesting things we are learning.",
@@ -13083,7 +13083,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.918697+00:00",
+        "scraped_at": "2025-12-02T08:54:15.404240+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "December 3, 2025 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Innes BigaranVirginia TechOpportunities for Neutrino Physics at a Future Muon ColliderResearch into next-generation lepton colliders has emerged as a major priority internationally, with a ~10 TeV muon collider standing out as one of the most ambitious proposals. While such a machine would mark a transformative advance in accelerator science, realizing it demands breakthroughs in muon production, cooling, and rapid acceleration. In parallel with these technological developments, it is crucial to articulate and maximize the physics potential available throughout the staged R&D program. This talk highlights how a muon-collider–driven program can sustain and extend the U.S. community’s longstanding focus on neutrino physics, even as attention shifts toward high-energy collider applications. Opportunities include exploiting the intense muon-decay beam flux for adjacent neutrino-scattering experiments and exploring on-shell production and EFT channels enabled by neutrinos arising from muon parton distribution functions. Together, these possibilities demonstrate how a staged muon collider program can deliver impactful neutrino-focused science while building toward a future energy-frontier facility.",
@@ -13110,7 +13110,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.919161+00:00",
+        "scraped_at": "2025-12-02T08:54:15.405168+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Information Physics Seminars",
         "institution": "December 4, 2025 Thursday 11:00 AM+726Broadway, Room 1067(cqip)Alex Ruichao MaPurdue UniversityControlling and probing quantum correlations with engineered dissipation.Superconducting circuits have emerged as a powerful analog quantum simulation platform for exploring many-body physics in synthetic quantum matter. In this talk, I will present recent experiments that advance our ability to both control and probe quantum correlations in these systems. We begin with a programmable superradiance experiment, where engineered collective coupling between an interacting superconducting-qubit array and a microwave waveguide allows us to realize tunable bright and dark states and directly observe qubit dynamics and correlations throughout the superradiant decay, enabling future explorations in many-body quantum optics. I will then discuss experiments that use engineered local driven- dissipative baths to study quantum transport in a circuit Bose-Hubbard lattice via in-situ measurements of particle current. Using the same baths, we also demonstrate site-resolved tunneling spectroscopy for probing many-body states. Together, these capabilities open the door to using programmable coherent and dissipative interactions to generate robust quantum correlations and entangled quantum resources.",
@@ -13137,7 +13137,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.919620+00:00",
+        "scraped_at": "2025-12-02T08:54:15.405953+00:00",
         "original_source": "NYU Physics",
         "speaker": "Physics Colloquia",
         "institution": "December 4, 2025 Thursday 4:00 PM+726 Bdwy, 940(colloquia)Morgan O'NeillUniversity of TorontoMegavolcanoes, Pyrotornadoes, and Hurricanes: How Extreme Storms Can Influence ClimateThe presence of water vapor in the upper atmosphere is enormously consequential for the climate. Strong thunderstorms are known to be an important secondary source of water vapor to the lower stratosphere, and how they may feedback to large scales in a warming climate is unknown. Extreme storms of very diverse type---supercell thunderstorms, hurricanes, pyrocumulonimbus, and volcanic plumes---are all able to pierce the lower boundary of the stratosphere and dump vast amounts of ice, water vapor and trace gases into the upper atmosphere. Many of these storms exhibit an Above-Anvil Cirrus Plume (AACP), which is a wake of ice and water vapor downstream of overshooting deep convection. The AACP is uniquely capable of lofting water high above the tropopause. Using high-resolution large eddy simulations, we show that the AACP is formed by the development of a new type of hydraulic jump at the tropopause, accompanied by windspeeds that exceed 110 m/s. The presence of a threshold past which some storms become effective hydrators of the lower stratosphere suggests a blind spot in large-scale climate models unable to resolve this behavior. The storm feedback on climate due to a humidified lower stratosphere is an exciting area of future research, which requires understanding the small-scale dynamics of severe weather.",
@@ -13164,7 +13164,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.920170+00:00",
+        "scraped_at": "2025-12-02T08:54:15.406433+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "December 5, 2025 Friday 10:00 AM+726Broadway, 940, CQP Seminar(cqp)Special CQP SeminarFerdinand  EversUniversity of RegensburgA Perspective on (Many-body) Localization — Facts and Work in ProgressThe talk will present numerical investigations into the fate of Anderson localization in the presence of short-range interactions, i.e., many-body localization (MBL). The first part offers a brief overview of the field, focusing on the dynamical behavior of two key observables: entanglement entropy and sublattice imbalance. The second part highlights a concept of many-body dynamics that we introduced recently: the “potential-energy surface.” This concept provides an analogy between the relaxation of a many-body state viewed in Fock space and a previously unexplored variant of a percolation problem. Potential implications for MBL phase diagrams will also be briefly discussed.",
@@ -13191,7 +13191,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.921919+00:00",
+        "scraped_at": "2025-12-02T08:54:15.407437+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "December 9, 2025 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Alexander  PottsColumbia UniversityFinite Momentum Cooper Plasmons in a Superconducting THz Micro-cavityThe superconducting phase mode is a collective mode that is gapped in three-dimensional superconductors, but gapless in two-dimensional superconductors. This mode is not infrared active in the far-field, but can be probed with near-field optical measurements. We develop theory showing that the near-field nature of on-chip time domain THz spectroscopy can access this mode via superconducting microcavity resonances - which we call `Cooper plasmons'. We experimentally show spectroscopic signatures of two Cooper plasmons in a superconducting NbN film and use these Cooper plasmons to report the real and imaginary parts of the self-energy across a thermal metal-to-superconductor transition. We discuss applications of Cooper plasmons in other superconducting systems, as well as ways to avoid parasitic Cooper plasmons in superconducting circuit engineering.",
@@ -13218,7 +13218,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.922750+00:00",
+        "scraped_at": "2025-12-02T08:54:15.407873+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "December 10, 2025 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Yujin ParkRutgers UniversitySearch for Axions with SupernovaeCore-collapse supernovae provide some of the most extreme environments in the Universe, with initial core temperatures reaching tens of MeV and high nuclear densities. In such environments, axion-like particles can be efficiently produced and free-stream out of the central region, much like neutrinos. These axions subsequently convert in magnetic fields or decay to Standard Model photons. In this talk, I will present work in searching for axions through gamma-ray observations of supernovae with the addition of axions' conversion in the progenitor's magnetic field. Through these methods, I search for axions in two distinct ranges of mass: in the ultra-light regime and the heavy regime. Finally, I will introduce the ongoing efforts to develop a constellation of full-sky MeV satellite, GALAXIS, which would offer potential sensitivity to the QCD axion with masses around 1e-3 eV.",
@@ -13245,7 +13245,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.924693+00:00",
+        "scraped_at": "2025-12-02T08:54:15.409202+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "December 16, 2025 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Matteo  MitranoHarvard UniversityQuantum Control of Hubbard ExcitonsCoherently tuning quantum states with light is a key frontier in the control of quantum materials. Floquet\r\nengineering, the coherent dressing of quantum states with periodic non-resonant optical fields, has\r\nbecome an important strategy for quantum control. However, most applications to solid-state systems\r\nhave targeted weakly interacting or single-ion states, leaving the manipulation of many-body\r\nwavefunctions largely unexplored. Here, we demonstrate ultrafast quantum control of a prototypical\r\nmany-body quantum state, a Hubbard exciton, in the quasi-one-dimensional Mott insulator Sr 2 CuO 3 . We\r\ndrive the Hubbard exciton with intense midinfrared pulses and interrogate its state with resonant third-\r\nharmonic generation. We observe a dynamic renormalization of the third harmonic signal due to a\r\ncoherent Floquet rotation of the many-body wavefunction between two states with opposite parity. The\r\nperiodic drive rotates the Hubbard exciton wavefunction by arbitrary angles up to π/2 on the Bloch\r\nsphere. By demonstrating on-demand rotations of a many-body quantum state, our work establishes a\r\npathway for quantum control of quantum materials through tailored pulse sequences and the\r\nfunctionalization of Hubbard excitons for quantum sensing applications.",
@@ -13272,7 +13272,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.925184+00:00",
+        "scraped_at": "2025-12-02T08:54:15.409670+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "December 17, 2025 Wednesday 11:00 AM+726Broadway, 1045, CQP Seminar(cqp)Special CQP SeminarErbin (Ben) QiuUniversity of California San DiegoAtoms to Bits: Toward Thermodynamic IntelligenceAs transistors approach atomic limits, heat dissipation has become the defining constraint of modern computing. My research asks a different question: can heat itself be used to compute? Using correlated quantum materials such as vanadium dioxide (VO2), we explore how electronic phase transitions driven by the flow of heat and charge, generate nonlinear dynamics that resemble neural behavior. I will discuss our recent experiments revealing spiking, synchronization, and stochasticity in Mott oscillators, as well as collective switching in thermally coupled device networks. These studies uncover how local phase transition fluctuations and mesoscale heat transport give rise to emergent order and functional computation. By linking atomic-scale phase transitions to network-level information processing, this work outlines a physical pathway from atoms to bits, pointing toward a thermodynamic framework for intelligent, energy-aware electronics.Teaser line:From atomic phase transitions to emergent intelligence, see how computation can arise from the physics of heat itself.Speaker Bio:Erbin (Ben) Qiu is a postdoctoral researcher in the Department of Physics at the University of California, San Diego. He received his Ph.D. in Electrical and Computer Engineering from UC San Diego in 2024, where his dissertation focused on collective dynamics in coupled spiking oscillators based on quantum material. His research combines condensed-matter physics, materials science, device engineering, and neuroscience to develop energy-efficient computing paradigms that harness thermodynamic processes for intelligent function. His work has appeared in Advanced Materials, PNAS, Applied Physics Letters, and Nature Communications.",
@@ -13299,7 +13299,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.928146+00:00",
+        "scraped_at": "2025-12-02T08:54:15.412563+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "January 28, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -13326,7 +13326,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.930153+00:00",
+        "scraped_at": "2025-12-02T08:54:15.414568+00:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "February 4, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -13353,7 +13353,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.931747+00:00",
+        "scraped_at": "2025-12-02T08:54:15.416193+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Information Physics Seminars",
         "institution": "February 12, 2026 Thursday 11:00 AM+726Broadway, Room 1067(cqip)Shoumik ChowdhuryTheory of Quasiparticle Generation by Microwave Drives in Superconducting QubitsMicrowave drives play a central role in the control of superconducting quantum circuits, enabling qubit gates, readout, and parametric interactions. As the drive frequencies are typically an order of magnitude smaller than (twice) the superconducting gap, it is generally assumed that such drives do not disturb the BCS ground state. However, sufficiently strong drives can activate multi-photon pair-breaking processes that generate quasiparticles (QPs) and result in qubit errors. In this work, we present a theoretical framework for calculating the rates of multi-photon-assisted pair-breaking transitions induced by charge- or flux-coupled microwave drives. Through illustrative examples, we show that photon-assisted QP generation may impact novel high-frequency dispersive readout architectures, as well as Floquet-engineered superconducting circuits operating under strong driving.",
@@ -13380,7 +13380,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.936982+00:00",
+        "scraped_at": "2025-12-02T08:54:15.423556+00:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "April 7, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lee LiuPurdue UniversityShining New Light on Highly Symmetric Molecules",
@@ -13407,7 +13407,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2025-12-02T08:50:36.942800+00:00",
+        "scraped_at": "2025-12-02T08:54:15.427769+00:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "May 11, 2026 Monday 8:00 AM+726Broadway, 940, CCPP Seminar(ccpp)Special SeminarKleban KlebanThe Work of Prof. Daniel Zwanziger",
@@ -13443,7 +13443,7 @@
         },
         "additional_info": {
           "areas_of_study": "Media Studies",
-          "scraped_at": "2025-12-02T08:50:38.908705+00:00"
+          "scraped_at": "2025-12-02T08:54:17.013131+00:00"
         }
       }
     },
@@ -13475,7 +13475,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.911106+00:00"
+          "scraped_at": "2025-12-02T08:54:17.015129+00:00"
         }
       }
     },
@@ -13507,7 +13507,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-02T08:50:38.911980+00:00"
+          "scraped_at": "2025-12-02T08:54:17.015818+00:00"
         }
       }
     },
@@ -13539,7 +13539,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.914020+00:00"
+          "scraped_at": "2025-12-02T08:54:17.018191+00:00"
         }
       }
     },
@@ -13571,7 +13571,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.914838+00:00"
+          "scraped_at": "2025-12-02T08:54:17.019231+00:00"
         }
       }
     },
@@ -13603,7 +13603,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-02T08:50:38.916867+00:00"
+          "scraped_at": "2025-12-02T08:54:17.021396+00:00"
         }
       }
     },
@@ -13635,7 +13635,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.918582+00:00"
+          "scraped_at": "2025-12-02T08:54:17.023443+00:00"
         }
       }
     },
@@ -13667,7 +13667,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.919532+00:00"
+          "scraped_at": "2025-12-02T08:54:17.024506+00:00"
         }
       }
     },
@@ -13699,7 +13699,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.920698+00:00"
+          "scraped_at": "2025-12-02T08:54:17.025583+00:00"
         }
       }
     },
@@ -13731,7 +13731,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:38.923991+00:00"
+          "scraped_at": "2025-12-02T08:54:17.028333+00:00"
         }
       }
     },
@@ -13764,7 +13764,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.861717+00:00"
+          "scraped_at": "2025-12-02T08:54:18.845827+00:00"
         }
       }
     },
@@ -13797,7 +13797,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.862490+00:00"
+          "scraped_at": "2025-12-02T08:54:18.846590+00:00"
         }
       }
     },
@@ -13830,7 +13830,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.863198+00:00"
+          "scraped_at": "2025-12-02T08:54:18.847308+00:00"
         }
       }
     },
@@ -13863,7 +13863,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.864561+00:00"
+          "scraped_at": "2025-12-02T08:54:18.848702+00:00"
         }
       }
     },
@@ -13896,7 +13896,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.865914+00:00"
+          "scraped_at": "2025-12-02T08:54:18.849353+00:00"
         }
       }
     },
@@ -13929,7 +13929,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.867242+00:00"
+          "scraped_at": "2025-12-02T08:54:18.850224+00:00"
         }
       }
     },
@@ -13962,7 +13962,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.868699+00:00"
+          "scraped_at": "2025-12-02T08:54:18.851031+00:00"
         }
       }
     },
@@ -13995,7 +13995,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.870320+00:00"
+          "scraped_at": "2025-12-02T08:54:18.851940+00:00"
         }
       }
     },
@@ -14028,7 +14028,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.871416+00:00"
+          "scraped_at": "2025-12-02T08:54:18.853026+00:00"
         }
       }
     },
@@ -14061,7 +14061,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.872615+00:00"
+          "scraped_at": "2025-12-02T08:54:18.854204+00:00"
         }
       }
     },
@@ -14094,7 +14094,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.873547+00:00"
+          "scraped_at": "2025-12-02T08:54:18.855254+00:00"
         }
       }
     },
@@ -14127,7 +14127,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.874274+00:00"
+          "scraped_at": "2025-12-02T08:54:18.855972+00:00"
         }
       }
     },
@@ -14160,7 +14160,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.874954+00:00"
+          "scraped_at": "2025-12-02T08:54:18.857058+00:00"
         }
       }
     },
@@ -14193,7 +14193,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-02T08:50:40.875550+00:00"
+          "scraped_at": "2025-12-02T08:54:18.858057+00:00"
         }
       }
     },
@@ -14226,7 +14226,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.876181+00:00"
+          "scraped_at": "2025-12-02T08:54:18.859014+00:00"
         }
       }
     },
@@ -14259,7 +14259,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.876810+00:00"
+          "scraped_at": "2025-12-02T08:54:18.860006+00:00"
         }
       }
     },
@@ -14292,7 +14292,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.877425+00:00"
+          "scraped_at": "2025-12-02T08:54:18.860737+00:00"
         }
       }
     },
@@ -14325,7 +14325,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.878021+00:00"
+          "scraped_at": "2025-12-02T08:54:18.861400+00:00"
         }
       }
     },
@@ -14358,7 +14358,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:40.878618+00:00"
+          "scraped_at": "2025-12-02T08:54:18.862062+00:00"
         }
       }
     },
@@ -14391,7 +14391,7 @@
         },
         "additional_info": {
           "areas_of_study": "Media Studies",
-          "scraped_at": "2025-12-02T08:50:41.383624+00:00"
+          "scraped_at": "2025-12-02T08:54:19.225008+00:00"
         }
       }
     },
@@ -14424,7 +14424,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-02T08:50:41.384965+00:00"
+          "scraped_at": "2025-12-02T08:54:19.226336+00:00"
         }
       }
     },
@@ -14457,7 +14457,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-02T08:50:41.387955+00:00"
+          "scraped_at": "2025-12-02T08:54:19.227778+00:00"
         }
       }
     },
@@ -14490,7 +14490,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-02T08:50:41.390672+00:00"
+          "scraped_at": "2025-12-02T08:54:19.229048+00:00"
         }
       }
     },
@@ -14626,7 +14626,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.980527+00:00",
+        "scraped_at": "2025-12-02T08:54:23.342467+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14643,7 +14643,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.980985+00:00",
+        "scraped_at": "2025-12-02T08:54:23.343145+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14660,7 +14660,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.981752+00:00",
+        "scraped_at": "2025-12-02T08:54:23.344479+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14677,7 +14677,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.982100+00:00",
+        "scraped_at": "2025-12-02T08:54:23.345237+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14694,7 +14694,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.982424+00:00",
+        "scraped_at": "2025-12-02T08:54:23.346014+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14711,7 +14711,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.984763+00:00",
+        "scraped_at": "2025-12-02T08:54:23.349274+00:00",
         "extraction_method": "teaser"
       }
     },
@@ -14728,7 +14728,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.986059+00:00",
+        "scraped_at": "2025-12-02T08:54:23.350256+00:00",
         "extraction_method": "header"
       }
     },
@@ -14745,7 +14745,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.986322+00:00",
+        "scraped_at": "2025-12-02T08:54:23.350676+00:00",
         "extraction_method": "header"
       }
     },
@@ -14762,7 +14762,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.986835+00:00",
+        "scraped_at": "2025-12-02T08:54:23.351580+00:00",
         "extraction_method": "header"
       }
     },
@@ -14779,7 +14779,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.986915+00:00",
+        "scraped_at": "2025-12-02T08:54:23.351722+00:00",
         "extraction_method": "header"
       }
     },
@@ -14796,7 +14796,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.987007+00:00",
+        "scraped_at": "2025-12-02T08:54:23.351797+00:00",
         "extraction_method": "header"
       }
     },
@@ -14813,7 +14813,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.987071+00:00",
+        "scraped_at": "2025-12-02T08:54:23.351856+00:00",
         "extraction_method": "header"
       }
     },
@@ -14830,7 +14830,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-02T08:50:45.990062+00:00",
+        "scraped_at": "2025-12-02T08:54:23.355931+00:00",
         "extraction_method": "container"
       }
     },

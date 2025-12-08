@@ -33,6 +33,7 @@ def run_scrapers():
         'miller_events.py',                     # [PASS] 57 events
         'new_school_events.py',                 # [PASS] 70 events (fixed timezone)
         'nyas_events.py',                       # [PASS] 16 events (NEW)
+        'nypl_events.py',                       # [PASS] 5 events (NEW)
         'nyu_api_events.py',                    # [PASS] 43 events (NEW API)
         'nyu_cims_events.py',                   # [PASS] 38 events
         'nyu_education_events.py',              # [PASS] 2 events

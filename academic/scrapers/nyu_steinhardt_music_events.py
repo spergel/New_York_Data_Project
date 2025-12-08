@@ -161,36 +161,37 @@ def scrape_nyu_steinhardt_music_events():
                             # Generate unique ID using hash
                             event_id = f"evt_nyu_steinhardt_music_{hashlib.md5((title + event_url + str(event_date)).encode()).hexdigest()[:8]}"
                             
-                            # Create standardized dates with proper timezone handling
+                            # Create standardized dates in NYC timezone
                             if time_text:
                                 # Parse the time range if we have it
                                 if parsed_start_time and parsed_end_time:
-                                    # Create datetime objects with timezone
-                                    start_dt = datetime.combine(event_date.date(), datetime.strptime(parsed_start_time, "%H:%M").time())
-                                    end_dt = datetime.combine(event_date.date(), datetime.strptime(parsed_end_time, "%H:%M").time())
+                                    # Create datetime objects in NYC timezone
+                                    from date_utils import create_nyc_datetime
+                                    start_dt = create_nyc_datetime(
+                                        event_date.year, event_date.month, event_date.day,
+                                        int(parsed_start_time.split(':')[0]), int(parsed_start_time.split(':')[1])
+                                    )
+                                    end_dt = create_nyc_datetime(
+                                        event_date.year, event_date.month, event_date.day,
+                                        int(parsed_end_time.split(':')[0]), int(parsed_end_time.split(':')[1])
+                                    )
                                     
-                                    # Assume Eastern Time (EST/EDT)
-                                    est = timezone(timedelta(hours=-5))
-                                    start_dt = start_dt.replace(tzinfo=est)
-                                    end_dt = end_dt.replace(tzinfo=est)
-                                    
-                                    # Convert to UTC
-                                    start_date = start_dt.astimezone(timezone.utc).isoformat()
-                                    end_date = end_dt.astimezone(timezone.utc).isoformat()
+                                    # Standardize to ISO format (in NYC timezone)
+                                    start_date = standardize_datetime(start_dt)
+                                    end_date = standardize_datetime(end_dt)
                                 else:
-                                    # Use create_event_dates for single time
+                                    # Use create_event_dates for single time (now returns NYC time)
                                     start_date, end_date = create_event_dates(
                                         event_date.strftime('%Y-%m-%d'), 
                                         time_text, 
                                         duration_hours=1.5
                                     )
                             else:
-                                # Default to 7:00 PM EST if no time specified
-                                default_time = datetime.combine(event_date.date(), datetime.strptime("19:00", "%H:%M").time())
-                                est = timezone(timedelta(hours=-5))
-                                default_time = default_time.replace(tzinfo=est)
-                                start_date = default_time.astimezone(timezone.utc).isoformat()
-                                end_date = (default_time + timedelta(hours=1.5)).astimezone(timezone.utc).isoformat()
+                                # Default to 7:00 PM NYC time if no time specified
+                                from date_utils import create_nyc_datetime
+                                default_time = create_nyc_datetime(event_date.year, event_date.month, event_date.day, 19, 0)
+                                start_date = standardize_datetime(default_time)
+                                end_date = standardize_datetime(default_time + timedelta(hours=1.5))
                             
                             # Extract areas of study
                             areas_elem = teaser.find('span', class_='fields-inline__content--inline')

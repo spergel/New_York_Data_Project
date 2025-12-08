@@ -1,16 +1,11 @@
 import requests
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta
 import re
 import hashlib
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
-try:
-    from dateutil import tz
-    HAS_DATEUTIL = True
-except ImportError:
-    HAS_DATEUTIL = False
-    from datetime import timedelta
+from date_utils import standardize_datetime, to_nyc_datetime, NY_TZ
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -163,21 +158,18 @@ def parse_columbia_events(input_data):
             # Process start and end dates
             # Columbia API returns times in UTC format (ending with Z)
             # However, these times appear to be in Eastern Time incorrectly labeled as UTC
-            # We need to treat them as Eastern Time and convert to UTC for proper storage
-            if HAS_DATEUTIL:
-                # Use dateutil to handle EST/EDT automatically
-                eastern = tz.gettz('America/New_York')
-            else:
-                # Fallback: assume EST (UTC-5) - not perfect but better than nothing
-                eastern = timezone(timedelta(hours=-5))
-            
+            # We treat them as NYC time (America/New_York) and store in NYC timezone
             # Parse the date string (it's labeled UTC but is actually Eastern Time)
             naive_datetime = datetime.strptime(event['start']['utcdate'], "%Y%m%dT%H%M%SZ")
-            # Treat as Eastern Time, then convert to UTC
-            start_date = naive_datetime.replace(tzinfo=eastern).astimezone(timezone.utc)
+            # Treat as NYC time (America/New_York)
+            start_date_dt = naive_datetime.replace(tzinfo=NY_TZ)
             
             naive_datetime_end = datetime.strptime(event['end']['utcdate'], "%Y%m%dT%H%M%SZ")
-            end_date = naive_datetime_end.replace(tzinfo=eastern).astimezone(timezone.utc)
+            end_date_dt = naive_datetime_end.replace(tzinfo=NY_TZ)
+            
+            # Standardize to ISO format (in NYC timezone)
+            start_date = standardize_datetime(start_date_dt)
+            end_date = standardize_datetime(end_date_dt)
 
             # Extract department/organizer
             department = None
@@ -212,8 +204,8 @@ def parse_columbia_events(input_data):
                 "location_id": location_id,
                 "community_id": "com_columbia_general",
                 "description": event.get('description', ''),
-                "start_date": start_date.isoformat(),
-                "end_date": end_date.isoformat(),
+                "start_date": start_date,
+                "end_date": end_date,
                 "category": determine_categories_columbia(event),
                 "source": "columbia",
                 "source_group": "Columbia",
