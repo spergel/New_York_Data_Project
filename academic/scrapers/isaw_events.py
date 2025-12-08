@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timedelta
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -239,8 +240,8 @@ def parse_isaw_events(events):
                 "location_id": location_id,
                 "community_id": "com_isaw",
                 "description": description.strip(),
-                "start_date": date_time.isoformat(),
-                "end_date": end_time.isoformat(),
+                "start_date": standardize_datetime(date_time),
+                "end_date": standardize_datetime(end_time),
                 "category": determine_categories(event_data),
                 "source": "isaw",
                 "source_group": "NYU",

@@ -19,7 +19,8 @@ def parse_ical_date(date_str):
         minute = int(date_str[11:13])
         second = int(date_str[13:15])
         
-        return datetime(year, month, day, hour, minute, second, tzinfo=timezone.utc)
+        from date_utils import create_nyc_datetime
+        return create_nyc_datetime(year, month + 1, day, hour, minute, second)  # month+1 because it was 0-indexed
     except (ValueError, IndexError):
         return None
 

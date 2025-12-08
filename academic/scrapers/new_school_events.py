@@ -225,9 +225,14 @@ def standardize_new_school_events(events):
 
             # Convert Unix timestamps to datetime objects
             # The New School API timestamps are in milliseconds and represent UTC time
-            # Convert directly from UTC timestamp
-            start_datetime = datetime.fromtimestamp(start_date / 1000, tz=timezone.utc)
-            end_datetime = datetime.fromtimestamp(end_date / 1000, tz=timezone.utc)
+            # Convert from UTC to NYC timezone
+            from date_utils import standardize_datetime, to_nyc_datetime, NY_TZ
+            start_datetime_utc = datetime.fromtimestamp(start_date / 1000, tz=timezone.utc)
+            end_datetime_utc = datetime.fromtimestamp(end_date / 1000, tz=timezone.utc)
+            
+            # Convert to NYC timezone
+            start_datetime = to_nyc_datetime(start_datetime_utc)
+            end_datetime = to_nyc_datetime(end_datetime_utc)
             
 
             # Create event data for type and category determination
@@ -260,8 +265,8 @@ def standardize_new_school_events(events):
                 "location_id": location_id,
                 "community_id": "com_newschool",
                 "description": event.get('description', ''),
-                "start_date": start_datetime.isoformat(),
-                "end_date": end_datetime.isoformat(),
+                "start_date": standardize_datetime(start_datetime),
+                "end_date": standardize_datetime(end_datetime),
                 "category": determine_categories_newschool(event_data),
                 "source": "new_school",
                 "source_group": "Independent",

@@ -98,16 +98,30 @@ def scrape_nyu_physics_events():
                 if room_match:
                     location += f", {room_match.group(1)}"
                 
-                # Extract event type/series
+                # Extract event type/series and collect all links
                 event_type = ""
+                event_url = f"http://physics.nyu.edu/events.html#{event_id_attr}" if event_id_attr else "http://physics.nyu.edu/events.html"
+                all_links = []
                 series_links = div.find_all('a', href=True)
                 for link in series_links:
                     href = link.get('href', '')
+                    link_text = link.get_text(strip=True)
+                    
+                    # Check for event series link
                     if 'EventsPage=' in href:
-                        series_text = link.get_text(strip=True)
-                        if series_text:
-                            event_type = series_text
-                            break
+                        if link_text:
+                            event_type = link_text
+                            # Make full URL if relative
+                            if not href.startswith('http'):
+                                href = f"http://physics.nyu.edu/{href.lstrip('/')}"
+                            all_links.append({"type": "series", "text": link_text, "url": href})
+                    
+                    # Collect other relevant links (speaker pages, location pages, etc.)
+                    elif href and href not in ['#', ''] and 'google.com/calendar' not in href:
+                        # Make full URL if relative
+                        if not href.startswith('http'):
+                            href = f"http://physics.nyu.edu/{href.lstrip('/')}"
+                        all_links.append({"type": "other", "text": link_text or href, "url": href})
                 
                 # Extract speaker name
                 speaker = ""
@@ -175,23 +189,28 @@ def scrape_nyu_physics_events():
                     "end_date": end_date,
                     "location_id": None,
                     "community_id": None,
-                    "category": "physics",
-                    "url": f"http://physics.nyu.edu/events.html#{event_id_attr}" if event_id_attr else "",
+                    "category": ["SCIENCE", "EDUCATION"],
                     "source": "nyu_physics",
                     "source_group": "nyu_physics",
-                    "source_name": "nyuphysics",
-                    "source_url": "http://physics.nyu.edu/events.html",
-                    "venue": {
-                        "name": location,
-                        "type": "venue"
-                    },
                     "metadata": {
+                        "source_url": event_url,
+                        "url": event_url,  # Also at top level for easier access
+                        "source_name": "NYU Physics Events",
+                        "venue": {
+                            "name": location,
+                            "type": "venue"
+                        },
+                        "organizer": {
+                            "name": "NYU Physics Department",
+                            "type": "organizer"
+                        },
                         "scraped_at": standardize_datetime(datetime.now()),
                         "original_source": "NYU Physics",
                         "speaker": speaker,
                         "institution": institution,
                         "event_type": event_type,
-                        "extraction_method": "html_parsing"
+                        "extraction_method": "html_parsing",
+                        "links": all_links if all_links else []
                     }
                 }
                 

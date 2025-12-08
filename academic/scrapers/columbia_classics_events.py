@@ -10,6 +10,7 @@ import os
 # Add the scrapers directory to the path to import event_filter
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 from event_filter import filter_events
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 ACADEMIC_KEYWORDS = [
 	"lecture",

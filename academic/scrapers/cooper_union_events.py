@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 from typing import List, Dict, Optional
+from date_utils import standardize_datetime
 
 NY_TZ = ZoneInfo("America/New_York")
 
@@ -133,8 +134,8 @@ def scrape_cooper_union_events() -> Dict[str, List[Dict]]:
 			"id": f"evt_cooper_union_{uid}",
 			"name": title,
 			"description": description,
-			"start_date": start_dt.isoformat() if start_dt else "",
-			"end_date": end_dt.isoformat() if end_dt else "",
+			"start_date": standardize_datetime(start_dt) if start_dt else "",
+			"end_date": standardize_datetime(end_dt) if end_dt else "",
 			"source": "cooper_union",
 			"source_group": "cooper_union",
 			"metadata": {

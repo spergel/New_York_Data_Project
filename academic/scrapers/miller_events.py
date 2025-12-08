@@ -23,7 +23,11 @@ def extract_events_data(html_content):
     return []
 
 def parse_event(event):
-    date = datetime.fromtimestamp(int(event['date']['unix']), pytz.UTC)
+    from date_utils import standardize_datetime, to_nyc_datetime
+    # Parse Unix timestamp (assumed to be in UTC) and convert to NYC timezone
+    date_utc = datetime.fromtimestamp(int(event['date']['unix']), pytz.UTC)
+    date = to_nyc_datetime(date_utc)
+    end_date = date + timedelta(hours=2)
 
     return {
         "id": f"evt_miller_{hashlib.md5(event['url'].encode()).hexdigest()[:8]}",
@@ -32,8 +36,8 @@ def parse_event(event):
         "location_id": "loc_miller_theatre",
         "community_id": "com_miller_theatre",
         "description": event.get('subtitle') or event.get('alternativeEventSubtitle') or "",
-        "start_date": date.isoformat(),
-        "end_date": (date + timedelta(hours=2)).isoformat(),
+        "start_date": standardize_datetime(date),
+        "end_date": standardize_datetime(end_date),
         "category": ["ARTS"],
         "source": "miller_theatre",
         "source_group": "Columbia",

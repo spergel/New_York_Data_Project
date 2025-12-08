@@ -4,6 +4,7 @@ import hashlib
 from bs4 import BeautifulSoup
 from datetime import datetime
 from typing import List, Dict, Optional
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 ACADEMIC_KEYWORDS = [
 	"lecture",

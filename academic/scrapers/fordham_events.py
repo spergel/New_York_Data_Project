@@ -4,6 +4,7 @@ import hashlib
 from datetime import datetime, timezone
 from typing import List, Dict, Optional
 import xml.etree.ElementTree as ET
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 ACADEMIC_KEYWORDS = [
     "lecture",
@@ -198,7 +199,7 @@ def main():
         # Save debug file
         if result.get("events"):
             import json
-            with open("fordham_calendar_events_debug.json", "w", encoding="utf-8") as f:
+            with open("fordham_events_debug.json", "w", encoding="utf-8") as f:
                 json.dump(result, f, ensure_ascii=False, indent=2)
             print("💾 Saved to fordham_calendar_events_debug.json")
             

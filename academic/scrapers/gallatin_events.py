@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import hashlib
 import re
 from event_filter import filter_events, get_filter_stats
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -354,8 +355,8 @@ def scrape_gallatin_events():
                 "location_id": location_id,
                 "community_id": "com_gallatin",
                 "description": description,
-                "start_date": start_datetime.isoformat(),
-                "end_date": end_datetime.isoformat(),
+                "start_date": standardize_datetime(start_datetime),
+                "end_date": standardize_datetime(end_datetime),
                 "category": determine_categories(event_data),
                 "source": "gallatin",
                 "source_group": "NYU",

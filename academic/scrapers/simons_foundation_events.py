@@ -12,6 +12,7 @@ import hashlib
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
 import re
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 def fetch_simons_events():
     """Fetch events from Simons Foundation website"""
@@ -159,8 +160,8 @@ def fetch_simons_events():
                         "id": event_id,
                         "name": title,
                         "description": description,
-                        "start_date": event_date.isoformat(),
-                        "end_date": end_date.isoformat() if end_date else (event_date + timedelta(hours=1)).isoformat(),
+                        "start_date": standardize_datetime(event_date),
+                        "end_date": standardize_datetime(end_date if end_date else (event_date + timedelta(hours=1))),
                         "category": categories,
                         "source": "simons_foundation",
                         "source_group": "Independent",

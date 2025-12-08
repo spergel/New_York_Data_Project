@@ -4,6 +4,7 @@ import hashlib
 from datetime import datetime, timezone
 from typing import List, Dict, Optional
 import xml.etree.ElementTree as ET
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 ACADEMIC_KEYWORDS = [
     "lecture",

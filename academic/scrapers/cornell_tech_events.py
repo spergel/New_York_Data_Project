@@ -5,6 +5,7 @@ import json
 import pytz
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 # Add a custom header
 headers = {
@@ -214,8 +215,8 @@ def scrape_cornell_tech_events(num_pages=5):
                     "location_id": location_id,
                     "community_id": "com_cornell_tech",
                     "description": ", ".join(tags),
-                    "start_date": start_datetime.isoformat(),
-                    "end_date": end_datetime.isoformat(),
+                    "start_date": standardize_datetime(start_datetime),
+                    "end_date": standardize_datetime(end_datetime),
                     "category": determine_categories(event_data),
                     "source": "cornell_tech",
                     "source_group": "Cornell",

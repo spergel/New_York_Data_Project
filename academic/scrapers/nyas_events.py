@@ -300,9 +300,16 @@ def parse_nyas_events(html_content):
             
             end_date = start_date.replace(hour=start_date.hour + 2)
             
-            # Convert to UTC
-            start_date = start_date.replace(tzinfo=timezone.utc)
-            end_date = end_date.replace(tzinfo=timezone.utc)
+            # Convert to NYC timezone
+            from date_utils import standardize_datetime, NY_TZ
+            if start_date.tzinfo is None:
+                start_date = start_date.replace(tzinfo=NY_TZ)
+            else:
+                start_date = start_date.astimezone(NY_TZ)
+            if end_date.tzinfo is None:
+                end_date = end_date.replace(tzinfo=NY_TZ)
+            else:
+                end_date = end_date.astimezone(NY_TZ)
             
             # Extract location if mentioned
             location = ''
@@ -344,8 +351,8 @@ def parse_nyas_events(html_content):
                 "location_id": location_id,
                 "community_id": "com_nyas",
                 "description": raw_text[:500] if raw_text else title,
-                "start_date": start_date.isoformat(),
-                "end_date": end_date.isoformat(),
+                "start_date": standardize_datetime(start_date),
+                "end_date": standardize_datetime(end_date),
                 "category": determine_categories_nyas(event_info),
                 "source": "nyas",
                 "source_group": "Independent",

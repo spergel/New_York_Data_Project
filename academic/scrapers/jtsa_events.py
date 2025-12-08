@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from date_utils import standardize_datetime
 
 NY_TZ = ZoneInfo("America/New_York")
 
@@ -254,8 +255,8 @@ def parse_jtsa_events(events):
                 "location_id": location_id,
                 "community_id": "com_jtsa",
                 "description": event.get('description', ''),
-                "start_date": start_datetime.isoformat(),
-                "end_date": end_datetime.isoformat(),
+                "start_date": standardize_datetime(start_datetime),
+                "end_date": standardize_datetime(end_datetime),
                 "category": determine_categories(event_data),
                 "source": "jtsa",
                 "source_group": "Independent",

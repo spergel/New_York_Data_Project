@@ -7,6 +7,7 @@ import time
 import hashlib
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 # Add a custom header that mimics a real browser
 headers = {
@@ -287,8 +288,8 @@ def parse_cims_events(events):
                 "location_id": location_id,
                 "community_id": "com_nyu_courant",
                 "description": event.get('description', ''),
-                "start_date": start_date.isoformat(),
-                "end_date": end_date.isoformat(),
+                "start_date": standardize_datetime(start_date),
+                "end_date": standardize_datetime(end_date),
                 "category": determine_categories_cims(event),
                 "source": "nyu_cims",
                 "source_group": "nyu_cims",
