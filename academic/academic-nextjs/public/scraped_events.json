@@ -1,32 +1,99 @@
 {
-  "scraped_at": "2025-12-14T03:21:06.775741",
-  "total_events": 255,
+  "scraped_at": "2025-12-21T03:21:14.037260",
+  "total_events": 269,
   "event_sources": {
-    "isaw_events_debug": 2,
-    "nypl_events_debug": 15,
+    "isaw_events_debug": 6,
+    "nypl_events_debug": 19,
     "luma_events_debug": 63,
-    "cooper_union_events_debug": 1,
     "juilliard_events_debug": 0,
-    "nyu_physics_events_debug": 7,
+    "nyu_physics_events_debug": 5,
     "miller_events_debug": 30,
     "jtsa_events_debug": 10,
     "columbia_classics_events_debug": 10,
     "nyu_medicine_events_debug": 2,
-    "nyu_engineering_events_debug": 1,
-    "nyu_api_events_debug": 10,
+    "nyu_engineering_events_debug": 2,
+    "nyu_api_events_debug": 12,
     "fordham_events_debug": 4,
     "nyu_stern_events_debug": 7,
     "nyu_neuroscience_events_debug": 0,
-    "new_school_events_debug": 31,
+    "new_school_events_debug": 33,
     "nyu_education_events_debug": 4,
     "pratt_events_debug": 8,
-    "nyas_events_debug": 16,
+    "nyas_events_debug": 19,
     "columbia_math_events_debug": 2,
-    "nyu_steinhardt_music_events_debug": 13,
-    "nyu_steinhardt_events_debug": 9,
-    "columbia_events_debug": 33
+    "nyu_steinhardt_music_events_debug": 11,
+    "nyu_steinhardt_events_debug": 8,
+    "columbia_events_debug": 37
   },
   "events": [
+    {
+      "id": "evt_isaw_afa50cf4",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_isaw",
+      "description": "Speaker: Carl Walsh\n\nRodin's Egypt: A Conversation on Sculpting the Human Body\n\nThis workshop will take place online. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. This online workshop invites teachers to discover the profound impact of ancient Egyptian art on the French master sculptor Auguste Rodin (1840–1917), through both the sculptors works and through the Egyptian antiquities he collected. Throughout the workshop you will take part in a series of object-based learning activities that explore how Rodin studied ancient Egyptian statuary and reliefs, which subsequently fed into his own practice and revolutionary approach to the human form.",
+      "start_date": "2026-01-12T17:30:00-05:00",
+      "end_date": "2026-01-12T19:30:00-05:00",
+      "category": [
+        "ARTS",
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-rodins-egypt-virtual-workshop",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-rodins-egypt-virtual-workshop/leadImage_mini",
+          "speaker": "Carl Walsh",
+          "subtitle": "Rodin's Egypt: A Conversation on Sculpting the Human Body",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_aa2361b4",
+      "name": "Expanding the Ancient World Workshop:",
+      "type": "Workshop",
+      "location_id": "loc_isaw_main",
+      "community_id": "com_isaw",
+      "description": "Speaker: Carl Walsh\n\nRodin's Egypt: A Conversation on Sculpting the Human Body\n\nThis workshop will take place in person at ISAW. Registration is required; click through for the registration link. Zoom information will be provided via confirmation email to registered participants. Expanding the Ancient World is a series of professional development workshops and online resources for teachers. This in-person workshop invites teachers to discover the profound impact of ancient Egyptian art on the French master sculptor Auguste Rodin (1840–1917), through both the sculptors works and through the Egyptian antiquities he collected. Throughout the workshop you will take part in a series of object-based learning activities that explore how Rodin studied ancient Egyptian statuary and reliefs, which subsequently fed into his own practice and revolutionary approach to the human form.",
+      "start_date": "2026-01-20T17:30:00-05:00",
+      "end_date": "2026-01-20T19:30:00-05:00",
+      "category": [
+        "ARTS",
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/etaw-rodins-egypt-in-person-workshop",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Gallery",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/etaw-rodins-egypt-in-person-workshop/leadImage_mini",
+          "speaker": "Carl Walsh",
+          "subtitle": "Rodin's Egypt: A Conversation on Sculpting the Human Body",
+          "rsvp_required": true
+        }
+      }
+    },
     {
       "id": "evt_isaw_8438eef6",
       "name": "Exhibition Lecture",
@@ -91,6 +158,74 @@
           "image_url": "https://isaw.nyu.edu/events/merv-to-dehistan/leadImage_mini",
           "speaker": "Aydogdy Kurbanov",
           "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_cf285ab1",
+      "name": "Beyond Midas: Towards an Archaeological History of Phrygia",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Kathryn R. Morgan\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This presentation reviews the archaeological evidence for these two strongly divergent viewpoints, considering the scholarly traditions in which they are embedded and, importantly, what is at stake in each. Since the time of the Greek philosophers, Anatolia has served as the setting for metaphorical discourses on power, authority, legitimacy, and even human nature: how have these debates influenced archaeological interpretation?",
+      "start_date": "2026-02-17T17:30:00-05:00",
+      "end_date": "2026-02-17T19:30:00-05:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/beyond-midas-phyrgia",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/beyond-midas-phyrgia/leadImage_mini",
+          "speaker": "Kathryn R. Morgan",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_isaw_924686e6",
+      "name": "Exhibition Lecture",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Emmelyn Butterfield-Rosen\n\nThe Egyptian Body and the Idea of the Unconscious at the End of the Nineteenth Century\n\nThis lecture will take place in person at ISAW. Registration is required; click through for the registration link. This talk will explore how and why that was so, offering several hypotheses for why Egyptian figural art became central to the imagining of this complex psychological concept. The talk––paying special attention to Rodin’s self-described “Egyptian colossus,” his 1898 monument to Honoré de Balzac––will also probe Rodin’s highly distinctive approach to this widespread association between Egyptian art and the formal expression of the human potential for unconscious thought.",
+      "start_date": "2026-02-23T17:30:00-05:00",
+      "end_date": "2026-02-23T19:30:00-05:00",
+      "category": [
+        "ARTS"
+      ],
+      "source": "isaw",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/the-egyptian-body",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/the-egyptian-body/leadImage_mini",
+          "speaker": "Emmelyn Butterfield-Rosen",
+          "subtitle": "The Egyptian Body and the Idea of the Unconscious at the End of the Nineteenth Century",
           "rsvp_required": true
         }
       }
@@ -177,6 +312,60 @@
       }
     },
     {
+      "id": "evt_nypl_1d5c13d0",
+      "name": "Gouveneur Morris and his Family",
+      "type": "Seminar",
+      "location_id": "loc_nypl_morris_park",
+      "community_id": "com_nypl",
+      "description": "Learn about Governor Morris and his family from The Bronx County Historical Society. \n\n This will be an informative lecture  will explore the life and legacy of Gouveneur Morris and his family, the former the penman of the Constitution, prominent Founding Father, and longtime resident of Morrisania.",
+      "start_date": "2026-02-21T14:00:00-05:00",
+      "end_date": "2026-02-21T16:00:00-05:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/02/21/governor-morris-and-his-family",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Morris Park Library",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_nypl_14cdb733",
+      "name": "The Last Algonquin",
+      "type": "Seminar",
+      "location_id": "loc_nypl_morris_park",
+      "community_id": "com_nypl",
+      "description": "Many Bronx old-timers, and some young people, have heard the story of Joe Two Trees, a Native American man who, the story goes, lived in the wilderness of Pelham Bay Park from the 1860s until 1924. In 1924, just before he died, Joe Two Trees told his life story to a young Boy Scout he met on Hunter Island. \n\nThat Boy Scout - Theodore Kazimiroff - grew up to be a beloved dentist, environmentalist, and active amateur archaeologist. He co-founded the Bronx County Historical Society in 1955 and was…",
+      "start_date": "2026-02-28T14:00:00-05:00",
+      "end_date": "2026-02-28T16:00:00-05:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/02/28/last-algonquin",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Morris Park Library",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
       "id": "evt_nypl_fc69bbd1",
       "name": "Adult Coloring & Conversation",
       "type": "Seminar",
@@ -204,39 +393,12 @@
       }
     },
     {
-      "id": "evt_nypl_97d253ae",
-      "name": "Adult Coloring & Conversation",
-      "type": "Seminar",
-      "location_id": "loc_nypl_bronx",
-      "community_id": "com_nypl",
-      "description": "Join our monthly Adult Coloring & Conversation program, where creative coloring activities spark relaxation and inspire participants to explore books, share ideas, and enjoy meaningful community discussions in a welcoming library space that promotes reading and artistic expression\n\nMaterials will be provided.",
-      "start_date": "2026-03-18T14:00:00-04:00",
-      "end_date": "2026-03-18T16:00:00-04:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "source": "nypl",
-      "source_group": "nypl",
-      "metadata": {
-        "source_url": "https://www.nypl.org/events/programs/2026/03/18/adult-coloring-conversation",
-        "source_name": "NYPL Events Calendar",
-        "venue": {
-          "name": "Bronx Library Center",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "New York Public Library",
-          "type": "organizer"
-        }
-      }
-    },
-    {
       "id": "evt_nypl_08dd66ba",
       "name": "The Bronx County Historical Society: The Birth of the Bronx Part 1",
       "type": "Seminar",
       "location_id": "loc_nypl_morris_park",
       "community_id": "com_nypl",
-      "description": "Learn  from The Bronx County Historical Society about The Birth of the Bronx Part 1 .   This will be a informative lecture which charts the history of what will become the bronx in the 17th and 18th centuries, focusing on Native Americans, European colonization, Jonas Bronck, and the American Revolution in The Bronx.\n\nfocuses on the creation of the largest park system in New York City, with histories of the individual parks in the system.",
+      "description": "Learn about The Birth of the Bronx Part 1  from The Bronx County Historical Society. \n\n This will be a informative lecture which charts the history of what will become the bronx in the 17th and 18th centuries, focusing on Native Americans, European colonization, Jonas Bronck, and the American Revolution in The Bronx.",
       "start_date": "2026-03-21T14:00:00-04:00",
       "end_date": "2026-03-21T16:00:00-04:00",
       "category": [
@@ -290,7 +452,7 @@
       "type": "Seminar",
       "location_id": "loc_nypl_morris_park",
       "community_id": "com_nypl",
-      "description": "Learn  from The Bronx County Historical Society about The Birth of the Bronx Part 2.   This will be a informative lecture which charts the history of what will become the bronx in the 17th and 18th centuries, focusing on Native Americans, European colonization, Jonas Bronck, and the American Revolution in The Bronx.\n\nfocuses on the creation of the largest park system in New York City, with histories of the individual parks in the system.",
+      "description": "Learn  about The Birth of the Bronx Part 2 from The Bronx County Historical Society. \n\nThis will be a informative lecture which charts the history of what will become the bronx in the 17th and 18th centuries, focusing on Native Americans, European colonization, Jonas Bronck, and the American Revolution in The Bronx.",
       "start_date": "2026-03-28T14:00:00-04:00",
       "end_date": "2026-03-28T16:00:00-04:00",
       "category": [
@@ -371,7 +533,7 @@
       "type": "Seminar",
       "location_id": "loc_nypl_morris_park",
       "community_id": "com_nypl",
-      "description": "Learn  from The Bronx County Historical Society about The Bronx at the Turn of the Century.   This will be a informative lecture which explored the urbanization of the Bronx at the turn of the 20th century, which a specific focus on immigration, infrastructure, and public works projects.",
+      "description": "Learn  about The Bronx at the Turn of the Century from The Bronx County Historical Society .   \n\nThis will be a informative lecture which explored the urbanization of the Bronx at the turn of the 20th century, which a specific focus on immigration, infrastructure, and public works projects.",
       "start_date": "2026-04-18T14:00:00-04:00",
       "end_date": "2026-04-18T16:00:00-04:00",
       "category": [
@@ -381,6 +543,33 @@
       "source_group": "nypl",
       "metadata": {
         "source_url": "https://www.nypl.org/events/programs/2026/04/18/bronx-county-historical-society-bronx-turn-century",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Morris Park Library",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_nypl_6061a47b",
+      "name": "The Bronx County Historical Society: The History of Westchester Square",
+      "type": "Seminar",
+      "location_id": "loc_nypl_morris_park",
+      "community_id": "com_nypl",
+      "description": "Learn about The History of Westchester Square from The Bronx County Historical Society.\n\n This informative will shed light on Westchester Square, the first town in what is now the Bronx and the seat of government in the 18th century.",
+      "start_date": "2026-04-25T14:00:00-04:00",
+      "end_date": "2026-04-25T16:00:00-04:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/04/25/clone-bronx-county-historical-society-history-westchester-square",
         "source_name": "NYPL Events Calendar",
         "venue": {
           "name": "Morris Park Library",
@@ -420,6 +609,33 @@
       }
     },
     {
+      "id": "evt_nypl_a0d20d28",
+      "name": "The Bronx County Historical Society: The History of Tremont Avenue: Thoroughfare of The Bronx",
+      "type": "Exhibition",
+      "location_id": "loc_nypl_morris_park",
+      "community_id": "com_nypl",
+      "description": "Learn about the history of Tremont Avenue: Thoroughfare of The Bronx  from The Bronx County Historical Society.\n\nThis informative will discuss the history of Tremont Avenue, one of the most significant commercial and traffic arteries in The Bronx.",
+      "start_date": "2026-05-16T14:00:00-04:00",
+      "end_date": "2026-05-16T16:00:00-04:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/05/16/bronx-county-historical-society-history-tremont-avenue-thoroughfare-bronx",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Morris Park Library",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
       "id": "evt_nypl_4177af75",
       "name": "Adult Coloring & Conversation",
       "type": "Seminar",
@@ -438,6 +654,33 @@
         "source_name": "NYPL Events Calendar",
         "venue": {
           "name": "Room C307",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_nypl_2d5e4de0",
+      "name": "The Bronx County Historical Society: The New York Yankees",
+      "type": "Seminar",
+      "location_id": "loc_nypl_morris_park",
+      "community_id": "com_nypl",
+      "description": "Learn about the history of New York Yankees  from The Bronx County Historical Society.\n\n This informative lecture will chart the history of the New York Yankees and how they came to play in The Bronx.",
+      "start_date": "2026-06-13T14:00:00-04:00",
+      "end_date": "2026-06-13T16:00:00-04:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/06/13/bronx-county-historical-society-new-york-yankees",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Morris Park Library",
           "type": "venue"
         },
         "organizer": {
@@ -1206,115 +1449,6 @@
       "source": "luma"
     },
     {
-      "id": "evt_cooper_union_bfd166c454",
-      "name": "Finnish Cultural Institute of New York Lecture and Workshop | Arvind Ramachandran: Conversations Around Public Space",
-      "description": "December 16, 2025\n\t\t\t\t\t6:30pm\n\nEvent Details",
-      "start_date": "2025-12-16T18:30:00-05:00",
-      "end_date": "2025-12-16T20:30:00-05:00",
-      "source": "cooper_union",
-      "source_group": "cooper_union",
-      "metadata": {
-        "source_url": "https://cooper.edu/events",
-        "source_name": "Cooper Union",
-        "venue": {
-          "name": "Cooper Union",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_physics_event7524",
-      "name": "Quantum Control of Hubbard Excitons",
-      "description": "Coherently tuning quantum states with light is a key frontier in the control of quantum materials. Floquet\r\nengineering, the coherent dressing of quantum states with periodic non-resonant optical fields, has\r\nbecome an important strategy for quantum control. However, most applications to solid-state systems\r\nhave targeted weakly interacting or single-ion states, leaving the manipulation of many-body\r\nwavefunctions largely unexplored. Here, we demonstrate ultrafast quantum control of a prototypical\r\nmany-body quantum state, a Hubbard exciton, in the quasi-one-dimensional Mott insulator Sr 2 CuO 3 . We\r\ndrive the Hubbard exciton with intense midinfrared pulses and interrogate its state with resonant third-\r\nharmonic generation. We observe a dynamic renormalization of the third harmonic signal due to a\r\ncoherent Floquet rotation of the many-body wavefunction between two states with opposite parity. The\r\nperiodic drive rotates the Hubbard exciton wavefunction by arbitrary angles up to π/2 on the Bloch\r\nsphere. By demonstrating on-demand rotations of a many-body quantum state, our work establishes a\r\npathway for quantum control of quantum materials through tailored pulse sequences and the\r\nfunctionalization of Hubbard excitons for quantum sensing applications.",
-      "start_date": "2025-12-16T14:00:00-05:00",
-      "end_date": "2025-12-16T15:00:00-05:00",
-      "location_id": null,
-      "community_id": null,
-      "category": [
-        "SCIENCE",
-        "EDUCATION"
-      ],
-      "source": "nyu_physics",
-      "source_group": "nyu_physics",
-      "metadata": {
-        "source_url": "http://physics.nyu.edu/events.html#event7524",
-        "url": "http://physics.nyu.edu/events.html#event7524",
-        "source_name": "NYU Physics Events",
-        "venue": {
-          "name": "NYU Physics",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Physics Department",
-          "type": "organizer"
-        },
-        "scraped_at": "2025-12-14T03:20:55.408808-05:00",
-        "original_source": "NYU Physics",
-        "speaker": "Center for Quantum Phenomena Seminars",
-        "institution": "December 16, 2025 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Matteo  MitranoHarvard UniversityQuantum Control of Hubbard ExcitonsCoherently tuning quantum states with light is a key frontier in the control of quantum materials. Floquet\r\nengineering, the coherent dressing of quantum states with periodic non-resonant optical fields, has\r\nbecome an important strategy for quantum control. However, most applications to solid-state systems\r\nhave targeted weakly interacting or single-ion states, leaving the manipulation of many-body\r\nwavefunctions largely unexplored. Here, we demonstrate ultrafast quantum control of a prototypical\r\nmany-body quantum state, a Hubbard exciton, in the quasi-one-dimensional Mott insulator Sr 2 CuO 3 . We\r\ndrive the Hubbard exciton with intense midinfrared pulses and interrogate its state with resonant third-\r\nharmonic generation. We observe a dynamic renormalization of the third harmonic signal due to a\r\ncoherent Floquet rotation of the many-body wavefunction between two states with opposite parity. The\r\nperiodic drive rotates the Hubbard exciton wavefunction by arbitrary angles up to π/2 on the Bloch\r\nsphere. By demonstrating on-demand rotations of a many-body quantum state, our work establishes a\r\npathway for quantum control of quantum materials through tailored pulse sequences and the\r\nfunctionalization of Hubbard excitons for quantum sensing applications.",
-        "event_type": "cqp",
-        "extraction_method": "html_parsing",
-        "links": [
-          {
-            "type": "other",
-            "text": "Broadway",
-            "url": "http://as.nyu.edu/physics/information.html"
-          },
-          {
-            "type": "series",
-            "text": "cqp",
-            "url": "http://physics.nyu.edu/events.html?EventsPage=cqp"
-          }
-        ]
-      }
-    },
-    {
-      "id": "evt_nyu_physics_event7574",
-      "name": "Atoms to Bits: Toward Thermodynamic Intelligence",
-      "description": "As transistors approach atomic limits, heat dissipation has become the defining constraint of modern computing. My research asks a different question: can heat itself be used to compute? Using correlated quantum materials such as vanadium dioxide (VO2), we explore how electronic phase transitions driven by the flow of heat and charge, generate nonlinear dynamics that resemble neural behavior. I will discuss our recent experiments revealing spiking, synchronization, and stochasticity in Mott oscillators, as well as collective switching in thermally coupled device networks. These studies uncover how local phase transition fluctuations and mesoscale heat transport give rise to emergent order and functional computation. By linking atomic-scale phase transitions to network-level information processing, this work outlines a physical pathway from atoms to bits, pointing toward a thermodynamic framework for intelligent, energy-aware electronics.Teaser line:From atomic phase transitions to emergent intelligence, see how computation can arise from the physics of heat itself.Speaker Bio:Erbin (Ben) Qiu is a postdoctoral researcher in the Department of Physics at the University of California, San Diego. He received his Ph.D. in Electrical and Computer Engineering from UC San Diego in 2024, where his dissertation focused on collective dynamics in coupled spiking oscillators based on quantum material. His research combines condensed-matter physics, materials science, device engineering, and neuroscience to develop energy-efficient computing paradigms that harness thermodynamic processes for intelligent function. His work has appeared in Advanced Materials, PNAS, Applied Physics Letters, and Nature Communications.",
-      "start_date": "2025-12-17T11:00:00-05:00",
-      "end_date": "2025-12-17T12:00:00-05:00",
-      "location_id": null,
-      "community_id": null,
-      "category": [
-        "SCIENCE",
-        "EDUCATION"
-      ],
-      "source": "nyu_physics",
-      "source_group": "nyu_physics",
-      "metadata": {
-        "source_url": "http://physics.nyu.edu/events.html#event7574",
-        "url": "http://physics.nyu.edu/events.html#event7574",
-        "source_name": "NYU Physics Events",
-        "venue": {
-          "name": "NYU Physics",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Physics Department",
-          "type": "organizer"
-        },
-        "scraped_at": "2025-12-14T03:20:55.409207-05:00",
-        "original_source": "NYU Physics",
-        "speaker": "Center for Quantum Phenomena Seminars",
-        "institution": "December 17, 2025 Wednesday 11:00 AM+726Broadway, 940, CQP Seminar(cqp)Special CQP SeminarErbin (Ben) QiuUniversity of California San DiegoAtoms to Bits: Toward Thermodynamic IntelligenceAs transistors approach atomic limits, heat dissipation has become the defining constraint of modern computing. My research asks a different question: can heat itself be used to compute? Using correlated quantum materials such as vanadium dioxide (VO2), we explore how electronic phase transitions driven by the flow of heat and charge, generate nonlinear dynamics that resemble neural behavior. I will discuss our recent experiments revealing spiking, synchronization, and stochasticity in Mott oscillators, as well as collective switching in thermally coupled device networks. These studies uncover how local phase transition fluctuations and mesoscale heat transport give rise to emergent order and functional computation. By linking atomic-scale phase transitions to network-level information processing, this work outlines a physical pathway from atoms to bits, pointing toward a thermodynamic framework for intelligent, energy-aware electronics.Teaser line:From atomic phase transitions to emergent intelligence, see how computation can arise from the physics of heat itself.Speaker Bio:Erbin (Ben) Qiu is a postdoctoral researcher in the Department of Physics at the University of California, San Diego. He received his Ph.D. in Electrical and Computer Engineering from UC San Diego in 2024, where his dissertation focused on collective dynamics in coupled spiking oscillators based on quantum material. His research combines condensed-matter physics, materials science, device engineering, and neuroscience to develop energy-efficient computing paradigms that harness thermodynamic processes for intelligent function. His work has appeared in Advanced Materials, PNAS, Applied Physics Letters, and Nature Communications.",
-        "event_type": "cqp",
-        "extraction_method": "html_parsing",
-        "links": [
-          {
-            "type": "other",
-            "text": "Broadway",
-            "url": "http://as.nyu.edu/physics/information.html"
-          },
-          {
-            "type": "series",
-            "text": "cqp",
-            "url": "http://physics.nyu.edu/events.html?EventsPage=cqp"
-          }
-        ]
-      }
-    },
-    {
       "id": "evt_nyu_physics_event7590",
       "name": "hep - High Energy Physics Seminars",
       "description": "Speaker: High Energy Physics Seminars | Institution: January 28, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep) | Event Type: hep",
@@ -1340,7 +1474,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-14T03:20:55.411007-05:00",
+        "scraped_at": "2025-12-21T03:21:05.050386-05:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "January 28, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -1386,7 +1520,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-14T03:20:55.412469-05:00",
+        "scraped_at": "2025-12-21T03:21:05.051779-05:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "February 4, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -1432,7 +1566,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-14T03:20:55.413595-05:00",
+        "scraped_at": "2025-12-21T03:21:05.053174-05:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Information Physics Seminars",
         "institution": "February 12, 2026 Thursday 11:00 AM+726Broadway, Room 1067(cqip)Shoumik ChowdhuryTheory of Quasiparticle Generation by Microwave Drives in Superconducting QubitsMicrowave drives play a central role in the control of superconducting quantum circuits, enabling qubit gates, readout, and parametric interactions. As the drive frequencies are typically an order of magnitude smaller than (twice) the superconducting gap, it is generally assumed that such drives do not disturb the BCS ground state. However, sufficiently strong drives can activate multi-photon pair-breaking processes that generate quasiparticles (QPs) and result in qubit errors. In this work, we present a theoretical framework for calculating the rates of multi-photon-assisted pair-breaking transitions induced by charge- or flux-coupled microwave drives. Through illustrative examples, we show that photon-assisted QP generation may impact novel high-frequency dispersive readout architectures, as well as Floquet-engineered superconducting circuits operating under strong driving.",
@@ -1478,7 +1612,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-14T03:20:55.417305-05:00",
+        "scraped_at": "2025-12-21T03:21:05.057063-05:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "April 7, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lee LiuPurdue UniversityShining New Light on Highly Symmetric Molecules",
@@ -1524,7 +1658,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-14T03:20:55.420356-05:00",
+        "scraped_at": "2025-12-21T03:21:05.060088-05:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "May 11, 2026 Monday 8:00 AM+726Broadway, 940, CCPP Seminar(ccpp)Special SeminarKleban KlebanThe Work of Prof. Daniel Zwanziger",
@@ -1865,34 +1999,6 @@
       }
     },
     {
-      "id": "evt_jtsa_c3723077",
-      "name": "NEW DATE! Revolutionizing Belonging: Disability Inclusion and the Future of Jewish Camp",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Dr. Abigail Uhrman and practitioners from Camp Ramah will explore the scholarship around belonging and camp, focusing on how it enriches campers, empowers staff, and offers a powerful model for a more equitable Jewish community.",
-      "start_date": "2025-12-15T12:00:00-05:00",
-      "end_date": "2025-12-15T13:00:00-05:00",
-      "category": [
-        "RELIGION",
-        "SOCIAL"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/future-jewish-summer-camp/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
       "id": "evt_jtsa_b44fc3f5",
       "name": "From the Beit Midrash to the Streets: A Window into the Rabbinate",
       "type": "Academic",
@@ -1903,8 +2009,8 @@
       "end_date": "2026-01-12T13:00:00-05:00",
       "category": [
         "EDUCATION",
-        "RELIGION",
-        "SOCIAL"
+        "SOCIAL",
+        "RELIGION"
       ],
       "source": "jtsa",
       "source_group": "Independent",
@@ -1914,6 +2020,33 @@
         "venue": {
           "name": "JTS",
           "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_41340441",
+      "name": "Between the Lines: Children of the Book",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Join JTS for a conversation with Ilana Kurshan, author of “Children of the Book: A Memoir of Reading Together.”",
+      "start_date": "2026-01-21T12:00:00-05:00",
+      "end_date": "2026-01-21T13:00:00-05:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/between-the-lines-children-of-the-book/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
         },
         "organizer": {
           "name": "Jewish Theological Seminary",
@@ -2084,6 +2217,33 @@
       }
     },
     {
+      "id": "evt_jtsa_9d254134",
+      "name": "Fundamentals of Biblical Hebrew: Reading and Pronunciation",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Learn to read Biblical Hebrew consonants and vowels with confidence. Begin with the Alef Bet and end by reciting entire passages.",
+      "start_date": "2026-02-04T12:00:00-05:00",
+      "end_date": "2026-02-04T13:00:00-05:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/fundamentals-biblical-hebrew-spring-2026/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
       "id": "evt_jtsa_dab30875",
       "name": "Biblical Hebrew IV: Advanced Reading Seminar— The Visions of Daniel",
       "type": "Academic",
@@ -2099,33 +2259,6 @@
       "source_group": "Independent",
       "metadata": {
         "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-daniel-winter-2025/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_c99980e9",
-      "name": "Biblical Hebrew IV: Advanced Reading Seminar— The Visions of Daniel",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Biblical Hebrew IV: Advanced Reading Seminar—The Visions of Daniel An Online Course with Dr. David Zev Moster Nine Thursdays: February 5, 12, 19, 26; March 5, 12, 19, 26; April 9, 2026 10:00-11:30 a.m. ET    We also offer two other Advanced Reading Seminars: a Thursday afternoon session from 2:00–3:30 p.m. ET, also focusing on the Visions of Daniel, and Tuesday […]",
-      "start_date": "2026-02-05T10:00:00-05:00",
-      "end_date": "2026-02-05T11:30:00-05:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-daniel-winter-2025-morning/",
         "source_name": "JTSA Events Calendar",
         "venue": {
           "name": "Online Event",
@@ -2342,6 +2475,40 @@
       }
     },
     {
+      "id": "evt_nyu_eng_ca98efe5",
+      "name": "The Versatility of Perovskite Materials for Optoelectronics",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2025-01-16T10:45:00",
+      "end_date": "2025-01-16T11:45:00",
+      "category": [
+        "TECH"
+      ],
+      "source": "nyu_engineering",
+      "source_group": "NYU Engineering",
+      "source_name": "NYU Tandon School of Engineering",
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2026/01/16/versatility-perovskite-materials-optoelectronics",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-12/Saliba%2C%20Michael%20-%20Headshot.jpg?h=5c130d19&itok=9Z7_2s4c"
+        }
+      }
+    },
+    {
       "id": "evt_nyu_eng_0353d7f5",
       "name": "Soft and Hard Nanomatter for the Preservation of Cultural Heritage",
       "type": "Seminar",
@@ -2351,7 +2518,6 @@
       "start_date": "2025-01-29T16:00:00",
       "end_date": "2025-01-29T17:00:00",
       "category": [
-        "EDUCATION",
         "TECH"
       ],
       "source": "nyu_engineering",
@@ -2371,7 +2537,7 @@
         },
         "additional_info": {
           "department": "Tandon School of Engineering",
-          "event_type": "Academic,  \nLecture / Panel",
+          "event_type": "Lecture / Panel",
           "image_url": null
         }
       }
@@ -2445,6 +2611,40 @@
       }
     },
     {
+      "id": "evt_nyu_api_a0b9b4292f",
+      "name": "Black History Month Short Film Festival",
+      "description": "Join RLHS, IRHC, The Leagues, and Black Violets to celebrate the work of past, present, and future generations of Black Cinema at NYU. This annual Black History Month Short Film Festival will feature short films from NYU Film students &amp; alum. Light refreshments will be provided. Door Prizes &amp; Giveaways! Are you a current NYU student, or NYU alum? Feel free to submit your 15 minute (or less) short film here to be considered! Submissions are due by February 4, 2026! Submissions are open to NYU students and alumni only. If you are not an NYU community member and would like to attend the event, please email nmante@nyu.edu.",
+      "start_date": "2026-02-19",
+      "end_date": "2026-02-19",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/380427-black-history-month-short-film-festival",
+        "source_name": "New York University",
+        "venue": {
+          "name": "King Juan Carlos Center",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_b911a0f1fc",
+      "name": "Career Conversations: State and Local Government",
+      "description": "",
+      "start_date": "2026-02-25",
+      "end_date": "2026-02-25",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/380573-career-conversations-state-and-local-govern",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Online",
+          "type": "Offline"
+        }
+      }
+    },
+    {
       "id": "evt_nyu_api_73a3d405d6",
       "name": "Urban Research Seminar",
       "description": "",
@@ -2462,23 +2662,6 @@
       }
     },
     {
-      "id": "evt_nyu_api_cd5211282c",
-      "name": "Migration Network x Tisch Film Screening",
-      "description": "",
-      "start_date": "2026-03-06",
-      "end_date": "2026-03-06",
-      "source": "nyu",
-      "source_group": "nyu",
-      "metadata": {
-        "source_url": "https://events.nyu.edu/live/event/event/378467-migration-network-x-tisch-film-screening",
-        "source_name": "New York University",
-        "venue": {
-          "name": "Main Event Space, Rm. 101, 105 East 17th Street",
-          "type": "Offline"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_api_ecbabe2fd8",
       "name": "Urban Research Seminar",
       "description": "",
@@ -2491,6 +2674,23 @@
         "source_name": "New York University",
         "venue": {
           "name": "Faculty Seminar Room Combined, 364, 105 East 17th Street",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_528b1dddbf",
+      "name": "Career Conversations: Research Careers",
+      "description": "",
+      "start_date": "2026-03-11",
+      "end_date": "2026-03-11",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/380571-career-conversations-research-careers",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Online",
           "type": "Offline"
         }
       }
@@ -2547,40 +2747,6 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_69f3181571",
-      "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
-      "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2026-01-13",
-      "end_date": "2026-01-13",
-      "source": "fordham",
-      "source_group": "fordham",
-      "metadata": {
-        "source_url": "https://now.fordham.edu/event/jewish-theology-in-latin-america-with-ila",
-        "source_name": "Fordham University",
-        "venue": {
-          "name": "Virtual Zoom",
-          "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_fordham_calendar_81b96cd9e2",
-      "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
-      "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2025-12-30",
-      "end_date": "2025-12-30",
-      "source": "fordham",
-      "source_group": "fordham",
-      "metadata": {
-        "source_url": "https://now.fordham.edu/event/jewish-theology-in-latin-america-with-ila",
-        "source_name": "Fordham University",
-        "venue": {
-          "name": "Virtual Zoom",
-          "type": "Offline"
-        }
-      }
-    },
-    {
       "id": "evt_fordham_calendar_fbfd0afa81",
       "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
       "description": "Join us for a three-part online mini-course over the winter bre",
@@ -2610,6 +2776,40 @@
         "source_name": "Fordham University",
         "venue": {
           "name": "Museum of Greek\\, Etruscan\\, and Roman Art\\, Walsh Library\\, 441 E",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_81b96cd9e2",
+      "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
+      "description": "Join us for a three-part online mini-course over the winter bre",
+      "start_date": "2025-12-30",
+      "end_date": "2025-12-30",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/jewish-theology-in-latin-america-with-ila",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Virtual Zoom",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_fordham_calendar_69f3181571",
+      "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
+      "description": "Join us for a three-part online mini-course over the winter bre",
+      "start_date": "2026-01-13",
+      "end_date": "2026-01-13",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/jewish-theology-in-latin-america-with-ila",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Virtual Zoom",
           "type": "Offline"
         }
       }
@@ -2730,144 +2930,6 @@
         "venue": {
           "name": "NYU Stern",
           "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_c1b094ce",
-      "name": "AAS Fashion Design December Graduate Showcase",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Parsons School of Fashion is showcasing our AAS Fashion Design December graduates with a celebration of their capstone work. This open studio is an exploration of each graduate's creative journey as part of the AAS Fashion community.Please join us at the University Center, 5th Floor, Room 515, on December 15th, 6:00 - 8:00pm.",
-      "start_date": "2025-12-15T18:00:00-05:00",
-      "end_date": "2025-12-15T20:00:00-05:00",
-      "category": [
-        "EDUCATION",
-        "VISUAL_ARTS",
-        "SOCIAL"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/aasfashiondecembershowcase",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "University Center - Room 515",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Parsons School of Design"
-          ],
-          "tags": [
-            "alumni",
-            "faculty",
-            "staff",
-            "students",
-            "fashion",
-            "arts",
-            "design",
-            "parsons school of design",
-            "receptions",
-            "university center - room 515",
-            "art and design"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_6c4cc56a",
-      "name": "Naked Angels 1st Mondays at The School of Drama",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Join the School of Drama and Naked Angels on Monday, December 15, 2025 at 7:00pm for the second collaborative reading of the semester, The Mispoeds By Catherine CastellaniThis event is free and open to the public, no ticket required.The School of Drama continues its dynamic partnership with Naked Angels, a leading figure in New York City’s theater community. The esteemed “1st Mondays at The New School” series is a vital platform for emerging playwrights from Naked Angels’ Tuesdays@9 community to showcase their work and for School of Drama students to interact with and learn from these emerging talents, gain insights into the process of creating and workshopping new plays, and forge meaningful connections within the industry.  Established in 2003, the 1st Mondays program is part of a long tradition of creative development powered by NYC writers and actors. Over the years, 1st Mondays has launched plays that later achieved critical success, including as Geoffrey Nauffts' Next Fall (Broadway) and Cynthia Kaplan's Cindy of Arc (finalist for the 2023 Richard Rodgers Award for Musical Theater).Naked Angels is thrilled that the 2025-26 season will be hosted by the School of Drama, our partner in building community through theatre. ",
-      "start_date": "2025-12-15T19:00:00-05:00",
-      "end_date": "2025-12-15T21:00:00-05:00",
-      "category": [
-        "EDUCATION",
-        "MUSIC_DISCUSSION",
-        "PERFORMING_ARTS",
-        "SOCIAL"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/nakedangels1stmondaysdec2025",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Ernst C. Stiefel Hall",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "drama",
-            "performing arts",
-            "college of performing arts",
-            "performances",
-            "ernst c. stiefel hall",
-            "music performances",
-            "theater performances"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_318d7015",
-      "name": "Future Bodies (A Performance)",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Students and faculty (Fiona Dieffenbacher and Cara Hagan) from the Future Bodies class warmly invite you to a performance on the Rashid Johnson Rotunda stage situated in the lobby at the Guggenheim Museum. The performance is the culmination of a collaborative, semester-long partnership between The Parsons School of Design and the Guggenheim Museum in which students explored the concept of the “future body” through texts on embodiment, materiality and spirituality. All elements have been created by the students, from choreography and costumes to spatial and sonic design, as well collateral materials. Access to performances is fre, and museum admission is available at a discounted rate for students.Students may use the code GUGGNYEDU for $10 off 1 student ticket valid only on 12/17.We look forward to seeing you on the 17th!",
-      "start_date": "2025-12-17T14:00:00-05:00",
-      "end_date": "2025-12-17T23:59:59-05:00",
-      "category": [
-        "EDUCATION",
-        "VISUAL_ARTS",
-        "PERFORMING_ARTS"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/futurebodiesaperformance",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Solomon R. Guggenheim Museum",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Parsons School of Design"
-          ],
-          "tags": [
-            "general public",
-            "fashion",
-            "arts",
-            "parsons school of design",
-            "performance",
-            "solomon r. guggenheim museum",
-            "art and design"
-          ],
-          "audience": []
         }
       }
     },
@@ -3011,7 +3073,7 @@
       "type": "Performance",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "Ulysses Quartet 10 years after their New York debut on this series, the Ulysses Quartet returns as our 2025-2026 Curating/Performing ensemble. In the first of three concerts, they perform works of  Claude Debussy, Felix Mendelssohn, a world premiere of a Schneider Concerts co-commission, \"Tina Davidson's \"Just before Light\", and arrangements of folks songs from the members' heritage.Christina Bouey, violinRhiannon Banerdt, violinPeter Dudek, violaGrace Ho, celloTina Davidson: \"Just Before Light\" (2025)—World premiere of Schneider Concerts co-commissionClaude Debussy: String Quartet in G minor, Op. 10 (1893)Traditional —celebrating Ulysses Quartet members' cultural roots in Taiwan, Ireland, Poland, and the United States with folk song arrangementsFelix Mendelssohn: String Quartet in F minor, Op. 80 (1847).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register to receive livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
+      "description": "Ulysses Quartet 10 years after their New York debut on this series, the Ulysses Quartet returns as our 2025-2026 Curating/Performing ensemble. In the first of three concerts, they perform works of  Claude Debussy, Felix Mendelssohn, a world premiere of a Schneider Concerts co-commission, \"Tina Davidson's \"Just Before Light\", and arrangements of folks songs from the members' heritage.Christina Bouey, violinRhiannon Banerdt, violinCara Pogossian, violaGrace Ho, celloTina Davidson: \"Just Before Light\" (2025)—World premiere of a co-commission by Schneider Concerts and Ulysses QuartetClaude Debussy: String Quartet in G minor, Op. 10 (1893)Traditional —celebrating Ulysses Quartet members' cultural roots in Taiwan, Ireland, and the United States with folk song arrangementsFelix Mendelssohn: String Quartet in F minor, Op. 80 (1847).This concert will be approximately 1 hour and 40 minutes, including intermission 12:30p.m. pre-concert talk with Dana Kelley requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous on-line broadcast for those who can't attend in person. That means register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register to receive livestream link here. This concert is part of the Schneider Concerts 2025-26 season — 6 mainstage concerts featuring exceptional emerging ensembles, plus pre-concert talks, livestreams, and free short programs at community partner venues.Explore the season here. ",
       "start_date": "2026-01-11T14:00:00-05:00",
       "end_date": "2026-01-11T16:30:00-05:00",
       "category": [
@@ -3283,6 +3345,55 @@
       }
     },
     {
+      "id": "evt_newschool_10342082",
+      "name": "Book launch: Lana Lin and Radhika Subramaniam",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us to celebrate two new books by New School Faculty, Lana Lin and Radhika Subramaniam. Situated between memoir, social criticism, and conceptual art, Lin’s The Autobiography of H. Lan Thao Lam narrates a 25-year queer love story through the literary form of ventriloquism that Gertrude Stein invented in her 1933 The Autobiography of Alice B. Toklas, and responds to the modernist classic by raising the Asian understory to the surface.  Subramaniam’s Footprint: Four Itineraries probes the long history of the footprint’s manifestation in the human imagination—signifying mobility and occupation, inquiry and imperialism, absence and presence, trace, and impact—to ask if it is yet possible to tread lightly on our world.The event will feature a conversation between the two writers and invite questions and discussion followed by a celebratory reception. Accessibility NoteThe Wolff Conference Room is wheelchair-accessible. There are wheelchair-accessible and all-gender bathrooms on the same floor as the conference room. Seating in the space can be changed as needed. Virtual attendance is not available for this event. ASL interpretation is available with advance notice.",
+      "start_date": "2026-02-11T18:00:00-05:00",
+      "end_date": "2026-02-11T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS",
+        "PERFORMING_ARTS",
+        "HUMANITIES",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/booklaunchlanalinandradhikasub",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Wolff Conference Room, Albert and Vera List Academic Center, D1103",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "general public",
+            "art, media and technology",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "parsons school of design",
+            "lectures and talks",
+            "wolff conference room, albert and vera list academic center, d1103",
+            "lectures and panel discussions",
+            "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_91ec3db9",
       "name": "Mannes Sounds Piano Cantabile: Nightscapes: Piano Visions  of the Night",
       "type": "Seminar",
@@ -3470,6 +3581,54 @@
             "lectures and talks",
             "ernst c. stiefel concert hall at arnhold hall",
             "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_a28669ac",
+      "name": "The Write Life featuring Alumni Corey Ann Haydu",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a reading and conversation with author Corey Ann Haydu as she sits down with Emily X.R. Pan to talk about process, craft, working across genres and categories, and maintaining a creative life. Moderated by Emily X.R. Pan, part time faculty; author of The Astonishing Color of After\"",
+      "start_date": "2026-02-24T18:00:00-05:00",
+      "end_date": "2026-02-24T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "HUMANITIES",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/thewritelifefeaturingalumnis26",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "A-407",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Creative Writing"
+          ],
+          "tags": [
+            "alumnievents",
+            "lobbymonitor",
+            "slide_events",
+            "prospective students",
+            "creative writing program",
+            "writing and literature",
+            "the new school for social research",
+            "author readings",
+            "a-407",
+            "author readings and discussions"
           ],
           "audience": []
         }
@@ -3994,6 +4153,52 @@
       }
     },
     {
+      "id": "evt_newschool_e69532bb",
+      "name": "Writing for Young Readers: A Conversation with Erin Entrada Kelly",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for an exciting, in-depth discussion on the creative process of writing for young people with award-winning, bestselling author, Erin Entrada Kelly. Moderated by Coe Booth, assistant professor; author of Tyrell and Kinda Like Brothers.",
+      "start_date": "2026-04-15T18:00:00-04:00",
+      "end_date": "2026-04-15T19:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "HUMANITIES",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/writingforyoungreaderss26",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "A-407",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "Creative Writing"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "general public",
+            "creative writing program",
+            "writing and literature",
+            "the new school for social research",
+            "author readings",
+            "a-407",
+            "author readings and discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_ed85e8ec",
       "name": "Schneider Concerts Presents | Dana Kelley, April Preconcert Talk",
       "type": "Performance",
@@ -4188,6 +4393,96 @@
       }
     },
     {
+      "id": "evt_newschool_f1edb5c4",
+      "name": "Sandbox Percussion Summer Seminar",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join The College of Performing Arts’ celebrated Ensemble-in-Residence, Sandbox Percussion, in NYC for an immersive program celebrating Steve Reich’s 90th birthday and the music he inspired.",
+      "start_date": "2026-06-09T09:00:00-04:00",
+      "end_date": "2026-06-15T22:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/sandboxpercussionsummerseminar",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "online_events_cal",
+            "slide_events",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "workshops and training",
+            "the new school",
+            "continuing education"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_777613e6",
+      "name": "Mannes International Piano Festival",
+      "type": "Workshop",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Mannes School of Music, an all-Steinway school, is thrilled to bring back the Mannes International Piano Festival for its third year, under the artistic direction of Pavlina Dokovska, Chair of the Mannes Piano Department! ",
+      "start_date": "2026-07-12T10:00:00-04:00",
+      "end_date": "2026-07-26T22:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannesinternationalpianofestival",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "workshops and training",
+            "the new school",
+            "continuing education"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_nyu_education_71351baafe",
       "name": "Paying for Your Education",
       "description": "Back\n\nUndergraduate\n    \n        \n    \n\n\n\n\n\n  \n    \n    \n          Master's\n    \n        \n    \n\nMaster's submenu collapsed\n\n\n\n\n\n\n\n\n\n\n\n\n      Master's\n  \n\n\n\n\nBack\n\n\n\n\n\n  \n    \n    \n          Additional Resources and Opportunities\n    \n        \n    \n\n\n\n\n\n  \n    \n    \n          Assistantships and On-Campus Jobs\n    \n        \n    \n\n\n\n\n\n  \n    \n    \n          Federal Aid\n    \n        \n    \n\n\n\n\n\n  \n    \n    \n          Scholarships and Grants\n    \n        \n    \n\n\n\n\n\n\n\n\n  \n    \n    \n          Doctorate\n    \n        \n    \n\n\n\n\n\n  \n    \n    \n          Study Abroad",
@@ -4256,19 +4551,19 @@
       }
     },
     {
-      "id": "ad3de4650e6dd406499fdd7b538f7fad",
-      "name": "In Our Time: Eleven Artists + W.E.B. Du Bois",
-      "description": "Event at Pratt Manhattan Gallery, 144 W 14th St, New York, NY 10011",
-      "start_date": "2025-09-26T09:00:00-04:00",
-      "end_date": "2025-12-20T23:59:00-05:00",
+      "id": "49501de1fbb916195e5b672f807d8882",
+      "name": "A special holiday gathering Event for our neighbors living in shelters",
+      "description": "Event at Dining Hall",
+      "start_date": "2025-12-21T09:00:00-05:00",
+      "end_date": "2025-12-21T17:00:00-05:00",
       "location_id": "pratt_institute",
       "community_id": "pratt_institute",
       "category": "academic",
-      "url": "https://www.pratt.edu/events/in-our-time-eleven-artists-w-e-b-du-bois/",
+      "url": "https://www.pratt.edu/events/a-special-holiday-gathering-event-for-our-neighbors-living-in-shelters/",
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.523637-05:00",
+        "scraped_at": "2025-12-21T03:21:12.627218-05:00",
         "extraction_method": "teaser"
       }
     },
@@ -4285,14 +4580,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.525178-05:00",
+        "scraped_at": "2025-12-21T03:21:12.628700-05:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "253024d5495f17f747be5945eec1379e",
       "name": "Today at Pratt",
-      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n\n          In Our Time: Eleven Artists + W.E.B. Du Bois\n        \n\n\n\n\n\nSeptember 26 – December 20, 2025\n11:00 AM – 6:00 PM\n\n\nPratt Manhattan Gallery, 144 W 14th St, New York, NY 1...",
+      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n\n          A special holiday gathering Event for our neighbors living in shelters\n        \n\n\n\n\n\nDecember 21, 2025\n1:00 PM – 5:00 PM\n\n\n Dining Hall\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSlide to th...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -4302,14 +4597,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.525213-05:00",
+        "scraped_at": "2025-12-21T03:21:12.628733-05:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "da309ad5d95783831800b75842692b92",
       "name": "Calendar",
-      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n\n          In Our Time: Eleven Artists + W.E.B. Du Bois\n        \n\n\n\n\n\nSeptember 26 – December 20, 2025\n11:00 AM – 6:00 PM\n\n\nPratt Manhattan Gallery, 144 W 14th St, Ne...",
+      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n\n          A special holiday gathering Event for our neighbors living in shelters\n        \n\n\n\n\n\nDecember 21, 2025\n1:00 PM – 5:00 PM\n\n\n Dining Hall\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -4319,7 +4614,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.525277-05:00",
+        "scraped_at": "2025-12-21T03:21:12.628794-05:00",
         "extraction_method": "header"
       }
     },
@@ -4336,7 +4631,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.525301-05:00",
+        "scraped_at": "2025-12-21T03:21:12.628817-05:00",
         "extraction_method": "header"
       }
     },
@@ -4353,7 +4648,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.525329-05:00",
+        "scraped_at": "2025-12-21T03:21:12.628844-05:00",
         "extraction_method": "header"
       }
     },
@@ -4370,7 +4665,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.525355-05:00",
+        "scraped_at": "2025-12-21T03:21:12.628870-05:00",
         "extraction_method": "header"
       }
     },
@@ -4387,8 +4682,43 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-14T03:21:05.527123-05:00",
+        "scraped_at": "2025-12-21T03:21:12.630650-05:00",
         "extraction_method": "container"
+      }
+    },
+    {
+      "id": "evt_nyas_38222aa8",
+      "name": "Lyceum Society: FDA & New Drug Approvals",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\n\n\n\n\nNYAS  |\n\t\t\t\t\tBlavatnik Awards | \n\t\t\t\t\tISR | \n\t\t\t\t\t \n\t\t\t\t\t\tAnnals\n\n\nBlog ·\n\t\t\t\t\tEvent Calendar\n\nBecome a Member\n\n\nSupport Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Us Overview\nMission & Values\nWhat We Do\nWho We Are\nOur History\nAbout Our Space\nNews & Media\nCareers\n\n\nFeatured Topics Overview\nHealth & Disease\nScience in Society\nSTEM Pathways\nSustainable Planet\nTechnology & Innovation\n\n\nLearning Overview\nHigh School Research Programs\nProfessional Learning\nSchool & Community Programs\n\n\nIdeas & Insights Overview",
+      "start_date": "2026-01-05T18:00:00-05:00",
+      "end_date": "2026-01-05T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "ENVIRONMENTAL",
+        "TECHNOLOGY",
+        "SOCIAL",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
       }
     },
     {
@@ -4397,14 +4727,13 @@
       "type": "Seminar",
       "location_id": "loc_virtual",
       "community_id": "com_nyas",
-      "description": "\n\n\n\n\n\n\nNYAS  |\n\t\t\t\t\tBlavatnik Awards | \n\t\t\t\t\tISR | \n\t\t\t\t\t \n\t\t\t\t\t\tAnnals\n\n\nBlog ·\n\t\t\t\t\tEvent Calendar\n\nBecome a Member\n\n\nSupport Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Us Overview\nMission & Values\nWhat We Do\nWho We Are\nOur History\nAbout Our Space\nNews & Media\nCareers\n\n\nFeatured Topics Overview\nHealth & Disease\nScience in Society\nSTEM Pathways\nSustainable Planet\nTechnology & Innovation\n\n\nLearning Overview\nHigh School Research Programs\nProfessional Learning\nSchool & Community Programs\n\n\nIdeas & Insights Overview",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nThe Roller Coaster of Climate Tech Investing \n\n\t\t\t\t\tJan 22,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t22\t\t\t\t\t\n\n\t\t\t\t\t Jan\t\t\t\t\t\n\n\n \n",
       "start_date": "2026-01-22T18:00:00-05:00",
       "end_date": "2026-01-22T20:00:00-05:00",
       "category": [
         "EDUCATION",
         "ENVIRONMENTAL",
         "TECHNOLOGY",
-        "SOCIAL",
         "BUSINESS",
         "SCIENCE"
       ],
@@ -4461,6 +4790,38 @@
       }
     },
     {
+      "id": "evt_nyas_f56e16ee",
+      "name": "Break the Ice: Virtual Winter Networking",
+      "type": "Networking",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nBreak the Ice: Virtual Winter Networking \n\n\t\t\t\t\tFeb 05,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t05\t\t\t\t\t\n\n\t\t\t\t\t Feb\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-02-05T18:00:00-05:00",
+      "end_date": "2026-02-05T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_8604b1b6",
       "name": "Making Your Science Matter: Effective Communication for K-12 Engagement",
       "type": "Seminar",
@@ -4494,12 +4855,12 @@
       }
     },
     {
-      "id": "evt_nyas_3643a122",
-      "name": "The Dr. Paul Janssen Award Symposium",
+      "id": "evt_nyas_2ab33764",
+      "name": "Advancing Tyrosine Kinase Inhibitors from Discovery to Patient Care: The Dr. Paul Janssen Award Symposium",
       "type": "Conference",
       "location_id": "loc_nyas_main",
       "community_id": "com_nyas",
-      "description": "\n\n\nFree for Members \n\n\nHybrid Event \n\nThe Dr. Paul Janssen Award Symposium \n\n\t\t\t\t\tMar 02,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t02\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
+      "description": "\n\n\nFree for Members \n\n\nHybrid Event \n\nAdvancing Tyrosine Kinase Inhibitors from Discovery to Patient Care: The Dr. Paul Janssen Award Symposium \n\n\t\t\t\t\tMar 02,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t02\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
       "start_date": "2026-03-02T18:00:00-05:00",
       "end_date": "2026-03-02T20:00:00-05:00",
       "category": [
@@ -4593,12 +4954,12 @@
       }
     },
     {
-      "id": "evt_nyas_3970941a",
-      "name": "Oliver Sacks: His Own Life",
-      "type": "Seminar",
+      "id": "evt_nyas_018d81a3",
+      "name": "'Oliver Sacks: His Own Life' Film Screening and Q&A",
+      "type": "Screening",
       "location_id": "loc_nyas_main",
       "community_id": "com_nyas",
-      "description": "\n\n\nFree for Members \n\n\nIn-person Event \n\nOliver Sacks: His Own Life \n\n\t\t\t\t\tMar 03,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t03\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
+      "description": "\n\n\nFree for Members \n\n\nIn-person Event \n\n'Oliver Sacks: His Own Life' Film Screening and Q&A \n\n\t\t\t\t\tMar 03,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t03\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
       "start_date": "2026-03-03T18:00:00-05:00",
       "end_date": "2026-03-03T20:00:00-05:00",
       "category": [
@@ -4721,6 +5082,39 @@
         },
         "additional_info": {
           "event_type": "Hybrid",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_bdd4fe5a",
+      "name": "Spring Soirée 2026",
+      "type": "Seminar",
+      "location_id": "loc_nyas_main",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nIn-person Event \n\nSpring Soirée 2026 \n\n\t\t\t\t\tApr 21,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t21\t\t\t\t\t\n\n\t\t\t\t\t Apr\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-04-21T18:00:00-04:00",
+      "end_date": "2026-04-21T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "The New York Academy of Sciences",
+          "address": "250 Greenwich St, New York, NY 10007",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "In-person",
           "is_member_free": true
         }
       }
@@ -4964,72 +5358,6 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_0d783e81",
-      "name": "Chamber Music with Piano",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "The pianists of NYU Steinhardt perform a varied program featuring chamber works with strings and woodwinds, as well as pieces for two pianos and piano four hands.",
-      "start_date": "2025-12-14T15:00:00-05:00",
-      "end_date": "2025-12-14T16:30:00-05:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2025-12/chamber-music-piano",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "Paulson Center, Room 570181 Mercer Street (at Bleecker Street) NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.467137-05:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_9dd5cba9",
-      "name": "Village Voices",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Village Voices presents an evening of jazz, pop and a little holiday cheer. The evening showcases 12 talented singers accompanied by live musicians.",
-      "start_date": "2025-12-15T20:00:00-05:00",
-      "end_date": "2025-12-15T21:30:00-05:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2025-12/village-voices",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "Frederick Loewe Theatre35 West 4th Street",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.467560-05:00"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_steinhardt_music_75a8808f",
       "name": "Masterclass: Marilyn Nonken",
       "type": "Performance",
@@ -5058,7 +5386,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.468892-05:00"
+          "scraped_at": "2025-12-21T03:21:05.717144-05:00"
         }
       }
     },
@@ -5091,7 +5419,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.469338-05:00"
+          "scraped_at": "2025-12-21T03:21:05.717588-05:00"
         }
       }
     },
@@ -5124,7 +5452,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.469742-05:00"
+          "scraped_at": "2025-12-21T03:21:05.718016-05:00"
         }
       }
     },
@@ -5157,7 +5485,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.470169-05:00"
+          "scraped_at": "2025-12-21T03:21:05.718479-05:00"
         }
       }
     },
@@ -5190,7 +5518,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.470575-05:00"
+          "scraped_at": "2025-12-21T03:21:05.718898-05:00"
         }
       }
     },
@@ -5223,7 +5551,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-14T03:20:56.470984-05:00"
+          "scraped_at": "2025-12-21T03:21:05.719334-05:00"
         }
       }
     },
@@ -5256,7 +5584,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.471390-05:00"
+          "scraped_at": "2025-12-21T03:21:05.719778-05:00"
         }
       }
     },
@@ -5289,7 +5617,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.471797-05:00"
+          "scraped_at": "2025-12-21T03:21:05.720216-05:00"
         }
       }
     },
@@ -5322,7 +5650,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:56.472251-05:00"
+          "scraped_at": "2025-12-21T03:21:05.720636-05:00"
         }
       }
     },
@@ -5355,7 +5683,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-14T03:21:01.045960-05:00"
+          "scraped_at": "2025-12-21T03:21:09.272084-05:00"
         }
       }
     },
@@ -5388,71 +5716,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-14T03:21:01.047873-05:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_0d783e81",
-      "name": "Chamber Music with Piano",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "The pianists of NYU Steinhardt perform a varied program featuring chamber works with strings and woodwinds, as well as pieces for two pianos and piano four hands.",
-      "start_date": "2025-12-14T15:00:00-05:00",
-      "end_date": "2025-12-14T16:30:00-05:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2025-12/chamber-music-piano",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "Paulson Center, Room 570181 Mercer Street (at Bleecker Street) NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:55.893270-05:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_9dd5cba9",
-      "name": "Village Voices",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Village Voices presents an evening of jazz, pop and a little holiday cheer. The evening showcases 12 talented singers accompanied by live musicians.",
-      "start_date": "2025-12-15T20:00:00-05:00",
-      "end_date": "2025-12-15T21:30:00-05:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2025-12/village-voices",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "Frederick Loewe Theatre35 West 4th Street",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:55.893691-05:00"
+          "scraped_at": "2025-12-21T03:21:09.274876-05:00"
         }
       }
     },
@@ -5484,7 +5748,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-14T03:20:55.895439-05:00"
+          "scraped_at": "2025-12-21T03:21:05.358176-05:00"
         }
       }
     },
@@ -5516,7 +5780,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:55.897133-05:00"
+          "scraped_at": "2025-12-21T03:21:05.360680-05:00"
         }
       }
     },
@@ -5548,7 +5812,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-14T03:20:55.897533-05:00"
+          "scraped_at": "2025-12-21T03:21:05.361108-05:00"
         }
       }
     },
@@ -5580,7 +5844,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:55.897960-05:00"
+          "scraped_at": "2025-12-21T03:21:05.361524-05:00"
         }
       }
     },
@@ -5612,7 +5876,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:55.898379-05:00"
+          "scraped_at": "2025-12-21T03:21:05.361927-05:00"
         }
       }
     },
@@ -5644,7 +5908,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-14T03:20:55.898784-05:00"
+          "scraped_at": "2025-12-21T03:21:05.362771-05:00"
         }
       }
     },
@@ -5676,240 +5940,39 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-14T03:20:55.899254-05:00"
+          "scraped_at": "2025-12-21T03:21:05.363245-05:00"
         }
       }
     },
     {
-      "id": "evt_columbia_ef324774",
-      "name": "Music at the Bollinger Forum:  Monday, December 15th",
-      "type": "Performance",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Join us the the Annual Holiday Caroling at the Bollinger Forum&lt;/p&gt;\n&lt;p&gt;Monday, December 15th at 6:00 PM&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2025-12-15T23:00:00-05:00",
-      "end_date": "2025-12-16T00:00:00-05:00",
-      "category": [
-        "ARTS",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9ad927e5-019a-dbc6b33d-00006ca2events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Forum",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Forum",
-          "tags": [
-            "org/neighbors",
-            "org/forum",
-            "Manhattanville",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Music",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Performance",
-            "Graduate Students",
-            "Trainees",
-            "Concert",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Music",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Performance",
-            "Graduate Students",
-            "Trainees",
-            "Concert",
-            "Arts"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_ed974626",
-      "name": "Research, Innovation, and Community Day",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;9:00-12 - Research Session - Alumni Auditorium&lt;/p&gt;\n&lt;p&gt;12:30-1:30 - Break&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;1:30-2:30 - Innovation-AT Display -&amp;nbsp;Vagelos Education Center&amp;nbsp;401&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;2:30-3:00&amp;nbsp;- Community Poster Session 1 - Vagelos Education Center&amp;nbsp;401&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;3:15-3:45&amp;nbsp;- Community Poster Session 2 - Vagelos Education Center&amp;nbsp;401&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Address:&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Alumni Auditorium:&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;650 W 168th St, New York, NY 10032&lt;/p&gt;\n&lt;p&gt;Roy and Diana Vagelos Education Center&lt;/p&gt;\n&lt;p&gt;104 Haven Ave, New York, NY 10032&lt;/p&gt;",
-      "start_date": "2025-12-17T13:30:00-05:00",
-      "end_date": "2025-12-17T20:45:00-05:00",
-      "category": [
-        "EDUCATION",
-        "HEALTH",
-        "SCIENCE",
-        "SOCIAL",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-99c808de-0199-c97357c9-00002ed4events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Roy And Diana Vagelos Education Center, 104 Haven Ave., New York, NY 10032\t401",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Occupational Therapy",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Occupational Therapy",
-          "tags": [
-            "org/OccupationalTherapy",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_eaeb6f83",
-      "name": "Hematological Malignancies Seminar Series: Marina Konopleva, MD, PhD",
+      "id": "evt_nyu_steinhardt_05b61d8f",
+      "name": "Guest Masterclass: Kate Soyeon Lee",
       "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Marina Konopleva, MD, PhD&lt;/strong&gt;&lt;br /&gt;\nProfessor, Director of the Leukemia Program and the Co-Director of the Translational Blood Cancer Institute at in the Departments of Oncology and Cell Biology at the Albert Einstein College of Medicine and Montefiore Medical Center&lt;/p&gt;\n&lt;p&gt;Hosted by Stavroula Kousteni, PhD,&amp;nbsp;Professor, Department of Physiology &amp;amp; Cellular Biophysics; Director, Evans MDS Center at Columbia&lt;/p&gt;\n&lt;p&gt;This event is&amp;nbsp;sponsored by the Herbert Irving Comprehensive Cancer Center&amp;#39;s (HICCC)&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/research/researchers/edward-p-evans-center-myelodysplastic-syndromes-mds\" target=\"_blank\"&gt;Edward P. Evans Center for Myelodysplastic Syndromes (MDS)&lt;/a&gt;.&lt;/p&gt;",
-      "start_date": "2025-12-18T18:15:00-05:00",
-      "end_date": "2025-12-18T19:15:00-05:00",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "First prize winner of the Naumburg International Piano Competition and the Concert Artist Guild International Competition, Korean-American pianist Kate Soyeon Lee, leads a masterclass.",
+      "start_date": "2026-03-26T19:30:00-04:00",
+      "end_date": "2026-03-26T21:00:00-04:00",
       "category": [
         "EDUCATION",
-        "HEALTH",
-        "SCIENCE",
-        "TECH"
+        "ARTS"
       ],
-      "source": "columbia",
-      "source_group": "Columbia",
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
       "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9a5d93d5-019a-5efd3a6e-00002e98events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
+        "source_url": "https://steinhardt.nyu.edu/events/2026-03/guest-masterclass-kate-soyeon-lee",
+        "source_name": "NYU Steinhardt Events",
         "venue": {
-          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st floor auditorium",
+          "name": "C20575 Third Ave. North, NYC",
           "type": "venue"
         },
         "organizer": {
-          "name": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
+          "name": "NYU Steinhardt",
           "type": "organizer"
         },
         "additional_info": {
-          "department": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
-          "tags": [
-            "org/MDS",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ]
+          "areas_of_study": "The Arts",
+          "scraped_at": "2025-12-21T03:21:05.363650-05:00"
         }
       }
     },
@@ -6074,6 +6137,77 @@
             "Engineering",
             "Training",
             "Other"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_02d46100",
+      "name": "Geodynamics Seminar - Kelly McKeon",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Presentation by&amp;nbsp;Kelly McKeon.&lt;/p&gt;\n&lt;p&gt;Abstract will be posted soon.&lt;/p&gt;",
+      "start_date": "2026-01-12T19:00:00-05:00",
+      "end_date": "2026-01-12T20:00:00-05:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b30b3d7-019b-30efadf9-00000618events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Seismology Building, 61 Route 9W, Palisades, NY 10964\tSeminar Room",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Geodynamics Seminars",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Geodynamics Seminars",
+          "tags": [
+            "org/geodynamics",
+            "Lamont-Doherty Earth Observatory",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
           ]
         }
       }
@@ -6406,6 +6540,153 @@
       }
     },
     {
+      "id": "evt_columbia_26eca5a5",
+      "name": "Geodynamics Seminar - Frederik Simons",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Presentation by&amp;nbsp;Frederik Simons.&lt;/p&gt;\n&lt;p&gt;Abstract will be posted soon.&lt;/p&gt;",
+      "start_date": "2026-01-26T19:00:00-05:00",
+      "end_date": "2026-01-26T20:00:00-05:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b30b3d7-019b-30f15c54-0000069bevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Seismology Building, 61 Route 9W, Palisades, NY 10964\tSeminar Room",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Geodynamics Seminars",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Geodynamics Seminars",
+          "tags": [
+            "org/geodynamics",
+            "Lamont-Doherty Earth Observatory",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_30326945",
+      "name": "Devotion &amp; Distraction: Between Faith and Fiction",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Date: &lt;/strong&gt;Tuesday, January 27, 2026, from 12:30-2:00PM &amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&amp;nbsp;&lt;/strong&gt;The Interchurch Center, 61 Claremont Avenue (Entrance between 119th &amp;amp; 120th Street)&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Series:&lt;/strong&gt; Devotion and Distraction&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt; Lital Levy (Princeton University)&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Respondent:&lt;/strong&gt; Seth Kimmel (Columbia University)&lt;/p&gt;\n&lt;p&gt;In a simple story that we now tell ourselves about secularization, the European Enlightenment plays a key role: It&amp;rsquo;s the period when scientific inquiry and rational thought became ascendent, while religious practice receded to a more limited private sphere, a shift that coincided with new paradigms of toleration and liberty. The truth is of course more complicated, as theologians from various religious communities reimagined both religious practice and belief in dialogue with the philosophical and political trends of the moment. Along with their neighbors from other religious communities, how did participants in the Jewish Enlightenment, or Haskalah, come to view the new distractions, technological transformations, and dream of universal knowledge that characterized modern life before the eighteenth and nineteenth centuries?&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Free and open to the public &lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Registration is required&amp;mdash;&lt;a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdaaDEcYwMgicdSVKlaPmkk-_4lSW8rws30ad_QrccDqWTWuQ/viewform\" target=\"_blank\"&gt;Please register here in advance to reserve your spot&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;All prospective attendees must register by 11:59PM on Monday, January 26. Registration will close at that time.&lt;/p&gt;",
+      "start_date": "2026-01-27T17:30:00-05:00",
+      "end_date": "2026-01-27T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE",
+        "SOCIAL",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b2140c4-019b-229a2e2a-000026caevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Interchurch Center, 475 Riverside Dr., New York, NY 10027\t1st Floor",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "IRCPL",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "IRCPL",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Lecture",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Social Sciences",
+            "org/ircpl",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Humanities",
+            "Religion"
+          ],
+          "audience": [
+            "Category",
+            "Lecture",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Social Sciences",
+            "org/ircpl",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Humanities",
+            "Religion"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_e76849e0",
       "name": "The Abel Lecture on Antisemitism with Pam Nadell",
       "type": "Seminar",
@@ -6477,6 +6758,88 @@
       }
     },
     {
+      "id": "evt_columbia_34082d24",
+      "name": "Pop-Up Concerts: Trinket Ensemble",
+      "type": "Performance",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Experience the debut of Trinket Ensemble&amp;mdash;a vibrant new voice in the contemporary chamber music scene&amp;mdash;uniting four acclaimed artists whose long history of performing together in other ensembles has forged a collaborative musical synergy. Renowned individually for their adventurous approach to new music, they bring together their shared artistry in a program featuring two world premieres.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Free admission &amp;bull; Doors open at 5:30PM, music at 6PM&lt;br /&gt;\nOnstage seating is first-come, first-served.&lt;/strong&gt;&lt;/p&gt;",
+      "start_date": "2026-01-27T23:00:00-05:00",
+      "end_date": "2026-01-27T23:00:00-05:00",
+      "category": [
+        "ARTS",
+        "TECH",
+        "HUMANITIES",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9b267049-019b-2825fe75-00002b2devents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Miller Theatre, 2960 Broadway, New York, NY 10027\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Miller",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Miller",
+          "tags": [
+            "org/neighbors",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Music",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/Miller",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Miller Theatre",
+            "Performance",
+            "Graduate Students",
+            "Trainees",
+            "Cultural",
+            "Concert",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Music",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/Miller",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Miller Theatre",
+            "Performance",
+            "Graduate Students",
+            "Trainees",
+            "Cultural",
+            "Concert",
+            "Arts"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_2710533a",
       "name": "Crafts on The Corner: Sketch Sessions",
       "type": "Academic",
@@ -6507,6 +6870,7 @@
         "additional_info": {
           "department": "The Forum",
           "tags": [
+            "org/neighbors",
             "org/forum",
             "Manhattanville",
             "Type",
@@ -6977,6 +7341,78 @@
       }
     },
     {
+      "id": "evt_columbia_eeabbf9b",
+      "name": "2026 Winter Symposium",
+      "type": "Conference",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Strategic Communication for Collective Action&lt;/strong&gt;&lt;/strong&gt;&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;&lt;strong&gt;Friday, January 30, 2026&lt;/strong&gt;&lt;/strong&gt;&lt;br /&gt;\n&lt;br /&gt;\nFaculty House - Check-in on First Floor&lt;br /&gt;\nCampus Entry via Wien Gate at 411 West 116th Street&lt;/p&gt;\n&lt;p&gt;&lt;br /&gt;\nThis year&amp;rsquo;s Winter Symposium focuses on the power of the people to solve collective problems. How do we organize for change? How do we inspire a movement? What technologies allow us to mobilize? These questions are relevant to strategic communicators, whether working toward social impact, democratic renewal, or the spread of innovative ideas. Learn how top communicators think about advocacy, influence, and shared leadership in troubled times.&lt;br /&gt;\n&lt;br /&gt;\n&lt;em&gt;&lt;strong&gt;&lt;strong&gt;Space is limited&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;-- RSVP by January 27, 2026, at 4:00 p.m.&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;SCOM Program Affiliates (Students, Faculty, Alumni, Administrators): Free&lt;/li&gt;\n&lt;li&gt;Columbia University Affiliates (Students, Faculty, Alumni, Administrators): $50&lt;/li&gt;\n&lt;li&gt;General Admission: $100&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;br /&gt;\n&lt;strong&gt;&lt;strong&gt;Please contact Charlene Perilla-Iqbal at&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;&lt;a href=\"https://www.eventbrite.com/e/2025-winter-symposium-registration-1109515453589?aff=oddtdtcreator\"&gt;&lt;strong&gt;&lt;strong&gt;cp2746@columbia.edu&lt;/strong&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;if you are a Columbia University affiliate for discounted tickets.&lt;/strong&gt;&lt;/strong&gt;&lt;br /&gt;\n______________________________________________________________________________________________________&lt;br /&gt;\n&lt;br /&gt;\nRegistered guests must enter campus at&amp;nbsp;&lt;strong&gt;&lt;strong&gt;WIEN GATE at 411 West 116h Street&lt;/strong&gt;&lt;/strong&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;and allow additional time for campus access and event check-in. Guests who have not registered in advance and do not have an active Columbia University ID (CUID) will not be permitted on campus. Upon arrival at the gate, all registered guests must show:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Active CUID holders:&lt;/strong&gt;&lt;/strong&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;a government-issued ID and active Columbia University ID&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;strong&gt;Non-CUID holders (including all Alumni):&lt;/strong&gt;&lt;/strong&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;a government-issued ID and&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;the&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;QR code issued by&amp;nbsp;&lt;em&gt;&lt;em&gt;CU Guest Access&lt;/em&gt;&lt;/em&gt;&amp;nbsp;prior to the event. This QR code is valid only for this event and the name must match that on the guest&amp;rsquo;s government-issued ID.&lt;/li&gt;\n&lt;li&gt;Please email&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/nonprofits-navigating-a-new-normal-registration-607425394707?aff=oddtdtcreator\"&gt;sps-events@columbia.edu&lt;/a&gt;&amp;nbsp;with questions regarding campus access for this event.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;______________________________________________________________________________________________________&lt;/p&gt;\n&lt;p&gt;To obtain additional information about program offerings at Columbia University&amp;rsquo;s School of Professional Studies, please contact an Admissions Counselor at&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/2026-winter-symposium-registration-1976891681235?aff=oddtdtcreator\" target=\"_blank\"&gt;inquire@sps.columbia.edu&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nIf you require closed captioning, sign-language interpretation or any other disability accommodations, please contact Disability Services,&amp;nbsp;&lt;a href=\"https://www.eventbrite.com/e/2026-winter-symposium-registration-1976891681235?aff=oddtdtcreator\" target=\"_blank\"&gt;disability@columbia.edu&lt;/a&gt;, at least 10 days in advance.&lt;br /&gt;\n&lt;br /&gt;\nPlease visit&amp;nbsp;&lt;a href=\"https://preparedness.columbia.edu/\" target=\"_blank\"&gt;Columbia University&amp;rsquo;s Hub for Emergency Preparedness&lt;/a&gt;&amp;nbsp;to stay up to date on the latest campus health and safety policies.&lt;br /&gt;\n&lt;br /&gt;\nThis event is open to individuals irrespective of identity and sex.&lt;/p&gt;",
+      "start_date": "2026-01-30T13:30:00-05:00",
+      "end_date": "2026-01-30T23:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9b11d23d-019b-1354d0bc-000031f0events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Faculty House, 64 Morningside Dr., New York, NY 10027\tCheck-in on First Floor",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SPS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SPS",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Conference",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/sps",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Communications / Media"
+          ],
+          "audience": [
+            "Category",
+            "Conference",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/sps",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Communications / Media"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_1d5980b4",
       "name": "RFA: HICCC Clinical Trials Training Program",
       "type": "Workshop",
@@ -7089,6 +7525,7 @@
             "org/UniversityEvents",
             "International",
             "org/seas",
+            "org/ColumbiaCollege",
             "Columbia College",
             "Columbia Engineering",
             "Academics",
@@ -7115,6 +7552,7 @@
             "org/UniversityEvents",
             "International",
             "org/seas",
+            "org/ColumbiaCollege",
             "Columbia College",
             "Columbia Engineering",
             "Academics",
@@ -7214,6 +7652,77 @@
       }
     },
     {
+      "id": "evt_columbia_636757ab",
+      "name": "Geodynamics Seminar - Tamara Carley",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Presentation by&amp;nbsp;Tamara Carley.&lt;/p&gt;\n&lt;p&gt;Abstract will be posted soon.&lt;/p&gt;",
+      "start_date": "2026-02-02T19:00:00-05:00",
+      "end_date": "2026-02-02T20:00:00-05:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b30b3d7-019b-30f3b7cf-000006c2events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Seismology Building, 61 Route 9W, Palisades, NY 10964\tSeminar Room",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Geodynamics Seminars",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Geodynamics Seminars",
+          "tags": [
+            "org/geodynamics",
+            "Lamont-Doherty Earth Observatory",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_27b326a3",
       "name": "Book Talk. \"Maidan: Ukraine's Democratic Revolution\"",
       "type": "Academic",
@@ -7281,6 +7790,72 @@
             "Trainees",
             "Ukraine",
             "org/SIPA_HarrimanInstitute"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_6705f4b9",
+      "name": "Harnessing Nature Data &amp; AI",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;strong&gt;About this event:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Decision-makers and practitioners across sectors increasingly depend on high-quality biodiversity and environmental data to meet management and reporting mandates of global biodiversity and sustainability frameworks and for financial and investment decisions. This online event brings together two leaders in biodiversity data analytics from the nonprofit and financial sectors who apply data, geospatial analytics, and emerging AI tools to inform decision-making. Through a moderated conversation with the director of the M.S. in Biodiversity Data Analytics program, they will share how biodiversity data is shaping financial and conservation decisions. Speakers will discuss the rapid evolution of nature-related datasets and data acquisition and processing technologies, and how AI is transforming and advancing decision workflows.&lt;/p&gt;\n&lt;p&gt;They will also highlight the challenges: data gaps, uncertainty, transparency, and the growing expectation that organizations demonstrate credible, science-based nature metrics.&lt;/p&gt;\n&lt;p&gt;The event will conclude with a discussion of the skills and training needed for the next generation of biodiversity and nature data professionals, and how the new M.S. in Biodiversity Data Analytics program prepares students to meet this emerging demand.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Speakers / Presenters:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Moderator:&lt;/strong&gt;&lt;/strong&gt;&lt;br /&gt;\n&lt;a href=\"https://sps.columbia.edu/person/dr-viorel-popescu\" target=\"_blank\"&gt;&lt;strong&gt;&lt;strong&gt;Viorel Popescu&lt;/strong&gt;&lt;/strong&gt;&lt;/a&gt;, Lecturer and Director of MS Program in Biodiversity Data Analytics, School of Professional Studies.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Panel:&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Carly Batist,&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;Nature Tech and AI Innovation Manager, Conservation International.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Gillian Mollod,&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;Senior Principal Product Manager, Intercontinental Exchange.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;This is a virtual event and will be hosted via Zoom. Registration is required.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;For more information, please contact the Biodiversity Data Analytics team,&amp;nbsp;&lt;a href=\"mailto:biodiversityanalytics@sps.columbia.edu\" target=\"_blank\"&gt;biodiversityanalytics@sps.columbia.edu&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;To obtain additional information about program offerings at Columbia University&amp;rsquo;s School of Professional Studies, please contact an Admissions Counselor at&amp;nbsp;&lt;a href=\"mailto:inquire@sps.columbia.edu\" target=\"_blank\"&gt;inquire@sps.columbia.edu&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;If you require closed captioning, sign-language interpretation, or any other disability accommodations, please contact Disability Services,&lt;a href=\"https://www.eventbrite.com/e/smarter-projects-stronger-leaders-in-the-age-of-ai-tickets-1579211747849?aff=oddtdtcreator\"&gt;&amp;nbsp;&lt;/a&gt;&lt;a href=\"mailto:disability@columbia.edu\" target=\"_blank\"&gt;disability@columbia.edu&lt;/a&gt;, at least 10 days in advance.&lt;/p&gt;\n&lt;p&gt;Please visit Columbia University&amp;rsquo;s Hub for Emergency Preparedness (&lt;a href=\"https://preparedness.columbia.edu/\" target=\"_blank\"&gt;https://preparedness.columbia.edu/&lt;/a&gt;) to stay up to date on the latest campus health and safety policies.&lt;/p&gt;\n&lt;p&gt;This event is open to individuals irrespective of identity and sex.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-02-04T23:00:00-05:00",
+      "end_date": "2026-02-05T00:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9b30b888-019b-33296701-00004357events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "SPS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SPS",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Panel",
+            "School of Professional Studies",
+            "org/sps",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students"
+          ],
+          "audience": [
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Panel",
+            "School of Professional Studies",
+            "org/sps",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students"
           ]
         }
       }
@@ -7399,6 +7974,72 @@
             "org/cumc",
             "Engineering",
             "Natural Sciences"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_ad5933bf",
+      "name": "Science and Society Speed Networking",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Interested in meeting students and postdocs interested in science and society topics? Finding it difficult to connect with scholars outside your department? This speed networking event is a chance for interdisciplinary scholars to meet, share ideas, discover new research perspectives, and explore potential collaborations. This event is an informal and low-stakes opportunity to engage with students from across the university and foster intellectual exchange and community.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Attendees will be connected based on thematic interests and experiences. Networking rounds will be followed by a short reception to foster further conversation and connection.&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;Event Information&lt;/h3&gt;\n&lt;p&gt;Open to Columbia University graduate students and postdoctoral scholars. &lt;a href=\"https://docs.google.com/forms/d/e/1FAIpQLScZXOFISSTJdLRcVrBMFjI0mhuDLEyqQWvNt80DfeVsgQCwPw/viewform?usp=publish-editor\" target=\"_blank\"&gt;Registration&lt;/a&gt; is required and will be used to group attendees. Attendance is limited to 35 guests. Please only register if you are sure you can attend. Contact &lt;a href=\"mailto:scienceandsociety@columbia.edu\"&gt;scienceandsociety@columbia.edu&lt;/a&gt; with any questions.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Hosted by the &lt;a href=\"https://scienceandsociety.columbia.edu/\" target=\"_blank\"&gt;Center for Science and Society&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-02-05T18:00:00-05:00",
+      "end_date": "2026-02-05T20:00:00-05:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "SCIENCE",
+        "SOCIAL"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9b30bcf2-019b-339e8b2f-00004e42events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Fayerweather Hall, 1180 Amsterdam Ave., New York, NY 10027\tRoom 513",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Center for Science and Society",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "The Center for Science and Society",
+          "tags": [
+            "org/CSS",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Events open to",
+            "org/UniversityEvents",
+            "Social Sciences",
+            "Research",
+            "Postdocs",
+            "Discussion",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Humanities",
+            "Natural Sciences",
+            "Other"
+          ],
+          "audience": [
+            "Category",
+            "Events open to",
+            "org/UniversityEvents",
+            "Social Sciences",
+            "Research",
+            "Postdocs",
+            "Discussion",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Humanities",
+            "Natural Sciences",
+            "Other"
           ]
         }
       }
@@ -7701,6 +8342,80 @@
       }
     },
     {
+      "id": "evt_columbia_12ecb533",
+      "name": "The Nation's Wealth, The Region's Poverty",
+      "type": "Academic",
+      "location_id": "loc_columbia_sipa",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on February 5, 2026 in order to attend this event.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Please join the Harriman Institute for a Russian History Workshop with &lt;strong&gt;Susan Smith-Peter&lt;/strong&gt;. Moderated by &lt;a href=\"https://harriman.columbia.edu/person/catherine-evtuhov/\"&gt;&lt;strong&gt;Catherine Evtuhov&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;This talk argues that Mikhail Lomonosov&amp;#39;s work on economic geography in the 1750s and 1760s took place within a larger group interested in reforming Russia domestic policies that existed around Emperor Peter III. Their goal was to move beyond Peter the Great&amp;#39;s harsh approach to taxation while also carrying out his larger vision of Russia as a great power. Influenced himself by the physiocrats, Lomonosov&amp;#39;s work informed Peter III&amp;#39;s legislation and statesmanship, including the dissemination of a questionnaire to the regions that had a transformative effect on local historical writing. The questionnaire gave legitimacy to the work of local historian Vasilii Krestinin and a group around him in Arkhangel&amp;#39;sk known as the Society for Historical Investigations (est. 1759). The Lomonosov questionnaire placed economics at the center of local history, and its search for how the state encouraged local economic development also made possible a critique of the state for hindering this development. This was particularly acute in Arkhangel&amp;#39;sk, whose international trade Peter the Great had suppressed in favor of St. Petersburg. The paper also discusses the creation of myths around both Mikhail Lomonosov and Peter III that have hindered our understanding of this topic.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Interested participants should contact Erin Forrest (&lt;a href=\"mailto:ef2847@columbia.edu\"&gt;ef2847@columbia.edu&lt;/a&gt;) for a copy of the paper, to be distributed no earlier than two weeks before the workshop.&lt;/em&gt;&lt;/p&gt;",
+      "start_date": "2026-02-06T22:00:00-05:00",
+      "end_date": "2026-02-06T23:30:00-05:00",
+      "category": [
+        "TECH",
+        "HUMANITIES",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b2b8d7d-019b-2d4db4e6-000035f9events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tMarshall D. Shulman Seminar Room, 1219",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SIPA - Harriman Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SIPA - Harriman Institute",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Russia",
+            "org/SIPA_HarrimanInstitute",
+            "Humanities"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Russia",
+            "org/SIPA_HarrimanInstitute",
+            "Humanities"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_d352ea38",
       "name": "John Medeski and Kirk Knuffke",
       "type": "Performance",
@@ -7777,6 +8492,77 @@
             "Cultural",
             "Concert",
             "Arts"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_9aec67a5",
+      "name": "Geodynamics Seminar - Craig Martin",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Presentation by&amp;nbsp;Craig Martin.&lt;/p&gt;\n&lt;p&gt;Abstract will be posted soon.&lt;/p&gt;",
+      "start_date": "2026-02-09T19:00:00-05:00",
+      "end_date": "2026-02-09T20:00:00-05:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b30b3d7-019b-30f52ac4-000006cfevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Seismology Building, 61 Route 9W, Palisades, NY 10964\tSeminar Room",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Geodynamics Seminars",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Geodynamics Seminars",
+          "tags": [
+            "org/geodynamics",
+            "Lamont-Doherty Earth Observatory",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees"
           ]
         }
       }
@@ -7928,6 +8714,90 @@
       }
     },
     {
+      "id": "evt_columbia_d9658e33",
+      "name": "Ted Gordon - The Composer&rsquo;s Blackbox",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;At this event, Ted Gordon will discuss &lt;em&gt;The Composer&amp;rsquo;s Blackbox&lt;/em&gt;, a probing exploration of compositional practice as a site of speculation, intuition, and embodied decision-making. Drawing from his new book, Gordon examines the often-invisible processes that shape how music comes into being. The speaker will discuss how listening, experimentation, failure, and tacit knowledge operate before and beyond formalized theory.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The Composer&amp;rsquo;s Blackbox&lt;/em&gt; positions itself at the intersection of composition, sound research, and reflective practice. We&amp;rsquo;re asking how composers think &lt;em&gt;with&lt;/em&gt; sound rather than merely organize it. Gordon will reflect on how material engagement, technological mediation, and personal listening histories inform creative choices, challenging linear narratives of authorship and mastery.&lt;/p&gt;\n&lt;p&gt;Blending analytical insight and performance, this talk invites composers, performers, and listeners to reconsider composition as an evolving, opaque system, one that resists full explanation while remaining deeply responsive to sensation, context, and time.&lt;/p&gt;\n&lt;h3&gt;Event Speaker&lt;/h3&gt;\n&lt;p&gt;&lt;a href=\"https://www.gc.cuny.edu/people/theodore-gordon\" target=\"_blank\"&gt;Ted Gordon&lt;/a&gt;, Assistant Professor of Music at CUNY Graduate Center&lt;/p&gt;\n&lt;h3&gt;Event Information&lt;/h3&gt;\n&lt;p&gt;Free and open to the public; &lt;a href=\"https://www.eventbrite.com/e/ted-gordon-the-composers-blackbox-registration-1978434582093\" target=\"_blank\"&gt;registration&lt;/a&gt; required. Please contact Alyssa Regent at &lt;a href=\"mailto:alr2240@columbia.edu\" target=\"_blank\"&gt;alr2240@columbia.edu&lt;/a&gt; with any questions.&lt;/p&gt;\n&lt;p&gt;The &lt;a href=\"http://blogs.cuit.columbia.edu/improvisation/\" target=\"_blank\"&gt;Comparing Domains of Improvisation&lt;/a&gt; series is sponsored by the &lt;a href=\"https://scienceandsociety.columbia.edu/content/presidential-scholars-society-and-neuroscience\"&gt;Presidential Scholars in Society and Neuroscience program&lt;/a&gt; at Columbia University.&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-02-12T19:00:00-05:00",
+      "end_date": "2026-02-12T22:00:00-05:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "SCIENCE",
+        "SOCIAL",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9b30bcf2-019b-3303c26a-00003c1cevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Prentis Hall, 632 W. 125 St., New York, NY 10027\tRoom 317",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Center for Science and Society",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "The Center for Science and Society",
+          "tags": [
+            "org/CSS",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Music",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Social Sciences",
+            "Panel",
+            "Postdocs",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Trainees",
+            "Humanities",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Music",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Social Sciences",
+            "Panel",
+            "Postdocs",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Graduate School of Arts and Sciences",
+            "Trainees",
+            "Humanities",
+            "Arts"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_aa2ac974",
       "name": "Screening of Persepolis",
       "type": "Academic",
@@ -7985,313 +8855,6 @@
             "Category",
             "Film",
             "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "org/maison",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Humanities",
-            "Arts"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_978574bf",
-      "name": "The Marian Consort: City of Echoes&mdash;Rome in the 16th Century",
-      "type": "Performance",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The award-winning Marian Consort returns to explore the vibrant musical landscape of 16th-century Rome. The rich program highlights the interplay of influence and inspiration in works by celebrated figures like Palestrina, Josquin, and Victoria, alongside hidden gems.&lt;/p&gt;",
-      "start_date": "2026-02-15T00:30:00-05:00",
-      "end_date": "2026-02-15T00:30:00-05:00",
-      "category": [
-        "ARTS",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-980d217a-0198-0fd3f0ca-00007affevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Church of St. Mary the Virgin, 145 W. 46 St., New York, NY 10036\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Miller",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Miller",
-          "tags": [
-            "Off Campus",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Music",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/Miller",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Miller Theatre",
-            "Graduate Students",
-            "Trainees",
-            "Concert",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Music",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/Miller",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Miller Theatre",
-            "Graduate Students",
-            "Trainees",
-            "Concert",
-            "Arts"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_cb1414e3",
-      "name": "Hematological Malignancies Seminar Series: Britta Will, PhD",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Speaker:&amp;nbsp;&lt;a href=\"https://einsteinmed.edu/faculty/11745/britta-will\" target=\"_blank\"&gt;Britta Will, PhD&lt;/a&gt;&lt;/strong&gt;,&amp;nbsp;Associate Professor, Departments of Oncology (Medical Oncology), Medicine, Cell Biology, the Ruth L &amp;amp; David S. Gottesman Institute for Stem Cell Research and Regenerative Medicine; Ruth L. and David S. Gottesman Chair in Stem Cell and Regenerative Medicine Research, Albert Einstein College of Medicine&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Hosted by&amp;nbsp;Emmanuelle Passegue, PhD,&amp;nbsp;Alumni Professor of Genetics and Development;&amp;nbsp;Director, Columbia Stem Cell Initiative.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;This event is sponsored by the Herbert Irving Comprehensive Cancer Center&amp;#39;s (HICCC)&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/research/researchers/edward-p-evans-center-myelodysplastic-syndromes-mds\" target=\"_blank\"&gt;Edward P. Evans Center for Myelodysplastic Syndromes (MDS)&lt;/a&gt;&amp;nbsp;at Columbia University, established to&amp;nbsp;foster an all-encompassing approach in studying MDS&amp;nbsp;giving us&amp;nbsp;molecular, cellular genetic and epigenetic insights to develop and test innovative therapies.&lt;/p&gt;",
-      "start_date": "2026-02-17T18:15:00-05:00",
-      "end_date": "2026-02-17T19:15:00-05:00",
-      "category": [
-        "EDUCATION",
-        "HEALTH",
-        "SCIENCE",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-98a279da-0198-a4158d76-00004e8cevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
-          "tags": [
-            "org/MDS",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_3904de31",
-      "name": "Book Talk. \"The Undead: A Novel of Modern Russia\"",
-      "type": "Academic",
-      "location_id": "loc_columbia_sipa",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on February 16, 2026 in order to attend this event.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Please join the Harriman Institute for a book talk by&amp;nbsp;&lt;strong&gt;Svetlana Satchkova&lt;/strong&gt;. Moderated by&amp;nbsp;&lt;a href=\"https://harriman.columbia.edu/person/mark-lipovetsky/\"&gt;&lt;strong&gt;Mark Lipovetsky&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;In this darkly funny and emotionally resonant novel of contemporary Russia, a young filmmaker unexpectedly finds herself targeted by an authoritarian regime&amp;mdash;despite her best efforts to stay out of politics.&lt;/p&gt;\n&lt;p&gt;&amp;quot;The Undead&amp;quot; is a layered and sharply observant portrait of an artist caught in the machinery of state power, and the choices one faces in a system where even indifference can be dangerous. Written with the intimate insight of an &amp;eacute;migr&amp;eacute; from Putin&amp;#39;s Russia, &amp;quot;The Undead&amp;quot; is both a compelling narrative and a chilling reflection of how repression operates today&amp;mdash;not just against dissidents, but against anyone.&lt;/p&gt;\n&lt;p&gt;When Maya, a young Russian filmmaker, makes a low-budget horror movie, it seems like a promising start to her indie film career. But her jokey lo-fi picture soon attracts the attention of the autocratic state, and Maya is swept into a nightmarish system where logic breaks down and no one is safe.&lt;/p&gt;",
-      "start_date": "2026-02-17T23:00:00-05:00",
-      "end_date": "2026-02-18T00:30:00-05:00",
-      "category": [
-        "TECH",
-        "HUMANITIES",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9afd3d67-019a-febdc52b-00002bd4events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tMarshall D. Shulman Seminar Room, 1219",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "SIPA - Harriman Institute",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "SIPA - Harriman Institute",
-          "tags": [
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Russia",
-            "org/SIPA_HarrimanInstitute",
-            "Humanities"
-          ],
-          "audience": [
-            "Category",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Russia",
-            "org/SIPA_HarrimanInstitute",
-            "Humanities"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_4c85f83f",
-      "name": "Screening of Animalia",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Sofia Alaoui, 2023, 91 min.&lt;br /&gt;\nIn French, Arabic and Berber with English subtitles.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Itto, a young woman from a modest rural background, is slowly adapting to the Moroccan privileged codes of her husband&amp;rsquo;s family. But when supernatural events put the country in a state of emergency, Itto finds herself separated from her husband and new family. Alone, pregnant and looking for her way back, she finds emancipation.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Watch the trailer &lt;a href=\"https://youtu.be/N1L2pU_Osxs?si=7shoFoiMY__88cT1\"&gt;here&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;If you want sleight-of-hand cinematic atmosphere, a big movie made on a small budget, and a sense of the planet tipping on its axis toward destruction and rebirth, here&amp;#39;s your vision of the end times. - Ty Burr of Substack (Top Critic)&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Animalia&lt;/em&gt; is a quiet, thoughtful film with grand things on its mind that it tackles with impressive confidence, to great success. - Alexandra Heller-Nicholas of AWFJ (Top Critic)&lt;/p&gt;",
-      "start_date": "2026-02-17T23:30:00-05:00",
-      "end_date": "2026-02-18T01:00:00-05:00",
-      "category": [
-        "ARTS",
-        "SCIENCE",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9b11d23d-019b-1303e85a-000024e4events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Buell Hall, 515 W. 116 St., New York, NY 10027\tEast Gallery",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Maison Francaise",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Maison Francaise",
-          "tags": [
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Film",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "org/maison",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Humanities",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Film",
             "Student",
             "Faculty",
             "Staff",
