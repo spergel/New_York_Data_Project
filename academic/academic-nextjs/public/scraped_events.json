@@ -1,9 +1,9 @@
 {
-  "scraped_at": "2025-12-21T03:21:14.037260",
+  "scraped_at": "2025-12-28T03:28:57.718395",
   "total_events": 269,
   "event_sources": {
     "isaw_events_debug": 6,
-    "nypl_events_debug": 19,
+    "nypl_events_debug": 21,
     "luma_events_debug": 63,
     "juilliard_events_debug": 0,
     "nyu_physics_events_debug": 5,
@@ -16,13 +16,13 @@
     "fordham_events_debug": 4,
     "nyu_stern_events_debug": 7,
     "nyu_neuroscience_events_debug": 0,
-    "new_school_events_debug": 33,
+    "new_school_events_debug": 32,
     "nyu_education_events_debug": 4,
-    "pratt_events_debug": 8,
+    "pratt_events_debug": 6,
     "nyas_events_debug": 19,
     "columbia_math_events_debug": 2,
     "nyu_steinhardt_music_events_debug": 11,
-    "nyu_steinhardt_events_debug": 8,
+    "nyu_steinhardt_events_debug": 9,
     "columbia_events_debug": 37
   },
   "events": [
@@ -249,6 +249,61 @@
         "source_name": "NYPL Events Calendar",
         "venue": {
           "name": "Morris Park Library",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_nypl_78f36959",
+      "name": "RACC Presents: Ian Probstein - Bilingual Editions of Rae Armantrout Go Figure Cheboksary, Dmitry Strotsev’s Selected Poems War and Peace, and Emily Dickinson Selected Poems in Russian",
+      "type": "Reading",
+      "location_id": "loc_nypl_yorkville",
+      "community_id": "com_nypl",
+      "description": "Join us at Yorkville Library as Ian Probstein presents his bilingual translations of  Rae Armantrout Go Figure Cheboksary, Dmitry Strotsev’s Selected Poems War and Peace, and Emily Dickinson Selected Poems in Russian.\n\nIan Probstein, professor of English at Touro University, is a bilingual Russian-American poet, scholar, and\n\ttranslator of poetry. He has published two books of literary criticism, 13 books of poetry in Russian, one in English,\n\ttranslated more than a dozen poetry volumes; and has…",
+      "start_date": "2026-01-21T17:00:00-05:00",
+      "end_date": "2026-01-21T19:00:00-05:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/01/21/racc-presents-ian-probstein-bilingual-editions-rae-armantrout-go-figure",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Yorkville Library, Meeting Room",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "New York Public Library",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_nypl_794a8b0b",
+      "name": "Transcribe-a-thon: Remaking the World of Arturo Schomburg",
+      "type": "Reading",
+      "location_id": "loc_nypl_schomburg",
+      "community_id": "com_nypl",
+      "description": "IN-PERSON\n\n***Registration opens on January 1, 2026 at 1:30 PM ***\n\nTranscribe-a-thon | 1:00 PM - 5:00 PM | Aaron Douglas Reading Room\n\nFisk University and the Schomburg Center have partnered to create a digital edition of the archival papers of Arturo Schomburg, the bibliophile who built two of the world’s most important collections on Black history—one in Harlem and another in Nashville. Join teams in each city to celebrate Schomburg’s birthday by helping transcribe his newly digitized papers.…",
+      "start_date": "2026-01-24T13:00:00-05:00",
+      "end_date": "2026-01-24T15:00:00-05:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "nypl",
+      "source_group": "nypl",
+      "metadata": {
+        "source_url": "https://www.nypl.org/events/programs/2026/01/24/transcribe-thon-remaking-world-arturo-schomburg",
+        "source_name": "NYPL Events Calendar",
+        "venue": {
+          "name": "Schomburg Center for Research in Black Culture",
+          "address": "515 Malcolm X Blvd, New York, NY 10037",
           "type": "venue"
         },
         "organizer": {
@@ -1474,7 +1529,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-21T03:21:05.050386-05:00",
+        "scraped_at": "2025-12-28T03:28:45.948594-05:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "January 28, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -1520,7 +1575,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-21T03:21:05.051779-05:00",
+        "scraped_at": "2025-12-28T03:28:45.949981-05:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "February 4, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -1566,7 +1621,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-21T03:21:05.053174-05:00",
+        "scraped_at": "2025-12-28T03:28:45.951383-05:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Information Physics Seminars",
         "institution": "February 12, 2026 Thursday 11:00 AM+726Broadway, Room 1067(cqip)Shoumik ChowdhuryTheory of Quasiparticle Generation by Microwave Drives in Superconducting QubitsMicrowave drives play a central role in the control of superconducting quantum circuits, enabling qubit gates, readout, and parametric interactions. As the drive frequencies are typically an order of magnitude smaller than (twice) the superconducting gap, it is generally assumed that such drives do not disturb the BCS ground state. However, sufficiently strong drives can activate multi-photon pair-breaking processes that generate quasiparticles (QPs) and result in qubit errors. In this work, we present a theoretical framework for calculating the rates of multi-photon-assisted pair-breaking transitions induced by charge- or flux-coupled microwave drives. Through illustrative examples, we show that photon-assisted QP generation may impact novel high-frequency dispersive readout architectures, as well as Floquet-engineered superconducting circuits operating under strong driving.",
@@ -1612,7 +1667,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-21T03:21:05.057063-05:00",
+        "scraped_at": "2025-12-28T03:28:45.955259-05:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "April 7, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lee LiuPurdue UniversityShining New Light on Highly Symmetric Molecules",
@@ -1658,7 +1713,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-21T03:21:05.060088-05:00",
+        "scraped_at": "2025-12-28T03:28:45.958257-05:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "May 11, 2026 Monday 8:00 AM+726Broadway, 940, CCPP Seminar(ccpp)Special SeminarKleban KlebanThe Work of Prof. Daniel Zwanziger",
@@ -2008,8 +2063,8 @@
       "start_date": "2026-01-12T12:00:00-05:00",
       "end_date": "2026-01-12T13:00:00-05:00",
       "category": [
-        "EDUCATION",
         "SOCIAL",
+        "EDUCATION",
         "RELIGION"
       ],
       "source": "jtsa",
@@ -2020,6 +2075,34 @@
         "venue": {
           "name": "JTS",
           "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_f4df29e1",
+      "name": "Truth or Fiction?",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "This three-part online series invites you into conversations with faculty and students in the MFA in Creative Writing speaking honestly about craft, community, and what it really means to commit to the work. Opening the series, internationally acclaimed writer Shalom Auslander discusses “Just What the World Needs: Another MFA Program!” with Dr. Lisa Springer.",
+      "start_date": "2026-01-14T12:00:00-05:00",
+      "end_date": "2026-01-14T13:00:00-05:00",
+      "category": [
+        "SOCIAL",
+        "ARTS"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/truth-fiction-mfa-program-three-acts/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
         },
         "organizer": {
           "name": "Jewish Theological Seminary",
@@ -2043,6 +2126,60 @@
       "source_group": "Independent",
       "metadata": {
         "source_url": "https://www.jtsa.edu/event/between-the-lines-children-of-the-book/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_04b63eeb",
+      "name": "Your People Shall Be My People: Conversion to Judaism Through the Centuries",
+      "type": "Academic",
+      "location_id": "loc_jtsa_main",
+      "community_id": "com_jtsa",
+      "description": "Join us at the opening event for our new Library exhibit, illustrating some of the changes and continuities over time in the understanding and practice of conversion to Judaism.",
+      "start_date": "2026-01-21T12:00:00-05:00",
+      "end_date": "2026-01-21T13:00:00-05:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/your-people-shall-be-my-people-conversion-to-judaism-through-the-centuries/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "JTS",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_c35a6d26",
+      "name": "How To Write. Maybe.",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Discussing the mechanics of writing, JTS MFA in Creative Writing Director Etgar Keret and core faculty member Rachel Kadish tackle the question of whether writing can be taught.",
+      "start_date": "2026-01-27T12:00:00-05:00",
+      "end_date": "2026-01-27T13:00:00-05:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/how-to-write-maybe/",
         "source_name": "JTSA Events Calendar",
         "venue": {
           "name": "Online Event",
@@ -2178,87 +2315,6 @@
       "source_group": "Independent",
       "metadata": {
         "source_url": "https://www.jtsa.edu/event/biblical-hebrew-i-afternoon-winter-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_c0f12b11",
-      "name": "Biblical Hebrew I: Jumpstart Your Biblical Hebrew",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Morning session. In ten live online sessions, learn the “big ideas” in Biblical Hebrew to help you get started and dive into the fundamentals of grammar such as nouns, verbs, prefixes, and suffixes.",
-      "start_date": "2026-02-04T12:00:00-05:00",
-      "end_date": "2026-02-04T13:00:00-05:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-i-morning-winter-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_9d254134",
-      "name": "Fundamentals of Biblical Hebrew: Reading and Pronunciation",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Learn to read Biblical Hebrew consonants and vowels with confidence. Begin with the Alef Bet and end by reciting entire passages.",
-      "start_date": "2026-02-04T12:00:00-05:00",
-      "end_date": "2026-02-04T13:00:00-05:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/fundamentals-biblical-hebrew-spring-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_dab30875",
-      "name": "Biblical Hebrew IV: Advanced Reading Seminar— The Visions of Daniel",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "In nine live online sessions, we will read Daniel chapters 1, 8–12, which set the stage for subsequent apocalyptic visions in history.",
-      "start_date": "2026-02-05T12:00:00-05:00",
-      "end_date": "2026-02-05T13:00:00-05:00",
-      "category": [
-        "HISTORY"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-daniel-winter-2025/",
         "source_name": "JTSA Events Calendar",
         "venue": {
           "name": "Online Event",
@@ -2781,11 +2837,11 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_81b96cd9e2",
+      "id": "evt_fordham_calendar_69f3181571",
       "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
       "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2025-12-30",
-      "end_date": "2025-12-30",
+      "start_date": "2026-01-13",
+      "end_date": "2026-01-13",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
@@ -2798,11 +2854,11 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_69f3181571",
+      "id": "evt_fordham_calendar_81b96cd9e2",
       "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
       "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2026-01-13",
-      "end_date": "2026-01-13",
+      "start_date": "2025-12-30",
+      "end_date": "2025-12-30",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
@@ -2930,49 +2986,6 @@
         "venue": {
           "name": "NYU Stern",
           "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_ef969119",
-      "name": "Carnegie Hall Presents | The New School's New York String Orchestra 12-24",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "A festive culmination of the celebrated New York String Orchestra Seminar (NYSOS), a national pre-professional program that has mentored outstanding emerging musicians since 1969 and boasts alumni including Yo-Yo Ma, cello; Karina Canellakis, conductor; current and former members of the Guarneri, Dover, Orion, Emerson, and Juilliard string quartets, and members in major orchestras in every state of the U.S.  Jaime Laredo, conductorAnna Polonsky, soloistALL-MOZART PROGRAMOverture to The Marriage of FigaroSymphony No. 40Piano Concerto No. 27 in B-flat Major, K. 595 Tickets $24 - $88 available at the Carnegie Hall box office.The New York String Orchestra Seminar (NYSOS) is a program of the Mannes School of Music's New School Concerts Dept. In its 57 year history, the NYSOS has never charged the students (ages 16 to 23) in the program to participate, and also covers housing, meals, and local transportation during the intensive 10-day program that incudes daily orchestral rehearsals and chamber music sessions with some of the nation's most celebrated musicians to introduce of philosophy of applying a chamber music approach to orchestral playing. To learn more about the program, its more than 2500 alumni, and how you can apply or support - visit nysos.org ",
-      "start_date": "2025-12-24T19:00:00-05:00",
-      "end_date": "2025-12-24T23:59:59-05:00",
-      "category": [
-        "EDUCATION",
-        "MUSIC_DISCUSSION",
-        "PERFORMING_ARTS",
-        "HUMANITIES"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/carnegiehallpresentsnysos12-24",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Carnegie Hall",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Mannes"
-          ],
-          "tags": [
-            "general public",
-            "mannes school of music",
-            "performing arts",
-            "performance",
-            "carnegie hall"
-          ],
-          "audience": []
         }
       }
     },
@@ -4551,23 +4564,6 @@
       }
     },
     {
-      "id": "49501de1fbb916195e5b672f807d8882",
-      "name": "A special holiday gathering Event for our neighbors living in shelters",
-      "description": "Event at Dining Hall",
-      "start_date": "2025-12-21T09:00:00-05:00",
-      "end_date": "2025-12-21T17:00:00-05:00",
-      "location_id": "pratt_institute",
-      "community_id": "pratt_institute",
-      "category": "academic",
-      "url": "https://www.pratt.edu/events/a-special-holiday-gathering-event-for-our-neighbors-living-in-shelters/",
-      "metadata": {
-        "source": "pratt_institute",
-        "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.627218-05:00",
-        "extraction_method": "teaser"
-      }
-    },
-    {
       "id": "599146bb02cdfd7192d366aee4dd956d",
       "name": "Menu",
       "description": "Event at Pratt Institute. \nMenu\n\n\n\n\n\nHome\n\n\nApply\n\n          ✕Close Menu\n\n\n\nSearch:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n                      Academics\n                    \n\n\n\n\n\n\n                          Undergraduate Programs\n                    ...",
@@ -4580,31 +4576,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.628700-05:00",
-        "extraction_method": "header"
-      }
-    },
-    {
-      "id": "253024d5495f17f747be5945eec1379e",
-      "name": "Today at Pratt",
-      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n\n          A special holiday gathering Event for our neighbors living in shelters\n        \n\n\n\n\n\nDecember 21, 2025\n1:00 PM – 5:00 PM\n\n\n Dining Hall\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSlide to th...",
-      "start_date": null,
-      "end_date": null,
-      "location_id": "pratt_institute",
-      "community_id": "pratt_institute",
-      "category": "academic",
-      "url": null,
-      "metadata": {
-        "source": "pratt_institute",
-        "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.628733-05:00",
+        "scraped_at": "2025-12-28T03:28:56.357369-05:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "da309ad5d95783831800b75842692b92",
       "name": "Calendar",
-      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n\n          A special holiday gathering Event for our neighbors living in shelters\n        \n\n\n\n\n\nDecember 21, 2025\n1:00 PM – 5:00 PM\n\n\n Dining Hall\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n...",
+      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\nCalendar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShow Filters\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEvent Guidance\nAdd Your Event\n\n\n\n\n\n\n\n\n...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -4614,7 +4593,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.628794-05:00",
+        "scraped_at": "2025-12-28T03:28:56.357420-05:00",
         "extraction_method": "header"
       }
     },
@@ -4631,7 +4610,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.628817-05:00",
+        "scraped_at": "2025-12-28T03:28:56.357448-05:00",
         "extraction_method": "header"
       }
     },
@@ -4648,7 +4627,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.628844-05:00",
+        "scraped_at": "2025-12-28T03:28:56.357473-05:00",
         "extraction_method": "header"
       }
     },
@@ -4665,7 +4644,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.628870-05:00",
+        "scraped_at": "2025-12-28T03:28:56.357494-05:00",
         "extraction_method": "header"
       }
     },
@@ -4682,7 +4661,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-21T03:21:12.630650-05:00",
+        "scraped_at": "2025-12-28T03:28:56.358808-05:00",
         "extraction_method": "container"
       }
     },
@@ -5386,7 +5365,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.717144-05:00"
+          "scraped_at": "2025-12-28T03:28:46.976969-05:00"
         }
       }
     },
@@ -5419,7 +5398,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.717588-05:00"
+          "scraped_at": "2025-12-28T03:28:46.977430-05:00"
         }
       }
     },
@@ -5452,7 +5431,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.718016-05:00"
+          "scraped_at": "2025-12-28T03:28:46.977855-05:00"
         }
       }
     },
@@ -5485,7 +5464,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.718479-05:00"
+          "scraped_at": "2025-12-28T03:28:46.978289-05:00"
         }
       }
     },
@@ -5518,7 +5497,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.718898-05:00"
+          "scraped_at": "2025-12-28T03:28:46.978694-05:00"
         }
       }
     },
@@ -5551,7 +5530,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-21T03:21:05.719334-05:00"
+          "scraped_at": "2025-12-28T03:28:46.979183-05:00"
         }
       }
     },
@@ -5584,7 +5563,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.719778-05:00"
+          "scraped_at": "2025-12-28T03:28:46.979601-05:00"
         }
       }
     },
@@ -5617,7 +5596,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.720216-05:00"
+          "scraped_at": "2025-12-28T03:28:46.980024-05:00"
         }
       }
     },
@@ -5650,7 +5629,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.720636-05:00"
+          "scraped_at": "2025-12-28T03:28:46.980459-05:00"
         }
       }
     },
@@ -5683,7 +5662,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-21T03:21:09.272084-05:00"
+          "scraped_at": "2025-12-28T03:28:52.094502-05:00"
         }
       }
     },
@@ -5716,7 +5695,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-21T03:21:09.274876-05:00"
+          "scraped_at": "2025-12-28T03:28:52.097346-05:00"
         }
       }
     },
@@ -5748,7 +5727,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-21T03:21:05.358176-05:00"
+          "scraped_at": "2025-12-28T03:28:46.428802-05:00"
         }
       }
     },
@@ -5780,7 +5759,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.360680-05:00"
+          "scraped_at": "2025-12-28T03:28:46.431322-05:00"
         }
       }
     },
@@ -5812,7 +5791,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-21T03:21:05.361108-05:00"
+          "scraped_at": "2025-12-28T03:28:46.431725-05:00"
         }
       }
     },
@@ -5844,7 +5823,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.361524-05:00"
+          "scraped_at": "2025-12-28T03:28:46.432151-05:00"
         }
       }
     },
@@ -5876,7 +5855,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.361927-05:00"
+          "scraped_at": "2025-12-28T03:28:46.432567-05:00"
         }
       }
     },
@@ -5908,7 +5887,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.362771-05:00"
+          "scraped_at": "2025-12-28T03:28:46.433396-05:00"
         }
       }
     },
@@ -5940,7 +5919,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-21T03:21:05.363245-05:00"
+          "scraped_at": "2025-12-28T03:28:46.433850-05:00"
         }
       }
     },
@@ -5972,7 +5951,102 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-21T03:21:05.363650-05:00"
+          "scraped_at": "2025-12-28T03:28:46.434276-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_0e54a277",
+      "name": "Guest Masterclass: María del Carmen Gil",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "María del Carmen Gil has been praised by critics as a pianist with “a highly uncommon musical intelligence, a brilliant and dazzling technique, a beautiful sound, and a provocative interpretative…",
+      "start_date": "2026-04-02T19:30:00-04:00",
+      "end_date": "2026-04-02T21:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-04/guest-masterclass-maria-del-carmen-gil",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "Room C20575 Third Ave. North, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "",
+          "scraped_at": "2025-12-28T03:28:46.435090-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_d3241aa8",
+      "name": "CSCI Work-in-Progress Talk",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Presenter 1&lt;/strong&gt;: Viviana Scoca&lt;br /&gt;\n&lt;strong&gt;Title&lt;/strong&gt;: Characterization of Cohesin and cBAF Complex Interplay to Reveal Targetable Dependencies in STAG2-mutant leukemia&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Presenter 2&lt;/strong&gt;: Juan Torres&lt;br /&gt;\n&lt;strong&gt;Title&lt;/strong&gt;: Human pluripotent stem cell-derived respiratory airway progenitors generate alveolar epithelial cells and recapitulate features of idiopathic pulmonary fibrosis&lt;/p&gt;",
+      "start_date": "2026-01-08T16:30:00-05:00",
+      "end_date": "2026-01-08T17:30:00-05:00",
+      "category": [
+        "HEALTH",
+        "SCIENCE",
+        "TECH",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9b4a7cd0-019b-4ccf845c-0000430devents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Hammer Health Sciences Center, 701 W. 168 St., New York, NY 10032\tRoom 401",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Columbia Stem Cell Initiative",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Columbia Stem Cell Initiative",
+          "tags": [
+            "Medical Center",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Seminar",
+            "Student",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Postdocs",
+            "org/CSCI",
+            "Graduate Students",
+            "Trainees"
+          ],
+          "audience": [
+            "Category",
+            "Seminar",
+            "Student",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "Basic Health Sciences",
+            "Postdocs",
+            "org/CSCI",
+            "Graduate Students",
+            "Trainees"
+          ]
         }
       }
     },
@@ -6208,6 +6282,67 @@
             "Prospective Students",
             "Graduate Students",
             "Trainees"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_c83575f9",
+      "name": "Resetting the Table: Building Understanding Through Dialogue",
+      "type": "Academic",
+      "location_id": "loc_columbia_butler",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;A 3-hour skill-building workshop for Columbia faculty.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Tuesday, January 13th, 10am-1pm, 212 Butler Library, Lunch will be provided.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;As part of Columbia University&amp;rsquo;s mission to&lt;a href=\"https://edblogs.columbia.edu/ctl3/resources-and-technology/support-resources/\"&gt; support constructive dialogue and inclusive pedagogies&lt;/a&gt;, the Center for Teaching and Learning invites faculty to join a hands-on, 3-hour workshop using research-based methods from the nationally acclaimed nonprofit &lt;a href=\"https://resettingthetable.org/\"&gt;&lt;em&gt;Resetting the Table&lt;/em&gt;&lt;/a&gt;. During this interactive session, you will learn and practice evidence-based communication strategies that help us listen to and learn from each other, even when we disagree or have diverging perspectives. Together, we will reflect on how the session&amp;rsquo;s tools and exercise can be adapted for your own teaching context to help students engage in and learn from constructive dialogue.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;By the end of the session, you will be able to&lt;/strong&gt;:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Engage in meaningful dialogue by speaking and listening with the intent to understand and be understood.&lt;/li&gt;\n&lt;li&gt;Apply communication skills that show others they have been heard and capture the heart of what matters to them.&lt;/li&gt;\n&lt;li&gt;Identify ways to adapt the workshop&amp;rsquo;s tools and exercises to promote dialogue-based learning in your classroom.&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Lunch will be provided. Please RSVP so we might have enough food&lt;/em&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact&amp;nbsp;ColumbiaCTL@columbia.edu&amp;nbsp;or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. Note, if this is an online event, CTL staff may take screenshots. For concerns, contact&amp;nbsp;ColumbiaCTL@columbia.edu.&lt;/p&gt;",
+      "start_date": "2026-01-13T15:00:00-05:00",
+      "end_date": "2026-01-13T18:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "HEALTH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9a48fefb-019a-4b5066ea-000065d3events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Butler Library",
+          "address": "535 W 114th St, New York, NY 10027",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Center for Teaching and Learning",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Teaching and Learning",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Postdocs",
+            "Teaching and Learning",
+            "org/cu_libraries",
+            "org/DentalMedicine"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Postdocs",
+            "Teaching and Learning",
+            "org/cu_libraries",
+            "org/DentalMedicine"
           ]
         }
       }
@@ -7335,6 +7470,79 @@
             "Graduate School of Arts and Sciences",
             "Trainees",
             "Humanities",
+            "Arts"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_ed316214",
+      "name": "'Being Treely'",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;An interdisciplinary conversation about trees and plants featuring &lt;strong&gt;Patricia Dailey&lt;/strong&gt;, English and Comparative Literature; &lt;strong&gt;Nicole Davi&lt;/strong&gt;, Tree Ring Lab, Lamont Doherty Earth Observatory; &lt;strong&gt;Rachel Grace Newman&lt;/strong&gt;, African American and African Diaspora Studies; and visual artist and MFA student &lt;strong&gt;darylina powderface&lt;/strong&gt;.&lt;strong&gt; &lt;/strong&gt;Led by&amp;nbsp;Associate Professor of Professional Practice,&amp;nbsp;&lt;strong&gt;Miya Masaoka&lt;/strong&gt;, Chair of the MFA Visual Arts + Sound Art Program.&lt;/p&gt;",
+      "start_date": "2026-01-29T23:30:00-05:00",
+      "end_date": "2026-01-30T01:00:00-05:00",
+      "category": [
+        "ARTS",
+        "TECH",
+        "HUMANITIES",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9b4a73cb-019b-4caaa6b6-00003b82events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Lenfest Center for the Arts, 615 W. 129 St., New York, NY 10027\tThe Lantern (Eighth Floor)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Lenfest Center for the Arts",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Lenfest Center for the Arts",
+          "tags": [
+            "Manhattanville",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Panel",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "org/lenfest",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Panel",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "org/lenfest",
             "Arts"
           ]
         }
@@ -8638,238 +8846,6 @@
             "Trainees",
             "org/cumc_hiccc",
             "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_abb6d493",
-      "name": "IICD Seminar Series: David Cheek, Harvard University",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The&amp;nbsp;&lt;a href=\"https://cancerdynamics.columbia.edu\" target=\"_blank\"&gt;Herbert and Florence Irving Institute for Cancer Dynamics&lt;/a&gt; will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online) and to researchers outside Columbia (via Zoom).&lt;/p&gt;\n&lt;p&gt;On &lt;strong&gt;Wednesday, February 11th (2:00 PM ET)&lt;/strong&gt;, IICD welcomes Dr. David Cheek from Harvard University. Seminar hosted by Dr. Simon Tavar&amp;eacute;. The seminar will take place in person in Schermerhorn Hall 603 (Morningside Heights campus). If you wish to attend the seminar remotely, please register using the following link: &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/5z2CNEXuR7KDIiJYUmIM4Q\" target=\"_blank\"&gt;https://columbiauniversity.zoom.us/meeting/register/5z2CNEXuR7KDIiJYUmIM4Q&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title: &lt;/strong&gt;TBA&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Abstract: &lt;/strong&gt;TBA&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Bio: &lt;/strong&gt;David Cheek is a Research Associate in Genetics at Harvard Medical School. David is a mathematician with an undergraduate degree from Oxford University and a PhD from Edinburgh University. He is studying somatic evolution and carcinogenesis from a mathematical perspective.&lt;/p&gt;\n&lt;p&gt;If you would like to meet one-on-one (possibly via Zoom) or attend the lunch or dinner with the speaker, please contact the event organizer.&lt;/p&gt;",
-      "start_date": "2026-02-11T19:00:00-05:00",
-      "end_date": "2026-02-11T20:00:00-05:00",
-      "category": [
-        "EDUCATION",
-        "SCIENCE",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-982c02f7-0198-2d3a0baf-000028b9events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Hybrid Event\tSchermerhorn Hall 603",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "IICD Events",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "IICD Events",
-          "tags": [
-            "org/IICD",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Research",
-            "Postdocs",
-            "Graduate Students",
-            "Trainees",
-            "org/seas_datascience",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Research",
-            "Postdocs",
-            "Graduate Students",
-            "Trainees",
-            "org/seas_datascience",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_d9658e33",
-      "name": "Ted Gordon - The Composer&rsquo;s Blackbox",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;At this event, Ted Gordon will discuss &lt;em&gt;The Composer&amp;rsquo;s Blackbox&lt;/em&gt;, a probing exploration of compositional practice as a site of speculation, intuition, and embodied decision-making. Drawing from his new book, Gordon examines the often-invisible processes that shape how music comes into being. The speaker will discuss how listening, experimentation, failure, and tacit knowledge operate before and beyond formalized theory.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;The Composer&amp;rsquo;s Blackbox&lt;/em&gt; positions itself at the intersection of composition, sound research, and reflective practice. We&amp;rsquo;re asking how composers think &lt;em&gt;with&lt;/em&gt; sound rather than merely organize it. Gordon will reflect on how material engagement, technological mediation, and personal listening histories inform creative choices, challenging linear narratives of authorship and mastery.&lt;/p&gt;\n&lt;p&gt;Blending analytical insight and performance, this talk invites composers, performers, and listeners to reconsider composition as an evolving, opaque system, one that resists full explanation while remaining deeply responsive to sensation, context, and time.&lt;/p&gt;\n&lt;h3&gt;Event Speaker&lt;/h3&gt;\n&lt;p&gt;&lt;a href=\"https://www.gc.cuny.edu/people/theodore-gordon\" target=\"_blank\"&gt;Ted Gordon&lt;/a&gt;, Assistant Professor of Music at CUNY Graduate Center&lt;/p&gt;\n&lt;h3&gt;Event Information&lt;/h3&gt;\n&lt;p&gt;Free and open to the public; &lt;a href=\"https://www.eventbrite.com/e/ted-gordon-the-composers-blackbox-registration-1978434582093\" target=\"_blank\"&gt;registration&lt;/a&gt; required. Please contact Alyssa Regent at &lt;a href=\"mailto:alr2240@columbia.edu\" target=\"_blank\"&gt;alr2240@columbia.edu&lt;/a&gt; with any questions.&lt;/p&gt;\n&lt;p&gt;The &lt;a href=\"http://blogs.cuit.columbia.edu/improvisation/\" target=\"_blank\"&gt;Comparing Domains of Improvisation&lt;/a&gt; series is sponsored by the &lt;a href=\"https://scienceandsociety.columbia.edu/content/presidential-scholars-society-and-neuroscience\"&gt;Presidential Scholars in Society and Neuroscience program&lt;/a&gt; at Columbia University.&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2026-02-12T19:00:00-05:00",
-      "end_date": "2026-02-12T22:00:00-05:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "SCIENCE",
-        "SOCIAL",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9b30bcf2-019b-3303c26a-00003c1cevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Prentis Hall, 632 W. 125 St., New York, NY 10027\tRoom 317",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Center for Science and Society",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Center for Science and Society",
-          "tags": [
-            "org/CSS",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Music",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Social Sciences",
-            "Panel",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Humanities",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Music",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Social Sciences",
-            "Panel",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Humanities",
-            "Arts"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_aa2ac974",
-      "name": "Screening of Persepolis",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Marjane Satrapi and Vincent Paronnaud, 2007, 156 min.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Alone at Orly Airport in Paris, Marjane &amp;quot;Marji&amp;quot; Satrapi prepares to board a plane to Tehran, but changes her mind at the last moment. She spends the whole day at the airport, reflecting on her life before her departure to France.&lt;/p&gt;\n&lt;p&gt;Marji grows up in an upper-middle class family against the backdrop of the 1979 Iranian Revolution against the Shah of Iran. After the deposition of the Shah, Marji&amp;rsquo;s life as a pre-teen is heavily influenced by the rule of Islamic fundamentalism in Iran. Headstrong, curious and rebellious as many pre-teens can be, Marjane finds ways to express herself. She buys heavy metal cassettes on the street, wears band tees and headbangs in the safety of her bedroom. Fearing for her safety in Iran as the Iran-Iraq war breaks out, Marji&amp;rsquo;s parents send her off to Europe where she experiences young adulthood, heartbreak, mental health struggles and questioning her identity while being away from home.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Persepolis&lt;/em&gt; highlights the importance of integrity, the support of family and the building of one&amp;rsquo;s identity against the backdrop of political shifts, war, and cultural differences. Satrapi&amp;#39;s film, based on her eponymous graphic novel, grapples with the ways in which Iranian people&amp;rsquo;s lives have been impacted by repression and the realities of political dissidence, resistance, and community in the face of trauma. Satrapi&amp;rsquo;s animated masterpiece is considered a classic in francophone cinema.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Watch the trailer &lt;a href=\"https://youtu.be/guA0GPbnryc?si=XGXfeFg_V44rR1jR\"&gt;here&lt;/a&gt;.&lt;/p&gt;",
-      "start_date": "2026-02-12T23:30:00-05:00",
-      "end_date": "2026-02-13T01:00:00-05:00",
-      "category": [
-        "ARTS",
-        "SCIENCE",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9b11d23d-019b-1301db6c-000024c7events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Buell Hall, 515 W. 116 St., New York, NY 10027\tEast Gallery",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Maison Francaise",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Maison Francaise",
-          "tags": [
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Film",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "org/maison",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Humanities",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Film",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "org/maison",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Humanities",
-            "Arts"
           ]
         }
       }
