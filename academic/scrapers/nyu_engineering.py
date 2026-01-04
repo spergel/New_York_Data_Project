@@ -4,6 +4,7 @@ import json
 from datetime import datetime, timedelta
 import hashlib
 from event_filter import filter_events, get_filter_stats
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
@@ -161,6 +162,10 @@ def parse_nyu_engineering_events(events):
                     print(f"Could not parse date string: {date_time_str}. Error: {str(e)}")
                     continue
             
+            # Make timezone-aware in NYC timezone
+            date_time = create_nyc_datetime(date_time.year, date_time.month, date_time.day, 
+                                           date_time.hour, date_time.minute)
+            
             # Assume events last 1 hour if no end time provided
             end_time = date_time + timedelta(hours=1)
 
@@ -194,8 +199,8 @@ def parse_nyu_engineering_events(events):
                 "location_id": location_id,
                 "community_id": "com_nyu_tandon",
                 "description": "",  # No description available in the source
-                "start_date": date_time.isoformat(),
-                "end_date": end_time.isoformat(),
+                "start_date": standardize_datetime(date_time),
+                "end_date": standardize_datetime(end_time),
                 "category": determine_categories(event),
                 "source": "nyu_engineering",
                 "source_group": "NYU Engineering",

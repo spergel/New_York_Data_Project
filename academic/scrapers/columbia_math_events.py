@@ -38,21 +38,26 @@ def extract_first_date(text: str) -> Optional[str]:
 			try:
 				if "TERM" in m.group(0):
 					# Handle "2016 SPRING TERM" format
-					year = m.group(1)
+					year = int(m.group(1))
 					season = m.group(2).lower()
 					if season == "spring":
-						return f"{year}-03-01"  # Approximate spring start
+						dt_with_tz = create_nyc_datetime(year, 3, 1, 9, 0)
 					elif season == "fall":
-						return f"{year}-09-01"  # Approximate fall start
+						dt_with_tz = create_nyc_datetime(year, 9, 1, 9, 0)
 					elif season == "summer":
-						return f"{year}-06-01"  # Approximate summer start
+						dt_with_tz = create_nyc_datetime(year, 6, 1, 9, 0)
 					elif season == "winter":
-						return f"{year}-01-01"  # Approximate winter start
+						dt_with_tz = create_nyc_datetime(year, 1, 1, 9, 0)
+					else:
+						return None
+					return standardize_datetime(dt_with_tz)
 				else:
 					# Normal date format
 					parsed = datetime.strptime(m.group(1), "%B %d, %Y") if "," in m.group(1) and len(m.group(1).split()[0]) > 3 else None
 					if parsed:
-						return parsed.date().isoformat()
+						# Create timezone-aware datetime in NYC timezone with default 9 AM time
+						dt_with_tz = create_nyc_datetime(parsed.year, parsed.month, parsed.day, 9, 0)
+						return standardize_datetime(dt_with_tz)
 			except Exception:
 				pass
 	return None

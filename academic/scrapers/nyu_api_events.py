@@ -111,7 +111,9 @@ def parse_timestamp(timestamp: int) -> Optional[str]:
     """Parse Unix timestamp to ISO date"""
     try:
         dt = datetime.fromtimestamp(timestamp)
-        return dt.date().isoformat()
+        # Create timezone-aware datetime in NYC timezone
+        dt_with_tz = create_nyc_datetime(dt.year, dt.month, dt.day, dt.hour, dt.minute)
+        return standardize_datetime(dt_with_tz)
     except Exception:
         return None
 

@@ -61,7 +61,9 @@ def extract_first_date(text: str) -> Optional[str]:
                 # Normal date format
                 parsed = datetime.strptime(m.group(1), "%B %d, %Y") if "," in m.group(1) and len(m.group(1).split()[0]) > 3 else None
                 if parsed:
-                    return parsed.date().isoformat()
+                    # Create timezone-aware datetime in NYC timezone with default 9 AM time
+                    dt_with_tz = create_nyc_datetime(parsed.year, parsed.month, parsed.day, 9, 0)
+                    return standardize_datetime(dt_with_tz)
             except Exception:
                 pass
     return None
@@ -185,7 +187,9 @@ def scrape_nyu_law_events() -> Dict[str, List[Dict]]:
             if datetime_attr:
                 try:
                     parsed_date = datetime.fromisoformat(datetime_attr.split("T")[0])
-                    date_iso = parsed_date.date().isoformat()
+                    # Create timezone-aware datetime in NYC timezone with default 9 AM time
+                    dt_with_tz = create_nyc_datetime(parsed_date.year, parsed_date.month, parsed_date.day, 9, 0)
+                    date_iso = standardize_datetime(dt_with_tz)
                 except:
                     pass
         

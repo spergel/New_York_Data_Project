@@ -72,7 +72,9 @@ def parse_ics_date(date_str: str) -> Optional[str]:
         
         # Parse the date
         dt = datetime.strptime(date_str, '%Y%m%d')
-        return dt.date().isoformat()
+        # Create timezone-aware datetime in NYC timezone with default 9 AM time
+        dt_with_tz = create_nyc_datetime(dt.year, dt.month, dt.day, 9, 0)
+        return standardize_datetime(dt_with_tz)
     except Exception:
         return None
 

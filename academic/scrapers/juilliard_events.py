@@ -9,8 +9,7 @@ import sys
 from zoneinfo import ZoneInfo
 from event_filter import filter_events, get_filter_stats
 from category_utils import determine_categories
-
-NY_TZ = ZoneInfo("America/New_York")
+from date_utils import standardize_datetime, create_nyc_datetime, NY_TZ
 
 def get_location_id(location_str):
     """Map location string to standard location ID."""
