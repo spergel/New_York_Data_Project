@@ -1,29 +1,29 @@
 {
-  "scraped_at": "2025-12-28T03:28:57.718395",
-  "total_events": 269,
+  "scraped_at": "2026-01-04T03:32:10.798643",
+  "total_events": 277,
   "event_sources": {
     "isaw_events_debug": 6,
     "nypl_events_debug": 21,
     "luma_events_debug": 63,
     "juilliard_events_debug": 0,
-    "nyu_physics_events_debug": 5,
+    "nyu_physics_events_debug": 6,
     "miller_events_debug": 30,
     "jtsa_events_debug": 10,
     "columbia_classics_events_debug": 10,
     "nyu_medicine_events_debug": 2,
-    "nyu_engineering_events_debug": 2,
     "nyu_api_events_debug": 12,
-    "fordham_events_debug": 4,
+    "fordham_events_debug": 3,
     "nyu_stern_events_debug": 7,
     "nyu_neuroscience_events_debug": 0,
+    "gallatin_events_debug": 3,
     "new_school_events_debug": 32,
     "nyu_education_events_debug": 4,
     "pratt_events_debug": 6,
     "nyas_events_debug": 19,
     "columbia_math_events_debug": 2,
-    "nyu_steinhardt_music_events_debug": 11,
-    "nyu_steinhardt_events_debug": 9,
-    "columbia_events_debug": 37
+    "nyu_steinhardt_music_events_debug": 14,
+    "nyu_steinhardt_events_debug": 12,
+    "columbia_events_debug": 38
   },
   "events": [
     {
@@ -36,8 +36,8 @@
       "start_date": "2026-01-12T17:30:00-05:00",
       "end_date": "2026-01-12T19:30:00-05:00",
       "category": [
-        "ARTS",
-        "HISTORY"
+        "HISTORY",
+        "ARTS"
       ],
       "source": "isaw",
       "source_group": "NYU",
@@ -70,8 +70,8 @@
       "start_date": "2026-01-20T17:30:00-05:00",
       "end_date": "2026-01-20T19:30:00-05:00",
       "category": [
-        "ARTS",
-        "HISTORY"
+        "HISTORY",
+        "ARTS"
       ],
       "source": "isaw",
       "source_group": "NYU",
@@ -1529,7 +1529,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-28T03:28:45.948594-05:00",
+        "scraped_at": "2026-01-04T03:31:59.966245-05:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "January 28, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -1575,7 +1575,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-28T03:28:45.949981-05:00",
+        "scraped_at": "2026-01-04T03:31:59.967684-05:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "February 4, 2026 Wednesday 12:00 PM+726Broadway, 940, CCPP Seminar(hep)",
@@ -1591,6 +1591,52 @@
             "type": "series",
             "text": "hep",
             "url": "http://physics.nyu.edu/events.html?EventsPage=hep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_nyu_physics_event7610",
+      "name": "New Types of Symmetry Breaking as a Pathway to New Phenomena in Particle Physics",
+      "description": "Committee:\r\nKen Van Tilburg (Advisor)\r\nNeal Weiner\r\nJosh Ruderman\r\nMike Blanton\r\nAndy Kent",
+      "start_date": "2026-02-12T10:00:00-05:00",
+      "end_date": "2026-02-12T11:00:00-05:00",
+      "location_id": null,
+      "community_id": null,
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "source": "nyu_physics",
+      "source_group": "nyu_physics",
+      "metadata": {
+        "source_url": "http://physics.nyu.edu/events.html#event7610",
+        "url": "http://physics.nyu.edu/events.html#event7610",
+        "source_name": "NYU Physics Events",
+        "venue": {
+          "name": "NYU Physics",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Physics Department",
+          "type": "organizer"
+        },
+        "scraped_at": "2026-01-04T03:31:59.969166-05:00",
+        "original_source": "NYU Physics",
+        "speaker": "Other Center for Cosmology and Particle Physics Events",
+        "institution": "February 12, 2026 Thursday 10:00 AM+726Broadway, 940, CCPP Seminar(ccpp)Oral DefenseMarius KongsoreNew Types of Symmetry Breaking as a Pathway to New Phenomena in Particle PhysicsCommittee:\r\nKen Van Tilburg (Advisor)\r\nNeal Weiner\r\nJosh Ruderman\r\nMike Blanton\r\nAndy Kent",
+        "event_type": "ccpp",
+        "extraction_method": "html_parsing",
+        "links": [
+          {
+            "type": "other",
+            "text": "Broadway",
+            "url": "http://as.nyu.edu/physics/information.html"
+          },
+          {
+            "type": "series",
+            "text": "ccpp",
+            "url": "http://physics.nyu.edu/events.html?EventsPage=ccpp"
           }
         ]
       }
@@ -1621,7 +1667,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-28T03:28:45.951383-05:00",
+        "scraped_at": "2026-01-04T03:31:59.969431-05:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Information Physics Seminars",
         "institution": "February 12, 2026 Thursday 11:00 AM+726Broadway, Room 1067(cqip)Shoumik ChowdhuryTheory of Quasiparticle Generation by Microwave Drives in Superconducting QubitsMicrowave drives play a central role in the control of superconducting quantum circuits, enabling qubit gates, readout, and parametric interactions. As the drive frequencies are typically an order of magnitude smaller than (twice) the superconducting gap, it is generally assumed that such drives do not disturb the BCS ground state. However, sufficiently strong drives can activate multi-photon pair-breaking processes that generate quasiparticles (QPs) and result in qubit errors. In this work, we present a theoretical framework for calculating the rates of multi-photon-assisted pair-breaking transitions induced by charge- or flux-coupled microwave drives. Through illustrative examples, we show that photon-assisted QP generation may impact novel high-frequency dispersive readout architectures, as well as Floquet-engineered superconducting circuits operating under strong driving.",
@@ -1667,7 +1713,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-28T03:28:45.955259-05:00",
+        "scraped_at": "2026-01-04T03:31:59.973433-05:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "April 7, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lee LiuPurdue UniversityShining New Light on Highly Symmetric Molecules",
@@ -1713,7 +1759,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2025-12-28T03:28:45.958257-05:00",
+        "scraped_at": "2026-01-04T03:31:59.976459-05:00",
         "original_source": "NYU Physics",
         "speaker": "Other Center for Cosmology and Particle Physics Events",
         "institution": "May 11, 2026 Monday 8:00 AM+726Broadway, 940, CCPP Seminar(ccpp)Special SeminarKleban KlebanThe Work of Prof. Daniel Zwanziger",
@@ -2063,9 +2109,9 @@
       "start_date": "2026-01-12T12:00:00-05:00",
       "end_date": "2026-01-12T13:00:00-05:00",
       "category": [
-        "SOCIAL",
         "EDUCATION",
-        "RELIGION"
+        "RELIGION",
+        "SOCIAL"
       ],
       "source": "jtsa",
       "source_group": "Independent",
@@ -2531,74 +2577,6 @@
       }
     },
     {
-      "id": "evt_nyu_eng_ca98efe5",
-      "name": "The Versatility of Perovskite Materials for Optoelectronics",
-      "type": "Seminar",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2025-01-16T10:45:00",
-      "end_date": "2025-01-16T11:45:00",
-      "category": [
-        "TECH"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/01/16/versatility-perovskite-materials-optoelectronics",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Lecture / Panel",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2025-12/Saliba%2C%20Michael%20-%20Headshot.jpg?h=5c130d19&itok=9Z7_2s4c"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_0353d7f5",
-      "name": "Soft and Hard Nanomatter for the Preservation of Cultural Heritage",
-      "type": "Seminar",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2025-01-29T16:00:00",
-      "end_date": "2025-01-29T17:00:00",
-      "category": [
-        "TECH"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/01/29/soft-and-hard-nanomatter-preservation-cultural-heritage",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Lecture / Panel",
-          "image_url": null
-        }
-      }
-    },
-    {
       "id": "evt_nyu_api_554097fdba",
       "name": "Urban Research Seminar",
       "description": "",
@@ -2803,23 +2781,6 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_fbfd0afa81",
-      "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
-      "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2026-01-06",
-      "end_date": "2026-01-06",
-      "source": "fordham",
-      "source_group": "fordham",
-      "metadata": {
-        "source_url": "https://now.fordham.edu/event/jewish-theology-in-latin-america-with-ila",
-        "source_name": "Fordham University",
-        "venue": {
-          "name": "Virtual Zoom",
-          "type": "Offline"
-        }
-      }
-    },
-    {
       "id": "evt_fordham_calendar_bf65d1e844",
       "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society",
       "description": "Longterm loans of important and rarely seen ancient sculpture f",
@@ -2837,11 +2798,11 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_69f3181571",
+      "id": "evt_fordham_calendar_fbfd0afa81",
       "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
       "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2026-01-13",
-      "end_date": "2026-01-13",
+      "start_date": "2026-01-06",
+      "end_date": "2026-01-06",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
@@ -2854,11 +2815,11 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_81b96cd9e2",
+      "id": "evt_fordham_calendar_69f3181571",
       "name": "Jewish Theology in Latin America with Ilan Stavans\\, In Three Parts",
       "description": "Join us for a three-part online mini-course over the winter bre",
-      "start_date": "2025-12-30",
-      "end_date": "2025-12-30",
+      "start_date": "2026-01-13",
+      "end_date": "2026-01-13",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
@@ -2986,6 +2947,102 @@
         "venue": {
           "name": "NYU Stern",
           "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_4abe4de0",
+      "name": "Crowned Heights",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "",
+      "start_date": "2026-11-06T10:00:00-05:00",
+      "end_date": "2026-11-06T18:00:00-05:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "gallatin",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/11/gallery-exhibit--shatima-s-shop--brooklyn--beauty-salons--barber.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "The Gallatin Galleries",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/11/gallery-exhibit--shatima-s-shop--brooklyn--beauty-salons--barber/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": false
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_89cc0635",
+      "name": "DCA Fall 2025 Showcase: Ephemera(l)",
+      "type": "Academic",
+      "location_id": "loc_gallatin_labowitz",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2026-12-13T14:30:00-05:00",
+      "end_date": "2026-12-13T18:00:00-05:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "gallatin",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2025/12/dca-fall-2025-showcase--ephemera-l-.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "Jerry H. Labowitz Theatre for the Performing Arts",
+          "address": "1 Washington Place, New York, NY 10003"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2025/12/dca-fall-2025-showcase--ephemera-l-/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_gallatin_743d532d",
+      "name": "NYU Gallatin Graduation Ceremony",
+      "type": "Academic",
+      "location_id": "loc_gallatin_main",
+      "community_id": "com_gallatin",
+      "description": "RSVP required",
+      "start_date": "2026-05-13T13:00:00-04:00",
+      "end_date": "2026-05-13T15:00:00-04:00",
+      "category": [
+        "EDUCATION"
+      ],
+      "source": "gallatin",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://gallatin.nyu.edu/gallatin/en/utilities/events/2026/05/nyu-gallatin-graduation-ceremony.html",
+        "source_name": "NYU Gallatin Events",
+        "venue": {
+          "type": "venue",
+          "name": "131 W 55th St",
+          "address": "131 W 55th St, New York, NY 10019"
+        },
+        "organizer": {
+          "name": "NYU Gallatin School of Individualized Study",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://gallatin.nyu.edu/content/gallatin/en/utilities/events/2026/05/nyu-gallatin-graduation-ceremony/jcr:content/image.img.480.medium.jpg",
+          "rsvp_required": true
         }
       }
     },
@@ -4576,7 +4633,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-28T03:28:56.357369-05:00",
+        "scraped_at": "2026-01-04T03:32:09.517207-05:00",
         "extraction_method": "header"
       }
     },
@@ -4593,7 +4650,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-28T03:28:56.357420-05:00",
+        "scraped_at": "2026-01-04T03:32:09.517262-05:00",
         "extraction_method": "header"
       }
     },
@@ -4610,7 +4667,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-28T03:28:56.357448-05:00",
+        "scraped_at": "2026-01-04T03:32:09.517289-05:00",
         "extraction_method": "header"
       }
     },
@@ -4627,7 +4684,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-28T03:28:56.357473-05:00",
+        "scraped_at": "2026-01-04T03:32:09.517313-05:00",
         "extraction_method": "header"
       }
     },
@@ -4644,7 +4701,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-28T03:28:56.357494-05:00",
+        "scraped_at": "2026-01-04T03:32:09.517334-05:00",
         "extraction_method": "header"
       }
     },
@@ -4661,7 +4718,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2025-12-28T03:28:56.358808-05:00",
+        "scraped_at": "2026-01-04T03:32:09.518686-05:00",
         "extraction_method": "container"
       }
     },
@@ -5365,7 +5422,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.976969-05:00"
+          "scraped_at": "2026-01-04T03:32:00.757827-05:00"
         }
       }
     },
@@ -5398,7 +5455,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.977430-05:00"
+          "scraped_at": "2026-01-04T03:32:00.758293-05:00"
         }
       }
     },
@@ -5431,7 +5488,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.977855-05:00"
+          "scraped_at": "2026-01-04T03:32:00.758764-05:00"
         }
       }
     },
@@ -5464,7 +5521,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.978289-05:00"
+          "scraped_at": "2026-01-04T03:32:00.759212-05:00"
         }
       }
     },
@@ -5497,7 +5554,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.978694-05:00"
+          "scraped_at": "2026-01-04T03:32:00.759642-05:00"
         }
       }
     },
@@ -5530,7 +5587,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-28T03:28:46.979183-05:00"
+          "scraped_at": "2026-01-04T03:32:00.760112-05:00"
         }
       }
     },
@@ -5563,7 +5620,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.979601-05:00"
+          "scraped_at": "2026-01-04T03:32:00.760539-05:00"
         }
       }
     },
@@ -5596,7 +5653,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.980024-05:00"
+          "scraped_at": "2026-01-04T03:32:00.761002-05:00"
         }
       }
     },
@@ -5629,7 +5686,106 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.980459-05:00"
+          "scraped_at": "2026-01-04T03:32:00.761429-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_cb5bd524",
+      "name": "80WSE Gallery Exhibition: Escapements",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Escapements brings together drawings by artists whose works navigate the space between opposing worlds, constructing psycho-social metaphors through gesture, mark-making, and image.",
+      "start_date": "2026-09-10T19:00:00-04:00",
+      "end_date": "2026-09-10T20:30:00-04:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2025-09/80wse-gallery-exhibition-escapements",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "80 Washington Square East, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-01-04T03:32:05.626881-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_a1f00a8b",
+      "name": "80WSE Gallery Exhibition: Beetles, Cats, Clouds",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Beetles, Cats, Clouds features three women manga artists—Tsurita Kuniko, Yamada Murasaki, and Kondoh Akino—whose work defied the reigning gender conventions within Japanese comics from the 1960s into…",
+      "start_date": "2026-09-10T19:00:00-04:00",
+      "end_date": "2026-09-10T20:30:00-04:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2025-09/80wse-gallery-exhibition-beetles-cats-clouds",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "80 Washington Square East, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-01-04T03:32:05.627391-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_4f6d3b75",
+      "name": "Fall 2025 Facilitative Leadership Seminar",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "How can you facilitate more effective and inclusive meetings? Metro Learning Communities’ Facilitative Leadership Seminar instructs participants to master protocols for strategic planning, data…",
+      "start_date": "2026-12-13T19:00:00-05:00",
+      "end_date": "2026-12-13T20:30:00-05:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2025-12/fall-2025-facilitative-leadership-seminar",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "Education",
+          "scraped_at": "2026-01-04T03:32:05.628376-05:00"
         }
       }
     },
@@ -5662,7 +5818,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-28T03:28:52.094502-05:00"
+          "scraped_at": "2026-01-04T03:32:05.628810-05:00"
         }
       }
     },
@@ -5695,7 +5851,103 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-28T03:28:52.097346-05:00"
+          "scraped_at": "2026-01-04T03:32:05.631636-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_cb5bd524",
+      "name": "80WSE Gallery Exhibition: Escapements",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Escapements brings together drawings by artists whose works navigate the space between opposing worlds, constructing psycho-social metaphors through gesture, mark-making, and image.",
+      "start_date": "2026-09-10T19:00:00-04:00",
+      "end_date": "2026-09-10T20:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2025-09/80wse-gallery-exhibition-escapements",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "80 Washington Square East, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-01-04T03:32:00.332265-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_a1f00a8b",
+      "name": "80WSE Gallery Exhibition: Beetles, Cats, Clouds",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Beetles, Cats, Clouds features three women manga artists—Tsurita Kuniko, Yamada Murasaki, and Kondoh Akino—whose work defied the reigning gender conventions within Japanese comics from the 1960s into…",
+      "start_date": "2026-09-10T19:00:00-04:00",
+      "end_date": "2026-09-10T20:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2025-09/80wse-gallery-exhibition-beetles-cats-clouds",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "80 Washington Square East, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-01-04T03:32:00.332769-05:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_4f6d3b75",
+      "name": "Fall 2025 Facilitative Leadership Seminar",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "How can you facilitate more effective and inclusive meetings? Metro Learning Communities’ Facilitative Leadership Seminar instructs participants to master protocols for strategic planning, data…",
+      "start_date": "2026-12-13T19:00:00-05:00",
+      "end_date": "2026-12-13T20:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2025-12/fall-2025-facilitative-leadership-seminar",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "Education",
+          "scraped_at": "2026-01-04T03:32:00.334025-05:00"
         }
       }
     },
@@ -5727,7 +5979,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-28T03:28:46.428802-05:00"
+          "scraped_at": "2026-01-04T03:32:00.334454-05:00"
         }
       }
     },
@@ -5759,7 +6011,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.431322-05:00"
+          "scraped_at": "2026-01-04T03:32:00.337013-05:00"
         }
       }
     },
@@ -5791,7 +6043,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-28T03:28:46.431725-05:00"
+          "scraped_at": "2026-01-04T03:32:00.337440-05:00"
         }
       }
     },
@@ -5823,7 +6075,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.432151-05:00"
+          "scraped_at": "2026-01-04T03:32:00.337907-05:00"
         }
       }
     },
@@ -5855,7 +6107,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.432567-05:00"
+          "scraped_at": "2026-01-04T03:32:00.338323-05:00"
         }
       }
     },
@@ -5887,7 +6139,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.433396-05:00"
+          "scraped_at": "2026-01-04T03:32:00.339159-05:00"
         }
       }
     },
@@ -5919,7 +6171,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2025-12-28T03:28:46.433850-05:00"
+          "scraped_at": "2026-01-04T03:32:00.339610-05:00"
         }
       }
     },
@@ -5951,7 +6203,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2025-12-28T03:28:46.434276-05:00"
+          "scraped_at": "2026-01-04T03:32:00.340054-05:00"
         }
       }
     },
@@ -5983,7 +6235,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2025-12-28T03:28:46.435090-05:00"
+          "scraped_at": "2026-01-04T03:32:00.340907-05:00"
         }
       }
     },
@@ -6029,10 +6281,12 @@
             "Events open to",
             "org/UniversityEvents",
             "Basic Health Sciences",
+            "org/cumc_genetics_dev",
             "Postdocs",
             "org/CSCI",
             "Graduate Students",
-            "Trainees"
+            "Trainees",
+            "org/cumc"
           ],
           "audience": [
             "Category",
@@ -6042,10 +6296,12 @@
             "Events open to",
             "org/UniversityEvents",
             "Basic Health Sciences",
+            "org/cumc_genetics_dev",
             "Postdocs",
             "org/CSCI",
             "Graduate Students",
-            "Trainees"
+            "Trainees",
+            "org/cumc"
           ]
         }
       }
@@ -6149,6 +6405,7 @@
           "department": "LEAP-STC",
           "tags": [
             "org/CCS",
+            "org/EJCJC",
             "org/leap",
             "org/climateOOR",
             "Artificial Intelligence",
@@ -6645,6 +6902,7 @@
             "org/maison",
             "Graduate School of Arts and Sciences",
             "Trainees",
+            "org/IAS",
             "Journalism",
             "Humanities",
             "Arts"
@@ -6667,6 +6925,7 @@
             "org/maison",
             "Graduate School of Arts and Sciences",
             "Trainees",
+            "org/IAS",
             "Journalism",
             "Humanities",
             "Arts"
@@ -6822,77 +7081,6 @@
       }
     },
     {
-      "id": "evt_columbia_e76849e0",
-      "name": "The Abel Lecture on Antisemitism with Pam Nadell",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h2&gt;Please join us for the annual Abel Lecture on Antisemitism featuring &lt;strong&gt;Prof. Pam Nadell&lt;/strong&gt; on &lt;strong&gt;Tuesday, January 27, at 6:00 p.m. ET&lt;/strong&gt;, at &lt;strong&gt;617 Kent Hall&lt;/strong&gt;.&lt;/h2&gt;\n&lt;p&gt;In this lecture, Prof. Nadell discusses her recent book, &lt;em&gt;Antisemitism, an American Tradition&lt;/em&gt;, which investigates the depth of this fraught history. She explores how Jews fought antisemitism through the law and by creating organizations to speak for them. Jews would also fight back with their fists or join with allies in fighting all types of hate. This momentous work sounds the alarm on a hatred that continues to plague our country.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Prof. Pamela S. Nadell&lt;/strong&gt; holds the Patrick Clendenen Chair in Women&amp;rsquo;s and Gender History at American University. Her book &lt;em&gt;America&amp;rsquo;s Jewish Women: A History from Colonial Times to Today&lt;/em&gt; won the 2019 National Jewish Book Award&amp;rsquo;s Everett Family Foundation &amp;ldquo;Book of the Year&amp;rdquo;. A past president of the Association for Jewish Studies, she is a consultant to Pittsburgh&amp;rsquo;s Tree of Life museum, has testified multiple times before Congress, and lectures widely.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;*Guests must register by Friday, January 23, to be approved for campus access; unregistered guests will not be permitted on campus. Each guest must register individually using a unique email address.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://www.eventbrite.com/e/the-abel-lecture-on-antisemitism-featuring-prof-pam-nadell-tickets-1975870100660?aff=oddtdtcreator\" target=\"_blank\"&gt;Click here to register for this event&lt;/a&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;strong&gt;Supported by the generosity of the Abel family.&lt;/strong&gt;&lt;/p&gt;",
-      "start_date": "2026-01-27T23:00:00-05:00",
-      "end_date": "2026-01-28T00:00:00-05:00",
-      "category": [
-        "EDUCATION",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9ae89e85-019a-eb063a3f-00005fd7events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Kent Hall, 1140 Amsterdam Ave., New York, NY 10027\t617",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Institute for Israel and Jewish Studies",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Institute for Israel and Jewish Studies",
-          "tags": [
-            "org/IIJS",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Humanities"
-          ],
-          "audience": [
-            "Category",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Humanities"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_34082d24",
       "name": "Pop-Up Concerts: Trinket Ensemble",
       "type": "Performance",
@@ -6970,6 +7158,77 @@
             "Cultural",
             "Concert",
             "Arts"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_e76849e0",
+      "name": "The Abel Lecture on Antisemitism with Pam Nadell",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;h2&gt;Please join us for the annual Abel Lecture on Antisemitism featuring &lt;strong&gt;Prof. Pam Nadell&lt;/strong&gt; on &lt;strong&gt;Tuesday, January 27, at 6:00 p.m. ET&lt;/strong&gt;, at &lt;strong&gt;617 Kent Hall&lt;/strong&gt;.&lt;/h2&gt;\n&lt;p&gt;In this lecture, Prof. Nadell discusses her recent book, &lt;em&gt;Antisemitism, an American Tradition&lt;/em&gt;, which investigates the depth of this fraught history. She explores how Jews fought antisemitism through the law and by creating organizations to speak for them. Jews would also fight back with their fists or join with allies in fighting all types of hate. This momentous work sounds the alarm on a hatred that continues to plague our country.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Prof. Pamela S. Nadell&lt;/strong&gt; holds the Patrick Clendenen Chair in Women&amp;rsquo;s and Gender History at American University. Her book &lt;em&gt;America&amp;rsquo;s Jewish Women: A History from Colonial Times to Today&lt;/em&gt; won the 2019 National Jewish Book Award&amp;rsquo;s Everett Family Foundation &amp;ldquo;Book of the Year&amp;rdquo;. A past president of the Association for Jewish Studies, she is a consultant to Pittsburgh&amp;rsquo;s Tree of Life museum, has testified multiple times before Congress, and lectures widely.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;*Guests must register by Friday, January 23, to be approved for campus access; unregistered guests will not be permitted on campus. Each guest must register individually using a unique email address.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://www.eventbrite.com/e/the-abel-lecture-on-antisemitism-featuring-prof-pam-nadell-tickets-1975870100660?aff=oddtdtcreator\" target=\"_blank\"&gt;Click here to register for this event&lt;/a&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;strong&gt;Supported by the generosity of the Abel family.&lt;/strong&gt;&lt;/p&gt;",
+      "start_date": "2026-01-27T23:00:00-05:00",
+      "end_date": "2026-01-28T00:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9ae89e85-019a-eb063a3f-00005fd7events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Kent Hall, 1140 Amsterdam Ave., New York, NY 10027\t617",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for Israel and Jewish Studies",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Institute for Israel and Jewish Studies",
+          "tags": [
+            "org/IIJS",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Humanities"
+          ],
+          "audience": [
+            "Category",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Humanities"
           ]
         }
       }
@@ -8003,6 +8262,64 @@
       }
     },
     {
+      "id": "evt_columbia_f45ec8be",
+      "name": "LC1: Object-Based Approaches to Inclusivity in the Classroom (Grads)",
+      "type": "Academic",
+      "location_id": "loc_columbia_butler",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;CTLgrads Learning Community: &lt;/strong&gt;&lt;strong&gt;Embodied Learning: Object-Based Approaches to Inclusivity in the Classroom &lt;/strong&gt;(Part 1 of 2)&lt;/p&gt;\n&lt;p&gt;How can pedagogical practices respond more fully to differences in access, ability, learning styles, and prior knowledge? This Learning Community invites participants from across disciplines to reflect on such questions by foregrounding the role of objects and the body in learning. We will reflect on how objects can transform pedagogical experiences, and how teaching with objects can cultivate more inclusive classrooms. The first session will address the practical side of our topic: how can teaching with objects enhance discussions within and beyond the classroom? How might instructors frame and prepare lessons centered around the study of objects, regardless of discipline? In the second session, we will address the theoretical dimension of embodied learning. This session will introduce and discuss key theoretical frameworks related to embodiment in cognitive approaches, learning through the body, object-based learning, object theory, and the pedagogies of artefacts. Participants will collectively assess how these theories challenge mind&amp;ndash;body dualisms operating in the classroom, reconceptualize knowledge as situated and material, and inform inclusive pedagogical practices that recognize learning as an embodied, relational, and multisensorial process.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;This session is designed and led by Julia Carabatsos and Jazm&amp;iacute;n Novoa Lara, Senior Lead Teaching Fellows at the CTL.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;em&gt;Note: this is Part 1 of a two-part&lt;/em&gt;&lt;/strong&gt;&lt;a href=\"https://ctl.columbia.edu/graduate-instructors/ctlgrads-learning-communities/\"&gt;&lt;strong&gt;&lt;em&gt; &lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;em&gt;CTLgrads Learning Community&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&lt;em&gt;. Participants are strongly encouraged to attend both sessions. Part 2 will convene Wednesday, February 11, 12:10-1:25pm in room 212 Butler Library. Register &lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9b69631a-019b-6a738293-00001591events@columbia.edu&amp;amp;recurrenceId=\" target=\"_blank\"&gt;here&lt;/a&gt;.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;TDP: &lt;/strong&gt;This workshop counts as a Pedagogy Workshop for participants enrolled in the Teaching Development Program:&lt;a href=\"https://tdp.ctl.columbia.edu/\"&gt;&lt;strong&gt; &lt;/strong&gt;https://tdp.ctl.columbia.edu/&lt;/a&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact ColumbiaCTL@columbia.edu or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. Note, if this is an online event, CTL staff may take screenshots. For concerns, contact ColumbiaCTL@columbia.edu.&lt;/p&gt;",
+      "start_date": "2026-02-04T17:10:00-05:00",
+      "end_date": "2026-02-04T18:25:00-05:00",
+      "category": [
+        "EDUCATION",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9b69631a-019b-6a6fb922-00001538events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Butler Library",
+          "address": "535 W 114th St, New York, NY 10027",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Center for Teaching and Learning",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Teaching and Learning",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Postdocs",
+            "Teaching and Learning",
+            "CTL",
+            "Graduate Students"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Postdocs",
+            "Teaching and Learning",
+            "CTL",
+            "Graduate Students"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_6705f4b9",
       "name": "Harnessing Nature Data &amp; AI",
       "type": "Academic",
@@ -8031,6 +8348,7 @@
         "additional_info": {
           "department": "SPS",
           "tags": [
+            "org/EJCJC",
             "Type",
             "Location",
             "Audience",
