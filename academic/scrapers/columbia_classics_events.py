@@ -36,19 +36,45 @@ BASE_URL = "https://classics.columbia.edu/events"
 def extract_first_date(text: str) -> Optional[str]:
 	if not text:
 		return None
+	
+	# First, find the date
+	date_parsed = None
 	for rx in DATE_REGEXES:
 		m = rx.search(text)
 		if m:
 			try:
-				# Normalize to ISO date (no time available)
-				parsed = datetime.strptime(m.group(1), "%B %d, %Y") if "," in m.group(1) and len(m.group(1).split()[0]) > 3 else None
-				if parsed:
-					# Create timezone-aware datetime in NYC timezone with default 9 AM time
-					dt_with_tz = create_nyc_datetime(parsed.year, parsed.month, parsed.day, 9, 0)
-					return standardize_datetime(dt_with_tz)
+				# Normalize to ISO date
+				date_parsed = datetime.strptime(m.group(1), "%B %d, %Y") if "," in m.group(1) and len(m.group(1).split()[0]) > 3 else None
+				if date_parsed:
+					break
 			except Exception:
 				pass
-	return None
+	
+	if not date_parsed:
+		return None
+	
+	# Now try to find a time in the text
+	# Look for patterns like "7:30 PM" or "19:30"
+	time_pattern = re.compile(r'(\d{1,2}):(\d{2})\s*(AM|PM)', re.IGNORECASE)
+	time_match = time_pattern.search(text)
+	
+	if time_match:
+		hour = int(time_match.group(1))
+		minute = int(time_match.group(2))
+		am_pm = time_match.group(3).upper()
+		
+		# Convert to 24-hour format
+		if am_pm == 'PM' and hour != 12:
+			hour += 12
+		elif am_pm == 'AM' and hour == 12:
+			hour = 0
+		
+		dt_with_tz = create_nyc_datetime(date_parsed.year, date_parsed.month, date_parsed.day, hour, minute)
+	else:
+		# If no time found, use default 9 AM
+		dt_with_tz = create_nyc_datetime(date_parsed.year, date_parsed.month, date_parsed.day, 9, 0)
+	
+	return standardize_datetime(dt_with_tz)
 
 
 def is_academic_title(title: str) -> bool:
