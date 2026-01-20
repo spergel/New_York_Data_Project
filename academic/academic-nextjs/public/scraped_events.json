@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-01-19T05:03:22.726137",
+  "scraped_at": "2026-01-19T05:07:55.894441",
   "total_events": 351,
   "event_sources": {
     "columbia_classics_events_debug": 12,
@@ -4566,8 +4566,8 @@
       "start_date": "2026-03-03T17:30:00-05:00",
       "end_date": "2026-03-03T19:30:00-05:00",
       "category": [
-        "ARTS",
         "ARCHAEOLOGY",
+        "ARTS",
         "HISTORY"
       ],
       "source": "isaw",
@@ -9693,8 +9693,8 @@
       "start_date": "2026-01-23T10:00:00-05:00",
       "end_date": "2026-01-23T11:00:00-05:00",
       "category": [
-        "EDUCATION",
-        "TECH"
+        "TECH",
+        "EDUCATION"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -9864,8 +9864,8 @@
       "start_date": "2026-02-12T13:00:00-05:00",
       "end_date": "2026-02-12T14:00:00-05:00",
       "category": [
-        "EDUCATION",
-        "TECH"
+        "TECH",
+        "EDUCATION"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -9967,8 +9967,8 @@
       "start_date": "2026-06-05T09:00:00-04:00",
       "end_date": "2026-06-05T10:00:00-04:00",
       "category": [
-        "SCIENCE",
-        "TECH"
+        "TECH",
+        "SCIENCE"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -10027,7 +10027,7 @@
       }
     },
     {
-      "id": "evt_nyu_neuroscience_052fd691",
+      "id": "evt_nyu_neuroscience_032419c0",
       "name": "Institute for Translational Neuroscience Colloquium",
       "description": "Tuesday, January 20, 2026, 4&nbsp;&ndash;&nbsp;5pm <br/><br/><em>Revolutionizing Stress Science at NYU Langone Health</em> <br/><br/><b>NYU Location</b>:&nbsp;Alumni Hall B <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Institute for Translational Neuroscience (ITNS) <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Candace Raio <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Assistant Professor <br/><b>Speaker #1 Institution</b>:&nbsp;Department of Psychiatry <br/><b>Speaker #1 Location</b>:&nbsp;NYU Grossman School of Medicine <br/><b>Speaker #2 Name</b>:&nbsp;Dayu Lin <br/><b>Speaker #2 Degree</b>:&nbsp;PhD <br/><b>Speaker #2 Position</b>:&nbsp;Professor <br/><b>Speaker #2 Institution</b>:&nbsp;Departments of Psychiatry and Neuroscience <br/><b>Speaker #2 Location</b>:&nbsp;NYU Grossman School of Medicine <br/><b>Speaker #3 Name</b>:&nbsp;Omonigho M. Bubu <br/><b>Speaker #3 Degree</b>:&nbsp;MD, MPH, PhD <br/><b>Speaker #3 Position</b>:&nbsp;Associate Professor <br/><b>Speaker #3 Institution</b>:&nbsp;Departments of Psychiatry, Neurology, Population Health <br/><b>Speaker #3 Location</b>:&nbsp;NYU Grossman School of Medicine <br/><b>Seminar Host(s)</b>:&nbsp;Dr. Paul Glimcher <br/><b>Refreshments Offered</b>:&nbsp;Reception to follow",
       "start_date": "2026-01-20T12:00:00-05:00",
@@ -10045,14 +10045,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.115576-05:00",
+        "scraped_at": "2026-01-19T05:07:20.523067-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Candace Raio",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_017c0704",
+      "id": "evt_nyu_neuroscience_0329a73e",
       "name": "Neuroscience Weekly Group Meeting - Bayer Lab",
       "description": "Wednesday, January 21, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Emily Bayer <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Assistant Professor, Biology, Center for Neural Science <br/><b>Speaker #1 Institution</b>:&nbsp;New York University",
       "start_date": "2026-01-21T12:00:00-05:00",
@@ -10070,14 +10070,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.116027-05:00",
+        "scraped_at": "2026-01-19T05:07:20.523634-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Emily Bayer",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02e68f96",
+      "id": "evt_nyu_neuroscience_00b428a9",
       "name": "Neuroscience Weekly Group Meeting - Kang Lab",
       "description": "Wednesday, January 28, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Timothy Cheung <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Laboratory of Dr. Un Kang",
       "start_date": "2026-01-28T12:00:00-05:00",
@@ -10095,14 +10095,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.116386-05:00",
+        "scraped_at": "2026-01-19T05:07:20.523975-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Timothy Cheung",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03d476c8",
+      "id": "evt_nyu_neuroscience_01ba6c00",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Andrew Matheson, PhD (Columbia)",
       "description": "Thursday, January 29, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><strong>Title:</strong> <em>Environmental transitions drive plasticity in the body, behavior, and nervous system of the newt</em><br /><br /><strong>Abstract:&#160;<br />How flexible can the adult nervous system be? Although plasticity is essential for learning, adaptation, and survival, it is often limited in adulthood. Here, I describe a naturalistic form of adult plasticity in the Iberian ribbed newt (Pleurodeles waltl), a vertebrate that repeatedly switches between terrestrial and aquatic environments. These transitions between two environments with distinct sensory properties produce rapid and reversible remodelling of the newt&#8217;s body morphology, locomotion, and olfactory system. Environmental change drives extensive remodelling of the newt nasal cavity, including structural reorganization, changes in cell-type abundance, and transcriptomic shifts in olfactory epithelial support cells that have implications for neural function. This reorganization is functionally relevant as olfactory-guided behavior differs between terrestrial and aquatic newts, demonstrating that plasticity is required for adaptation across environments. Together, these findings reveal a remarkable capacity for plasticity in Pleurodeles and establish it as a new system for understanding lifelong flexibility in vertebrate nervous systems.&#160;</strong> <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Andrew Matheson <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;Columbia University <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Maria Antonietta Tosches <br/><b>Seminar Host(s)</b>:&nbsp;Kavin Nu&#241;ez, PhD (Nagel Lab) <br/><b>Pri. Seminar Sponsor</b>:&nbsp;Department of Neuroscience",
       "start_date": "2026-01-29T12:00:00-05:00",
@@ -10120,14 +10120,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.116832-05:00",
+        "scraped_at": "2026-01-19T05:07:20.524518-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Andrew Matheson",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0263b71e",
+      "id": "evt_nyu_neuroscience_02fa4247",
       "name": "Neuroscience Colloquium - Zachary Knight, PhD (UCSF)",
       "description": "Monday, February 2, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Zachary Knight <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Physiology <br/><b>Speaker #1 Institution</b>:&nbsp;UCSF",
       "start_date": "2026-02-02T13:30:00-05:00",
@@ -10145,14 +10145,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.117099-05:00",
+        "scraped_at": "2026-01-19T05:07:20.524802-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Zachary Knight",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01ef1bfe",
+      "id": "evt_nyu_neuroscience_03a97332",
       "name": "Neuroscience Weekly Group Meeting - Liddelow Lab",
       "description": "Wednesday, February 4, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Theodore Fisher <br/><b>Speaker #1 Degree</b>:&nbsp;PhD Candidate <br/><b>Speaker #1 Position</b>:&nbsp;Laboratory of Dr. Shane Liddelow",
       "start_date": "2026-02-04T12:00:00-05:00",
@@ -10170,14 +10170,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.117371-05:00",
+        "scraped_at": "2026-01-19T05:07:20.525085-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Theodore Fisher",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_024a5d7c",
+      "id": "evt_nyu_neuroscience_02e74ff8",
       "name": "Neuroscience Colloquium - Mehrdad Jazayeri, PhD (MIT)",
       "description": "Monday, February 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Mehrdad Jazayeri <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor and Director of Education, Brain and Cognitive Sciences, Investigator, Howard Hughes Medical Institute <br/><b>Speaker #1 Institution</b>:&nbsp;MIT <br/><b>Seminar Host(s)</b>:&nbsp;Biyu He, PhD",
       "start_date": "2026-02-09T13:30:00-05:00",
@@ -10195,14 +10195,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.117630-05:00",
+        "scraped_at": "2026-01-19T05:07:20.525359-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Mehrdad Jazayeri",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04b3196b",
+      "id": "evt_nyu_neuroscience_028be0c8",
       "name": "Neuroscience Weekly Group Meeting - Long Lab",
       "description": "Wednesday, February 11, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-11T12:00:00-05:00",
@@ -10220,14 +10220,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.117907-05:00",
+        "scraped_at": "2026-01-19T05:07:20.525619-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04ce399d",
+      "id": "evt_nyu_neuroscience_01d5a672",
       "name": "Neuroscience Weekly Group Meeting - Buzsaki Lab",
       "description": "Wednesday, February 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-18T12:00:00-05:00",
@@ -10245,14 +10245,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.118158-05:00",
+        "scraped_at": "2026-01-19T05:07:20.525897-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02437041",
+      "id": "evt_nyu_neuroscience_047fa9c9",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES)- Neta Gazit Shimoni, PhD",
       "description": "Thursday, February 19, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Neta Gazit Shimoni <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;University of California, Berkeley <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Stephan Lammel",
       "start_date": "2026-02-19T12:00:00-05:00",
@@ -10270,14 +10270,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.118421-05:00",
+        "scraped_at": "2026-01-19T05:07:20.526170-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Neta Gazit Shimoni",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01be9556",
+      "id": "evt_nyu_neuroscience_03ebbe25",
       "name": "Neuroscience Colloquium - Jonathan Pillow, PhD (Princeton)",
       "description": "Monday, February 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Jonathan Pillow <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Princeton University",
       "start_date": "2026-02-23T13:30:00-05:00",
@@ -10295,14 +10295,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.118686-05:00",
+        "scraped_at": "2026-01-19T05:07:20.526416-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Jonathan Pillow",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_004eb836",
+      "id": "evt_nyu_neuroscience_044b2e8c",
       "name": "Neuroscience Weekly Group Meeting - Shoham Lab",
       "description": "Wednesday, February 25, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-02-25T12:00:00-05:00",
@@ -10320,14 +10320,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.118930-05:00",
+        "scraped_at": "2026-01-19T05:07:20.526662-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_03531a60",
+      "id": "evt_nyu_neuroscience_02f83146",
       "name": "Neuroscience Weekly Group Meeting - Nagel Lab",
       "description": "Wednesday, March 4, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-04T12:00:00-05:00",
@@ -10345,14 +10345,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.119170-05:00",
+        "scraped_at": "2026-01-19T05:07:20.526908-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0535697b",
+      "id": "evt_nyu_neuroscience_04afe0b8",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Lucas Tian, PhD",
       "description": "Thursday, March 5, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Lucas Tian <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Rockefeller University <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Winrich Freiwald",
       "start_date": "2026-03-05T12:00:00-05:00",
@@ -10370,14 +10370,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.119426-05:00",
+        "scraped_at": "2026-01-19T05:07:20.527167-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Lucas Tian",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02d4061c",
+      "id": "evt_nyu_neuroscience_00f335e8",
       "name": "Neuroscience Colloquium - Hillel Adensnik, PhD (UC Berkeley)",
       "description": "Monday, March 9, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Hillel Adensnik <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Associate Professor, Departments of Molecular &amp; Cell Biology; Neuroscience",
       "start_date": "2026-03-09T13:30:00-04:00",
@@ -10395,14 +10395,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.119669-05:00",
+        "scraped_at": "2026-01-19T05:07:20.527412-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Hillel Adensnik",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_027f5c72",
+      "id": "evt_nyu_neuroscience_033938f5",
       "name": "Neuroscience Weekly Group Meeting - Schoppik Lab",
       "description": "Wednesday, March 11, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-11T12:00:00-04:00",
@@ -10420,14 +10420,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.119985-05:00",
+        "scraped_at": "2026-01-19T05:07:20.527660-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0201a32d",
+      "id": "evt_nyu_neuroscience_05f5ad1d",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Nicholas Card, PhD",
       "description": "Thursday, March 12, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Nicholas Card <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;University of California, Davis <br/><b>Speaker #1 Institution</b>:&nbsp;Laboratory of Sergey Stavisky and David Brandman",
       "start_date": "2026-03-12T12:00:00-04:00",
@@ -10445,14 +10445,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.120376-05:00",
+        "scraped_at": "2026-01-19T05:07:20.527948-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Nicholas Card",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05030413",
+      "id": "evt_nyu_neuroscience_0078bed9",
       "name": "Neuroscience Weekly Group Meeting - Froemke Lab",
       "description": "Wednesday, March 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-18T12:00:00-04:00",
@@ -10470,14 +10470,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.120657-05:00",
+        "scraped_at": "2026-01-19T05:07:20.528193-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_032c1488",
+      "id": "evt_nyu_neuroscience_0452338d",
       "name": "Neuroscience Colloquium - Rich Mooney, PhD (Duke)",
       "description": "Monday, March 23, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Rich Mooney <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor of Neurobiology <br/><b>Speaker #1 Institution</b>:&nbsp;Duke University School of Medicine",
       "start_date": "2026-03-23T13:30:00-04:00",
@@ -10495,14 +10495,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.120916-05:00",
+        "scraped_at": "2026-01-19T05:07:20.528433-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Rich Mooney",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02040528",
+      "id": "evt_nyu_neuroscience_01ece5db",
       "name": "Neuroscience Weekly Group Meeting - Flinker Lab",
       "description": "Wednesday, March 25, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-03-25T12:00:00-04:00",
@@ -10520,14 +10520,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.121179-05:00",
+        "scraped_at": "2026-01-19T05:07:20.528678-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01dd34ae",
+      "id": "evt_nyu_neuroscience_028fd4af",
       "name": "Neuroscience Weekly Group Meeting - Mosberger Lab",
       "description": "Wednesday, April 1, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-04-01T12:00:00-04:00",
@@ -10545,14 +10545,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.121451-05:00",
+        "scraped_at": "2026-01-19T05:07:20.528919-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_044a6809",
+      "id": "evt_nyu_neuroscience_037db598",
       "name": "Neuroscience Colloquium - Fang Wang, PhD (MIT)",
       "description": "Monday, April 6, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Fang Wang <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor, Brain and Cognitive Sciences <br/><b>Speaker #1 Institution</b>:&nbsp;MIT",
       "start_date": "2026-04-06T13:30:00-04:00",
@@ -10570,14 +10570,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.121703-05:00",
+        "scraped_at": "2026-01-19T05:07:20.529156-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Fang Wang",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05870548",
+      "id": "evt_nyu_neuroscience_004d70d0",
       "name": "Neuroscience Weekly Group Meeting - Salzer Lab",
       "description": "Wednesday, April 8, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-04-08T12:00:00-04:00",
@@ -10595,14 +10595,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.121997-05:00",
+        "scraped_at": "2026-01-19T05:07:20.529396-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0286cc34",
+      "id": "evt_nyu_neuroscience_0390ecb2",
       "name": "Neuroscience Colloquium - ​​Catherine Hartley, PhD (NYU)",
       "description": "Monday, April 13, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Catherine Hartley <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Associate Professor of Psychology <br/><b>Speaker #1 Institution</b>:&nbsp;Department of Psychology <br/><b>Speaker #1 Location</b>:&nbsp;New York University <br/><b>Seminar Host(s)</b>:&nbsp;Department of Neuroscienc",
       "start_date": "2026-04-13T13:30:00-04:00",
@@ -10620,14 +10620,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.122299-05:00",
+        "scraped_at": "2026-01-19T05:07:20.529636-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Catherine Hartley",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_05b1de54",
+      "id": "evt_nyu_neuroscience_05cad91c",
       "name": "Neuroscience Colloquium - Theresa Desrochers, PhD (Brown)",
       "description": "Monday, April 20, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Theresa Desrochers <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Rosenberg Family Associate Professor of Brain Science, Department of Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Brown University",
       "start_date": "2026-04-20T13:30:00-04:00",
@@ -10645,14 +10645,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.122698-05:00",
+        "scraped_at": "2026-01-19T05:07:20.529966-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Theresa Desrochers",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0495c602",
+      "id": "evt_nyu_neuroscience_04dbe722",
       "name": "Neuroscience Weekly Group Meeting - Raven Lab",
       "description": "Wednesday, April 22, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Erika Raven <br/><b>Speaker #1 Degree</b>:&nbsp;PhD",
       "start_date": "2026-04-22T12:00:00-04:00",
@@ -10670,14 +10670,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.122972-05:00",
+        "scraped_at": "2026-01-19T05:07:20.530223-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Erika Raven",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_02fe4224",
+      "id": "evt_nyu_neuroscience_011cf734",
       "name": "Neuroscience Weekly Group Meeting - Rice Lab",
       "description": "Wednesday, May 6, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-06T12:00:00-04:00",
@@ -10695,14 +10695,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.123232-05:00",
+        "scraped_at": "2026-01-19T05:07:20.530470-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00f8ae97",
+      "id": "evt_nyu_neuroscience_017ae276",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - Austin Ferro, PhD",
       "description": "Thursday, May 7, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Austin Ferro <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;Cold Spring Harbor Laboratory <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Lucas Cheadle",
       "start_date": "2026-05-07T12:00:00-04:00",
@@ -10720,14 +10720,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.123506-05:00",
+        "scraped_at": "2026-01-19T05:07:20.530728-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Austin Ferro",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_034e804d",
+      "id": "evt_nyu_neuroscience_051f6c81",
       "name": "Neuroscience Colloquium - Eugenia Chaippe, PhD (Champalimaud Centre for the Unknown)",
       "description": "Monday, May 11, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Eugenia Chaippe <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Principal Investigator <br/><b>Speaker #1 Institution</b>:&nbsp;Champalimaud Centre for the Unknown",
       "start_date": "2026-05-11T13:30:00-04:00",
@@ -10745,14 +10745,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.123773-05:00",
+        "scraped_at": "2026-01-19T05:07:20.530973-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Eugenia Chaippe",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_000108b2",
+      "id": "evt_nyu_neuroscience_03aa4d8f",
       "name": "Neuroscience Weekly Group Meeting - Ringstad Lab",
       "description": "Wednesday, May 13, 2026, 3&nbsp;&ndash;&nbsp;4pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-13T12:00:00-04:00",
@@ -10770,14 +10770,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.124037-05:00",
+        "scraped_at": "2026-01-19T05:07:20.531217-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0047ad43",
+      "id": "evt_nyu_neuroscience_03c3250b",
       "name": "Neuroscience Colloquium - Kimberly Stachenfeld, PhD (Columbia)",
       "description": "Monday, May 18, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Kimberly Stachenfeld <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Research Scientist, Adjunct Professor, Columbia University <br/><b>Speaker #3 Additional Information</b>:&nbsp;Co-hosts: Andrew Bahle, PhD (Long&#160;Lab) and Eric Tao (Rinberg Lab) <br/><b>Seminar Host(s)</b>:&nbsp;Gy&#246;rgy Buzs&#225;ki, MD, PhD",
       "start_date": "2026-05-18T13:30:00-04:00",
@@ -10795,14 +10795,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.124288-05:00",
+        "scraped_at": "2026-01-19T05:07:20.531468-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Kimberly Stachenfeld",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_057e8828",
+      "id": "evt_nyu_neuroscience_0505b712",
       "name": "Neuroscience Weekly Group Meeting - Sigurdsson Lab",
       "description": "Wednesday, May 20, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-20T12:00:00-04:00",
@@ -10820,14 +10820,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.124529-05:00",
+        "scraped_at": "2026-01-19T05:07:20.531706-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_055d802d",
+      "id": "evt_nyu_neuroscience_02c1203e",
       "name": "Neuroscience Weekly Group Meeting - Evrony Lab",
       "description": "Wednesday, May 27, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-05-27T12:00:00-04:00",
@@ -10845,14 +10845,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.124763-05:00",
+        "scraped_at": "2026-01-19T05:07:20.531969-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0343f03f",
+      "id": "evt_nyu_neuroscience_0010d700",
       "name": "Neuroscience Colloquium - Stephan Lammel, PhD (UC Berkeley)",
       "description": "Monday, June 1, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Stephan Lammel <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Associate Professor of Neurobiology <br/><b>Speaker #1 Institution</b>:&nbsp;UC Berkeley",
       "start_date": "2026-06-01T13:30:00-04:00",
@@ -10870,14 +10870,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.125009-05:00",
+        "scraped_at": "2026-01-19T05:07:20.533227-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Stephan Lammel",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0157e779",
+      "id": "evt_nyu_neuroscience_039eb31c",
       "name": "Neuroscience Weekly Group Meeting - He Lab",
       "description": "Wednesday, June 3, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-06-03T12:00:00-04:00",
@@ -10895,14 +10895,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.125249-05:00",
+        "scraped_at": "2026-01-19T05:07:20.533872-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_026f5bc7",
+      "id": "evt_nyu_neuroscience_01a4dd09",
       "name": "Neuroscience Colloquium - David Ginty, PhD (Harvard)",
       "description": "Monday, June 8, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;David Ginty <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Department of Neurobiology, Howard Hughes Medical Institute <br/><b>Speaker #1 Institution</b>:&nbsp;Harvard Medical School",
       "start_date": "2026-06-08T13:30:00-04:00",
@@ -10920,14 +10920,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.125499-05:00",
+        "scraped_at": "2026-01-19T05:07:20.534369-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;David Ginty",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_04cfa196",
+      "id": "evt_nyu_neuroscience_0503a189",
       "name": "Neuroscience Weekly Group Meeting - Emperador Melero Lab",
       "description": "Wednesday, June 10, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-06-10T12:00:00-04:00",
@@ -10945,14 +10945,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.125753-05:00",
+        "scraped_at": "2026-01-19T05:07:20.534794-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_001105c6",
+      "id": "evt_nyu_neuroscience_02bd1f48",
       "name": "Neuroscience Colloquium - Alessandra Angelucci, MD, PhD (U Utah)",
       "description": "Monday, June 15, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Alessandra Angelucci <br/><b>Speaker #1 Degree</b>:&nbsp;MD, PhD <br/><b>Speaker #1 Position</b>:&nbsp;Mary H. Boesche Endowed Chair of Ophthalmology and Visual Science <br/><b>Speaker #1 Institution</b>:&nbsp;University of Utah",
       "start_date": "2026-06-15T13:30:00-04:00",
@@ -10970,14 +10970,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.126007-05:00",
+        "scraped_at": "2026-01-19T05:07:20.535317-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Alessandra Angelucci",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_003a3bac",
+      "id": "evt_nyu_neuroscience_0159d155",
       "name": "Neuroscience Weekly Group Meeting - Varol",
       "description": "Wednesday, June 17, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-06-17T12:00:00-04:00",
@@ -10995,14 +10995,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.126247-05:00",
+        "scraped_at": "2026-01-19T05:07:20.535959-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_00bae1f7",
+      "id": "evt_nyu_neuroscience_0406ea16",
       "name": "Seminars by Postdocs in Neuroscience: Extramural Series (SPiNES) - William Wright, PhD",
       "description": "Thursday, June 18, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;In Person: Science Building, SB 103, and Zoom: ID: 995 6648 4994; Passcode: 334069 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;William Wright <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Institution</b>:&nbsp;University of California, San Diego <br/><b>Speaker #1 Location</b>:&nbsp;Laboratory of Takaki Komiyama",
       "start_date": "2026-06-18T12:00:00-04:00",
@@ -11020,14 +11020,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.126535-05:00",
+        "scraped_at": "2026-01-19T05:07:20.536324-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;William Wright",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_0143b58d",
+      "id": "evt_nyu_neuroscience_00b8610e",
       "name": "Neuroscience Colloquium - Tor Wager, PhD (Dartmouth)",
       "description": "Monday, June 22, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Science Building, SB 103 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:Rihan.Hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">Rihan.Hassad@nyulangone.org</a> <br/><b>Speaker #1 Name</b>:&nbsp;Tor Wager <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Diana L. Taylor Distinguished Professor in Neuroscience <br/><b>Speaker #1 Institution</b>:&nbsp;Dartmouth College",
       "start_date": "2026-06-22T13:30:00-04:00",
@@ -11045,14 +11045,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.126775-05:00",
+        "scraped_at": "2026-01-19T05:07:20.536659-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Tor Wager",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_057b1adc",
+      "id": "evt_nyu_neuroscience_016b3826",
       "name": "Neuroscience Weekly Group Meeting - Issler Lab",
       "description": "Wednesday, June 24, 2026, 12&nbsp;&ndash;&nbsp;1pm <br/><br/><b>NYU Location</b>:&nbsp;Hybrid In person: Science Building, SB 103 Zoom ID: 953 1784 0859; Passcode: 025030 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Department of Neuroscience <br/><b>Contact Name</b>:&nbsp;Rihan Hassad <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:rihan.hassad@nyulangone.org\" target=\"_blank\" rel=\"noopener\">rihan.hassad@nyulangone.org</a>",
       "start_date": "2026-06-24T12:00:00-04:00",
@@ -11070,14 +11070,14 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.127016-05:00",
+        "scraped_at": "2026-01-19T05:07:20.536990-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "",
         "extraction_method": "rss_feed"
       }
     },
     {
-      "id": "evt_nyu_neuroscience_01e29624",
+      "id": "evt_nyu_neuroscience_01a19918",
       "name": "Neuroscience Colloquium - Loren Frank, PhD (UCSF)",
       "description": "Monday, June 29, 2026, 12:30&nbsp;&ndash;&nbsp;1:30pm <br/><br/><b>NYU Location</b>:&nbsp;In person: Center for Neural Science (CNS), 4 Washington Place, Meyer 121 <br/><b>Event Type</b>:&nbsp;Seminar / Seminar Series <br/><b>Sponsored by</b>:&nbsp;Center for Neural Science <br/><b>Contact Name</b>:&nbsp;Meghan Torone <br/><b>Contact Email</b>:&nbsp;<a href=\"mailto:mt3223@nyu.edu\" target=\"_blank\" rel=\"noopener\">mt3223@nyu.edu</a> <br/><b>Speaker #1 Name</b>:&nbsp;Loren Frank <br/><b>Speaker #1 Degree</b>:&nbsp;PhD <br/><b>Speaker #1 Position</b>:&nbsp;Professor, Howard Hughes Medical Institute <br/><b>Speaker #1 Institution</b>:&nbsp;UCSF",
       "start_date": "2026-06-29T13:30:00-04:00",
@@ -11095,7 +11095,7 @@
         "type": "venue"
       },
       "metadata": {
-        "scraped_at": "2026-01-19T05:02:50.127253-05:00",
+        "scraped_at": "2026-01-19T05:07:20.537385-05:00",
         "original_source": "NYU Langone Neuroscience",
         "speaker": "&nbsp;Loren Frank",
         "extraction_method": "rss_feed"
@@ -11129,7 +11129,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.049923-05:00"
+          "scraped_at": "2026-01-19T05:07:45.429003-05:00"
         }
       }
     },
@@ -11161,7 +11161,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.051182-05:00"
+          "scraped_at": "2026-01-19T05:07:45.430485-05:00"
         }
       }
     },
@@ -11193,7 +11193,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2026-01-19T05:03:14.052605-05:00"
+          "scraped_at": "2026-01-19T05:07:45.432214-05:00"
         }
       }
     },
@@ -11225,7 +11225,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-01-19T05:03:14.054370-05:00"
+          "scraped_at": "2026-01-19T05:07:45.434480-05:00"
         }
       }
     },
@@ -11257,7 +11257,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.054902-05:00"
+          "scraped_at": "2026-01-19T05:07:45.435119-05:00"
         }
       }
     },
@@ -11289,7 +11289,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.058023-05:00"
+          "scraped_at": "2026-01-19T05:07:45.438060-05:00"
         }
       }
     },
@@ -11321,7 +11321,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.059744-05:00"
+          "scraped_at": "2026-01-19T05:07:45.439789-05:00"
         }
       }
     },
@@ -11353,7 +11353,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2026-01-19T05:03:14.060334-05:00"
+          "scraped_at": "2026-01-19T05:07:45.440346-05:00"
         }
       }
     },
@@ -11385,7 +11385,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.060887-05:00"
+          "scraped_at": "2026-01-19T05:07:45.440906-05:00"
         }
       }
     },
@@ -11417,7 +11417,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.061417-05:00"
+          "scraped_at": "2026-01-19T05:07:45.441485-05:00"
         }
       }
     },
@@ -11449,7 +11449,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:14.061951-05:00"
+          "scraped_at": "2026-01-19T05:07:45.442035-05:00"
         }
       }
     },
@@ -11482,7 +11482,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.552207-05:00"
+          "scraped_at": "2026-01-19T05:07:47.172269-05:00"
         }
       }
     },
@@ -11515,7 +11515,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.553381-05:00"
+          "scraped_at": "2026-01-19T05:07:47.173378-05:00"
         }
       }
     },
@@ -11548,7 +11548,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.554688-05:00"
+          "scraped_at": "2026-01-19T05:07:47.174726-05:00"
         }
       }
     },
@@ -11581,7 +11581,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.555268-05:00"
+          "scraped_at": "2026-01-19T05:07:47.175320-05:00"
         }
       }
     },
@@ -11614,7 +11614,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.556317-05:00"
+          "scraped_at": "2026-01-19T05:07:47.175895-05:00"
         }
       }
     },
@@ -11647,7 +11647,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.556908-05:00"
+          "scraped_at": "2026-01-19T05:07:47.176538-05:00"
         }
       }
     },
@@ -11680,7 +11680,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.557693-05:00"
+          "scraped_at": "2026-01-19T05:07:47.177242-05:00"
         }
       }
     },
@@ -11713,7 +11713,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.558277-05:00"
+          "scraped_at": "2026-01-19T05:07:47.177834-05:00"
         }
       }
     },
@@ -11746,7 +11746,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-01-19T05:03:15.558847-05:00"
+          "scraped_at": "2026-01-19T05:07:47.178530-05:00"
         }
       }
     },
@@ -11779,7 +11779,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.559422-05:00"
+          "scraped_at": "2026-01-19T05:07:47.180168-05:00"
         }
       }
     },
@@ -11812,7 +11812,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.559994-05:00"
+          "scraped_at": "2026-01-19T05:07:47.181527-05:00"
         }
       }
     },
@@ -11845,7 +11845,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.560624-05:00"
+          "scraped_at": "2026-01-19T05:07:47.182936-05:00"
         }
       }
     },
@@ -11878,7 +11878,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.561203-05:00"
+          "scraped_at": "2026-01-19T05:07:47.184227-05:00"
         }
       }
     },
@@ -11911,7 +11911,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.561804-05:00"
+          "scraped_at": "2026-01-19T05:07:47.185349-05:00"
         }
       }
     },
@@ -11944,7 +11944,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.562361-05:00"
+          "scraped_at": "2026-01-19T05:07:47.186165-05:00"
         }
       }
     },
@@ -11977,7 +11977,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.562942-05:00"
+          "scraped_at": "2026-01-19T05:07:47.186765-05:00"
         }
       }
     },
@@ -12010,7 +12010,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.563490-05:00"
+          "scraped_at": "2026-01-19T05:07:47.187819-05:00"
         }
       }
     },
@@ -12043,7 +12043,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.874594-05:00"
+          "scraped_at": "2026-01-19T05:07:47.576366-05:00"
         }
       }
     },
@@ -12076,7 +12076,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-01-19T05:03:15.875222-05:00"
+          "scraped_at": "2026-01-19T05:07:47.577428-05:00"
         }
       }
     },
@@ -12109,7 +12109,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2026-01-19T05:03:15.875840-05:00"
+          "scraped_at": "2026-01-19T05:07:47.578596-05:00"
         }
       }
     },
@@ -12142,7 +12142,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-01-19T05:03:15.877468-05:00"
+          "scraped_at": "2026-01-19T05:07:47.583272-05:00"
         }
       }
     },
@@ -12176,7 +12176,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-01-19T05:03:19.521956-05:00",
+        "scraped_at": "2026-01-19T05:07:52.039209-05:00",
         "extraction_method": "header"
       }
     },
@@ -12193,7 +12193,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-01-19T05:03:19.522044-05:00",
+        "scraped_at": "2026-01-19T05:07:52.039295-05:00",
         "extraction_method": "header"
       }
     },
@@ -12210,7 +12210,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-01-19T05:03:19.522090-05:00",
+        "scraped_at": "2026-01-19T05:07:52.039341-05:00",
         "extraction_method": "header"
       }
     },
@@ -12227,7 +12227,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-01-19T05:03:19.522128-05:00",
+        "scraped_at": "2026-01-19T05:07:52.039379-05:00",
         "extraction_method": "header"
       }
     },
@@ -12244,7 +12244,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-01-19T05:03:19.522161-05:00",
+        "scraped_at": "2026-01-19T05:07:52.039412-05:00",
         "extraction_method": "header"
       }
     },
@@ -12261,7 +12261,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-01-19T05:03:19.523483-05:00",
+        "scraped_at": "2026-01-19T05:07:52.040755-05:00",
         "extraction_method": "container"
       }
     },

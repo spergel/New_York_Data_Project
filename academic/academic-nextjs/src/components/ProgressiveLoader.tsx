@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { EventData } from '../types/events';
+import LoadingSkeleton from './LoadingSkeleton';
 
 interface ProgressiveLoaderProps {
   onEventsLoaded: (events: EventData[]) => void;
@@ -10,18 +11,23 @@ interface ProgressiveLoaderProps {
 
 export default function ProgressiveLoader({ onEventsLoaded, onLoadingComplete }: ProgressiveLoaderProps) {
   const [loading, setLoading] = useState(true);
+  const [loadingMessage, setLoadingMessage] = useState('Loading events...');
 
   useEffect(() => {
     const loadEvents = async () => {
       try {
-        const response = await fetch('/api/events');
+        setLoadingMessage('Fetching events from NYC institutions...');
+        const response = await fetch('/api/events?limit=50'); // Load first 50 events
         const data = await response.json();
+        
+        setLoadingMessage(`Loaded ${data.events.length} of ${data.total} events`);
         
         onEventsLoaded(data.events);
         onLoadingComplete();
         setLoading(false);
       } catch (error) {
         console.error('Error loading events:', error);
+        setLoadingMessage('Error loading events. Using fallback data.');
         setLoading(false);
       }
     };
@@ -32,14 +38,17 @@ export default function ProgressiveLoader({ onEventsLoaded, onLoadingComplete }:
   if (!loading) return null;
 
   return (
-    <div className="loading-overlay">
-      <div className="loading-content">
-        <div className="loading-spinner">
-          <div className="spinner"></div>
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+      {/* Progress message */}
+      <div className="text-center py-8">
+        <div className="inline-flex items-center gap-3 px-4 py-2 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+          <div className="animate-spin h-5 w-5 border-2 border-blue-600 border-t-transparent rounded-full"></div>
+          <span className="text-gray-700 dark:text-gray-300">{loadingMessage}</span>
         </div>
-        <h2>Loading Academic Events</h2>
-        <p>Discovering events from NYC institutions...</p>
       </div>
+      
+      {/* Skeleton cards */}
+      <LoadingSkeleton />
     </div>
   );
 }

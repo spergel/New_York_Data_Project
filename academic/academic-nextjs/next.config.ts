@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  compress: true, // Enable gzip compression for responses
+  
+  experimental: {
+    optimizePackageImports: ['page-flip'], // Optimize page-flip library imports
+  },
+  
+  // Enable React strict mode for better development
+  reactStrictMode: true,
 };
 
 export default nextConfig;

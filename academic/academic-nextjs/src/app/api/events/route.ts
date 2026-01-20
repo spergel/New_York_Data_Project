@@ -39,11 +39,13 @@ let cachedEvents: ProcessedEvent[] | null = null;
 let cacheTimestamp: number = 0;
 const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
 
-// Helper function to filter events
+// Helper function to filter and paginate events
 function getFilteredEvents(events: ProcessedEvent[], filters: {
   search: string;
   category: string;
   institution: string;
+  page: number;
+  limit: number;
 }) {
   let filtered = events;
 
@@ -69,9 +71,18 @@ function getFilteredEvents(events: ProcessedEvent[], filters: {
     );
   }
 
+  // Apply pagination
+  const total = filtered.length;
+  const start = (filters.page - 1) * filters.limit;
+  const end = start + filters.limit;
+  const paginatedEvents = filtered.slice(start, end);
+
   return NextResponse.json({
-    events: filtered,
-    total: filtered.length
+    events: paginatedEvents,
+    total: total,
+    page: filters.page,
+    limit: filters.limit,
+    totalPages: Math.ceil(total / filters.limit)
   });
 }
 
@@ -81,11 +92,15 @@ export async function GET(request: Request) {
     const search = url.searchParams.get('search') || '';
     const category = url.searchParams.get('category') || '';
     const institution = url.searchParams.get('institution') || '';
+    
+    // Pagination parameters
+    const page = parseInt(url.searchParams.get('page') || '1');
+    const limit = parseInt(url.searchParams.get('limit') || '50'); // Default 50 events per page
 
     // Check cache first
     const now = Date.now();
     if (cachedEvents && (now - cacheTimestamp) < CACHE_DURATION) {
-      return getFilteredEvents(cachedEvents, { search, category, institution });
+      return getFilteredEvents(cachedEvents, { search, category, institution, page, limit });
     }
 
     let data;
@@ -247,7 +262,7 @@ export async function GET(request: Request) {
     cachedEvents = processedEvents;
     cacheTimestamp = Date.now();
     
-    return getFilteredEvents(processedEvents, { search, category, institution });
+    return getFilteredEvents(processedEvents, { search, category, institution, page, limit });
 
   } catch (error) {
     console.error('Error reading events data:', error);
