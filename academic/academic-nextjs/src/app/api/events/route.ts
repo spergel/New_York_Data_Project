@@ -95,7 +95,7 @@ export async function GET(request: Request) {
     
     // Pagination parameters
     const page = parseInt(url.searchParams.get('page') || '1');
-    const limit = parseInt(url.searchParams.get('limit') || '50'); // Default 50 events per page
+    const limit = parseInt(url.searchParams.get('limit') || '1000'); // Default to all events (high limit)
 
     // Check cache first
     const now = Date.now();

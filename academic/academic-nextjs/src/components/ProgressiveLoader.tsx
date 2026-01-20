@@ -17,7 +17,7 @@ export default function ProgressiveLoader({ onEventsLoaded, onLoadingComplete }:
     const loadEvents = async () => {
       try {
         setLoadingMessage('Fetching events from NYC institutions...');
-        const response = await fetch('/api/events?limit=50'); // Load first 50 events
+        const response = await fetch('/api/events?limit=1000'); // Load all events (high limit)
         const data = await response.json();
         
         setLoadingMessage(`Loaded ${data.events.length} of ${data.total} events`);
