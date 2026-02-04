@@ -95,7 +95,7 @@ export async function GET(request: Request) {
     
     // Pagination parameters
     const page = parseInt(url.searchParams.get('page') || '1');
-    const limit = parseInt(url.searchParams.get('limit') || '1000'); // Default to all events (high limit)
+    const limit = parseInt(url.searchParams.get('limit') || '30'); // Default to 30 events for faster initial load
 
     // Check cache first
     const now = Date.now();
@@ -106,20 +106,38 @@ export async function GET(request: Request) {
     let data;
     let dataSource = 'unknown';
 
-    // Try to read real scraped events from public directory
-    try {
-      const realDataPath = path.join(process.cwd(), 'public', 'scraped_events.json');
-      const fileContents = fs.readFileSync(realDataPath, 'utf8');
-      data = JSON.parse(fileContents);
-      dataSource = 'real_scraped_data';
-    } catch (error) {
-      // Fallback to sample data if real data not available
+    // Try multiple paths for scraped events data
+    const possiblePaths = [
+      path.join(process.cwd(), 'public', 'scraped_events.json'),
+      path.join(process.cwd(), '..', 'scraped_events.json'),  // Parent directory
+      path.join(process.cwd(), 'scraped_events.json'),
+    ];
+
+    let foundData = false;
+    for (const dataPath of possiblePaths) {
+      try {
+        const fileContents = fs.readFileSync(dataPath, 'utf8');
+        const parsed = JSON.parse(fileContents);
+        // Only use this file if it has events
+        if (parsed.events && parsed.events.length > 0) {
+          data = parsed;
+          dataSource = `real_scraped_data (${dataPath})`;
+          foundData = true;
+          break;
+        }
+      } catch {
+        // Try next path
+      }
+    }
+
+    if (!foundData) {
+      // Fallback to sample data if no real data found
       try {
         const samplePath = path.join(process.cwd(), 'src', 'data', 'sample_events.json');
         const fileContents = fs.readFileSync(samplePath, 'utf8');
         data = JSON.parse(fileContents);
         dataSource = 'sample_data';
-      } catch (sampleError) {
+      } catch {
         
         // Final fallback - return hardcoded sample data
         data = {
@@ -187,30 +205,41 @@ export async function GET(request: Request) {
       // Remove limit to show all available events
       .map((event: RawEvent) => {
         try {
-          // Format the date
+          // Format the date - always use NYC timezone since all events are in NYC
+          const NYC_TIMEZONE = 'America/New_York';
           const startDate = new Date(event.start_date);
-          const endDate = new Date(event.end_date);
-          let dateString = startDate.toLocaleDateString('en-US', {
+          const endDate = event.end_date ? new Date(event.end_date) : null;
+
+          let dateString = startDate.toLocaleString('en-US', {
+            timeZone: NYC_TIMEZONE,
             year: 'numeric',
             month: 'long',
             day: 'numeric',
-            hour: '2-digit',
+            hour: 'numeric',
             minute: '2-digit'
           });
 
-          if (startDate.toDateString() === endDate.toDateString()) {
-            dateString += ` - ${endDate.toLocaleTimeString('en-US', {
-              hour: '2-digit',
-              minute: '2-digit'
-            })}`;
-          } else {
-            dateString += ` to ${endDate.toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric',
-              hour: '2-digit',
-              minute: '2-digit'
-            })}`;
+          if (endDate && !isNaN(endDate.getTime())) {
+            // Check if same day by comparing in NYC timezone
+            const startDateStr = startDate.toLocaleDateString('en-US', { timeZone: NYC_TIMEZONE });
+            const endDateStr = endDate.toLocaleDateString('en-US', { timeZone: NYC_TIMEZONE });
+
+            if (startDateStr === endDateStr) {
+              dateString += ` - ${endDate.toLocaleTimeString('en-US', {
+                timeZone: NYC_TIMEZONE,
+                hour: 'numeric',
+                minute: '2-digit'
+              })}`;
+            } else {
+              dateString += ` to ${endDate.toLocaleString('en-US', {
+                timeZone: NYC_TIMEZONE,
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit'
+              })}`;
+            }
           }
 
           // Get institution name
