@@ -1,109 +1,38 @@
 {
-  "scraped_at": "2026-05-31T06:06:04.598979",
-  "total_events": 198,
+  "scraped_at": "2026-06-07T06:13:58.729711",
+  "total_events": 186,
   "event_sources": {
-    "nyu_engineering_events_debug": 9,
+    "nyu_engineering_events_debug": 7,
     "fordham_events_debug": 2,
     "nyu_education_events_debug": 1,
-    "jtsa_events_debug": 10,
-    "cornell_tech_events_debug": 1,
-    "new_school_events_debug": 15,
+    "jtsa_events_debug": 8,
+    "new_school_events_debug": 16,
     "pratt_events_debug": 8,
     "nyu_medicine_events_debug": 2,
-    "nyu_steinhardt_events_debug": 7,
-    "nypl_events_debug": 2,
-    "columbia_events_debug": 30,
+    "nyu_steinhardt_events_debug": 5,
+    "nypl_events_debug": 1,
+    "columbia_events_debug": 25,
     "nyu_neuroscience_events_debug": 0,
     "miller_events_debug": 51,
     "isaw_events_debug": 1,
     "juilliard_events_debug": 0,
-    "nyu_steinhardt_music_events_debug": 7,
-    "nyas_events_debug": 10,
+    "nyu_steinhardt_music_events_debug": 5,
+    "nyas_events_debug": 9,
     "columbia_classics_events_debug": 2,
-    "luma_events_debug": 65,
+    "luma_events_debug": 67,
     "nyu_physics_events_debug": 4,
-    "nyu_api_events_debug": 7
+    "nyu_api_events_debug": 8
   },
   "events": [
     {
-      "id": "evt_nyu_eng_48a1650a",
-      "name": "Industrial Engineering M.S. - Curriculum Preview",
-      "type": "Academic",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2026-06-04T12:00:00-04:00",
-      "end_date": "2026-06-04T13:00:00-04:00",
-      "category": [
-        "TECH",
-        "SCIENCE"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/06/04/industrial-engineering-ms-curriculum-preview",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Information Session",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-05/program-industrial-eng%20-%201_0.jpg?h=91c25976&itok=hen_dCmp"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_233619e7",
-      "name": "Graduate Research Symposium for the Department of Chemical and Biomolecular Engineering",
-      "type": "Conference",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2026-06-05T09:00:00-04:00",
-      "end_date": "2026-06-05T10:00:00-04:00",
-      "category": [
-        "TECH",
-        "SCIENCE"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/06/05/graduate-research-symposium-department-chemical-and-biomolecular-engineering",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Conference / Symposium",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2024-10/2578_istock_000015928373small.rev_.1373556459.jpg?h=77915ce6&itok=kHbYURp3"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_cbea5ae2",
-      "name": "Animal Groups as Active Materials",
+      "id": "evt_nyu_eng_8e9c69d6",
+      "name": "AI Augmented Decision Support for Grid Operators Enabling Cyber-Power Resilience",
       "type": "Seminar",
       "location_id": "loc_nyu_tandon",
       "community_id": "com_nyu_tandon",
       "description": "",
-      "start_date": "2026-06-05T14:00:00-04:00",
-      "end_date": "2026-06-05T15:00:00-04:00",
+      "start_date": "2026-06-08T11:00:00-04:00",
+      "end_date": "2026-06-08T12:00:00-04:00",
       "category": [
         "TECH"
       ],
@@ -111,7 +40,7 @@
       "source_group": "NYU Engineering",
       "source_name": "NYU Tandon School of Engineering",
       "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/06/05/animal-groups-active-materials",
+        "source_url": "https://engineering.nyu.edu/events/2026/06/08/ai-augmented-decision-support-grid-operators-enabling-cyber-power-resilience",
         "source_name": "NYU Tandon School of Engineering",
         "venue": {
           "name": "NYU Tandon School of Engineering",
@@ -125,7 +54,7 @@
         "additional_info": {
           "department": "Tandon School of Engineering",
           "event_type": "Lecture / Panel",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-05/Ouellette%2C%20Nick%20-%20Headshot.jpeg?h=a67de35d&itok=48cCIVVi"
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-06/1627340836586.jpeg?h=4d3eba39&itok=eDDrZ70P"
         }
       }
     },
@@ -139,8 +68,8 @@
       "start_date": "2026-06-08T14:00:00-04:00",
       "end_date": "2026-06-08T15:00:00-04:00",
       "category": [
-        "TECH",
-        "SOCIAL"
+        "SOCIAL",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -174,8 +103,8 @@
       "start_date": "2026-06-10T12:00:00-04:00",
       "end_date": "2026-06-10T13:00:00-04:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -209,8 +138,8 @@
       "start_date": "2026-06-11T12:00:00-04:00",
       "end_date": "2026-06-11T13:00:00-04:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -278,8 +207,8 @@
       "start_date": "2026-06-17T12:00:00-04:00",
       "end_date": "2026-06-17T13:00:00-04:00",
       "category": [
-        "TECH",
-        "SCIENCE"
+        "SCIENCE",
+        "TECH"
       ],
       "source": "nyu_engineering",
       "source_group": "NYU Engineering",
@@ -389,249 +318,6 @@
       }
     },
     {
-      "id": "evt_jtsa_ca5b66dd",
-      "name": "Biblical Hebrew I: Jumpstart Your Biblical Hebrew (summer afternoon)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Afternoon. In ten live online sessions, discover the “big ideas” and fundamentals in Biblical Hebrew.",
-      "start_date": "2026-06-01T12:00:00-04:00",
-      "end_date": "2026-06-01T13:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-i-summer-afternoon-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_e889ad1b",
-      "name": "Hard Cases: Facing Law’s Challenges in American Legal Theory and Rabbinic Literature",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Dr. Sarah Wolf illuminates different approaches to the challenges of legal decision-making.",
-      "start_date": "2026-06-01T12:00:00-04:00",
-      "end_date": "2026-06-01T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/facing-laws-challenges-american-legal-theory-rabbinic-literature/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_23361616",
-      "name": "Biblical Hebrew I: Jumpstart Your Biblical Hebrew (summer morning)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Morning. In ten live online sessions, discover the “big ideas” and fundamentals in Biblical Hebrew.",
-      "start_date": "2026-06-01T12:00:00-04:00",
-      "end_date": "2026-06-01T13:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-1-summer-morning-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_22fbb282",
-      "name": "Biblical Hebrew Workshop II (summer morning)",
-      "type": "Workshop",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Morning. In eight live online sessions, develop your skills in translating passages of the Tanakh independently.",
-      "start_date": "2026-06-03T12:00:00-04:00",
-      "end_date": "2026-06-03T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-workshop-ii-summer-morning-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_b3408917",
-      "name": "Biblical Hebrew Workshop II (summer afternoon)",
-      "type": "Workshop",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Afternoon. In eight live online sessions, develop your skills in translating passages of the Tanakh independently.",
-      "start_date": "2026-06-03T12:00:00-04:00",
-      "end_date": "2026-06-03T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-workshop-ii-summer-afternoon-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_9b90950e",
-      "name": "Biblical Hebrew IV: Advanced Reading Seminar–The Sinai Story Part I (summer morning)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Morning. In nine live online sessions, read the central narrative passages describing the first events and laws at Sinai.",
-      "start_date": "2026-06-04T12:00:00-04:00",
-      "end_date": "2026-06-04T13:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-summer-morning-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_9a31122c",
-      "name": "Biblical Hebrew IV: Advanced Reading Seminar–The Sinai Story Part I (summer afternoon)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Afternoon. In nine live online sessions, read the central narrative passages describing the first events and laws at Sinai.",
-      "start_date": "2026-06-04T12:00:00-04:00",
-      "end_date": "2026-06-04T13:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-summer-afternoon-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_2b9f7e99",
-      "name": "Fundamentals of Biblical Hebrew: Reading and Pronunciation",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Learn to read Biblical Hebrew consonants and vowels with confidence. Begin with the Alef Bet and end by reciting entire passages.",
-      "start_date": "2026-06-04T12:00:00-04:00",
-      "end_date": "2026-06-04T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/fundamentals-biblical-hebrew-summer-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_9209d4bd",
-      "name": "When the Law Falls Short: Empathy and the Work of Civic Repair",
-      "type": "Seminar",
-      "location_id": "loc_jtsa_main",
-      "community_id": "com_jtsa",
-      "description": "This convening explores the limits of law and the ethical commitments required to sustain justice in democratic societies.",
-      "start_date": "2026-06-04T12:00:00-04:00",
-      "end_date": "2026-06-04T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/when-the-law-falls-short/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "JTS",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
       "id": "evt_jtsa_24d95cc3",
       "name": "Jewish Storytelling and American Law in Post-WWII America",
       "type": "Academic",
@@ -659,156 +345,219 @@
       }
     },
     {
-      "id": "evt_cornell_tech_787faa03",
-      "name": "Biomedical Innovation Challenge Final Pitch Event",
+      "id": "evt_jtsa_252804bf",
+      "name": "Biblical Hebrew III: Binyanim Boot Camp",
       "type": "Academic",
-      "location_id": "loc_cornell_tech_main",
-      "community_id": "com_cornell_tech",
-      "description": "Weill Cornell, Alumni, Faculty, Master's Students, PhDs, Postdocs, Prospective Students",
-      "start_date": "2026-06-04T17:30:00-04:00",
-      "end_date": "2026-06-04T20:00:00-04:00",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Master Biblical Hebrew verbs in eight live online sessions.",
+      "start_date": "2026-06-09T12:00:00-04:00",
+      "end_date": "2026-06-09T13:00:00-04:00",
       "category": [
-        "TECH"
+        "RELIGION"
       ],
-      "source": "cornell_tech",
-      "source_group": "Cornell",
-      "metadata": {
-        "source_url": "https://tech.cornell.edu/events/biomedical-innovation-challenge-final-pitch-event/",
-        "source_name": "Cornell Tech Events",
-        "venue": {
-          "name": "Belfer Research Building, 413 East 69th Street, 2nd Floor (Rooms 204 & Skylight Lounge)",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Cornell Tech",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "image_url": "https://tech.cornell.edu/wp-content/uploads/2026/05/Campus-Screens-2-1440x810.jpg",
-          "tags": [
-            "Weill Cornell",
-            "Alumni",
-            "Faculty",
-            "Master's Students",
-            "PhDs",
-            "Postdocs",
-            "Prospective Students"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_a09f2e2c",
-      "name": "Siena Jazz Institute Performance",
-      "type": "Performance",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Siena Jazz Institute visits the School of Jazz and Contemporary Music for a week of collaboration and exchange.Throughout the week, visiting students will work with our jazz faculty and students in a series of workshops and rehearsals, creating opportunities to share ideas, develop new work, and play together.Join us for a culminating performance featuring students and faculty from the Siena Jazz Institute.",
-      "start_date": "2026-05-31T18:00:00-04:00",
-      "end_date": "2026-05-31T19:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "MUSIC_DISCUSSION",
-        "PERFORMING_ARTS"
-      ],
-      "source": "new_school",
+      "source": "jtsa",
       "source_group": "Independent",
       "metadata": {
-        "source_url": "https://event.newschool.edu/sienajazzinstituteperformance",
-        "source_name": "The New School Events",
+        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iii-summer-2026/",
+        "source_name": "JTSA Events Calendar",
         "venue": {
-          "name": "Arnie Lawrence Hall",
-          "type": "venue"
+          "name": "Online Event",
+          "type": "virtual"
         },
         "organizer": {
-          "name": "The New School",
+          "name": "Jewish Theological Seminary",
           "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "jazz",
-            "performing arts",
-            "college of performing arts",
-            "performance",
-            "arnie lawrence hall"
-          ],
-          "audience": []
         }
       }
     },
     {
-      "id": "evt_newschool_2c5594a5",
-      "name": "Silver Tsunami or Silver Rush? Extracting Value from Elders",
-      "type": "Seminar",
+      "id": "evt_jtsa_749f81f2",
+      "name": "Biblical Hebrew IV: Advanced Reading Seminar—Isaac and Ishmael (Summer Evening)",
+      "type": "Academic",
       "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "In eight live online sessions, we will read the central narrative passages about Abraham’s two sons.",
+      "start_date": "2026-06-10T12:00:00-04:00",
+      "end_date": "2026-06-10T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-summer-evening-2026/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_323cecfc",
+      "name": "The Changing Landscape of Jewish American Literature",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Author and JTS alum Rabbi Benjamin Resnick reflects on how the field of Jewish American literature has changed today.",
+      "start_date": "2026-06-15T12:00:00-04:00",
+      "end_date": "2026-06-15T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/changing-landscape-jewish-american-literature/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_e92a24a4",
+      "name": "One Nation Under God? Heschel, Niebuhr, King and the Intersection of Religion and Politics in America",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Chancellor Emeritus Arnold Eisen and E. J. Dionne will explore Martin Luther King Jr., Abraham Joshua Heschel, and Reinhold Niebuhr and their distinct approaches to prophecy, justice, and political responsibility.",
+      "start_date": "2026-06-22T12:00:00-04:00",
+      "end_date": "2026-06-22T13:00:00-04:00",
+      "category": [
+        "ARTS"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/one-nation-under-god/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_85462cba",
+      "name": "Deuteronomy and the Separation of Powers",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Dr. Benjamin D. Sommer will attend to the political philosophy of Sefer Devarim and how it emphasizes the diffusion of authority among several bodies of governing officials and the subordination of all these officials to the law.",
+      "start_date": "2026-06-29T12:00:00-04:00",
+      "end_date": "2026-06-29T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/deuteronomy-separation-powers/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_11c0b000",
+      "name": "JTS in the Berkshires Summer 2026",
+      "type": "Academic",
+      "location_id": "loc_jtsa_main",
+      "community_id": "com_jtsa",
+      "description": "Join JTS scholars in Lenox, Massachusetts, for inspiring learning that illuminates the Jewish past and shapes the Jewish future. Rabbi Ayelet Cohen and Dr. Shira Billet will teach in the Berkshires this summer.",
+      "start_date": "2026-07-10T12:00:00-04:00",
+      "end_date": "2026-07-10T13:00:00-04:00",
+      "category": [
+        "RELIGION",
+        "EDUCATION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/jts-berkshires-summer-2026/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Massachusetts",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_7885f97a",
+      "name": "JTS in the Berkshires Summer 2026—Session II",
+      "type": "Workshop",
+      "location_id": "loc_jtsa_main",
+      "community_id": "com_jtsa",
+      "description": "In the second session from our Berkshires series, Dr. Shira Billet will explore the timely wisdom for our technological age that is found in classical Jewish philosophical reflection on the cosmos and the place of the human being in the divinely created world order.",
+      "start_date": "2026-08-07T12:00:00-04:00",
+      "end_date": "2026-08-07T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/jts-berkshires-summer-2026-session-ii/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Massachusetts",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_26fc8957",
+      "name": "2026 ICSI Public Lectures: Robin D.G. Kelley, \"Cops, Capitalism, Counter-war: Scenes from the Struggle for Black Life\"",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
       "community_id": "com_newschool",
-      "description": "Join us for the first installment of the Reimagining the Economics of Aging Seminar Series, a monthly virtual forum hosted by the Wealth Equity Lab at The New School. Building on our May 1 conference, this series brings together scholars and practitioners to deepen conversations on aging, retirement, and late-life economic security, with a focus on works in progress and active discussion.In this session, Andrew Milne examines how the U.S. elder care financing system not only fails older adults but actively produces inequality. Drawing on real-world legal cases, he reveals how low-income elders—whether homeowners or renters—are funneled into systems that extract value from their care needs, often culminating in institutionalization. The talk explores the privatization of Medicare and the legal dynamics shaping access to housing and care, arguing that these are not isolated failures but systemic outcomes. Milne ultimately calls for structural change while considering the role of incremental reforms in building collective power. Read the full paper here: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5165338About the speaker: Andrew Milne is the Bruce R. Jacob Visiting Assistant Professor of Law (2025–2027), whose research draws on over a decade of practice in poverty law and disability rights. His work focuses on the intersection of law, aging, and political economy, informed by extensive experience representing older adults and vulnerable populations across multiple legal settings.This event is part of the Reimagining the Economics of Aging Seminar Series",
-      "start_date": "2026-06-03T11:00:00-04:00",
-      "end_date": "2026-06-03T23:59:59-04:00",
+      "description": "The Institute for Critical Social Inquiry will open part of its programming to the public – a series of lectures taught by this Summer's faculty cohort of Ariella Aïsha Azoulay (Brown University) , Glen Coulthard (University of British Columbia), Jack Halberstam (Columbia University) and Robin Kelley (UCLA). Robin D. G. Kelley's lecture is entitled \"Cops, Capitalism, Counter-war: Scenes from the Struggle for Black Life.\" In this talk I contend that struggles to end state-sanctioned racial violence and the very conditions that made Black people vulnerable to premature death, held out the possibility for a robust anti-capitalist movement. Rebellions against police killings also focused on jobs, wages, and a predatory criminal legal system that extracts millions of dollars from mostly poor, Black communities, while cutting funding for education, affordable housing, and essential services. Without diminishing workplace struggles, I argue that it is in the war for Black life, what Orisanmi Burton calls “counter-war,” that abolitionist alternatives to police, prisons, and capitalism itself are born.Robin D. G. Kelley is Distinguished Professor and Gary B. Nash Endowed Chair in U.S. History at UCLA. His books include Freedom Dreams: The Black Radical Imagination, Hammer and Hoe: Alabama Communists During the Great Depression, Race Rebels: Culture, Politics, and the Black Working Class, and Thelonious Monk: The Life and Times of an American Original, and Making a Killing: Capitalism, Cops, and the War on Black Life (forthcoming). His essays have appeared in dozens of publications, including The Nation, New York Times, New York Review of Books, American Quarterly, and The Boston Review, for which he is Contributing Editor.Register for other ICSI lectures here:June 8, 5 PM: Ariella Aïsha AzoulayJune 10, 5 PM: Jack HalberstamJune 12, 5 PM: Glen CoulthardAbout the Institute:The Institute for Critical Social Inquiry (ICSI) is designed to provide advanced graduate students and junior faculty from around the world with the opportunity to spend one week at the New School’s campus in Greenwich Village working closely with some of the most distinguished thinkers shaping the course of contemporary social inquiry. Each of these scholars will teach a week-long seminar on a foundational thinker or topic of contemporary concern in a series of hands-on, intensive, and intimate sessions.",
+      "start_date": "2026-06-08T17:00:00-04:00",
+      "end_date": "2026-06-08T18:30:00-04:00",
       "category": [
         "EDUCATION",
-        "PERFORMING_ARTS",
+        "VISUAL_ARTS",
+        "HUMANITIES",
         "BUSINESS",
         "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
       "metadata": {
-        "source_url": "https://event.newschool.edu/silvertsunamiorsilverrush",
+        "source_url": "https://event.newschool.edu/2026icsipubliclecturesrobinkel",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "The New School For Social Research"
-          ],
-          "tags": [
-            "lobbymonitor",
-            "general public",
-            "students",
-            "economics",
-            "intellectual culture and big ideas",
-            "politics, policy and government",
-            "the new school for social research",
-            "lectures and talks",
-            "virtual",
-            "lectures and panel discussions",
-            "Bernard Schwartz Center for Economic Policy Analysis"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_720ae630",
-      "name": "The Mentor's Action Plan Convening 2026",
-      "type": "Seminar",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Credible Community Circles: A Trust-Building approach to restoring community leadership and Restorative Justice work—led by Credible messengers. The 2026 Map Convening will serve as the culmination of two years dedicated to the Mentor's Action Plan (MAP)—trainings for Credible Messengers to implement Community Circles that are deemed Credible by their neighbors. These Credible Community Circles are intergenerational practices that are facilitated by 19 MAP Fellows, each representing a grassroots organization in a community they’re connected to. To date, ITM has funded and supported 19 organizations performing services throughout NYC and beyond, facilitating circles and strengthening community ties. On June 4, 2026, at the start of Gun Violence Awareness month, we invite you to engage in discussions about credible messengers, restorative practices, and the vital intersection of trust-building efforts that are essential for enhancing community and Community-Based Restorative Justice work.",
-      "start_date": "2026-06-04T09:00:00-04:00",
-      "end_date": "2026-06-04T17:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "SOCIAL"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/map2026",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Tishman Auditorium, The New School",
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
           "type": "venue"
         },
         "organizer": {
@@ -817,111 +566,32 @@
         },
         "additional_info": {
           "department": [
+            "The New School For Social Research",
             "University Level"
           ],
           "tags": [
             "lobbymonitor",
             "slide_events",
-            "alumni",
-            "faculty",
             "general public",
-            "staff",
-            "students",
-            "humanity, society, social justice",
+            "anthropology",
+            "civic engagement and social justice",
+            "economics",
+            "historical studies",
+            "philosophy",
+            "politics",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "international and global affairs",
             "intellectual culture and big ideas",
-            "politics, policy and government",
+            "the new school for social research",
             "university",
             "lectures and talks",
-            "tishman auditorium, the new school",
+            "63 5th avenue",
             "lectures and panel discussions",
-            "Center for New York City Affairs"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_4ae71f87",
-      "name": "MPS Fashion Alumni Panel",
-      "type": "Seminar",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Join us for an engaging conversation with four 2025 MPS Fashion Management graduates, hosted by Professor Naika Colas. The panel will explore the realities of transitioning from graduate school into the industry, building a meaningful career path, and navigating the evolving skills and challenges shaping the future of fashion.",
-      "start_date": "2026-06-04T15:00:00-04:00",
-      "end_date": "2026-06-04T16:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "VISUAL_ARTS"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/mpsfashionalumnipanel",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "University Center - Room L104",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Parsons School of Design"
-          ],
-          "tags": [
-            "students",
-            "fashion",
-            "parsons school of design",
-            "lectures and talks",
-            "university center - room l104",
-            "lectures and panel discussions"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_1e7be089",
-      "name": "So.... You Think You Can Sync?",
-      "type": "Seminar",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "Brooklyn Music Experience Presents So.... You Think You Can Sync?This live interactive session offers a behind-the-scenes look at how music gets chosen, shaped, and placed in the world of advertising and branded content.Participants will submit music to a real creative brief curated by Josh Rabinowitz. From all submissions, Josh will select 10 top finalists, whose tracks will be played live for a panel of elite Music Supervisors reacting in real time to each track’s creative fit, emotional impact, and commercial viability. The panel will then narrow the field down to 5 top finalists.Those finalist tracks will be handed off to a live music editor, who will cut, arrange, and mix the music directly to picture in real time—blending in dialogue, voiceover, and sound design as the audience watches the full sync process unfold live.Moderated by Josh Rabinowitz, the session combines candid industry insight, live creative decision-making, and audience participation for an experience that is equal parts competition, masterclass, and live pitch room.",
-      "start_date": "2026-06-04T16:30:00-04:00",
-      "end_date": "2026-06-04T17:45:00-04:00",
-      "category": [
-        "EDUCATION",
-        "MUSIC_DISCUSSION",
-        "VISUAL_ARTS",
-        "PERFORMING_ARTS"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/soyouthinkyoucansync",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Arnie Lawrence Hall",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "College Of Performing Arts"
-          ],
-          "tags": [
-            "general public",
-            "jazz",
-            "performing arts",
-            "college of performing arts",
-            "lectures and talks",
-            "arnie lawrence hall",
-            "lectures and panel discussions"
+            "art and design",
+            "Institute for Critical Social Inquiry"
           ],
           "audience": []
         }
@@ -974,6 +644,73 @@
       }
     },
     {
+      "id": "evt_newschool_27fab158",
+      "name": "2026 ICSI Public Lectures: Ariella Aïsha Azoulay, \"Genocides, photography & museums\"",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The Institute for Critical Social Inquiry will open part of its programming to the public – a series of lectures taught by this Summer's faculty cohort of Ariella Aïsha Azoulay (Brown University) , Glen Coulthard (University of British Columbia), Jack Halberstam (Columbia University) and Robin Kelley (UCLA). Ariella Aïsha Azoulay's lecture is entitled \"Genocide, Photography, & Museums.\" Establishing the connection between genocidal violence and objects displayed in museums,require us to dwell at museums' thresholds. This talk will ask questionsabout the imminence of genocides to Western political regimes, and its inscription in the plundered objects therein. Ariella Aïsha Azoulay teaches at Brown political theory from an anti-colonial perspective, using photography and material culture. Her latest books: The Jewelers of the ummah – Potential History of The Jewish Muslim World (Verso, 2024), La resistance des bijoux (Rot-Bo-Krik, 2023) and Potential History: Unlearning Imperialism (Verso Books, 2019) and From Palestine to Israel: A Photographic Record of Destruction and State Formation, 1947–1950 (Pluto Press, 2011); She recently published her first children book Golden Threads (Ayin Press, 2024). Her latest films include the trilogy Unlearning Imperial Plunder: One Thousand and One Jewels (2025), The world like a jewel in the hand (2023), Un-documented (2019); her latest exhibitions: Errata (Fundació Antoni Tàpies, Barcelona, 2019; HKW, Berlin, 2020), and The Natural History of Rape (Berlin Biennale, 2022). Register for other ICSI lectures here:June 7, 5 PM: Robin D.G. KelleyJune 10, 5 PM: Jack HalberstamJune 12, 5 PM: Glen CoulthardAbout the Institute:The Institute for Critical Social Inquiry (ICSI) is designed to provide advanced graduate students and junior faculty from around the world with the opportunity to spend one week at the New School’s campus in Greenwich Village working closely with some of the most distinguished thinkers shaping the course of contemporary social inquiry. Each of these scholars will teach a week-long seminar on a foundational thinker or topic of contemporary concern in a series of hands-on, intensive, and intimate sessions.",
+      "start_date": "2026-06-09T17:00:00-04:00",
+      "end_date": "2026-06-09T18:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS",
+        "HUMANITIES",
+        "BUSINESS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/2026icsipubliclecturesariellaa",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "students",
+            "anthropology",
+            "civic engagement and social justice",
+            "economics",
+            "historical studies",
+            "philosophy",
+            "politics",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "the new school for social research",
+            "university",
+            "lectures and talks",
+            "63 5th avenue",
+            "lectures and panel discussions",
+            "art and design",
+            "Institute for Critical Social Inquiry"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_045679ba",
       "name": "Sandbox Percussion and Empyrean Atlas",
       "type": "Performance",
@@ -1020,6 +757,115 @@
       }
     },
     {
+      "id": "evt_newschool_668a9661",
+      "name": "2026 ICSI Public Lectures: Jack Halberstam, \"Anarchitecture After Everything\"",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The Institute for Critical Social Inquiry will open part of its programming to the public – a series of lectures taught by this Summer's faculty cohort of Ariella Aïsha Azoulay (Brown University) , Glen Coulthard (University of British Columbia), Jack Halberstam (Columbia University) and Robin Kelley (UCLA). Jack Halberstam's lecture is entitled \"Anarchitecture After Everything.” In this talk, Halberstam will explore the meaning of trans embodiment using a vocabulary borrowed from a 1970’s art collective called ‘anarchitecture’. The work of Gordon Matta-Clark represents the spirit and the intentions of this group. While New York City is a now thoroughly financialized and gentrified space, New York City in the mid-1970’s was the terrain for a competing set of relations to masonry, buildings, walls, glass and the business of art and architecture. Through a prismatic juxtaposition of artists who are rarely read in relation to one another, we can assess these competing visions of the city, some utopian and others dystopian, some committed to improvement, others to destitution. And while artists Gordon Matta-Clark and Beverly Buchanan, in very different ways, shared a love of decaying walls and crumbling brick and saw in them alternative forms of vitality, as we will see, businessman architect, Philip Johnson, entertained fascistic visions of social domination through architecture and of individual greatness through monumentality. A closer look at Johnson’s work demonstrates that there is a potentially sinister side to improvement, expansion, repair and shiny surfaces. This talk examines the dynamics of building and unbuilding in relation to queer community, trans embodiment, aesthetic practice and the necessary world-ending practices of anarchitecture.Jack Halberstam is the David Feinson Professor of The Humanities at Columbia University. Halberstam is the author of seven books including: Skin Shows: Gothic Horror and the Technology of Monsters (Duke UP, 1995), Female Masculinity (Duke UP, 1998), In A Queer Time and Place (NYU Press, 2005), The Queer Art of Failure (Duke UP, 2011), Gaga Feminism: Sex, Gender, and the End of Normal (Beacon Press, 2012) and, a short book titled Trans*: A Quick and Quirky Account of Gender Variance (University of California Press). Halberstam’s latest book, 2020 from Duke UP is titled Wild Things: The Disorder of Desire. Places Journal awarded Halberstam its Arcus/Places Prize in 2018 for innovative public scholarship on the relationship between gender, sexuality and the built environment. Halberstam has just finished a book titled Anarchitecture After Everything: A Trans Manifesto, which will be published by MIT Press in 2026.. Halberstam was recently the subject of a short film titled “So We Moved” by Adam Pendleton and he was named a 2024 Guggenheim Fellow. Register for other ICSI lectures here:June 7, 5 PM: Robin KelleyJune 8, 5 PM: Ariella Aïsha AzoulayJune 12, 5 PM: Glen CoulthardAbout the Institute:The Institute for Critical Social Inquiry (ICSI) is designed to provide advanced graduate students and junior faculty from around the world with the opportunity to spend one week at the New School’s campus in Greenwich Village working closely with some of the most distinguished thinkers shaping the course of contemporary social inquiry. Each of these scholars will teach a week-long seminar on a foundational thinker or topic of contemporary concern in a series of hands-on, intensive, and intimate sessions.",
+      "start_date": "2026-06-10T17:00:00-04:00",
+      "end_date": "2026-06-10T18:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS",
+        "HUMANITIES",
+        "BUSINESS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/2026icsipubliclecturesjackhalb",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "anthropology",
+            "civic engagement and social justice",
+            "economics",
+            "historical studies",
+            "philosophy",
+            "politics",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "the new school for social research",
+            "university",
+            "lectures and talks",
+            "63 5th avenue",
+            "lectures and panel discussions",
+            "art and design",
+            "Institute for Critical Social Inquiry"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_acf2bca1",
+      "name": "Enclothed Knowledges Opening",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Enclothed Knowledges brings together the work of international researchers working across the expanded field of fashion studies. Through methodologies of making, wearing, and performing, the exhibition explores how practice-based approaches can expand existing research methods and broaden participation in the field.The exhibition forms part of the Enclothed Knowledges: Practice-Based Fashion Research Network, an international collaboration between Northumbria University and Parsons School of Design. Developed through workshops, dialogue, and collaborative exchange, the network asks what forms of knowledge emerge through practice-based research and how these methods can address systemic issues within fashion and the broader cultural industries.Across film, garments, photography, installation, and performance, the exhibitors explore embodiment, material knowledge, social justice, decolonization, identity, and memory. Together, the works foreground the methodological and epistemological contributions that practice-based research brings to fashion studies.Enclothed Knowledges is led and curated by Ellen Sampson (UWE) and Ben Barry (Parsons School of Design), and features work by Mi Medrado, Rikki Byrd, Sihle Sogaula, Silvia Bombardini, Lucy Gundry, Ellen Fowles, Julian Randall, Tamara Poblete, Tommy Tse, Julia Valle Noronha, Justine Woods, Hilary Davidson, Ricarda Bigolin, Chantal McDonald, and Christian Thompson.",
+      "start_date": "2026-06-11T17:00:00-04:00",
+      "end_date": "2026-06-11T19:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/enclothedknowledgesapracticeba",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Arnold and Sheila Aronson Galleries",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "general public",
+            "fashion",
+            "arts",
+            "design",
+            "parsons school of design",
+            "exhibitions and openings",
+            "arnold and sheila aronson galleries",
+            "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_45a5e98c",
       "name": "Luxury Talent & Leadership Panel",
       "type": "Seminar",
@@ -1056,6 +902,69 @@
             "lectures and talks",
             "wollman hall - room 500",
             "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_c86d4d45",
+      "name": "2026 ICSI Public Lectures: Glen Coulthard, \"'Palestinians and Native people are Comrades': The Political Economy of Oil and Indigenous-Palestinian Solidarity\"",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The Institute for Critical Social Inquiry will open part of its programming to the public – a series of lectures taught by this Summer's faculty cohort of Ariella Aïsha Azoulay (Brown University) , Glen Coulthard (University of British Columbia), Jack Halberstam (Columbia University) and Robin Kelley (UCLA). Glen Coulthard's lecture is entitled \"'Palestinians and Native people are Comrades'\": The Political Economy of Oil and Indigenous-Palestinian Solidarity.\" This talk explores a materialist ethic of solidarity between the Dene of the Northwest Territories (Canada) and the people of Palestine via a political economy of oil and extractivism in the 1970s. It looks at the origins of the 1973 Oil Crisis and effects, examining Indigenous resistance to extractivism spanning from Palestine and the Middle East to the proposed Mackenzie Valley Pipeline in the Canadian North.Glen Coulthard teaches political theory in Department of Political Science and is the current Director of the Institute for Critical Indigenous Studies. He is the co-founder of Dechinta Centre for Research and Learning, an anti-colonial land-based political education project started in Denendeh in 2010. He is Yellowknives Dene.Register for other ICSI lectures here:June 7, 5 PM: Robin D.G. KelleyJune 8, 5 PM: Ariella Aïsha AzoulayJune 10, 5 PM: Jack HalberstamAbout the Institute:The Institute for Critical Social Inquiry (ICSI) is designed to provide advanced graduate students and junior faculty from around the world with the opportunity to spend one week at the New School’s campus in Greenwich Village working closely with some of the most distinguished thinkers shaping the course of contemporary social inquiry. Each of these scholars will teach a week-long seminar on a foundational thinker or topic of contemporary concern in a series of hands-on, intensive, and intimate sessions.",
+      "start_date": "2026-06-12T17:00:00-04:00",
+      "end_date": "2026-06-12T18:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS",
+        "HUMANITIES",
+        "BUSINESS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/2026icsipubliclecturesglencoul",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research",
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "general public",
+            "anthropology",
+            "civic engagement and social justice",
+            "economics",
+            "historical studies",
+            "philosophy",
+            "politics",
+            "arts",
+            "design",
+            "cities and urbanism",
+            "education and pedagogy",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "the new school for social research",
+            "university",
+            "lectures and talks",
+            "63 5th avenue",
+            "lectures and panel discussions",
+            "art and design",
+            "Institute for Critical Social Inquiry"
           ],
           "audience": []
         }
@@ -1108,12 +1017,63 @@
       }
     },
     {
+      "id": "evt_newschool_720ae630",
+      "name": "The Mentor's Action Plan Convening 2026",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Credible Community Circles: A Trust-Building approach to restoring community leadership and Restorative Justice work—led by Credible messengers. The 2026 Map Convening will serve as the culmination of two years dedicated to the Mentor's Action Plan (MAP)—trainings for Credible Messengers to implement Community Circles that are deemed Credible by their neighbors. These Credible Community Circles are intergenerational practices that are facilitated by 19 MAP Fellows, each representing a grassroots organization in a community they’re connected to. To date, ITM has funded and supported 19 organizations performing services throughout NYC and beyond, facilitating circles and strengthening community ties. On June 23, 2026, during Gun Violence Awareness month, we invite you to engage in discussions about credible messengers, restorative practices, and the vital intersection of trust-building efforts that are essential for enhancing community and Community-Based Restorative Justice work.",
+      "start_date": "2026-06-23T09:00:00-04:00",
+      "end_date": "2026-06-23T17:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/map2026",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "University Level"
+          ],
+          "tags": [
+            "lobbymonitor",
+            "slide_events",
+            "alumni",
+            "faculty",
+            "general public",
+            "staff",
+            "students",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "university",
+            "lectures and talks",
+            "the new school",
+            "lectures and panel discussions",
+            "Center for New York City Affairs"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_082f8814",
       "name": "The Luddite Conference on Participatory Futures",
       "type": "Conference",
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
-      "description": "With companies like OpenAI taking Pentagon contracts and Elon Musk using government resources to scrub Americans' data, it's hard to feel that there are any tangible ways to resist the techno-fascist backslide. To regain a sense of social agency, we are convening a participatory conference inspired by the Luddite movement. We will tackle questions such as: What is the relationship between Silicon Valley and the Pentagon? What are the social and political consequences of new AI technologies? And what can we do in response?Please join us for a day of learning how Big Tech brought us to this existentially threatening moment, and how we can reclaim personal and collective agency for a participatory future.Our speakers will include William Hartung (author of Trillion Dollar War Machine), Koohan Paik-Mander (co-founder of the Tech-Critics Network), and Juan Sebastian Pinto (Colorado People's Caucus on AI).Conference ScheduleTime: 10am to 3pmDate: Tuesday, June 30thLocation: The New School's Tishman Auditorium, 63 Fifth Avenue, New York, NY Please register in advance. This conference is part of The Summer of Ludd, happening across NYC from June 28th to July 5th.",
+      "description": "With companies like OpenAI taking Pentagon contracts and Elon Musk using government resources to scrape Americans' data, it's hard to feel that there are any tangible ways to resist the techno-fascist backslide. To regain a sense of social agency, we are convening a participatory conference inspired by the Luddite movement. We will tackle questions such as: What is the relationship between Silicon Valley and the Pentagon? What are the social and political consequences of new AI technologies? And what can we do in response?Please join us for a day of learning how Big Tech brought us to this existentially threatening moment, and how we can reclaim personal and collective agency for a participatory future.Our speakers will include William Hartung (author of Trillion Dollar War Machine), Koohan Paik-Mander (co-founder of the Tech-Critics Network), and Juan Sebastian Pinto (Colorado People's Caucus on AI).Conference ScheduleTime: 10am to 3pmDate: Tuesday, June 30thLocation: The New School's Tishman Auditorium, 63 Fifth Avenue, New York, NY Please register in advance. This conference is part of The Summer of Ludd, happening across NYC from June 28th to July 5th. ",
       "start_date": "2026-06-30T10:00:00-04:00",
       "end_date": "2026-06-30T15:00:00-04:00",
       "category": [
@@ -1388,19 +1348,19 @@
       }
     },
     {
-      "id": "88d60d7413763b6d4b573a0258fc2d53",
-      "name": "#RESIST – Theoretical Archaeology Group (TAG – North America) Conference",
-      "description": "Event at Plenary at CUNY Grad Center, and Conference Proceedings, Pratt Institute, Brooklyn Campus",
-      "start_date": "2026-05-29T09:00:00-04:00",
-      "end_date": "2026-05-31T23:59:00-04:00",
+      "id": "f6c1560d3846f9eff78de440734727e7",
+      "name": "Design Works High School: Annual Student Art Exhibition",
+      "description": "Event at The Rubelle & Norman Schafler Gallery, Chemistry Building, 1st Floor 200 Willoughby Avenue Brooklyn, NY 11205",
+      "start_date": "2026-06-05T09:00:00-04:00",
+      "end_date": "2026-06-15T23:59:00-04:00",
       "location_id": "pratt_institute",
       "community_id": "pratt_institute",
       "category": "academic",
-      "url": "https://www.pratt.edu/events/resist-theoretical-archaeology-group-tag-north-america-conference/",
+      "url": "https://www.pratt.edu/events/design-works-high-school-annual-student-art-exhibition/",
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.493525-04:00",
+        "scraped_at": "2026-06-07T06:13:57.250546-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -1417,14 +1377,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.495042-04:00",
+        "scraped_at": "2026-06-07T06:13:57.252070-04:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "253024d5495f17f747be5945eec1379e",
       "name": "Today at Pratt",
-      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n\n          #RESIST – Theoretical Archaeology Group (TAG – North America) Conference\n        \n\n\n\n\n\nMay 29 – May 31, 2026\nAll Day\n\n\nPlenary at CUNY Grad Center, and Conference Proc...",
+      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n\n          Design Works High School: Annual Student Art Exhibition\n        \n\n\n\n\n\nJune 5 – June 15, 2026\n11:00 AM – 5:00 PM\n\n\nThe Rubelle & Norman Schafler Gallery, Chemistry Buil...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -1434,14 +1394,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.495074-04:00",
+        "scraped_at": "2026-06-07T06:13:57.252105-04:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "da309ad5d95783831800b75842692b92",
       "name": "Calendar",
-      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n\n          #RESIST – Theoretical Archaeology Group (TAG – North America) Conference\n        \n\n\n\n\n\nMay 29 – May 31, 2026\nAll Day\n\n\nPlenary at CUNY Grad Center, and Con...",
+      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n\n          Design Works High School: Annual Student Art Exhibition\n        \n\n\n\n\n\nJune 5 – June 15, 2026\n11:00 AM – 5:00 PM\n\n\nThe Rubelle & Norman Schafler Gallery, Ch...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -1451,7 +1411,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.495134-04:00",
+        "scraped_at": "2026-06-07T06:13:57.252164-04:00",
         "extraction_method": "header"
       }
     },
@@ -1468,7 +1428,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.495159-04:00",
+        "scraped_at": "2026-06-07T06:13:57.252190-04:00",
         "extraction_method": "header"
       }
     },
@@ -1485,7 +1445,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.495183-04:00",
+        "scraped_at": "2026-06-07T06:13:57.252214-04:00",
         "extraction_method": "header"
       }
     },
@@ -1502,7 +1462,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.495206-04:00",
+        "scraped_at": "2026-06-07T06:13:57.252237-04:00",
         "extraction_method": "header"
       }
     },
@@ -1519,7 +1479,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-05-31T06:06:03.496966-04:00",
+        "scraped_at": "2026-06-07T06:13:57.253927-04:00",
         "extraction_method": "container"
       }
     },
@@ -1558,102 +1518,6 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_4a9c6504",
-      "name": "An Evening of Jazz Featuring Faculty, Students, Alumni & Guest Mike Mainieri",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "An evening of jazz, featuring Combo Nuvo, the internationally-known ensemble composed of Steinhart Jazz faculty and alumni. The ensemble welcomes special guest Mike Mainieri.",
-      "start_date": "2026-06-02T20:00:00-04:00",
-      "end_date": "2026-06-02T21:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/evening-jazz-featuring-faculty-students-alumni-guest-mike-mainieri",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:05:52.781314-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_377e730b",
-      "name": "THE WIZZIE: A Journey of Grief, Growth + Glitter",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Step into a world of grief, glitter, glamour, and glorious transformation. Inspired by The Wiz, the soulful reimagining of The Wizard of Oz, THE WIZZIE is a bold, futuristic, heart-expanding…",
-      "start_date": "2026-06-04T19:00:00-04:00",
-      "end_date": "2026-06-04T20:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/wizzie-journey-grief-growth-glitter",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "Black Box Theatre36 Washington Place, NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:05:52.781797-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_283a28df",
-      "name": "Young Adult Readings: Black River",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Black River is an afro-surreal family adventure where ten-year-old Jonas, grieving his father’s death, is swept into a mythical canoe journey down Wisconsin’s Black River.",
-      "start_date": "2026-06-06T19:00:00-04:00",
-      "end_date": "2026-06-06T20:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/young-adult-readings-black-river",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "Provincetown Playhouse133 MacDougal Street, NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:05:52.782221-04:00"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_steinhardt_fb67c040",
       "name": "NYU Metro Center’s 4th Annual Art and Music Showcase",
       "type": "Seminar",
@@ -1681,7 +1545,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2026-05-31T06:05:52.782989-04:00"
+          "scraped_at": "2026-06-07T06:13:48.221747-04:00"
         }
       }
     },
@@ -1713,7 +1577,39 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:05:52.783432-04:00"
+          "scraped_at": "2026-06-07T06:13:48.222171-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_751b815c",
+      "name": "MISE-EN Festival 2026",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "The MISE-EN Festival, a contemporary music festival now in its 12th year, supports and promotes underrepresented composers and performers from around the world.",
+      "start_date": "2026-06-16T19:00:00-04:00",
+      "end_date": "2026-06-16T20:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-06/mise-en-festival-2026",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "Room 303 (symposiums location)35 West 4th Street, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-06-07T06:13:48.222595-04:00"
         }
       }
     },
@@ -1745,7 +1641,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:05:52.783852-04:00"
+          "scraped_at": "2026-06-07T06:13:48.223004-04:00"
         }
       }
     },
@@ -1777,34 +1673,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-05-31T06:05:52.785090-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nypl_21da4137",
-      "name": "Adult Coloring & Conversation",
-      "type": "Seminar",
-      "location_id": "loc_nypl_main",
-      "community_id": "com_nypl",
-      "description": "Join our monthly Adult Coloring & Conversation program, where creative coloring activities spark relaxation and inspire participants to explore books, share ideas, and enjoy meaningful community discussions in a welcoming library space that promotes reading and artistic expression\n\nMaterials will be provided.",
-      "start_date": "2026-06-15T14:00:00-04:00",
-      "end_date": "2026-06-15T16:00:00-04:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "source": "nypl",
-      "source_group": "nypl",
-      "metadata": {
-        "source_url": "https://www.nypl.org/events/programs/2026/06/15/adult-coloring-conversation",
-        "source_name": "NYPL Events Calendar",
-        "venue": {
-          "name": "Room C307",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "New York Public Library",
-          "type": "organizer"
+          "scraped_at": "2026-06-07T06:13:48.224090-04:00"
         }
       }
     },
@@ -1832,776 +1701,6 @@
         "organizer": {
           "name": "New York Public Library",
           "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_a478c595",
-      "name": "RFA: Fundamentals of Experimental Design and Research Techniques",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;This six-week virtual course hosted by the &lt;a href=\"https://www.cancer.columbia.edu/\" target=\"_blank\"&gt;Herbert Irving Comprehensive Cancer Center (HICCC)&lt;/a&gt; introduces modern experimental techniques commonly used in biomedical and cancer research. The series provides trainees with a conceptual framework for how laboratory experiments are designed, executed, and interpreted in contemporary research settings.&lt;/p&gt;\n&lt;p&gt;Course topics include:&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Week 1:&amp;nbsp;Experimental Design &amp;amp; Research Foundations&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Week 2:&amp;nbsp;Genome Engineering&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Week 3:&amp;nbsp;Cell Models &amp;amp; In Vitro Research&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Week 4:&amp;nbsp;Immunofluorescence &amp;amp; Flow Cytometry&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Week 5:&amp;nbsp;High-Throughput Screening &amp;amp; Sequencing&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;Week 6:&amp;nbsp;Modeling Cancer In Vivo&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;The course is intended for undergraduates, graduate students, postdoctoral fellows, research technicians, and any trainees who are interested in or beginning laboratory-based research. No&amp;nbsp;prior&amp;nbsp;advanced laboratory experience is&amp;nbsp;required.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://cumc.co1.qualtrics.com/jfe/form/SV_etE7XR8XhO3693U\" target=\"_blank\"&gt;Register Now!&lt;/a&gt;&lt;/p&gt;",
-      "start_date": "2026-06-02T04:00:00-04:00",
-      "end_date": "2026-06-03T03:55:00-04:00",
-      "category": [
-        "HEALTH",
-        "TECH",
-        "HUMANITIES",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9d4d38ab-019d-4e88ccfd-00004c5fevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Herbert Irving Comprehensive Cancer Center",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Herbert Irving Comprehensive Cancer Center",
-          "tags": [
-            "org/IICD",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Workshop",
-            "Course",
-            "Online",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "org/PublicHealth",
-            "Prospective Students",
-            "Healthcare",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/pathology",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Workshop",
-            "Course",
-            "Online",
-            "Student",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "org/PublicHealth",
-            "Prospective Students",
-            "Healthcare",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/pathology",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_d6117f9d",
-      "name": "Hegel 13/13 with &Eacute;tienne Balibar",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Please join the &lt;a href=\"https://cccct.law.columbia.edu/\" target=\"_blank\"&gt;Columbia Center for Contemporary Critical Thought&lt;/a&gt;&amp;nbsp;for Hegel 13/13 with Etienne Balibar and Bernard E. Harcourt in-person and virtually from Paris on Tuesday, June 2.&lt;/p&gt;\n&lt;p&gt;In-person tickets on Eventbrite will close at 10:30 AM on June 1, 2026. Those that have signed up for an in-person ticket will be given access to the Grande Salle. Please make sure that you use your legal first and last name when registering for the event. Please make sure that you use your legal first and last name when registering for the event. If you would like to attend in person and have not RSVP&amp;#39;d before 10:30 AM on June 1, 2026, please reach out to Ricardo Lombera at rlombera@law.columbia.edu. Requests for access after 10:30 AM on June 1, 2026, unfortunately, cannot be guaranteed.&lt;/p&gt;",
-      "start_date": "2026-06-02T15:30:00-04:00",
-      "end_date": "2026-06-02T18:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "SCIENCE",
-        "SOCIAL",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9d714e7a-019d-73857f02-00000b28events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Columbia Global Centers | Paris, 4 rue de Chevreuse, 75006 Paris, France\tGrande Salle",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "CCCT",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "CCCT",
-          "tags": [
-            "Law: Prospective JD Students",
-            "Law: Prospective LLM Students",
-            "Law: Prospective Exec LLM",
-            "Law: Employers",
-            "Law: Open to the Public",
-            "org/law",
-            "Law: Academic Calendar",
-            "Law: Alumni",
-            "Law: Faculty",
-            "Law: Students",
-            "Law: Staff",
-            "Law_Admitted Students",
-            "Law: JD Admitted",
-            "Law: LLM Admitted",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Law",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Global Centers",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/ccct",
-            "Postdocs",
-            "Prospective Students",
-            "Social Theory",
-            "Graduate Students",
-            "Trainees",
-            "Political Science"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Law",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Global Centers",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/ccct",
-            "Postdocs",
-            "Prospective Students",
-            "Social Theory",
-            "Graduate Students",
-            "Trainees",
-            "Political Science"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_5be59612",
-      "name": "Center for Advanced Diagnostic Research (CADRe) Launch Event",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h3&gt;&lt;strong&gt;Join us as we launch the Center for Advanced Diagnostic Research (CADRe)&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;CADRe is a multidisciplinary center based in the Department of Radiology at the Columbia University Vagelos College of Physicians and Surgeons. CADRe is dedicated to transforming the way diseases are detected, classified, and monitored. By integrating molecular science, imaging, artificial intelligence, and data analytics, CADRe drives the development of next-generation diagnostic tools and translates discovery into clinical practice, improving outcomes, and shaping the future of healthcare.&amp;nbsp;This event will highlight the depth and breadth of the mission and activities of CADRe and engage the research community at Columbia University, as well as our partners, more broadly into a vibrant scientific ecosystem. We&amp;#39;re excited to have you join us!&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://www.eventleaf.com/Attendee/Attendee/EventPage?eId=FCQ9a70LIIYQ3pvVw6wttA%3D%3D\" target=\"_blank\"&gt;More Information and Registration&lt;/a&gt;&lt;/p&gt;",
-      "start_date": "2026-06-03T12:30:00-04:00",
-      "end_date": "2026-06-03T19:00:00-04:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "HEALTH",
-        "SCIENCE",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9d66f898-019d-68830f1f-000061ccevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Columbia School of Nursing, 560 W. 168 St., New York, NY 10032\t7th Floor Event Space",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "CUMC - Department of Radiology",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "CUMC - Department of Radiology",
-          "tags": [
-            "AI",
-            "Artificial Intelligence",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Reception",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Clinical Health Sciences",
-            "Research",
-            "Postdocs",
-            "org/radiology",
-            "Healthcare",
-            "Graduate Students",
-            "Symposium",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Reception",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Clinical Health Sciences",
-            "Research",
-            "Postdocs",
-            "org/radiology",
-            "Healthcare",
-            "Graduate Students",
-            "Symposium",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_511e453b",
-      "name": "An insider look at Empire AI: How NY built world-class public AI",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h2&gt;Register for an exclusive panel this June exploring the vision, development, and future of &lt;a href=\"https://www.cuit.columbia.edu/empire-ai\" target=\"_blank\"&gt;Empire AI&lt;/a&gt;.&lt;/h2&gt;\n&lt;p&gt;This NY Tech Week discussion will feature &lt;a href=\"https://president.columbia.edu/people/jeannette-m-wing\" target=\"_blank\"&gt;Jeannette M. Wing&lt;/a&gt;, Executive Vice President for Research and Professor of Computer Science, who will highlight Columbia University&amp;rsquo;s role in helping shape the initiative, share early research achievements enabled by Empire AI, and discuss future opportunities for collaboration and impact.&lt;/p&gt;\n&lt;p&gt;The full panel will&amp;nbsp;feature:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Carolyn Dee, Assistant Secretary for Technology and Financial Services, Office of New York Governor Kathy Hochul&lt;/li&gt;\n&lt;li&gt;Kiran Keshav, Director of Research Computing, Empire AI&lt;/li&gt;\n&lt;li&gt;Julie Samuels, President and CEO of Tech:NYC&lt;/li&gt;\n&lt;li&gt;Jeannette M. Wing, Executive Vice President for Research and Professor of Computer Science, Columbia University&lt;/li&gt;\n&lt;li&gt;Giacomo Bagarella, Principal, HR&amp;amp;A Advisors (moderator)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; 124 East 14th Street (3rd floor), New York, NY&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Learn more on the&amp;nbsp;&lt;a href=\"https://www.tech-week.com/\" target=\"_blank\"&gt;official NYTW event page&lt;/a&gt;&amp;nbsp;and view the&amp;nbsp;&lt;a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7458576053314355200/\" target=\"_blank\"&gt;LinkedIn event post&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;&lt;a href=\"https://partiful.com/e/fFd0btC2b2HFv0yHTmrl\" target=\"_blank\"&gt;Register here&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;",
-      "start_date": "2026-06-03T13:00:00-04:00",
-      "end_date": "2026-06-03T14:30:00-04:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "SCIENCE",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9e2061eb-019e-230351c9-00006e9eevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Off-campus\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Research Computing Services",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Research Computing Services",
-          "tags": [
-            "AI",
-            "org/RCS",
-            "Artificial Intelligence",
-            "Off Campus",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Panel",
-            "Computer Science",
-            "Research",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees"
-          ],
-          "audience": [
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Panel",
-            "Computer Science",
-            "Research",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_db510311",
-      "name": "Crafts on The Corner: Sketch Sessions",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Welcome to &lt;em&gt;&lt;em&gt;Crafts &lt;/em&gt;&lt;/em&gt;&lt;em&gt;&lt;em&gt;on the Corner&lt;/em&gt;&lt;/em&gt;, an exciting new event series at the &lt;a href=\"https://theforum.columbia.edu/\" target=\"_blank\"&gt;Lee C. Bollinger&amp;nbsp;Forum&lt;/a&gt;. This initiative aims to provide accessible and free opportunities for individuals within the community to explore their artistic potential, enhance their crafting skills, and cultivate a sense of community through shared creative experiences. It&amp;#39;s a celebration of creativity and an opportunity to connect with neighbors in a fun and enriching environment. Open to all ages!&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Wallach Art Gallery: Sketch Sessions&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Take a break in your day to tap into your creativity and explore different observational drawing techniques.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;6/3: Improvising Line&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;All materials provided, and no previous experience required. All are welcome! &lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Help us plan and let us know you are coming by registering &lt;a href=\"https://www.eventbrite.com/e/crafts-on-the-corner-sketch-sessions-tickets-1982012519801?utm-campaign=social&amp;amp;utm-content=attendeeshare&amp;amp;utm-medium=discovery&amp;amp;utm-term=listing&amp;amp;utm-source=cp&amp;amp;aff=ebdsshcopyurl\" target=\"_blank\"&gt;here.&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Presented as part of Crafts on the Corner at the Bollinger Forum in collaboration with the &lt;a href=\"https://wallach.columbia.edu/\" target=\"_blank\"&gt;Wallach Art Gallery.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Established in 1986, the Miriam and Ira D. Wallach Art Gallery is Columbia University&amp;#39;s premier visual arts space. The Wallach&amp;#39;s mission is to advance Columbia University&amp;#39;s historical, critical, and creative engagement with the visual arts.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2026-06-03T16:00:00-04:00",
-      "end_date": "2026-06-03T17:00:00-04:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "SOCIAL",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9c0e29d0-019c-0f8a69be-00002241events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Forum",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Forum",
-          "tags": [
-            "org/neighbors",
-            "org/forum",
-            "Crafts on the Corner",
-            "Manhattanville",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Arts"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_94e59e4b",
-      "name": "Hematological Malignancies Special Seminar: Joshua Zeidner, MD",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;a href=\"https://www.med.unc.edu/medicine/hematology/people/joshua-zeidner-md/\" target=\"_blank\"&gt;&lt;strong&gt;Joshua Zeidner, MD&lt;/strong&gt;&lt;/a&gt;&lt;br /&gt;\nDirector, Clinical Cancer Research Commercial Integration,&lt;br /&gt;\nAssoc. Chief of Research, Hematology, and&lt;br /&gt;\nSection Chief, Leukemia Research; Lineberger Comprehensive Cancer Center, University of North Carolina&lt;br /&gt;\nAssoc. Professor of Medicine, University of North Carolina, Dept. of Medicine, Div. of Hematology&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &amp;quot;Incorporating Menin Inhibitors into Frontline Therapy for Older Adults with AML: Light at the End of the Tunnel?&amp;quot;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Hosted by Aaron Viny, MD,&amp;nbsp;Assistant Professor of Medicine, CUIMC.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;This event is sponsored by the Herbert Irving Comprehensive Cancer Center&amp;#39;s (HICCC)&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/research/researchers/edward-p-evans-center-myelodysplastic-syndromes-mds\" target=\"_blank\"&gt;Edward P. Evans Center for Myelodysplastic Syndromes (MDS)&lt;/a&gt;&amp;nbsp;at Columbia University, established to&amp;nbsp;foster an all-encompassing approach in studying MDS&amp;nbsp;giving us&amp;nbsp;molecular, cellular genetic and epigenetic insights to develop and test innovative therapies.&lt;/p&gt;",
-      "start_date": "2026-06-03T17:00:00-04:00",
-      "end_date": "2026-06-03T18:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "HEALTH",
-        "SCIENCE",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9cd1a4c0-019c-d2f4a60f-00002f7devents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Edward P. Evans Center for Myelodysplastic Syndromes - MDS",
-          "tags": [
-            "org/MDS",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "org/cumc_genetics_dev",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Lecture",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "org/cumc_genetics_dev",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_8a963af6",
-      "name": "HICCC Seminar Series - Research in Progress",
-      "type": "Seminar",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Shan Zha, MD, PhD (left&lt;/strong&gt;)&lt;br /&gt;\nJames A Wolff &amp;nbsp;Professor of Pediatrics, Pathology and Cell Biology and of Microbiology and Immunology&lt;br /&gt;\nDepartment of Pediatrics, Gastroenterology&lt;br /&gt;\nProgram: &lt;a href=\"https://www.cancer.columbia.edu/research/programs/cancer-genomics-and-epigenomics\" target=\"_blank\"&gt;Cancer Genomics and Epigenomics (CGE)&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title&lt;/strong&gt;:&amp;nbsp;&amp;quot;Too Much or Too Little PAR: Understanding the PARP&amp;ndash;PARG Axis in Cancer Therapy&amp;quot;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Description&lt;/strong&gt;:&amp;nbsp;PARP1/2 inhibitors (PARPi) have transformed the treatment of BRCA1/2-deficient cancers, yet their clinical potential is constrained by hematological toxicity and acquired resistance. Emerging strategies&amp;mdash;including PARP1-selective inhibitors and targeting PARG, the enzyme that removes poly(ADP-ribose) (PAR)&amp;mdash;offer new opportunities to refine this therapeutic axis. Using integrated genetic, cellular, and pharmacological approaches, we define the mechanisms underlying PARPi-induced hematopoietic toxicity in vivo and identify key vulnerabilities associated with PARG inhibition. These findings reveal PAR metabolism as a tunable node in cancer therapy and highlight the importance of achieving the right balance&amp;mdash;neither too little nor too much PAR&amp;mdash;for optimal therapeutic outcome. Dr. Zha is the principal investigator of three NCI R01 grants focused on PARP1, PARP2, and their regulatory pathways, organized three Cold Spring Harbor Laboratory meetings on PARP and PAR Biology (2024, 2026, and 2028). She has published 13 peer-reviewed manuscripts on DNA damage&amp;ndash;induced PARylation over the past four years and is also the author of an invited review on PARP&amp;ndash;PARG inhibition in Nature Cancer (scheduled for publication in 2026).&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Akanksha Thawani, PhD (right)&lt;/strong&gt;&lt;br /&gt;\nAssistant Professor of Biochemistry and Molecular Biophysics&amp;nbsp;&lt;br /&gt;\nDepartment of Biochemistry &amp;amp; Molecular Biophyscs&lt;br /&gt;\nProgram:&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/research/programs/cancer-genomics-and-epigenomics\" target=\"_blank\"&gt;Cancer Genomics and Epigenomics (CGE)&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title: &amp;quot;&lt;/strong&gt;Genetic Architects: Structural Mechanisms of Retrotransposon Spread in Our Genomes&amp;quot;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&amp;nbsp;Dr. Thawani&amp;rsquo;s research focuses on understanding how mobile genetic elements shape our genomes and its defenses. Retrotransposons make up a family of mobile elements that copy-and-paste themselves and dominate the genomes of multicellular eukaryotes. Despite their abundance, the mechanisms that drive retrotransposon spread have remained a mystery due to challenges in purification and biochemical characterization. Dr. Thawani will present her efforts to unravel the molecular and structural basis of human LINE-1 retrotransposon spread, the gene responsible for an astonishing one-third of the human genome.&lt;/p&gt;\n&lt;p&gt;Retrotransposons hold the key to developing programmable transgene insertion technologies that do not rely on donor DNA, offering a new and safer approach for gene therapy. Dr. Thawani will further present recent cryo-EM structures that allow us to understand how site-specific retrotransposons from vertebrate species mobilize and describe ongoing efforts to engineer vertebrate retrotransposons for transgene insertion technology.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Join Zoom Meeting&lt;/strong&gt;&lt;br /&gt;\n&lt;a href=\"https://columbiacuimc.zoom.us/j/98062087107?pwd=ODN1TFwbtR23dO0Pk7Bq73td7fG91L.1\" target=\"_blank\"&gt;https://columbiacuimc.zoom.us/j/98062087107?pwd=ODN1TFwbtR23dO0Pk7Bq73td7fG91L.1&lt;/a&gt;&lt;br /&gt;\n&lt;br /&gt;\nMeeting ID: 980 6208 7107&lt;br /&gt;\nPasscode: 267022&lt;/p&gt;",
-      "start_date": "2026-06-03T20:00:00-04:00",
-      "end_date": "2026-06-03T21:00:00-04:00",
-      "category": [
-        "HEALTH",
-        "TECH",
-        "HUMANITIES",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9ddd6b15-019d-dee6c7d4-0000352eevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Herbert Irving Comprehensive Cancer Center",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Herbert Irving Comprehensive Cancer Center",
-          "tags": [
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Online",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "org/PublicHealth",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/pathology",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Online",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "org/PublicHealth",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/pathology",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_a431caf7",
-      "name": "SAVE THE DATE: 10th Anniversary Laugh to Remember",
-      "type": "Performance",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;On June 3, 2026, the 10th Anniversary Laugh to Remember benefit will take place at Gotham Comedy Club in New York City. The event will raise crucial funds for the Taub Institute for Research on Alzheimer&amp;rsquo;s Disease and the Aging Brain at Columbia University.&amp;nbsp;Funds raised from this benefit support medical research for neurodegenerative disorders such as Alzheimer&amp;rsquo;s, Parkinson&amp;rsquo;s, ALS, and Frontotemporal Dementia.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt;&amp;nbsp;Gotham Comedy Club, 208 West 23rd Street, New York City&lt;/p&gt;",
-      "start_date": "2026-06-03T22:00:00-04:00",
-      "end_date": "2026-06-04T01:00:00-04:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "HEALTH",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9c9e5be8-019c-9f9a71fb-0000224devents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": " \t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Department of Neurology",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Department of Neurology",
-          "tags": [
-            "org/Neurology",
-            "Off Campus",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Research",
-            "Postdocs",
-            "Prospective Students",
-            "Performance",
-            "Healthcare",
-            "Graduate Students",
-            "Trainees",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Research",
-            "Postdocs",
-            "Prospective Students",
-            "Performance",
-            "Healthcare",
-            "Graduate Students",
-            "Trainees",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_9ea0035a",
-      "name": "Situational Awareness",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Situational Awareness applies to all situations: being aware of where you are and to what is happening around you; being alert to potential threats to your health and safety and being cognizant of emergency exits and other paths to safety.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will learn:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;How&amp;nbsp;situational&amp;nbsp;awareness&amp;nbsp;can keep you safe.&lt;/li&gt;\n&lt;li&gt;&amp;ldquo;What are the odds?&amp;rdquo;-being informed to make good decisions for your personal safety.&lt;/li&gt;\n&lt;li&gt;Techniques to develop&amp;nbsp;awareness.&lt;/li&gt;\n&lt;li&gt;Personal safety resources&lt;/li&gt;\n&lt;li&gt;Run. Hide. Fight. &amp;ndash; a strategy for your personal safety in emergency situations&lt;/li&gt;\n&lt;/ul&gt;",
-      "start_date": "2026-06-05T15:00:00-04:00",
-      "end_date": "2026-06-05T16:00:00-04:00",
-      "category": [
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9ddd73eb-019d-ded6c820-000033c4events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Public Safety",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Public Safety",
-          "tags": [
-            "org/publicsafety",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Workshop",
-            "Online",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Graduate Students",
-            "Trainees",
-            "org/cumc",
-            "Training",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Workshop",
-            "Online",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Graduate Students",
-            "Trainees",
-            "org/cumc",
-            "Training",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_9fd3716d",
-      "name": "Lenfest Teens: &lsquo;Isle of Dogs&rsquo;",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Dir. Wes Anderson&lt;br /&gt;\n2018 | US | PG | 11+&lt;br /&gt;\nRuntime: 1 hour, 42 min&lt;/p&gt;\n&lt;p&gt;When all canines are banished to Trash Island, Atari sets out on a daring journey to find his lost dog, Spots. In this star-studded stop-motion animation adventure, a courageous pack of dogs proves that loyalty, courage, and teamwork can overcome even the most outrageous challenges.&lt;/p&gt;\n&lt;p&gt;Image credit: (c)&amp;nbsp;American Empirical Pictures&lt;/p&gt;",
-      "start_date": "2026-06-06T18:00:00-04:00",
-      "end_date": "2026-06-06T19:45:00-04:00",
-      "category": [
-        "ARTS",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9c27e51f-019c-29e5205a-00003f53events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Lenfest Center for the Arts, 615 W. 129 St., New York, NY 10027\tKatharina Otto-Bernstein Screening Room (Second Floor)",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Lenfest Center for the Arts",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Lenfest Center for the Arts",
-          "tags": [
-            "org/neighbors",
-            "Manhattanville",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Film",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/soa",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "org/lenfest",
-            "Arts"
-          ],
-          "audience": [
-            "Category",
-            "Film",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/soa",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Trainees",
-            "org/lenfest",
-            "Arts"
-          ]
         }
       }
     },
@@ -2678,6 +1777,80 @@
       }
     },
     {
+      "id": "evt_columbia_807d03d9",
+      "name": "Partnerships for Sustainable Mental Health Impact",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;This webinar will feature tested&amp;nbsp;mental health&amp;nbsp;interventions as illustrative examples within a broader discussion on integration and sustainability. Cohosted by Columbia Global Centers and Columbia World Projects, it will highlight community-based organizations that have partnered with Columbia University, providing a platform to present practical, short-term, and low-cost interventions implemented in mobile and humanitarian settings.&lt;/p&gt;\n&lt;p&gt;The 90-minute discussion will explore how partners adopt evidence-based interventions, integrate them into existing operations, and sustain them over time.&lt;/p&gt;",
+      "start_date": "2026-06-08T15:00:00-04:00",
+      "end_date": "2026-06-08T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9e72cc56-019e-74917b32-00003330events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Columbia Global",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Columbia Global",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Panel",
+            "org/columbiaglobal",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Education",
+            "org/cumc"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Panel",
+            "org/columbiaglobal",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Education",
+            "org/cumc"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_1332a2cd",
       "name": "RAIIDIUS",
       "type": "Academic",
@@ -2709,6 +1882,7 @@
         "additional_info": {
           "department": "CUMC Department of Medicine - Division of Infectious Diseases",
           "tags": [
+            "org/Neurosurgery",
             "AI",
             "org/msph_spc",
             "Artificial Intelligence",
@@ -2919,7 +2093,7 @@
       "type": "Conference",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;a href=\"https://www.vagelos.columbia.edu/departments-centers/ophthalmology/research/precision-ophthalmology/precision-ophthalmology-2025-our-dna\" target=\"_blank\"&gt;Precision Ophthalmology 2026&lt;/a&gt; is a one-day, case-based ophthalmology CME conference focused on the management of complex ophthalmic cases that challenge conventional thinking and demand multidisciplinary expertise. This year&amp;rsquo;s program brings together practicing ophthalmologists, optometrists, trainees, and ophthalmic team members for an immersive learning experience.&lt;/p&gt;\n&lt;p&gt;Through real-world case presentations, surgical and clinical video review, and interactive panel discussions, this ophthalmology conference highlights the diagnostic dilemmas, surgical complications, and decision-making processes that keep clinicians up at night&amp;mdash;and the strategies that ultimately lead to better patient outcomes.&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;a href=\"https://www.vagelos.columbia.edu/departments-centers/ophthalmology/research/precision-ophthalmology/precision-ophthalmology-2025-our-dna\" target=\"_blank\"&gt;Precision Ophthalmology 2026&lt;/a&gt; is a one-day, case-based ophthalmology CME conference focused on the management of complex ophthalmic cases that challenge conventional thinking and demand multidisciplinary expertise. This year&amp;rsquo;s program brings together practicing ophthalmologists, optometrists, trainees, and ophthalmic team members for an immersive learning experience.&lt;/p&gt;\n&lt;p&gt;Through real-world case presentations, surgical and clinical video review, and interactive panel discussions, this ophthalmology conference highlights the diagnostic dilemmas, surgical complications, and decision-making processes that keep clinicians up at night&amp;mdash;and the strategies that ultimately lead to better patient outcomes.&lt;/p&gt;\n&lt;p&gt;&lt;a href=\"https://www.vagelos.columbia.edu/file/54261/download?token=-RMoA4-7\" target=\"_blank\"&gt;View Program&lt;/a&gt;&lt;/p&gt;",
       "start_date": "2026-06-12T11:30:00-04:00",
       "end_date": "2026-06-12T17:30:00-04:00",
       "category": [
@@ -3070,68 +2244,6 @@
       }
     },
     {
-      "id": "evt_columbia_c03b70f6",
-      "name": "31st Kenneth F. Naidorf Memorial Lecture",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt;&lt;br /&gt;\nGut feelings: probing mechanisms of visceral pain&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;br /&gt;\nDavid Julius, PhD&lt;br /&gt;\nProfessor, Physiology&lt;br /&gt;\nMorris Herzstein Chair in Molecular Biology and Medicine&lt;br /&gt;\nChair, Physiology&lt;br /&gt;\nNobel Laureate&lt;/p&gt;",
-      "start_date": "2026-06-16T20:00:00-04:00",
-      "end_date": "2026-06-16T21:00:00-04:00",
-      "category": [
-        "HEALTH",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9ddd6f7a-019d-deedbc73-00003f6fevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Roy And Diana Vagelos Education Center, 104 Haven Ave., New York, NY 10032\t201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Pathology and Cell Biology",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Pathology and Cell Biology",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Lecture",
-            "Faculty",
-            "Events open to",
-            "org/UniversityEvents",
-            "Research",
-            "Postdocs",
-            "Graduate Students",
-            "Trainees",
-            "org/pathology",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Lecture",
-            "Faculty",
-            "Events open to",
-            "org/UniversityEvents",
-            "Research",
-            "Postdocs",
-            "Graduate Students",
-            "Trainees",
-            "org/pathology",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_19c48003",
       "name": "Department of Genetics and Development Seminar Series",
       "type": "Seminar",
@@ -3207,6 +2319,68 @@
             "Graduate School of Arts and Sciences",
             "Trainees",
             "org/cumc_hiccc",
+            "org/pathology",
+            "org/cumc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_c03b70f6",
+      "name": "31st Kenneth F. Naidorf Memorial Lecture",
+      "type": "Seminar",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt;&lt;br /&gt;\nGut feelings: probing mechanisms of visceral pain&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Speaker:&lt;/strong&gt;&lt;br /&gt;\nDavid Julius, PhD&lt;br /&gt;\nNobel Laureate in Physiology or Medicine (2021)&lt;br /&gt;\nMorris Herzstein Chair in Molecular Biology and Medicine&lt;br /&gt;\nChair, Department of Physiology&lt;br /&gt;\nUniversity of California, San Francisco&lt;/p&gt;\n&lt;p&gt;Dr. Julius is internationally recognized for his groundbreaking discoveries of receptors involved in the sensation of temperature and touch, work that earned him the 2021 Nobel Prize in Physiology or Medicine. His lecture will explore mechanisms underlying visceral pain and provide insights into the sensory pathways that influence human health and disease.&lt;/p&gt;\n&lt;p&gt;A reception will follow the lecture at&amp;nbsp;&lt;strong&gt;5:00 PM&lt;/strong&gt;&amp;nbsp;in the&amp;nbsp;&lt;strong&gt;VEC Milstein Family Lobby&lt;/strong&gt;.&lt;/p&gt;",
+      "start_date": "2026-06-16T20:00:00-04:00",
+      "end_date": "2026-06-16T21:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "HEALTH",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9ddd6f7a-019d-deedbc73-00003f6fevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Roy And Diana Vagelos Education Center, 104 Haven Ave., New York, NY 10032\t201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Pathology and Cell Biology",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Pathology and Cell Biology",
+          "tags": [
+            "Medical Center",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Lecture",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Graduate Students",
+            "Trainees",
+            "org/pathology",
+            "org/cumc"
+          ],
+          "audience": [
+            "Category",
+            "Lecture",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "Research",
+            "Postdocs",
+            "Graduate Students",
+            "Trainees",
             "org/pathology",
             "org/cumc"
           ]
@@ -3983,6 +3157,229 @@
       }
     },
     {
+      "id": "evt_columbia_c8305ede",
+      "name": "Crafts on The Corner: Sketch Sessions",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Wallach Art Gallery: Sketch Sessions&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Take a break in your day to tap into your creativity and explore different observational drawing techniques.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;7/15 and 9/9&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Join us for a set of sketch sessions inspired by the Wallach&amp;rsquo;s summer exhibition, Children&amp;rsquo;s Art Carnival in Harlem: The Making of Contemporary Artists. The series will explore improvisational drawing with music.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;All materials provided; no previous drawing experience required.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Please note that the program will start at the Forum and conclude at the Wallach Art Gallery.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Help us plan and let us know you are coming by registering &lt;a href=\"https://www.eventbrite.com/e/crafts-on-the-corner-sketch-sessions-tickets-1990797243145\" target=\"_blank\"&gt;here.&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Presented as part of Crafts on the Corner at the Bollinger Forum in collaboration with the &lt;a href=\"https://wallach.columbia.edu/\" target=\"_blank\"&gt;Wallach Art Gallery.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Established in 1986, the Miriam and Ira D. Wallach Art Gallery is Columbia University&amp;#39;s premier visual arts space. The Wallach&amp;#39;s mission is to advance Columbia University&amp;#39;s historical, critical, and creative engagement with the visual arts.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-07-15T16:00:00-04:00",
+      "end_date": "2026-07-15T17:30:00-04:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "SOCIAL",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9e82362b-019e-8477a8ea-00004ebeevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Forum",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "The Forum",
+          "tags": [
+            "org/neighbors",
+            "org/forum",
+            "Crafts on the Corner",
+            "Manhattanville",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Community",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Community",
+            "Arts"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_1b4680ca",
+      "name": "University Senate Plenary",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The monthly meeting of the full University Senate&lt;/li&gt;\n&lt;li&gt;Open to current CUID holders&lt;/li&gt;\n&lt;li&gt;Registration is now open &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/ydNU7d92R0qyahYGDWGzRQ\" target=\"_blank\"&gt;here&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Attendees to this Plenary meeting are reminded not to post this meeting, or any portion of this meeting, online as such a posting could result in a violation of the University&amp;rsquo;s &lt;a href=\"https://universitypolicies.columbia.edu/content/acceptable-usage-information-resources-policy\" target=\"_blank\"&gt; Acceptable Usages of Information Resources Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-07-16T17:15:00-04:00",
+      "end_date": "2026-07-16T18:45:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9e3f472a-019e-40f44dde-00004354events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "UniversitySenate",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "UniversitySenate",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Meeting",
+            "University Senate Plenary",
+            "University Senate",
+            "Vote",
+            "CUID Holders",
+            "Postdocs",
+            "org/univeristysenate",
+            "Graduate Students",
+            "Trainees",
+            "Other",
+            "University Governance"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Meeting",
+            "University Senate Plenary",
+            "University Senate",
+            "Vote",
+            "CUID Holders",
+            "Postdocs",
+            "org/univeristysenate",
+            "Graduate Students",
+            "Trainees",
+            "Other",
+            "University Governance"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_39c7753a",
+      "name": "University Senate Plenary",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The monthly meeting of the full University Senate&lt;/li&gt;\n&lt;li&gt;Open to current CUID holders&lt;/li&gt;\n&lt;li&gt;Registration is now open &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/ydNU7d92R0qyahYGDWGzRQ\" target=\"_blank\"&gt;here&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Attendees to this Plenary meeting are reminded not to post this meeting, or any portion of this meeting, online as such a posting could result in a violation of the University&amp;rsquo;s &lt;a href=\"https://universitypolicies.columbia.edu/content/acceptable-usage-information-resources-policy\" target=\"_blank\"&gt; Acceptable Usages of Information Resources Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-08-06T17:15:00-04:00",
+      "end_date": "2026-08-06T18:45:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9e3f472a-019e-40f58596-00004377events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "UniversitySenate",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "UniversitySenate",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Meeting",
+            "University Senate Plenary",
+            "University Senate",
+            "Vote",
+            "CUID Holders",
+            "Postdocs",
+            "org/univeristysenate",
+            "Graduate Students",
+            "Trainees",
+            "Other",
+            "University Governance"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Meeting",
+            "University Senate Plenary",
+            "University Senate",
+            "Vote",
+            "CUID Holders",
+            "Postdocs",
+            "org/univeristysenate",
+            "Graduate Students",
+            "Trainees",
+            "Other",
+            "University Governance"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_be279e71",
       "name": "The Scientist and the Storyteller Workshop",
       "type": "Workshop",
@@ -4052,6 +3449,81 @@
             "Mailman School of Public Health",
             "Trainees",
             "org/cumc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_415d34bd",
+      "name": "Crafts on The Corner: Sketch Sessions",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Wallach Art Gallery: Sketch Sessions&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Take a break in your day to tap into your creativity and explore different observational drawing techniques.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;7/15 and 9/9&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Join us for a set of sketch sessions inspired by the Wallach&amp;rsquo;s summer exhibition, Children&amp;rsquo;s Art Carnival in Harlem: The Making of Contemporary Artists. The series will explore improvisational drawing with music.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;All materials provided; no previous drawing experience required.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Please note that the program will start at the Forum and conclude at the Wallach Art Gallery.&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;Help us plan and let us know you are coming by registering &lt;a href=\"https://www.eventbrite.com/e/crafts-on-the-corner-sketch-sessions-tickets-1990797243145\" target=\"_blank\"&gt;here.&lt;/a&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Presented as part of Crafts on the Corner at the Bollinger Forum in collaboration with the &lt;a href=\"https://wallach.columbia.edu/\" target=\"_blank\"&gt;Wallach Art Gallery.&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;Established in 1986, the Miriam and Ira D. Wallach Art Gallery is Columbia University&amp;#39;s premier visual arts space. The Wallach&amp;#39;s mission is to advance Columbia University&amp;#39;s historical, critical, and creative engagement with the visual arts.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-09-09T16:00:00-04:00",
+      "end_date": "2026-09-09T17:30:00-04:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "SOCIAL",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9e82362b-019e-8478eb81-00004ec8events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The Forum",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "The Forum",
+          "tags": [
+            "org/neighbors",
+            "org/forum",
+            "Crafts on the Corner",
+            "Manhattanville",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Community",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Community",
+            "Arts"
           ]
         }
       }
@@ -4709,105 +4181,6 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_4a9c6504",
-      "name": "An Evening of Jazz Featuring Faculty, Students, Alumni & Guest Mike Mainieri",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "An evening of jazz, featuring Combo Nuvo, the internationally-known ensemble composed of Steinhart Jazz faculty and alumni. The ensemble welcomes special guest Mike Mainieri.",
-      "start_date": "2026-06-02T20:00:00-04:00",
-      "end_date": "2026-06-02T21:30:00-04:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/evening-jazz-featuring-faculty-students-alumni-guest-mike-mainieri",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:06:00.087664-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_377e730b",
-      "name": "THE WIZZIE: A Journey of Grief, Growth + Glitter",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Step into a world of grief, glitter, glamour, and glorious transformation. Inspired by The Wiz, the soulful reimagining of The Wizard of Oz, THE WIZZIE is a bold, futuristic, heart-expanding…",
-      "start_date": "2026-06-04T19:00:00-04:00",
-      "end_date": "2026-06-04T20:30:00-04:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/wizzie-journey-grief-growth-glitter",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "Black Box Theatre36 Washington Place, NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:06:00.088159-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_283a28df",
-      "name": "Young Adult Readings: Black River",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Black River is an afro-surreal family adventure where ten-year-old Jonas, grieving his father’s death, is swept into a mythical canoe journey down Wisconsin’s Black River.",
-      "start_date": "2026-06-06T19:00:00-04:00",
-      "end_date": "2026-06-06T20:30:00-04:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/young-adult-readings-black-river",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "Provincetown Playhouse133 MacDougal Street, NYC",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:06:00.088637-04:00"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_steinhardt_music_fb67c040",
       "name": "NYU Metro Center’s 4th Annual Art and Music Showcase",
       "type": "Performance",
@@ -4836,7 +4209,7 @@
         },
         "additional_info": {
           "areas_of_study": "Education",
-          "scraped_at": "2026-05-31T06:06:00.089453-04:00"
+          "scraped_at": "2026-06-07T06:13:54.182391-04:00"
         }
       }
     },
@@ -4869,7 +4242,40 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:06:00.089906-04:00"
+          "scraped_at": "2026-06-07T06:13:54.182855-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_751b815c",
+      "name": "MISE-EN Festival 2026",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "The MISE-EN Festival, a contemporary music festival now in its 12th year, supports and promotes underrepresented composers and performers from around the world.",
+      "start_date": "2026-06-16T19:00:00-04:00",
+      "end_date": "2026-06-16T20:30:00-04:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-06/mise-en-festival-2026",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "Room 303 (symposiums location)35 West 4th Street, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-06-07T06:13:54.183305-04:00"
         }
       }
     },
@@ -4902,7 +4308,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-05-31T06:06:00.090339-04:00"
+          "scraped_at": "2026-06-07T06:13:54.183752-04:00"
         }
       }
     },
@@ -4935,21 +4341,22 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-05-31T06:06:00.091506-04:00"
+          "scraped_at": "2026-06-07T06:13:54.184915-04:00"
         }
       }
     },
     {
-      "id": "evt_nyas_73179012",
-      "name": "Lyceum Society: Fruit Flies to Humans: Evolutionarily Conserved Mechanisms of Decision-Making",
+      "id": "evt_nyas_2d0e5a7a",
+      "name": "Molecular Pathways and Cellular Players in the Resolution of Organ Fibrosis",
       "type": "Seminar",
       "location_id": "loc_virtual",
       "community_id": "com_nyas",
       "description": "\n\n\n\n\n\n\nNYAS  |\n\t\t\t\t\tBlavatnik Awards | \n\t\t\t\t\tISR | \n\t\t\t\t\t \n\t\t\t\t\t\tAnnals\n\n\nBlog ·\n\t\t\t\t\tEvent Calendar\n\nBecome a Member\n\n\nSupport Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Us Overview\nMission & Values\nWhat We Do\nWho We Are\nOur History\nAbout Our Space\nNews & Media\nCareers\n\n\nFeatured Topics Overview\nHealth & Disease\nScience in Society\nSTEM Pathways\nSustainable Planet\nTechnology & Innovation\n\n\nLearning Overview\nHigh School Research Programs\nProfessional Learning\nSchool & Community Programs\n\n\nIdeas & Insights Overview",
-      "start_date": "2026-06-01T18:00:00-04:00",
-      "end_date": "2026-06-01T20:00:00-04:00",
+      "start_date": "2026-06-09T18:00:00-04:00",
+      "end_date": "2026-06-09T20:00:00-04:00",
       "category": [
         "EDUCATION",
+        "BIOLOGY",
         "ENVIRONMENTAL",
         "TECHNOLOGY",
         "SOCIAL",
@@ -4970,40 +4377,6 @@
         },
         "additional_info": {
           "event_type": "Virtual",
-          "is_member_free": true
-        }
-      }
-    },
-    {
-      "id": "evt_nyas_2d0e5a7a",
-      "name": "Molecular Pathways and Cellular Players in the Resolution of Organ Fibrosis",
-      "type": "Seminar",
-      "location_id": "loc_nyas_main",
-      "community_id": "com_nyas",
-      "description": "\n\n\nFree for Members \n\n\nHybrid Event \n\nMolecular Pathways and Cellular Players in the Resolution of Organ Fibrosis \n\n\t\t\t\t\tJun 09,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t09\t\t\t\t\t\n\n\t\t\t\t\t Jun\t\t\t\t\t\n\n\n \n",
-      "start_date": "2026-06-09T18:00:00-04:00",
-      "end_date": "2026-06-09T20:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "BIOLOGY",
-        "SCIENCE"
-      ],
-      "source": "nyas",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
-        "source_name": "New York Academy of Sciences Events Calendar",
-        "venue": {
-          "name": "The New York Academy of Sciences",
-          "address": "250 Greenwich St, New York, NY 10007",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New York Academy of Sciences",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "event_type": "Hybrid",
           "is_member_free": true
         }
       }
@@ -6068,50 +5441,28 @@
       "source": "luma"
     },
     {
-      "id": "evt_nyu_physics_event7709",
-      "name": "Higher Dimensional Holography",
-      "description": "The holographic dictionary is well developed for asymptotically anti de Sitter solutions obtained from consistent truncations of ten- or eleven-dimensional supergravity. However, many physically relevant solutions, such as bubbling geometries dual to very heavy operators, lie outside any known consistent truncation, making it difficult to compute holographic correlation functions. In this talk I will discuss an observable that is known exactly in field theory but not accesible with holographic methods, since its dual geometry does not lie within any consistent truncation.\r\nI will show how to compute the Euler conformal anomaly of 1/2-BPS surface operators in N=4 super Yang–Mills directly from the ten-dimensional type IIB supergravity  on-shell action by adding a suitable nine-dimensional counterterm. This example illustrates the need for a higher-dimensional approach to holographic renormalization applicable to general asymptotically AdS_p x M_q geometries. \r\nThis talk is based on https://arxiv.org/abs/2512.12696",
-      "start_date": "2026-06-04T11:00:00-04:00",
-      "end_date": "2026-06-04T12:00:00-04:00",
-      "location_id": null,
-      "community_id": null,
-      "category": [
-        "SCIENCE",
-        "EDUCATION"
-      ],
-      "source": "nyu_physics",
-      "source_group": "nyu_physics",
-      "metadata": {
-        "source_url": "http://physics.nyu.edu/events.html#event7709",
-        "url": "http://physics.nyu.edu/events.html#event7709",
-        "source_name": "NYU Physics Events",
-        "venue": {
-          "name": "NYU Physics",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Physics Department",
-          "type": "organizer"
-        },
-        "scraped_at": "2026-05-31T06:05:52.499293-04:00",
-        "original_source": "NYU Physics",
-        "speaker": "Other Center for Cosmology and Particle Physics Events",
-        "institution": "June 4, 2026 Thursday 11:00 AM+726Broadway, 940, CCPP Seminar(ccpp)Informal HEP TalkRaquel Izquierdo GarciaPerimeter InstituteHigher Dimensional HolographyThe holographic dictionary is well developed for asymptotically anti de Sitter solutions obtained from consistent truncations of ten- or eleven-dimensional supergravity. However, many physically relevant solutions, such as bubbling geometries dual to very heavy operators, lie outside any known consistent truncation, making it difficult to compute holographic correlation functions. In this talk I will discuss an observable that is known exactly in field theory but not accesible with holographic methods, since its dual geometry does not lie within any consistent truncation.\r\nI will show how to compute the Euler conformal anomaly of 1/2-BPS surface operators in N=4 super Yang–Mills directly from the ten-dimensional type IIB supergravity  on-shell action by adding a suitable nine-dimensional counterterm. This example illustrates the need for a higher-dimensional approach to holographic renormalization applicable to general asymptotically AdS_p x M_q geometries. \r\nThis talk is based on https://arxiv.org/abs/2512.12696",
-        "event_type": "ccpp",
-        "extraction_method": "html_parsing",
-        "links": [
-          {
-            "type": "other",
-            "text": "Broadway",
-            "url": "http://as.nyu.edu/physics/information.html"
-          },
-          {
-            "type": "series",
-            "text": "ccpp",
-            "url": "http://physics.nyu.edu/events.html?EventsPage=ccpp"
-          }
-        ]
-      }
+      "id": "6e09413c7b732632a4b4c07b2858b3d3",
+      "name": "DeSciNYC: An Evening with Crémieux",
+      "title": "DeSciNYC: An Evening with Crémieux",
+      "institution": "DeSciNYC",
+      "date": "June 05, 2026 at 12:00 AM",
+      "description": "Get up-to-date information at: https://luma.com/descinyc45",
+      "location": "https://luma.com/event/evt-z68JvEnCS6cUkqV",
+      "category": "Science",
+      "source_url": null,
+      "source": "luma"
+    },
+    {
+      "id": "bad56ea76e1416931586d1838d067e14",
+      "name": "DeSciNYC: Quantifying environmental stressors in NYC’s Transit S",
+      "title": "DeSciNYC: Quantifying environmental stressors in NYC’s Transit S",
+      "institution": "DeSciNYC",
+      "date": "July 07, 2026 at 11:30 PM",
+      "description": "Get up-to-date information at: https://luma.com/descinyc46",
+      "location": "https://luma.com/event/evt-Z5LdUYqkwziNMNV",
+      "category": "Science",
+      "source_url": null,
+      "source": "luma"
     },
     {
       "id": "evt_nyu_physics_event7711",
@@ -6139,7 +5490,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-05-31T06:05:52.499908-04:00",
+        "scraped_at": "2026-06-07T06:13:47.966242-04:00",
         "original_source": "NYU Physics",
         "speaker": "Soft Condensed Matter Seminars",
         "institution": "June 10, 2026 Wednesday 2:00 PM+Hybrid: 726 Bdwy, 871 and Zoom(csmr)Victor SourjikMax Planck InstituteHow Physics Guides Evolution: Lessons from Bacterial MotilityBacterial motility is one of the quantitatively best-understood behaviors in biology, and we use it as a model to investigate how the interplay between physics and physiology has shaped the evolution of biological systems. One central question here is how much of their limited cellular resources bacteria allocate into “expensive” motile behavior. Our results suggest that the key features of the resource investment strategy of E. coli can be quantitatively explained by the physical limitations on bacterial propulsion and the fitness trade-off between motility and growth. We further investigated whether experimental evolution under laboratory conditions can compensate for the lack of essential chemotaxis genes of E. coli. While the absence of highly evolutionary conserved core pathway components could not be circumvented by such short-term evolutionary adaptation, we were able to re-evolve chemotactic-like behavior in strains lacking the individual adaptation enzymes or phosphatase. This finding demonstrates surprisingly rapid evolution of alternative strategies of bacterial behavior that are physically possible but not normally biologically utilized.",
@@ -6150,6 +5501,52 @@
             "type": "series",
             "text": "csmr",
             "url": "http://physics.nyu.edu/events.html?EventsPage=csmr"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt_nyu_physics_event7712",
+      "name": "Measurement of the dynamical charge susceptibility near the charge\r\ndensity wave transition in ErTe3",
+      "description": "A charge density wave (CDW) phase, observed in many materials with a highly anisotropic\r\nelectronic structure, is characterized by a periodic modulation of valence electron density coupled\r\nwith lattice distortion. The formation of a CDW ground state is closely tied to the dynamical charge\r\nsusceptibility, χ(q,ω), which reveals the collective behavior of charge carriers in materials.\r\nHowever, χ(q, ω) near a CDW transition had never been measured at finite momentum transfer\r\nwith ~meV energy resolution, despite decades of extensive studies. In this talk, I will present our\r\nresults on the investigation of the canonical CDW transition in ErTe3 using momentum-resolved\r\nelectron energy loss spectroscopy (M-EELS), a technique uniquely sensitive to valence band\r\ncharge excitations. Unlike phonons, which soften via the Kohn anomaly, we find that the electronic\r\nexcitations exhibit purely relaxational dynamics well described by a diffusive model, with the\r\ndiffusivity peaking just below the ordering temperature. Additionally, we report, for the first time,\r\na divergent behavior in the real part of χ(q, ω) in the static limit (ω → 0), a long-predicted hallmark\r\nof CDWs. Unexpectedly, this divergence occurs as T→0, with only a weak thermodynamic\r\nsignature at the ordering temperature. Our study necessitates a re-examination of the traditional\r\ndescription of CDW formation and demonstrates the power of M-EELS as a versatile probe of\r\ncharge dynamics in correlated quantum materials.Reference:1. Chaudhuri et al., Proc. Natl. Acad. Sci. U.S.A. 122 (25) e2424430122 (2025).\r\nhttps://doi.org/10.1073/pnas.2424430122",
+      "start_date": "2026-06-10T14:00:00-04:00",
+      "end_date": "2026-06-10T15:00:00-04:00",
+      "location_id": null,
+      "community_id": null,
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "source": "nyu_physics",
+      "source_group": "nyu_physics",
+      "metadata": {
+        "source_url": "http://physics.nyu.edu/events.html#event7712",
+        "url": "http://physics.nyu.edu/events.html#event7712",
+        "source_name": "NYU Physics Events",
+        "venue": {
+          "name": "NYU Physics",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Physics Department",
+          "type": "organizer"
+        },
+        "scraped_at": "2026-06-07T06:13:47.966607-04:00",
+        "original_source": "NYU Physics",
+        "speaker": "Center for Quantum Phenomena Seminars",
+        "institution": "June 10, 2026 Wednesday 2:00 PM+726Broadway, 802, Special CQP Seminar(cqp)Dipanjan  ChaudhuriUniversity of Illinois Urbana-ChampaignMeasurement of the dynamical charge susceptibility near the charge\r\ndensity wave transition in ErTe3A charge density wave (CDW) phase, observed in many materials with a highly anisotropic\r\nelectronic structure, is characterized by a periodic modulation of valence electron density coupled\r\nwith lattice distortion. The formation of a CDW ground state is closely tied to the dynamical charge\r\nsusceptibility, χ(q,ω), which reveals the collective behavior of charge carriers in materials.\r\nHowever, χ(q, ω) near a CDW transition had never been measured at finite momentum transfer\r\nwith ~meV energy resolution, despite decades of extensive studies. In this talk, I will present our\r\nresults on the investigation of the canonical CDW transition in ErTe3 using momentum-resolved\r\nelectron energy loss spectroscopy (M-EELS), a technique uniquely sensitive to valence band\r\ncharge excitations. Unlike phonons, which soften via the Kohn anomaly, we find that the electronic\r\nexcitations exhibit purely relaxational dynamics well described by a diffusive model, with the\r\ndiffusivity peaking just below the ordering temperature. Additionally, we report, for the first time,\r\na divergent behavior in the real part of χ(q, ω) in the static limit (ω → 0), a long-predicted hallmark\r\nof CDWs. Unexpectedly, this divergence occurs as T→0, with only a weak thermodynamic\r\nsignature at the ordering temperature. Our study necessitates a re-examination of the traditional\r\ndescription of CDW formation and demonstrates the power of M-EELS as a versatile probe of\r\ncharge dynamics in correlated quantum materials.Reference:1. Chaudhuri et al., Proc. Natl. Acad. Sci. U.S.A. 122 (25) e2424430122 (2025).\r\nhttps://doi.org/10.1073/pnas.2424430122",
+        "event_type": "cqp",
+        "extraction_method": "html_parsing",
+        "links": [
+          {
+            "type": "other",
+            "text": "Broadway",
+            "url": "http://as.nyu.edu/physics/information.html"
+          },
+          {
+            "type": "series",
+            "text": "cqp",
+            "url": "http://physics.nyu.edu/events.html?EventsPage=cqp"
           }
         ]
       }
@@ -6180,7 +5577,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-05-31T06:05:52.500183-04:00",
+        "scraped_at": "2026-06-07T06:13:47.966903-04:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
         "institution": "June 16, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Arman DuhaOklahoma State UniversityMetrologically Useful Entanglement Generation and Dynamical Phase Transitions in Long-Range Interacting Spin SystemsA central goal of Quantum Information Science (QIS) is to harness entanglement for practical advantage. While much of the public attention on QIS has focused on quantum computing, the quantum metrology community has made tremendous progress in developing strategies and platforms for surpassing classical limits on measurement precision. Spin squeezing has emerged as one of the most promising routes to quantum-enhanced precision in atomic clocks, magnetometers, and inertial sensors. While spin squeezing has been extensively studied for infinite-range and homogeneous interactions, recent experimental realizations in finite-range platforms such as trapped ions and Rydberg arrays have opened the door to scalable squeezing by exploiting the spatiotemporal control, significantly broadening the scope of experimentally accessible platforms. In this talk, I will present my work on entanglement generation in bilayers of power-law interacting spin models, where spatiotemporal control of the interactions enables significant improvements in sensitivity scaling over conventional approaches. I will first show how Floquet-engineered spatially anisotropic interactions can improve the metrological scaling from the standard quantum limit (1/√N) to the ultimate Heisenberg limit (1/N). I will then demonstrate that the squeezing dynamics hosts a dynamical phase transition between a fully collective phase with Heisenberg-limited squeezing and a partially collective phase with scalable squeezing. This transition is explained within the framework of nonequilibrium critical phenomena through universal scaling of the full-time dynamics. Finally, I will discuss ongoing work examining the robustness and scope of this universality, including the role of lattice geometry, dimensionality, and interaction engineering in shaping the phase diagram and the critical scaling. These results are relevant to current experiments with Rydberg arrays, polar molecules, and trapped ions, and point toward broader connections between entanglement generation and nonequilibrium universality classes.",
@@ -6226,7 +5623,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-05-31T06:05:52.500714-04:00",
+        "scraped_at": "2026-06-07T06:13:47.967388-04:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "November 11, 2026 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Alexander PeninU. of Alberta",
@@ -6244,23 +5641,6 @@
             "url": "http://physics.nyu.edu/events.html?EventsPage=hep"
           }
         ]
-      }
-    },
-    {
-      "id": "evt_nyu_api_e87b7664cf",
-      "name": "National Theatre Live Screening: All My Sons",
-      "description": "$18*- NYU Students$28*-NYU Faculty/Staff/Alumni$33* Full Price*Save $3 by buying in person at the NYU Box OfficeScreening of Bryan Cranston and Marianne Jean-Baptiste in Arthur Miller&#8217;s ALL MY SONS&#160;",
-      "start_date": "2026-05-31T19:00:00-04:00",
-      "end_date": "2026-05-31T19:00:00-04:00",
-      "source": "nyu",
-      "source_group": "nyu",
-      "metadata": {
-        "source_url": "https://events.nyu.edu/live/event/event/398938-national-theatre-live-screening-all-my-sons",
-        "source_name": "New York University",
-        "venue": {
-          "name": "Skirball Center for the Performing Arts",
-          "type": "Offline"
-        }
       }
     },
     {
@@ -6332,6 +5712,23 @@
       }
     },
     {
+      "id": "evt_nyu_api_b8eabc7b06",
+      "name": "Theater &amp; Policy Salon presents Ben Hatt’s “Imposed”",
+      "description": "Join this Theater and Policy Salon at NYU Washington, DC for a timely conversation on the growing impact of AI-generated deepfakes and the challenges they pose to individuals, communities, and democratic society. The evening will feature a semi-staged reading of Imposed, a new play by Washington, D.C. playwright Ben Hatt, followed by a panel discussion with experts in law, technology, policy, and the arts. Inspired by real-world experiences, Imposed tells the story of two young women targeted by deepfake revenge pornography, illuminating the human consequences of rapidly evolving technologies that often outpace legal protections and public awareness. Using the play as a starting point, panelists will explore the broader risks of AI-generated content—from nonconsensual intimate imagery and misinformation to the growing influence of AI-powered digital relationships. Together, they will examine emerging policy solutions, industry responsibilities, and practical steps individuals can take to navigate an increasingly complex digital landscape.",
+      "start_date": "2026-06-24T22:30:00-04:00",
+      "end_date": "2026-06-24T22:30:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/400189-theater-policy-salon-presents-ben-hatts",
+        "source_name": "New York University",
+        "venue": {
+          "name": "1307 L Street, NW Washington, DC",
+          "type": "Offline"
+        }
+      }
+    },
+    {
       "id": "evt_nyu_api_ba15ddc2e5",
       "name": "National Theatre Live Screening: Les Liaisons Dangereuses",
       "description": "$18*- NYU Students $28*-NYU Faculty/Staff/Alumni $33* Full Price *Save $3 by buying in person at the NYU Box Office Screening of Christopher Hampton’s celebrated adaptation of the classic novel, where among the glittering salons of the super-rich, one misstep can mean ruin.",
@@ -6344,6 +5741,23 @@
         "source_name": "New York University",
         "venue": {
           "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_2eb4cf0c6e",
+      "name": "Ghosts Who Talk Too Much: George Saunders’s Humor, Heart, and the Gift of Uncertainty A Lunch Talk with Dr. Karen Frances McCarthy",
+      "description": "Join Dr. Karen Frances McCarthy and the NYU SPS Academy of Lifelong Learning as we explore the playful, poignant, and often surprising world of George Saunders, one of American fiction’s most inventive voices.",
+      "start_date": "2026-09-10T16:00:00-04:00",
+      "end_date": "2026-09-10T16:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/400197-ghosts-who-talk-too-much-george-saunderss-humor",
+        "source_name": "New York University",
+        "venue": {
+          "name": "SPS Midtown 20 West 43rd",
           "type": "Offline"
         }
       }
