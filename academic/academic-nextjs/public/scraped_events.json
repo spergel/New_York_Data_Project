@@ -1,27 +1,44 @@
 {
-  "scraped_at": "2026-06-28T06:05:17.381755",
-  "total_events": 167,
+  "scraped_at": "2026-07-05T05:51:04.658950",
+  "total_events": 180,
   "event_sources": {
     "nyu_neuroscience_events_debug": 0,
-    "pratt_events_debug": 8,
+    "pratt_events_debug": 9,
     "nyu_medicine_events_debug": 2,
-    "new_school_events_debug": 11,
-    "jtsa_events_debug": 9,
-    "nyas_events_debug": 10,
+    "new_school_events_debug": 20,
+    "jtsa_events_debug": 10,
+    "nyas_events_debug": 15,
     "miller_events_debug": 51,
     "juilliard_events_debug": 0,
-    "nyu_physics_events_debug": 1,
-    "nyu_api_events_debug": 3,
-    "nyu_steinhardt_events_debug": 3,
-    "columbia_events_debug": 27,
+    "nyu_physics_events_debug": 2,
+    "nyu_api_events_debug": 4,
+    "nyu_steinhardt_events_debug": 2,
+    "columbia_events_debug": 25,
     "nyu_education_events_debug": 1,
     "luma_events_debug": 69,
-    "nyu_steinhardt_music_events_debug": 3,
-    "nypl_events_debug": 2,
+    "nyu_steinhardt_music_events_debug": 2,
+    "nypl_events_debug": 1,
     "columbia_classics_events_debug": 2,
     "fordham_events_debug": 1
   },
   "events": [
+    {
+      "id": "e6ba2a33113fd70853984ed183392214",
+      "name": "Beyond Digital: Living Systems & Distributed Intelligence",
+      "description": "Event at Pratt Manhattan Gallery, 144 West 14th Street New York, NY 10011",
+      "start_date": "2026-06-26T09:00:00-04:00",
+      "end_date": "2026-09-05T23:59:00-04:00",
+      "location_id": "pratt_institute",
+      "community_id": "pratt_institute",
+      "category": "academic",
+      "url": "https://www.pratt.edu/events/beyond-digital/",
+      "metadata": {
+        "source": "pratt_institute",
+        "source_group": "Pratt",
+        "scraped_at": "2026-07-05T05:51:03.750034-04:00",
+        "extraction_method": "teaser"
+      }
+    },
     {
       "id": "ef0204ea5f5cb27c9ab5cd5c1bdab540",
       "name": "Pratt Institute x The Village West: Windows on 14th Street",
@@ -35,7 +52,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.084410-04:00",
+        "scraped_at": "2026-07-05T05:51:03.750263-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -52,14 +69,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.085880-04:00",
+        "scraped_at": "2026-07-05T05:51:03.751988-04:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "253024d5495f17f747be5945eec1379e",
       "name": "Today at Pratt",
-      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n          Exhibitions\n        \n\n\n          Pratt Institute x The Village West: Windows on 14th Street\n        \n\n\n\n\n\nJune 15 – September 15, 2026\nAll Day\n\n\nThe Village West, 525 6...",
+      "description": "Event at Pratt Institute. \nToday at Pratt\n\n\n\n\n\n\n          Exhibitions\n        \n\n\n          Beyond Digital: Living Systems & Distributed Intelligence\n        \n\n\n\n\n\nJune 26 – September 5, 2026\n11:00 AM – 6:00 PM\n\n\nPratt Manhatta...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -69,14 +86,14 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.085911-04:00",
+        "scraped_at": "2026-07-05T05:51:03.752038-04:00",
         "extraction_method": "header"
       }
     },
     {
       "id": "da309ad5d95783831800b75842692b92",
       "name": "Calendar",
-      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n          Exhibitions\n        \n\n\n          Pratt Institute x The Village West: Windows on 14th Street\n        \n\n\n\n\n\nJune 15 – September 15, 2026\nAll Day\n\n\nThe Village...",
+      "description": "Event at Pratt Institute. \n\n\nEvents\n\n\n\nToday at Pratt\n\n\n\n\n\n\n          Exhibitions\n        \n\n\n          Beyond Digital: Living Systems & Distributed Intelligence\n        \n\n\n\n\n\nJune 26 – September 5, 2026\n11:00 AM – 6:00 PM\n\n\nPr...",
       "start_date": null,
       "end_date": null,
       "location_id": "pratt_institute",
@@ -86,7 +103,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.085966-04:00",
+        "scraped_at": "2026-07-05T05:51:03.752134-04:00",
         "extraction_method": "header"
       }
     },
@@ -103,7 +120,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.085990-04:00",
+        "scraped_at": "2026-07-05T05:51:03.752160-04:00",
         "extraction_method": "header"
       }
     },
@@ -120,7 +137,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.086012-04:00",
+        "scraped_at": "2026-07-05T05:51:03.752190-04:00",
         "extraction_method": "header"
       }
     },
@@ -137,7 +154,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.086034-04:00",
+        "scraped_at": "2026-07-05T05:51:03.752213-04:00",
         "extraction_method": "header"
       }
     },
@@ -154,7 +171,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-06-28T06:05:16.087711-04:00",
+        "scraped_at": "2026-07-05T05:51:03.754446-04:00",
         "extraction_method": "container"
       }
     },
@@ -178,7 +195,7 @@
     {
       "id": "evt_nyu_medicine_16e7cf32de",
       "name": "Additional Education and Research Calendars",
-      "description": "Applied Bioinformatics Laboratories\nBiochemistry and Molecular Biophysics Seminar Series\nEmergency Medicine Prevention and Education Partnership\nFaculty Development\n\nGenes, Systems, and Computation Seminar Series\nGenome Health Analysis\nHealth Sciences Library\nHiBRID Lab\nImmunology Club\nIntegrative Health\nOffice of Diversity Affairs\nOffice of Science and Research\nSection for Global Health\nTechnology Opportunities and Ventures\nTranslational Research in Progress Seminars\nWorking Group on Compassionate Use and Preapproval Access\n\nHow to Submit an Event or Request a New Calendar\n\nIf you are part of NYU Grossman School of Medicine and would like to submit an event, choose a specific calendar and click the “Submit an Event” button, and then log in with your Kerberos ID and password to complete the event submission form. Your request will be reviewed by the calendar’s manager.\n\nTo request a new calendar, please fill out a public website content request form. For the Request Type field, select med.nyu.edu and then provide the details about your new calendar request. Please also use this content request form if you already have a calendar and would like to have your events pull into your med.nyu.edu site.\n\nFor general information, browse our frequently asked questions. (Kerberos ID and password required).",
+      "description": "Applied Bioinformatics Laboratories\nBiochemistry and Molecular Biophysics Seminar Series\nEmergency Medicine Prevention and Education Partnership\nFaculty Development\nGenes, Systems, and Computation Seminar Series\nGenome Health Analysis\nHealth Sciences Library\nHiBRID Lab\nImmunology Club\nIntegrative Health\nOffice of Diversity Affairs\nOffice of Science and Research\nSection for Global Health\nTechnology Opportunities and Ventures\nTranslational Research in Progress Seminars\nWorking Group on Compassionate Use and Preapproval Access\n\nHow to Submit an Event or Request a New Calendar\n\nIf you are part of NYU Grossman School of Medicine and would like to submit an event, choose a specific calendar and click the “Submit an Event” button, and then log in with your Kerberos ID and password to complete the event submission form. Your request will be reviewed by the calendar’s manager.\n\nTo request a new calendar, please fill out a public website content request form. For the Request Type field, select med.nyu.edu and then provide the details about your new calendar request. Please also use this content request form if you already have a calendar and would like to have your events pull into your med.nyu.edu site.\n\nFor general information, browse our frequently asked questions. (Kerberos ID and password required).",
       "start_date": "",
       "end_date": "",
       "source": "nyu",
@@ -189,144 +206,6 @@
         "venue": {
           "name": "NYU Medical Center",
           "type": "Offline"
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_082f8814",
-      "name": "The Luddite Conference on Participatory Futures",
-      "type": "Conference",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "With companies like OpenAI taking Pentagon contracts and Elon Musk using government resources to scrape Americans' data, it's hard to feel that there are any tangible ways to resist the techno-fascist backslide. To regain a sense of social agency, we are convening a participatory conference inspired by the Luddite movement. We will tackle questions such as: What is the relationship between Silicon Valley and the Pentagon? What are the social and political consequences of new AI technologies? And what can we do in response?Please join us for a day of learning how Big Tech brought us to this existentially threatening moment, and how we can reclaim personal and collective agency for a participatory future.Our speakers will include William Hartung (author of Trillion Dollar War Machine), Koohan Paik-Mander (co-founder of the Tech-Critics Network), and Juan Sebastian Pinto (Colorado People's Caucus on AI).Conference ScheduleTime: 10am to 3pmDate: Tuesday, June 30thLocation: The New School's Tishman Auditorium, 63 Fifth Avenue, New York, NY Please register in advance. This conference is part of The Summer of Ludd, happening across NYC from June 28th to July 5th. ",
-      "start_date": "2026-06-30T10:00:00-04:00",
-      "end_date": "2026-06-30T15:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "HUMANITIES",
-        "SOCIAL"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/theludditeconference",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Tishman Auditorium, The New School",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "The New School For Social Research",
-            "Eugene Lang College Of Liberal Arts"
-          ],
-          "tags": [
-            "lobbymonitor",
-            "slide_events",
-            "general public",
-            "philosophy",
-            "intellectual culture and big ideas",
-            "media, science, and technology",
-            "eugene lang college of liberal arts",
-            "the new school for social research",
-            "conferences",
-            "tishman auditorium, the new school",
-            "conferences and symposia"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_a47ee0d7",
-      "name": "In Conversation with Ingy Hodhod",
-      "type": "Seminar",
-      "location_id": "loc_newschool_main",
-      "community_id": "com_newschool",
-      "description": "We are thrilled to welcome Ingy Hodhod for a conversation session hosted by Associate Professor of Fashion Communication Emily Huggard.A New York–based Senior PR Manager at Bottega Veneta, Ingy brings over a decade of experience leading strategic communications for global luxury fashion houses, with a specialism in editorial, VIP, and influencer strategies across the Americas and LATAM markets. She will share her perspective on how a house like Bottega Veneta shapes culturally resonant brand narratives while navigating the demands of digital communication and influencer partnerships.",
-      "start_date": "2026-07-01T10:30:00-04:00",
-      "end_date": "2026-07-01T11:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "VISUAL_ARTS",
-        "BUSINESS"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/inconversationwithingyhodhod",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "University Center - Room L104",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "Parsons School of Design"
-          ],
-          "tags": [
-            "students",
-            "fashion",
-            "parsons school of design",
-            "lectures and talks",
-            "university center - room l104",
-            "lectures and panel discussions"
-          ],
-          "audience": []
-        }
-      }
-    },
-    {
-      "id": "evt_newschool_048d8afc",
-      "name": "Unready: The State of Preparedness of Future Caregivers",
-      "type": "Conference",
-      "location_id": "loc_virtual",
-      "community_id": "com_newschool",
-      "description": "Join us for the second session of the Reimagining the Economics of Aging Seminar Series, a monthly virtual forum hosted by the Wealth Equity Lab at The New School. This series brings together scholars and practitioners to deepen conversations on aging, retirement, and late-life economic security, with a focus on works in progress and active discussion. On July 1, we will host Andrew Gellert, PhD, Economist at TIAA Institute, for a discussion of new research on how Americans prepare for future caregiving responsibilities. As the U.S. population ages - with one in five residents expected to be age 65 or older by 2030 and 70 percent projected to need caregiving and long-term care during their lifetime - the financial and personal implications of caregiving are becoming increasingly important. Yet relatively little is known about how individuals anticipate and prepare for these responsibilities.Drawing on survey data from both caregivers and non-caregivers, Gellert will examine how adults plan for providing elder care and what they understand about the demands caregiving may place on them. The research finds that while many adults who expect to become caregivers recognize some aspects of what caregiving will require, they often underestimate its financial, health-related, and other personal impacts, and devote little time to planning or preparing for the role. This session will explore the implications of these findings for individuals, families, and policymakers concerned with aging and long-term care.",
-      "start_date": "2026-07-01T11:00:00-04:00",
-      "end_date": "2026-07-01T23:59:59-04:00",
-      "category": [
-        "EDUCATION",
-        "BUSINESS",
-        "SOCIAL"
-      ],
-      "source": "new_school",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://event.newschool.edu/unready",
-        "source_name": "The New School Events",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "The New School",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": [
-            "The New School For Social Research"
-          ],
-          "tags": [
-            "general public",
-            "economics",
-            "international and global affairs",
-            "politics, policy and government",
-            "the new school for social research",
-            "conferences",
-            "online | zoom",
-            "conferences and symposia",
-            "Bernard Schwartz Center for Economic Policy Analysis"
-          ],
-          "audience": []
         }
       }
     },
@@ -609,6 +488,99 @@
       }
     },
     {
+      "id": "evt_newschool_0849f5a2",
+      "name": "LIVESTREAM | Schneider Concerts Presents Erinys Quartet",
+      "type": "Performance",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ opens with the Finnish string quartet, the Erinys Quartet, performing:Lembit Beecher: Juniper and Birch Quartet (2025)—New York premiereMozart: String Quartet in D Minor, K. 421 (1783)Lotta Wennäkoski: Pige (movement one) (2022)Schubert: Death and the Maiden (1824)This concert will be approximately 2 hours, including intermission. Livestreams are offered by pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's your choice, we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.If you have questions, please contact us at nsc@newschool.edu or (212) 229-5873",
+      "start_date": "2026-10-04T14:00:00-04:00",
+      "end_date": "2026-10-04T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-livestream-erinys",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "international and global affairs",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "virtual"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_ecc8d0c3",
+      "name": "Schneider Concerts Presents | Erinys Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ opens with the Finnish string quartet, the Erinys Quartet, performing: Lembit Beecher: Juniper and Birch Quartet (2025)—New York premiereMozart: String Quartet in D Minor, K. 421 (1783)Lotta Wennäkoski: Pige (movement one) (2022)Schubert: Death and the Maiden (1824) This concert will be approximately 2 hours, including intermission. 12:30 PM pre-concert talk requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous online broadcast for those who can't attend in person. Register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2026-27 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues, we explore the place we carry.Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2026-10-04T14:00:00-04:00",
+      "end_date": "2026-10-04T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-erinys",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school-63 5th avenue"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_98e174eb",
       "name": "John Lewis: A Life",
       "type": "Seminar",
@@ -656,26 +628,28 @@
       }
     },
     {
-      "id": "evt_newschool_10c7fb0a",
-      "name": "Historian Jill Lepore on the American Experience",
-      "type": "Seminar",
-      "location_id": "loc_newschool_main",
+      "id": "evt_newschool_0b059096",
+      "name": "Schneider Concerts Presents | Prometheus Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_63fifth",
       "community_id": "com_newschool",
-      "description": "Center for the American Experience invites you to join Jill Lepore, award-winning American historian, New Yorker staff writer, and professor of law and American history at Harvard University, for a conversation with CAE faculty co-director Natalia Mehlman Petrzela on the American experience and her new book, The Rise and Fall of the Artificial State. Lepore’s work has long explored how Americans understand democracy, constitutionalism, technology, and the institutions that shape public life, and this event will situate her latest book within that broader intellectual project.  The discussion will range across the themes that define her scholarship and public writing, from the promises and dangers of technological governance to the evolving meanings of liberty, equality, and civic responsibility in the United States.The Rise and Fall of the Artificial State examines how modern states have increasingly relied on bureaucratic systems, algorithms, and engineered institutions to manage society, raising urgent questions about who controls these artificial structures and what they mean for democratic accountability. Drawing on her signature blend of historical depth and clear, accessible argument, Lepore traces the rise of these engineered systems and warns of their fragility when they outpace the human capacities they are meant to serve. Associate Professor of Philosophy and Vice President of Technology Zed Adams will introduce the event. ",
-      "start_date": "2026-10-22T16:00:00-04:00",
-      "end_date": "2026-10-22T23:59:59-04:00",
+      "description": "The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the New York Debut of the Prometheus Quartet. Prometheus QuartetRoger Shao, violinAnthony Chan, violinBrian Jennings, violaWilson Vanderslice, celloVivian Fung: String Quartet No. 2 (2009)Franz Joseph Haydn: String Quartet Op. 33, No. 3, “The Bird” (1781)Lei Liang: Gobi Gloria (2006)Johannes Brahms: String Quartet in C Minor, Op. 51, No. 1 (1873) This concert will be approximately 2 hours long, including intermission. 12:30 PM pre-concert talk requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous online broadcast for those who can't attend in person. Register for free or choose to pay up to $20—the price of an in-person ticket. The price is entirely up to you—no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry.Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2026-11-15T14:00:00-05:00",
+      "end_date": "2026-11-15T16:30:00-05:00",
       "category": [
         "EDUCATION",
-        "HUMANITIES",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
         "SOCIAL"
       ],
       "source": "new_school",
       "source_group": "Independent",
       "metadata": {
-        "source_url": "https://event.newschool.edu/jillleporeamericanexperience",
+        "source_url": "https://event.newschool.edu/schneiderconcerts-prometheus",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Wollman Hall - Room B500",
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
           "type": "venue"
         },
         "organizer": {
@@ -683,43 +657,487 @@
           "type": "organizer"
         },
         "additional_info": {
-          "department": [],
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
           "tags": [
             "general public",
-            "centers institutes and labs",
-            "lectures and talks",
-            "wollman hall - room b500",
-            "lectures and panel discussions",
-            "Center for the American Experience"
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school - 63 5th avenue"
           ],
           "audience": []
         }
       }
     },
     {
-      "id": "evt_jtsa_85462cba",
-      "name": "Deuteronomy and the Separation of Powers",
-      "type": "Academic",
+      "id": "evt_newschool_71d7bd9e",
+      "name": "LIVESTREAM | Schneider Concerts Presents Prometheus Quartet",
+      "type": "Performance",
       "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "Dr. Benjamin D. Sommer will attend to the political philosophy of Sefer Devarim and how it emphasizes the diffusion of authority among several bodies of governing officials and the subordination of all these officials to the law.",
-      "start_date": "2026-06-29T12:00:00-04:00",
-      "end_date": "2026-06-29T13:00:00-04:00",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the New York Debut of the Prometheus Quartet.Prometheus QuartetRoger Shao, violinAnthony Chan, violinBrian Jennings, violaWilson Vanderslice, celloVivian Fung: String Quartet No. 2 (2009)Franz Joseph Haydn: String Quartet Op. 33, No. 3, “The Bird” (1781)Lei Liang: Gobi Gloria (2006)Johannes Brahms: String Quartet in C Minor, Op. 51, No. 1 (1873)This concert will be approximately 2 hours, including intermission. Livestreams are offered by pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's your choice - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This concert is part of the Schneider Concerts 2026-27 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.If you have questions, please contact us at nsc@newschool.edu or (212) 229-5873",
+      "start_date": "2026-11-15T14:00:00-05:00",
+      "end_date": "2026-11-15T16:00:00-05:00",
       "category": [
-        "RELIGION"
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
       ],
-      "source": "jtsa",
+      "source": "new_school",
       "source_group": "Independent",
       "metadata": {
-        "source_url": "https://www.jtsa.edu/event/deuteronomy-separation-powers/",
-        "source_name": "JTSA Events Calendar",
+        "source_url": "https://event.newschool.edu/schneiderconcerts-livestream-prometheus",
+        "source_name": "The New School Events",
         "venue": {
           "name": "Online Event",
           "type": "virtual"
         },
         "organizer": {
-          "name": "Jewish Theological Seminary",
+          "name": "The New School",
           "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "virtual"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_0d4c9b78",
+      "name": "Schneider Concerts Presents | Pandan Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the New York Debut of the Pandan Quartet, joined by violist Kirsten Docter. Pandan QuartetSébastien Tsai, violinEleanor O'Brien, violinHolly Bogle, violaMadeleine Hearn, celloFranz Joseph Haydn: String Quartet in B-flat Major, Op. 76, No. 4 (1796–1797)Jerod Impichchaachaaha' Tate: Pisachi (Reveal) (2013)Antonín Dvořák: String Quintet in E-flat Major, Op 97 (1893), with Kirsten Docter, viola This concert will be approximately 2 hours, including intermission. 12:30 PM pre-concert talk requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous online broadcast for those who can't attend in person. Register for free or choose to pay up to $20 (the price of an in-person ticket). The price is entirely up to you—no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry.Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2026-12-06T14:00:00-05:00",
+      "end_date": "2026-12-06T16:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcertspresentspandan",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school - 63 5th avenue"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_90c56d5a",
+      "name": "LIVESTREAM | Schneider Concerts Presents Pandan Quartet",
+      "type": "Performance",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the Pandan Quartet, joined by violist Kirsten Docter. Pandan QuartetSébastien Tsai, violinEleanor O'Brien, violinHolly Bogle, violaMadeleine Hearn, celloFranz Joseph Haydn: String Quartet in B-flat Major, Op. 76, No. 4 (1796–1797)Jerod Impichchaachaaha' Tate: Pisachi (Reveal) (2013)Antonín Dvořák: String Quintet in E-flat Major, Op 97 (1893), with Kirsten Docter, violaThis concert will be approximately 2 hours, including intermission. Livestreams are offered by pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's your choice, we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities. Explore the entire 2026-2027 season here.If you have questions, please contact us at nsc@newschool.edu or (212) 229-5873",
+      "start_date": "2026-12-06T14:00:00-05:00",
+      "end_date": "2026-12-06T16:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-livestream-pandan",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "virtual"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_79c74620",
+      "name": "Schneider Concerts Presents | Balourdet Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the first of three mainstage concerts with the 2026-2027 curating ensemble.Balourdet Quartet Angela Bae, violinJustin DeFilippis violinBenjamin Zannoni, violaRussell Houston, celloEric Nathan: Schneider Concerts co-commission - World PremiereBéla Bartók: String Quartet No. 6, Sz. 114 (1939)Ludwig van Beethoven: String Quartet, Op. 132 (1825) This concert will be approximately 2 hours, including intermission. 12:30p.m. pre-concert talk requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous online broadcast for those who can't attend in person. Register for free or choose to pay up to $20 (the price of an in-person ticket). The price is entirely up to you, no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry.Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2027-01-31T14:00:00-05:00",
+      "end_date": "2027-01-31T16:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcertspresentsbalourdet",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school - 63 5th avenue"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_378c913f",
+      "name": "LIVESTREAM | Schneider Concerts Presents Balourdet Quartet",
+      "type": "Performance",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the first of three concerts with the 2026-2027 curating ensemble, the Balourdet Quartet Angela Bae, violinJustin DeFilippis violinBenjamin Zannoni, violaRussell Houston, celloEric Nathan: Schneider Concerts co-commission - World PremiereBéla Bartók: String Quartet No. 6, Sz. 114 (1939) Ludwig van Beethoven: String Quartet, Op. 132 (1825) This concert will be approximately 2 hours, including intermission. Livestreams are offered by pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's your choice - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This concert is part of the Schneider Concerts 2026-27 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.If you have questions, please contact us at nsc@newschool.edu or (212) 229-5873",
+      "start_date": "2027-01-31T14:00:00-05:00",
+      "end_date": "2027-01-31T16:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-livestream-balourdet",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "virtual"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_16dfd538",
+      "name": "Schneider Concerts March Preconcert Talk",
+      "type": "Seminar",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "Our speaker will introduce the works to be performed by the Balourdet Quartet and cellist Astrid Schween at 2pm[NOTE: concert requires separate ticket purchase] Giancomo Puccini: Crisantemi (Chrysanthemums) (1890)Nicky Sohn: Galaxy Back to You (2024)Amy Beach: String Quartet in 1 Movement, Op. 89 (1929)Franz Schubert: String Quintet in C Major (1828), with Astrid Schween, celloThis event is part of the Schneider Concerts 2026-27 seasonIn 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2027-03-14T12:30:00-04:00",
+      "end_date": "2027-03-14T13:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcertstalk03142027",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "tishman auditorium, the new school-63 5th avenue",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_0076fa46",
+      "name": "Schneider Concerts Presents | Balourdet Quartet & Astrid Schween",
+      "type": "Performance",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the Balourdet Quartet and Astrid Schween, cello:Balourdet QuartetAngela Bae, violinJustin DeFilippis violinBenjamin Zannoni, violaRussell Houston, celloGiancomo Puccini: Crisantemi (Chrysanthemums) (1890)Nicky Sohn: Galaxy Back to You (2024)Amy Beach: String Quartet in 1 Movement, Op. 89 (1929)Franz Schubert: String Quintet in C Major (1828), with Astrid Schween, celloThis concert will be approximately 2 hours, including intermission. 12:30 PM pre-concert talk requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous online broadcast for those who can't attend in person. Register for free or choose to pay up to $20 (the price of an in-person ticket). The price is entirely up to you, no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry.Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2027-03-14T14:00:00-04:00",
+      "end_date": "2027-03-14T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-balourdet-schween",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school - 63 5th avenue"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_72837712",
+      "name": "LIVESTREAM|Schneider Concerts Presents Balourdet Quartet & Astrid Schween",
+      "type": "Performance",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ continues with the Balourdet Quartet and Astrid Schween, cello:Angela Bae, violinJustin DeFilippis violinBenjamin Zannoni, violaRussell Houston, cello Giancomo Puccini: Crisantemi (Chrysanthemums) (1890)Nicky Sohn: Galaxy Back to You (2024)Amy Beach: String Quartet in 1 Movement, Op. 89 (1929)Franz Schubert: String Quintet in C Major (1828), with Astrid Schween, celloThis concert will be approximately 2 hours, including intermission. Livestreams are offered by pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's your choice - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This concert is part of the Schneider Concerts 2026-27 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.If you have questions, please contact us at nsc@newschool.edu or (212) 229-5873",
+      "start_date": "2027-03-14T14:00:00-04:00",
+      "end_date": "2027-03-14T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-livestream-balourdet-schween",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "virtual",
+            "music performances",
+            "theater performances"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_2384d41c",
+      "name": "Schneider Concerts Presents | Fiammetta Quartet",
+      "type": "Performance",
+      "location_id": "loc_newschool_63fifth",
+      "community_id": "com_newschool",
+      "description": "The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ closes with the New York debut of the Fiammetta String Quartet, joined by the 2026-2027 curating ensemble, the Balourdet Quartet. Fiammetta QuartetWilliam JoseloffTom ShamrakovCamille Cole, violaEamon Riley, celloShih-Hui Chen: Fantasia on the Theme of Plum Blossoms (2007)Franz Joseph Haydn: String Quartet in G Major, Op. 54, No. 1 (1788)Osvaldo Golijov: Octet Ever Yours (2022)—with the Balourdet Quartet This concert will be approximately 2 hours, including intermission. 12:30p.m. pre-concert talk requires separate $5 ticket purchase - click here.This concert is available as a pay-what-you-wish simultaneous online broadcast for those who can't attend in person. Register for free or choose to pay up to $20 (the price of an in-person ticket). The price is entirely up to you, no pressure. We just want you to enjoy the music. Register for livestream link here. This concert is part of the Schneider Concerts 2026-2027 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry.Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.",
+      "start_date": "2027-04-25T14:00:00-04:00",
+      "end_date": "2027-04-25T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcertspresentsfiammetta",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The New School - 63 Fifth Avenue",
+          "address": "63 Fifth Avenue, New York, NY 10003",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "tishman auditorium, the new school - 63 5th avenue"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_f52a6c9c",
+      "name": "LIVESTREAM | Schneider Concerts Presents Fiammetta Quartet",
+      "type": "Performance",
+      "location_id": "loc_virtual",
+      "community_id": "com_newschool",
+      "description": "All season long the Schneider Concerts is offering simultaneous online broadcasts (livestreams) of the concerts we're presenting at The New School.The 2026-2027 Schneider Concerts chamber music season exploring the place we carry﻿ closes with the New York debut of the Fiammetta String Quartet, joined by the 2026-2027 curating ensemble, the Balourdet Quartet.Fiammetta QuartetWilliam JoseloffTom ShamrakovCamille Cole, violaEamon Riley, celloShih-Hui Chen: Fantasia on the Theme of Plum Blossoms (2007)Franz Joseph Haydn: String Quartet in G Major, Op. 54, No. 1 (1788)Osvaldo Golijov: Octet Ever Yours (2022)—with the Balourdet QuartetThis concert will be approximately 2 hours, including intermission. Livestreams are offered by pay-what-you-wish access.That means you can choose to register for a free ticket or pay up to $20 (the cost of in-person attendance at our concerts). It's your choice - we want as many people as possible to enjoy the music.Those who register for the livestream will receive a viewing link 24 hours before the concert.The link will become active about 15 minutes before the live concert begins.This concert is part of the Schneider Concerts 2026-27 season: In 6 mainstage concerts featuring exceptional emerging ensembles, livestreams, pre-concert talks, and free short programs at community partner venues we explore the place we carry. Composers and chamber musicians bring nature into cities, transform urban rhythms into music, and weave memories, family histories, and migration stories into their work, reflecting and engaging cultural identity as vital members of their communities.Explore the entire 2026-2027 season here.If you have questions, please contact us at nsc@newschool.edu or (212) 229-5873",
+      "start_date": "2027-04-25T14:00:00-04:00",
+      "end_date": "2027-04-25T16:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/schneiderconcerts-livestream-fiammetta",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "intellectual culture and big ideas",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "virtual"
+          ],
+          "audience": []
         }
       }
     },
@@ -941,14 +1359,68 @@
       }
     },
     {
-      "id": "evt_nyas_ae7ebe3c",
-      "name": "Ebola and Hantavirus: What You Need to Know",
+      "id": "evt_jtsa_d3235adf",
+      "name": "Biblical Hebrew IV: Advanced Reading Seminar—Jeremiah’s Wrath (afternoon)",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "In eight live online sessions, we will read the prophecies and narratives of Jeremiah 23–26.",
+      "start_date": "2026-10-08T12:00:00-04:00",
+      "end_date": "2026-10-08T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-fall-2026-afternoon/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_2884ab5f",
+      "name": "Biblical Hebrew II: Jumpstart Part II (morning)",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "By the end of the course, participants will be able to parse (in terms of person, number, tense) every type of Hebrew Qal verb.",
+      "start_date": "2026-10-19T12:00:00-04:00",
+      "end_date": "2026-10-19T13:00:00-04:00",
+      "category": [
+        "ARTS"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-ii-fall-2026-morning/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_09260787",
+      "name": "You Belong in STEM: Careers Creating Change",
       "type": "Seminar",
       "location_id": "loc_virtual",
       "community_id": "com_nyas",
-      "description": "\n\n\n\n\n\n\nNYAS  |\n\t\t\t\t\tBlavatnik Awards | \n\t\t\t\t\tISR | \n\t\t\t\t\t \n\t\t\t\t\t\tAnnals\n\n\nBlog ·\n\t\t\t\t\tEvent Calendar\n\nBecome a Member\n\n\nSupport Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Us Overview\nMission & Values\nWhat We Do\nWho We Are\nOur History\nAbout Our Space\nNews & Media\nCareers\n\n\nFeatured Topics Overview\nHealth & Disease\nScience in Society\nSTEM Pathways\nSustainable Planet\nTechnology & Innovation\n\n\nLearning Overview\nHigh School Research Programs\nProfessional Learning\nSchool & Community Programs\n\n\nIdeas & Insights Overview",
-      "start_date": "2026-06-29T18:00:00-04:00",
-      "end_date": "2026-06-29T20:00:00-04:00",
+      "description": "\n\n\n\n\n\n\nNYAS  |\n\t\t\t\t\tBlavatnik Awards | \n\t\t\t\t\tISR | \n\t\t\t\t\t \n\t\t\t\t\t\tAnnals\n\n\nBlog ·\n\t\t\t\t\tEvent Calendar\n\nBecome a Member\n\n\nSupport Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Us Overview\nMission & Values\nWhat We Do\nWho We Are\nOur History\nRent Our Space\nNews & Media\nCareers\n\n\nFeatured Topics Overview\nHealth & Disease\nScience in Society\nSTEM Pathways\nSustainable Planet\nTechnology & Innovation\n\n\nLearning Overview\nHigh School Research Programs\nProfessional Learning\nSchool & Community Programs\n\n\nIdeas & Insights Overview\n",
+      "start_date": "2026-07-30T18:00:00-04:00",
+      "end_date": "2026-07-30T20:00:00-04:00",
       "category": [
         "EDUCATION",
         "ENVIRONMENTAL",
@@ -971,72 +1443,6 @@
         },
         "additional_info": {
           "event_type": "Virtual",
-          "is_member_free": true
-        }
-      }
-    },
-    {
-      "id": "evt_nyas_5b17b601",
-      "name": "The Societal Risks of AI",
-      "type": "Seminar",
-      "location_id": "loc_virtual",
-      "community_id": "com_nyas",
-      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nThe Societal Risks of AI \n\n\t\t\t\t\tJun 30,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t30\t\t\t\t\t\n\n\t\t\t\t\t Jun\t\t\t\t\t\n\n\n \n",
-      "start_date": "2026-06-30T18:00:00-04:00",
-      "end_date": "2026-06-30T20:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "TECHNOLOGY",
-        "SCIENCE"
-      ],
-      "source": "nyas",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
-        "source_name": "New York Academy of Sciences Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "The New York Academy of Sciences",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "event_type": "Virtual",
-          "is_member_free": true
-        }
-      }
-    },
-    {
-      "id": "evt_nyas_09260787",
-      "name": "You Belong in STEM: Careers Creating Change",
-      "type": "Seminar",
-      "location_id": "loc_nyas_main",
-      "community_id": "com_nyas",
-      "description": "\n\n\nFree for Members \n\n\nHybrid Event \n\nYou Belong in STEM: Careers Creating Change \n\n\t\t\t\t\tJul 30,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t30\t\t\t\t\t\n\n\t\t\t\t\t Jul\t\t\t\t\t\n\n\n \n",
-      "start_date": "2026-07-30T18:00:00-04:00",
-      "end_date": "2026-07-30T20:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "SCIENCE"
-      ],
-      "source": "nyas",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
-        "source_name": "New York Academy of Sciences Events Calendar",
-        "venue": {
-          "name": "The New York Academy of Sciences",
-          "address": "250 Greenwich St, New York, NY 10007",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New York Academy of Sciences",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "event_type": "Hybrid",
           "is_member_free": true
         }
       }
@@ -1070,6 +1476,38 @@
         },
         "additional_info": {
           "event_type": "In-person",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_a76fd6b1",
+      "name": "Navigating STEM Career Opportunities, Funding, and Immigration Pathways Outside the U.S.",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nNavigating STEM Career Opportunities, Funding, and Immigration Pathways Outside the U.S. \n\n\t\t\t\t\tSep 24,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t24\t\t\t\t\t\n\n\t\t\t\t\t Sep\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-09-24T18:00:00-04:00",
+      "end_date": "2026-09-24T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
           "is_member_free": true
         }
       }
@@ -1141,6 +1579,38 @@
       }
     },
     {
+      "id": "evt_nyas_dd3e2650",
+      "name": "Navigating STEM Career Opportunities, Funding, and Immigration Pathways Inside the U.S.",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nNavigating STEM Career Opportunities, Funding, and Immigration Pathways Inside the U.S. \n\n\t\t\t\t\tOct 13,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t13\t\t\t\t\t\n\n\t\t\t\t\t Oct\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-10-13T18:00:00-04:00",
+      "end_date": "2026-10-13T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_be4bbd3f",
       "name": "Chemical Biology: Peptide and Protein Design",
       "type": "Seminar",
@@ -1170,6 +1640,39 @@
         },
         "additional_info": {
           "event_type": "Hybrid",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_eda1858c",
+      "name": "AI Tools for Literature Review, Writing, and Research Productivity",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nAI Tools for Literature Review, Writing, and Research Productivity \n\n\t\t\t\t\tNov 05,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t05\t\t\t\t\t\n\n\t\t\t\t\t Nov\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-11-05T18:00:00-05:00",
+      "end_date": "2026-11-05T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "TECHNOLOGY",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
           "is_member_free": true
         }
       }
@@ -1243,6 +1746,103 @@
       }
     },
     {
+      "id": "evt_nyas_608ba41f",
+      "name": "Scientific Publishing at the Edge: Trust and Authority in the Age of AI and Open Access",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nScientific Publishing at the Edge: Trust and Authority in the Age of AI and Open Access \n\n\t\t\t\t\tDec 09,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t09\t\t\t\t\t\n\n\t\t\t\t\t Dec\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-12-09T18:00:00-05:00",
+      "end_date": "2026-12-09T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "TECHNOLOGY",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_fe433275",
+      "name": "How to Get Research Funding from Industry",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nHow to Get Research Funding from Industry \n\n\t\t\t\t\tFeb 25,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t25\t\t\t\t\t\n\n\t\t\t\t\t Feb\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-02-25T18:00:00-05:00",
+      "end_date": "2027-02-25T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_fcc15687",
+      "name": "CVs and Cover Letters for Academic Jobs",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nCVs and Cover Letters for Academic Jobs \n\n\t\t\t\t\tMar 11,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t11\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-03-11T18:00:00-05:00",
+      "end_date": "2027-03-11T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_0efdaa1e",
       "name": "Autoimmunity Meets Innovation: Drugs and Devices",
       "type": "Seminar",
@@ -1254,6 +1854,39 @@
       "category": [
         "EDUCATION",
         "TECHNOLOGY",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "The New York Academy of Sciences",
+          "address": "250 Greenwich St, New York, NY 10007",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Hybrid",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_21073372",
+      "name": "Trust in Science and Medicine",
+      "type": "Seminar",
+      "location_id": "loc_nyas_main",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nHybrid Event \n\nTrust in Science and Medicine \n\n\t\t\t\t\tMay 13,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t13\t\t\t\t\t\n\n\t\t\t\t\t May\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-05-13T18:00:00-04:00",
+      "end_date": "2027-05-13T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
         "SCIENCE"
       ],
       "source": "nyas",
@@ -1821,6 +2454,52 @@
       }
     },
     {
+      "id": "evt_nyu_physics_event7715",
+      "name": "astro - Astrophysics and Relativity Seminars",
+      "description": "Speaker: Astrophysics and Relativity Seminars | Institution: October 12, 2026 Monday 12:00 PM+726Broadway, 940, CCPP Seminar(astro) | Event Type: astro",
+      "start_date": "2026-10-12T12:00:00-04:00",
+      "end_date": "2026-10-12T13:00:00-04:00",
+      "location_id": null,
+      "community_id": null,
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "source": "nyu_physics",
+      "source_group": "nyu_physics",
+      "metadata": {
+        "source_url": "http://physics.nyu.edu/events.html#event7715",
+        "url": "http://physics.nyu.edu/events.html#event7715",
+        "source_name": "NYU Physics Events",
+        "venue": {
+          "name": "NYU Physics",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Physics Department",
+          "type": "organizer"
+        },
+        "scraped_at": "2026-07-05T05:50:57.764861-04:00",
+        "original_source": "NYU Physics",
+        "speaker": "Astrophysics and Relativity Seminars",
+        "institution": "October 12, 2026 Monday 12:00 PM+726Broadway, 940, CCPP Seminar(astro)",
+        "event_type": "astro",
+        "extraction_method": "html_parsing",
+        "links": [
+          {
+            "type": "other",
+            "text": "Broadway",
+            "url": "http://as.nyu.edu/physics/information.html"
+          },
+          {
+            "type": "series",
+            "text": "astro",
+            "url": "http://physics.nyu.edu/events.html?EventsPage=astro"
+          }
+        ]
+      }
+    },
+    {
       "id": "evt_nyu_physics_event7612",
       "name": "hep - High Energy Physics Seminars",
       "description": "Speaker: High Energy Physics Seminars | Institution: November 11, 2026 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Alexander PeninU. of Alberta | Event Type: hep",
@@ -1846,7 +2525,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-06-28T06:05:06.109360-04:00",
+        "scraped_at": "2026-07-05T05:50:57.765175-04:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "November 11, 2026 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Alexander PeninU. of Alberta",
@@ -1879,6 +2558,23 @@
         "source_name": "New York University",
         "venue": {
           "name": "Skirball Center for the Performing Arts",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_fe09de7da6",
+      "name": "Family Welcome: Student Belonging and Community Resources at NYU",
+      "description": "",
+      "start_date": "2026-08-29T20:30:00-04:00",
+      "end_date": "2026-08-29T20:30:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU",
           "type": "Offline"
         }
       }
@@ -1918,38 +2614,6 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_03cfee02",
-      "name": "Day Trip to Governor's Island",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "We will walk through the lavender field, visit Fort Jay and Castle Williams, chill on Hammock Grove, and have ice cream all together.",
-      "start_date": "2026-06-30T09:30:00-04:00",
-      "end_date": "2026-06-30T14:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/day-trip-governors-island-0",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "Off-site",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "",
-          "scraped_at": "2026-06-28T06:05:06.457965-04:00"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_steinhardt_9cf6e736",
       "name": "Ice Cream Social",
       "type": "Seminar",
@@ -1977,7 +2641,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-06-28T06:05:06.459838-04:00"
+          "scraped_at": "2026-07-05T05:50:58.025177-04:00"
         }
       }
     },
@@ -2009,217 +2673,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-06-28T06:05:06.460216-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_f2662d79",
-      "name": "Webinar: Sovereign Ceilings and Credit Ratings in Emerging Markets",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/bknLXaNyQ-WLJVWmA7nlfw#/registration\" target=\"_blank\"&gt;REGISTER HERE&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;\n&lt;p&gt;The sovereign ceiling has long functioned as a broad proxy for government interference risk in project and issuer-level credit assessment. Our &lt;strong&gt;&lt;a href=\"https://ccsi.columbia.edu/rethinking-sovereign-risk-ceilings/\" target=\"_blank\"&gt;recent CCSI paper&lt;/a&gt;&lt;/strong&gt; examines whether that logic still holds for modern financing structures, and proposes a four-step framework that disaggregates sovereign risk into identifiable transmission channels and assesses each against the mitigants in place.&lt;br /&gt;\n&lt;br /&gt;\nThe argument is methodological. Sovereign ceilings should not function as an automatic constraint inferred from sovereign characteristics alone when the actual channels of interference and their mitigants can be assessed directly at the instrument and issuer level. The paper focuses on domestic-revenue infrastructure in EMDEs, where ceilings often have the most distortionary effects, and grounds the framework in empirical evidence from the GEMs database and real transactions across power, digital infrastructure, and other capital-intensive sectors.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Speakers:&lt;/strong&gt;&lt;br /&gt;\nIgor Zelezetskii, Senior Fellow, CCSI; Former CEO ACRA (Credit Rating Agency); Former VP, Moody&amp;rsquo;s&lt;/p&gt;\n&lt;p&gt;Arend Kulenkampff, Innovative Finance Lead for Nature Lab, Nature Finance&lt;/p&gt;\n&lt;p&gt;Waide Warner, Senior Fellow, CCSI; Harvard Law School&lt;/p&gt;\n&lt;p&gt;Robert Ginsburg, Senior Fellow, CCSI; Hult International Business School&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Moderated by:&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Perrine Toledano, Director of Research and Policy, CCSI&lt;/p&gt;\n&lt;p&gt;Ana Maria Camelo Vega, Senior Economics and Finance Researcher, CCSI&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Event Overview:&lt;/strong&gt;&lt;br /&gt;\nThis 90-minute session will combine a presentation of the paper&amp;rsquo;s key findings with reflections from senior practitioners on insurance and backtesting, investment and financing structures, regional and institutional considerations, and the path ahead, followed by an open audience discussion.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Applied Perspectives Panel&lt;/strong&gt;&lt;br /&gt;\nWith invited senior practitioners from across multilateral development banks, development finance institutions, rating agencies, insurance, and structured finance.&lt;/p&gt;",
-      "start_date": "2026-06-30T12:30:00-04:00",
-      "end_date": "2026-06-30T14:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9ecf75a3-019e-d11eeea8-00002fc7events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Columbia Center on Sustainable Investment",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Columbia Center on Sustainable Investment",
-          "tags": [
-            "org/CCS",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Online",
-            "Webcast",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "org/CCSI",
-            "Graduate Students",
-            "Trainees",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Online",
-            "Webcast",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "org/CCSI",
-            "Graduate Students",
-            "Trainees",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_f49f8e12",
-      "name": "2026 Edward P. Evans Foundation MDS Centers Symposium",
-      "type": "Conference",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Join the&amp;nbsp;&lt;a href=\"https://www.cancer.columbia.edu/\" target=\"_blank\"&gt;Herbert Irving Comprehensive Cancer Center&lt;/a&gt;&amp;nbsp;and Memorial Sloan Kettering Cancer Center on July 1st&amp;nbsp;for the annual Edward P. Evans Foundation MDS Centers Symposium.&amp;nbsp;This annual symposium brings together basic, translational, and clinical researchers dedicated to discovering molecular, cellular genetic and epigenetic insights to develop and test innovative therapies for myelodysplastic syndromes.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Guests should&amp;nbsp;enter through the Schaefer Awards Gallery in the Black Building.&lt;/em&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Event Organizers:&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Stavroula Kousteni, PhD (CUIMC/HICCC)&lt;/li&gt;\n&lt;li&gt;Omar Abdel-Wahab, MD, PhD (MSK)&lt;/li&gt;\n&lt;li&gt;Azra Raza, MD (CUIMC/HICCC)&lt;/li&gt;\n&lt;li&gt;Ross Levine, MD (MSK)&lt;/li&gt;\n&lt;/ul&gt;",
-      "start_date": "2026-07-01T12:00:00-04:00",
-      "end_date": "2026-07-01T22:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "HEALTH",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9d9a7ca7-019d-9c2b2bcd-000052afevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "William Black Medical Research Building, 650 W. 168 St., New York, NY 10032\tAlumni Auditorium and Schaefer Awards Gallery",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Herbert Irving Comprehensive Cancer Center",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Herbert Irving Comprehensive Cancer Center",
-          "tags": [
-            "org/MDS",
-            "org/HMI",
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Symposium",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "Education",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Graduate Students",
-            "Symposium",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "Education",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_9b7b6770",
-      "name": "Incoming President Mnookin&rsquo;s Fourth of July Picnic",
-      "type": "Academic",
-      "location_id": "loc_columbia_law",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;In celebration of the 250th anniversary of our nation&amp;rsquo;s independence, incoming President Mnookin invites you to a casual, festive summer picnic. Join us for classic Fourth-of-July fare, refreshing summer treats, and an opportunity to gather in community as we commemorate this important milestone and embark on an exciting new chapter in Columbia&amp;rsquo;s history.&lt;br /&gt;\n&lt;br /&gt;\nAll students, faculty, and staff with a Columbia University ID are welcome.&lt;/p&gt;",
-      "start_date": "2026-07-02T16:00:00-04:00",
-      "end_date": "2026-07-02T18:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "SOCIAL",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9ef38b52-019e-f5c06fbf-00004b53events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "South Lawn, 500 W. 116 St., New York, NY 10027\t",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "University Programs",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "University Programs",
-          "tags": [
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universityprograms",
-            "Community",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/universityprograms",
-            "Community",
-            "Other"
-          ]
+          "scraped_at": "2026-07-05T05:50:58.025583-04:00"
         }
       }
     },
@@ -2735,7 +3189,8 @@
             "Postdocs",
             "Graduate Students",
             "org/cssw_cg",
-            "Trainees"
+            "Trainees",
+            "org/cumc"
           ],
           "audience": [
             "Category",
@@ -2752,7 +3207,8 @@
             "Postdocs",
             "Graduate Students",
             "org/cssw_cg",
-            "Trainees"
+            "Trainees",
+            "org/cumc"
           ]
         }
       }
@@ -2918,6 +3374,75 @@
       }
     },
     {
+      "id": "evt_columbia_8df7b44b",
+      "name": "Situational Awareness",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Situational Awareness applies to all situations: being aware of where you are and to what is happening around you; being alert to potential threats to your health and safety and being cognizant of emergency exits and other paths to safety.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will learn:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;How&amp;nbsp;situational&amp;nbsp;awareness&amp;nbsp;can keep you safe.&lt;/li&gt;\n&lt;li&gt;&amp;ldquo;What are the odds?&amp;rdquo;-being informed to make good decisions for your personal safety.&lt;/li&gt;\n&lt;li&gt;Techniques to develop&amp;nbsp;awareness.&lt;/li&gt;\n&lt;li&gt;Personal safety resources&lt;/li&gt;\n&lt;li&gt;Run. Hide. Fight. &amp;ndash; a strategy for your personal safety in emergency situations&lt;/li&gt;\n&lt;/ul&gt;",
+      "start_date": "2026-07-31T15:00:00-04:00",
+      "end_date": "2026-07-31T16:00:00-04:00",
+      "category": [
+        "TECH",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9f127179-019f-1409ccd1-00003ce6events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Public Safety",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Public Safety",
+          "tags": [
+            "org/publicsafety",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Graduate Students",
+            "Trainees",
+            "org/cumc",
+            "Training",
+            "Other"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Graduate Students",
+            "Trainees",
+            "org/cumc",
+            "Training",
+            "Other"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_77489bfb",
       "name": "Who the Health Cares? Podcast | Summer Webinar",
       "type": "Academic",
@@ -2965,6 +3490,7 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/PublicHealth",
             "Government and Public Policy",
             "Prospective Students",
             "Graduate Students",
@@ -2986,6 +3512,7 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/PublicHealth",
             "Government and Public Policy",
             "Prospective Students",
             "Graduate Students",
@@ -3079,7 +3606,7 @@
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;h1&gt;Join us for a two-day workshop to discuss recent breakthroughs and future directions in this vibrant field.&lt;/h1&gt;\n&lt;h2&gt;&lt;strong&gt;*Register by July 7*&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Registration is required; invitations&amp;nbsp;to follow.&lt;/strong&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Featured Speakers:&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;Beena Kalisky, Bar-Ilan University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Scanning SQUID view of quantum materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Markus Raschke, University of Colorado&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Ultrafast nano-imaging of optical, electronic, and quantum coherence&amp;mdash;what&amp;rsquo;s the difference and what does it mean?&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Eli Zeldov, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Reconfigurable chiral superconductivity&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Zhurun (Judy) Ji, MIT&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;LASCOPE: Automated Microwave and Millimeter-Wave Imaging&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Shahal Ilani, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Imaging the flat bands of magic-angle graphene reshaped by interactions&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Nathalie De Leon, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Multi-qubit nanoscale sensing with entanglement as a resource&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Aaron Lindenberg, Stanford University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;New forms of calorimetry at the atomic scale&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Frank Koppens, ICFO&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Cryogenic near-field microscopy of superconductors and out-of-equillibrium criticalities in moir&amp;eacute; systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ido Kaminer, Technion - Israel Institute of Technology&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The extremes of quantum optics and their prospects for many-body quantum systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Mengkun Liu, Stonybrook University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Big Ideas in Quantum Materials Nanoscopy: From Magneto-Polaritons to Superconducting Vortices.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Moshe Ben Shalom, Tel Aviv University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The Sliding Ferroelectric Resonant Tunnel Junction&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Sarah King, University of Chicago&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Electron nanoimaging of hyperbolic plasmon polaritons in the quasi 1D metal MoOCl₂&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ali Yazdani, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Opportunities for nanoscale characterization of correlated and topological phases in 2d materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Milan Delor, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Visualizing quantum dynamics in asymmetric media&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Raquel Queiroz, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Seeing Lattice Interference: Quantum Geometry from the Perspective of Local Probes&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ben Feldman, Stanford&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;em&gt;Title TBA&lt;/em&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;This workshop is supported by the Moore Foundation.&lt;/h2&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;",
+      "description": "&lt;h1&gt;Join us for a two-day workshop to discuss recent breakthroughs and future directions in this vibrant field.&lt;/h1&gt;\n&lt;h2&gt;&lt;strong&gt;*Register by July 7*&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Registration is required; invitations&amp;nbsp;to follow.&lt;/strong&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Featured Speakers:&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;Ali Yazdani, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Opportunities for nanoscale characterization of correlated and topological phases in 2d materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Beena Kalisky, Bar-Ilan University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Scanning SQUID view of quantum materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Markus Raschke, University of Colorado&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Ultrafast nano-imaging of optical, electronic, and quantum coherence&amp;mdash;what&amp;rsquo;s the difference and what does it mean?&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Eli Zeldov, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Reconfigurable chiral superconductivity&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Zhurun (Judy) Ji, MIT&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;LASCOPE: Automated Microwave and Millimeter-Wave Imaging&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Shahal Ilani, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Imaging the flat bands of magic-angle graphene reshaped by interactions&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Nathalie De Leon, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Multi-qubit nanoscale sensing with entanglement as a resource&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Aaron Lindenberg, Stanford University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;New forms of calorimetry at the atomic scale&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Frank Koppens, ICFO&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Cryogenic near-field microscopy of superconductors and out-of-equillibrium criticalities in moir&amp;eacute; systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ido Kaminer, Technion - Israel Institute of Technology&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The extremes of quantum optics and their prospects for many-body quantum systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Mengkun Liu, Stonybrook University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Big Ideas in Quantum Materials Nanoscopy: From Magneto-Polaritons to Superconducting Vortices.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Moshe Ben Shalom, Tel Aviv University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The Sliding Ferroelectric Resonant Tunnel Junction&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Sarah King, University of Chicago&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Electron nanoimaging of hyperbolic plasmon polaritons in the quasi 1D metal MoOCl₂&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Milan Delor, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Visualizing quantum dynamics in asymmetric media&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Raquel Queiroz, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Seeing Lattice Interference: Quantum Geometry from the Perspective of Local Probes&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ben Feldman, Stanford&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;em&gt;Title TBA&lt;/em&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;This workshop is supported by the Moore Foundation.&lt;/h2&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;",
       "start_date": "2026-08-11T12:00:00-04:00",
       "end_date": "2026-08-12T21:00:00-04:00",
       "category": [
@@ -3410,7 +3937,8 @@
             "Graduate Students",
             "College of Physicians and Surgeons",
             "Trainees",
-            "org/cumc_hiccc"
+            "org/cumc_hiccc",
+            "org/cumc"
           ],
           "audience": [
             "Category",
@@ -3424,7 +3952,8 @@
             "Graduate Students",
             "College of Physicians and Surgeons",
             "Trainees",
-            "org/cumc_hiccc"
+            "org/cumc_hiccc",
+            "org/cumc"
           ]
         }
       }
@@ -3435,7 +3964,7 @@
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;&lt;em&gt;What does courage consist of in our age of rising authoritarianism and democratic backsliding? How can we build the capacity to dissent, protect one another, and act on our convictions in times of uncertainty?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;In their new book, &lt;a href=\"https://www.harpercollins.com/products/on-courage-julia-angwinami-fields-meyer?variant=44366661976098\"&gt;&lt;em&gt;On Courage&lt;/em&gt;&lt;/a&gt;, journalist &lt;a href=\"https://juliaangwin.com/\" target=\"_blank\"&gt;Julia Angwin&lt;/a&gt; and political strategist &lt;a href=\"https://ash.harvard.edu/people/ami-fields-meyer/\" target=\"_blank\"&gt;Ami Fields-Meyer&lt;/a&gt;&amp;nbsp;provide answers, drawing on interviews with more than 100 activists and theorists from around the world to offer practical guidance for resisting authoritarian pressure. Mixing untold stories with history, spirituality, and movement research, their work serves as an invitation to consider what true courage demands of us today.&lt;/p&gt;\n&lt;p&gt;Join us for &amp;quot;The Courage to Dissent,&amp;rdquo; a discussion with Julia and Ami on &lt;strong&gt;Thursday, September 17, from 5:30 to 7:00pm at The Forum at Columbia University&lt;/strong&gt;. Together, they&amp;rsquo;ll explore how people cultivate courage in the face of fear, what we can learn from historical and contemporary resistance movements, and how communities can form the habits and relationships necessary to defend democratic values in moments of crisis.&lt;/p&gt;\n&lt;p&gt;This event is hosted by &lt;a href=\"https://worldprojects.columbia.edu/\"&gt;Columbia World Projects&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=\"https://alltechishuman.org/\"&gt;All Tech Is Human&lt;/a&gt;. The discussion will be followed by an audience Q&amp;amp;A. This event is free and open to the public with registration required. Copies of &lt;a href=\"https://www.harpercollins.com/products/on-courage-julia-angwinami-fields-meyer?variant=44366661976098\"&gt;&lt;em&gt;On Courage&lt;/em&gt;&lt;/a&gt;&lt;em&gt; &lt;/em&gt;will be provided to attendees on a first come, first served basis.&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;strong&gt;&lt;em&gt;What does courage consist of in our age of rising authoritarianism and democratic backsliding? How can we build the capacity to dissent, protect one another, and act on our convictions in times of uncertainty?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;In their new book, &lt;a href=\"https://www.harpercollins.com/products/on-courage-julia-angwinami-fields-meyer?variant=44366661976098\"&gt;&lt;em&gt;On Courage&lt;/em&gt;&lt;/a&gt;, journalist &lt;a href=\"https://juliaangwin.com/\" target=\"_blank\"&gt;Julia Angwin&lt;/a&gt; and political strategist &lt;a href=\"https://ash.harvard.edu/people/ami-fields-meyer/\" target=\"_blank\"&gt;Ami Fields-Meyer&lt;/a&gt;&amp;nbsp;provide answers, drawing on interviews with more than 100 activists and theorists from around the world to offer practical guidance for resisting authoritarian pressure. Mixing untold stories with history, spirituality, and movement research, their work serves as an invitation to consider what true courage demands of us today.&lt;/p&gt;\n&lt;p&gt;Join us for &amp;quot;The Courage to Dissent,&amp;rdquo; a discussion with Julia and Ami on &lt;strong&gt;Thursday, September 17, from 5:30 to 7:00pm at The Forum at Columbia University&lt;/strong&gt;. Together, they&amp;rsquo;ll explore how people cultivate courage in the face of fear, what we can learn from historical and contemporary resistance movements, and how communities can form the habits and relationships necessary to defend democratic values in moments of crisis. Professor &lt;a href=\"https://polisci.barnard.edu/profiles/sheri-berman\" target=\"_blank\"&gt;Sheri Berman&lt;/a&gt; will moderate the discussion.&lt;/p&gt;\n&lt;p&gt;This event is hosted by &lt;a href=\"https://worldprojects.columbia.edu/\"&gt;Columbia World Projects&lt;/a&gt;&amp;nbsp;and&amp;nbsp;&lt;a href=\"https://alltechishuman.org/\"&gt;All Tech Is Human&lt;/a&gt;. The discussion will be followed by an audience Q&amp;amp;A. This event is free and open to the public with registration required. Copies of &lt;a href=\"https://www.harpercollins.com/products/on-courage-julia-angwinami-fields-meyer?variant=44366661976098\"&gt;&lt;em&gt;On Courage&lt;/em&gt;&lt;/a&gt;&lt;em&gt; &lt;/em&gt;will be provided to attendees on a first come, first served basis.&lt;/p&gt;",
       "start_date": "2026-09-17T21:30:00-04:00",
       "end_date": "2026-09-17T23:00:00-04:00",
       "category": [
@@ -3679,6 +4208,7 @@
             "Graduate Students",
             "org/cssw_cg",
             "Trainees",
+            "org/cumc",
             "Training"
           ],
           "audience": [
@@ -3697,6 +4227,7 @@
             "Graduate Students",
             "org/cssw_cg",
             "Trainees",
+            "org/cumc",
             "Training"
           ]
         }
@@ -4910,9 +5441,9 @@
       "source": "luma"
     },
     {
-      "id": "a506b487d003ce9e4289e8b6ae253934",
-      "name": "DeSciNYC: DeSciNYC: What Are We Breathing on the NYC Subway?",
-      "title": "DeSciNYC: DeSciNYC: What Are We Breathing on the NYC Subway?",
+      "id": "7ba24cf11a9e8a89ba5ee89b05f62fe1",
+      "name": "DeSciNYC: What Are We Breathing on the NYC Subway?",
+      "title": "DeSciNYC: What Are We Breathing on the NYC Subway?",
       "institution": "DeSciNYC",
       "date": "July 07, 2026 at 11:30 PM",
       "description": "Get up-to-date information at: https://luma.com/descinyc46",
@@ -4932,39 +5463,6 @@
       "category": "Science",
       "source_url": null,
       "source": "luma"
-    },
-    {
-      "id": "evt_nyu_steinhardt_music_03cfee02",
-      "name": "Day Trip to Governor's Island",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "We will walk through the lavender field, visit Fort Jay and Castle Williams, chill on Hammock Grove, and have ice cream all together.",
-      "start_date": "2026-06-30T09:30:00-04:00",
-      "end_date": "2026-06-30T14:00:00-04:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-06/day-trip-governors-island-0",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "Off-site",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "",
-          "scraped_at": "2026-06-28T06:05:12.473245-04:00"
-        }
-      }
     },
     {
       "id": "evt_nyu_steinhardt_music_9cf6e736",
@@ -4995,7 +5493,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-06-28T06:05:12.475231-04:00"
+          "scraped_at": "2026-07-05T05:51:01.407674-04:00"
         }
       }
     },
@@ -5028,34 +5526,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-06-28T06:05:12.475611-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_nypl_b5244e7f",
-      "name": "Tour of the Yiddish Book Center’s exhibit: “Yiddish: A Global Culture”",
-      "type": "Reading",
-      "location_id": "loc_nypl_seward_park",
-      "community_id": "com_nypl",
-      "description": "We will meet in-person in the Seward Park Library Community room.\n\nTogether, we will speak via Zoom with a librarian from the Yiddish Book Center who will tell us about the history of Yiddish language and culture. We will also get a virtual tour of the Center’s landmark exhibition: “Yiddish: A Global Culture.”\n\nWant to learn more? You can check out the accompanying exhibition catalog Yiddish: A Global Culture here.\n\nPresented as part of the Yiddish Book Center’s Public Libraries Program, in part…",
-      "start_date": "2026-07-23T13:00:00-04:00",
-      "end_date": "2026-07-23T15:00:00-04:00",
-      "category": [
-        "EDUCATION"
-      ],
-      "source": "nypl",
-      "source_group": "nypl",
-      "metadata": {
-        "source_url": "https://www.nypl.org/events/programs/2026/07/23/virtual-tour-yiddish-book-centers-exhibit-yiddish-global-culture",
-        "source_name": "NYPL Events Calendar",
-        "venue": {
-          "name": "Seward Park Library, Community Room",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "New York Public Library",
-          "type": "organizer"
+          "scraped_at": "2026-07-05T05:51:01.408160-04:00"
         }
       }
     },
