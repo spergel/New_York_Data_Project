@@ -1,22 +1,23 @@
 {
-  "scraped_at": "2026-07-05T05:51:04.658950",
-  "total_events": 180,
+  "scraped_at": "2026-07-12T05:05:22.565348",
+  "total_events": 187,
   "event_sources": {
     "nyu_neuroscience_events_debug": 0,
     "pratt_events_debug": 9,
     "nyu_medicine_events_debug": 2,
-    "new_school_events_debug": 20,
+    "new_school_events_debug": 22,
     "jtsa_events_debug": 10,
-    "nyas_events_debug": 15,
+    "nyas_events_debug": 21,
     "miller_events_debug": 51,
     "juilliard_events_debug": 0,
     "nyu_physics_events_debug": 2,
     "nyu_api_events_debug": 4,
-    "nyu_steinhardt_events_debug": 2,
+    "nyu_steinhardt_events_debug": 1,
     "columbia_events_debug": 25,
+    "nyu_stern_events_debug": 1,
     "nyu_education_events_debug": 1,
     "luma_events_debug": 69,
-    "nyu_steinhardt_music_events_debug": 2,
+    "nyu_steinhardt_music_events_debug": 1,
     "nypl_events_debug": 1,
     "columbia_classics_events_debug": 2,
     "fordham_events_debug": 1
@@ -35,7 +36,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.750034-04:00",
+        "scraped_at": "2026-07-12T05:05:21.197187-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -52,7 +53,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.750263-04:00",
+        "scraped_at": "2026-07-12T05:05:21.197431-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -69,7 +70,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.751988-04:00",
+        "scraped_at": "2026-07-12T05:05:21.199196-04:00",
         "extraction_method": "header"
       }
     },
@@ -86,7 +87,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.752038-04:00",
+        "scraped_at": "2026-07-12T05:05:21.199244-04:00",
         "extraction_method": "header"
       }
     },
@@ -103,7 +104,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.752134-04:00",
+        "scraped_at": "2026-07-12T05:05:21.199339-04:00",
         "extraction_method": "header"
       }
     },
@@ -120,7 +121,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.752160-04:00",
+        "scraped_at": "2026-07-12T05:05:21.199365-04:00",
         "extraction_method": "header"
       }
     },
@@ -137,7 +138,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.752190-04:00",
+        "scraped_at": "2026-07-12T05:05:21.199390-04:00",
         "extraction_method": "header"
       }
     },
@@ -154,7 +155,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.752213-04:00",
+        "scraped_at": "2026-07-12T05:05:21.199412-04:00",
         "extraction_method": "header"
       }
     },
@@ -171,7 +172,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-05T05:51:03.754446-04:00",
+        "scraped_at": "2026-07-12T05:05:21.201656-04:00",
         "extraction_method": "container"
       }
     },
@@ -304,6 +305,57 @@
       }
     },
     {
+      "id": "evt_newschool_e393e0d4",
+      "name": "MFA Photo Summer 2026 Open Studios",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Parsons MFA Photography is thrilled to announce their Summer 2026 MFA Open Studios. We welcome members of the public and The New School Community. Our vibrant community of graduate students will open their creative spaces and be available to answer questions and discuss their work. Open Studios provides a rare opportunity to view works in progress and meet these artists in an informal setting. Visitors will gain insight into the diverse practices within our studio art program that embraces interdisciplinary experimentation, intellectual rigor, and innovation. We look forward to you joining us for this event.",
+      "start_date": "2026-07-17T18:00:00-04:00",
+      "end_date": "2026-07-17T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mfaphotosummer2026openstudios",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "25 E 13th St, Floors 4 and 5",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "general public",
+            "prospective students",
+            "staff",
+            "students",
+            "art, media and technology",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "media, science, and technology",
+            "parsons school of design",
+            "exhibitions and openings",
+            "25 e 13th st, floors 4 and 5",
+            "art and design"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_27496aa8",
       "name": "Book Launch: Nita Noveno",
       "type": "Academic",
@@ -345,6 +397,52 @@
             "author readings",
             "a-404",
             "author readings and discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_8e45a0b7",
+      "name": "In Conversation with Ilaria Resta, CEO of Audemars Piguet",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "We are pleased to welcome Ilaria Resta, Chief Executive Officer of Audemars Piguet, to speak with our students. With nearly three decades of global leadership experience across some of the world's most respected luxury brands, Ilaria has built a career defined by innovation, purpose-driven leadership, and a commitment to empowering people. Since becoming CEO of Audemars Piguet, she has led the Manufacture with a vision that honors its rich heritage while shaping its future through creativity, craftsmanship, and sustainable growth. Guided by the principles of Love, Learn, and Legacy, Ilaria believes leadership is about serving others, fostering curiosity, and creating lasting impact. During her conversation with our students, she will share insights from her leadership journey, discuss the evolving landscape of the luxury industry, and reflect on what it takes to build meaningful careers rooted in purpose, innovation, and excellence.",
+      "start_date": "2026-09-11T18:00:00-04:00",
+      "end_date": "2026-09-11T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/inconversationwithilariaresta",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Tishman Auditorium",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "alumni",
+            "faculty",
+            "prospective students",
+            "staff",
+            "students",
+            "fashion",
+            "parsons school of design",
+            "lectures and talks",
+            "tishman auditorium",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -453,7 +551,7 @@
       "location_id": "loc_newschool_main",
       "community_id": "com_newschool",
       "description": "The Center for the American Experience at The New School invites you to celebrate the founding of a nonpartisan home for bold scholarly, creative, and civic engagement with this nation's past, present, and place in the world. At a moment of deep polarization, CAE is dedicated to cultivating pluralism, dialogue, and fearless debate.This evening features biographer and public servant Walter Isaacson in conversation with CAE co-director and historian Natalia Mehlman Petrzela on the topic of \"American Stories,\" the narratives about individuals, ideals, and experiences through which a nation comes to understand itself. The Mannes Orchestra, led by maestro David Hayes, performs Charles Ives's Variations on \"America,\" a work that takes a shared national symbol and reinvents it, playfully, in several keys at once.Join us in celebrating the many voices, sounds, and stories of the American experience.  ",
-      "start_date": "2026-10-01T19:00:00-04:00",
+      "start_date": "2026-10-01T18:00:00-04:00",
       "end_date": "2026-10-01T23:59:59-04:00",
       "category": [
         "EDUCATION",
@@ -1142,34 +1240,6 @@
       }
     },
     {
-      "id": "evt_jtsa_11c0b000",
-      "name": "JTS in the Berkshires Summer 2026",
-      "type": "Academic",
-      "location_id": "loc_jtsa_main",
-      "community_id": "com_jtsa",
-      "description": "Join JTS scholars in Lenox, Massachusetts, for inspiring learning that illuminates the Jewish past and shapes the Jewish future. Rabbi Ayelet Cohen and Dr. Shira Billet will teach in the Berkshires this summer.",
-      "start_date": "2026-07-10T12:00:00-04:00",
-      "end_date": "2026-07-10T13:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/jts-berkshires-summer-2026/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Massachusetts",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
       "id": "evt_jtsa_7885f97a",
       "name": "JTS in the Berkshires Summer 2026—Session II",
       "type": "Workshop",
@@ -1413,6 +1483,33 @@
       }
     },
     {
+      "id": "evt_jtsa_7d80780a",
+      "name": "Biblical Hebrew II: Jumpstart Part II (afternoon)",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "By the end of the course, participants will be able to parse (in terms of person, number, tense) every type of Hebrew Qal verb.",
+      "start_date": "2026-10-19T12:00:00-04:00",
+      "end_date": "2026-10-19T13:00:00-04:00",
+      "category": [
+        "ARTS"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-ii-fall-2026-afternoon/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
       "id": "evt_nyas_09260787",
       "name": "You Belong in STEM: Careers Creating Change",
       "type": "Seminar",
@@ -1611,6 +1708,38 @@
       }
     },
     {
+      "id": "evt_nyas_c07f36a3",
+      "name": "Mentoring Up in STEM: Strengthening Relationships with PIs, Advisors, and Senior Colleagues",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nMentoring Up in STEM: Strengthening Relationships with PIs, Advisors, and Senior Colleagues \n\n\t\t\t\t\tOct 28,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t28\t\t\t\t\t\n\n\t\t\t\t\t Oct\t\t\t\t\t\n\n\n \n",
+      "start_date": "2026-10-28T18:00:00-04:00",
+      "end_date": "2026-10-28T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_be4bbd3f",
       "name": "Chemical Biology: Peptide and Protein Design",
       "type": "Seminar",
@@ -1779,6 +1908,39 @@
       }
     },
     {
+      "id": "evt_nyas_638bd65d",
+      "name": "Building Your Biotech Network",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nBuilding Your Biotech Network \n\n\t\t\t\t\tFeb 17,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t17\t\t\t\t\t\n\n\t\t\t\t\t Feb\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-02-17T18:00:00-05:00",
+      "end_date": "2027-02-17T20:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "TECHNOLOGY",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_fe433275",
       "name": "How to Get Research Funding from Industry",
       "type": "Seminar",
@@ -1843,6 +2005,38 @@
       }
     },
     {
+      "id": "evt_nyas_caa33aef",
+      "name": "How to Network When You Hate Networking: A Practical Workshop for Scientists",
+      "type": "Workshop",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nHow to Network When You Hate Networking: A Practical Workshop for Scientists \n\n\t\t\t\t\tMar 24,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t24\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-03-24T18:00:00-04:00",
+      "end_date": "2027-03-24T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_0efdaa1e",
       "name": "Autoimmunity Meets Innovation: Drugs and Devices",
       "type": "Seminar",
@@ -1877,6 +2071,38 @@
       }
     },
     {
+      "id": "evt_nyas_536536a6",
+      "name": "How to Plan and Lead Your First Research Lab",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nHow to Plan and Lead Your First Research Lab \n\n\t\t\t\t\tApr 29,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t29\t\t\t\t\t\n\n\t\t\t\t\t Apr\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-04-29T18:00:00-04:00",
+      "end_date": "2027-04-29T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_21073372",
       "name": "Trust in Science and Medicine",
       "type": "Seminar",
@@ -1906,6 +2132,104 @@
         "additional_info": {
           "event_type": "Hybrid",
           "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_292c1e4b",
+      "name": "The Chemical Biology Discussion Group End-of-Year Symposium",
+      "type": "Conference",
+      "location_id": "loc_nyas_main",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nIn-person Event \n\nThe Chemical Biology Discussion Group End-of-Year Symposium \n\n\t\t\t\t\tMay 20,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t20\t\t\t\t\t\n\n\t\t\t\t\t May\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-05-20T18:00:00-04:00",
+      "end_date": "2027-05-20T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "CHEMISTRY",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "The New York Academy of Sciences",
+          "address": "250 Greenwich St, New York, NY 10007",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "In-person",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyas_27b70ea7",
+      "name": "Land Your Industry Dream Job Right Out of Grad School",
+      "type": "Seminar",
+      "location_id": "loc_virtual",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nVirtual Event \n\nLand Your Industry Dream Job Right Out of Grad School \n\n\t\t\t\t\tJun 08,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t08\t\t\t\t\t\n\n\t\t\t\t\t Jun\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-06-08T18:00:00-04:00",
+      "end_date": "2027-06-08T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "Virtual",
+          "is_member_free": true
+        }
+      }
+    },
+    {
+      "id": "evt_miller_ee67d701",
+      "name": "15th Annual Morningside Lights",
+      "type": "Performance",
+      "location_id": "loc_miller_theatre",
+      "community_id": "com_miller_theatre",
+      "description": "A Common Thread",
+      "start_date": "2026-09-19T20:00:00-04:00",
+      "end_date": "2026-09-19T22:00:00-04:00",
+      "category": [
+        "ARTS"
+      ],
+      "source": "miller_theatre",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://www.millertheatre.com/events/15th-annual-morningside-lights",
+        "source_name": "Miller Theatre",
+        "venue": {
+          "name": "Miller Theatre",
+          "address": "2960 Broadway, New York, NY 10027",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Columbia University",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://millertheatre.s3.amazonaws.com/Morningside-Lights-by-Cherylynn-Tsushima.960x1446.jpg",
+          "department": "Miller Theatre"
         }
       }
     },
@@ -2262,7 +2586,7 @@
       }
     },
     {
-      "id": "evt_miller_70cb8e01",
+      "id": "evt_miller_d3047aa1",
       "name": "Clara Iannotta",
       "type": "Performance",
       "location_id": "loc_miller_theatre",
@@ -2276,7 +2600,7 @@
       "source": "miller_theatre",
       "source_group": "Columbia",
       "metadata": {
-        "source_url": "https://www.millertheatre.com/events/clara-ionnatta",
+        "source_url": "https://www.millertheatre.com/events/clara-iannotta",
         "source_name": "Miller Theatre",
         "venue": {
           "name": "Miller Theatre",
@@ -2422,38 +2746,6 @@
       }
     },
     {
-      "id": "evt_miller_ee67d701",
-      "name": "15th Annual Morningside Lights",
-      "type": "Performance",
-      "location_id": "loc_miller_theatre",
-      "community_id": "com_miller_theatre",
-      "description": "A Common Thread",
-      "start_date": "2026-09-19T20:00:00-04:00",
-      "end_date": "2026-09-19T22:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "miller_theatre",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://www.millertheatre.com/events/15th-annual-morningside-lights",
-        "source_name": "Miller Theatre",
-        "venue": {
-          "name": "Miller Theatre",
-          "address": "2960 Broadway, New York, NY 10027",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Columbia University",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "image_url": "https://millertheatre.s3.amazonaws.com/Morningside-Lights-by-Cherylynn-Tsushima.960x1446.jpg",
-          "department": "Miller Theatre"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_physics_event7715",
       "name": "astro - Astrophysics and Relativity Seminars",
       "description": "Speaker: Astrophysics and Relativity Seminars | Institution: October 12, 2026 Monday 12:00 PM+726Broadway, 940, CCPP Seminar(astro) | Event Type: astro",
@@ -2479,7 +2771,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-07-05T05:50:57.764861-04:00",
+        "scraped_at": "2026-07-12T05:05:10.644778-04:00",
         "original_source": "NYU Physics",
         "speaker": "Astrophysics and Relativity Seminars",
         "institution": "October 12, 2026 Monday 12:00 PM+726Broadway, 940, CCPP Seminar(astro)",
@@ -2525,7 +2817,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-07-05T05:50:57.765175-04:00",
+        "scraped_at": "2026-07-12T05:05:10.645108-04:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "November 11, 2026 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Alexander PeninU. of Alberta",
@@ -2614,38 +2906,6 @@
       }
     },
     {
-      "id": "evt_nyu_steinhardt_9cf6e736",
-      "name": "Ice Cream Social",
-      "type": "Seminar",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Celebrate National Ice Cream Month and cool down with an ice cream sundae!",
-      "start_date": "2026-07-08T13:00:00-04:00",
-      "end_date": "2026-07-08T14:30:00-04:00",
-      "category": [
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-07/ice-cream-social",
-        "source_name": "NYU Steinhardt Events",
-        "venue": {
-          "name": "First Floor LoungePless Hall",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "",
-          "scraped_at": "2026-07-05T05:50:58.025177-04:00"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_steinhardt_5a230e70",
       "name": "CSD Immersions Hearing Screenings",
       "type": "Seminar",
@@ -2673,167 +2933,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-07-05T05:50:58.025583-04:00"
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_f7ad1667",
-      "name": "Department of Genetics and Development SPECIAL SEMINAR",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;h3&gt;&lt;strong&gt;Danny Leung, PhD&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Associate Professor&lt;/p&gt;\n&lt;p&gt;Director of the Center for Epigenomics Research&lt;/p&gt;\n&lt;p&gt;Division of Life Science, Hong Kong University of Science and Technology&lt;/p&gt;\n&lt;h2&gt;&amp;nbsp;&lt;/h2&gt;\n&lt;h2&gt;&lt;strong&gt;&amp;ldquo;Hidden in Plain Sight: How Retrotransposons Shape the Epigenome and 3D Genome Architecture&amp;rdquo;&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Hosted by Dr. Bing Ren&lt;/strong&gt;&lt;/h3&gt;",
-      "start_date": "2026-07-06T20:00:00-04:00",
-      "end_date": "2026-07-06T21:00:00-04:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "HEALTH",
-        "SCIENCE",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9ed9cb88-019e-dc5999db-000048cdevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Hammer Health Sciences Center, 701 W. 168 St., New York, NY 10032\tRoom 312",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "CUMC - Genetics and Development",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "CUMC - Genetics and Development",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Student",
-            "Faculty",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "org/cumc_genetics_dev",
-            "Postdocs",
-            "Prospective Students",
-            "Teaching and Learning",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Education",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Student",
-            "Faculty",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Basic Health Sciences",
-            "Clinical Health Sciences",
-            "org/cumc_genetics_dev",
-            "Postdocs",
-            "Prospective Students",
-            "Teaching and Learning",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Graduate School of Arts and Sciences",
-            "Trainees",
-            "Education",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_ce042267",
-      "name": "America &amp; the Armed Forces: 250 yrs of Service, Conflict, Transition",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;How has America&amp;rsquo;s relationship with its armed forces evolved over the past 250 years? From Lexington and Concord to Kabul and the Caribbean, America&amp;rsquo;s military has played important roles in the nation&amp;rsquo;s history. This seminar will consider how those roles have and have not changed from the eighteenth-century to today. We&amp;rsquo;ll look at the Founders&amp;rsquo; anxieties about standing armies, consider the role of the armed forces in Reconstruction, examine military support for integration at home, and ask what the tasks the military might find itself asked to perform in the coming years. This summer, we will meet three times for discussion seminars, followed by a fourth meeting that will serve as a launching pad for a conversation about the future. At stake: what should America&amp;rsquo;s relationship with its armed forces look like in the 21&lt;sup&gt;st&lt;/sup&gt;&amp;nbsp;century?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd562be1-0000432bevents@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;8, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;: Introductions; America&amp;rsquo;s Sense of Its Own Military&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd5ef2d2-00004423events@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;15, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;: The Armed Forces Abroad&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd62c99b-000044a1events@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;22, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;:&amp;nbsp;The Military at Home&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd676f97-00004599events@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;29, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;:&amp;nbsp;Review&amp;nbsp;of past readings and a c&lt;/strong&gt;&lt;strong&gt;oncluding discussion&lt;/strong&gt;: How might the past help us understand the American armed forces&amp;rsquo; relationship to society in the years to come, including the evolving role and public misconceptions of the National Guard, its relationship with law enforcement, and its place at the intersection of military service, domestic response, and veteran experience?&lt;/p&gt;\n&lt;p&gt;Our seminar meetings will be informal. We will distribute the reading selections over email and bring hardcopies to class. You&amp;rsquo;re encouraged to read a little before we meet, but don&amp;rsquo;t worry if you can&amp;rsquo;t get through everything. We&amp;rsquo;ll start each seminar with a brief introduction, followed by some time to review/read the texts in focus. The bulk of our time will then be spent in guided conversation.&lt;/p&gt;\n&lt;p&gt;This informal seminar is open to all Columbia affiliates and neighbors.&lt;/p&gt;\n&lt;p&gt;Separate registration required for each session.&lt;/p&gt;\n&lt;p&gt;Refreshments will be served.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Instructor: &amp;nbsp;&lt;/strong&gt;Nick Utzig is assistant professor of English in the Dept. of English and World Languages at West Point. He received his PhD from Harvard University, where his research focused on representations of war in English Renaissance literature. His scholarly work appears in&amp;nbsp;&lt;em&gt;Shakespeare Studies&lt;/em&gt;,&amp;nbsp;&lt;em&gt;Shakespeare Bulletin&lt;/em&gt;, and&amp;nbsp;&lt;em&gt;The Journal of War and Culture Studies&lt;/em&gt;.&amp;nbsp;Before his PhD, Nick was a US Army aviation officer and served in Afghanistan and Iraq.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Image:&amp;nbsp;&lt;/strong&gt;&lt;em&gt;Jean-Baptiste-Antoine DeVerger, &amp;ldquo;American soldiers at the siege of Yorktown,&amp;rdquo; 1781&lt;/em&gt;&amp;nbsp;&lt;a href=\"https://www.americanyawp.com/reader/uniforms-of-the-american-revolution/\" target=\"_blank\"&gt;Image source&lt;/a&gt;&lt;/p&gt;",
-      "start_date": "2026-07-08T21:30:00-04:00",
-      "end_date": "2026-07-08T23:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "SOCIAL",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9ebae55f-019e-bd562be1-0000432bevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Kent Hall, 1140 Amsterdam Ave., New York, NY 10027\tCVTI - Room 205",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Columbia Center for Veteran Transition and Integration",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Columbia Center for Veteran Transition and Integration",
-          "tags": [
-            "org/CVTI",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Cultural",
-            "Humanities",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Cultural",
-            "Humanities",
-            "Other"
-          ]
+          "scraped_at": "2026-07-12T05:05:11.140500-04:00"
         }
       }
     },
@@ -3606,7 +3706,7 @@
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;h1&gt;Join us for a two-day workshop to discuss recent breakthroughs and future directions in this vibrant field.&lt;/h1&gt;\n&lt;h2&gt;&lt;strong&gt;*Register by July 7*&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;&lt;strong&gt;Registration is required; invitations&amp;nbsp;to follow.&lt;/strong&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Featured Speakers:&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;Ali Yazdani, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Opportunities for nanoscale characterization of correlated and topological phases in 2d materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Beena Kalisky, Bar-Ilan University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Scanning SQUID view of quantum materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Markus Raschke, University of Colorado&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Ultrafast nano-imaging of optical, electronic, and quantum coherence&amp;mdash;what&amp;rsquo;s the difference and what does it mean?&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Eli Zeldov, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Reconfigurable chiral superconductivity&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Zhurun (Judy) Ji, MIT&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;LASCOPE: Automated Microwave and Millimeter-Wave Imaging&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Shahal Ilani, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Imaging the flat bands of magic-angle graphene reshaped by interactions&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Nathalie De Leon, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Multi-qubit nanoscale sensing with entanglement as a resource&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Aaron Lindenberg, Stanford University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;New forms of calorimetry at the atomic scale&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Frank Koppens, ICFO&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Cryogenic near-field microscopy of superconductors and out-of-equillibrium criticalities in moir&amp;eacute; systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ido Kaminer, Technion - Israel Institute of Technology&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The extremes of quantum optics and their prospects for many-body quantum systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Mengkun Liu, Stonybrook University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Big Ideas in Quantum Materials Nanoscopy: From Magneto-Polaritons to Superconducting Vortices.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Moshe Ben Shalom, Tel Aviv University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The Sliding Ferroelectric Resonant Tunnel Junction&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Sarah King, University of Chicago&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Electron nanoimaging of hyperbolic plasmon polaritons in the quasi 1D metal MoOCl₂&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Milan Delor, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Visualizing quantum dynamics in asymmetric media&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Raquel Queiroz, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Seeing Lattice Interference: Quantum Geometry from the Perspective of Local Probes&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ben Feldman, Stanford&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;em&gt;Title TBA&lt;/em&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;This workshop is supported by the Moore Foundation.&lt;/h2&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;",
+      "description": "&lt;h1&gt;Join us for a two-day workshop to discuss recent breakthroughs and future directions in this vibrant field.&lt;/h1&gt;\n&lt;h2&gt;&lt;em&gt;*Registration has been extended to Monday, July 13*&lt;/em&gt;&lt;/h2&gt;\n&lt;hr /&gt;\n&lt;h2&gt;Featured Speakers:&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;Ali Yazdani, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Opportunities for nanoscale characterization of correlated and topological phases in 2d materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Beena Kalisky, Bar-Ilan University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Scanning SQUID view of quantum materials&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Markus Raschke, University of Colorado&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Ultrafast nano-imaging of optical, electronic, and quantum coherence&amp;mdash;what&amp;rsquo;s the difference and what does it mean?&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Eli Zeldov, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Reconfigurable chiral superconductivity&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Zhurun (Judy) Ji, MIT&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;LASCOPE: Automated Microwave and Millimeter-Wave Imaging&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Shahal Ilani, Weizmann Institute of Science&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Imaging the flat bands of magic-angle graphene reshaped by interactions&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Nathalie De Leon, Princeton University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Multi-qubit nanoscale sensing with entanglement as a resource&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Aaron Lindenberg, Stanford University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;New forms of calorimetry at the atomic scale&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Frank Koppens, ICFO&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Cryogenic near-field microscopy of superconductors and out-of-equillibrium criticalities in moir&amp;eacute; systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ido Kaminer, Technion - Israel Institute of Technology&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The extremes of quantum optics and their prospects for many-body quantum systems&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Mengkun Liu, Stonybrook University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Big Ideas in Quantum Materials Nanoscopy: From Magneto-Polaritons to Superconducting Vortices.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Moshe Ben Shalom, Tel Aviv University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;The Sliding Ferroelectric Resonant Tunnel Junction&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Sarah King, University of Chicago&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Electron nanoimaging of hyperbolic plasmon polaritons in the quasi 1D metal MoOCl₂&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Milan Delor, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Visualizing quantum dynamics in asymmetric media&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Raquel Queiroz, Columbia University&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Seeing Lattice Interference: Quantum Geometry from the Perspective of Local Probes&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Ben Feldman, Stanford&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;New capabilities for nanoscale thermodynamic&amp;nbsp;imaging of 2D materials&lt;/p&gt;\n&lt;hr /&gt;\n&lt;h2&gt;This workshop is supported by the Moore Foundation.&lt;/h2&gt;\n&lt;hr /&gt;\n&lt;p&gt;&lt;em&gt;Campus is open to affiliate Columbia University ID (CUID) holders and approved guests only.&amp;nbsp;&lt;/em&gt;&lt;/p&gt;",
       "start_date": "2026-08-11T12:00:00-04:00",
       "end_date": "2026-08-12T21:00:00-04:00",
       "category": [
@@ -4234,66 +4334,6 @@
       }
     },
     {
-      "id": "evt_columbia_50df0a44",
-      "name": "Is AI Resurrecting Dead Ideas in Higher Ed? (1 of 2)",
-      "type": "Academic",
-      "location_id": "loc_columbia_butler",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;This fall, join CTL Executive Director and &lt;a href=\"https://ctl.columbia.edu/resources-and-technology/resources/podcast/\"&gt;&lt;em&gt;Dead Ideas in Teaching and Learning&lt;/em&gt;&lt;/a&gt; podcast host, Amanda Irvin, to explore how some Dead Ideas--ideas that persist despite being untrue or no longer serving us (Pike 2011)-- might resurface as we reckon with AI&amp;rsquo;s impact on teaching and learning in higher education. There are two opportunities to join these lunchtime conversations on &amp;ldquo;zombie ideas&amp;rdquo; in the Fall 2026 semester: &lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9e687fb8-019e-698c4e03-00001fc3events@columbia.edu&amp;amp;recurrenceId=\" target=\"_blank\"&gt;September 18&lt;/a&gt; and &lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9e687fb8-019e-6995382b-00002108events@columbia.edu&amp;amp;recurrenceId=\" target=\"_blank\"&gt;October 22&lt;/a&gt;. Please register for each separately.&lt;/p&gt;\n&lt;p&gt;In the first of these two conversations, we will take a deep dive into questions about who is &amp;ldquo;responsible&amp;rdquo; for AI output. Our conversation will use two podcast episodes as a springboard: &amp;ldquo;&lt;a href=\"https://open.spotify.com/episode/2DMSaSvmTSGNUNRwh9e3Hy?si=9b-7DwFkQAiriM7lQyufzg\"&gt;Redefining Academic Integrity in the Age of AI&lt;/a&gt;&amp;rdquo; with Phill Dawson, Co-Director of the Centre for Research in Assessment and Digital Learning at Deakin University and &amp;ldquo;&amp;lsquo;&lt;a href=\"https://open.spotify.com/episode/4ePZ3JiQHHUPdf7umd9qRn?si=NWrhYk9qQX6gVZZOOHsfGQ\"&gt;Constitutively Irresponsible&amp;rsquo;: Why Students Can&amp;rsquo;t be GenAI&amp;rsquo;s Quality Control&lt;/a&gt;&amp;rdquo; with Gene Flenady, Lecturer in Philosophy at Monash University, and Robert Sparrow, Professor of Philosophy at Monash University. Please listen to these podcast episodes, as you&amp;rsquo;re able, before the conversation. You can find the &lt;em&gt;Dead Ideas &lt;/em&gt;podcast on Spotify, Apple Podcasts, or streaming on the CTL website.&lt;/p&gt;\n&lt;p&gt;Friday, September 18, 12:00-1:00 PM, in-person: 212 Butler Library&lt;br /&gt;\n&lt;em&gt;Lunch provided to registered participants.&lt;/em&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact ColumbiaCTL@columbia.edu or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. For concerns, contact &lt;a href=\"mailto:ColumbiaCTL@columbia.edu\"&gt;ColumbiaCTL@columbia.edu&lt;/a&gt;.&lt;/p&gt;",
-      "start_date": "2026-09-18T16:00:00-04:00",
-      "end_date": "2026-09-18T17:00:00-04:00",
-      "category": [
-        "ARTS",
-        "EDUCATION",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9e687fb8-019e-698c4e03-00001fc3events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Butler Library",
-          "address": "535 W 114th St, New York, NY 10027",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Center for Teaching and Learning",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Center for Teaching and Learning",
-          "tags": [
-            "AI",
-            "Artificial Intelligence",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Faculty",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Teaching and Learning",
-            "CTL",
-            "Discussion"
-          ],
-          "audience": [
-            "Category",
-            "Faculty",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/centertla",
-            "Teaching and Learning",
-            "CTL",
-            "Discussion"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_c5dbefef",
       "name": "Brainwaves 2026: Columbia Neurosurgery Practice Update",
       "type": "Academic",
@@ -4378,6 +4418,66 @@
       }
     },
     {
+      "id": "evt_columbia_50df0a44",
+      "name": "Is AI Resurrecting Dead Ideas in Higher Ed? (1 of 2)",
+      "type": "Academic",
+      "location_id": "loc_columbia_butler",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;This fall, join CTL Executive Director and &lt;a href=\"https://ctl.columbia.edu/resources-and-technology/resources/podcast/\"&gt;&lt;em&gt;Dead Ideas in Teaching and Learning&lt;/em&gt;&lt;/a&gt; podcast host, Amanda Irvin, to explore how some Dead Ideas--ideas that persist despite being untrue or no longer serving us (Pike 2011)-- might resurface as we reckon with AI&amp;rsquo;s impact on teaching and learning in higher education. There are two opportunities to join these lunchtime conversations on &amp;ldquo;zombie ideas&amp;rdquo; in the Fall 2026 semester: &lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9e687fb8-019e-698c4e03-00001fc3events@columbia.edu&amp;amp;recurrenceId=\" target=\"_blank\"&gt;September 18&lt;/a&gt; and &lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9e687fb8-019e-6995382b-00002108events@columbia.edu&amp;amp;recurrenceId=\" target=\"_blank\"&gt;October 22&lt;/a&gt;. Please register for each separately.&lt;/p&gt;\n&lt;p&gt;In the first of these two conversations, we will take a deep dive into questions about who is &amp;ldquo;responsible&amp;rdquo; for AI output. Our conversation will use two podcast episodes as a springboard: &amp;ldquo;&lt;a href=\"https://open.spotify.com/episode/2DMSaSvmTSGNUNRwh9e3Hy?si=9b-7DwFkQAiriM7lQyufzg\"&gt;Redefining Academic Integrity in the Age of AI&lt;/a&gt;&amp;rdquo; with Phill Dawson, Co-Director of the Centre for Research in Assessment and Digital Learning at Deakin University and &amp;ldquo;&amp;lsquo;&lt;a href=\"https://open.spotify.com/episode/4ePZ3JiQHHUPdf7umd9qRn?si=NWrhYk9qQX6gVZZOOHsfGQ\"&gt;Constitutively Irresponsible&amp;rsquo;: Why Students Can&amp;rsquo;t be GenAI&amp;rsquo;s Quality Control&lt;/a&gt;&amp;rdquo; with Gene Flenady, Lecturer in Philosophy at Monash University, and Robert Sparrow, Professor of Philosophy at Monash University. Please listen to these podcast episodes, as you&amp;rsquo;re able, before the conversation. You can find the &lt;em&gt;Dead Ideas &lt;/em&gt;podcast on Spotify, Apple Podcasts, or streaming on the CTL website.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Lunch provided to registered participants.&lt;/em&gt;&lt;/p&gt;\n&lt;hr /&gt;\n&lt;p&gt;Columbia University makes every effort to accommodate individuals with disabilities. Contact ColumbiaCTL@columbia.edu or 212.854.1692 for accommodations.&lt;/p&gt;\n&lt;p&gt;This event may be photographed. For concerns, contact &lt;a href=\"mailto:ColumbiaCTL@columbia.edu\"&gt;ColumbiaCTL@columbia.edu&lt;/a&gt;.&lt;/p&gt;",
+      "start_date": "2026-09-18T16:00:00-04:00",
+      "end_date": "2026-09-18T17:00:00-04:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "TECH",
+        "HUMANITIES"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9e687fb8-019e-698c4e03-00001fc3events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Butler Library",
+          "address": "535 W 114th St, New York, NY 10027",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Center for Teaching and Learning",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Center for Teaching and Learning",
+          "tags": [
+            "AI",
+            "Artificial Intelligence",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Teaching and Learning",
+            "CTL",
+            "Discussion"
+          ],
+          "audience": [
+            "Category",
+            "Faculty",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/centertla",
+            "Teaching and Learning",
+            "CTL",
+            "Discussion"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_88b122f7",
       "name": "15th Annual Morningside Lights: A Common Thread",
       "type": "Performance",
@@ -4408,6 +4508,7 @@
         "additional_info": {
           "department": "Miller",
           "tags": [
+            "org/neighbors",
             "Morningside",
             "Type",
             "Location",
@@ -4593,6 +4694,7 @@
         "additional_info": {
           "department": "Miller",
           "tags": [
+            "org/neighbors",
             "Morningside",
             "Type",
             "Location",
@@ -4640,6 +4742,179 @@
             "Concert",
             "Arts"
           ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_4b7d5cb4",
+      "name": "University Senate Plenary",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The monthly meeting of the full University Senate&lt;/li&gt;\n&lt;li&gt;Open to current CUID holders&lt;/li&gt;\n&lt;li&gt;Registration is now open &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/LCmDcMTWTzunM4ztv_NWug\" target=\"_blank\"&gt;here&lt;/a&gt;&amp;nbsp;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Attendees to this Plenary meeting are reminded not to post this meeting, or any portion of this meeting, online as such a posting could result in a violation of the University&amp;rsquo;s &lt;a href=\"https://universitypolicies.columbia.edu/content/acceptable-usage-information-resources-policy\" target=\"_blank\"&gt; Acceptable Usages of Information Resources Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-10-02T17:15:00-04:00",
+      "end_date": "2026-10-02T18:45:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9ed4a547-019e-d61d4af0-00002690events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "UniversitySenate",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "UniversitySenate",
+          "tags": [
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Meeting",
+            "University Senate Plenary",
+            "University Senate",
+            "Vote",
+            "CUID Holders",
+            "Postdocs",
+            "org/univeristysenate",
+            "Graduate Students",
+            "Trainees",
+            "Other",
+            "University Governance"
+          ],
+          "audience": [
+            "Category",
+            "Online",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Events open to",
+            "org/UniversityEvents",
+            "Meeting",
+            "University Senate Plenary",
+            "University Senate",
+            "Vote",
+            "CUID Holders",
+            "Postdocs",
+            "org/univeristysenate",
+            "Graduate Students",
+            "Trainees",
+            "Other",
+            "University Governance"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_4da35d34",
+      "name": "Alfredo Rodriguez Trio",
+      "type": "Performance",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;The charismatic, Grammy-nominated Cuban pianist and composer Alfredo Rodr&amp;iacute;guez returns to Miller for the first time since 2019. His electrifying performances blend jazz, classical virtuosity, and Afro-Cuban rhythms into a singular, high-energy sound.&lt;/p&gt;",
+      "start_date": "2026-10-03T23:30:00-04:00",
+      "end_date": "2026-10-03T23:30:00-04:00",
+      "category": [
+        "ARTS",
+        "TECH",
+        "HUMANITIES",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9eab6da0-019e-ad5b1eac-00003f6devents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Miller Theatre, 2960 Broadway, New York, NY 10027\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Miller",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Miller",
+          "tags": [
+            "org/neighbors",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Music",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/Miller",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Miller Theatre",
+            "Performance",
+            "Graduate Students",
+            "Trainees",
+            "Cultural",
+            "Concert",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Music",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/Miller",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Miller Theatre",
+            "Performance",
+            "Graduate Students",
+            "Trainees",
+            "Cultural",
+            "Concert",
+            "Arts"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_stern_4e23494ece",
+      "name": "2026 David K. Backus Memorial Lecture",
+      "description": "— November 6, 2026\n\nOn Friday, November 6, NYU Stern's Center for Global Economy and Business will host the 2026 David K. Backus Memorial Lecture with guest Patrick J. Kehoe, Professor of Economics at Stanford University.\n\nRead More",
+      "start_date": "2026-11-06T09:00:00-05:00",
+      "end_date": "",
+      "source": "nyu",
+      "source_group": "nyu_stern",
+      "metadata": {
+        "source_url": "https://stern.nyu.edu/events",
+        "source_name": "NYU Stern School of Business",
+        "venue": {
+          "name": "NYU Stern",
+          "type": "Offline"
         }
       }
     },
@@ -5465,39 +5740,6 @@
       "source": "luma"
     },
     {
-      "id": "evt_nyu_steinhardt_music_9cf6e736",
-      "name": "Ice Cream Social",
-      "type": "Performance",
-      "location_id": "loc_nyu_steinhardt",
-      "community_id": "com_nyu",
-      "description": "Celebrate National Ice Cream Month and cool down with an ice cream sundae!",
-      "start_date": "2026-07-08T13:00:00-04:00",
-      "end_date": "2026-07-08T14:30:00-04:00",
-      "category": [
-        "MUSIC_PERFORMANCE",
-        "EDUCATION",
-        "ARTS"
-      ],
-      "source": "nyu_steinhardt_music",
-      "source_group": "NYU",
-      "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-07/ice-cream-social",
-        "source_name": "NYU Steinhardt Music Events",
-        "venue": {
-          "name": "First Floor LoungePless Hall",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Steinhardt",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "areas_of_study": "",
-          "scraped_at": "2026-07-05T05:51:01.407674-04:00"
-        }
-      }
-    },
-    {
       "id": "evt_nyu_steinhardt_music_5a230e70",
       "name": "CSD Immersions Hearing Screenings",
       "type": "Performance",
@@ -5526,7 +5768,7 @@
         },
         "additional_info": {
           "areas_of_study": "",
-          "scraped_at": "2026-07-05T05:51:01.408160-04:00"
+          "scraped_at": "2026-07-12T05:05:17.649829-04:00"
         }
       }
     },
