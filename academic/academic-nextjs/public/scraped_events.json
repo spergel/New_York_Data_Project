@@ -1,38 +1,40 @@
 {
-  "scraped_at": "2026-07-26T05:18:06.546031",
-  "total_events": 205,
+  "scraped_at": "2026-08-02T05:12:59.656283",
+  "total_events": 216,
   "event_sources": {
     "juilliard_events_debug": 0,
     "nyas_events_debug": 21,
-    "new_school_events_debug": 21,
+    "new_school_events_debug": 23,
     "luma_events_debug": 69,
+    "isaw_events_debug": 1,
     "nyu_stern_events_debug": 1,
     "miller_events_debug": 51,
-    "columbia_events_debug": 29,
+    "columbia_events_debug": 34,
     "pratt_events_debug": 9,
-    "nyu_steinhardt_music_events_debug": 5,
-    "nyu_steinhardt_events_debug": 5,
-    "nyu_api_events_debug": 6,
+    "nyu_steinhardt_music_events_debug": 6,
+    "nyu_steinhardt_events_debug": 6,
+    "nyu_api_events_debug": 8,
     "nyu_medicine_events_debug": 2,
     "columbia_classics_events_debug": 2,
     "nyu_education_events_debug": 1,
+    "cooper_union_events_debug": 1,
     "nypl_events_debug": 0,
     "nyu_neuroscience_events_debug": 0,
     "jtsa_events_debug": 10,
     "fordham_events_debug": 2,
     "nyu_physics_events_debug": 3,
-    "nyu_engineering_events_debug": 4
+    "nyu_engineering_events_debug": 2
   },
   "events": [
     {
-      "id": "evt_nyas_09260787",
-      "name": "You Belong in STEM: Careers Creating Change",
-      "type": "Seminar",
+      "id": "evt_nyas_b834d576",
+      "name": "STEM Career Networking Night",
+      "type": "Networking",
       "location_id": "loc_virtual",
       "community_id": "com_nyas",
       "description": "\n\n\n\n\n\n\nNYAS  |\n\t\t\t\t\tBlavatnik Awards | \n\t\t\t\t\tISR | \n\t\t\t\t\t \n\t\t\t\t\t\tAnnals\n\n\nBlog ·\n\t\t\t\t\tEvent Calendar\n\nBecome a Member\n\n\nSupport Us\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout Us Overview\nMission & Values\nWhat We Do\nWho We Are\nOur History\nRent Our Space\nNews & Media\nCareers\n\n\nFeatured Topics Overview\nHealth & Disease\nScience in Society\nSTEM Pathways\nSustainable Planet\nTechnology & Innovation\n\n\nLearning Overview\nHigh School Research Programs\nProfessional Learning\nSchool & Community Programs\n\n\nIdeas & Insights Overview\n",
-      "start_date": "2026-07-30T18:00:00-04:00",
-      "end_date": "2026-07-30T20:00:00-04:00",
+      "start_date": "2026-09-16T18:00:00-04:00",
+      "end_date": "2026-09-16T20:00:00-04:00",
       "category": [
         "EDUCATION",
         "ENVIRONMENTAL",
@@ -55,39 +57,6 @@
         },
         "additional_info": {
           "event_type": "Virtual",
-          "is_member_free": true
-        }
-      }
-    },
-    {
-      "id": "evt_nyas_b834d576",
-      "name": "STEM Career Networking Night",
-      "type": "Networking",
-      "location_id": "loc_nyas_main",
-      "community_id": "com_nyas",
-      "description": "\n\n\nFree for Members \n\n\nIn-person Event \n\nSTEM Career Networking Night \n\n\t\t\t\t\tSep 16,  2026\t\t\t\t\t\n \n\n\n\t\t\t\t\t16\t\t\t\t\t\n\n\t\t\t\t\t Sep\t\t\t\t\t\n\n\n \n",
-      "start_date": "2026-09-16T18:00:00-04:00",
-      "end_date": "2026-09-16T20:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "SCIENCE"
-      ],
-      "source": "nyas",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
-        "source_name": "New York Academy of Sciences Events Calendar",
-        "venue": {
-          "name": "The New York Academy of Sciences",
-          "address": "250 Greenwich St, New York, NY 10007",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The New York Academy of Sciences",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "event_type": "In-person",
           "is_member_free": true
         }
       }
@@ -520,6 +489,41 @@
       }
     },
     {
+      "id": "evt_nyas_d364a200",
+      "name": "Cancer Metabolism and Signaling in the Tumor Microenvironment",
+      "type": "Seminar",
+      "location_id": "loc_nyas_main",
+      "community_id": "com_nyas",
+      "description": "\n\n\nFree for Members \n\n\nIn-person Event \n\nCancer Metabolism and Signaling in the Tumor Microenvironment \n\n\t\t\t\t\tMar 24,  2027\t\t\t\t\t\n \n\n\n\t\t\t\t\t24\t\t\t\t\t\n\n\t\t\t\t\t Mar\t\t\t\t\t\n\n\n \n",
+      "start_date": "2027-03-24T18:00:00-04:00",
+      "end_date": "2027-03-24T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MEDICINE",
+        "ENVIRONMENTAL",
+        "SCIENCE"
+      ],
+      "source": "nyas",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.nyas.org/shaping-science/events-calendar/",
+        "source_name": "New York Academy of Sciences Events Calendar",
+        "venue": {
+          "name": "The New York Academy of Sciences",
+          "address": "250 Greenwich St, New York, NY 10007",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New York Academy of Sciences",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "event_type": "In-person",
+          "is_member_free": true
+        }
+      }
+    },
+    {
       "id": "evt_nyas_caa33aef",
       "name": "How to Network When You Hate Networking: A Practical Workshop for Scientists",
       "type": "Workshop",
@@ -717,6 +721,49 @@
       }
     },
     {
+      "id": "evt_newschool_b40de5e9",
+      "name": "Charlie Parker Jazz Festival: Eddie Allen Quintet",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The Eddie Allen Quintet performs as part of the Charlie Parker Jazz Festival, in partnership with the Jazz Foundation of America and The New School. The program will be preceded by a performance from a New School student ensemble. Trumpeter Eddie Allen has led a prolific career, working with greats like Art Blakey, Randy Weston, Billy Harper, Etta Jones, and Charli Persip, while leading various ensembles of his own. This band includes Rodrigo Romero (tenor & soprano saxophones), Miki Hayama (piano), Kenny Davis (acoustic bass), and Jerome Jennings (drums).",
+      "start_date": "2026-08-25T18:00:00-04:00",
+      "end_date": "2026-08-25T20:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/charlieparkerjazzfestivaleddie",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Glassbox Theater",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "jazz",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "glassbox theater"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_27496aa8",
       "name": "Book Launch: Nita Noveno",
       "type": "Academic",
@@ -804,6 +851,52 @@
             "lectures and talks",
             "tishman auditorium",
             "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_3f9d4452",
+      "name": "Who Is American? A Conversation between Mira Siegelberg and Lila Corwin Berman",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": " Join the Zolberg Institute on Migration and Mobility for a conversation between Mira Siegelberg and Lila Corwin Berman on Berman’s new book, Who Is American? Belonging and the Question of Jewish Citizenship (2026).This timely and wide-ranging book explores how the history of Jewish belonging in the United States illuminates contemporary battles over citizenship and rights. Why does the United States continue to fall into new, and often unsettling debates about who is American, and the relationship between rights and citizenship?",
+      "start_date": "2026-09-16T16:30:00-04:00",
+      "end_date": "2026-09-16T18:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "HUMANITIES",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/whoisamericanconversation",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "6 East 16th Street",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "The New School For Social Research"
+          ],
+          "tags": [
+            "general public",
+            "international and global affairs",
+            "intellectual culture and big ideas",
+            "politics, policy and government",
+            "the new school for social research",
+            "lectures and talks",
+            "6 east 16th street",
+            "lectures and panel discussions",
+            "Zolberg Institute on Migration and Mobility"
           ],
           "audience": []
         }
@@ -2499,6 +2592,40 @@
       "source": "luma"
     },
     {
+      "id": "evt_isaw_601589b8",
+      "name": "Arabic Cosmographical Maps: Reworking Ancient Traditions",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Ali Karjoo-Ravary\n\nThis talk introduces how the Arabic and Islamic manuscript tradition inherited and adapted images of the late antique cosmos, focusing on a series of cosmographical maps from the 12th century Andalusian Sufi thinker, Ibn al-ʾArabi (d. 1240) and considering the reception of these images in the visual history of the Islamic world.",
+      "start_date": "2026-09-24T17:30:00-04:00",
+      "end_date": "2026-09-24T19:30:00-04:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/karjoo-ravary-arab-cosmography",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/karjoo-ravary-arab-cosmography/leadImage_mini",
+          "speaker": "Ali Karjoo-Ravary",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
       "id": "evt_nyu_stern_4e23494ece",
       "name": "2026 David K. Backus Memorial Lecture",
       "description": "— November 6, 2026\n\nOn Friday, November 6, NYU Stern's Center for Global Economy and Business will host the 2026 David K. Backus Memorial Lecture with guest Patrick J. Kehoe, Professor of Economics at Stanford University.\n\nRead More",
@@ -2606,7 +2733,7 @@
           "type": "organizer"
         },
         "additional_info": {
-          "image_url": "https://millertheatre.s3.amazonaws.com/Lewis-Wernig-Campbell.960x1446.jpg",
+          "image_url": "https://millertheatre.s3.amazonaws.com/Lewis-Isaacs-Campbell.960x1446.jpg",
           "department": "Miller Theatre"
         }
       }
@@ -3060,149 +3187,78 @@
       }
     },
     {
-      "id": "evt_columbia_b2b46834",
-      "name": "America &amp; the Armed Forces: 250 yrs of Service, Conflict, Transition",
+      "id": "evt_columbia_38bacfe3",
+      "name": "HARLEM WEEK/ImageNation Film Festival&#8232;Film: TCB - The Toni Cade Bamb",
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;How has America&amp;rsquo;s relationship with its armed forces evolved over the past 250 years? From Lexington and Concord to Kabul and the Caribbean, America&amp;rsquo;s military has played important roles in the nation&amp;rsquo;s history. This seminar will consider how those roles have and have not changed from the eighteenth-century to today. We&amp;rsquo;ll look at the Founders&amp;rsquo; anxieties about standing armies, consider the role of the armed forces in Reconstruction, examine military support for integration at home, and ask what the tasks the military might find itself asked to perform in the coming years. This summer, we will meet three times for discussion seminars, followed by a fourth meeting that will serve as a launching pad for a conversation about the future. At stake: what should America&amp;rsquo;s relationship with its armed forces look like in the 21&lt;sup&gt;st&lt;/sup&gt;&amp;nbsp;century?&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd562be1-0000432bevents@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;8, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;: Introductions; America&amp;rsquo;s Sense of Its Own Military&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd5ef2d2-00004423events@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;15, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;: The Armed Forces Abroad&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd62c99b-000044a1events@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;22, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;:&amp;nbsp;The Military at Home&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://events.columbia.edu/cal/event/eventView.do?calPath=%2Fpublic%2Fcals%2FMainCal&amp;amp;guid=CAL-00bbdb7c-9ebae55f-019e-bd676f97-00004599events@columbia.edu&amp;amp;recurrenceId=\"&gt;Wed, Jul&amp;nbsp;29, 5:30&amp;nbsp;&amp;ndash; 7pm&lt;/a&gt;:&amp;nbsp;Review&amp;nbsp;of past readings and a c&lt;/strong&gt;&lt;strong&gt;oncluding discussion&lt;/strong&gt;: How might the past help us understand the American armed forces&amp;rsquo; relationship to society in the years to come, including the evolving role and public misconceptions of the National Guard, its relationship with law enforcement, and its place at the intersection of military service, domestic response, and veteran experience?&lt;/p&gt;\n&lt;p&gt;Our seminar meetings will be informal. We will distribute the reading selections over email and bring hardcopies to class. You&amp;rsquo;re encouraged to read a little before we meet, but don&amp;rsquo;t worry if you can&amp;rsquo;t get through everything. We&amp;rsquo;ll start each seminar with a brief introduction, followed by some time to review/read the texts in focus. The bulk of our time will then be spent in guided conversation.&lt;/p&gt;\n&lt;p&gt;This informal seminar is open to all Columbia affiliates and neighbors.&lt;/p&gt;\n&lt;p&gt;Separate registration required for each session.&lt;/p&gt;\n&lt;p&gt;Refreshments will be served.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Instructor: &amp;nbsp;&lt;/strong&gt;Nick Utzig is assistant professor of English in the Dept. of English and World Languages at West Point. He received his PhD from Harvard University, where his research focused on representations of war in English Renaissance literature. His scholarly work appears in&amp;nbsp;&lt;em&gt;Shakespeare Studies&lt;/em&gt;,&amp;nbsp;&lt;em&gt;Shakespeare Bulletin&lt;/em&gt;, and&amp;nbsp;&lt;em&gt;The Journal of War and Culture Studies&lt;/em&gt;.&amp;nbsp;Before his PhD, Nick was a US Army aviation officer and served in Afghanistan and Iraq.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Image:&amp;nbsp;&lt;/strong&gt;&lt;em&gt;Jean-Baptiste-Antoine DeVerger, &amp;ldquo;American soldiers at the siege of Yorktown,&amp;rdquo; 1781&lt;/em&gt;&amp;nbsp;&lt;a href=\"https://www.americanyawp.com/reader/uniforms-of-the-american-revolution/\" target=\"_blank\"&gt;Image source&lt;/a&gt;&lt;/p&gt;",
-      "start_date": "2026-07-29T21:30:00-04:00",
-      "end_date": "2026-07-29T23:00:00-04:00",
+      "description": "&lt;p&gt;A free screening of&amp;nbsp;TCB - The Toni Cade Bambara School of Organizing&amp;nbsp;will feature a post screening&amp;nbsp;panel discussion&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;This free screening of&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;&lt;strong&gt;TCB - The Toni Cade Bambara School of Organizing&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;will feature a post screening panel discussion with panelists&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Louis Massiah&lt;/strong&gt;&lt;/strong&gt;, co-director of the film and&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Firelight Media&amp;#39;s President and CEO, Loira Limbal.&lt;/strong&gt;&lt;/strong&gt;&amp;nbsp;This screening and conversation are made possible by the MacArthur Foundation, West Harlem Development Corporation, Firelight Media, ImageNation and HARLEM WEEK.&lt;/p&gt;\n&lt;p&gt;Please register &lt;a href=\"https://www.eventbrite.com/e/harlem-weekimagenation-film-festivalfilm-tcb-the-toni-cade-bambara-tickets-1994241255278?aff=oddtdtcreator\" target=\"_blank\"&gt;here.&lt;/a&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-08-03T22:00:00-04:00",
+      "end_date": "2026-08-04T01:30:00-04:00",
       "category": [
-        "EDUCATION",
+        "ARTS",
         "SOCIAL",
-        "TECH",
-        "HUMANITIES"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9ebae55f-019e-bd676f97-00004599events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Kent Hall, 1140 Amsterdam Ave., New York, NY 10027\tCVTI - Room 205",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Columbia Center for Veteran Transition and Integration",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Columbia Center for Veteran Transition and Integration",
-          "tags": [
-            "org/CVTI",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Cultural",
-            "Humanities",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Cultural",
-            "Humanities",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_8df7b44b",
-      "name": "Situational Awareness",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Situational Awareness applies to all situations: being aware of where you are and to what is happening around you; being alert to potential threats to your health and safety and being cognizant of emergency exits and other paths to safety.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;You will learn:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;How&amp;nbsp;situational&amp;nbsp;awareness&amp;nbsp;can keep you safe.&lt;/li&gt;\n&lt;li&gt;&amp;ldquo;What are the odds?&amp;rdquo;-being informed to make good decisions for your personal safety.&lt;/li&gt;\n&lt;li&gt;Techniques to develop&amp;nbsp;awareness.&lt;/li&gt;\n&lt;li&gt;Personal safety resources&lt;/li&gt;\n&lt;li&gt;Run. Hide. Fight. &amp;ndash; a strategy for your personal safety in emergency situations&lt;/li&gt;\n&lt;/ul&gt;",
-      "start_date": "2026-07-31T15:00:00-04:00",
-      "end_date": "2026-07-31T16:00:00-04:00",
-      "category": [
         "TECH",
         "EDUCATION"
       ],
       "source": "columbia",
       "source_group": "Columbia",
       "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9f127179-019f-1409ccd1-00003ce6events%40columbia.edu&recurrenceId=",
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9face734-019f-aec892e4-000036eeevents%40columbia.edu&recurrenceId=",
         "source_name": "Columbia University",
         "venue": {
-          "name": "Online Event",
-          "type": "virtual"
+          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
+          "type": "venue"
         },
         "organizer": {
-          "name": "Public Safety",
+          "name": "The Forum",
           "type": "organizer"
         },
         "additional_info": {
-          "department": "Public Safety",
+          "department": "The Forum",
           "tags": [
-            "org/publicsafety",
+            "org/forum",
+            "Manhattanville",
             "Type",
             "Location",
             "Audience",
             "Category",
-            "Workshop",
-            "Online",
+            "Film",
+            "Family-friendly",
             "Student",
             "Faculty",
             "Staff",
+            "Public",
             "Alumni",
             "Events open to",
             "org/UniversityEvents",
+            "Panel",
             "Postdocs",
+            "Prospective Students",
+            "Discussion",
             "Graduate Students",
             "Trainees",
-            "org/cumc",
-            "Training",
+            "Community",
             "Other"
           ],
           "audience": [
             "Category",
-            "Workshop",
-            "Online",
+            "Film",
+            "Family-friendly",
             "Student",
             "Faculty",
             "Staff",
+            "Public",
             "Alumni",
             "Events open to",
             "org/UniversityEvents",
+            "Panel",
             "Postdocs",
+            "Prospective Students",
+            "Discussion",
             "Graduate Students",
             "Trainees",
-            "org/cumc",
-            "Training",
+            "Community",
             "Other"
           ]
         }
@@ -3331,6 +3387,7 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/PublicHealth",
             "Graduate Students",
             "College of Physicians and Surgeons",
             "Trainees",
@@ -3346,6 +3403,7 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/PublicHealth",
             "Graduate Students",
             "College of Physicians and Surgeons",
             "Trainees",
@@ -3356,8 +3414,8 @@
       }
     },
     {
-      "id": "evt_columbia_39c7753a",
-      "name": "University Senate Plenary",
+      "id": "evt_columbia_0589d3a6",
+      "name": "[Canceled] University Senate Plenary",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_columbia_general",
@@ -3752,6 +3810,7 @@
         "additional_info": {
           "department": "HICCC - Hematological Malignancies Initiative",
           "tags": [
+            "org/MDS",
             "org/HMI",
             "Medical Center",
             "Type",
@@ -3847,6 +3906,7 @@
             "College of Physicians and Surgeons",
             "Graduate School of Arts and Sciences",
             "Trainees",
+            "org/cumc_hiccc",
             "Education",
             "org/cumc"
           ],
@@ -3869,6 +3929,7 @@
             "College of Physicians and Surgeons",
             "Graduate School of Arts and Sciences",
             "Trainees",
+            "org/cumc_hiccc",
             "Education",
             "org/cumc"
           ]
@@ -4315,6 +4376,7 @@
           "department": "The Center for Science and Society",
           "tags": [
             "org/CCS",
+            "org/AI",
             "AI",
             "Artificial Intelligence",
             "org/CSS",
@@ -4438,6 +4500,7 @@
             "College of Physicians and Surgeons",
             "Graduate School of Arts and Sciences",
             "Trainees",
+            "org/cumc_hiccc",
             "org/cumc"
           ],
           "audience": [
@@ -4459,6 +4522,7 @@
             "College of Physicians and Surgeons",
             "Graduate School of Arts and Sciences",
             "Trainees",
+            "org/cumc_hiccc",
             "org/cumc"
           ]
         }
@@ -4470,7 +4534,7 @@
       "type": "Seminar",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Ronald DePinho, MD&lt;/strong&gt;&lt;br /&gt;\nHarry Graves Burkhart III Distinguished University Chair&lt;br /&gt;\nProfessor, Department of Cancer Biology&lt;br /&gt;\nPast President, UT MD Anderson Cancer Center&lt;/p&gt;",
+      "description": "&lt;p&gt;&lt;strong&gt;Ronald DePinho, MD&lt;/strong&gt;&lt;br /&gt;\nHarry Graves Burkhart III Distinguished University Chair&lt;br /&gt;\nProfessor, Department of Cancer Biology&lt;br /&gt;\nPast President, UT MD Anderson Cancer Center&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &amp;quot;The Age of Cancer: Insights and Interceptions&amp;quot;&lt;/p&gt;",
       "start_date": "2026-09-16T20:00:00-04:00",
       "end_date": "2026-09-16T21:00:00-04:00",
       "category": [
@@ -4506,6 +4570,7 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/PublicHealth",
             "Graduate Students",
             "College of Physicians and Surgeons",
             "Trainees",
@@ -4521,6 +4586,7 @@
             "Events open to",
             "org/UniversityEvents",
             "Postdocs",
+            "org/PublicHealth",
             "Graduate Students",
             "College of Physicians and Surgeons",
             "Trainees",
@@ -4626,18 +4692,19 @@
       }
     },
     {
-      "id": "evt_columbia_10ea3e9f",
-      "name": "Louise Dubin, cello",
+      "id": "evt_columbia_52b9cd4d",
+      "name": "Cellist Louise Dubin and pianist John Novacek",
       "type": "Performance",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Live at St. Paul&amp;rsquo;s Chapel &amp;mdash;&amp;nbsp;&lt;a href=\"https://youtube.com/live/Tgmu4kHl8kM\" target=\"_blank\"&gt;or, watch on YouTube&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;If you don&amp;rsquo;t have a current Columbia ID, you MUST register by clicking the blue &amp;ldquo;register&amp;rdquo;&amp;nbsp;button below. (Please do not use the same email address to register multiple people; this will confuse the system.)&amp;nbsp;Registration will close at 11am sharp the day &lt;em&gt;before&lt;/em&gt; the concert.&lt;/strong&gt;&lt;/p&gt;",
+      "description": "&lt;p&gt;An &amp;ldquo;artist of refined taste and musicianship&amp;rdquo; (Strad Magazine), cellist LOUISE DUBIN has recently performed at venues and festivals including Norfolk, BargeMusic, Tanglewood, Savannah, Garth Newel, and Caramoor with Daniel Hope, Philippe Muller, Stephanie Chase, and many other artists. With Stefon Harris&amp;rsquo; African Tarantella nonet she toured Carnegie Hall, Jazz Standard, and Chicago&amp;rsquo;s Symphony Hall. Recital in France at SalleGaveau, Reid Hall, CRR (all in Paris), and the International Cello Festival (Beauvais). She&amp;#39;s premiered 4 works by Roger Stubblefield, most recently his Divertissement for Cello and Orchestra in New York (2023), dedicated to her. Formerly Principal Cellist of Charleston Symphony and Auckland Philharmonic, she now performs closer to home, in Broadway shows including solo cellist at Radio City for the past four years, Baltimore and NJ Symphonies, and other ensembles. Her album The Franchomme Project (Delos) was acclaimed in Canada, UK, France and the US, where Strings Magazine called it a &amp;quot;rare musical treat that unfolds with radiant energy.&amp;rdquo; In 2025 she released Passages (Bridge), &amp;ldquo;an intriguing collection of hidden gems with accomplished performances&amp;rdquo; (Strings Magazine). &amp;ldquo;From the gravity of the Chopin, to the grace of the Franchomme, to the aggressive nature of the final Caprice by Philippe Hersant, her expressive details do the music full justice&amp;rdquo; (The Classical Music Sentinel). After completing her BA at Columbia University and Juilliard, she earned a Doctorate from Indiana University School of Music, where she received the Eva Janzer scholarship for studies with Janos Starker, and two IU Graduate School grant awards which funded her research of Auguste Franchomme in France. www.louise-dubin.com&lt;/p&gt;\n&lt;p&gt;Grammy-nominated pianist JOHN NOVACEK&amp;rsquo;s has recently performed in L.A.&amp;rsquo;s Disney Hall, San Francisco&amp;rsquo;s Herbst Theatre, and London&amp;rsquo;s Wigmore Hall. A much in-demand festival guest artist, Novacek appears at Scotia Festival, Colorado College, Stanford (St Lawrence Quartet Seminar), Mimir (Fort Worth &amp;amp; Melbourne), Festival Mozaic, Toronto Summer Music, Music in the Vineyards, Ottawa Chamberfest, Festival of the Sound, Great Lakes, SummerFest La Jolla, Seattle, Cape Cod, Caramoor, Braunschweig, Lucerne, Menuhin Gstaad, Verbier, Stavanger, and BBC Proms. Chamber music collaborators include Leila Josefowicz, Lynn Harrell, Yo-Yo Ma, Joshua Bell, Cho-Liang Lin, Emmanuel Pahud, Jeremy Denk, Renaud Capu&amp;ccedil;on, Truls M&amp;oslash;rk, Matt Haimovitz, Elmar Oliveira, and Dmitry Sitkovetsky, and the Emerson, Ying, St. Lawrence, Miro, Afiara, Alexander, and Tokyo String Quartets. As composer, Novacek has received commissions from St. Paul Chamber Orchestra, New York Philharmonic, Pacific Symphony, Eastman School, Schubert Club, Seattle Chamber Music Society, Seattle Commissioning Club, 5 Browns, Ying Quartet, Quattro Mani, Ensemble Liaison, Manasse/Nakamatsu Duo, Concertante, and the Three Tenors. A Steinway Artist, Novacek teaches piano and chamber music at Mannes School of Music in New York City.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Live at St. Paul&amp;rsquo;s Chapel &amp;mdash;&amp;nbsp;&lt;a href=\"https://youtube.com/live/Tgmu4kHl8kM\" target=\"_blank\"&gt;or, watch on YouTube&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;If you don&amp;rsquo;t have a current Columbia ID, you MUST register by clicking the blue &amp;ldquo;register&amp;rdquo;&amp;nbsp;button below. (Please do not use the same email address to register multiple people; this will confuse the system.)&amp;nbsp;Registration will close at 11am sharp the day &lt;em&gt;before&lt;/em&gt; the concert.&lt;/strong&gt;&lt;/p&gt;",
       "start_date": "2026-09-17T22:00:00-04:00",
       "end_date": "2026-09-17T23:00:00-04:00",
       "category": [
         "ARTS",
+        "EDUCATION",
         "TECH",
-        "EDUCATION"
+        "HUMANITIES"
       ],
       "source": "columbia",
       "source_group": "Columbia",
@@ -4993,6 +5060,7 @@
         "additional_info": {
           "department": "Center for Teaching and Learning",
           "tags": [
+            "org/AI",
             "AI",
             "Artificial Intelligence",
             "Morningside",
@@ -5017,6 +5085,80 @@
             "Teaching and Learning",
             "CTL",
             "Discussion"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_d00031f1",
+      "name": "Columbia Football Northern Manhattan Appreciation Day",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Join Columbia Football for Northern Manhattan Appreciation Day on Saturday, September 19&lt;strong&gt; &lt;/strong&gt;at 12:00PM as the Columbia Lions take on the Lafayette Leopards. Residents of Inwood, Washington Heights, and Harlem are invited to enjoy the game with up to four&lt;strong&gt; &lt;/strong&gt;complimentary tickets.&lt;/p&gt;\n&lt;p&gt;The game also celebrates Heroes Night, honoring active military, veterans, and members of the FDNY and NYPD. Eligible heroes can receive complimentary tickets through the Heroes Program by emailing &lt;strong&gt;lionstickets@columbia.edu&lt;/strong&gt;.&lt;/p&gt;\n&lt;p&gt;Come out to support the Columbia Lions and enjoy an exciting afternoon of football while celebrating our local community and hometown heroes!&lt;/p&gt;",
+      "start_date": "2026-09-19T16:00:00-04:00",
+      "end_date": "2026-09-19T19:00:00-04:00",
+      "category": [
+        "SOCIAL",
+        "TECH",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9fa7c56e-019f-aa75a8a2-00005a15events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Baker Athletics Complex, 533 W. 218 St., New York, NY 10034\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "CUIMC - Office of Academic and Community Partnerships",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "CUIMC - Office of Academic and Community Partnerships",
+          "tags": [
+            "org/OACP",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Sports",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Baker Athletic Complex",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Community",
+            "org/CUMCGovComAff"
+          ],
+          "audience": [
+            "Category",
+            "Sports",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Baker Athletic Complex",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Community",
+            "org/CUMCGovComAff"
           ]
         }
       }
@@ -5235,6 +5377,367 @@
       }
     },
     {
+      "id": "evt_columbia_40a7f641",
+      "name": "The Future of Climate Tech: Innovation, Careers, and Connections",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Join industry leaders, innovators, employers, and emerging talent for an evening exploring the technologies, trends, and career opportunities shaping the future of climate tech. As part of New York Climate Week, the Center on Global Energy Policy at Columbia University SIPA&amp;#39;s &lt;a href=\"https://womeninenergy.energypolicy.columbia.edu/\" target=\"_blank\"&gt;Women in Energy&lt;/a&gt; initiative and &lt;a href=\"https://www.pillsburylaw.com/en/\" target=\"_blank\"&gt;Pillsbury&lt;/a&gt; are bringing together leaders from across industry to discuss the innovations transforming how we power, build, and sustain our world.&lt;/p&gt;\n&lt;p&gt;The evening will feature two engaging panel discussions. The first will explore the technologies and policy developments driving the climate tech landscape from advanced nuclear and semiconductors to AI, digital infrastructure, and corporate sustainability. The second panel will focus on careers in climate tech, highlighting workforce trends, the skills organizations are seeking, and practical pathways for students and professionals looking to enter or advance in the field.&lt;/p&gt;\n&lt;p&gt;Attendees will hear from leaders representing law, technology, manufacturing, clean energy, entrepreneurship, and international policy while connecting with professionals from across the climate ecosystem. Whether you&amp;#39;re interested in learning about emerging technologies, expanding your professional network, or exploring new career opportunities, this event offers a unique opportunity to engage with the people and ideas shaping the future of climate innovation.&lt;/p&gt;\n&lt;p&gt;Please direct any questions to&amp;nbsp;&lt;a href=\"mailto:energypolicyevents@columbia.edu\" target=\"_blank\"&gt;energypolicyevents@columbia.edu&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "start_date": "2026-09-21T22:00:00-04:00",
+      "end_date": "2026-09-22T01:00:00-04:00",
+      "category": [
+        "ARTS",
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9fa7c56e-019f-aa001684-00004baaevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Pillsbury Winthrop Shaw Pittman, 31 West 52nd Street, 29th Floor, New York, NY 10019\t",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SIPA - Center on Global Energy Policy",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SIPA - Center on Global Energy Policy",
+          "tags": [
+            "International and Public Affairs",
+            "Off Campus",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Reception",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Earth Institute",
+            "Panel",
+            "Postdocs",
+            "SIPA",
+            "Climate",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Trainees",
+            "Energy",
+            "org/SIPA_CGEP"
+          ],
+          "audience": [
+            "Category",
+            "Reception",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Earth Institute",
+            "Panel",
+            "Postdocs",
+            "SIPA",
+            "Climate",
+            "Prospective Students",
+            "Discussion",
+            "Graduate Students",
+            "Trainees",
+            "Energy",
+            "org/SIPA_CGEP"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_218765b2",
+      "name": "Columbia Lenfest Center for Sustainable Energy (LCSE) Symposium",
+      "type": "Conference",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;A focused half-day convening bringing together leaders from industry, research, and government to examine how the United States rebuilds secure, end-to-end mineral supply chains and delivers the dependable, affordable energy that domestic manufacturing and energy-intensive industry require. The program centers on two priority discussions shaping national resource and industrial strategy.&lt;br /&gt;\n&lt;br /&gt;\nThis event is part of &lt;a href=\"https://www.engineering.columbia.edu/about/events/climate-week-columbia-engineering-2026\" target=\"_blank\"&gt;Climate Week at Columbia Engineering 2026&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nCampus Access:&lt;br /&gt;\nIn accordance with the University&amp;#39;s current visitor guidelines, all non-Columbia guests will receive a QR code within a few hours of the event date. The code will be sent to you via email from CU Guest Access and must be presented for campus entry, along with a government-issued ID.&lt;br /&gt;\n&lt;br /&gt;\nAccessibility:&lt;br /&gt;\nColumbia University makes every effort to accommodate individuals with disabilities. If you require disability accommodations to attend an event at Columbia University, please contact the Office of Disability Services at 212.854.2388 or access@columbia.edu.&lt;br /&gt;\n&lt;br /&gt;\nPhotography/Videography:&lt;br /&gt;\nColumbia Engineering reserves the right to capture and use images (including video, photo, audio) of student participants at this event in its current or future marketing materials. These materials include but are not limited to: social media, digital and/or print posters, email and web-based materials. By attending and participating in this event, you are consenting to having your image captured for these purposes. If you have concerns about your likeness being used, please reach out to engineeringcommunications@columbia.edu and we will accommodate your request.&lt;/p&gt;",
+      "start_date": "2026-09-22T14:30:00-04:00",
+      "end_date": "2026-09-22T18:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9facf037-019f-af4dd7d5-00004397events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Schapiro CEPSR, 530 W. 120 St., New York, NY 10027\tDavis Auditorium (Room 412, 4th Floor)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SEAS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SEAS",
+          "tags": [
+            "org/AI",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Symposium",
+            "Trainees",
+            "Engineering"
+          ],
+          "audience": [
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Symposium",
+            "Trainees",
+            "Engineering"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_3e39fe76",
+      "name": "Innovation for Climate and Clean Air Progress in the Global South",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;The twin challenges of air pollution and climate change must be addressed hand in hand, alongside economic development in the Global South. This event will highlight recent innovation in sensing, data science, industry-academic partnerships, and funding strategies that have helped accelerate progress towards cleaner air and sustainable climate.&lt;br /&gt;\n&lt;br /&gt;\nThis event is part of &lt;a href=\"https://www.engineering.columbia.edu/about/events/climate-week-columbia-engineering-2026\" target=\"_blank\"&gt;Climate Week at Columbia Engineering 2026&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nCampus Access:&lt;br /&gt;\nIn accordance with the University&amp;#39;s current visitor guidelines, all non-Columbia guests will receive a QR code within a few hours of the event date. The code will be sent to you via email from CU Guest Access and must be presented for campus entry, along with a government-issued ID.&lt;br /&gt;\n&lt;br /&gt;\nAccessibility:&lt;br /&gt;\nColumbia University makes every effort to accommodate individuals with disabilities. If you require disability accommodations to attend an event at Columbia University, please contact the Office of Disability Services at 212.854.2388 or access@columbia.edu.&lt;br /&gt;\n&lt;br /&gt;\nPhotography/Videography:&lt;br /&gt;\nColumbia Engineering reserves the right to capture and use images (including video, photo, audio) of student participants at this event in its current or future marketing materials. These materials include but are not limited to: social media, digital and/or print posters, email and web-based materials. By attending and participating in this event, you are consenting to having your image captured for these purposes. If you have concerns about your likeness being used, please reach out to engineeringcommunications@columbia.edu and we will accommodate your request.&lt;/p&gt;",
+      "start_date": "2026-09-22T18:00:00-04:00",
+      "end_date": "2026-09-22T23:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9facf037-019f-af50f4d3-0000448cevents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Columbia Engineering Innovation Hub, 2276 12th Avenue, New York, NY 10027\t2nd Floor",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SEAS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SEAS",
+          "tags": [
+            "org/AI",
+            "Manhattanville",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Workshop",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Engineering"
+          ],
+          "audience": [
+            "Category",
+            "Workshop",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Engineering"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_09f6d071",
+      "name": "Gotham Foundry Symposium: Regenerative Materials Across Industries",
+      "type": "Conference",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;This annual symposium will convene thought leaders and showcase the four central pillars of Gotham Foundry, from leading-edge regenerative material innovation and translation, workforce training, industry engagement to democratizing access to the materials innovation ecosystem. The Gotham Foundry, established in 2025 and headquartered in West Harlem, is a unique partnership between the city (NYC-EDC), its leading community organizations and academic institutions (Genspace, CUNY-ASRC, FIT, and Columbia), working together with tremendous West Harlem and city-wide partners to turbocharge sustainable materials innovation and workforce training, for three leading New York industries: fashion, construction and health.&lt;br /&gt;\n&lt;br /&gt;\nThis event is part of &lt;a href=\"https://www.engineering.columbia.edu/about/events/climate-week-columbia-engineering-2026\" target=\"_blank\"&gt;Climate Week at Columbia Engineering 2026&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nCampus Access:&lt;br /&gt;\nIn accordance with the University&amp;#39;s current visitor guidelines, all non-Columbia guests will receive a QR code within a few hours of the event date. The code will be sent to you via email from CU Guest Access and must be presented for campus entry, along with a government-issued ID.&lt;br /&gt;\n&lt;br /&gt;\nAccessibility:&lt;br /&gt;\nColumbia University makes every effort to accommodate individuals with disabilities. If you require disability accommodations to attend an event at Columbia University, please contact the Office of Disability Services at 212.854.2388 or access@columbia.edu.&lt;br /&gt;\n&lt;br /&gt;\nPhotography/Videography:&lt;br /&gt;\nColumbia Engineering reserves the right to capture and use images (including video, photo, audio) of student participants at this event in its current or future marketing materials. These materials include but are not limited to: social media, digital and/or print posters, email and web-based materials. By attending and participating in this event, you are consenting to having your image captured for these purposes. If you have concerns about your likeness being used, please reach out to engineeringcommunications@columbia.edu and we will accommodate your request.&lt;/p&gt;",
+      "start_date": "2026-09-23T12:00:00-04:00",
+      "end_date": "2026-09-23T16:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9facf037-019f-af539ff3-00004501events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Schapiro CEPSR, 530 W. 120 St., New York, NY 10027\tDavis Auditorium (Room 412, 4th Floor)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SEAS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SEAS",
+          "tags": [
+            "org/AI",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Symposium",
+            "Trainees",
+            "Engineering"
+          ],
+          "audience": [
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Symposium",
+            "Trainees",
+            "Engineering"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_e94e53d5",
+      "name": "CEEC Fall Symposium 2026",
+      "type": "Conference",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;The energy transition depends on the science and engineering that makes electrochemistry deployable at scale &amp;mdash; from mines and feedstocks through grids, chemicals and materials, and back into circulation. Batteries have to be safe, manufacturable, and affordable at grid scale. Electrolyzers have to compete on cost with incumbents built over a century. Critical minerals, commodity chemicals, and advanced materials have to move from feedstocks to purified products without recreating the environmental burdens we&amp;#39;re trying to escape. The CEEC Fall Symposium gathers CEEC faculty, PhDs, postdocs, and industry practitioners working across this arc. Two afternoon sessions &amp;mdash; Electrifying Chemicals and Materials, and The Grid Frontier &amp;mdash; pair CEEC faculty keynotes with lightning talks and industry panels focused on the technical and commercial problems that matter most. The day closes in Carleton Commons with a reception and poster session showcasing CEEC research and the commercialization pathways emerging from it.&lt;/p&gt;\n&lt;p&gt;This event is part of &lt;a href=\"https://www.engineering.columbia.edu/about/events/climate-week-columbia-engineering-2026\" target=\"_blank\"&gt;Climate Week at Columbia Engineering 2026&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Campus Access&lt;br /&gt;\nIn accordance with the University&amp;#39;s current visitor guidelines, all non-Columbia guests will receive a QR code within a few hours of the event date. The code will be sent to you via email from CU Guest Access and must be presented for campus entry, along with a government-issued ID.&amp;nbsp;&lt;br /&gt;\n&lt;br /&gt;\nAccessibility&lt;br /&gt;\nColumbia University makes every effort to accommodate individuals with disabilities. If you require disability accommodations to attend an event at Columbia University, please contact the Office of Disability Services at 212.854.2388 or&amp;nbsp;&lt;a href=\"mailto:access@columbia.edu\" target=\"_blank\"&gt;access@columbia.edu&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nPhotography/Videography&lt;br /&gt;\nColumbia Engineering reserves the right to capture and use images (including video, photo, audio) of student participants at this event in its current or future marketing materials. These materials include but are not limited to: social media, digital and/or print posters, email and web-based materials. By attending and participating in this event, you are consenting to having your image captured for these purposes. If you have concerns about your likeness being used, please reach out to&amp;nbsp;&lt;a href=\"mailto:engineeringcommunications@columbia.edu\" target=\"_blank\"&gt;engineeringcommunications@columbia.edu&lt;/a&gt;&amp;nbsp;and we will accommodate your request.&lt;/p&gt;",
+      "start_date": "2026-09-23T16:30:00-04:00",
+      "end_date": "2026-09-23T23:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9facf037-019f-af582a46-00004539events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Schapiro CEPSR, 530 W. 120 St., New York, NY 10027\tDavis Auditorium (Room 412, 4th Floor)",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SEAS",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SEAS",
+          "tags": [
+            "org/AI",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Student",
+            "Faculty",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Symposium",
+            "Engineering"
+          ],
+          "audience": [
+            "Category",
+            "Student",
+            "Faculty",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/seas",
+            "Postdocs",
+            "Symposium",
+            "Engineering"
+          ]
+        }
+      }
+    },
+    {
       "id": "e6ba2a33113fd70853984ed183392214",
       "name": "Beyond Digital: Living Systems & Distributed Intelligence",
       "description": "Event at Pratt Manhattan Gallery, 144 West 14th Street New York, NY 10011",
@@ -5247,7 +5750,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.704513-04:00",
+        "scraped_at": "2026-08-02T05:12:58.751564-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -5264,7 +5767,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.704700-04:00",
+        "scraped_at": "2026-08-02T05:12:58.751799-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -5281,7 +5784,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.706047-04:00",
+        "scraped_at": "2026-08-02T05:12:58.753516-04:00",
         "extraction_method": "header"
       }
     },
@@ -5298,7 +5801,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.706080-04:00",
+        "scraped_at": "2026-08-02T05:12:58.753563-04:00",
         "extraction_method": "header"
       }
     },
@@ -5315,7 +5818,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.706146-04:00",
+        "scraped_at": "2026-08-02T05:12:58.753654-04:00",
         "extraction_method": "header"
       }
     },
@@ -5332,7 +5835,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.706164-04:00",
+        "scraped_at": "2026-08-02T05:12:58.753678-04:00",
         "extraction_method": "header"
       }
     },
@@ -5349,7 +5852,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.706185-04:00",
+        "scraped_at": "2026-08-02T05:12:58.753704-04:00",
         "extraction_method": "header"
       }
     },
@@ -5366,7 +5869,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.706204-04:00",
+        "scraped_at": "2026-08-02T05:12:58.753729-04:00",
         "extraction_method": "header"
       }
     },
@@ -5383,7 +5886,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-07-26T05:17:59.707999-04:00",
+        "scraped_at": "2026-08-02T05:12:58.755961-04:00",
         "extraction_method": "container"
       }
     },
@@ -5416,7 +5919,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:56.855463-04:00"
+          "scraped_at": "2026-08-02T05:12:56.405054-04:00"
         }
       }
     },
@@ -5449,7 +5952,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:56.856158-04:00"
+          "scraped_at": "2026-08-02T05:12:56.405957-04:00"
         }
       }
     },
@@ -5482,7 +5985,40 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:56.856502-04:00"
+          "scraped_at": "2026-08-02T05:12:56.406422-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_7e54ea47",
+      "name": "Distinguished Faculty Dance Concert",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "(FREDERICK LOEWE THEATRE) NYU Steinhardt Program in Dance Education Presents the 2025 Distinguished Faculty Dance Concert.",
+      "start_date": "2026-11-20T19:00:00-05:00",
+      "end_date": "2026-11-20T20:30:00-05:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-11/distinguished-faculty-dance-concert",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-02T05:12:56.406926-04:00"
         }
       }
     },
@@ -5515,19 +6051,19 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:56.856839-04:00"
+          "scraped_at": "2026-08-02T05:12:56.407362-04:00"
         }
       }
     },
     {
-      "id": "evt_nyu_steinhardt_music_f07964db",
+      "id": "evt_nyu_steinhardt_music_2c9f4d65",
       "name": "The Art of Piano",
       "type": "Performance",
       "location_id": "loc_nyu_steinhardt",
       "community_id": "com_nyu",
-      "description": "A group recital featuring graduate students pursuing the Advanced Certificate in Piano Performance and Pedagogy.",
+      "description": "Pianist Eteri Andjaparidze is a Steinway Artist and serves as an Artist Faculty member at NYU Steinhardt. Hailed as a \"phenomenal pianist\" (Boston Globe) whose \"playing is imperiously brilliant and…",
       "start_date": "2026-12-04T20:00:00-05:00",
-      "end_date": "2026-12-04T22:00:00-05:00",
+      "end_date": "2026-12-04T21:30:00-05:00",
       "category": [
         "MUSIC_PERFORMANCE",
         "EDUCATION",
@@ -5536,10 +6072,10 @@
       "source": "nyu_steinhardt_music",
       "source_group": "NYU",
       "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-12/art-piano",
+        "source_url": "https://steinhardt.nyu.edu/events/2026-12/art-piano-0",
         "source_name": "NYU Steinhardt Music Events",
         "venue": {
-          "name": "Paulson Center, Room 570181 Mercer Street, NYC",
+          "name": "Room 570181 Mercer Street (at Bleecker Street) NYC",
           "type": "venue"
         },
         "organizer": {
@@ -5548,7 +6084,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:56.857168-04:00"
+          "scraped_at": "2026-08-02T05:12:56.407802-04:00"
         }
       }
     },
@@ -5580,7 +6116,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:51.498403-04:00"
+          "scraped_at": "2026-08-02T05:12:51.088124-04:00"
         }
       }
     },
@@ -5612,7 +6148,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:51.499061-04:00"
+          "scraped_at": "2026-08-02T05:12:51.088977-04:00"
         }
       }
     },
@@ -5644,7 +6180,39 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:51.499359-04:00"
+          "scraped_at": "2026-08-02T05:12:51.089408-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_7e54ea47",
+      "name": "Distinguished Faculty Dance Concert",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "(FREDERICK LOEWE THEATRE) NYU Steinhardt Program in Dance Education Presents the 2025 Distinguished Faculty Dance Concert.",
+      "start_date": "2026-11-20T19:00:00-05:00",
+      "end_date": "2026-11-20T20:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-11/distinguished-faculty-dance-concert",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "Frederick Loewe Theatre35 West 4th Street, NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-02T05:12:51.089873-04:00"
         }
       }
     },
@@ -5676,19 +6244,19 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:51.499701-04:00"
+          "scraped_at": "2026-08-02T05:12:51.090314-04:00"
         }
       }
     },
     {
-      "id": "evt_nyu_steinhardt_f07964db",
+      "id": "evt_nyu_steinhardt_2c9f4d65",
       "name": "The Art of Piano",
       "type": "Seminar",
       "location_id": "loc_nyu_steinhardt",
       "community_id": "com_nyu",
-      "description": "A group recital featuring graduate students pursuing the Advanced Certificate in Piano Performance and Pedagogy.",
+      "description": "Pianist Eteri Andjaparidze is a Steinway Artist and serves as an Artist Faculty member at NYU Steinhardt. Hailed as a \"phenomenal pianist\" (Boston Globe) whose \"playing is imperiously brilliant and…",
       "start_date": "2026-12-04T20:00:00-05:00",
-      "end_date": "2026-12-04T22:00:00-05:00",
+      "end_date": "2026-12-04T21:30:00-05:00",
       "category": [
         "EDUCATION",
         "ARTS"
@@ -5696,10 +6264,10 @@
       "source": "nyu_steinhardt",
       "source_group": "NYU",
       "metadata": {
-        "source_url": "https://steinhardt.nyu.edu/events/2026-12/art-piano",
+        "source_url": "https://steinhardt.nyu.edu/events/2026-12/art-piano-0",
         "source_name": "NYU Steinhardt Events",
         "venue": {
-          "name": "Paulson Center, Room 570181 Mercer Street, NYC",
+          "name": "Room 570181 Mercer Street (at Bleecker Street) NYC",
           "type": "venue"
         },
         "organizer": {
@@ -5708,37 +6276,37 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-07-26T05:17:51.500008-04:00"
+          "scraped_at": "2026-08-02T05:12:51.090725-04:00"
         }
       }
     },
     {
-      "id": "evt_nyu_api_ba15ddc2e5",
-      "name": "National Theatre Live Screening: Les Liaisons Dangereuses",
-      "description": "$18*- NYU Students $28*-NYU Faculty/Staff/Alumni $33* Full Price *Save $3 by buying in person at the NYU Box Office Screening of Christopher Hampton’s celebrated adaptation of the classic novel, where among the glittering salons of the super-rich, one misstep can mean ruin.",
-      "start_date": "2026-07-26T19:00:00-04:00",
-      "end_date": "2026-07-26T19:00:00-04:00",
+      "id": "evt_nyu_api_6f83d4dc83",
+      "name": "DrPH AAPE Presentation Featuring Pierre Amiel",
+      "description": "",
+      "start_date": "2026-08-05T14:00:00-04:00",
+      "end_date": "2026-08-05T14:00:00-04:00",
       "source": "nyu",
       "source_group": "nyu",
       "metadata": {
-        "source_url": "https://events.nyu.edu/live/event/event/398940-national-theatre-live-screening-les-liaisons-dangereu",
+        "source_url": "https://events.nyu.edu/live/event/event/401226-drph-aape-presentation-featuring-pierre-amiel",
         "source_name": "New York University",
         "venue": {
-          "name": "Skirball Center for the Performing Arts",
+          "name": "708 Broadway, Room 1001 &amp; Zoom",
           "type": "Offline"
         }
       }
     },
     {
-      "id": "evt_nyu_api_5152fe11d5",
-      "name": "“Ain’t No Back to a Merry-Go-Round” Film Screening &amp; Discussion",
+      "id": "evt_nyu_api_5eac7a55b5",
+      "name": "“Ain’t No Back to a Merry-Go-Round” Film Screening and Discussion",
       "description": "Join the NYU John Brademas Center for a screening of Ain&#8217;t No Back to a Merry-Go-Round, an Emmy Award-winning documentary directed and produced by Ilana Trachtman that tells the story of the 1960 civil rights protests at Glen Echo Amusement Park in Maryland. Through newly uncovered archival footage and firsthand accounts, the film examines the student-led demonstrations that challenged the park’s segregation policies, the unexpected coalition of local residents who joined the movement, and the opposition they faced. By focusing on the experiences of ordinary individuals, the documentary offers an intimate look at a pivotal moment in the early Civil Rights Movement and the lasting impact of grassroots activism. A discussion will follow the screening. This in-person program is open to everyone, and registration is required in order to attend. Seating is on a first-come, first-serve basis. The discussion portion of this program will be recorded.",
       "start_date": "2026-08-26T22:30:00-04:00",
       "end_date": "2026-08-26T22:30:00-04:00",
       "source": "nyu",
       "source_group": "nyu",
       "metadata": {
-        "source_url": "https://events.nyu.edu/live/event/event/400922-aint-no-back-to-a-merry-go-round-film-screening",
+        "source_url": "https://events.nyu.edu/live/event/event/400922-aint-no-back-to-a-merry-go-round-film-screening-and-d",
         "source_name": "New York University",
         "venue": {
           "name": "NYU Washington, DC  1307 L Street NW Washington, DC 20005",
@@ -5747,11 +6315,11 @@
       }
     },
     {
-      "id": "evt_nyu_api_fe09de7da6",
+      "id": "evt_nyu_api_ab30f1668b",
       "name": "Family Welcome: Student Belonging and Community Resources at NYU",
       "description": "",
-      "start_date": "2026-08-29T20:30:00-04:00",
-      "end_date": "2026-08-29T20:30:00-04:00",
+      "start_date": "2026-08-29T19:45:00-04:00",
+      "end_date": "2026-08-29T19:45:00-04:00",
       "source": "nyu",
       "source_group": "nyu",
       "metadata": {
@@ -5776,6 +6344,40 @@
         "source_name": "New York University",
         "venue": {
           "name": "SPS Midtown 20 West 43rd",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_f936509cb8",
+      "name": "(5:30-7:00PM) Book Talk | Matthew Wolfe | Fires in the Night: The Earth Liberation Front, the FBI, and a Secret History of Eco-Sabotage",
+      "description": "",
+      "start_date": "2026-09-16T04:00:00-04:00",
+      "end_date": "2026-09-16T04:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://journalism.nyu.edu/event/2026-fall/book-talk-wolfe-fires-in-the-night/",
+        "source_name": "New York University",
+        "venue": {
+          "name": "NYU Institute for Public Knowledge  5th Floor   20 Cooper Square  New York, NY 10003",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_b261fc98a2",
+      "name": "National Theatre Live Screening: The Misanthrope",
+      "description": "$18*- NYU Students $28*-NYU Faculty/Staff/Alumni $33* Full Price *Save $3 by buying in person at the NYU Box Office A screening of the London Production. Award-winner Sandra Oh (Killing Eve) plays the title role in this razor-sharp reimagining of Molière’s classic dark comedy.",
+      "start_date": "2026-09-27T19:00:00-04:00",
+      "end_date": "2026-09-27T19:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401034-national-theatre-live-screening-the-misanthrope",
+        "source_name": "New York University",
+        "venue": {
+          "name": "Skirball Center for the Performing Arts",
           "type": "Offline"
         }
       }
@@ -5900,6 +6502,23 @@
       }
     },
     {
+      "id": "evt_cooper_union_0a4ec3a493",
+      "name": "On This Spot at The Cooper Union: Five Pioneering Women Artists",
+      "description": "September 15, 2026\n\t\t\t\t\t\t6:00pm",
+      "start_date": "2026-09-15T18:00:00-04:00",
+      "end_date": "2026-09-15T20:00:00-04:00",
+      "source": "cooper_union",
+      "source_group": "cooper_union",
+      "metadata": {
+        "source_url": "https://cooper.edu/events",
+        "source_name": "Cooper Union",
+        "venue": {
+          "name": "Cooper Union",
+          "type": "Offline"
+        }
+      }
+    },
+    {
       "id": "evt_jtsa_7885f97a",
       "name": "JTS in the Berkshires Summer 2026—Session II",
       "type": "Workshop",
@@ -5919,6 +6538,88 @@
         "venue": {
           "name": "Massachusetts",
           "type": "venue"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_2b6e6c40",
+      "name": "Objects of Awe: The Meaning of the High Holidays Through Treasures from the JTS Library",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Rabbi Marcus Mordecai Schwartz will explore how objects from The JTS Library preserve memory, shape religious imagination, and offer fresh perspectives on the spiritual work of Rosh Hashanah and Yom Kippur.",
+      "start_date": "2026-08-17T12:00:00-04:00",
+      "end_date": "2026-08-17T13:00:00-04:00",
+      "category": [
+        "ARTS",
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/objects-of-awe/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_29fc92d3",
+      "name": "Fear, Trauma, and the High Holidays: Reading Ancient Texts with Compassion",
+      "type": "Academic",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Rabbi Naomi Kalish will explore how the themes of fear and trauma surface throughout the High Holidays.",
+      "start_date": "2026-08-24T12:00:00-04:00",
+      "end_date": "2026-08-24T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/fear-trauma-high-holidays/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_c853433d",
+      "name": "From Nothing to Nothing: Finding Your Own Voice in Prayer",
+      "type": "Religious",
+      "location_id": "loc_virtual",
+      "community_id": "com_jtsa",
+      "description": "Cantor Rabbi Shoshi Levin Goldberg will explore the quiet prayer recited at the conclusion of the Amidah.",
+      "start_date": "2026-08-31T12:00:00-04:00",
+      "end_date": "2026-08-31T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/from-nothing-to-nothing/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "Online Event",
+          "type": "virtual"
         },
         "organizer": {
           "name": "Jewish Theological Seminary",
@@ -6089,87 +6790,6 @@
       }
     },
     {
-      "id": "evt_jtsa_d3235adf",
-      "name": "Biblical Hebrew IV: Advanced Reading Seminar—Jeremiah’s Wrath (afternoon)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "In eight live online sessions, we will read the prophecies and narratives of Jeremiah 23–26.",
-      "start_date": "2026-10-08T12:00:00-04:00",
-      "end_date": "2026-10-08T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-iv-fall-2026-afternoon/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_2884ab5f",
-      "name": "Biblical Hebrew II: Jumpstart Part II (morning)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "By the end of the course, participants will be able to parse (in terms of person, number, tense) every type of Hebrew Qal verb.",
-      "start_date": "2026-10-19T12:00:00-04:00",
-      "end_date": "2026-10-19T13:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-ii-fall-2026-morning/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
-      "id": "evt_jtsa_7d80780a",
-      "name": "Biblical Hebrew II: Jumpstart Part II (afternoon)",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_jtsa",
-      "description": "By the end of the course, participants will be able to parse (in terms of person, number, tense) every type of Hebrew Qal verb.",
-      "start_date": "2026-10-19T12:00:00-04:00",
-      "end_date": "2026-10-19T13:00:00-04:00",
-      "category": [
-        "ARTS"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/biblical-hebrew-ii-fall-2026-afternoon/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
       "id": "evt_fordham_calendar_bf65d1e844",
       "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society",
       "description": "Longterm loans of important and rarely seen ancient sculpture f",
@@ -6204,11 +6824,11 @@
       }
     },
     {
-      "id": "evt_nyu_physics_event7716",
-      "name": "Electronic Crystals Beyond Insulation: From Metallic Wigner Crystals to Quantum Hall Phases",
-      "description": "The Wigner crystal (WC) is a prototypical quantum phase that emerges in the strong-coupling, low-density limit of two-dimensional electron systems. In this talk, I explore the quantum properties of the WC and related strongly correlated phases. I first show how magnetic fields and band Berry curvature generate chiral spin interactions that can stabilize a chiral spin liquid. I then discuss a self-doping instability of the WC that can produce a metallic electron crystal, which was recently observed in rhombohedral multilayer graphene. More broadly, I examine a class of incommensurate WCs, including phases in which crystalline order coexists with integer or fractional quantum Hall order. Such states can exhibit quantized Hall responses over a finite density range without relying on disorder, allowing distinct quantum Hall phases to compete over overlapping density ranges. I explore several settings in which the entropy of low-energy collective modes drives a first-order thermal transition between competing quantum Hall phases. This mechanism provides a possible explanation for the observed evolution from integer to fractional quantum anomalous Hall transport in rhombohedral multilayer graphene.",
-      "start_date": "2026-07-28T14:00:00-04:00",
-      "end_date": "2026-07-28T15:00:00-04:00",
+      "id": "evt_nyu_physics_event7718",
+      "name": "The DMI Mitre Gear",
+      "description": "Speaker: Center for Quantum Phenomena Seminars | Institution: September 29, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lior KleinBar-Ilan UniversityThe DMI Mitre Gear | Event Type: cqp",
+      "start_date": "2026-09-29T14:00:00-04:00",
+      "end_date": "2026-09-29T15:00:00-04:00",
       "location_id": null,
       "community_id": null,
       "category": [
@@ -6218,8 +6838,8 @@
       "source": "nyu_physics",
       "source_group": "nyu_physics",
       "metadata": {
-        "source_url": "http://physics.nyu.edu/events.html#event7716",
-        "url": "http://physics.nyu.edu/events.html#event7716",
+        "source_url": "http://physics.nyu.edu/events.html#event7718",
+        "url": "http://physics.nyu.edu/events.html#event7718",
         "source_name": "NYU Physics Events",
         "venue": {
           "name": "NYU Physics",
@@ -6229,10 +6849,10 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-07-26T05:17:51.174095-04:00",
+        "scraped_at": "2026-08-02T05:12:50.831147-04:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
-        "institution": "July 28, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Kyung-Su  KimUniversity of Illinois Urbana-ChampaignElectronic Crystals Beyond Insulation: From Metallic Wigner Crystals to Quantum Hall PhasesThe Wigner crystal (WC) is a prototypical quantum phase that emerges in the strong-coupling, low-density limit of two-dimensional electron systems. In this talk, I explore the quantum properties of the WC and related strongly correlated phases. I first show how magnetic fields and band Berry curvature generate chiral spin interactions that can stabilize a chiral spin liquid. I then discuss a self-doping instability of the WC that can produce a metallic electron crystal, which was recently observed in rhombohedral multilayer graphene. More broadly, I examine a class of incommensurate WCs, including phases in which crystalline order coexists with integer or fractional quantum Hall order. Such states can exhibit quantized Hall responses over a finite density range without relying on disorder, allowing distinct quantum Hall phases to compete over overlapping density ranges. I explore several settings in which the entropy of low-energy collective modes drives a first-order thermal transition between competing quantum Hall phases. This mechanism provides a possible explanation for the observed evolution from integer to fractional quantum anomalous Hall transport in rhombohedral multilayer graphene.",
+        "institution": "September 29, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lior KleinBar-Ilan UniversityThe DMI Mitre Gear",
         "event_type": "cqp",
         "extraction_method": "html_parsing",
         "links": [
@@ -6275,7 +6895,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-07-26T05:17:51.174848-04:00",
+        "scraped_at": "2026-08-02T05:12:50.831412-04:00",
         "original_source": "NYU Physics",
         "speaker": "Astrophysics and Relativity Seminars",
         "institution": "October 12, 2026 Monday 12:00 PM+726Broadway, 940, CCPP Seminar(astro)",
@@ -6321,7 +6941,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-07-26T05:17:51.175058-04:00",
+        "scraped_at": "2026-08-02T05:12:50.831983-04:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "November 11, 2026 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Alexander PeninU. of Alberta",
@@ -6339,74 +6959,6 @@
             "url": "http://physics.nyu.edu/events.html?EventsPage=hep"
           }
         ]
-      }
-    },
-    {
-      "id": "evt_nyu_eng_f226e3c5",
-      "name": "Hardware Implementation of a Stealthy and Lightweight Backdoor for CRYSTALS-Kyber in Hybrid Cryptosystems",
-      "type": "Seminar",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2026-07-29T11:00:00-04:00",
-      "end_date": "2026-07-29T12:00:00-04:00",
-      "category": [
-        "TECH"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/07/29/hardware-implementation-stealthy-and-lightweight-backdoor-crystals-kyber-hybrid",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Lecture / Panel",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-07/Debapriya_photo_1.JPG?h=1e66e246&itok=MfjsEc0O"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_3254b756",
-      "name": "Hardware Acceleration for Post-Quantum Cryptography: Algorithmic  Derivation, and Architectural Innovation",
-      "type": "Seminar",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2026-07-29T14:30:00-04:00",
-      "end_date": "2026-07-29T15:30:00-04:00",
-      "category": [
-        "TECH"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/07/29/hardware-acceleration-post-quantum-cryptography-algorithmic-derivation-and",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Lecture / Panel",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-07/Picture%201_0.png?h=3e6e1f5a&itok=MKgQDL1_"
-        }
       }
     },
     {
