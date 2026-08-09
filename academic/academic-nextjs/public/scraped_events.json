@@ -1,29 +1,29 @@
 {
-  "scraped_at": "2026-08-02T05:12:59.656283",
-  "total_events": 216,
+  "scraped_at": "2026-08-09T03:23:19.014847",
+  "total_events": 244,
   "event_sources": {
     "juilliard_events_debug": 0,
     "nyas_events_debug": 21,
-    "new_school_events_debug": 23,
+    "new_school_events_debug": 31,
     "luma_events_debug": 69,
-    "isaw_events_debug": 1,
-    "nyu_stern_events_debug": 1,
+    "isaw_events_debug": 2,
+    "nyu_stern_events_debug": 2,
     "miller_events_debug": 51,
-    "columbia_events_debug": 34,
-    "pratt_events_debug": 9,
-    "nyu_steinhardt_music_events_debug": 6,
-    "nyu_steinhardt_events_debug": 6,
-    "nyu_api_events_debug": 8,
+    "columbia_events_debug": 33,
+    "pratt_events_debug": 10,
+    "nyu_steinhardt_music_events_debug": 9,
+    "nyu_steinhardt_events_debug": 9,
+    "nyu_api_events_debug": 14,
     "nyu_medicine_events_debug": 2,
-    "columbia_classics_events_debug": 2,
+    "columbia_classics_events_debug": 5,
     "nyu_education_events_debug": 1,
     "cooper_union_events_debug": 1,
     "nypl_events_debug": 0,
     "nyu_neuroscience_events_debug": 0,
     "jtsa_events_debug": 10,
-    "fordham_events_debug": 2,
-    "nyu_physics_events_debug": 3,
-    "nyu_engineering_events_debug": 2
+    "fordham_events_debug": 3,
+    "nyu_physics_events_debug": 4,
+    "nyu_engineering_events_debug": 3
   },
   "events": [
     {
@@ -721,6 +721,53 @@
       }
     },
     {
+      "id": "evt_newschool_cfde85f0",
+      "name": "MFA Photography 2026 Thesis Exhibition",
+      "type": "Exhibition",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Parsons School of Design is delighted to present Latency, a culminating Thesis Show of the 2026 Photography MFA program cohort.The exhibition will begin August 20th and go until September 17th in the Galleries at the Sheila C. Johnson Design Center. The opening reception will be held on August 20th from 6:00 pm – 8:00 pm.Through the interdisciplinary practices of the 25 individuals, Latency embodies the lag between materialisation and idea. For them, Latency means creating a space in which a brief pause or a visual lag is turned to tangible realities. The exhibition brings together a cohort that isn’t just taking photos, but actively redefining what photography can be.The show captures the tension of something on the verge of appearing, stretching the boundaries of contemporary art. From video to sculpture, silkscreen to image transfers, materials ranging from glass to metal, the work explores the moments where a message finally comes to view.The exhibition features thesis work by: Suga Baruga, Francis Chiang, Nazli Erbes, Andrew Finch, Kaitlyn Garcia, Sarah Gray, Lexi Hide, Jai Jain, Aylin Koç, Madison Lanier, Eugene Lee, He Li, Kyla Liang, Ivo Nagel, Stephen Peng, Tania Quintanilla, Valentina Rangel, Maelle Rudner-Mercier, Bai Song, Leana Spain, Jerry Tang, Sophia Valentino, Yu Wang, Hang Yu, and Miraal Zafar.",
+      "start_date": "2026-08-20T18:00:00-04:00",
+      "end_date": "2026-08-20T20:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "VISUAL_ARTS"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mfaphoto26thesis",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "The Galleries at the Shelia C. Johnson Design Center",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Parsons School of Design"
+          ],
+          "tags": [
+            "general public",
+            "art, media and technology",
+            "faculty/student/alumni/staff research & work",
+            "arts",
+            "design",
+            "media, science, and technology",
+            "parsons school of design",
+            "exhibitions and openings",
+            "the galleries at the shelia c. johnson design center",
+            "art and design",
+            "Sheila C. Johnson Design Center"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_b40de5e9",
       "name": "Charlie Parker Jazz Festival: Eddie Allen Quintet",
       "type": "Performance",
@@ -752,12 +799,57 @@
             "College Of Performing Arts"
           ],
           "tags": [
+            "slide_events",
             "general public",
             "jazz",
             "performing arts",
             "college of performing arts",
             "performance",
             "glassbox theater"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_4db13c5e",
+      "name": "The Common Good Economy: A New Compass",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Join us for a thought-provoking conversation with internationally renowned economist Mariana Mazzucato on her new book, The Common Good Economy: A New Compass. Mazzucato will be joined by Institute Senior Fellow and Pulitzer Prize-winning poet Natalie Diaz and Institute Founding Director Professor Darrick Hamilton for a wide-ranging discussion on the book's vision for reimagining the economy around the common good and exploring how new approaches to power, labor, and public purpose can advance human flourishing.",
+      "start_date": "2026-09-08T19:30:00-04:00",
+      "end_date": "2026-09-08T21:00:00-04:00",
+      "category": [
+        "EDUCATION",
+        "BUSINESS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/thecommongoodeconomy",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Tishman Auditorium, The New School",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [],
+          "tags": [
+            "general public",
+            "students",
+            "humanity, society, social justice",
+            "intellectual culture and big ideas",
+            "centers institutes and labs",
+            "lectures and talks",
+            "tishman auditorium, the new school",
+            "lectures and panel discussions",
+            "Institute on Race, Power and Political Economy"
           ],
           "audience": []
         }
@@ -811,6 +903,63 @@
       }
     },
     {
+      "id": "evt_newschool_07377562",
+      "name": "Competing for the Global South: India-China Competitive Cooperation in a Multipolar World",
+      "type": "Academic",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "In the context of Global South narratives and practices, the India-Chinarelationship can best be characterized as competitive cooperation. Driven by both strategic calculations and pragmatic considerations, the two countries compete for strategic space and political influence while simultaneously cooperating in areas where their interests overlap. Understanding this complex relationship requires examining how India and China engage in debates over Global South identity, pursue different development paths and working patterns with the North, and participate inthe construction of new institutional mechanisms. That’s why their interaction demonstrates “uncoordinated coordination” in certain issue areas despite differences in their responses to the Israel-Palestine conflict and the more recent U.S.-Israel-Iran confrontation. Ultimately, their competitive cooperation relationship over divergent strategic interests, competing national priorities, and different interpretations of globalorder are helping the Global South, as a loosely connected community of nations, develop shared understanding, build collective strength, and explore its own path of development and global engagement.Speaker:Chao XIE: Associate Professor, Institute of International Studies, Fudan University, China",
+      "start_date": "2026-09-10T12:30:00-04:00",
+      "end_date": "2026-09-10T13:15:00-04:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "HUMANITIES",
+        "BUSINESS",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/competingfortheglobalsouth",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "In Person",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "University Level",
+            "Graduate Program and International Affairs"
+          ],
+          "tags": [
+            "general public",
+            "anthropology",
+            "creative publishing and journalism",
+            "jazz",
+            "julien j. studley graduate programs in international affairs",
+            "lang global programs (study abroad)",
+            "mannes school of music",
+            "marketing and communication",
+            "media studies",
+            "faculty/student/alumni/staff research & work",
+            "university",
+            "info session/open house",
+            "in person",
+            "admission info session/open house",
+            "online or live streamed",
+            "India China Institute"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
       "id": "evt_newschool_8e45a0b7",
       "name": "In Conversation with Ilaria Resta, CEO of Audemars Piguet",
       "type": "Seminar",
@@ -841,16 +990,15 @@
             "Parsons School of Design"
           ],
           "tags": [
-            "alumni",
-            "faculty",
-            "prospective students",
-            "staff",
-            "students",
+            "publicprogram",
+            "lobbymonitor",
+            "general public",
             "fashion",
             "parsons school of design",
             "lectures and talks",
             "tishman auditorium",
-            "lectures and panel discussions"
+            "lectures and panel discussions",
+            "Gromek Institute for Fashion Business"
           ],
           "audience": []
         }
@@ -923,7 +1071,7 @@
         "source_url": "https://event.newschool.edu/darkology",
         "source_name": "The New School Events",
         "venue": {
-          "name": "D - List Center - Wolff Conference Room",
+          "name": "Wolff Conference Room (Room D1103)",
           "type": "venue"
         },
         "organizer": {
@@ -943,7 +1091,7 @@
             "writing and literature",
             "centers institutes and labs",
             "lectures and talks",
-            "d - list center - wolff conference room",
+            "wolff conference room (room d1103)",
             "lectures and panel discussions",
             "Center for the American Experience"
           ],
@@ -1066,7 +1214,7 @@
         "source_url": "https://event.newschool.edu/welcometothecenterforamericanexperience",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Tishman Auditorium, The New School",
+          "name": "Tishman Auditorium at The New School (Room U100)",
           "type": "venue"
         },
         "organizer": {
@@ -1081,8 +1229,56 @@
             "general public",
             "centers institutes and labs",
             "exhibitions and openings",
-            "tishman auditorium, the new school",
+            "tishman auditorium at the new school (room u100)",
             "Center for the American Experience"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_f08213c0",
+      "name": "Mannes Opera 2026/27 Season",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Mannes Opera at The New School's College of Performing Arts announces a 2026/27 season that spans more than 400 years of musical storytelling, from Giacomo Puccini and Gian Carlo Menotti to bold new works in development by some of today's most exciting American creators. The season reflects Mannes Opera's commitment to pairing rigorous conservatory training with adventurous artistic exploration, offering New York audiences the opportunity to experience rarely produced repertoire, innovative reinterpretations of operatic classics, and the creation of new work—all performed by the next generation of opera artists.Under the leadership of Managing Artistic Director Emma Griffin and Music Director Cris Frisco, the season explores enduring themes of faith, family, immigration, memory, and transformation. Productions include a site-specific staging of Puccini's Suor Angelica in the historic sanctuary of Our Lady of Good Counsel Church; Everything Urgent Quickly Is Gone, an immersive, building-wide reimagining of the Orpheus myth created in collaboration with Parsons School of Design; and a rare New York revival of Gian Carlo Menotti's Pulitzer Prize-winning The Saint of Bleecker Street, a landmark American opera that has been largely absent from New York stages for more than two decades.Complementing these productions are partnerships that place Mannes students at the forefront of contemporary opera creation. The season includes Lucero, a workshop presentation of a new opera by Grammy-winning composer, pianist, and Mannes faculty member Arturo O'Farrill, developed through Mannes Opera's ongoing commitment to new work and interdisciplinary collaboration. Mannes Opera will also continue its participation in VOX, the landmark consortium of leading opera organizations dedicated to supporting and presenting new American opera.",
+      "start_date": "2026-10-02T19:30:00-04:00",
+      "end_date": "2030-01-10T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION",
+        "VISUAL_ARTS",
+        "PERFORMING_ARTS",
+        "HUMANITIES"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannesopera202627season",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "New York",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performances",
+            "new york",
+            "music performances",
+            "theater performances"
           ],
           "audience": []
         }
@@ -1201,7 +1397,7 @@
         "source_url": "https://event.newschool.edu/JohnLewisALife",
         "source_name": "The New School Events",
         "venue": {
-          "name": "Starr Foundation Hall - L102, The New School University Center",
+          "name": "Starr Foundation Hall (Room UL102), The New School University Center",
           "type": "venue"
         },
         "organizer": {
@@ -1220,9 +1416,146 @@
             "writing and literature",
             "centers institutes and labs",
             "lectures and talks",
-            "starr foundation hall - l102, the new school university center",
+            "starr foundation hall (room ul102), the new school university center",
             "lectures and panel discussions",
             "Center for the American Experience"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_86796a53",
+      "name": "Meet prominent Ukrainian Composer and Pianist Oleh Bezborodko",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Vladimir Feltsman was born in Moscow in 1952. He received his training at Moscow Special Music School and at Moscow Conservatory where he studied piano under the guidance of Jacob Flier. He also studied conducting in St. Petersburg (then Leningrad) Conservatory with Ilya Musin.  In 1971 he received a Grand Prix at the Margaret Long Piano Competition in Paris, and following that, toured extensively through the former Soviet Union, Europe and Japan.  In 1979, because of his growing discontent with the rigid ideological control and restrictions on artistic freedom, he applied for an exit visa from Soviet Union. In response, he was effectively banned from performing in public until he was finally granted the permission to emigrate from USSR in 1987.  His debut recital at Carnegie Hall in 1987 immediately established him as a major pianist on the American and international scene. Since then, he performed with all major American orchestras and appeared on the most prestigious recital series and music festivals in the US and abroad.  Pianist, conductor and teacher, Mr. Feltsman is recognized as one of the most probing and constantly interesting musicians of his generation. His extensive repertoire encompasses the music from Baroque to the XXI century composers and his discography includes more than 70 recordings.  He is a founder and artistic Director of PianoSummer at New Paltz, and a faculty member at SUNY New Paltz and Mannes College The New School for Music.",
+      "start_date": "2026-10-14T13:30:00-04:00",
+      "end_date": "2030-01-10T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION",
+        "PERFORMING_ARTS"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/olehbezborodko",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Ernst C. Stiefel Concert Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannessoundsmasterclass",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_08bc2e76",
+      "name": "Mannes Sounds Masterclass: Michal Tal",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Dr. Michal Tal is one of Israel’s most distinguished and influential musicians. She is the recipient of the Frank Pelleg Lifetime Achievement Award for sustained artistic contribution at the highest level, presented by the Ministry of Culture (2024)Her multifaceted career spans three continents and includes numerous performances and recordings as both soloist and chamber musician. She is regularly invited to festivals, masterclasses, and teaching residencies, and serves as adjudicator at competitions at leading festivals and conservatories worldwide.Dr. Tal educates the next generation of piano teachers at the Buchmann-Mehta School of Music (Tel Aviv University).She initiated and directed the “Young Piano” program at the Jerusalem Music Centre. She is the Founder and Artistic Director of PianoWebFest, the international online piano festival, PianoFest Arad, and the “Tav HaNegev” association.",
+      "start_date": "2026-10-15T13:00:00-04:00",
+      "end_date": "2030-01-10T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION",
+        "PERFORMING_ARTS"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/masterclassmichaltal",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Ernst C. Stiefel Concert Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannessoundsmasterclass",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall",
+            "lectures and panel discussions"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_4ea15396",
+      "name": "In the Footsteps of Liszt and Chopin: A Biographer’s Journey",
+      "type": "Seminar",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "The New York City premiere of It Takes a Life, a documentary film by director Joe Sabia exploring the life and career of Alan Walker. Featuring reflections from Alan Walker on his monumental biography of Franz Liszt, presented on Liszt’s birthday — October 22, 2026.",
+      "start_date": "2026-10-22T19:00:00-04:00",
+      "end_date": "2030-01-10T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_DISCUSSION"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/inthefootstepsoflisztandchopin",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Ernst C. Stiefel Concert Hall",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannessoundslecture",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "lectures and talks",
+            "ernst c. stiefel concert hall",
+            "lectures and panel discussions"
           ],
           "audience": []
         }
@@ -1361,6 +1694,53 @@
             "college of performing arts",
             "performance",
             "virtual"
+          ],
+          "audience": []
+        }
+      }
+    },
+    {
+      "id": "evt_newschool_82a358d6",
+      "name": "Mannes Sounds: Fleeing for Survival",
+      "type": "Performance",
+      "location_id": "loc_newschool_main",
+      "community_id": "com_newschool",
+      "description": "Fleeing the repressive and advancing Nazi regime, Jewish composers and others whose music was labeled “degenerate” were forced to leave their homelands in Germany, Austria, France, and beyond in search of safety and survival. This program honors their resilience and artistic legacy through works by Darius Milhaud, Erich Wolfgang Korngold, Paul Ben-Haim, Walter Bricht, Arnold Schoenberg, Alexander von Zemlinsky, Julius Bürger, Karol Rathaus, Erich Zeisl, and Kurt Weill.Curated by Michael Leavitt, this event is presented in collaboration with the American Society for Jewish Music, the YIVO Institute for Jewish Research, and the Leo Baeck Institute.Works by:Schoenberg, Paul Ben-Haim, Milhaud, Korngold, Weill, Walter Bricht, Karol Rathaus, Julius Bürger",
+      "start_date": "2026-11-18T19:30:00-05:00",
+      "end_date": "2030-01-10T19:00:00-05:00",
+      "category": [
+        "EDUCATION",
+        "MUSIC_PERFORMANCE",
+        "PERFORMING_ARTS",
+        "HUMANITIES",
+        "SOCIAL"
+      ],
+      "source": "new_school",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://event.newschool.edu/mannessoundsfleeingforsurvival",
+        "source_name": "The New School Events",
+        "venue": {
+          "name": "Center for Jewish History",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "The New School",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": [
+            "Mannes",
+            "College Of Performing Arts"
+          ],
+          "tags": [
+            "mannessounds",
+            "general public",
+            "mannes school of music",
+            "performing arts",
+            "college of performing arts",
+            "performance",
+            "center for jewish history"
           ],
           "audience": []
         }
@@ -2592,6 +2972,40 @@
       "source": "luma"
     },
     {
+      "id": "evt_isaw_6b9d283f",
+      "name": "Arabic Cosmographical Maps: Reworking Ancient Traditions",
+      "type": "Seminar",
+      "location_id": "loc_isaw_lecture",
+      "community_id": "com_isaw",
+      "description": "Speaker: Ali Karjoo-Ravary\n\nThis talk introduces how the Arabic and Islamic manuscript tradition inherited and adapted images of the late antique cosmos, focusing on a series of cosmographical maps from the 12th century Andalusian Sufi thinker, Ibn al-ʾArabi (d. 1240) and considering the reception of these images in the visual history of the Islamic world.",
+      "start_date": "2026-09-24T17:30:00-04:00",
+      "end_date": "2026-09-24T19:30:00-04:00",
+      "category": [
+        "HISTORY"
+      ],
+      "source": "isaw",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://isaw.nyu.edu/events/copy2_of_karjoo-ravary-arab-cosmography",
+        "source_name": "ISAW Events Calendar",
+        "venue": {
+          "name": "ISAW Lecture Hall",
+          "address": "15 East 84th Street, New York, NY 10028",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Institute for the Study of the Ancient World",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "image_url": "https://isaw.nyu.edu/events/copy2_of_karjoo-ravary-arab-cosmography/leadImage_mini",
+          "speaker": "Ali Karjoo-Ravary",
+          "subtitle": "",
+          "rsvp_required": true
+        }
+      }
+    },
+    {
       "id": "evt_isaw_601589b8",
       "name": "Arabic Cosmographical Maps: Reworking Ancient Traditions",
       "type": "Seminar",
@@ -2622,6 +3036,23 @@
           "speaker": "Ali Karjoo-Ravary",
           "subtitle": "",
           "rsvp_required": true
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_stern_03d9a83318",
+      "name": "2026 NYU Big Apple Accounting Conference",
+      "description": "— September 10, 2026\n\nOn Thursday, September 10 and Friday, September 11, the NYU Ross Institute of Accounting Research will hold its annual Big Apple Accounting Conference in New York City. The conference brings together leading academics for six paper presentations and discussions.\n\nRead More",
+      "start_date": "2026-09-10T09:00:00-04:00",
+      "end_date": "",
+      "source": "nyu",
+      "source_group": "nyu_stern",
+      "metadata": {
+        "source_url": "https://stern.nyu.edu/events",
+        "source_name": "NYU Stern School of Business",
+        "venue": {
+          "name": "NYU Stern",
+          "type": "Offline"
         }
       }
     },
@@ -3187,92 +3618,14 @@
       }
     },
     {
-      "id": "evt_columbia_38bacfe3",
-      "name": "HARLEM WEEK/ImageNation Film Festival&#8232;Film: TCB - The Toni Cade Bamb",
-      "type": "Academic",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;A free screening of&amp;nbsp;TCB - The Toni Cade Bambara School of Organizing&amp;nbsp;will feature a post screening&amp;nbsp;panel discussion&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;strong&gt;This free screening of&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;&lt;em&gt;&lt;strong&gt;&lt;strong&gt;TCB - The Toni Cade Bambara School of Organizing&lt;/strong&gt;&lt;/strong&gt;&lt;/em&gt;&lt;strong&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/strong&gt;will feature a post screening panel discussion with panelists&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Louis Massiah&lt;/strong&gt;&lt;/strong&gt;, co-director of the film and&amp;nbsp;&lt;strong&gt;&lt;strong&gt;Firelight Media&amp;#39;s President and CEO, Loira Limbal.&lt;/strong&gt;&lt;/strong&gt;&amp;nbsp;This screening and conversation are made possible by the MacArthur Foundation, West Harlem Development Corporation, Firelight Media, ImageNation and HARLEM WEEK.&lt;/p&gt;\n&lt;p&gt;Please register &lt;a href=\"https://www.eventbrite.com/e/harlem-weekimagenation-film-festivalfilm-tcb-the-toni-cade-bambara-tickets-1994241255278?aff=oddtdtcreator\" target=\"_blank\"&gt;here.&lt;/a&gt;&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2026-08-03T22:00:00-04:00",
-      "end_date": "2026-08-04T01:30:00-04:00",
-      "category": [
-        "ARTS",
-        "SOCIAL",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9face734-019f-aec892e4-000036eeevents%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "The Forum at Columbia University, 601 W. 125th St., New York, NY 10027\tAtrium West",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "The Forum",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "The Forum",
-          "tags": [
-            "org/forum",
-            "Manhattanville",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Film",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Panel",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Other"
-          ],
-          "audience": [
-            "Category",
-            "Film",
-            "Family-friendly",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "Panel",
-            "Postdocs",
-            "Prospective Students",
-            "Discussion",
-            "Graduate Students",
-            "Trainees",
-            "Community",
-            "Other"
-          ]
-        }
-      }
-    },
-    {
       "id": "evt_columbia_77489bfb",
       "name": "Who the Health Cares? Podcast | Summer Webinar",
       "type": "Academic",
       "location_id": "loc_virtual",
       "community_id": "com_columbia_general",
       "description": "&lt;p&gt;Join Dr. Michael Sparer, host of&amp;nbsp;&lt;a href=\"https://www.publichealth.columbia.edu/research/centers/center-public-health-systems/podcast\" target=\"_blank\"&gt;&lt;em&gt;Who the Health Cares?&lt;/em&gt;&lt;/a&gt;&amp;nbsp;podcast and director of Columbia&amp;rsquo;s Center for Public Health Systems, as he takes you behind the scenes of season 2 and answers your public health questions. Registration required.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/0sFfNPgYTbiIqKnNIijvPQ#/registration\" target=\"_blank\"&gt;Register Here&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;",
-      "start_date": "2026-08-04T18:00:00-04:00",
-      "end_date": "2026-08-04T19:00:00-04:00",
+      "start_date": "2026-08-11T18:00:00-04:00",
+      "end_date": "2026-08-11T19:00:00-04:00",
       "category": [
         "EDUCATION",
         "HEALTH",
@@ -3341,151 +3694,6 @@
             "Mailman School of Public Health",
             "Trainees",
             "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_bd793468",
-      "name": "HICCC Guest Seminar: Kurt A. Schalper, MD, PhD",
-      "type": "Seminar",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Kurt A. Schalper, MD, PhD&lt;/strong&gt;&lt;br /&gt;\nProfessor of Pathology and Medicine (Medical Oncology)&lt;br /&gt;\nYale School of Medicine&lt;br /&gt;\nDirector Translational Immuno-oncology Laboratory&lt;br /&gt;\nYale Cancer Center&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &amp;ldquo;Decoding the Role of Spatial Tumor-Immune Cell Interactions in Cancer Progression and Treatment&amp;rdquo;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Host:&lt;/strong&gt; &lt;a href=\"https://www.cancer.columbia.edu/profile/brian-s-henick-md\" target=\"_blank\"&gt;Brian Henick, MD&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Zoom Info:&lt;/strong&gt;&lt;br /&gt;\n&lt;a href=\"https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcolumbiacuimc.zoom.us%2Fj%2F98062087107%3Fpwd%3DODN1TFwbtR23dO0Pk7Bq73td7fG91L.1&amp;amp;data=05%7C02%7Cpk2851%40cumc.columbia.edu%7C4cc80bba7162405b6fcc08dee758392e%7Cb0002a9b0017404d97dc3d3bab09be81%7C0%7C0%7C639202563273492591%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=FmQiz%2FR3RVUVRIL198saH4BC%2BFDID1ZFuDn%2B7cOppgc%3D&amp;amp;reserved=0\" target=\"_blank\"&gt;https://columbiacuimc.zoom.us/j/98062087107?pwd=ODN1TFwbtR23dO0Pk7Bq73td7fG91L.1&lt;/a&gt;&lt;br /&gt;\nMeeting ID: 980 6208 7107&lt;br /&gt;\nPasscode: 267022&lt;/p&gt;",
-      "start_date": "2026-08-05T20:00:00-04:00",
-      "end_date": "2026-08-05T21:00:00-04:00",
-      "category": [
-        "HEALTH",
-        "TECH",
-        "EDUCATION"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9f88e3be-019f-8a89eabc-00002af1events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Herbert Irving Comprehensive Cancer Center, 1130 St. Nicholas Ave., New York, NY 10032\t1st Floor Auditorium",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Herbert Irving Comprehensive Cancer Center",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Herbert Irving Comprehensive Cancer Center",
-          "tags": [
-            "Medical Center",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Seminar",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "org/PublicHealth",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ],
-          "audience": [
-            "Category",
-            "Seminar",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Postdocs",
-            "org/PublicHealth",
-            "Graduate Students",
-            "College of Physicians and Surgeons",
-            "Trainees",
-            "org/cumc_hiccc",
-            "org/cumc"
-          ]
-        }
-      }
-    },
-    {
-      "id": "evt_columbia_0589d3a6",
-      "name": "[Canceled] University Senate Plenary",
-      "type": "Academic",
-      "location_id": "loc_virtual",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&amp;nbsp;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;The monthly meeting of the full University Senate&lt;/li&gt;\n&lt;li&gt;Open to current CUID holders&lt;/li&gt;\n&lt;li&gt;Registration is now open &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/ydNU7d92R0qyahYGDWGzRQ\" target=\"_blank\"&gt;here&amp;nbsp;&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;Attendees to this Plenary meeting are reminded not to post this meeting, or any portion of this meeting, online as such a posting could result in a violation of the University&amp;rsquo;s &lt;a href=\"https://universitypolicies.columbia.edu/content/acceptable-usage-information-resources-policy\" target=\"_blank\"&gt; Acceptable Usages of Information Resources Policy&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
-      "start_date": "2026-08-06T17:15:00-04:00",
-      "end_date": "2026-08-06T18:45:00-04:00",
-      "category": [
-        "EDUCATION",
-        "HEALTH",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9e3f472a-019e-40f58596-00004377events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Online Event",
-          "type": "virtual"
-        },
-        "organizer": {
-          "name": "UniversitySenate",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "UniversitySenate",
-          "tags": [
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Online",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Meeting",
-            "University Senate Plenary",
-            "University Senate",
-            "Vote",
-            "CUID Holders",
-            "Postdocs",
-            "org/PublicHealth",
-            "org/univeristysenate",
-            "Graduate Students",
-            "Trainees",
-            "Other",
-            "University Governance"
-          ],
-          "audience": [
-            "Category",
-            "Online",
-            "Student",
-            "Faculty",
-            "Staff",
-            "Events open to",
-            "org/UniversityEvents",
-            "Meeting",
-            "University Senate Plenary",
-            "University Senate",
-            "Vote",
-            "CUID Holders",
-            "Postdocs",
-            "org/PublicHealth",
-            "org/univeristysenate",
-            "Graduate Students",
-            "Trainees",
-            "Other",
-            "University Governance"
           ]
         }
       }
@@ -3570,7 +3778,7 @@
       "type": "Exhibition",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;h3&gt;&lt;strong&gt;Climate School Final Capstone Briefings&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Friday, August 14 | &lt;strong&gt;Location:&lt;/strong&gt; The Forum &amp;amp; Online (Link shared to registrants)&lt;br /&gt;\n&lt;br /&gt;\nThe Capstone Workshop serves as the culminating educational experience for students in the MA in Climate &amp;amp; Society and MS in Climate Finance programs. Students apply the practical skills and analytical knowledge they have gained through coursework to&amp;nbsp;real-world climate-related challenges for a client.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;10:00 AM - Start&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Orogenyx Capital:&amp;nbsp;&lt;/strong&gt;Investing in Climate Adaptation &amp;amp; Resilience&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Jennison Associates:&amp;nbsp;&lt;/strong&gt;Integrating Climate Value at Risk into Valuation&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;rrreefs:&lt;/strong&gt; Building Blue Capital - Financial Mechanisms for Reef Regeneration&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Climate Analytics:&lt;/strong&gt; Solving the Financial Puzzle for 1.5&amp;deg;C Aligned Transition&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;MSCI:&lt;/strong&gt; Investing in Climate Adaptation and Resilience&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;11:25 AM&lt;/strong&gt; &amp;ndash; BREAK&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Nasdaq:&lt;/strong&gt; Benchmarking Climate Transition Strategy&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Climate Central:&lt;/strong&gt; User-Based How-To Guides for Coastal Risk Finder&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Public Citizen:&lt;/strong&gt; Climate Attribution &amp;amp; Criminal Liability for Extreme Heat Deaths&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Earth Law Center:&lt;/strong&gt; Advancing Rights of Nature in NY - Seneca Lake Case Study&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Ambition Loop:&lt;/strong&gt; Global Plastics Treaty - Advocating Against Plastic PLU Stickers&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;12:50 PM&lt;/strong&gt; &amp;ndash; LUNCH&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;NYC Emergency Management (NYCEM):&lt;/strong&gt; Integrating Equity in Response &amp;amp; Recovery Planning&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Menus of Change University Research Collaborative (MCURC):&lt;/strong&gt; MCURC Protein Mix&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Blue Peace Middle East:&lt;/strong&gt; Dignity in Numbers: A WEFE Multidimensional Deprivation Index for the Middle East&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;CGIAR (Bioversity/CIAT):&lt;/strong&gt; Climate Services Participatory Assessment Tool&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Community and College Partners Program&amp;nbsp;(C2P2)&lt;/strong&gt;:&amp;nbsp;Planning Today for Tomorrow - Roadmap for Vulnerable Coastal Communities&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;2:50 PM&lt;/strong&gt; &amp;ndash; BREAK&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;CGIAR-WorldFish:&lt;/strong&gt; Climate Service Value Chain for Aquaculture in Bangladesh&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Mudder AI:&lt;/strong&gt; AI powered flood prediction tools&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Climate Imaginarium &amp;amp; Cafe NYC:&lt;/strong&gt; Integrated Growth Strategy&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Natural Resources Defense Council (NRDC)&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; Impact of State-Level Organic Waste Diversion Policies&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Princess Polly:&lt;/strong&gt; Logistics Network Resilience &amp;amp; Sustainable Growth&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;4:15 PM - END&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=\"https://www.climate.columbia.edu/events/climate-school-final-capstone-briefings\" target=\"_blank\"&gt;&lt;strong&gt;This agenda is edited for length - Click here for more information&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;",
+      "description": "&lt;h3&gt;&lt;strong&gt;Climate School Final Capstone Briefings&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;strong&gt;Date:&lt;/strong&gt; Friday, August 14 | &lt;strong&gt;Location:&lt;/strong&gt; The Forum &amp;amp; Online (Link shared to registrants)&lt;br /&gt;\n&lt;br /&gt;\nThe Capstone Workshop serves as the culminating educational experience for students in the MA in Climate &amp;amp; Society and MS in Climate Finance programs. Students apply the practical skills and analytical knowledge they have gained through coursework to&amp;nbsp;real-world climate-related challenges for a client.&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;10:00 AM - Start&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Orogenyx Capital:&amp;nbsp;&lt;/strong&gt;Investing in Climate Adaptation &amp;amp; Resilience&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Jennison Associates:&amp;nbsp;&lt;/strong&gt;Integrating Climate Value at Risk into Valuation&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;rrreefs:&lt;/strong&gt; Building Blue Capital - Financial Mechanisms for Reef Regeneration&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Climate Analytics:&lt;/strong&gt; Solving the Financial Puzzle for 1.5&amp;deg;C Aligned Transition&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;MSCI:&lt;/strong&gt; Investing in Climate Adaptation and Resilience&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;11:25 AM&lt;/strong&gt; &amp;ndash; BREAK&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Nasdaq:&lt;/strong&gt; Benchmarking Climate Transition Strategy&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Climate Central:&lt;/strong&gt; User-Based How-To Guides for Coastal Risk Finder&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Public Citizen:&lt;/strong&gt; Climate Attribution &amp;amp; Criminal Liability for Extreme Heat Deaths&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Earth Law Center:&lt;/strong&gt; Advancing Rights of Nature in NY - Seneca Lake Case Study&amp;nbsp;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Ambition Loop:&lt;/strong&gt; Global Plastics Treaty - Advocating Against Plastic PLU Stickers&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;12:50 PM&lt;/strong&gt; &amp;ndash; LUNCH&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;NYC Emergency Management (NYCEM):&lt;/strong&gt; Integrating Equity in Response &amp;amp; Recovery Planning&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Menus of Change University Research Collaborative (MCURC):&lt;/strong&gt; MCURC Protein Mix&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Blue Peace Middle East:&lt;/strong&gt; Dignity in Numbers: A WEFE Multidimensional Deprivation Index for the Middle East&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;CGIAR (Bioversity/CIAT):&lt;/strong&gt; Climate Services Participatory Assessment Tool&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Community and College Partners Program&amp;nbsp;(C2P2)&lt;/strong&gt;:&amp;nbsp;Planning Today for Tomorrow - Roadmap for Vulnerable Coastal Communities&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;2:50 PM&lt;/strong&gt; &amp;ndash; BREAK&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;CGIAR-WorldFish:&lt;/strong&gt; Climate Service Value Chain for Aquaculture in Bangladesh&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Mudder AI:&lt;/strong&gt; AI powered flood prediction tools&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Climate Imaginarium &amp;amp; Cafe NYC:&lt;/strong&gt; Integrated Growth Strategy&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Natural Resources Defense Council (NRDC)&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; Impact of State-Level Organic Waste Diversion Policies&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Princess Polly:&lt;/strong&gt; Logistics Network Resilience &amp;amp; Sustainable Growth&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;4:15 PM - END&lt;/strong&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;a href=\"https://columbiauniversityinthecityofn.box.com/s/5ws0tttqzv9mei199n84xezqfalfadrc\" target=\"_blank\"&gt;&lt;strong&gt;This agenda is edited for length - Click here for more information&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;",
       "start_date": "2026-08-14T14:00:00-04:00",
       "end_date": "2026-08-14T20:15:00-04:00",
       "category": [
@@ -3707,7 +3915,7 @@
       "type": "Academic",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;Please join us for the NYC Voices Community Film Festival!&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Presented by Columbia University Mailman School of Public Health&amp;nbsp;FORWARD Community Engagement Action Corps&amp;nbsp;and the&amp;nbsp;Community Health Collaborative (CHEC),&amp;nbsp;The&amp;nbsp;NYC Voices Community&amp;nbsp;Film Festival&amp;nbsp;aims to encourage creativity in communicating about&amp;nbsp;public health issues&amp;nbsp;that are important to our local New York City communities through storytelling, digital media, and the belief that&amp;nbsp;we all have a story to tell!&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Please join us for an evening of&amp;nbsp;storytelling&amp;nbsp;as we celebrate&amp;nbsp;New York City voices&amp;nbsp;through a selection of&amp;nbsp;films&amp;nbsp;created&amp;nbsp;and&amp;nbsp;submitted&amp;nbsp;by community members, as well as a&amp;nbsp;feature documentary presentation and Q&amp;amp;A.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Feature Film Screening:&amp;nbsp;The Skin You&amp;#39;re In: Addressing Racial Health Inequities, a docufilm series that follows a Brooklyn neighborhood as one of its central stories while examining why Black Americans live sicker and die younger than other groups in the U.S., tracing the health impact of the legacy of slavery and ongoing racial segregation.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The screening will be followed by a Q&amp;amp;A with the film&amp;#39;s Writer/Director, Thomas LaVeist, PhD, Dean of Tulane&amp;#39;s Celia Scott Weatherhead School of Public Health and Tropical Medicine, alongside Columbia Mailman School of Public Health&amp;#39;s Michael Joseph, PhD, Vice Dean for Education and Associate Professor of Epidemiology and a Brooklyn native himself, and Robert Fullilove, EdD, Associate Dean and Professor of Sociomedical Sciences, whose decades of work on minority health and public health equity have deepened engagement with New York City communities.&amp;nbsp;&lt;/p&gt;",
+      "description": "&lt;p&gt;Please join us for the NYC Voices Community Film Festival!&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Presented by Columbia University Mailman School of Public Health&amp;nbsp;&lt;strong&gt;FORWARD Community Engagement Action Corps&lt;/strong&gt;&amp;nbsp;and the&amp;nbsp;&lt;strong&gt;Community Health Collaborative (CHEC)&lt;/strong&gt;,&amp;nbsp;The&amp;nbsp;&lt;strong&gt;NYC Voices Community&amp;nbsp;Film Festival&lt;/strong&gt;&amp;nbsp;aims to encourage creativity in communicating about&amp;nbsp;public health issues&amp;nbsp;that are important to our local New York City communities through storytelling, digital media, and the belief that&amp;nbsp;we all have a story to tell!&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Please join us for an evening of&amp;nbsp;storytelling&amp;nbsp;as we celebrate&amp;nbsp;New York City voices&amp;nbsp;through a selection of&amp;nbsp;films&amp;nbsp;created&amp;nbsp;and&amp;nbsp;submitted&amp;nbsp;by community members, as well as a&amp;nbsp;feature documentary presentation and Q&amp;amp;A.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;Feature Film Screening:&amp;nbsp;&lt;strong&gt;&lt;em&gt;The Skin You&amp;#39;re In: Addressing Racial Health Inequities&lt;/em&gt;&lt;/strong&gt;, a docufilm series that follows a Brooklyn neighborhood as one of its central stories while examining why Black Americans live sicker and die younger than other groups in the U.S., tracing the health impact of the legacy of slavery and ongoing racial segregation.&amp;nbsp;&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;The screening will be followed by a Q&amp;amp;A with the&amp;nbsp;film&amp;#39;s&amp;nbsp;Writer/Director, Thomas LaVeist, PhD, Dean of Tulane&amp;#39;s Celia Scott Weatherhead School of Public&amp;nbsp;Health&amp;nbsp;and Tropical Medicine,&amp;nbsp;alongside Community Health Advocates!&amp;nbsp;&lt;/p&gt;",
       "start_date": "2026-09-01T21:30:00-04:00",
       "end_date": "2026-09-02T00:30:00-04:00",
       "category": [
@@ -3734,6 +3942,7 @@
         "additional_info": {
           "department": "Public Health",
           "tags": [
+            "org/studed",
             "Medical Center",
             "Type",
             "Location",
@@ -3776,6 +3985,85 @@
             "Trainees",
             "Community",
             "org/cumc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_e1393550",
+      "name": "Book Launch: Modeling Religious Pluralism",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;Join us in the Burke&amp;#39;s main reading room (3rd floor) to celebrate the publication of &lt;em&gt;Modeling Religious Pluralism: Cultivating Religious Equity in Today&amp;#39;s World&amp;nbsp;&lt;/em&gt;(Oxford University Press). The evening will feature the volume&amp;#39;s editor and two of its contributing authors:&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Simran Jeet Singh&lt;/strong&gt; is an Assistant Professor of Interreligious Histories at Union Theological Seminary and host of&amp;nbsp;&lt;em&gt;Undivided&lt;/em&gt;, a new docuseries on the search for religious freedom in the United States.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Diane L. Moore&lt;/strong&gt; is a founding Co-Director (with Hussein Rashid) of the Center for Religion and Public Life and a Scholar in Residence at Union Theological Seminary.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Hussein Rashid&lt;/strong&gt; is a founding Co-Director (with&amp;nbsp;Diane L. Moore) of the Center for Religion and Public Life and a Scholar in Residence at Union Theological Seminary.&amp;nbsp;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Registration is required.&lt;/strong&gt;&lt;/p&gt;",
+      "start_date": "2026-09-01T22:00:00-04:00",
+      "end_date": "2026-09-01T23:30:00-04:00",
+      "category": [
+        "EDUCATION",
+        "TECH"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb71-9fa7c56e-019f-a998317b-00003e2devents%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "The Burke Library, 3041 Broadway, New York, NY 10027\tReading Room, 3rd Floor",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Libraries_Burke",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Libraries_Burke",
+          "tags": [
+            "org/RegLife",
+            "International and Public Affairs",
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Libraries",
+            "Panel",
+            "Postdocs",
+            "Prospective Students",
+            "Discussion",
+            "org/burke",
+            "Graduate Students",
+            "Trainees",
+            "Humanities",
+            "Religion"
+          ],
+          "audience": [
+            "Category",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Libraries",
+            "Panel",
+            "Postdocs",
+            "Prospective Students",
+            "Discussion",
+            "org/burke",
+            "Graduate Students",
+            "Trainees",
+            "Humanities",
+            "Religion"
           ]
         }
       }
@@ -4078,7 +4366,7 @@
       "type": "Seminar",
       "location_id": "loc_virtual",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The&amp;nbsp;&lt;a href=\"https://cancerdynamics.columbia.edu\" target=\"_blank\"&gt;Herbert and Florence Irving Institute for Cancer Dynamics&lt;/a&gt; will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online) and to researchers outside Columbia (via Zoom).&lt;/p&gt;\n&lt;p&gt;On &lt;strong&gt;Wednesday, September 9 (2:00 PM ET)&lt;/strong&gt;, IICD welcomes Dr. Katherine King from Baylor College of Medicine. Seminar hosted by Dr. Ren-Yi Wang. The seminar will take place via Zoom. If you wish to attend the seminar remotely, please register using the following link: &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/-AtAQLMCRV6TW8-k9frKDw\" target=\"_blank\"&gt;https://columbiauniversity.zoom.us/meeting/register/-AtAQLMCRV6TW8-k9frKDw&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title: &lt;/strong&gt;Intra-Clone Dynamics Affecting Emergence of Clonal Hematopoiesis&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Abstract: &lt;/strong&gt;TBA&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Bio: &lt;/strong&gt;Katherine Y. King MD PhD is Professor of Pediatric Infectious Diseases at Baylor College of Medicine and Texas Children&amp;rsquo;s Hospital, where she is part of the faculty for the Stem Cells and Regenerative Medicine Center and serves as Co-Director of the BCM Medical Scientist Training Program. Dr. King received her BA in Biochemical Sciences from Harvard University and her MD and PhD degrees from Washington University in St. Louis. A board-certified pediatric infectious diseases physician, Dr. King&amp;rsquo;s research focuses on the molecular mechanisms by which inflammation affects blood and immune cell production and clonal competition by hematopoietic stem cells in the bone marrow. Dr. King discovered that infections activate hematopoietic stem cell division. She showed that persistent hematopoietic stem cell division during chronic infectious and inflammatory conditions can drive bone marrow failure. Further, she showed that inflammatory activation of hematopoietic stem cells contributes to clonal hematopoiesis, a condition associated with cardiovascular disease and other diseases of aging. Dr. King&amp;rsquo;s work has made a significant impact on explaining disease phenotypes such as why infections impede stem cell engraftment after transplant, and why immunotherapy patients develop persistent cytopenias. In 2025, Dr. King described mutation-specific effects of clonal hematopoieisis on Alzheimer&amp;rsquo;s disease pathophysiology (Matatall et al, &lt;em&gt;Cell Stem Cell&lt;/em&gt;). Ongoing work addresses the impact of clonal hematopoiesis mutations on immune cell function, including infiltration to the central nervous system, as well as the interactions between microbiome, hematopoiesis, and innate immune memory.&amp;nbsp;Dr. King has been the recipient of the NHLBI R35 Emerging Investigator Award, the Presidential Early Career Award for Scientists and Engineers (PECASE), and the 2025 E. Mead Johnson Award of the Society for Pediatric Research. She is an elected member of the American Pediatric Society and the American Society for Clinical Investigation.&lt;/p&gt;\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;",
+      "description": "&lt;p&gt;The&amp;nbsp;&lt;a href=\"https://cancerdynamics.columbia.edu\" target=\"_blank\"&gt;Herbert and Florence Irving Institute for Cancer Dynamics&lt;/a&gt; will continue its seminar series on the topic of mathematical sciences underpinning cancer research. The monthly seminars take place on the second Wednesday of the month, 2:00-3:00 PM EST. The presentations are open to the Columbia community (in person and online) and to researchers outside Columbia (via Zoom).&lt;/p&gt;\n&lt;p&gt;On &lt;strong&gt;Wednesday, September 9 (2:00 PM ET)&lt;/strong&gt;, IICD welcomes Dr. Katherine King from Baylor College of Medicine. Seminar hosted by Dr. Ren-Yi Wang. The seminar will take place via Zoom. If you wish to attend the seminar remotely, please register using the following link: &lt;a href=\"https://columbiauniversity.zoom.us/meeting/register/-AtAQLMCRV6TW8-k9frKDw\" target=\"_blank\"&gt;https://columbiauniversity.zoom.us/meeting/register/-AtAQLMCRV6TW8-k9frKDw&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Title: &lt;/strong&gt;Intra-Clone Dynamics Affecting Emergence of Clonal Hematopoiesis&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Abstract:&amp;nbsp;&lt;/strong&gt;Clonal hematopoiesis (CH) is a common age-associated condition in which blood stem cells carrying somatic mutations expand over time, increasing the risk of hematologic malignancy, cardiovascular disease, and other disorders of aging. While many individuals harbor multiple mutant clones, little is known about how these clones interact to shape disease evolution. Our work integrates analyses of large human genomic datasets with experimental mouse models to investigate the dynamics of competition among the most common CH driver mutations. Unexpectedly, we found that ASXL1 and DNMT3A mutant clones rarely coexist, revealing a previously unrecognized antagonistic relationship. Mechanistic studies demonstrate that ASXL1-mutant cells suppress the expansion of DNMT3A-mutant clones through indirect effects on the hematopoietic microenvironment, with evidence that metabolic competition and nutrient availability play key roles. These findings suggest that clonal hematopoiesis is shaped not only by the intrinsic fitness of individual mutations but also by competitive interactions among coexisting clones. By defining how these evolutionary dynamics influence early clonal expansion, our work provides a framework for understanding&amp;mdash;and ultimately manipulating&amp;mdash;the trajectories of clonal evolution in aging and cancer.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;Bio: &lt;/strong&gt;Katherine Y. King MD PhD is Professor of Pediatric Infectious Diseases at Baylor College of Medicine and Texas Children&amp;rsquo;s Hospital, where she is part of the faculty for the Stem Cells and Regenerative Medicine Center and serves as Co-Director of the BCM Medical Scientist Training Program. Dr. King received her BA in Biochemical Sciences from Harvard University and her MD and PhD degrees from Washington University in St. Louis. A board-certified pediatric infectious diseases physician, Dr. King&amp;rsquo;s research focuses on the molecular mechanisms by which inflammation affects blood and immune cell production and clonal competition by hematopoietic stem cells in the bone marrow. Dr. King has been the recipient of the NHLBI R35 Emerging Investigator Award, the Presidential Early Career Award for Scientists and Engineers (PECASE), and the 2025 E. Mead Johnson Award of the Society for Pediatric Research. She is an elected member of the American Pediatric Society and the American Society for Clinical Investigation.&lt;/p&gt;",
       "start_date": "2026-09-09T18:00:00-04:00",
       "end_date": "2026-09-09T19:00:00-04:00",
       "category": [
@@ -4529,6 +4817,83 @@
       }
     },
     {
+      "id": "evt_columbia_e8405f2e",
+      "name": "Cinema Across Continents:  The Lumi&egrave;re Brothers, 1896-1897",
+      "type": "Academic",
+      "location_id": "loc_columbia_main",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;An illustrated talk by Michael Allan drawing on his new book,&amp;nbsp;&lt;em&gt;Cinema Before the World: The Global Routes of the Lumi&amp;egrave;re Brothers&lt;/em&gt;&lt;/p&gt;",
+      "start_date": "2026-09-15T22:30:00-04:00",
+      "end_date": "2026-09-16T00:00:00-04:00",
+      "category": [
+        "ARTS",
+        "SCIENCE",
+        "TECH",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9fd0f384-019f-d2592d98-000025a4events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "Buell Hall, 515 W. 116 St., New York, NY 10027\tEast Gallery",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "Maison Francaise",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Maison Francaise",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/soa",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "org/maison",
+            "Graduate School of Arts and Sciences",
+            "Trainees",
+            "Humanities"
+          ],
+          "audience": [
+            "Category",
+            "Lecture",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "org/soa",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "org/maison",
+            "Graduate School of Arts and Sciences",
+            "Trainees",
+            "Humanities"
+          ]
+        }
+      }
+    },
+    {
       "id": "evt_columbia_1a8d2c09",
       "name": "HICCC Distinguished Seminar Speaker: Ronald DePinho, MD",
       "type": "Seminar",
@@ -4592,6 +4957,81 @@
             "Trainees",
             "org/cumc_hiccc",
             "org/cumc"
+          ]
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_bb9c1676",
+      "name": "Exhibit Opening Reception. Selected Prints by Radomir Đukanović",
+      "type": "Academic",
+      "location_id": "loc_columbia_sipa",
+      "community_id": "com_columbia_general",
+      "description": "&lt;p&gt;&lt;strong&gt;Registration REQUIRED by 4pm on September 15, 2026 in order to attend this event.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;Please join the Harriman Institute for the opening reception of the exhibit &lt;em&gt;Selected Prints&lt;/em&gt; by Radomir Đukanović.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Selected Prints&lt;/em&gt;&amp;nbsp;presents a focused selection of Radomir Đukanović&amp;rsquo;s graphic works produced over the past two decades, offering an overview of an artistic practice that moves fluidly between abstraction, gesture, and symbolic suggestion. Working through printmaking as a field of reduction, layering, and repetition, Đukanović constructs images that evoke landscapes, architectural fragments, organic forms, traces of writing, dreamscapes, everyday objects, and archaeological surfaces without resolving into fixed narratives. His restrained yet dynamic visual language places contemporary graphic practice in dialogue with the legacies of Art Informel, lyrical abstraction, the material poetics of Antoni T&amp;agrave;pies, the sign-based poetics of Paul Klee, and the experimental traditions of the Yugoslav neo-avant-garde.&lt;/p&gt;\n&lt;p&gt;The exhibited prints reveal the breadth of this vocabulary. Several compositions are structured around dense red and black linear networks that recall both architectural scaffolding and gestural drawing, contemporary wire fencing and the interwoven ornament of medieval&amp;nbsp;&lt;em&gt;pletenie sloves&lt;/em&gt;, set against pale grounds that emphasize the tension between order and improvisation. Others reduce the image to simplified geometric forms or isolated chromatic fields, while a number of works introduce handwritten marks, repeated motifs, or rhythmic patterns that oscillate between text and image. Throughout the exhibition, richly textured surfaces, fragmented signs, and carefully balanced compositions invite prolonged viewing, encouraging the viewer to navigate between material presence and symbolic openness rather than narrative certainty.&lt;/p&gt;",
+      "start_date": "2026-09-16T22:00:00-04:00",
+      "end_date": "2026-09-17T00:00:00-04:00",
+      "category": [
+        "ARTS",
+        "TECH",
+        "HUMANITIES",
+        "EDUCATION"
+      ],
+      "source": "columbia",
+      "source_group": "Columbia",
+      "metadata": {
+        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb70-9fb733bc-019f-b883bd26-00002395events%40columbia.edu&recurrenceId=",
+        "source_name": "Columbia University",
+        "venue": {
+          "name": "International Affairs Building, 420 W. 118 St., New York, NY 10027\tHarriman Institute Atrium, 12th floor",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "SIPA - Harriman Institute",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "SIPA - Harriman Institute",
+          "tags": [
+            "Morningside",
+            "Type",
+            "Location",
+            "Audience",
+            "Category",
+            "Reception",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Balkan Studies",
+            "org/SIPA_HarrimanInstitute",
+            "Arts"
+          ],
+          "audience": [
+            "Category",
+            "Reception",
+            "Family-friendly",
+            "Student",
+            "Faculty",
+            "Staff",
+            "Public",
+            "Alumni",
+            "Events open to",
+            "org/UniversityEvents",
+            "Postdocs",
+            "Prospective Students",
+            "Graduate Students",
+            "Trainees",
+            "Balkan Studies",
+            "org/SIPA_HarrimanInstitute",
+            "Arts"
           ]
         }
       }
@@ -5164,12 +5604,12 @@
       }
     },
     {
-      "id": "evt_columbia_0c4b4710",
-      "name": "More Hispano",
+      "id": "evt_columbia_9c4425e8",
+      "name": "UConn Collegium Musicum: An Early Renaissance Vespers",
       "type": "Performance",
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;&lt;strong&gt;Live at St. Paul&amp;rsquo;s Chapel &amp;mdash;&amp;nbsp;&lt;a href=\"https://youtube.com/live/-wraLmvWQFg?feature=share\" target=\"_blank\"&gt;or, watch on YouTube&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;If you don&amp;rsquo;t have a current Columbia ID, you MUST register by clicking the blue &amp;ldquo;register&amp;rdquo;&amp;nbsp;button below. (Please do not use the same email address to register multiple people; this will confuse the system.)&amp;nbsp;Registration will close at 11am sharp the day &lt;em&gt;before&lt;/em&gt; the concert.&lt;/strong&gt;&lt;/p&gt;",
+      "description": "&lt;p&gt;PROGRAM&lt;br /&gt;\nVersicle and Response: Deus in adjutorium &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Antiphon and Psalm 109: Sacerdos in aeternum/Dixit Dominus &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Antiphon and Psalm 110: Miserator Dominus/Confitebor tibi &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Antiphon and Psalm 115: Calicem salutaris/Credidi &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Antiphon and Psalm 127: Sicut novellae/Beati omnes &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Antiphon and Psalm 147: Qui pacem/Lauda Jerusalem &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Hymn: Pange lingua gloriosi &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Magnificat Antiphon: O sacrum convivium &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Magnificat quinti toni &amp;agrave; 3 &amp;mdash; Guillaume Du Fay (1397&amp;ndash;1474)&lt;/p&gt;\n&lt;p&gt;Benedicamus Domino &amp;mdash; Plainchant&lt;/p&gt;\n&lt;p&gt;Ave Maria &amp;agrave; 4 &amp;mdash; Josquin des Prez (ca. 1450&amp;ndash;1521)&lt;br /&gt;\n&lt;br /&gt;\n&lt;strong&gt;Live at St. Paul&amp;rsquo;s Chapel &amp;mdash;&amp;nbsp;&lt;a href=\"https://youtube.com/live/-wraLmvWQFg?feature=share\" target=\"_blank\"&gt;or, watch on YouTube&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;If you don&amp;rsquo;t have a current Columbia ID, you MUST register by clicking the blue &amp;ldquo;register&amp;rdquo;&amp;nbsp;button below. (Please do not use the same email address to register multiple people; this will confuse the system.)&amp;nbsp;Registration will close at 11am sharp the day &lt;em&gt;before&lt;/em&gt; the concert.&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;(Picture: &amp;ldquo;Guillaume Dufay et Gilles Binchois&amp;rdquo; by the Master of the Missal of Paul Beye, 1451, from the Biblioth&amp;egrave;que nationale de France.)&lt;/p&gt;",
       "start_date": "2026-09-19T21:00:00-04:00",
       "end_date": "2026-09-19T22:00:00-04:00",
       "category": [
@@ -5538,8 +5978,8 @@
       "location_id": "loc_columbia_main",
       "community_id": "com_columbia_general",
       "description": "&lt;p&gt;The twin challenges of air pollution and climate change must be addressed hand in hand, alongside economic development in the Global South. This event will highlight recent innovation in sensing, data science, industry-academic partnerships, and funding strategies that have helped accelerate progress towards cleaner air and sustainable climate.&lt;br /&gt;\n&lt;br /&gt;\nThis event is part of &lt;a href=\"https://www.engineering.columbia.edu/about/events/climate-week-columbia-engineering-2026\" target=\"_blank\"&gt;Climate Week at Columbia Engineering 2026&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nCampus Access:&lt;br /&gt;\nIn accordance with the University&amp;#39;s current visitor guidelines, all non-Columbia guests will receive a QR code within a few hours of the event date. The code will be sent to you via email from CU Guest Access and must be presented for campus entry, along with a government-issued ID.&lt;br /&gt;\n&lt;br /&gt;\nAccessibility:&lt;br /&gt;\nColumbia University makes every effort to accommodate individuals with disabilities. If you require disability accommodations to attend an event at Columbia University, please contact the Office of Disability Services at 212.854.2388 or access@columbia.edu.&lt;br /&gt;\n&lt;br /&gt;\nPhotography/Videography:&lt;br /&gt;\nColumbia Engineering reserves the right to capture and use images (including video, photo, audio) of student participants at this event in its current or future marketing materials. These materials include but are not limited to: social media, digital and/or print posters, email and web-based materials. By attending and participating in this event, you are consenting to having your image captured for these purposes. If you have concerns about your likeness being used, please reach out to engineeringcommunications@columbia.edu and we will accommodate your request.&lt;/p&gt;",
-      "start_date": "2026-09-22T18:00:00-04:00",
-      "end_date": "2026-09-22T23:00:00-04:00",
+      "start_date": "2026-09-22T18:30:00-04:00",
+      "end_date": "2026-09-22T22:00:00-04:00",
       "category": [
         "EDUCATION",
         "TECH"
@@ -5676,68 +6116,6 @@
       }
     },
     {
-      "id": "evt_columbia_e94e53d5",
-      "name": "CEEC Fall Symposium 2026",
-      "type": "Conference",
-      "location_id": "loc_columbia_main",
-      "community_id": "com_columbia_general",
-      "description": "&lt;p&gt;The energy transition depends on the science and engineering that makes electrochemistry deployable at scale &amp;mdash; from mines and feedstocks through grids, chemicals and materials, and back into circulation. Batteries have to be safe, manufacturable, and affordable at grid scale. Electrolyzers have to compete on cost with incumbents built over a century. Critical minerals, commodity chemicals, and advanced materials have to move from feedstocks to purified products without recreating the environmental burdens we&amp;#39;re trying to escape. The CEEC Fall Symposium gathers CEEC faculty, PhDs, postdocs, and industry practitioners working across this arc. Two afternoon sessions &amp;mdash; Electrifying Chemicals and Materials, and The Grid Frontier &amp;mdash; pair CEEC faculty keynotes with lightning talks and industry panels focused on the technical and commercial problems that matter most. The day closes in Carleton Commons with a reception and poster session showcasing CEEC research and the commercialization pathways emerging from it.&lt;/p&gt;\n&lt;p&gt;This event is part of &lt;a href=\"https://www.engineering.columbia.edu/about/events/climate-week-columbia-engineering-2026\" target=\"_blank\"&gt;Climate Week at Columbia Engineering 2026&lt;/a&gt;.&lt;/p&gt;\n&lt;p&gt;Campus Access&lt;br /&gt;\nIn accordance with the University&amp;#39;s current visitor guidelines, all non-Columbia guests will receive a QR code within a few hours of the event date. The code will be sent to you via email from CU Guest Access and must be presented for campus entry, along with a government-issued ID.&amp;nbsp;&lt;br /&gt;\n&lt;br /&gt;\nAccessibility&lt;br /&gt;\nColumbia University makes every effort to accommodate individuals with disabilities. If you require disability accommodations to attend an event at Columbia University, please contact the Office of Disability Services at 212.854.2388 or&amp;nbsp;&lt;a href=\"mailto:access@columbia.edu\" target=\"_blank\"&gt;access@columbia.edu&lt;/a&gt;.&lt;br /&gt;\n&lt;br /&gt;\nPhotography/Videography&lt;br /&gt;\nColumbia Engineering reserves the right to capture and use images (including video, photo, audio) of student participants at this event in its current or future marketing materials. These materials include but are not limited to: social media, digital and/or print posters, email and web-based materials. By attending and participating in this event, you are consenting to having your image captured for these purposes. If you have concerns about your likeness being used, please reach out to&amp;nbsp;&lt;a href=\"mailto:engineeringcommunications@columbia.edu\" target=\"_blank\"&gt;engineeringcommunications@columbia.edu&lt;/a&gt;&amp;nbsp;and we will accommodate your request.&lt;/p&gt;",
-      "start_date": "2026-09-23T16:30:00-04:00",
-      "end_date": "2026-09-23T23:00:00-04:00",
-      "category": [
-        "EDUCATION",
-        "TECH"
-      ],
-      "source": "columbia",
-      "source_group": "Columbia",
-      "metadata": {
-        "source_url": "https://events.columbia.edu/cal/event/eventView.do?b=de&calPath=%2Fpublic%2Fcals%2FMainCal&guid=CAL-00bbdb7c-9facf037-019f-af582a46-00004539events%40columbia.edu&recurrenceId=",
-        "source_name": "Columbia University",
-        "venue": {
-          "name": "Schapiro CEPSR, 530 W. 120 St., New York, NY 10027\tDavis Auditorium (Room 412, 4th Floor)",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "SEAS",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "SEAS",
-          "tags": [
-            "org/AI",
-            "Morningside",
-            "Type",
-            "Location",
-            "Audience",
-            "Category",
-            "Student",
-            "Faculty",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/seas",
-            "Postdocs",
-            "Symposium",
-            "Engineering"
-          ],
-          "audience": [
-            "Category",
-            "Student",
-            "Faculty",
-            "Public",
-            "Alumni",
-            "Events open to",
-            "org/UniversityEvents",
-            "org/seas",
-            "Postdocs",
-            "Symposium",
-            "Engineering"
-          ]
-        }
-      }
-    },
-    {
       "id": "e6ba2a33113fd70853984ed183392214",
       "name": "Beyond Digital: Living Systems & Distributed Intelligence",
       "description": "Event at Pratt Manhattan Gallery, 144 West 14th Street New York, NY 10011",
@@ -5750,7 +6128,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.751564-04:00",
+        "scraped_at": "2026-08-09T03:23:17.882292-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -5767,7 +6145,24 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.751799-04:00",
+        "scraped_at": "2026-08-09T03:23:17.882537-04:00",
+        "extraction_method": "teaser"
+      }
+    },
+    {
+      "id": "07a0fe08fe817365f657aa9973bddf96",
+      "name": "Ability Imaginary: Against the Productive Subject at Pratt Institute",
+      "description": "Event at Pratt Institute, Steuben Gallery, Steuben Street, 1st Floor,  200 Willoughby Avenue, Brooklyn, NY 11205.",
+      "start_date": "2026-08-03T09:00:00-04:00",
+      "end_date": "2026-09-18T23:59:00-04:00",
+      "location_id": "pratt_institute",
+      "community_id": "pratt_institute",
+      "category": "academic",
+      "url": "https://www.pratt.edu/events/ability-imaginary-against-the-productive-subject-at-pratt-institute/",
+      "metadata": {
+        "source": "pratt_institute",
+        "source_group": "Pratt",
+        "scraped_at": "2026-08-09T03:23:17.882781-04:00",
         "extraction_method": "teaser"
       }
     },
@@ -5784,7 +6179,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.753516-04:00",
+        "scraped_at": "2026-08-09T03:23:17.884688-04:00",
         "extraction_method": "header"
       }
     },
@@ -5801,7 +6196,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.753563-04:00",
+        "scraped_at": "2026-08-09T03:23:17.884747-04:00",
         "extraction_method": "header"
       }
     },
@@ -5818,7 +6213,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.753654-04:00",
+        "scraped_at": "2026-08-09T03:23:17.884859-04:00",
         "extraction_method": "header"
       }
     },
@@ -5835,7 +6230,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.753678-04:00",
+        "scraped_at": "2026-08-09T03:23:17.884888-04:00",
         "extraction_method": "header"
       }
     },
@@ -5852,7 +6247,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.753704-04:00",
+        "scraped_at": "2026-08-09T03:23:17.884913-04:00",
         "extraction_method": "header"
       }
     },
@@ -5869,7 +6264,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.753729-04:00",
+        "scraped_at": "2026-08-09T03:23:17.884934-04:00",
         "extraction_method": "header"
       }
     },
@@ -5886,7 +6281,7 @@
       "metadata": {
         "source": "pratt_institute",
         "source_group": "Pratt",
-        "scraped_at": "2026-08-02T05:12:58.755961-04:00",
+        "scraped_at": "2026-08-09T03:23:17.887679-04:00",
         "extraction_method": "container"
       }
     },
@@ -5919,7 +6314,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:56.405054-04:00"
+          "scraped_at": "2026-08-09T03:23:14.840759-04:00"
         }
       }
     },
@@ -5952,7 +6347,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:56.405957-04:00"
+          "scraped_at": "2026-08-09T03:23:14.841687-04:00"
         }
       }
     },
@@ -5985,7 +6380,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:56.406422-04:00"
+          "scraped_at": "2026-08-09T03:23:14.842147-04:00"
         }
       }
     },
@@ -6018,7 +6413,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:56.406926-04:00"
+          "scraped_at": "2026-08-09T03:23:14.842686-04:00"
         }
       }
     },
@@ -6051,7 +6446,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:56.407362-04:00"
+          "scraped_at": "2026-08-09T03:23:14.843152-04:00"
         }
       }
     },
@@ -6084,7 +6479,106 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:56.407802-04:00"
+          "scraped_at": "2026-08-09T03:23:14.843601-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_75c2fec4",
+      "name": "Chamber Music With Piano",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "The pianists of NYU Steinhardt perform a varied program featuring chamber works with strings and piano four hands.",
+      "start_date": "2026-12-05T15:00:00-05:00",
+      "end_date": "2026-12-05T16:30:00-05:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-12/chamber-music-piano",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "Paulson Center, Room 570181 Mercer Street (at Bleecker Street) NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-09T03:23:14.844066-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_495688af",
+      "name": "Chamber Music with Piano",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Students from the programs in Instrumental Performance and Piano Studies present an evening of music for mixed ensembles.",
+      "start_date": "2026-12-09T20:00:00-05:00",
+      "end_date": "2026-12-09T21:30:00-05:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-12/chamber-music-piano-0",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "Paulson Center, Room 570181 Mercer Street (at Bleecker Street) NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-09T03:23:14.844501-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_music_f3f6bd5f",
+      "name": "Eduardus Halim Studio Recital",
+      "type": "Performance",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Eduardus Halim, the Sascha Gorodnitzki Chair in Piano Studies, presents a solo recital.",
+      "start_date": "2027-02-04T20:00:00-05:00",
+      "end_date": "2027-02-04T21:30:00-05:00",
+      "category": [
+        "MUSIC_PERFORMANCE",
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt_music",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2027-02/eduardus-halim-studio-recital",
+        "source_name": "NYU Steinhardt Music Events",
+        "venue": {
+          "name": "Paulson Center, Room 620181 Mercer Street (at Bleecker Street) NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-09T03:23:14.844973-04:00"
         }
       }
     },
@@ -6116,7 +6610,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:51.088124-04:00"
+          "scraped_at": "2026-08-09T03:23:08.056171-04:00"
         }
       }
     },
@@ -6148,7 +6642,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:51.088977-04:00"
+          "scraped_at": "2026-08-09T03:23:08.057068-04:00"
         }
       }
     },
@@ -6180,7 +6674,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:51.089408-04:00"
+          "scraped_at": "2026-08-09T03:23:08.057491-04:00"
         }
       }
     },
@@ -6212,7 +6706,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:51.089873-04:00"
+          "scraped_at": "2026-08-09T03:23:08.057992-04:00"
         }
       }
     },
@@ -6244,7 +6738,7 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:51.090314-04:00"
+          "scraped_at": "2026-08-09T03:23:08.058421-04:00"
         }
       }
     },
@@ -6276,24 +6770,103 @@
         },
         "additional_info": {
           "areas_of_study": "The Arts",
-          "scraped_at": "2026-08-02T05:12:51.090725-04:00"
+          "scraped_at": "2026-08-09T03:23:08.058882-04:00"
         }
       }
     },
     {
-      "id": "evt_nyu_api_6f83d4dc83",
-      "name": "DrPH AAPE Presentation Featuring Pierre Amiel",
-      "description": "",
-      "start_date": "2026-08-05T14:00:00-04:00",
-      "end_date": "2026-08-05T14:00:00-04:00",
-      "source": "nyu",
-      "source_group": "nyu",
+      "id": "evt_nyu_steinhardt_75c2fec4",
+      "name": "Chamber Music With Piano",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "The pianists of NYU Steinhardt perform a varied program featuring chamber works with strings and piano four hands.",
+      "start_date": "2026-12-05T15:00:00-05:00",
+      "end_date": "2026-12-05T16:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
       "metadata": {
-        "source_url": "https://events.nyu.edu/live/event/event/401226-drph-aape-presentation-featuring-pierre-amiel",
-        "source_name": "New York University",
+        "source_url": "https://steinhardt.nyu.edu/events/2026-12/chamber-music-piano",
+        "source_name": "NYU Steinhardt Events",
         "venue": {
-          "name": "708 Broadway, Room 1001 &amp; Zoom",
-          "type": "Offline"
+          "name": "Paulson Center, Room 570181 Mercer Street (at Bleecker Street) NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-09T03:23:08.059303-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_495688af",
+      "name": "Chamber Music with Piano",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Students from the programs in Instrumental Performance and Piano Studies present an evening of music for mixed ensembles.",
+      "start_date": "2026-12-09T20:00:00-05:00",
+      "end_date": "2026-12-09T21:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2026-12/chamber-music-piano-0",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "Paulson Center, Room 570181 Mercer Street (at Bleecker Street) NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-09T03:23:08.059735-04:00"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_steinhardt_f3f6bd5f",
+      "name": "Eduardus Halim Studio Recital",
+      "type": "Seminar",
+      "location_id": "loc_nyu_steinhardt",
+      "community_id": "com_nyu",
+      "description": "Eduardus Halim, the Sascha Gorodnitzki Chair in Piano Studies, presents a solo recital.",
+      "start_date": "2027-02-04T20:00:00-05:00",
+      "end_date": "2027-02-04T21:30:00-05:00",
+      "category": [
+        "EDUCATION",
+        "ARTS"
+      ],
+      "source": "nyu_steinhardt",
+      "source_group": "NYU",
+      "metadata": {
+        "source_url": "https://steinhardt.nyu.edu/events/2027-02/eduardus-halim-studio-recital",
+        "source_name": "NYU Steinhardt Events",
+        "venue": {
+          "name": "Paulson Center, Room 620181 Mercer Street (at Bleecker Street) NYC",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Steinhardt",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "areas_of_study": "The Arts",
+          "scraped_at": "2026-08-09T03:23:08.060149-04:00"
         }
       }
     },
@@ -6317,16 +6890,33 @@
     {
       "id": "evt_nyu_api_ab30f1668b",
       "name": "Family Welcome: Student Belonging and Community Resources at NYU",
-      "description": "",
+      "description": "Connect with the Center for Multicultural Education and Programs, discover university resources, and learn how to support your student’s NYU journey.",
       "start_date": "2026-08-29T19:45:00-04:00",
       "end_date": "2026-08-29T19:45:00-04:00",
       "source": "nyu",
       "source_group": "nyu",
       "metadata": {
-        "source_url": "https://events.nyu.edu/",
+        "source_url": "https://events.nyu.edu/live/event/event/400478",
         "source_name": "New York University",
         "venue": {
-          "name": "NYU",
+          "name": "NYU CMEP, 60 Washington Square S, 8th Fl (CMEP Lounge 804/805), New York, NY 10012",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_ca0e603ffd",
+      "name": "Panel Discussion | by Alison Knowles at the Grey Art Museum",
+      "description": "In conjunction with the Grey Art Museum’s exhibition by Alison Knowles: A Retrospective (1960–2022), on view from Sept. 9, 2026–Jan. 20, 2027. Best known as a founding member of the interdisciplinary art collective Fluxus, Alison Knowles (1933–2025) was an important figure in the downtown New York City community and beyond for more than half a century. Her work combines elements of musical scores, live performance, and experimental printmaking, and invites audiences to explore daily life through simple actions and everyday objects. Moderated by exhibition curator Dr. Karen Moss, this panel discussion will present the latest scholarship about Knowles by some of the leading authorities on her artistic production.",
+      "start_date": "2026-09-09T22:00:00-04:00",
+      "end_date": "2026-09-09T22:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401734-panel-discussion-by-alison-knowles-at-the-grey",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square",
           "type": "Offline"
         }
       }
@@ -6366,6 +6956,57 @@
       }
     },
     {
+      "id": "evt_nyu_api_49e8e8ba42",
+      "name": "Book Talk | Matthew Wolfe | Fires in the Night: The Earth Liberation Front, the FBI, and a Secret History of Eco-Sabotage",
+      "description": "Join the Institute for Public Knowledge and the Literary Reportage Program at the Arthur L. Carter Journalism Institute on Wednesday, September 16 (5:30-7:00 PM) for an event with Matthew Wolfe. He will discuss his new book, Fires in the Night: The Earth Liberation Front, the FBI, and a Secret History of Eco-Sabotage with Colin Jerolmack and Alex Vitale.",
+      "start_date": "2026-09-16T21:30:00-04:00",
+      "end_date": "2026-09-16T21:30:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401706-book-talk-matthew-wolfe-fires-in-the-night-the",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_420286330c",
+      "name": "Conversation and Performance | Lyrical Abstraction: Composer Kenneth Fuchs and the Art of Helen Frankenthaler",
+      "description": "To celebrate the Grey Art Museum’s exhibition Making Music: Helen Frankenthaler Prints from the NYU Art Collection, join us for an evening of conversation and performance that explores connections between visual abstraction and musical expression. Composer Kenneth Fuchs (Professor of Composition, University of Connecticut) will discuss how the evocative colors and compositions of Frankenthaler’s Abstract Expressionist paintings inspired him to pen concertos and other vibrant, emotionally direct music. Fuchs will be in dialogue with Dr. Douglas Dreishpoon (Director, Catalogue Raisonné Project, Helen Frankenthaler Foundation) to explore how both composer and artist sought to give form to feeling through poetic means. Student musicians from the Department of Music and Performing Arts, NYU Steinhardt, will perform a movement from Fuchs’s Fire, Ice, and Summer Bronze (1986), composed after two works on paper by Frankenthaler. Coached by Prof. Javian Brabham (Director of Brass Studies, Department of Music and Performing Arts Professions, NYU Steinhardt).",
+      "start_date": "2026-09-23T22:00:00-04:00",
+      "end_date": "2026-09-23T22:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401738-conversation-and-performance-lyrical-abstraction",
+        "source_name": "New York University",
+        "venue": {
+          "name": "16 Cooper Square, New York, NY 10003",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_cbee9d46ba",
+      "name": "“Stolen Lives” Film Screening and Director Q&amp;A",
+      "description": "Join the NYU John Brademas Center for a screening of Stolen Lives, an award-winning documentary that tells the extraordinary true story of Sunny Jacobs and Peter Pringle, the only married couple to have each been wrongfully convicted of murdering police officers, sentenced to death, and later exonerated. Through their firsthand accounts, the film explores the devastating human cost of wrongful conviction, the resilience that carried them through years of imprisonment, and their shared commitment to supporting others who have experienced similar injustices through The Sunny Center. Following the screening, award-winning Irish filmmaker Mark Mc Loughlin will discuss the making of the documentary, the issues it raises about justice systems and human rights, and answer audience questions. Registration is free but required.",
+      "start_date": "2026-09-25T23:00:00-04:00",
+      "end_date": "2026-09-25T23:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401737-stolen-lives-film-screening-and-director-qampa",
+        "source_name": "New York University",
+        "venue": {
+          "name": "1307 L ST NW Washington D.C, 20005",
+          "type": "Offline"
+        }
+      }
+    },
+    {
       "id": "evt_nyu_api_b261fc98a2",
       "name": "National Theatre Live Screening: The Misanthrope",
       "description": "$18*- NYU Students $28*-NYU Faculty/Staff/Alumni $33* Full Price *Save $3 by buying in person at the NYU Box Office A screening of the London Production. Award-winner Sandra Oh (Killing Eve) plays the title role in this razor-sharp reimagining of Molière’s classic dark comedy.",
@@ -6383,6 +7024,23 @@
       }
     },
     {
+      "id": "evt_nyu_api_125825d9f4",
+      "name": "Workshop | Press Print to Compose: Creating Computational Poetry",
+      "description": "In conjunction with the Grey Art Museum’s exhibition by Alison Knowles: A Retrospective (1960–2022), on view from Sept. 9, 2026–Jan. 20, 2027. Led by computational poet Prof. Allison Parrish and artist Prof. Blair Simmons (ITP/IMA, NYU Tisch), this workshop takes inspiration from Alison Knowles’s The House of Dust (1967), one of the earliest computer-generated poems. Coded in FORTRAN, the automated combinations of materials, locations, light sources, and inhabitants that populate the stanzas of this pioneering text generate infinitely and are printed in real time on a dot matrix printer (on view at the Grey). &#160; Participants will discover the ongoing value of Knowles’s creative methods and execute their own infinite poems. By experimenting with the materiality of written words and different printing technologies—including dot matrix, thermal, and inkjet—we will explore how the meaning of a poem shifts dramatically depending on how it is made. &#160; Bring your laptop and experience the surprisingly liberating potential of printers in poetry! &#160; No prior creative writing or coding experience is necessary.",
+      "start_date": "2026-10-07T22:00:00-04:00",
+      "end_date": "2026-10-07T22:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401739-workshop-press-print-to-compose-creating",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square, New York, NY",
+          "type": "Offline"
+        }
+      }
+    },
+    {
       "id": "evt_nyu_api_a21b740a49",
       "name": "Craft, Create &amp; Customize: Tote Bag &amp; Keychain Workshop @SPARK Lab",
       "description": "Unleash your creativity and upgrade your everyday campus style! Join us for a hands-on crafting session where you’ll get to design and personalize your very own tote bag and keychain. Whether you want to show off your unique aesthetic, make a gift for a friend, or just de-stress with some hands-on making, we’ve got all the supplies you need!&#160;",
@@ -6395,6 +7053,40 @@
         "source_name": "New York University",
         "venue": {
           "name": "SPARK LAB - 5th Floor of Bobst Library",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_12891c958f",
+      "name": "Exhibition Walkthrough of “by Alison Knowles” at the Grey Art Museum",
+      "description": "Micaella Sanchez, Graduate Curatorial Assistant at the Grey Art Museum and MA candidate at NYU’s Institute of Fine Arts, will give a guided walkthrough of by Alison Knowles: A Retrospective (1920–2022).",
+      "start_date": "2026-10-21T22:00:00-04:00",
+      "end_date": "2026-10-21T22:00:00-04:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401740-exhibition-walkthrough-of-by-alison-knowles-at-the",
+        "source_name": "New York University",
+        "venue": {
+          "name": "18 Cooper Square, New York, NY 10003",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_api_55f4ceb49c",
+      "name": "Lunch/Performance | The Art of the Tuna Fish Sandwich: Performing Alison Knowles’s The Identical Lunch",
+      "description": "In conjunction with the Grey Art Museum’s exhibition by Alison Knowles: A Retrospective (1960–2022), on view from Sept. 9, 2026–Jan. 20, 2027. Join Prof. André Lepecki and Prof. Jeannine Tang (Department of Performance Studies, NYU Tisch) for a lunchtime conversation catalyzed by Alison Knowles’s performance The Identical Lunch, based on the artist’s habitual order at NYC diner Riss Foods: “a tuna fish sandwich on wheat toast with butter and lettuce, no mayo, and a cup of soup or glass of buttermilk.” From 1969 until the artist’s death in 2025, numerous artists, friends, and strangers ate variations of this lunch with Knowles across the United States and internationally, writing about their experiences as performers and documentarians of this iconic work. Honoring this legacy, discussion will situate the performance within Knowles’s art of everyday life, ritual, and relation. It will also consider the implications of posthumously activating this communal performance, including changing food cultures such as the recent viral spread of the humble tuna fish sandwich. Attendees will dine on Knowles’s signature meal, and vegan alternatives will be available.",
+      "start_date": "2026-11-12T17:00:00-05:00",
+      "end_date": "2026-11-12T17:00:00-05:00",
+      "source": "nyu",
+      "source_group": "nyu",
+      "metadata": {
+        "source_url": "https://events.nyu.edu/live/event/event/401741-lunchperformance-the-art-of-the-tuna-fish",
+        "source_name": "New York University",
+        "venue": {
+          "name": "20 Cooper Square, New York, NY",
           "type": "Offline"
         }
       }
@@ -6446,6 +7138,57 @@
         "source_name": "NYU School of Medicine",
         "venue": {
           "name": "NYU Medical Center",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_classics_1ad50e5b9d",
+      "name": "University Seminar Classical Civilization: Peter Osorio, Hellenistic philosophy (Harvard University)",
+      "description": "Thursday, September 17, 2026\n\n\n\n7:30 PM\n\n9:00 PM\n\n\n19:30\n\n21:00\n\n\n\n                \n                  Faculty House\n                \n                (map)\n\n\nGoogle Calendar\n\nICS\n\nView Event →",
+      "start_date": "2026-09-17T19:30:00-04:00",
+      "end_date": "",
+      "source": "columbia",
+      "source_group": "columbia_classics",
+      "metadata": {
+        "source_url": "https://classics.columbia.edu/events",
+        "source_name": "Columbia University Department of Classics",
+        "venue": {
+          "name": "Columbia University",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_classics_a6283280ce",
+      "name": "University Seminar Classical Civilization: Vassiliki (Lily) Panoussi, Latin literature of late Republic (William & Mary)",
+      "description": "Thursday, November 19, 2026\n\n\n\n7:30 PM\n\n9:00 PM\n\n\n19:30\n\n21:00\n\n\n\n                \n                  Faculty House\n                \n                (map)\n\n\nGoogle Calendar\n\nICS\n\nView Event →",
+      "start_date": "2026-11-19T19:30:00-05:00",
+      "end_date": "",
+      "source": "columbia",
+      "source_group": "columbia_classics",
+      "metadata": {
+        "source_url": "https://classics.columbia.edu/events",
+        "source_name": "Columbia University Department of Classics",
+        "venue": {
+          "name": "Columbia University",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_columbia_classics_b7e73fd2e4",
+      "name": "University Seminar Classical Civilization:  Gareth Williams (Columbia University)",
+      "description": "Thursday, January 21, 2027\n\n\n\n7:30 PM\n\n9:00 PM\n\n\n19:30\n\n21:00\n\n\n\n                \n                  Faculty House\n                \n                (map)\n\n\nGoogle Calendar\n\nICS\n\nView Event →",
+      "start_date": "2027-01-21T19:30:00-05:00",
+      "end_date": "",
+      "source": "columbia",
+      "source_group": "columbia_classics",
+      "metadata": {
+        "source_url": "https://classics.columbia.edu/events",
+        "source_name": "Columbia University Department of Classics",
+        "venue": {
+          "name": "Columbia University",
           "type": "Offline"
         }
       }
@@ -6519,33 +7262,6 @@
       }
     },
     {
-      "id": "evt_jtsa_7885f97a",
-      "name": "JTS in the Berkshires Summer 2026—Session II",
-      "type": "Workshop",
-      "location_id": "loc_jtsa_main",
-      "community_id": "com_jtsa",
-      "description": "In the second session from our Berkshires series, Dr. Shira Billet will explore the timely wisdom for our technological age that is found in classical Jewish philosophical reflection on the cosmos and the place of the human being in the divinely created world order.",
-      "start_date": "2026-08-07T12:00:00-04:00",
-      "end_date": "2026-08-07T13:00:00-04:00",
-      "category": [
-        "RELIGION"
-      ],
-      "source": "jtsa",
-      "source_group": "Independent",
-      "metadata": {
-        "source_url": "https://www.jtsa.edu/event/jts-berkshires-summer-2026-session-ii/",
-        "source_name": "JTSA Events Calendar",
-        "venue": {
-          "name": "Massachusetts",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "Jewish Theological Seminary",
-          "type": "organizer"
-        }
-      }
-    },
-    {
       "id": "evt_jtsa_2b6e6c40",
       "name": "Objects of Awe: The Meaning of the High Holidays Through Treasures from the JTS Library",
       "type": "Academic",
@@ -6555,8 +7271,8 @@
       "start_date": "2026-08-17T12:00:00-04:00",
       "end_date": "2026-08-17T13:00:00-04:00",
       "category": [
-        "ARTS",
-        "RELIGION"
+        "RELIGION",
+        "ARTS"
       ],
       "source": "jtsa",
       "source_group": "Independent",
@@ -6620,6 +7336,33 @@
         "venue": {
           "name": "Online Event",
           "type": "virtual"
+        },
+        "organizer": {
+          "name": "Jewish Theological Seminary",
+          "type": "organizer"
+        }
+      }
+    },
+    {
+      "id": "evt_jtsa_998e75c0",
+      "name": "SPOILER: The Unpredictable Story Festival",
+      "type": "Seminar",
+      "location_id": "loc_jtsa_main",
+      "community_id": "com_jtsa",
+      "description": "JTS’s MFA in Creative Writing invites you to its second storytelling festival, featuring the program’s director, Etgar Keret, Ira Glass, Françoise Mouly, and David Remnick.",
+      "start_date": "2026-09-08T12:00:00-04:00",
+      "end_date": "2026-09-08T13:00:00-04:00",
+      "category": [
+        "RELIGION"
+      ],
+      "source": "jtsa",
+      "source_group": "Independent",
+      "metadata": {
+        "source_url": "https://www.jtsa.edu/event/spoiler-fall-2026/",
+        "source_name": "JTSA Events Calendar",
+        "venue": {
+          "name": "JTS",
+          "type": "venue"
         },
         "organizer": {
           "name": "Jewish Theological Seminary",
@@ -6790,18 +7533,18 @@
       }
     },
     {
-      "id": "evt_fordham_calendar_bf65d1e844",
-      "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society",
-      "description": "Longterm loans of important and rarely seen ancient sculpture f",
-      "start_date": "2025-01-17T09:00:00-05:00",
-      "end_date": "2026-12-31T09:00:00-05:00",
+      "id": "evt_fordham_calendar_2dc01ddb46",
+      "name": "2026 Economos Orthodoxy in America Lecture",
+      "description": "Join us for the 2026 Economos Orthodoxy in Lecture in America.",
+      "start_date": "2026-10-28T09:00:00-04:00",
+      "end_date": "2026-10-28T09:00:00-04:00",
       "source": "fordham",
       "source_group": "fordham",
       "metadata": {
-        "source_url": "https://now.fordham.edu/event/ancient-sculpture-from-the-brooklyn-museu",
+        "source_url": "https://now.fordham.edu/event/2026-economos-orthodoxy-in-america-lectur",
         "source_name": "Fordham University",
         "venue": {
-          "name": "Museum of Greek\\, Etruscan\\, and Roman Art\\, Walsh Library\\, 441 E",
+          "name": "Lincoln Center Campus | McNally Amphitheatre + Platt Court\\, 140 W",
           "type": "Offline"
         }
       }
@@ -6824,11 +7567,74 @@
       }
     },
     {
+      "id": "evt_fordham_calendar_bf65d1e844",
+      "name": "Ancient Sculpture from the Brooklyn Museum and The Hispanic Society",
+      "description": "Longterm loans of important and rarely seen ancient sculpture f",
+      "start_date": "2025-01-17T09:00:00-05:00",
+      "end_date": "2026-12-31T09:00:00-05:00",
+      "source": "fordham",
+      "source_group": "fordham",
+      "metadata": {
+        "source_url": "https://now.fordham.edu/event/ancient-sculpture-from-the-brooklyn-museu",
+        "source_name": "Fordham University",
+        "venue": {
+          "name": "Museum of Greek\\, Etruscan\\, and Roman Art\\, Walsh Library\\, 441 E",
+          "type": "Offline"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_physics_event7717",
+      "name": "Tailoring Magnetic Spin Textures in La0.7Sr0.3MnO3-Based Micromagnets",
+      "description": "The development of next-generation computing devices based on spintronics and magnonics requires an understanding of how magnetic spin textures can be tailored in patterned magnetic materials. Within the wide range of magnetic materials available, complex oxides such as ferromagnetic (FM) La0.7Sr0.3MnO3 (LSMO) provide an ideal platform for tailoring magnetic spin textures when lithographically patterned as nano/micromagnets. This unique tunability arises due to the strong interactions among charge, spin, lattice, and orbital degrees of freedom. In this talk I demonstrate how an intricate interplay exists between shape, magnetocrystalline anisotropy, domain wall, and magnetoelastic energies due to the unique combination of magnetic parameters associated with LSMO. Using x-ray photoemission electron microscopy, I will show that the resulting FM spin textures can be controlled using parameters such as micromagnet shape (circles, squares, triangles, and hexagons with their edges oriented along different low-index crystallographic directions, with and without their core regions removed (aka “donut structures”)) and temperature [1]. LSMO nanomagnets are also patterned into artificial spin-ice (ASI) structures [2]-[4], where large arrays of nanomagnets are arranged in geometries where all the magnetic interactions cannot be satisfied simultaneously. While one might expect shape anisotropy to dictate Ising states in the nanomagnets, we observed the formation of both Ising and complex spin textures (CSTs) which consist of single- and double-vortex structures depending on the nano-island width and center-to-center spacing. These CSTs alter the nature of dipolar coupling among nanomagnets, giving rise to exotic physics in the ASI lattices. These studies demonstrate that complex oxides provide a unique platform for engineering FM spin textures for next-generation spin-based devices.[1]  M. S. Lee et al., “Tailoring Spin Textures in Complex Oxide Micromagnets,” ACS Nano, 10, 8545 (2016).[2]  R. V. Chopdekar et al., “Nanostructured Complex Oxides as a Route Towards Thermal Behavior in Artificial Spin Ice Systems,” Phys. Rev. Mater., 1, 024401 (2017).[3]  D. Sasaki et al., “Formation of Complex Spin Textures in Thermally Demagnetized La0.7Sr0.3MnO3 Artificial-Spin-Ice Structures,” Phys. Rev. Appl., 17, 064057 (2022).[4]  D. Sasaki et al., “Energetics of Ising-vortex interactions in La0.7Sr0.3MnO3 brickwork artificial spin ices”, Phys. Rev. B., 113, 064416 (2026)",
+      "start_date": "2026-09-15T11:00:00-04:00",
+      "end_date": "2026-09-15T12:00:00-04:00",
+      "location_id": null,
+      "community_id": null,
+      "category": [
+        "SCIENCE",
+        "EDUCATION"
+      ],
+      "source": "nyu_physics",
+      "source_group": "nyu_physics",
+      "metadata": {
+        "source_url": "http://physics.nyu.edu/events.html#event7717",
+        "url": "http://physics.nyu.edu/events.html#event7717",
+        "source_name": "NYU Physics Events",
+        "venue": {
+          "name": "NYU Physics",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Physics Department",
+          "type": "organizer"
+        },
+        "scraped_at": "2026-08-09T03:23:07.551902-04:00",
+        "original_source": "NYU Physics",
+        "speaker": "Center for Quantum Phenomena Seminars",
+        "institution": "September 15, 2026 Tuesday 11:00 AM+726Broadway, 1067, CQP Seminar(cqp)Yayoi  TakamuraUniversity of California, DavisTailoring Magnetic Spin Textures in La0.7Sr0.3MnO3-Based MicromagnetsThe development of next-generation computing devices based on spintronics and magnonics requires an understanding of how magnetic spin textures can be tailored in patterned magnetic materials. Within the wide range of magnetic materials available, complex oxides such as ferromagnetic (FM) La0.7Sr0.3MnO3 (LSMO) provide an ideal platform for tailoring magnetic spin textures when lithographically patterned as nano/micromagnets. This unique tunability arises due to the strong interactions among charge, spin, lattice, and orbital degrees of freedom. In this talk I demonstrate how an intricate interplay exists between shape, magnetocrystalline anisotropy, domain wall, and magnetoelastic energies due to the unique combination of magnetic parameters associated with LSMO. Using x-ray photoemission electron microscopy, I will show that the resulting FM spin textures can be controlled using parameters such as micromagnet shape (circles, squares, triangles, and hexagons with their edges oriented along different low-index crystallographic directions, with and without their core regions removed (aka “donut structures”)) and temperature [1]. LSMO nanomagnets are also patterned into artificial spin-ice (ASI) structures [2]-[4], where large arrays of nanomagnets are arranged in geometries where all the magnetic interactions cannot be satisfied simultaneously. While one might expect shape anisotropy to dictate Ising states in the nanomagnets, we observed the formation of both Ising and complex spin textures (CSTs) which consist of single- and double-vortex structures depending on the nano-island width and center-to-center spacing. These CSTs alter the nature of dipolar coupling among nanomagnets, giving rise to exotic physics in the ASI lattices. These studies demonstrate that complex oxides provide a unique platform for engineering FM spin textures for next-generation spin-based devices.[1]  M. S. Lee et al., “Tailoring Spin Textures in Complex Oxide Micromagnets,” ACS Nano, 10, 8545 (2016).[2]  R. V. Chopdekar et al., “Nanostructured Complex Oxides as a Route Towards Thermal Behavior in Artificial Spin Ice Systems,” Phys. Rev. Mater., 1, 024401 (2017).[3]  D. Sasaki et al., “Formation of Complex Spin Textures in Thermally Demagnetized La0.7Sr0.3MnO3 Artificial-Spin-Ice Structures,” Phys. Rev. Appl., 17, 064057 (2022).[4]  D. Sasaki et al., “Energetics of Ising-vortex interactions in La0.7Sr0.3MnO3 brickwork artificial spin ices”, Phys. Rev. B., 113, 064416 (2026)",
+        "event_type": "cqp",
+        "extraction_method": "html_parsing",
+        "links": [
+          {
+            "type": "other",
+            "text": "Broadway",
+            "url": "http://as.nyu.edu/physics/information.html"
+          },
+          {
+            "type": "series",
+            "text": "cqp",
+            "url": "http://physics.nyu.edu/events.html?EventsPage=cqp"
+          }
+        ]
+      }
+    },
+    {
       "id": "evt_nyu_physics_event7718",
       "name": "The DMI Mitre Gear",
-      "description": "Speaker: Center for Quantum Phenomena Seminars | Institution: September 29, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lior KleinBar-Ilan UniversityThe DMI Mitre Gear | Event Type: cqp",
-      "start_date": "2026-09-29T14:00:00-04:00",
-      "end_date": "2026-09-29T15:00:00-04:00",
+      "description": "Speaker: Center for Quantum Phenomena Seminars | Institution: September 29, 2026 Tuesday 11:00 AM+726Broadway, 1067, CQP Seminar(cqp)Lior KleinBar-Ilan UniversityThe DMI Mitre Gear | Event Type: cqp",
+      "start_date": "2026-09-29T11:00:00-04:00",
+      "end_date": "2026-09-29T12:00:00-04:00",
       "location_id": null,
       "community_id": null,
       "category": [
@@ -6849,10 +7655,10 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-08-02T05:12:50.831147-04:00",
+        "scraped_at": "2026-08-09T03:23:07.552825-04:00",
         "original_source": "NYU Physics",
         "speaker": "Center for Quantum Phenomena Seminars",
-        "institution": "September 29, 2026 Tuesday 2:00 PM+726Broadway, 1067, CQP Seminar(cqp)Lior KleinBar-Ilan UniversityThe DMI Mitre Gear",
+        "institution": "September 29, 2026 Tuesday 11:00 AM+726Broadway, 1067, CQP Seminar(cqp)Lior KleinBar-Ilan UniversityThe DMI Mitre Gear",
         "event_type": "cqp",
         "extraction_method": "html_parsing",
         "links": [
@@ -6895,7 +7701,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-08-02T05:12:50.831412-04:00",
+        "scraped_at": "2026-08-09T03:23:07.553375-04:00",
         "original_source": "NYU Physics",
         "speaker": "Astrophysics and Relativity Seminars",
         "institution": "October 12, 2026 Monday 12:00 PM+726Broadway, 940, CCPP Seminar(astro)",
@@ -6941,7 +7747,7 @@
           "name": "NYU Physics Department",
           "type": "organizer"
         },
-        "scraped_at": "2026-08-02T05:12:50.831983-04:00",
+        "scraped_at": "2026-08-09T03:23:07.553954-04:00",
         "original_source": "NYU Physics",
         "speaker": "High Energy Physics Seminars",
         "institution": "November 11, 2026 Wednesday 2:00 PM+726Broadway, 940, CCPP Seminar(hep)Alexander PeninU. of Alberta",
@@ -6962,48 +7768,14 @@
       }
     },
     {
-      "id": "evt_nyu_eng_25c781a7",
-      "name": "A Foundation Model for the electric grid (GridFM)",
+      "id": "evt_nyu_eng_baf32035",
+      "name": "Research and Innovation for Grid Modernization and Security at BNL",
       "type": "Seminar",
       "location_id": "loc_nyu_tandon",
       "community_id": "com_nyu_tandon",
       "description": "",
-      "start_date": "2026-08-06T11:00:00-04:00",
-      "end_date": "2026-08-06T12:00:00-04:00",
-      "category": [
-        "TECH"
-      ],
-      "source": "nyu_engineering",
-      "source_group": "NYU Engineering",
-      "source_name": "NYU Tandon School of Engineering",
-      "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/08/06/foundation-model-electric-grid-gridfm",
-        "source_name": "NYU Tandon School of Engineering",
-        "venue": {
-          "name": "NYU Tandon School of Engineering",
-          "address": "6 MetroTech Center, Brooklyn, NY 11201",
-          "type": "venue"
-        },
-        "organizer": {
-          "name": "NYU Tandon School of Engineering",
-          "type": "organizer"
-        },
-        "additional_info": {
-          "department": "Tandon School of Engineering",
-          "event_type": "Lecture / Panel",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-06/Picture%201.jpg?h=dd322bb8&itok=Zgjgxrkq"
-        }
-      }
-    },
-    {
-      "id": "evt_nyu_eng_112252ae",
-      "name": "Cellular Metasploit: Lessons from 15 Years of Cellular Security Research",
-      "type": "Seminar",
-      "location_id": "loc_nyu_tandon",
-      "community_id": "com_nyu_tandon",
-      "description": "",
-      "start_date": "2026-08-07T11:00:00-04:00",
-      "end_date": "2026-08-07T12:00:00-04:00",
+      "start_date": "2026-08-10T11:00:00-04:00",
+      "end_date": "2026-08-10T12:00:00-04:00",
       "category": [
         "TECH",
         "SCIENCE"
@@ -7012,7 +7784,7 @@
       "source_group": "NYU Engineering",
       "source_name": "NYU Tandon School of Engineering",
       "metadata": {
-        "source_url": "https://engineering.nyu.edu/events/2026/08/07/cellular-metasploit-lessons-15-years-cellular-security-research",
+        "source_url": "https://engineering.nyu.edu/events/2026/08/10/research-and-innovation-grid-modernization-and-security-bnl",
         "source_name": "NYU Tandon School of Engineering",
         "venue": {
           "name": "NYU Tandon School of Engineering",
@@ -7026,7 +7798,75 @@
         "additional_info": {
           "department": "Tandon School of Engineering",
           "event_type": "Lecture / Panel",
-          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-07/Screenshot%202026-07-16%20at%2012.08.png?h=8547eb6b&itok=zv12hkF6"
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-08/Screenshot%202026-08-04%20at%2012.11.26%E2%80%AFPM_0.png?h=193ee040&itok=nHDH3ur6"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_e3d457a7",
+      "name": "“Engineered design of mucus penetration nanoparticles for inhalable vaccines”",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2026-08-20T10:45:00-04:00",
+      "end_date": "2026-08-20T11:45:00-04:00",
+      "category": [
+        "TECH"
+      ],
+      "source": "nyu_engineering",
+      "source_group": "NYU Engineering",
+      "source_name": "NYU Tandon School of Engineering",
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2026/08/20/engineered-design-mucus-penetration-nanoparticles-inhalable-vaccines",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-08/Headshot_Bingbing%2C%20Sun.png?h=52e8cb9b&itok=h9UiOBBi"
+        }
+      }
+    },
+    {
+      "id": "evt_nyu_eng_758dd35a",
+      "name": "From Risk Maps to Resilience Investments: Making Climate AI Decision-Ready",
+      "type": "Seminar",
+      "location_id": "loc_nyu_tandon",
+      "community_id": "com_nyu_tandon",
+      "description": "",
+      "start_date": "2026-09-25T13:00:00-04:00",
+      "end_date": "2026-09-25T14:00:00-04:00",
+      "category": [
+        "TECH"
+      ],
+      "source": "nyu_engineering",
+      "source_group": "NYU Engineering",
+      "source_name": "NYU Tandon School of Engineering",
+      "metadata": {
+        "source_url": "https://engineering.nyu.edu/events/2026/09/25/risk-maps-resilience-investments-making-climate-ai-decision-ready",
+        "source_name": "NYU Tandon School of Engineering",
+        "venue": {
+          "name": "NYU Tandon School of Engineering",
+          "address": "6 MetroTech Center, Brooklyn, NY 11201",
+          "type": "venue"
+        },
+        "organizer": {
+          "name": "NYU Tandon School of Engineering",
+          "type": "organizer"
+        },
+        "additional_info": {
+          "department": "Tandon School of Engineering",
+          "event_type": "Lecture / Panel,  \nWorkshop / Training",
+          "image_url": "https://engineering.nyu.edu/sites/default/files/styles/cinema_extra_small_default_1x/public/2026-08/Superstorm_Sandy_on_10-30-2012-sm.jpg?h=ce96b22b&itok=OQNxrni7"
         }
       }
     }
